@@ -1,0 +1,580 @@
+Reaver's X-Com Harmony - Cheat Sheet
+
+This document was designed to assist me in developing the game. The information contained herein may contain
+spoilers or the information may be out of date.
+
+
+
+DIFFICULTY SETTING:	EFFECTS:
+
+Beginner:		easy armor, easy aircraft, easy aliens, low alien numbers, UFO attack -0gs/retreat -0gs, defeat score -1600
+Experienced:		easy armor, medium aircraft, medium aliens, low alien numbers, UFO attack -4gs/retreat -60gs, defeat score -1400
+Veteran:		medium armor, medium aircraft, medium aliens, medium alien numbers, UFO attack -8gs/retreat -120gs, defeat score -1200
+Genius:			medium armor, hard aircraft, hard aliens, medium alien numbers, UFO attack -12gs/retreat -180gs, defeat score -1000
+Superhuman:		hard armor, hard aircraft, hard aliens, high alien numbers, UFO attack -16gs/retreat -240gs, defeat score -800
+
+From Beginner to Experienced:	Craft get weaker, aliens get tougher
+From Experienced to Veteran:	Armor gets weaker, more aliens to fight (also means more loot)
+From Veteran to Genius:		Craft get weaker, aliens get tougher
+From Genius to Superhuman:	Armor gets weaker, more aliens to fight (also means more loot)
+
+Every difficulty increase:	UFO attacks get faster (especially fast-firing UFOs), defeat score gets higher
+
+
+
+RANK			GOOD OPTIONS; RECOMMENDED OPTION IS IN BOLD
+
+Soldiers:		some races + any terrorist site, LARGE SCOUT
+Navigators:		Small Scout (1), MEDIUM SCOUT, Alien Base
+Medics:			ABDUCTOR, Alien Base
+Engineers:		Large Scout, HARVESTER, Alien Base
+Leaders:		Medium or Large UFO (1), Alien Outpost, ALIEN BASE
+Commanders:		BATTLESHIP (1), Alien Base
+
+
+
+
+
+BASIC WEAPON		EARLY GAME > MID GAME > LATE GAME
+
+Plasma Pistols:		Soldiers > {rare} > Leaders
+Plasma Rifles:		Navigators/Leaders > Soldiers > {rare}
+Heavy Plasmas:		Engineers > Leaders > Soldiers/Navigators
+ - all {rare} entries can be obtained on certain race terrorist sites
+ - soldiers (rank 5) carry the fewest clips
+ - more clips can be obtained from rank 6 and 7 soldiers
+ - the highest number of clips are found on leaders
+
+
+WEAPON/ITEM		GOOD OPTIONS; RECOMMENDED OPTION IS IN BOLD
+
+Small Launchers:	All Medics, ABDUCTOR
+Stun Bombs:		All Medics, ALIEN BASE, Alien Outpost
+Blaster Launchers:	All Engineers and Commanders, HARVESTER
+Blaster Bombs:		All Engineers and Commanders, ALIEN BASE, Alien Outpost
+Alien Grenade:		Soldiers (rank 5), All Alien Craft, LARGE SCOUT
+Mind Probe:		Navigators on Scout Craft and Alien Outpost, MEDIUM SCOUT
+Alien Alloys:		Larger alien craft, ALIEN BASE, Alien Outpost
+Elerium-115:		Larger alien craft (landed), Alien Base, BATTLESHIP (LANDED)
+UFO Navigation:		Alien Craft (except small scout), MEDIUM AND LARGE SCOUT
+UFO Power Source:	same places you find Elerium-115 (except small scout)
+UFO Plasma Emitters:	All alien craft (not small scouts), the larger the better
+UFO Plasma Arrays:	All alien craft (not small scouts), the larger the better
+UFO Shield Emitters:	All alien craft medium and up, the larger the better
+Alien Food:		Harvesters, SUPPLY SHIPS, Alien Outpost, Alien Base
+Alien Entertainment:	Abductors, Terror Ships, Alien Outpost, ALIEN BASE
+Alien Habitat:		Battleships, ALIEN BASE
+
+
+SALVAGE ITEM			SOURCE; IDEAL SOURCES IN BOLD
+
+Alien Power Arrays:		Scout Power Unit, UFO POWER SOURCE
+Alien Computer Arrays:		UFO NAVIGATION, Examination Room, Alien Surgery
+Alien Weapon Components:	Alien Troop Weapons, Blaster and Stun Bomb, UFO PLASMA ARRAY
+Alien Explosive Units:		ALIEN GRENADE, Blaster and Stun Bomb
+Alien Feeder:			ALIEN FOOD, ALIEN HABITAT
+Psionic Feedback Device:	Mind Probe, ALIEN ENTERTAINMENT, ALIEN HABITAT, ALL ALIEN CORPSES
+Psionic Wave Decoder:		MIND PROBE, Ethereal Navigator Corpse
+Psionic Wave Emitter:		Psionic Sectoid Corpse, ANY ETHEREAL CORPSE
+Anti-Grav Unit:			FLOATER CORPSE, Cyberdisc Corpse, Celatid Corpse
+Light Cybernetic Skeleton:	CYBERDISC CORPSE
+Heavy Cybernetic Skeleton:	SECTOPOD CORPSE
+Alien Laser:			ALIEN SURGERY, Sectopod Corpse
+Alien Surgical Interface:	ALIEN SURGERY
+Alien Genetic Implanter:	EXAMINATION ROOM
+Muton Armor Grafts:		ANY MUTON CORPSE
+Venom Gland:			CELATID CORPSE
+
+
+RESEARCH ITEM		AVAILABLE OPTIONS
+
+Plasma Weaponry:	all sites 100% chance (if you didn't get it, it was destroyed)
+Alien Grenade:		all sites 100% chance (if you didn't get it, it was used or destroyed)
+UFO Navigation:		all alien craft (usually survives crash)
+UFO Power Source:	all alien craft (usually does not survive crash)
+Alien Alloys:		all alien craft and bases 100% chance
+Elerium-115:		all alien craft (usually does not survive crash except on small scouts)
+ - Scout Power Unit:	   salvage this item to collect the Elerium-115
+Alien Food:		any Harvester or Supply Ship; Alien Outpost or Alien Base
+Alien Entertainment:	any Abductor or Terror Ship; Alien Outpost or Alien Base
+Alien Habitat:		any Battleship, Alien Outpost, Alien Base; rarely occurs on smaller craft
+Examination Room:	Abductor
+
+
+
+
+
+LAUNCHERS		HOW THEY STACK UP AGAINST EACH OTHER
+Rocket Launcher		available at start, has largest and heaviest yet most powerful ammo
+Grenade Launcher	available at start, has small and light ammo but isn't very strong; arcing shot
+Blaster Launcher	medium ammo, not very heavy, almost as powerful as rockets; waypoints
+Small Launcher		lightest ammo, one-handed and quick-firing, low power
+Rocket Launcher vs Blaster Launcher: Rockets are significantly more powerful than blaster bombs, but are
+	a lot heavier. Blaster bombs also have waypoints. Blaster bombs are more expensive to construct.
+	Rockets are more material efficient while blaster bombs are more weight efficient. Most players
+	will prefer the utility of the blaster launcher, however the rocket launcher will remain useful
+	against the toughest enemies, especially on Superhuman difficulty.
+Grenade Launcher vs Small Launcher: Grenade Launcher "grenades" are the same weight as thrown grenades,
+	but are a bit less powerful. Both the grenades and the small bombs are a small and light ammo,
+	with the small bombs being lighter. Both weapons have similar power per hit. The grenade launcher
+	is the only arcing shot weapon in the player's arsenal. The small launcher excels by being light
+	and one-handed, and having a faster re-fire rate. The small launcher is an easy launcher to carry
+	around in the backpack, or is simply easy to employ on the field in any situation. The grenade
+	launcher is more cumbersome, but its arcing shot gives it a special advantage that is useful in
+	certain situations.
+
+MAXIMUM POWER
+=============
+Rocket Launcher
+Blaster Launcher
+Hand Grenade
+Grenade Launcher
+Small Launcher
+=============
+MINIMUM POWER
+
+
+
+
+
+SITE			BEST LOOT (not counting navigation/power sources/elerium in UFOs)
+
+Small Scout:		Mind Probe, Alien Grenade, Scout Power Unit
+Medium Scout:		Mind Probe, Heavy Plasma (late game)
+Large Scout:		Alien Grenade, Mind Probe
+Abductor:		Small Launcher, Stun Bomb, Examination Room, Alien Entertainment
+Harvester:		Blaster Launcher, Blaster Bomb, Alien Surgery, Alien Food
+Terror Ship:		Plasma Weapons, Alien Entertainment
+Supply Ship:		Plasma Weapons, Alien Food, Alien Surgery
+Battleship:		Blaster Launcher, Small Launcher, Plasma Weapons, Alien Habitat
+
+Terror Site:		same as Terror Ship minus UFO components
+Base Defense:		same as attacking craft minus UFO components
+Alien Outpost:		Mind Probe, Stun Bomb, Blaster Bomb, Plasma Clips, Alien Food,
+				Alien Entertainment, Alien Habitat, UFO Navigation
+Alien Base:		Blaster Bomb, Plasma Clips, Stun Bomb, Alien Food, Alien Entertainment,
+				Alien Habitat, UFO Power Source, Elerium-115, UFO Navigation
+Cydonia:		irrelevant, you can't take any of it home because game ends at end of mission
+
+
+ALIEN CRAFT		QUANTITY OF ELERIUM INCLUDING PLASMA ARRAYS
+all crashes assume full recovery of plasma arrays
+
+Small Scout:		10
+Medium Scout (crashed):	4	7.4% of landed elerium quantity
+Large Scout (crashed):	10	16.7% of landed elerium quantity
+Abductor (crashed):	15	13% of landed elerium quantity
+Harvester (crashed):	18	15.3% of landed elerium quantity
+Terror Ship (crashed):	30	16.7% of landed elerium quantity
+Supply Ship (crashed):	44	22.7% of landed elerium quantity
+Battleship (crashed):	60	23.1% of landed elerium quantity
+Medium Scout (landed):	54	
+Large Scout (landed):	60	
+Abductor (landed):	115	
+Harvester (landed):	118	
+Terror Ship (landed):	180	
+Supply Ship (landed):	194	
+Battleship (landed):	260	
+
+
+ELITE UFO		DAMAGEMAX	TOTAL HIT POINTS
+
+Small Scout		+40%		+300%
+Covert Ops Ship		+40%		+250%
+Medium Scout		+40%		+180%
+Large Scout		+40%		+150%
+Light Destroyer		+40%		+140%
+Cargo Ship		+40%		+115%
+Abductor		+40%		+110%
+Harvester		+40%		+100%
+Medium Destroyer	+40%		+95%
+Terror Ship		+40%		+75%
+Supply Ship		+40%		+60%
+Heavy Destroyer		+40%		+65%
+Battleship		+40%		+50%
+Mothership		+40%		+40%
+
+
+UFO TYPE	HIT %	150	133	125	110	100	88	75	52	40
+
+Small Scout		100	86.4	80	68	60	50.4	40	21.6	12
+Medium Scout		100	100	100	86.8	78	67.44	56	35.76	25.2
+Large Scout		100	100	100	91.8	83	72.44	61	40.76	30.2
+Abductor		100	100	100	100	98	86	73	50	38
+Harvester		100	100	100	100	100	88	75	52	40
+Terror Ship		100	100	100	100	100	100	88.75	60	45
+Supply Ship		100	100	100	100	100	100	93.75	65	50
+Battleship		100	100	100	100	100	100	100	100	80
+Elite Small Scout	80	66.4	60	48	40	30.4	20	1.6	0
+Elite Medium Scout	96	81.04	74	60.8	52	41.44	30	9.76	0
+Elite Large Scout	99	84.04	77	63.8	55	44.44	33	12.76	2.2
+Elite Abductor		100	100	93	78	68	56	43	20	8
+Elite Harvester		100	100	95	80	70	58	45	22	10
+Elite Terror Ship	100	100	100	100	90	75	58.75	30	15
+Elite Supply Ship	100	100	100	100	95	80	63.75	35	20
+Elite Battleship	100	100	100	100	100	100	100	74	50
+
+
+UFO TYPE		RANGE	RELOAD(SH)	HIT%	DMG	DP10S
+Covert Ops Ship		38	38		70	38	07.00
+Medium Scout		27	20		90	28	12.60
+Large Scout		43	44		60	75	10.23
+Light Destroyer		40	26		80	75	23.08
+
+Cargo Ship		32	22		90	56	22.91
+Abductor		47	52		60	175	20.19
+Harvester		36	18		90	50	25.00
+Medium Destroyer	41	30		80	160	42.67
+
+Terror Ship		56	44		60	240	32.73
+Supply Ship		44	16		90	80	45.00
+Heavy Destroyer		45	28		80	280	80.00
+Battleship		62	25		80	200	64.00
+Mothership		52	38		70	240	44.21
+
+Elite Small Scout	37	29		89	28	
+Elite Covert Ops Ship	48	44		78	48	
+Elite Medium Scout	42	22		100	34	
+Elite Large Scout	51	51		67	95	
+Elite Light Destroyer	49	30		89	94	
+
+Elite Cargo Ship	45	24		100	70	
+Elite Abductor		55	60		67	220	
+Elite Harvester		46	20		100	62	
+Elite Medium Destroyer	50	35		89	200	
+
+Elite Terror Ship	60	51		67	300	
+Elite Supply Ship	53	18		100	100	
+Elite Heavy Destroyer	52	32		89	350	
+Elite Battleship	64	29		89	255	
+Elite Mothership	58	44		78	300	
+
+
+
+UFO:REMAINING DP10S	EVA 25	EVA 38	EVA 51	ARM 19	ARM 42	ARM 65
+
+Large Scout		58.33%	36.67%	15.00%	55.75%	19.36%	1.78%
+Elite Large Scout	62.69%	43.28%	23.88%	64.00%	31.12%	9.97%
+Harvester		58.33%	36.67%	15.00%	79.46%	57.76%	39.51%
+Elite Harvester		62.69%	43.28%	23.88%	83.47%	65.46%	49.64%
+Terror Ship		58.33%	36.67%	15.00%	84.79%	68.06%	53.17%
+Elite Terror Ship	62.69%	43.28%	23.88%	87.73%	73.96%	61.36%
+Medium Scout		72.22%	57.78%	43.33%	10.33%	0%	0%
+Elite Medium Scout	75.00%	62.00%	49.00%	19.46%	0%	0%
+Abductor		72.22%	57.78%	43.33%	38.44%	2.56%	0%
+Elite Abductor		75.00%	62.00%	49.00%	48.10%	10.41%	0%
+Supply Ship		72.22%	57.78%	43.33%	58.14%	22.56%	3.52%
+Elite Supply Ship	75.00%	62.00%	49.00%	65.61%	33.64%	12.25%
+Evader Scout		68.75%	52.50%	36.25%	38.44%	2.56%	0%
+Elite Small Scout	71.91%	57.30%	42.70%	10.33%	0%	0%
+Battleship		68.75%	52.50%	36.25%	81.90%	62.41%	45.56%
+Elite Battleship	71.91%	57.30%	42.70%	85.65%	69.77%	55.52%
+
+
+UFO TYPE		RANGE		WEAPON TYPE		RANGE
+
+Elite Battleship	64
+Battleship		62		Heavy Fusion Ball	62
+Elite Terror Ship	60		Torrent Missile		60
+Elite Mothership	58
+Terror Ship		56		Light Fusion Ball	56
+Elite Abductor		55		Avalanche Missile	55
+Elite Heavy Destroyer	54		LIGHT TRACTOR BEAM	54
+Elite Supply Ship	53
+Mothership		52
+Elite Large Scout	51
+Elite Medium Destroyer	50
+Elite Light Destroyer	49		MEDIUM TRACTOR BEAM	49
+Elite Covert Ops	48		Rampage Missile		48
+Abductor		47		Plasma Beam		47
+Elite Harvester		46
+Heavy Destroyer		45
+Supply Ship		44		Laser Beam		44
+Large Scout		43		HEAVY TRACTOR BEAM	43
+Elite Medium Scout	42		Devastator Plasma	42
+Medium Destroyer	41
+Light Destroyer		40
+Covert Ops		38
+Elite Small Scout	37		Shrike Missile		37
+Harvester		36		Light Plasma Cannon	36
+					Titan Laser Cannon	35
+					Light Laser Cannon	34
+					Starling Missile	33
+					Scorpion Missile	32
+					Plasma Autocannon	30
+Medium Scout		27		Stingray Missile	27
+					Pulse Cannon		25
+					Alloy Cannon		12
+					Cannon			10
+Small Scout		--
+
+
+CRAFT WEAPONS		DAMAGE PER TEN SECONDS BEFORE/AFTER ACCURACY
+					DAMAGE TOTAL BEFORE RUNNING OUT OF AMMO
+							ALPHA STRIKE DAMAGE
+
+Avalanche Missile	10.42	7.813	225	168.8	75	T 1	Med
+Torrent Missile		18.75	16.88	450	405	90	T 2	Med
+Light Laser Cannon	10.83	11.92	4875	5363	48.75	T 2	S
+Light Plasma Cannon	17.5	13.65	1575	1229	105	T 3	S
+Laser Beam		13.33	12.67	6000	5700	120	T 2	Med
+Plasma Beam		23.86	17.18	1575	1134	157.5	T 3	Med
+Starling Missile	13.88	12.5	112.5	101.3	37.5	T 1	S
+Shrike Missile		25	27.5	225	247.5	45	T 2	S
+Stingray Missile	25	25	450	450	45	T 1	Med
+Scorpion Missile	43.75	52.5	787.5	945	52.5	T 2	Med
+Cannon			46.88	18.75	3750	1500	18.75	T 1	S
+Alloy Cannon		56.25	29.25	4500	2340	22.5	T 1.7	S
+Pulse Cannon		33.75	42.19	6750	8438	33.75	T 2	Med
+Plasma Autocannon	75	67.5	3600	3240	45	T 3	Med
+Rampage Missile		38.88	40.83	1260	1323	210	T 2	Large
+Titan Laser Cannon	20	26.6	7500	9975	300	T 2	Large
+Devastator Plasma	32.73	28.8	3600	3168	900	T 3	Large
+Light Fusion Ball	93.75	140.6	2700	4050	450	T 3EXP	Large
+Heavy Fusion Ball	281.3	281.3	5400	5400	2700	T 3EXP	Large
+
+
+CRAFT WEAPON		APPROACH/NUMBER OF SHOTS/1xSTD/2xAGG TIME//DMG//DP10S ASSUMING HITS
+
+Cannon			300	26	100	100	487.5	975	48.75	97.5
+Alloy Cannon		290	29	112	112	652.5	1305	58.26	116.5
+Starling Missile	185	3/3	54	36	112.5	225	20.83	62.5
+Shrike Missile		165	4/5	81	72	180	450	22.22	62.5
+Avalanche Missile	75	3/3	144	96	225	450	15.63	46.88
+Torrent Missile		50	3/4	144	144	270	720	18.75	50
+Stingray Missile	215	5/7	72	72	225	630	31.25	87.5
+Scorpion Missile	190	5/7	72	72	262.5	735	36.46	102.1
+Light Laser Cannon	180	4	135	135	195	390	14.44	28.89
+Light Plasma Cannon	170	3	120	120	315	630	26.25	52.5
+Laser Beam		130	3	180	180	360	720	20	40
+Plasma Beam		115	4	198	198	630	1260	31.82	63.64
+Pulse Cannon		225	11	100	108	371.3	742.5	37.13	74.25
+Plasma Autocannon	200	22	126	126	990	1980	78.57	157.1
+Titan Laser Cannon	175	2	150	150	600	1200	40	80
+Devastator Plasma	140	2	275	275	1800	3600	65.45	130.9
+Light Fusion Ball	70	3/4	96	96	1350	3600	140.6	375
+Heavy Fusion Ball	40	2/2	96	64	5400	10800	562.5	1688
+
+
+CRAFT WEAPON		MAX DMG	AVG AFTER ACC	1X PAR OPPONENT	2X PAR OPPONENT	4X PAR OPPONENT
+
+Cannon			5000	1500		-		-		-
+Alloy Cannon		6000	1980		-		-		-
+
+Starling Missile	150	101.3		Small Scout	Medium Scout	Large Scout
+Shrike Missile		300	247.5		Medium Scout	Large Scout	Abductor
+Avalanche Missile	300	168.8		Medium Scout	Large Scout	Harvester
+Torrent Missile		600	405		Large Scout	Harvester	Terror Ship
+Stingray Missile	600	450		Large Scout	Abductor	Harvester
+Scorpion Missile	1050	945		Abductor	Harvester	Terror Ship
+Rampage Missile		1680	1323		Harvester	Terror Ship	Supply Ship
+Plasma Beam		2100	1134		Abductor	Terror Ship	Supply Ship
+Light Plasma Cannon	2100	1229		Harvester	Terror Ship	Terror Ship
+Devastator Plasma	4800	3168		Terror Ship	Supply Ship	Battleship
+Plasma Autocannon	4800	3240		Terror Ship	Supply Ship	Battleship
+Light Laser Cannon	6500	5363		Medium Scout	Harvester	E Harvester
+Laser Beam		8000	5700		E Medium Scout	Abductor	E Harvester
+Pulse Cannon		8750	8204		Abductor	E Abductor	E Terror Ship
+Titan Laser Cannon	10000	9975		E Small Scout	E Large Scout	E Terror Ship
+Light Fusion Ball	3600	4050		Terror Ship	E Supply Ship	E Battleship
+Heavy Fusion Ball	7200	5400		E Supply Ship	E Battleship	-
+
+
+CRAFT WEAPON		WHAT IT IS BEST FOR/IDEAL OPPONENTS
+
+Missiles in general:	good DPS but runs out of ammo quickly; can do aggressive attack to shoot faster
+Lasers in general:	high accuracy but poor DPS; ammo is free and they carry lots of it
+Plasma in general:	high DPS but ammo costs elerium; generally good against anything
+Fusion in general:	very high damage but very expensive ammo; use to blast anything to bits
+
+Cannon/Alloy Cannon	Defense weapon for transports; crash-landing small scouts; DPS scales well with UFO size
+				Small Scout, Hunter-Killers
+Starling/Shrike		Small missiles, early weapon for Skyraider or Stormcharger
+				Small Scout, Medium Scout, Large Scout
+Stingray/Scorpion	Short-range weapon, high accuracy/damage/DPS
+				Small Scout, Medium Scout, Large Scout, Abductor, Harvester, Hunter-Killers
+Avalanche/Torrent	Very long range weapon, low accuracy/damage/DPS/rate of fire; outranges almost anything
+				Medium Scout, Large Scout, Abductor, Harvester, Terror Ship (Torrent only)
+Light Laser Cannon	Small laser, weak but no ammo cost
+				Small Scout, Medium Scout, Large Scout
+Pulse Cannon		Short-range/high accuracy/DPS laser; best against small UFOs but can fight larger UFOs
+				Medium Scout, Large Scout, Abductor, Supply Ship, Hunter-Killers
+Plasma Autocannon	Short-range/high DPS plasma; cheap to fire and great for brawling large UFOs
+				Abductor, Harvester, Terror Ship, Supply Ship, Hunter-Killers
+Laser Beam		Long-range/high accuracy/low DPS laser; outranges Abductor and Elite Medium Scout
+				Small Scout, Medium Scout, Large Scout, Abductor, Harvester
+Plasma Beam		Long-range/good DPS plasma; blasts anything small easily; outranges Supply Ship
+				Abductor, Harvester, Supply Ship, Terror Ship
+Titan Laser Cannon	Medium-range/very high accuracy; blows small UFOs to bits quickly, especially elites
+				Small Scout, Medium Scout, Large Scout, Abductor, Harvester
+Devastator Plasma	Medium-range/very high per-hit damage; blows large UFOs to bits quickly
+				Terror Ship, Supply Ship, Abductor, Harvester
+Light Fusion Ball	Very long range, very high accuracy/DPS; blasts smalls or mediums in 1-2 shots
+				Abductor, Harvester, Terror Ship, Supply Ship, Battleship
+Heavy Fusion Ball	Very long range, extremely high DPS and per-hit damage; can destroy battleships
+				Battleship, Supply Ship, Terror Ship
+
+
+LARGEST UFOS YOU CAN CONSISTENTLY WIN AGAINST ON SUPERHUMAN DIFFICULTY
+Tier 1 single craft:	small
+Tier 1 tank+DPS:	medium
+Tier 1 4-craft squadron:large (with losses)
+Tier 2 single craft:	medium
+Tier 2 tank+DPS:	large
+Tier 2 4-craft squadron:very large (with losses)
+Tier 3 single craft:	large
+Tier 3 tank+DPS:	very large
+Lone Inferno/Flagship:	very large
+Starblazer:		very large elite
+DESTROYERS FIGHT WITH POWER SIMILAR TO UFOS ONE SIZE LARGER THAN THEMSELVES (PRIMARILY INCREASED POWER)
+ELITE VERSIONS FIGHT WITH POWER SIMILAR TO UFOS ONE SIZE LARGER THAN THEMSELVES (PRIMARILY INCREASED HP AND EVASION)
+The three most powerful alien craft are the Elite versions of the Battleship, Mothership, and Heavy Destroyer.
+The only ship that can consistently beat one of these alone is the Starblazer Flagship.
+The Amaranth Flagship is less suitable for air combat, being more comparable to the Tempest or Firestorm.
+The Heracles and Divinity Flagships have air power comparable to the Inferno.
+STRONGEST UFOS YOU CAN BEAT BY OUTRANGING WITH TORRENT MISSILES
+2 racks, no upgrades					90% hit, 900 damage		medium
+2 racks, Targeting Computer				120% hit, 990 damage		elite small
+2 racks, Critical Computer				100% hit, 1170 damage		elite small
+2 racks, both computers					130% hit, 1260 damage		elite small
+4 racks, no upgrades					90% hit, 1800 damage		Terror Ship
+4 racks, Targeting Computer				120% hit, 1980 damage		elite medium
+4 racks, Critical Computer				100% hit, 2340 damage		elite medium
+4 racks, both computers					130% hit, 2520 damage		elite medium
+6 racks, no upgrades					90% hit, 2700 damage		elite medium
+6 racks, Targeting Computer				120% hit, 2970 damage		elite medium
+6 racks, Critical Computer				100% hit, 3510 damage		Supply Ship
+6 racks, both computers					130% hit, 3780 damage		Supply Ship
+8 racks, no upgrades					90% hit, 3600 damage		Supply Ship
+8 racks, Targeting Computer				120% hit, 3960 damage		Supply Ship
+8 racks, Critical Computer				100% hit, 4680 damage		Elite Supply Ship
+8 racks, both computers					130% hit, 5040 damage		Elite Supply Ship
+12 racks, no computers					90% hit, 5400 damage		Elite Supply Ship
+12 racks, Targeting Computer				120% hit, 5940 damage		Elite Supply Ship
+12 racks, Critical Computer				100% hit, 7020 damage		Elite Supply Ship
+16 racks, no computers					90% hit, 7200 damage		Elite Supply Ship
+The Mothership cannot reliably be beaten with Torrent missiles unless you engage with more than two squadrons.
+The Elite Terror Ship and both Battleships are the only ships that cannot be outranged by Torrent missiles.
+
+
+
+FLAGSHIPS
+
+
+
+
+
+WHAT YOU WANT TO DO	WHAT TO DO TO GET IT
+
+Improve my weapons	research alien alloys (for AP) or alien grenade (for HE)
+Get new weapons		research a plasma weapon and follow instructions to Laser Weapons
+Get better armor	research alien alloys
+Get better aircraft	research alien alloys and UFO navigation
+Get better tanks	new tanks come as you research better armor AND weapons
+Get better air weapons	new aircraft weapons come as you research better weapons
+Maintain live aliens	run medium UFO sites; research alien food and entertainment, or research habitat
+Improve my psionics	keep soldiers training and using psionics; research psionic aliens and items (like mind probe)
+Use the aliens' weapons	research alien engineer and follow instructions, then do followup research on alien ammo
+Get better radar	research alien navigator
+Discover alien weakness	research the corpse of that alien, or gather several alien medics for research
+Learn about alien units	research the aliens or medics
+Learn about alien craft	research data cores or engineers
+Discover alien missions	research navigators
+Destroy UFO Walls	get an advanced assault tank or high explosive charge, or a fusion weapon
+Survive exiting craft	use a guardian tank or cover the ground with smoke before disembarking
+Survive night missions	method 1: avoid night missions; wait until daytime or just don't go
+			method 2: use electro-flares and/or incendiary ammo to generate light
+			method 3: put smoke everywhere so that the aliens are just as blind as you are
+			method 4: wear stealthy armor and use the night to your advantage (for expert players)
+Win the game		research alien origins and follow instructions
+
+
+
+
+
+ALIENS BY ARMOR CLASS
+
+RACE:		ARMOR CLASS			ARMOR TO HEALTH RATIO		NET ARMOR
+sectoid:	very heavy armor		1.333	-    2.0		32	-    48
+cyberdisc:	heavy armor			0.8	-    0.8		40	-    40
+floater:	very light armor		0.013	-    0.1		1	-    9
+reaper:		light armor			0.068	-    0.068		13	-    13
+snakeman:	medium light armor		0.148	-    0.267		17	-    33
+chryssalid:	medium heavy armor		0.8	-    0.8		28	-    28
+muton:		light armor			0.09	-    0.092		15	-    18
+celatid:	very light armor (no armor)	0	-    0			0	-    0
+silacoid:	medium armor			0.395	-    0.395		33	-    50
+ethereal:	very heavy armor		2.333	-    2.666		42	-    54
+sectopod:	heavy armor			1.042	-    1.510		100	-    145
+
+
+
+
+
+INITIAL RESEARCH AND PRODUCTION: WHAT IS IT GOOD FOR?
+
+What is MOTION SCANNER good for?	Seeing through walls. Combine with smoke.
+What is MEDI-KIT good for?		Healing soldiers; keeps wounded soldiers alive and reduces recovery time.
+What is SOLDIER SCREENING good for?	You pay more to get soldiers with better specific minimum attributes.
+					 - It saves you the process of screening your own soldiers.
+What is GUARDIAN/ASSAULT TANKS good for?Guardian Tanks are tough; use them to draw enemy fire or shield soldiers.
+					Assault Tanks hit hard; use them to kill enemies that don't die easily.
+
+What is HEAVY ARMOR good for?		Slightly improves soldier survivability at cost of carry weight and TUs.
+What is INCENDIARY GRENADE good for?	If you want incendiary in grenade form; provides light and deals damage.
+What is SUPER STUN LANCE good for?	It is like the stun rod, except capable of stunning very tough aliens.
+
+= = = = = = = = = = = = = = = = = = = = = = = =
+DATA FROM THE BASE GAME
+
+
+ALIEN SPAWN ORDER BY RANK
+This section tells which type of nodes are preferred, in what order, by which rank.
+The node labels are from DaiShiva's MapView. The ranks are the standard ranks from the base game.
+NODES:
+0	Used either for spawning civilians or as fallback node for both player and AI
+1	Used for spawning player units
+2	"Soldier"
+3	"Navigator"
+4	"Leader/Commander"
+5	"Engineer"
+6	"Misc1"
+7	"Medic"
+8	"Misc2"
+RANKS:
+0, "Commander"	4, 3, 5, 8, 7, 2, 0
+1, "Leader"	4, 3, 5, 8, 7, 2, 0 (same as Commander)
+2, "Engineer"	5, 4, 3, 2, 7, 8, 0
+3, "Medic"	7, 6, 2, 8, 3, 4, 0
+4, "Navigator"	3, 4, 5, 2, 7, 8, 0
+5, "Soldier"	2, 5, 3, 4, 6, 8, 0
+6, "Terrorist"	2, 5, 3, 4, 6, 8, 0 (same as Soldier)
+7, "Terrorist"	2, 5, 3, 4, 6, 8, 0 (same as Soldier)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

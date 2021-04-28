@@ -1,0 +1,370 @@
+soldierTransformation:
+  - name: STR_SUPER_SOLDIER_TRANSFORM
+    listOrder: 25
+    requires:
+      - STR_SUPER_SOLDIERS
+    requiresBaseFunc:
+      - STR_SUPER_SOLDIERS
+    producedSoldierType: STR_SUPER_SOLDIER
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER
+      - STR_HEAVY
+      - STR_PSI_ADEPT
+      - STR_ELITE
+    cost: 200000
+    recoveryTime: 16
+    flatOverallStatChange:
+      tu: 4
+      stamina: 20
+      health: 10
+      bravery: 10
+      reactions: 5
+      firing: 10
+      throwing: 10
+      strength: 10
+      psiStrength: 0
+      psiSkill: 0
+      melee: 10
+      mana: 0
+    lowerBoundAtMinStats: true
+    upperBoundAtStatCaps: false
+  - name: STR_PSIONIC_IMPLANTATION
+    listOrder: 50
+    requires:
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SURGERY
+    producedSoldierType: STR_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER
+      - STR_HEAVY
+      - STR_PSI_ADEPT
+      - STR_ELITE
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_EMITTER: 3
+    cost: 20000
+    recoveryTime: 4
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 30
+      psiSkill: 10
+      melee: 0
+      mana: 20
+    lowerBoundAtMinStats: true
+    upperBoundAtStatCaps: false
+  - name: STR_SUPER_TO_PSIBORG_TRANSFORM
+    listOrder: 75
+    requires:
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SURGERY
+    producedSoldierType: STR_SUPER_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SUPER_SOLDIER
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_EMITTER: 3
+    cost: 300000
+    recoveryTime: 12
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 30
+      psiSkill: 10
+      melee: 0
+      mana: 20
+    lowerBoundAtMinStats: true
+    upperBoundAtStatCaps: false
+  - name: STR_PSIBORG_TO_SUPER_TRANSFORM
+    listOrder: 80
+    requires:
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SUPER_SOLDIERS
+    producedSoldierType: STR_SUPER_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_PSIBORG
+      - STR_PSIONIC_PRODIGY
+    cost: 480000
+    recoveryTime: 24
+    flatOverallStatChange:
+      tu: 4
+      stamina: 20
+      health: 10
+      bravery: 10
+      reactions: 5
+      firing: 10
+      throwing: 10
+      strength: 10
+      psiStrength: 0
+      psiSkill: 0
+      melee: 10
+      mana: 0
+    lowerBoundAtMinStats: true
+    upperBoundAtStatCaps: false
+  - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_1
+    listOrder: 100
+    requires:
+      - STR_PSI_DISRUPTOR
+      - STR_PSIONIC_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SUPER_SOLDIERS
+    producedSoldierType: STR_SUPER_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SUPER_PSIBORG
+    forbiddenPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_1
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_EMITTER: 1
+      STR_PSIONIC_WAVE_DECODER: 1
+    cost: 125000
+    recoveryTime: 6
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 5
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    upperBoundAtStatCaps: true
+  - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_2
+    listOrder: 110
+    requires:
+      - STR_PSI_DISRUPTOR
+      - STR_PSIONIC_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SUPER_SOLDIERS
+    producedSoldierType: STR_SUPER_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SUPER_PSIBORG
+    requiredPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_1
+    forbiddenPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_2
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 2
+      STR_PSIONIC_WAVE_EMITTER: 1
+      STR_PSIONIC_WAVE_DECODER: 3
+    cost: 250000
+    recoveryTime: 9
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 5
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    upperBoundAtStatCaps: true
+  - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_3
+    listOrder: 120
+    requires:
+      - STR_PSI_DISRUPTOR
+      - STR_PSIONIC_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SUPER_SOLDIERS
+    producedSoldierType: STR_SUPER_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SUPER_PSIBORG
+    requiredPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_1
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_2
+    forbiddenPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_3
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 4
+      STR_PSIONIC_WAVE_EMITTER: 2
+      STR_PSIONIC_WAVE_DECODER: 6
+    cost: 500000
+    recoveryTime: 12
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 5
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    upperBoundAtStatCaps: true
+  - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_4
+    listOrder: 130
+    requires:
+      - STR_PSI_DISRUPTOR
+      - STR_PSIONIC_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SUPER_SOLDIERS
+    producedSoldierType: STR_SUPER_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SUPER_PSIBORG
+    requiredPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_1
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_2
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_3
+    forbiddenPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_4
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 8
+      STR_PSIONIC_WAVE_EMITTER: 4
+      STR_PSIONIC_WAVE_DECODER: 12
+    cost: 1000000
+    recoveryTime: 15
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 5
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    upperBoundAtStatCaps: true
+  - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_5
+    listOrder: 140
+    requires:
+      - STR_PSI_DISRUPTOR
+      - STR_PSIONIC_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SUPER_SOLDIERS
+    producedSoldierType: STR_SUPER_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SUPER_PSIBORG
+    requiredPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_1
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_2
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_3
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_4
+    forbiddenPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_5
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 16
+      STR_PSIONIC_WAVE_EMITTER: 8
+      STR_PSIONIC_WAVE_DECODER: 24
+    cost: 2000000
+    recoveryTime: 18
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 5
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    upperBoundAtStatCaps: true
+  - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_6
+    listOrder: 150
+    requires:
+      - STR_PSI_DISRUPTOR
+      - STR_PSIONIC_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+    requiresBaseFunc:
+      - STR_SUPER_SOLDIERS
+    producedSoldierType: STR_SUPER_PSIBORG
+    keepSoldierArmor: true
+    allowsLiveSoldiers: true
+    allowedSoldierTypes:
+      - STR_SUPER_PSIBORG
+    requiredPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_1
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_2
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_3
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_4
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_5
+    forbiddenPreviousTransformations:
+      - STR_SUPER_PSIBORG_PSI_DEF_MASTERY_6
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 32
+      STR_PSIONIC_WAVE_EMITTER: 16
+      STR_PSIONIC_WAVE_DECODER: 48
+    cost: 4000000
+    recoveryTime: 21
+    flatOverallStatChange:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 5
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    upperBoundAtStatCaps: true

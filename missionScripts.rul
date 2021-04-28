@@ -1,0 +1,854 @@
+missionScripts:
+  - delete: gameStart
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+  - type: gameStart/research
+    firstMonth: 0
+    lastMonth: 1
+    missionWeights:
+      0:
+        # STR_ALIEN_RETALIATION_LIGHT_DEFENDED: 100
+        STR_ALIEN_RESEARCH: 50
+        STR_ALIEN_ABDUCTION: 30
+        STR_ALIEN_HARVEST: 20
+    targetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    useTable: false
+    startDelay: 10000
+  - type: recurringTerror
+    firstMonth: 0
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+      12:
+        STR_ALIEN_TERROR: 80
+        STR_ALIEN_TERROR_DEFENDED: 20
+      13:
+        STR_ALIEN_TERROR: 60
+        STR_ALIEN_TERROR_DEFENDED: 40
+      14:
+        STR_ALIEN_TERROR: 40
+        STR_ALIEN_TERROR_DEFENDED: 60
+      15:
+        STR_ALIEN_TERROR: 20
+        STR_ALIEN_TERROR_DEFENDED: 80
+      16:
+        STR_ALIEN_TERROR_DEFENDED: 100
+      24:
+        STR_ALIEN_TERROR_DEFENDED: 75
+        STR_ALIEN_TERROR_ELITE: 25
+      32:
+        STR_ALIEN_TERROR_DEFENDED: 50
+        STR_ALIEN_TERROR_ELITE: 50
+      40:
+        STR_ALIEN_TERROR_DEFENDED: 25
+        STR_ALIEN_TERROR_ELITE: 75
+      48:
+        STR_ALIEN_TERROR_ELITE: 100
+    useTable: false
+    startDelay: 0
+  - type: abduct
+    firstMonth: 2
+    lastMonth: 3
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 20
+        STR_ALIEN_ABDUCTION: 50
+        STR_ALIEN_HARVEST: 30
+    useTable: false
+    # regionWeights:
+      # 0:
+        # STR_NORTH_AMERICA: 5
+        # STR_ARCTIC: 8
+        # STR_ANTARCTICA: 8
+        # STR_SOUTH_AMERICA: 6
+        # STR_EUROPE: 5
+        # STR_NORTH_AFRICA: 12
+        # STR_SOUTHERN_AFRICA: 12
+        # STR_CENTRAL_ASIA: 7
+        # STR_SOUTH_EAST_ASIA: 7
+        # STR_SIBERIA: 20
+        # STR_AUSTRALASIA: 10
+        # STR_PACIFIC: 0
+        # STR_NORTH_ATLANTIC: 0
+        # STR_SOUTH_ATLANTIC: 0
+        # STR_INDIAN_OCEAN: 0
+  - type: examine/incursion1
+    firstMonth: 4
+    lastMonth: 5
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 14
+        STR_ALIEN_ABDUCTION: 16
+        STR_ALIEN_HARVEST: 10
+        STR_ALIEN_INFILTRATION: 20
+        STR_ALIEN_OUTPOST: 40
+    # regionWeights:
+      # 0:
+        # STR_NORTH_AMERICA: 15
+        # STR_ARCTIC: 0
+        # STR_ANTARCTICA: 0
+        # STR_SOUTH_AMERICA: 11
+        # STR_EUROPE: 17
+        # STR_NORTH_AFRICA: 9
+        # STR_SOUTHERN_AFRICA: 8
+        # STR_CENTRAL_ASIA: 13
+        # STR_SOUTH_EAST_ASIA: 12
+        # STR_SIBERIA: 7
+        # STR_AUSTRALASIA: 8
+        # STR_PACIFIC: 0
+        # STR_NORTH_ATLANTIC: 0
+        # STR_SOUTH_ATLANTIC: 0
+        # STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: harvest/incursion1
+    firstMonth: 6
+    lastMonth: 7
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 12
+        STR_ALIEN_ABDUCTION: 4
+        STR_ALIEN_HARVEST: 24
+        STR_ALIEN_INFILTRATION: 20
+        STR_ALIEN_OUTPOST: 40
+    # regionWeights:
+      # 0:
+        # STR_NORTH_AMERICA: 16
+        # STR_ARCTIC: 0
+        # STR_ANTARCTICA: 0
+        # STR_SOUTH_AMERICA: 12
+        # STR_EUROPE: 19
+        # STR_NORTH_AFRICA: 10
+        # STR_SOUTHERN_AFRICA: 8
+        # STR_CENTRAL_ASIA: 14
+        # STR_SOUTH_EAST_ASIA: 13
+        # STR_SIBERIA: 0
+        # STR_AUSTRALASIA: 8
+        # STR_PACIFIC: 0
+        # STR_NORTH_ATLANTIC: 0
+        # STR_SOUTH_ATLANTIC: 0
+        # STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: harvest
+    firstMonth: 8
+    lastMonth: 8
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 30
+        STR_ALIEN_ABDUCTION: 10
+        STR_ALIEN_HARVEST: 60
+    # regionWeights:
+      # 0:
+        # STR_NORTH_AMERICA: 16
+        # STR_ARCTIC: 0
+        # STR_ANTARCTICA: 0
+        # STR_SOUTH_AMERICA: 12
+        # STR_EUROPE: 19
+        # STR_NORTH_AFRICA: 10
+        # STR_SOUTHERN_AFRICA: 8
+        # STR_CENTRAL_ASIA: 14
+        # STR_SOUTH_EAST_ASIA: 13
+        # STR_SIBERIA: 0
+        # STR_AUSTRALASIA: 8
+        # STR_PACIFIC: 0
+        # STR_NORTH_ATLANTIC: 0
+        # STR_SOUTH_ATLANTIC: 0
+        # STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: revenge/incursion2
+    firstMonth: 9
+    lastMonth: 11
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 4
+        STR_ALIEN_ABDUCTION: 3
+        STR_ALIEN_HARVEST: 5
+        STR_ALIEN_RETALIATION_LIGHT_DEFENDED: 6
+        STR_ALIEN_RETALIATION_MEDIUM_DEFENDED: 34
+        STR_ALIEN_RETALIATION_HEAVY: 20
+        STR_ALIEN_OUTPOST: 28
+    useTable: false
+  - type: infiltration/incursion3
+    firstMonth: 12
+    lastMonth: 14
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 10
+        STR_ALIEN_ABDUCTION: 9
+        STR_ALIEN_HARVEST: 11
+        STR_ALIEN_RETALIATION_LIGHT_ELITE: 4
+        STR_ALIEN_RETALIATION_MEDIUM_DEFENDED: 3
+        STR_ALIEN_RETALIATION_MEDIUM_ELITE: 3
+        STR_ALIEN_RETALIATION_HEAVY_DEFENDED: 10
+        STR_ALIEN_INFILTRATION: 17
+        STR_ALIEN_INFILTRATION_DEFENDED: 33
+    useTable: false
+  - type: recurringRecon
+    firstMonth: 15
+    lastMonth: 98
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 33
+        STR_ALIEN_ABDUCTION: 30
+        STR_ALIEN_HARVEST: 37
+    useTable: false
+  - type: Incursion4
+    firstMonth: 15
+    lastMonth: 23
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION_DEFENDED: 50
+        STR_ALIEN_OUTPOST: 50
+      18:
+        STR_ALIEN_INFILTRATION_DEFENDED: 50
+        STR_ALIEN_OUTPOST: 30
+        STR_ALIEN_BASE_DEFENDED: 20
+    useTable: false
+  - type: recurringInfiltration
+    firstMonth: 24
+    lastMonth: 92
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION_DEFENDED: 100
+      24:
+        STR_ALIEN_INFILTRATION_DEFENDED: 80
+        STR_ALIEN_INFILTRATION_ELITE: 20
+      27:
+        STR_ALIEN_INFILTRATION_DEFENDED: 60
+        STR_ALIEN_INFILTRATION_ELITE: 40
+      30:
+        STR_ALIEN_INFILTRATION_DEFENDED: 40
+        STR_ALIEN_INFILTRATION_ELITE: 60
+      33:
+        STR_ALIEN_INFILTRATION_DEFENDED: 20
+        STR_ALIEN_INFILTRATION_ELITE: 80
+      36:
+        STR_ALIEN_INFILTRATION_ELITE: 100
+    useTable: false
+  - type: recurringColonization
+    firstMonth: 24
+    lastMonth: 106
+    missionWeights:
+      0:
+        STR_ALIEN_OUTPOST: 80
+        STR_ALIEN_BASE_DEFENDED: 20
+      24:
+        STR_ALIEN_OUTPOST: 64
+        STR_ALIEN_OUTPOST_ELITE: 16
+        STR_ALIEN_BASE_DEFENDED: 16
+        STR_ALIEN_BASE_ELITE: 4
+      27:
+        STR_ALIEN_OUTPOST: 48
+        STR_ALIEN_OUTPOST_ELITE: 32
+        STR_ALIEN_BASE_DEFENDED: 12
+        STR_ALIEN_BASE_ELITE: 8
+      30:
+        STR_ALIEN_OUTPOST: 32
+        STR_ALIEN_OUTPOST_ELITE: 48
+        STR_ALIEN_BASE_DEFENDED: 8
+        STR_ALIEN_BASE_ELITE: 12
+      33:
+        STR_ALIEN_OUTPOST: 16
+        STR_ALIEN_OUTPOST_ELITE: 64
+        STR_ALIEN_BASE_DEFENDED: 4
+        STR_ALIEN_BASE_ELITE: 16
+      36:
+        STR_ALIEN_OUTPOST_ELITE: 100
+        STR_ALIEN_BASE_ELITE: 20
+    useTable: false
+  - type: snakemanInfestation
+    firstMonth: 21
+    lastMonth: 116
+    missionWeights:
+      0:
+        STR_SNAKEMAN_OUTPOST: 100
+    raceWeights:
+      0:
+        STR_SNAKEMAN: 100
+    useTable: false
+  - type: sectoidOutpost
+    firstMonth: 1
+    lastMonth: 1
+    missionWeights:
+      0:
+        STR_ALIEN_OUTPOST: 100
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 100
+    useTable: false
+    randomDelay: 100000
+  - type: floaterOutpost
+    firstMonth: 3
+    lastMonth: 3
+    missionWeights:
+      0:
+        STR_ALIEN_OUTPOST: 100
+    raceWeights:
+      0:
+        STR_FLOATER_BASE: 100
+    useTable: false
+    randomDelay: 100000
+  - type: snakemanOutpost
+    firstMonth: 7
+    lastMonth: 7
+    missionWeights:
+      0:
+        STR_ALIEN_OUTPOST: 100
+    raceWeights:
+      0:
+        STR_SNAKEMAN_BASE: 100
+    useTable: false
+    randomDelay: 100000
+  - type: mutonOutpost
+    firstMonth: 10
+    lastMonth: 10
+    missionWeights:
+      0:
+        STR_ALIEN_OUTPOST: 100
+    raceWeights:
+      0:
+        STR_MUTON_BASE: 100
+    useTable: false
+    randomDelay: 100000
+  - type: etherealOutpost
+    firstMonth: 13
+    lastMonth: 13
+    missionWeights:
+      0:
+        STR_ALIEN_OUTPOST: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL_BASE: 100
+    useTable: false
+    randomDelay: 100000
+  - type: sectoidBase
+    firstMonth: 3
+    lastMonth: 3
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 100
+    useTable: false
+    randomDelay: 102240 #Apr, May +10 days
+  - type: floaterBase
+    firstMonth: 6
+    lastMonth: 6
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    raceWeights:
+      0:
+        STR_FLOATER_BASE: 100
+    useTable: false
+    randomDelay: 102240 #Jul, Aug +10 days
+  - type: snakemanBase
+    firstMonth: 9
+    lastMonth: 9
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    raceWeights:
+      0:
+        STR_SNAKEMAN_BASE: 100
+    useTable: false
+    randomDelay: 102240 #Oct, Nov +10 days
+  - type: mutonBase
+    firstMonth: 12
+    lastMonth: 12
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    raceWeights:
+      0:
+        STR_MUTON_BASE: 100
+    useTable: false
+    randomDelay: 100800 #Jan, Feb 2000 +10 days
+  - type: etherealBase
+    firstMonth: 15
+    lastMonth: 15
+    missionWeights:
+      0:
+        STR_ALIEN_BASE_DEFENDED: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL_BASE: 100
+    useTable: false
+    randomDelay: 102240 #Apr, May 2000 +10 days
+  - type: invasionElitePhaseOne
+    firstMonth: 27
+    lastMonth: 60
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR_ELITE: 100
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_DESTROY: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: invasionElitePhaseTwo
+    firstMonth: 33
+    lastMonth: 64
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION_ELITE: 100
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_PSIONIC: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: invasionElitePhaseThree
+    firstMonth: 36
+    lastMonth: 68
+    missionWeights:
+      0:
+        STR_ALIEN_OUTPOST_ELITE: 75
+        STR_ALIEN_BASE_ELITE: 25
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_DESTROY: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: invasionElitePhaseFour
+    firstMonth: 39
+    lastMonth: 72
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION_ELITE: 100
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_PSIONIC: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: invasionElitePhaseFive
+    firstMonth: 42
+    lastMonth: 76
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR_ELITE: 100
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_DESTROY: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: invasionElitePhaseSix
+    firstMonth: 45
+    lastMonth: 80
+    missionWeights:
+      0:
+      0:
+        STR_ALIEN_OUTPOST_ELITE: 50
+        STR_ALIEN_BASE_ELITE: 50
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_PSIONIC: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: invasionElitePhaseSeven
+    firstMonth: 48
+    lastMonth: 84
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION_ELITE: 100
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_PSIONIC: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
+    useTable: false
+  - type: invasionElitePhaseEight
+    firstMonth: 51
+    lastMonth: 88
+    missionWeights:
+      0:
+        STR_ALIEN_OUTPOST_ELITE: 25
+        STR_ALIEN_BASE_ELITE: 75
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_DESTROY: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
+    useTable: false
+
+  - type: researchRetaliationOrigins
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_LIGHT: 100
+    researchTriggers:
+      STR_ALIEN_ORIGINS: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rROri
+  - type: researchRetaliationComponents
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_MEDIUM: 100
+    researchTriggers:
+      STR_ALIEN_ALLOYS: true
+      STR_ELERIUM_115: true
+      STR_UFO_POWER_SOURCE: true
+      STR_UFO_NAVIGATION: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rRCom
+  - type: researchRetaliationContainment
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_HEAVY: 100
+    researchTriggers:
+      STR_ALIEN_CONTAINMENT: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rRCon
+  - type: researchRetaliationPsiTech
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_LIGHT_DEFENDED: 100
+    researchTriggers:
+      STR_PSI_AMP: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rRPsi
+  - type: researchRetaliationPlasmaTech
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_MEDIUM_DEFENDED: 100
+    researchTriggers:
+      STR_PLASMA_WEAPONS: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rRPla
+  - type: researchRetaliationMartian
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_HEAVY_DEFENDED: 100
+    researchTriggers:
+      STR_THE_MARTIAN_SOLUTION: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rRMar
+  - type: researchRetaliationCydonia
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_LIGHT_ELITE: 100
+    researchTriggers:
+      STR_CYDONIA_OR_BUST: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rRCyd
+  - type: researchRetaliationFlagship
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_MEDIUM_ELITE: 100
+    researchTriggers:
+      STR_FLAGSHIPS: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rRFla
+  - type: researchRetaliationCydoniaIntel
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_HEAVY_ELITE: 100
+    researchTriggers:
+      STR_ALIEN_HOME_DEFENSE: true
+    startDelay: 600
+    targetBaseOdds: 100
+    useTable: false
+    maxRuns: 1
+    varName: rRCyI
+
+  - type: beginnerRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_MEDIUM: 100
+      13:
+        STR_ALIEN_RETALIATION_MEDIUM: 50
+        STR_ALIEN_RETALIATION_HEAVY: 50
+      16:
+        STR_ALIEN_RETALIATION_HEAVY: 100
+      20:
+        STR_ALIEN_RETALIATION_HEAVY: 80
+        STR_ALIEN_RETALIATION_INVASION: 20
+      23:
+        STR_ALIEN_RETALIATION_HEAVY: 50
+        STR_ALIEN_RETALIATION_INVASION: 50
+      26:
+        STR_ALIEN_RETALIATION_HEAVY: 20
+        STR_ALIEN_RETALIATION_INVASION: 80
+      29:
+        STR_ALIEN_RETALIATION_INVASION: 100
+    firstMonth: 8
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1]
+    label: 2
+    startDelay: 15000
+
+  - type: experiencedRetaliation
+    minDifficulty: 1
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_MEDIUM: 100
+      12:
+        STR_ALIEN_RETALIATION_MEDIUM: 50
+        STR_ALIEN_RETALIATION_HEAVY: 50
+      15:
+        STR_ALIEN_RETALIATION_HEAVY: 100
+      20:
+        STR_ALIEN_RETALIATION_HEAVY: 80
+        STR_ALIEN_RETALIATION_INVASION: 20
+      23:
+        STR_ALIEN_RETALIATION_HEAVY: 50
+        STR_ALIEN_RETALIATION_INVASION: 50
+      26:
+        STR_ALIEN_RETALIATION_HEAVY: 20
+        STR_ALIEN_RETALIATION_INVASION: 80
+      29:
+        STR_ALIEN_RETALIATION_INVASION: 100
+    firstMonth: 8
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2]
+    label: 3
+    startDelay: 15000
+
+  - type: veteranRetaliation
+    minDifficulty: 2
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_MEDIUM: 100
+      11:
+        STR_ALIEN_RETALIATION_MEDIUM: 50
+        STR_ALIEN_RETALIATION_HEAVY: 50
+      14:
+        STR_ALIEN_RETALIATION_HEAVY: 100
+      20:
+        STR_ALIEN_RETALIATION_HEAVY: 80
+        STR_ALIEN_RETALIATION_INVASION: 20
+      23:
+        STR_ALIEN_RETALIATION_HEAVY: 50
+        STR_ALIEN_RETALIATION_INVASION: 50
+      26:
+        STR_ALIEN_RETALIATION_HEAVY: 20
+        STR_ALIEN_RETALIATION_INVASION: 80
+      29:
+        STR_ALIEN_RETALIATION_INVASION: 100
+    firstMonth: 8
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3]
+    label: 4
+    startDelay: 15000
+
+  - type: geniusRetaliation
+    minDifficulty: 3
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_MEDIUM: 100
+      10:
+        STR_ALIEN_RETALIATION_MEDIUM: 50
+        STR_ALIEN_RETALIATION_HEAVY: 50
+      13:
+        STR_ALIEN_RETALIATION_HEAVY: 100
+      20:
+        STR_ALIEN_RETALIATION_HEAVY: 80
+        STR_ALIEN_RETALIATION_INVASION: 20
+      23:
+        STR_ALIEN_RETALIATION_HEAVY: 50
+        STR_ALIEN_RETALIATION_INVASION: 50
+      26:
+        STR_ALIEN_RETALIATION_HEAVY: 20
+        STR_ALIEN_RETALIATION_INVASION: 80
+      29:
+        STR_ALIEN_RETALIATION_INVASION: 100
+    firstMonth: 8
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3, -4]
+    label: 5
+    startDelay: 15000
+
+  - type: superhumanRetaliation
+    minDifficulty: 4
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION_MEDIUM: 100
+      9:
+        STR_ALIEN_RETALIATION_MEDIUM: 50
+        STR_ALIEN_RETALIATION_HEAVY: 50
+      12:
+        STR_ALIEN_RETALIATION_HEAVY: 100
+      20:
+        STR_ALIEN_RETALIATION_HEAVY: 80
+        STR_ALIEN_RETALIATION_INVASION: 20
+      23:
+        STR_ALIEN_RETALIATION_HEAVY: 50
+        STR_ALIEN_RETALIATION_INVASION: 50
+      26:
+        STR_ALIEN_RETALIATION_HEAVY: 20
+        STR_ALIEN_RETALIATION_INVASION: 80
+      29:
+        STR_ALIEN_RETALIATION_INVASION: 100
+    firstMonth: 8
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3, -4, -5]
+    startDelay: 15000
+# 1999: New alien types gradually introduced - you should be getting into tier 3 by the end of 1999
+# 2000: Ethereals, mixed races, some elites, increased mission spawns - you should be in tier 3 and getting into tier 4, and finishing up research or going to cydonia
+# 2001: Elite activity rises, all elites by the end of the year, increased mission spawns - research should be complete by now, you should go to cydonia soon
+# 2002: Only elites from now on, mission spawns rise rapidly throughout the year - it will be getting harder to survive
+# Alien activity peaks March 2003 - hard to survive
+# Alien activity begins to gradually decline January 2004
+# Last month alien missions spawn: August 2008

@@ -1,0 +1,32 @@
+extended:
+  scripts:
+    damageUnit:
+      - offset: 99
+        code: |
+          set to_transform 100;
+          unit.getHealth y;
+          unit.getHealthMax z;
+          muldiv to_transform y z;
+          mul to_transform -1;
+          add to_transform 100;
+          return;
+
+extended:
+  tags:
+    RuleItem:
+      MODNAME_GUN_HP_CUT: int
+  scripts:
+    damageUnit:
+      - offset: 99 # near last script to run
+        code: |
+          var int percent;
+          var ptr RuleItem rule;
+          var int temp;
+          weapon_item.getRuleItem rule;
+          rule.getTag percent Tag.MODNAME_GUN_HP_CUT;
+          unit.getHealth temp;
+          if neq percent 0;
+            muldiv temp percent 100; # % of curr hp
+            set to_health temp; #damage that will be done to unit, other scripts can alter this after
+          end;
+          return;

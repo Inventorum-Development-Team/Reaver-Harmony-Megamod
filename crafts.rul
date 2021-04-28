@@ -1,0 +1,2958 @@
+crafts:
+  - delete: STR_SKYRANGER
+  - delete: STR_AVENGER
+  - type: STR_INTERCEPTOR_EASY
+    listOrder: 80
+    sprite: 822
+    marker: 15
+    fuelMax: 1000
+    damageMax: 120
+    avoidBonus: 22
+    armor: 0
+    powerBonus: 20
+    speedMax: 1600
+    accel: 3
+    weapons: 2
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    requires:
+      - STR_CRAFT_EASY
+    costBuy: 350000
+    costSell: 350000
+    costRent: 350000
+    forceShowInMonthlyCosts: false
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 60
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 175
+    craftType: 1
+  - type: STR_SKYRAIDER_EASY
+    listOrder: 100
+    sprite: 824
+    marker: 16
+    fuelMax: 1200
+    damageMax: 160
+    avoidBonus: 6
+    armor: 4
+    powerBonus: 20
+    speedMax: 1250
+    accel: 2
+    weapons: 4
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 8
+    maxItems: 192
+    vehicles: 1
+    requires:
+      - STR_CRAFT_EASY
+    costBuy: 450000
+    costSell: 450000
+    costRent: 450000
+    forceShowInMonthlyCosts: false
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 50
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 225
+    craftType: 2
+    battlescapeTerrainData:
+      name: SKYRAIDER
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: SKYRAIDER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+  - type: STR_MAMMOTH_EASY
+    listOrder: 110
+    sprite: 826
+    marker: 17
+    fuelMax: 1400
+    damageMax: 200
+    avoidBonus: 0
+    armor: 12
+    powerBonus: 20
+    speedMax: 1040
+    accel: 1
+    weapons: 2
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 14
+    maxItems: 280
+    vehicles: 3
+    requires:
+      - STR_CRAFT_EASY
+    costBuy: 650000
+    costSell: 650000
+    costRent: 650000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 40
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 325
+    craftType: 2
+    battlescapeTerrainData:
+      name: MAMMOTH
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MAMMOTH
+          width: 20
+          length: 20
+    deployment:
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [8, 8, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [10, 8, 1, 0]
+      - [11, 8, 1, 0]
+      - [9, 9, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 10, 1, 0]
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+  - type: STR_INTERDICTOR_EASY
+    listOrder: 120
+    sprite: 823
+    marker: 15
+    fuelMax: 1200
+    damageMax: 160
+    avoidBonus: 25
+    armor: 0
+    powerBonus: 20
+    speedMax: 2000
+    accel: 4
+    weapons: 3
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    requires:
+      - STR_CRAFT_EASY
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 2112000
+    transferTime: 144
+    costSell: 1900000
+    costRent: 350000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 90
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 175
+  - type: STR_STORMCHARGER_EASY
+    listOrder: 140
+    sprite: 825
+    marker: 16
+    fuelMax: 1500
+    damageMax: 220
+    avoidBonus: 8
+    armor: 7
+    powerBonus: 20
+    speedMax: 1550
+    accel: 3
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 12
+    maxItems: 288
+    vehicles: 2
+    requires:
+      - STR_CRAFT_EASY
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 2860000
+    transferTime: 144
+    costSell: 2600000
+    costRent: 450000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 75
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 225
+    battlescapeTerrainData:
+      name: STORMCHARGER
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: STORMCHARGER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 7, 1, 0]
+      - [5, 7, 1, 0]
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [5, 12, 1, 4]
+      - [5, 13, 1, 4]
+      - [5, 14, 1, 2]
+      - [5, 15, 1, 0]
+  - type: STR_MASTODON_EASY
+    listOrder: 150
+    sprite: 827
+    marker: 17
+    fuelMax: 1800
+    damageMax: 280
+    avoidBonus: 0
+    armor: 21
+    powerBonus: 20
+    speedMax: 1280
+    accel: 2
+    weapons: 3
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 18
+    maxItems: 360
+    vehicles: 4
+    requires:
+      - STR_CRAFT_EASY
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 3905000
+    transferTime: 144
+    costSell: 3550000
+    costRent: 650000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 60
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 325
+    battlescapeTerrainData:
+      name: MASTODON
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MASTODON
+          width: 20
+          length: 20
+    deployment:
+      - [8, 6, 1, 0]
+      - [9, 6, 1, 0]
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [10, 6, 1, 0]
+      - [11, 6, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 8, 1, 0]
+      - [9, 9, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+      - [9, 12, 1, 4]
+      - [10, 12, 1, 4]
+      - [9, 14, 1, 0]
+      - [10, 14, 1, 0]
+  - type: STR_EXECUTIONER_EASY
+    listOrder: 160
+    sprite: 828
+    marker: 15
+    fuelMax: 1300
+    damageMax: 190
+    avoidBonus: 23
+    armor: 6
+    powerBonus: 20
+    speedMax: 1800
+    accel: 3
+    weapons: 3
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 2, 3, 11, 21, 31]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_LARGE
+    requires:
+      - STR_CRAFT_EASY
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+      - STR_LARGE_AIR_EQUIPMENT
+    costBuy: 2530000
+    costSell: 2300000
+    costRent: 400000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 110
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 200
+  - type: STR_EXTERMINATOR_EASY
+    listOrder: 170
+    sprite: 829
+    marker: 17
+    fuelMax: 1600
+    damageMax: 250
+    avoidBonus: 5
+    armor: 11
+    powerBonus: 20
+    speedMax: 1430
+    accel: 2
+    weapons: 4
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+      - [1, 2, 3, 11, 21, 31]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_LARGE
+    requires:
+      - STR_CRAFT_EASY
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+      - STR_LARGE_AIR_EQUIPMENT
+    soldiers: 14
+    maxItems: 252
+    vehicles: 3
+    costBuy: 5060000
+    costSell: 4600000
+    costRent: 800000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 90
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 400
+    battlescapeTerrainData:
+      name: MAMMOTH
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MAMMOTH
+          width: 20
+          length: 20
+  - type: STR_FIRESTORM_EASY
+    listOrder: 200
+    sprite: 4
+    marker: 18
+    fuelMax: 60
+    damageMax: 400
+    avoidBonus: 15
+    armor: 0
+    powerBonus: 20
+    speedMax: 3600
+    accel: 7
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 12]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 12
+    maxItems: 336
+    vehicles: 2
+    costSell: 5400000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 4
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 60
+    spacecraft: true
+    battlescapeTerrainData:
+      name: FIRESTOR
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: FIRESTOR
+          width: 10
+          length: 10
+    deployment:
+      - [6, 4, 1, 6]
+      - [6, 5, 1, 6]
+      - [7, 4, 1, 6]
+      - [7, 5, 1, 6]
+      - [3, 4, 1, 2]
+      - [3, 5, 1, 2]
+      - [2, 4, 1, 2]
+      - [2, 5, 1, 2]
+      - [7, 3, 1, 4]
+      - [7, 6, 1, 0]
+      - [2, 3, 1, 4]
+      - [2, 6, 1, 0]
+  - type: STR_LIGHTNING_EASY
+    listOrder: 300
+    sprite: 1
+    marker: 19
+    fuelMax: 90
+    damageMax: 500
+    avoidBonus: 9
+    armor: 19
+    powerBonus: 20
+    speedMax: 2500
+    accel: 5
+    weapons: 3
+    weaponTypes:
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 18
+    maxItems: 432
+    vehicles: 4
+    costSell: 10200000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 120
+    spacecraft: true
+    battlescapeTerrainData:
+      name: LIGHTNI
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: LIGHTNI
+          width: 20
+          length: 20
+    deployment:
+      - [6, 9, 1, 6]
+      - [9, 6, 1, 0]
+      - [12, 9, 1, 2]
+      - [9, 13, 1, 4]
+      - [6, 10, 1, 6]
+      - [10, 6, 1, 0]
+      - [13, 10, 1, 2]
+      - [10, 13, 1, 4]
+      - [7, 9, 1, 6]
+      - [10, 7, 1, 0]
+      - [13, 9, 1, 2]
+      - [9, 12, 1, 4]
+      - [7, 10, 1, 6]
+      - [9, 7, 1, 0]
+      - [12, 10, 1, 2]
+      - [10, 12, 1, 4]
+      - [7, 8, 1, 6]
+      - [12, 11, 1, 2]
+  - type: STR_INFERNO_EASY
+    listOrder: 400
+    sprite: 2
+    marker: 20
+    fuelMax: 90
+    damageMax: 700
+    avoidBonus: 11
+    armor: 7
+    powerBonus: 20
+    speedMax: 3900
+    accel: 8
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 16
+    maxItems: 448
+    vehicles: 3
+    costSell: 14300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 15
+    repairRate: 5
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 120
+    spacecraft: true
+    battlescapeTerrainData:
+      name: AVENGERA
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+        - LIGHTNIAR
+      mapBlocks:
+        - name: AVENGERA
+          width: 10
+          length: 20
+    deployment:
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      - [3, 13, 1, 6]
+      - [6, 13, 1, 2]
+      - [3, 12, 1, 4]
+      - [6, 12, 1, 4]
+      - [3, 11, 1, 0]
+      - [6, 11, 1, 0]
+  - type: STR_TEMPEST_EASY
+    listOrder: 410
+    sprite: 825
+    marker: 21
+    fuelMax: 120
+    damageMax: 850
+    avoidBonus: 0
+    armor: 20
+    powerBonus: 20
+    speedMax: 3000
+    accel: 6
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 26
+    maxItems: 624
+    vehicles: 4
+    costSell: 28900000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 15
+    repairRate: 4
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 180
+    spacecraft: true
+    battlescapeTerrainData:
+      name: TEMPEST
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - AVENGER
+        - LIGHTNIAR
+      mapBlocks:
+        - name: DROPSHIP_TEMPEST
+          width: 10
+          length: 20
+    deployment:
+      - [2, 4, 1, 0]
+      - [3, 4, 1, 0]
+      - [6, 4, 1, 0]
+      - [7, 4, 1, 0]
+      - [2, 5, 1, 0]
+      - [3, 5, 1, 0]
+      - [6, 5, 1, 0]
+      - [7, 5, 1, 0]
+      - [2, 6, 1, 0]
+      - [3, 6, 1, 0]
+      - [6, 6, 1, 0]
+      - [7, 6, 1, 0]
+      - [2, 7, 1, 0]
+      - [3, 7, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [4, 4, 1, 0]
+      - [5, 4, 1, 0]
+      - [4, 5, 1, 0]
+      - [5, 5, 1, 0]
+      - [6, 11, 1, 2]
+      - [6, 12, 1, 2]
+      - [4, 12, 1, 4]
+      - [4, 14, 1, 0]
+      - [5, 12, 1, 4]
+      - [5, 14, 1, 0]
+  - type: STR_AMARANTH_EASY
+    listOrder: 420
+    sprite: 867
+    marker: 26
+    fuelMax: 900
+    damageMax: 600
+    shieldCapacity: 300
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 12
+    armor: 10
+    powerBonus: 20
+    speedMax: 4500
+    accel: 8
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 30
+    maxItems: 1200
+    vehicles: 2
+    craftInventoryTile: [6, 6, 1]
+    costSell: 56300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 90
+    repairRate: 6
+    shieldRechargedAtBase: 50
+    radarRange: 1050
+    sightRange: 1350
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 500
+    spacecraft: true
+    battlescapeTerrainData:
+      name: AMARANTH
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: AMARANTH
+          width: 20
+          length: 20
+    deployment:
+      - [9, 11, 1, 0]
+      - [9, 7, 1, 4]
+      - [10, 12, 1, 7]
+      - [10, 8, 1, 2]
+      - [12, 8, 1, 0]
+      - [7, 11, 1, 2]
+      - [11, 11, 1, 5]
+      - [8, 8, 1, 6]
+      - [8, 12, 1, 4]
+      - [11, 7, 1, 4]
+      - [7, 7, 1, 5]
+      - [12, 12, 1, 1]
+      - [10, 13, 1, 2]
+      - [9, 6, 1, 6]
+      - [13, 9, 1, 2]
+      - [6, 10, 1, 7]
+      - [10, 6, 1, 3]
+      - [9, 13, 1, 6]
+      - [6, 9, 1, 0]
+      - [13, 10, 1, 4]
+      - [12, 6, 1, 3]
+      - [7, 13, 1, 0]
+      - [13, 7, 1, 5]
+      - [6, 12, 1, 6]
+      - [5, 10, 1, 1]
+      - [15, 9, 1, 7]
+      - [3, 9, 1, 3]
+      - [9, 3, 1, 4]
+      - [10, 16, 1, 0]
+      - [11, 4, 1, 1]
+  - type: STR_HERACLES_EASY
+    listOrder: 430
+    sprite: 866
+    marker: 27
+    fuelMax: 480
+    damageMax: 1050
+    shieldCapacity: 450
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 5
+    armor: 20
+    powerBonus: 20
+    speedMax: 3900
+    accel: 7
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 32
+    maxItems: 1920
+    vehicles: 8
+    craftInventoryTile: [10, 9, 0]
+    costSell: 94400000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 7
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 900
+    spacecraft: true
+    battlescapeTerrainData:
+      name: HERACLES
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: HERACLES_TWO
+          width: 20
+          length: 20
+    deployment:
+      - [7, 13, 0, 4]
+      - [11, 5, 0, 0]
+      - [7, 5, 0, 0]
+      - [12, 13, 0, 5]
+      - [3, 9, 1, 6]
+      - [15, 9, 1, 2]
+      - [5, 9, 1, 6]
+      - [13, 9, 1, 2]
+      - [3, 12, 0, 0]
+      - [4, 8, 0, 6]
+      - [14, 8, 0, 2]
+      - [16, 11, 0, 2]
+      - [5, 10, 0, 5]
+      - [4, 6, 0, 3]
+      - [14, 5, 0, 3]
+      - [14, 12, 0, 2]
+      - [3, 8, 1, 3]
+      - [14, 7, 1, 3]
+      - [15, 11, 1, 0]
+      - [6, 12, 1, 6]
+      - [6, 11, 0, 6]
+      - [8, 8, 0, 4]
+      - [12, 8, 0, 4]
+      - [10, 10, 0, 1]
+      - [12, 9, 1, 2]
+      - [7, 10, 1, 6]
+      - [6, 5, 1, 4]
+      - [9, 6, 1, 2]
+      - [12, 6, 1, 0]
+      - [5, 13, 1, 6]
+      - [9, 14, 1, 4]
+      - [11, 13, 1, 5]
+  - type: STR_STARBLAZER_EASY
+    listOrder: 440
+    sprite: 868
+    marker: 28
+    fuelMax: 180
+    damageMax: 900
+    shieldCapacity: 400
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 8
+    armor: 16
+    powerBonus: 20
+    speedMax: 5900
+    accel: 11
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+    soldiers: 26
+    maxItems: 1560
+    vehicles: 6
+    costSell: 43300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 60
+    repairRate: 8
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 600
+    spacecraft: true
+    battlescapeTerrainData:
+      name: STARBLAZER
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: STARBLAZER
+          width: 20
+          length: 20
+    deployment:
+      - [6, 5, 1, 0]
+      - [12, 5, 1, 0]
+      - [7, 6, 1, 0]
+      - [13, 6, 1, 0]
+      - [6, 7, 1, 0]
+      - [12, 7, 1, 0]
+      - [7, 8, 1, 0]
+      - [13, 8, 1, 0]
+      - [8, 5, 1, 6]
+      - [10, 5, 1, 2]
+      - [9, 6, 1, 6]
+      - [11, 6, 1, 2]
+      - [8, 7, 1, 6]
+      - [10, 7, 1, 2]
+      - [9, 8, 1, 6]
+      - [11, 8, 1, 2]
+      - [8, 2, 2, 4]
+      - [10, 3, 2, 6]
+      - [8, 5, 2, 7]
+      - [9, 4, 2, 1]
+      - [10, 5, 2, 4]
+      - [10, 7, 2, 3]
+      - [8, 7, 2, 1]
+      - [9, 4, 1, 4]
+      - [10, 3, 1, 5]
+      - [11, 2, 2, 4]
+  - type: STR_DIVINITY_EASY
+    listOrder: 450
+    sprite: 832
+    marker: 29
+    fuelMax: 450
+    damageMax: 750
+    shieldCapacity: 350
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 10
+    armor: 13
+    powerBonus: 20
+    speedMax: 4800
+    accel: 10
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 28
+    maxItems: 1400
+    vehicles: 5
+    costSell: 66300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 45
+    repairRate: 7
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 750
+    spacecraft: true
+    battlescapeTerrainData:
+      name: DRAGONFLY_DIVINITY
+      mapDataSets:
+        - BLANKS
+        - DRAGONFLY_DARK
+        - LIGHTNIN_DARK
+        - AVENGER_DARK
+        - LIGHTNIAR_DARK
+      mapBlocks:
+        - name: DRAGONFLY_DIVINITY
+          width: 20
+          length: 20
+    deployment:
+      - [9, 6, 1, 0]
+      - [10, 7, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 11, 1, 0]
+      - [9, 12, 1, 0]
+      - [10, 13, 1, 0]
+      - [9, 14, 1, 0]
+      - [10, 15, 1, 0]
+      - [7, 10, 2, 6]
+      - [12, 10, 2, 2]
+      - [8, 10, 0, 6]
+      - [11, 11, 0, 2]
+      - [7, 9, 2, 4]
+      - [12, 11, 2, 0]
+      - [10, 8, 0, 0]
+      - [9, 14, 0, 4]
+      - [7, 11, 2, 0]
+      - [12, 9, 2, 4]
+      - [8, 9, 0, 4]
+      - [11, 12, 0, 0]
+      - [9, 9, 2, 0]
+      - [10, 12, 2, 4]
+      - [9, 8, 0, 2]
+      - [10, 14, 0, 6]
+      - [10, 9, 2, 0]
+      - [9, 12, 2, 4]
+  - type: STR_INTERCEPTOR
+    listOrder: 80
+    sprite: 822
+    marker: 15
+    fuelMax: 1000
+    damageMax: 80
+    avoidBonus: 22
+    armor: 0
+    speedMax: 1400
+    accel: 3
+    weapons: 2
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    requires:
+      - STR_CRAFT_MEDIUM
+    costBuy: 350000
+    costSell: 350000
+    costRent: 350000
+    forceShowInMonthlyCosts: false
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 60
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 140
+    craftType: 1
+  - type: STR_SKYRAIDER
+    listOrder: 100
+    sprite: 824
+    marker: 16
+    fuelMax: 1200
+    damageMax: 120
+    avoidBonus: 6
+    armor: 4
+    speedMax: 1050
+    accel: 2
+    weapons: 4
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 8
+    maxItems: 192
+    vehicles: 1
+    requires:
+      - STR_CRAFT_MEDIUM
+    costBuy: 450000
+    costSell: 450000
+    costRent: 450000
+    forceShowInMonthlyCosts: false
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 50
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 180
+    craftType: 2
+    battlescapeTerrainData:
+      name: SKYRAIDER
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: SKYRAIDER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+  - type: STR_MAMMOTH
+    listOrder: 110
+    sprite: 826
+    marker: 17
+    fuelMax: 1400
+    damageMax: 160
+    avoidBonus: 0
+    armor: 12
+    speedMax: 840
+    accel: 1
+    weapons: 2
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 14
+    maxItems: 280
+    vehicles: 3
+    requires:
+      - STR_CRAFT_MEDIUM
+    costBuy: 650000
+    costSell: 650000
+    costRent: 650000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 40
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 260
+    craftType: 2
+    battlescapeTerrainData:
+      name: MAMMOTH
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MAMMOTH
+          width: 20
+          length: 20
+    deployment:
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [8, 8, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [10, 8, 1, 0]
+      - [11, 8, 1, 0]
+      - [9, 9, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 10, 1, 0]
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+  - type: STR_INTERDICTOR
+    listOrder: 120
+    sprite: 823
+    marker: 15
+    fuelMax: 1200
+    damageMax: 120
+    avoidBonus: 25
+    armor: 0
+    speedMax: 1800
+    accel: 4
+    weapons: 3
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 2112000
+    transferTime: 144
+    costSell: 1900000
+    costRent: 350000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 90
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 140
+  - type: STR_STORMCHARGER
+    listOrder: 140
+    sprite: 825
+    marker: 16
+    fuelMax: 1500
+    damageMax: 180
+    avoidBonus: 8
+    armor: 7
+    speedMax: 1350
+    accel: 3
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 12
+    maxItems: 288
+    vehicles: 2
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 2860000
+    transferTime: 144
+    costSell: 2600000
+    costRent: 450000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 75
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 180
+    battlescapeTerrainData:
+      name: STORMCHARGER
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: STORMCHARGER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 7, 1, 0]
+      - [5, 7, 1, 0]
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [5, 12, 1, 4]
+      - [5, 13, 1, 4]
+      - [5, 14, 1, 2]
+      - [5, 15, 1, 0]
+  - type: STR_MASTODON
+    listOrder: 150
+    sprite: 827
+    marker: 17
+    fuelMax: 1800
+    damageMax: 240
+    avoidBonus: 0
+    armor: 21
+    speedMax: 1080
+    accel: 2
+    weapons: 3
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 18
+    maxItems: 360
+    vehicles: 4
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 3905000
+    transferTime: 144
+    costSell: 3550000
+    costRent: 650000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 60
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 260
+    battlescapeTerrainData:
+      name: MASTODON
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MASTODON
+          width: 20
+          length: 20
+    deployment:
+      - [8, 6, 1, 0]
+      - [9, 6, 1, 0]
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [10, 6, 1, 0]
+      - [11, 6, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 8, 1, 0]
+      - [9, 9, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+      - [9, 12, 1, 4]
+      - [10, 12, 1, 4]
+      - [9, 14, 1, 0]
+      - [10, 14, 1, 0]
+  - type: STR_EXECUTIONER
+    listOrder: 160
+    sprite: 828
+    marker: 15
+    fuelMax: 1300
+    damageMax: 150
+    avoidBonus: 23
+    armor: 6
+    speedMax: 1600
+    accel: 3
+    weapons: 3
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 2, 3, 11, 21, 31]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_LARGE
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+      - STR_LARGE_AIR_EQUIPMENT
+    costBuy: 2530000
+    costSell: 2300000
+    costRent: 400000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 110
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 160
+  - type: STR_EXTERMINATOR
+    listOrder: 170
+    sprite: 829
+    marker: 17
+    fuelMax: 1600
+    damageMax: 210
+    avoidBonus: 5
+    armor: 11
+    speedMax: 1230
+    accel: 2
+    weapons: 4
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+      - [1, 2, 3, 11, 21, 31]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_LARGE
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+      - STR_LARGE_AIR_EQUIPMENT
+    soldiers: 14
+    maxItems: 252
+    vehicles: 3
+    costBuy: 5060000
+    costSell: 4600000
+    costRent: 800000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 90
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 320
+    battlescapeTerrainData:
+      name: MAMMOTH
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MAMMOTH
+          width: 20
+          length: 20
+  - type: STR_FIRESTORM
+    listOrder: 200
+    sprite: 4
+    marker: 18
+    fuelMax: 60
+    damageMax: 300
+    avoidBonus: 15
+    armor: 0
+    speedMax: 3300
+    accel: 7
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 12]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 12
+    maxItems: 336
+    vehicles: 2
+    costSell: 5400000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 4
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 50
+    spacecraft: true
+    battlescapeTerrainData:
+      name: FIRESTOR
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: FIRESTOR
+          width: 10
+          length: 10
+    deployment:
+      - [6, 4, 1, 6]
+      - [6, 5, 1, 6]
+      - [7, 4, 1, 6]
+      - [7, 5, 1, 6]
+      - [3, 4, 1, 2]
+      - [3, 5, 1, 2]
+      - [2, 4, 1, 2]
+      - [2, 5, 1, 2]
+      - [7, 3, 1, 4]
+      - [7, 6, 1, 0]
+      - [2, 3, 1, 4]
+      - [2, 6, 1, 0]
+  - type: STR_LIGHTNING
+    listOrder: 300
+    sprite: 1
+    marker: 19
+    fuelMax: 90
+    damageMax: 400
+    avoidBonus: 9
+    armor: 19
+    speedMax: 2200
+    accel: 5
+    weapons: 3
+    weaponTypes:
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 18
+    maxItems: 432
+    vehicles: 4
+    costSell: 10200000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 100
+    spacecraft: true
+    battlescapeTerrainData:
+      name: LIGHTNI
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: LIGHTNI
+          width: 20
+          length: 20
+    deployment:
+      - [6, 9, 1, 6]
+      - [9, 6, 1, 0]
+      - [12, 9, 1, 2]
+      - [9, 13, 1, 4]
+      - [6, 10, 1, 6]
+      - [10, 6, 1, 0]
+      - [13, 10, 1, 2]
+      - [10, 13, 1, 4]
+      - [7, 9, 1, 6]
+      - [10, 7, 1, 0]
+      - [13, 9, 1, 2]
+      - [9, 12, 1, 4]
+      - [7, 10, 1, 6]
+      - [9, 7, 1, 0]
+      - [12, 10, 1, 2]
+      - [10, 12, 1, 4]
+      - [7, 8, 1, 6]
+      - [12, 11, 1, 2]
+  - type: STR_INFERNO
+    listOrder: 400
+    sprite: 2
+    marker: 20
+    fuelMax: 90
+    damageMax: 600
+    avoidBonus: 11
+    armor: 7
+    speedMax: 3600
+    accel: 8
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 16
+    maxItems: 448
+    vehicles: 3
+    costSell: 14300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 15
+    repairRate: 5
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 100
+    spacecraft: true
+    battlescapeTerrainData:
+      name: AVENGERA
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+        - LIGHTNIAR
+      mapBlocks:
+        - name: AVENGERA
+          width: 10
+          length: 20
+    deployment:
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      - [3, 13, 1, 6]
+      - [6, 13, 1, 2]
+      - [3, 12, 1, 4]
+      - [6, 12, 1, 4]
+      - [3, 11, 1, 0]
+      - [6, 11, 1, 0]
+  - type: STR_TEMPEST
+    listOrder: 410
+    sprite: 825
+    marker: 21
+    fuelMax: 120
+    damageMax: 750
+    avoidBonus: 0
+    armor: 20
+    speedMax: 2700
+    accel: 6
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 26
+    maxItems: 624
+    vehicles: 4
+    costSell: 28900000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 15
+    repairRate: 4
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 150
+    spacecraft: true
+    battlescapeTerrainData:
+      name: TEMPEST
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - AVENGER
+        - LIGHTNIAR
+      mapBlocks:
+        - name: DROPSHIP_TEMPEST
+          width: 10
+          length: 20
+    deployment:
+      - [2, 4, 1, 0]
+      - [3, 4, 1, 0]
+      - [6, 4, 1, 0]
+      - [7, 4, 1, 0]
+      - [2, 5, 1, 0]
+      - [3, 5, 1, 0]
+      - [6, 5, 1, 0]
+      - [7, 5, 1, 0]
+      - [2, 6, 1, 0]
+      - [3, 6, 1, 0]
+      - [6, 6, 1, 0]
+      - [7, 6, 1, 0]
+      - [2, 7, 1, 0]
+      - [3, 7, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [4, 4, 1, 0]
+      - [5, 4, 1, 0]
+      - [4, 5, 1, 0]
+      - [5, 5, 1, 0]
+      - [6, 11, 1, 2]
+      - [6, 12, 1, 2]
+      - [4, 12, 1, 4]
+      - [4, 14, 1, 0]
+      - [5, 12, 1, 4]
+      - [5, 14, 1, 0]
+  - type: STR_AMARANTH
+    listOrder: 420
+    sprite: 867
+    marker: 26
+    fuelMax: 900
+    damageMax: 600
+    shieldCapacity: 200
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 12
+    armor: 10
+    speedMax: 4200
+    accel: 8
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 30
+    maxItems: 1200
+    vehicles: 2
+    craftInventoryTile: [6, 6, 1]
+    costSell: 56300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 90
+    repairRate: 6
+    shieldRechargedAtBase: 50
+    radarRange: 1050
+    sightRange: 1350
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 500
+    spacecraft: true
+    battlescapeTerrainData:
+      name: AMARANTH
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: AMARANTH
+          width: 20
+          length: 20
+    deployment:
+      - [9, 11, 1, 0]
+      - [9, 7, 1, 4]
+      - [10, 12, 1, 7]
+      - [10, 8, 1, 2]
+      - [12, 8, 1, 0]
+      - [7, 11, 1, 2]
+      - [11, 11, 1, 5]
+      - [8, 8, 1, 6]
+      - [8, 12, 1, 4]
+      - [11, 7, 1, 4]
+      - [7, 7, 1, 5]
+      - [12, 12, 1, 1]
+      - [10, 13, 1, 2]
+      - [9, 6, 1, 6]
+      - [13, 9, 1, 2]
+      - [6, 10, 1, 7]
+      - [10, 6, 1, 3]
+      - [9, 13, 1, 6]
+      - [6, 9, 1, 0]
+      - [13, 10, 1, 4]
+      - [12, 6, 1, 3]
+      - [7, 13, 1, 0]
+      - [13, 7, 1, 5]
+      - [6, 12, 1, 6]
+      - [5, 10, 1, 1]
+      - [15, 9, 1, 7]
+      - [3, 9, 1, 3]
+      - [9, 3, 1, 4]
+      - [10, 16, 1, 0]
+      - [11, 4, 1, 1]
+  - type: STR_HERACLES
+    listOrder: 430
+    sprite: 866
+    marker: 27
+    fuelMax: 480
+    damageMax: 1050
+    shieldCapacity: 350
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 5
+    armor: 20
+    speedMax: 3600
+    accel: 7
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 32
+    maxItems: 1920
+    vehicles: 8
+    craftInventoryTile: [10, 9, 0]
+    costSell: 94400000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 7
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 900
+    spacecraft: true
+    battlescapeTerrainData:
+      name: HERACLES
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: HERACLES_TWO
+          width: 20
+          length: 20
+    deployment:
+      - [7, 13, 0, 4]
+      - [11, 5, 0, 0]
+      - [7, 5, 0, 0]
+      - [12, 13, 0, 5]
+      - [3, 9, 1, 6]
+      - [15, 9, 1, 2]
+      - [5, 9, 1, 6]
+      - [13, 9, 1, 2]
+      - [3, 12, 0, 0]
+      - [4, 8, 0, 6]
+      - [14, 8, 0, 2]
+      - [16, 11, 0, 2]
+      - [5, 10, 0, 5]
+      - [4, 6, 0, 3]
+      - [14, 5, 0, 3]
+      - [14, 12, 0, 2]
+      - [3, 8, 1, 3]
+      - [14, 7, 1, 3]
+      - [15, 11, 1, 0]
+      - [6, 12, 1, 6]
+      - [6, 11, 0, 6]
+      - [8, 8, 0, 4]
+      - [12, 8, 0, 4]
+      - [10, 10, 0, 1]
+      - [12, 9, 1, 2]
+      - [7, 10, 1, 6]
+      - [6, 5, 1, 4]
+      - [9, 6, 1, 2]
+      - [12, 6, 1, 0]
+      - [5, 13, 1, 6]
+      - [9, 14, 1, 4]
+      - [11, 13, 1, 5]
+  - type: STR_STARBLAZER
+    listOrder: 440
+    sprite: 868
+    marker: 28
+    fuelMax: 180
+    damageMax: 900
+    shieldCapacity: 300
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 8
+    armor: 16
+    speedMax: 5600
+    accel: 11
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+    soldiers: 26
+    maxItems: 1560
+    vehicles: 6
+    costSell: 43300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 60
+    repairRate: 8
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 600
+    spacecraft: true
+    battlescapeTerrainData:
+      name: STARBLAZER
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: STARBLAZER
+          width: 20
+          length: 20
+    deployment:
+      - [6, 5, 1, 0]
+      - [12, 5, 1, 0]
+      - [7, 6, 1, 0]
+      - [13, 6, 1, 0]
+      - [6, 7, 1, 0]
+      - [12, 7, 1, 0]
+      - [7, 8, 1, 0]
+      - [13, 8, 1, 0]
+      - [8, 5, 1, 6]
+      - [10, 5, 1, 2]
+      - [9, 6, 1, 6]
+      - [11, 6, 1, 2]
+      - [8, 7, 1, 6]
+      - [10, 7, 1, 2]
+      - [9, 8, 1, 6]
+      - [11, 8, 1, 2]
+      - [8, 2, 2, 4]
+      - [10, 3, 2, 6]
+      - [8, 5, 2, 7]
+      - [9, 4, 2, 1]
+      - [10, 5, 2, 4]
+      - [10, 7, 2, 3]
+      - [8, 7, 2, 1]
+      - [9, 4, 1, 4]
+      - [10, 3, 1, 5]
+      - [11, 2, 2, 4]
+  - type: STR_DIVINITY
+    listOrder: 450
+    sprite: 832
+    marker: 29
+    fuelMax: 450
+    damageMax: 750
+    shieldCapacity: 250
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 10
+    armor: 13
+    speedMax: 4500
+    accel: 10
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 28
+    maxItems: 1400
+    vehicles: 5
+    costSell: 66300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 45
+    repairRate: 7
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 750
+    spacecraft: true
+    battlescapeTerrainData:
+      name: DRAGONFLY_DIVINITY
+      mapDataSets:
+        - BLANKS
+        - DRAGONFLY_DARK
+        - LIGHTNIN_DARK
+        - AVENGER_DARK
+        - LIGHTNIAR_DARK
+      mapBlocks:
+        - name: DRAGONFLY_DIVINITY
+          width: 20
+          length: 20
+    deployment:
+      - [9, 6, 1, 0]
+      - [10, 7, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 11, 1, 0]
+      - [9, 12, 1, 0]
+      - [10, 13, 1, 0]
+      - [9, 14, 1, 0]
+      - [10, 15, 1, 0]
+      - [7, 10, 2, 6]
+      - [12, 10, 2, 2]
+      - [8, 10, 0, 6]
+      - [11, 11, 0, 2]
+      - [7, 9, 2, 4]
+      - [12, 11, 2, 0]
+      - [10, 8, 0, 0]
+      - [9, 14, 0, 4]
+      - [7, 11, 2, 0]
+      - [12, 9, 2, 4]
+      - [8, 9, 0, 4]
+      - [11, 12, 0, 0]
+      - [9, 9, 2, 0]
+      - [10, 12, 2, 4]
+      - [9, 8, 0, 2]
+      - [10, 14, 0, 6]
+      - [10, 9, 2, 0]
+      - [9, 12, 2, 4]
+  - type: STR_INTERCEPTOR_HARD
+    listOrder: 80
+    sprite: 822
+    marker: 15
+    fuelMax: 1000
+    damageMax: 40
+    avoidBonus: 22
+    armor: 0
+    powerBonus: -20
+    speedMax: 1200
+    accel: 3
+    weapons: 2
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    requires:
+      - STR_CRAFT_HARD
+    costBuy: 350000
+    costSell: 350000
+    costRent: 350000
+    forceShowInMonthlyCosts: false
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 60
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 105
+    craftType: 1
+  - type: STR_SKYRAIDER_HARD
+    listOrder: 100
+    sprite: 824
+    marker: 16
+    fuelMax: 1200
+    damageMax: 80
+    avoidBonus: 6
+    armor: 4
+    powerBonus: -20
+    speedMax: 850
+    accel: 2
+    weapons: 4
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 8
+    maxItems: 192
+    vehicles: 1
+    requires:
+      - STR_CRAFT_HARD
+    costBuy: 450000
+    costSell: 450000
+    costRent: 450000
+    forceShowInMonthlyCosts: false
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 50
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 135
+    craftType: 2
+    battlescapeTerrainData:
+      name: SKYRAIDER
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: SKYRAIDER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+  - type: STR_MAMMOTH_HARD
+    listOrder: 110
+    sprite: 826
+    marker: 17
+    fuelMax: 1400
+    damageMax: 120
+    avoidBonus: 0
+    armor: 12
+    powerBonus: -20
+    speedMax: 640
+    accel: 1
+    weapons: 2
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 14
+    maxItems: 280
+    vehicles: 3
+    requires:
+      - STR_CRAFT_HARD
+    costBuy: 650000
+    costSell: 650000
+    costRent: 650000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
+    refuelRate: 40
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 96
+    score: 195
+    craftType: 2
+    battlescapeTerrainData:
+      name: MAMMOTH
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MAMMOTH
+          width: 20
+          length: 20
+    deployment:
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [8, 8, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [10, 8, 1, 0]
+      - [11, 8, 1, 0]
+      - [9, 9, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 10, 1, 0]
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+  - type: STR_INTERDICTOR_HARD
+    listOrder: 120
+    sprite: 823
+    marker: 15
+    fuelMax: 1200
+    damageMax: 80
+    avoidBonus: 25
+    armor: 0
+    powerBonus: -20
+    speedMax: 1600
+    accel: 4
+    weapons: 3
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    requires:
+      - STR_CRAFT_HARD
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 2112000
+    transferTime: 144
+    costSell: 1900000
+    costRent: 350000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 90
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 105
+  - type: STR_STORMCHARGER_HARD
+    listOrder: 140
+    sprite: 825
+    marker: 16
+    fuelMax: 1500
+    damageMax: 140
+    avoidBonus: 8
+    armor: 7
+    powerBonus: -20
+    speedMax: 1150
+    accel: 3
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 12
+    maxItems: 288
+    vehicles: 2
+    requires:
+      - STR_CRAFT_HARD
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 2860000
+    transferTime: 144
+    costSell: 2600000
+    costRent: 450000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 75
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 135
+    battlescapeTerrainData:
+      name: STORMCHARGER
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: STORMCHARGER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 7, 1, 0]
+      - [5, 7, 1, 0]
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [5, 12, 1, 4]
+      - [5, 13, 1, 4]
+      - [5, 14, 1, 2]
+      - [5, 15, 1, 0]
+  - type: STR_MASTODON_HARD
+    listOrder: 150
+    sprite: 827
+    marker: 17
+    fuelMax: 1800
+    damageMax: 200
+    avoidBonus: 0
+    armor: 21
+    powerBonus: -20
+    speedMax: 880
+    accel: 2
+    weapons: 3
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 18
+    maxItems: 360
+    vehicles: 4
+    requires:
+      - STR_CRAFT_HARD
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+    costBuy: 3905000
+    transferTime: 144
+    costSell: 3550000
+    costRent: 650000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 60
+    repairRate: 2
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 195
+    battlescapeTerrainData:
+      name: MASTODON
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MASTODON
+          width: 20
+          length: 20
+    deployment:
+      - [8, 6, 1, 0]
+      - [9, 6, 1, 0]
+      - [8, 7, 1, 0]
+      - [9, 7, 1, 0]
+      - [10, 6, 1, 0]
+      - [11, 6, 1, 0]
+      - [10, 7, 1, 0]
+      - [11, 7, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 8, 1, 0]
+      - [9, 9, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 11, 1, 0]
+      - [10, 11, 1, 0]
+      - [9, 12, 1, 4]
+      - [10, 12, 1, 4]
+      - [9, 14, 1, 0]
+      - [10, 14, 1, 0]
+  - type: STR_EXECUTIONER_HARD
+    listOrder: 160
+    sprite: 828
+    marker: 15
+    fuelMax: 1300
+    damageMax: 110
+    avoidBonus: 23
+    armor: 6
+    powerBonus: -20
+    speedMax: 1400
+    accel: 3
+    weapons: 3
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 2, 3, 11, 21, 31]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_LARGE
+    requires:
+      - STR_CRAFT_HARD
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+      - STR_LARGE_AIR_EQUIPMENT
+    costBuy: 2530000
+    costSell: 2300000
+    costRent: 400000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 110
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 120
+  - type: STR_EXTERMINATOR_HARD
+    listOrder: 170
+    sprite: 829
+    marker: 17
+    fuelMax: 1600
+    damageMax: 170
+    avoidBonus: 5
+    armor: 11
+    powerBonus: -20
+    speedMax: 1030
+    accel: 2
+    weapons: 4
+    weaponTypes:
+      - [1, 11]
+      - [1, 11]
+      - [1, 11]
+      - [1, 2, 3, 11, 21, 31]
+    weaponStrings:
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_LARGE
+    requires:
+      - STR_CRAFT_HARD
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+      - STR_LARGE_AIR_EQUIPMENT
+    soldiers: 14
+    maxItems: 252
+    vehicles: 3
+    costBuy: 5060000
+    costSell: 4600000
+    costRent: 800000
+    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
+    refuelRate: 90
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    transferTime: 120
+    score: 240
+    battlescapeTerrainData:
+      name: MAMMOTH
+      mapDataSets:
+        - BLANKS
+        - PLANEMOD
+      mapBlocks:
+        - name: MAMMOTH
+          width: 20
+          length: 20
+  - type: STR_FIRESTORM_HARD
+    listOrder: 200
+    sprite: 4
+    marker: 18
+    fuelMax: 60
+    damageMax: 200
+    avoidBonus: 15
+    armor: 0
+    powerBonus: -20
+    speedMax: 3000
+    accel: 7
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 12]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 12
+    maxItems: 336
+    vehicles: 2
+    costSell: 5400000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 4
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 40
+    spacecraft: true
+    battlescapeTerrainData:
+      name: FIRESTOR
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: FIRESTOR
+          width: 10
+          length: 10
+    deployment:
+      - [6, 4, 1, 6]
+      - [6, 5, 1, 6]
+      - [7, 4, 1, 6]
+      - [7, 5, 1, 6]
+      - [3, 4, 1, 2]
+      - [3, 5, 1, 2]
+      - [2, 4, 1, 2]
+      - [2, 5, 1, 2]
+      - [7, 3, 1, 4]
+      - [7, 6, 1, 0]
+      - [2, 3, 1, 4]
+      - [2, 6, 1, 0]
+  - type: STR_LIGHTNING_HARD
+    listOrder: 300
+    sprite: 1
+    marker: 19
+    fuelMax: 90
+    damageMax: 300
+    avoidBonus: 9
+    armor: 19
+    powerBonus: -20
+    speedMax: 1900
+    accel: 5
+    weapons: 3
+    weaponTypes:
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 18
+    maxItems: 432
+    vehicles: 4
+    costSell: 10200000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 3
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 80
+    spacecraft: true
+    battlescapeTerrainData:
+      name: LIGHTNI
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: LIGHTNI
+          width: 20
+          length: 20
+    deployment:
+      - [6, 9, 1, 6]
+      - [9, 6, 1, 0]
+      - [12, 9, 1, 2]
+      - [9, 13, 1, 4]
+      - [6, 10, 1, 6]
+      - [10, 6, 1, 0]
+      - [13, 10, 1, 2]
+      - [10, 13, 1, 4]
+      - [7, 9, 1, 6]
+      - [10, 7, 1, 0]
+      - [13, 9, 1, 2]
+      - [9, 12, 1, 4]
+      - [7, 10, 1, 6]
+      - [9, 7, 1, 0]
+      - [12, 10, 1, 2]
+      - [10, 12, 1, 4]
+      - [7, 8, 1, 6]
+      - [12, 11, 1, 2]
+  - type: STR_INFERNO_HARD
+    listOrder: 400
+    sprite: 2
+    marker: 20
+    fuelMax: 90
+    damageMax: 500
+    avoidBonus: 11
+    armor: 7
+    powerBonus: -20
+    speedMax: 3300
+    accel: 8
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 16
+    maxItems: 448
+    vehicles: 3
+    costSell: 14300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 15
+    repairRate: 5
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 80
+    spacecraft: true
+    battlescapeTerrainData:
+      name: AVENGERA
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+        - LIGHTNIAR
+      mapBlocks:
+        - name: AVENGERA
+          width: 10
+          length: 20
+    deployment:
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      - [3, 13, 1, 6]
+      - [6, 13, 1, 2]
+      - [3, 12, 1, 4]
+      - [6, 12, 1, 4]
+      - [3, 11, 1, 0]
+      - [6, 11, 1, 0]
+  - type: STR_TEMPEST_HARD
+    listOrder: 410
+    sprite: 825
+    marker: 21
+    fuelMax: 120
+    damageMax: 650
+    avoidBonus: 0
+    armor: 20
+    powerBonus: -20
+    speedMax: 2400
+    accel: 6
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 26
+    maxItems: 624
+    vehicles: 4
+    costSell: 28900000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 15
+    repairRate: 4
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    score: 120
+    spacecraft: true
+    battlescapeTerrainData:
+      name: TEMPEST
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - AVENGER
+        - LIGHTNIAR
+      mapBlocks:
+        - name: DROPSHIP_TEMPEST
+          width: 10
+          length: 20
+    deployment:
+      - [2, 4, 1, 0]
+      - [3, 4, 1, 0]
+      - [6, 4, 1, 0]
+      - [7, 4, 1, 0]
+      - [2, 5, 1, 0]
+      - [3, 5, 1, 0]
+      - [6, 5, 1, 0]
+      - [7, 5, 1, 0]
+      - [2, 6, 1, 0]
+      - [3, 6, 1, 0]
+      - [6, 6, 1, 0]
+      - [7, 6, 1, 0]
+      - [2, 7, 1, 0]
+      - [3, 7, 1, 0]
+      - [6, 7, 1, 0]
+      - [7, 7, 1, 0]
+      - [4, 4, 1, 0]
+      - [5, 4, 1, 0]
+      - [4, 5, 1, 0]
+      - [5, 5, 1, 0]
+      - [6, 11, 1, 2]
+      - [6, 12, 1, 2]
+      - [4, 12, 1, 4]
+      - [4, 14, 1, 0]
+      - [5, 12, 1, 4]
+      - [5, 14, 1, 0]
+  - type: STR_AMARANTH_HARD
+    listOrder: 420
+    sprite: 867
+    marker: 26
+    fuelMax: 900
+    damageMax: 600
+    shieldCapacity: 100
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 12
+    armor: 10
+    powerBonus: -20
+    speedMax: 3900
+    accel: 8
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 30
+    maxItems: 1200
+    vehicles: 2
+    craftInventoryTile: [6, 6, 1]
+    costSell: 56300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 90
+    repairRate: 6
+    shieldRechargedAtBase: 50
+    radarRange: 1050
+    sightRange: 1350
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 500
+    spacecraft: true
+    battlescapeTerrainData:
+      name: AMARANTH
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: AMARANTH
+          width: 20
+          length: 20
+    deployment:
+      - [9, 11, 1, 0]
+      - [9, 7, 1, 4]
+      - [10, 12, 1, 7]
+      - [10, 8, 1, 2]
+      - [12, 8, 1, 0]
+      - [7, 11, 1, 2]
+      - [11, 11, 1, 5]
+      - [8, 8, 1, 6]
+      - [8, 12, 1, 4]
+      - [11, 7, 1, 4]
+      - [7, 7, 1, 5]
+      - [12, 12, 1, 1]
+      - [10, 13, 1, 2]
+      - [9, 6, 1, 6]
+      - [13, 9, 1, 2]
+      - [6, 10, 1, 7]
+      - [10, 6, 1, 3]
+      - [9, 13, 1, 6]
+      - [6, 9, 1, 0]
+      - [13, 10, 1, 4]
+      - [12, 6, 1, 3]
+      - [7, 13, 1, 0]
+      - [13, 7, 1, 5]
+      - [6, 12, 1, 6]
+      - [5, 10, 1, 1]
+      - [15, 9, 1, 7]
+      - [3, 9, 1, 3]
+      - [9, 3, 1, 4]
+      - [10, 16, 1, 0]
+      - [11, 4, 1, 1]
+  - type: STR_HERACLES_HARD
+    listOrder: 430
+    sprite: 866
+    marker: 27
+    fuelMax: 480
+    damageMax: 1050
+    shieldCapacity: 250
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 5
+    armor: 20
+    powerBonus: -20
+    speedMax: 3300
+    accel: 7
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 12]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_SMALL
+    soldiers: 32
+    maxItems: 1920
+    vehicles: 8
+    craftInventoryTile: [10, 9, 0]
+    costSell: 94400000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 30
+    repairRate: 7
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 900
+    spacecraft: true
+    battlescapeTerrainData:
+      name: HERACLES
+      mapDataSets:
+        - BLANKS
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: HERACLES_TWO
+          width: 20
+          length: 20
+    deployment:
+      - [7, 13, 0, 4]
+      - [11, 5, 0, 0]
+      - [7, 5, 0, 0]
+      - [12, 13, 0, 5]
+      - [3, 9, 1, 6]
+      - [15, 9, 1, 2]
+      - [5, 9, 1, 6]
+      - [13, 9, 1, 2]
+      - [3, 12, 0, 0]
+      - [4, 8, 0, 6]
+      - [14, 8, 0, 2]
+      - [16, 11, 0, 2]
+      - [5, 10, 0, 5]
+      - [4, 6, 0, 3]
+      - [14, 5, 0, 3]
+      - [14, 12, 0, 2]
+      - [3, 8, 1, 3]
+      - [14, 7, 1, 3]
+      - [15, 11, 1, 0]
+      - [6, 12, 1, 6]
+      - [6, 11, 0, 6]
+      - [8, 8, 0, 4]
+      - [12, 8, 0, 4]
+      - [10, 10, 0, 1]
+      - [12, 9, 1, 2]
+      - [7, 10, 1, 6]
+      - [6, 5, 1, 4]
+      - [9, 6, 1, 2]
+      - [12, 6, 1, 0]
+      - [5, 13, 1, 6]
+      - [9, 14, 1, 4]
+      - [11, 13, 1, 5]
+  - type: STR_STARBLAZER_HARD
+    listOrder: 440
+    sprite: 868
+    marker: 28
+    fuelMax: 180
+    damageMax: 900
+    shieldCapacity: 200
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 8
+    armor: 16
+    powerBonus: -20
+    speedMax: 5300
+    accel: 11
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+    soldiers: 26
+    maxItems: 1560
+    vehicles: 6
+    costSell: 43300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 60
+    repairRate: 8
+    shieldRechargedAtBase: 50
+    radarRange: 600
+    sightRange: 900
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 600
+    spacecraft: true
+    battlescapeTerrainData:
+      name: STARBLAZER
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+        - LIGHTNIN
+        - LIGHTNIAR
+      mapBlocks:
+        - name: STARBLAZER
+          width: 20
+          length: 20
+    deployment:
+      - [6, 5, 1, 0]
+      - [12, 5, 1, 0]
+      - [7, 6, 1, 0]
+      - [13, 6, 1, 0]
+      - [6, 7, 1, 0]
+      - [12, 7, 1, 0]
+      - [7, 8, 1, 0]
+      - [13, 8, 1, 0]
+      - [8, 5, 1, 6]
+      - [10, 5, 1, 2]
+      - [9, 6, 1, 6]
+      - [11, 6, 1, 2]
+      - [8, 7, 1, 6]
+      - [10, 7, 1, 2]
+      - [9, 8, 1, 6]
+      - [11, 8, 1, 2]
+      - [8, 2, 2, 4]
+      - [10, 3, 2, 6]
+      - [8, 5, 2, 7]
+      - [9, 4, 2, 1]
+      - [10, 5, 2, 4]
+      - [10, 7, 2, 3]
+      - [8, 7, 2, 1]
+      - [9, 4, 1, 4]
+      - [10, 3, 1, 5]
+      - [11, 2, 2, 4]
+  - type: STR_DIVINITY_HARD
+    listOrder: 450
+    sprite: 832
+    marker: 29
+    fuelMax: 450
+    damageMax: 750
+    shieldCapacity: 150
+    shieldRechargeInGeoscape: 2
+    shieldBleedThrough: 100
+    avoidBonus: 10
+    armor: 13
+    powerBonus: -20
+    speedMax: 4200
+    accel: 10
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 3, 12, 22, 32]
+      - [1, 2, 12, 22]
+      - [1, 2, 12, 22]
+    weaponStrings:
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_LARGE
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+    soldiers: 28
+    maxItems: 1400
+    vehicles: 5
+    costSell: 66300000
+    refuelItem: STR_SPACECRAFT_FUEL
+    refuelRate: 45
+    repairRate: 7
+    shieldRechargedAtBase: 50
+    radarRange: 750
+    sightRange: 1050
+    radarChance: 40
+    undetectable: true
+    autoPatrol: true
+    score: 750
+    spacecraft: true
+    battlescapeTerrainData:
+      name: DRAGONFLY_DIVINITY
+      mapDataSets:
+        - BLANKS
+        - DRAGONFLY_DARK
+        - LIGHTNIN_DARK
+        - AVENGER_DARK
+        - LIGHTNIAR_DARK
+      mapBlocks:
+        - name: DRAGONFLY_DIVINITY
+          width: 20
+          length: 20
+    deployment:
+      - [9, 6, 1, 0]
+      - [10, 7, 1, 0]
+      - [9, 8, 1, 0]
+      - [10, 9, 1, 0]
+      - [9, 10, 1, 0]
+      - [10, 11, 1, 0]
+      - [9, 12, 1, 0]
+      - [10, 13, 1, 0]
+      - [9, 14, 1, 0]
+      - [10, 15, 1, 0]
+      - [7, 10, 2, 6]
+      - [12, 10, 2, 2]
+      - [8, 10, 0, 6]
+      - [11, 11, 0, 2]
+      - [7, 9, 2, 4]
+      - [12, 11, 2, 0]
+      - [10, 8, 0, 0]
+      - [9, 14, 0, 4]
+      - [7, 11, 2, 0]
+      - [12, 9, 2, 4]
+      - [8, 9, 0, 4]
+      - [11, 12, 0, 0]
+      - [9, 9, 2, 0]
+      - [10, 12, 2, 4]
+      - [9, 8, 0, 2]
+      - [10, 14, 0, 6]
+      - [10, 9, 2, 0]
+      - [9, 12, 2, 4]
+  - type: STR_WELCOME_GIFT_UP

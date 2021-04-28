@@ -1,0 +1,353 @@
+startingBase:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 0
+      y: 0
+    - type: STR_SECURITY_ROOM_PLASMA
+      x: 0
+      y: 1
+    - type: STR_SECURITY_ROOM_PLASMA
+      x: 1
+      y: 0
+    - type: STR_SECURITY_ROOM_PLASMA
+      x: 1
+      y: 1
+    - type: STR_LIVING_QUARTERS_LARGE
+      x: 2
+      y: 0
+    - type: STR_LABORATORY_LARGE
+      x: 4
+      y: 0
+    - type: STR_GENERAL_STORES_LARGE
+      x: 0
+      y: 2
+    - type: STR_BARRACKS
+      x: 2
+      y: 2
+    - type: STR_GENERAL_STORES_LARGE
+      x: 4
+      y: 2
+    - type: STR_BARRACKS
+      x: 0
+      y: 4
+    - type: STR_FUSION_BALL_DEFENSES
+      x: 2
+      y: 4
+    - type: STR_HYPER_WAVE_DECODER
+      x: 2
+      y: 5
+    - type: STR_WORKSHOP
+      x: 3
+      y: 4
+    - type: STR_LIVING_QUARTERS
+      x: 3
+      y: 5
+    - type: STR_LIVING_QUARTERS
+      x: 4
+      y: 4
+    - type: STR_CORRIDOR
+      x: 4
+      y: 5
+    - type: STR_EMPTY_ROOM
+      x: 5
+      y: 4
+    - type: STR_EMPTY_ROOM
+      x: 5
+      y: 5
+  randomSoldiers:
+   STR_SUPER_PSIBORG: 25
+  crafts:
+    # - type: STR_INTERCEPTOR
+      # id: 1
+      # fuel: 1000
+      # damage: 0
+      # status: STR_READY
+    # - type: STR_SKYRAIDER
+      # id: 1
+      # fuel: 1200
+      # damage: 0
+      # status: STR_READY
+    # - type: STR_MAMMOTH
+      # id: 1
+      # fuel: 1400
+      # damage: 0
+      # status: STR_READY
+    # - type: STR_INTERDICTOR
+      # id: 1
+      # fuel: 1200
+      # damage: 0
+      # status: STR_READY
+    # - type: STR_STORMCHARGER
+      # id: 1
+      # fuel: 1500
+      # damage: 0
+      # status: STR_READY
+    # - type: STR_MASTODON
+      # id: 1
+      # fuel: 1800
+      # damage: 0
+      # status: STR_READY
+    - type: STR_EXECUTIONER
+      id: 1
+      fuel: 1300
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_CRAFT_LIGHT_PLASMA_UC
+          ammo: 12
+        - type: STR_CRAFT_LIGHT_PLASMA_UC
+          ammo: 12
+        - type: STR_SUITE_ASCENSION
+    - type: STR_EXTERMINATOR
+      id: 1
+      fuel: 1600
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_BOOST_ENGINES
+        - type: STR_BOOST_PLATING_ARMOR
+        - type: STR_MOD_TARGETING_CRITICAL
+        - type: STR_RAMPAGE
+          ammo: 6
+    # - type: STR_FIRESTORM
+      # id: 1
+      # fuel: 40
+      # damage: 0
+      # status: STR_READY
+    # - type: STR_LIGHTNING
+      # id: 1
+      # fuel: 80
+      # damage: 0
+      # status: STR_READY
+    # - type: STR_INFERNO
+      # id: 1
+      # fuel: 80
+      # damage: 0
+      # status: STR_READY
+    # - type: STR_TEMPEST
+      # id: 1
+      # fuel: 120
+      # damage: 0
+      # status: STR_READY
+    - type: STR_AMARANTH_HARD
+      id: 1
+      fuel: 1080
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_SUITE_RECON
+        - type: STR_SUITE_COMBAT
+        - type: STR_PLASMA_AUTOCANNON_UC
+          ammo: 80
+        - type: STR_ALLOY_CANNON_UC
+          ammo: 200
+    - type: STR_HERACLES
+      id: 1
+      fuel: 480
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_SUITE_COMBAT
+        - type: STR_SUITE_COMBAT
+        - type: STR_BOOST_PLATING_ARMOR
+        - type: STR_BOOST_PLATING_ARMOR
+    - type: STR_STARBLAZER
+      id: 1
+      fuel: 180
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_DEVASTATOR_PLASMA_UC
+          ammo: 40
+        - type: STR_DEVASTATOR_PLASMA_UC
+          ammo: 40
+        - type: STR_SUITE_COMBAT
+        - type: STR_SUITE_COMBAT
+    - type: STR_DIVINITY
+      id: 1
+      fuel: 450
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_SUITE_COMBAT
+        - type: STR_BOOST_PLATING_EVASION
+        - type: STR_PACKAGE_PARAGON
+        - type: STR_PACKAGE_PARAGON
+  items:
+    STR_CANNON: 2
+    STR_CANNON_ROUNDS_X50: 32
+    STR_STARLING_LAUNCHER: 2
+    STR_STARLING_MISSILES: 32
+    STR_STINGRAY_LAUNCHER: 2
+    STR_STINGRAY_MISSILES: 80
+    STR_AVALANCHE_LAUNCHER: 2
+    STR_AVALANCHE_MISSILES: 24
+    STR_ALLOY_CANNON: 4
+    STR_ALLOY_CANNON_ROUNDS_X25: 128
+    STR_SHRIKE_LAUNCHER: 4
+    STR_SHRIKE_MISSILES: 96
+    STR_SCORPION_LAUNCHER: 4
+    STR_SCORPION_MISSILES: 240
+    STR_TORRENT_LAUNCHER: 4
+    STR_TORRENT_MISSILES: 80
+    STR_RAMPAGE_LAUNCHER: 4
+    STR_RAMPAGE_MISSILES: 96
+    STR_CRAFT_LIGHT_LASER: 4
+    STR_PULSE_CANNON: 4
+    STR_LASER_CANNON: 4
+    STR_TITAN_LASER_CANNON: 4
+    STR_CRAFT_LIGHT_PLASMA: 4
+    STR_CRAFT_LP_AMMO: 192
+    STR_PLASMA_AUTOCANNON: 4
+    STR_PLASMA_AC_AMMO: 1280
+    STR_PLASMA_BEAM: 4
+    STR_PLASMA_BEAM_AMMO: 192
+    STR_DEVASTATOR_PLASMA: 4
+    STR_DEVASTATOR_PLASMA_AMMO: 640
+    STR_FUSION_BALL_LAUNCHER: 4
+    STR_FUSION_BALL: 48
+    STR_HEAVY_FUSION_BALL_LAUNCHER: 4
+    STR_HEAVY_FUSION_BALL: 16
+    STR_LIGHT_TRACTOR_BEAM: 4
+    STR_MEDIUM_TRACTOR_BEAM: 4
+    STR_HEAVY_TRACTOR_BEAM: 4
+    STR_UPGRADE_FUEL_TANKS_SMALL_UG: 4
+    STR_UPGRADE_FUEL_TANKS_MEDIUM_UG: 2
+    STR_UPGRADE_ENGINES_SMALL_UG: 4
+    STR_UPGRADE_ENGINES_MEDIUM_UG: 2
+    STR_UPGRADE_RADAR_SMALL_UG: 4
+    STR_UPGRADE_RADAR_MEDIUM_UG: 2
+    STR_UPGRADE_PLATING_SMALL_UG: 4
+    STR_UPGRADE_PLATING_MEDIUM_UG: 2
+    STR_ALLOY_FUEL_TANKS_UG: 8
+    STR_ALLOY_ENGINES_UG: 8
+    STR_ALLOY_POWER_SOURCE_UG: 8
+    STR_ALLOY_PLATING_ARMOR_UG: 8
+    STR_ALLOY_PLATING_EVASION_UG: 8
+    STR_MOD_TARGETING_UG: 8
+    STR_BOOST_ENGINES_UG: 8
+    STR_BOOST_POWER_SOURCE_UG: 8
+    STR_BOOST_RADAR_UG: 8
+    STR_BOOST_PLATING_ARMOR_UG: 8
+    STR_BOOST_PLATING_EVASION_UG: 8
+    STR_BOOST_PLATING_SHIELDS_UG: 8
+    STR_MOD_TARGETING_CRITICAL_UG: 8
+    STR_PACKAGE_PURSUER_UG: 4
+    STR_PACKAGE_BRAWLER_UG: 4
+    STR_PACKAGE_SENTINEL_UG: 4
+    STR_PACKAGE_PARAGON_UG: 4
+    STR_PACKAGE_CHAMPION_UG: 4
+    STR_PACKAGE_SUBJUGATOR_UG: 4
+    STR_SUITE_COMBAT_UG: 9
+    STR_SUITE_RECON_UG: 3
+    STR_SPACECRAFT_FUEL: 1000
+    STR_TANK_LASER_GUARDIAN: 2
+    STR_TANK_LASER: 2
+    STR_TANK_LASER_ASSAULT: 2
+    STR_TANK_AE_ROCKET_GUARDIAN: 2
+    STR_HWP_G_AE_ROCKETS: 44
+    STR_TANK_AE_ROCKET_BATTLE: 2
+    STR_HWP_B_AE_ROCKETS: 32
+    STR_TANK_AE_ROCKET_ASSAULT: 2
+    STR_HWP_A_AE_ROCKETS: 20
+    STR_TANK_CERBERUS: 4
+    STR_HWP_CERBERUS_FLASH_BOMBS_X5: 80
+    STR_TANK_VIGILANTE: 4
+    STR_HWP_VIGILANTE_PENETRATOR_ROUNDS: 120
+    STR_COMBAT_KNIFE: 12
+    STR_POWER_KNIFE: 12
+    STR_POWER_SWORD: 12
+    STR_POWER_BATON: 12
+    STR_STUN_ROD: 12
+    STR_SUPER_STUN_LANCE: 12
+    STR_HEAVY_CANNON: 8
+    STR_HC_AP_AMMO: 16
+    STR_HC_HE_AMMO: 16
+    STR_HC_ALLOY_AMMO: 32
+    STR_HC_AE_AMMO: 32
+    STR_AUTO_CANNON: 8
+    STR_AC_AP_AMMO: 16
+    STR_AC_HE_AMMO: 16
+    STR_AC_ALLOY_AMMO: 32
+    STR_AC_AE_AMMO: 32
+    STR_ROCKET_LAUNCHER: 8
+    STR_SMALL_ROCKET: 32
+    STR_ALIEN_ROCKET: 48
+    STR_FUSION_ROCKET: 16
+    STR_GRENADE_LAUNCHER: 8
+    STR_GRENADE_ROUND_SM: 80
+    STR_GRENADE_ROUND_AE: 96
+    STR_GRENADE_ROUND_ST: 48
+    STR_BLASTER_LAUNCHER_TERRAN: 8
+    STR_BLASTER_BOMB: 32
+    STR_BLASTER_HE_BOMB: 48
+    STR_BLASTER_I_BOMB: 16
+    STR_BLASTER_STUN_BOMB: 16
+    STR_SMALL_LAUNCHER_TERRAN: 8
+    STR_STUN_BOMB: 80
+    STR_HE_BOMB: 96
+    STR_SMOKE_BOMB: 48
+    STR_INCENDIARY_BOMB: 48
+    STR_GRENADE: 60
+    STR_SMOKE_GRENADE: 60
+    STR_ELECTRO_FLARE: 30
+    STR_ALIEN_ALLOYS: 500
+    STR_ELERIUM_115: 500
+    STR_UFO_POWER_SOURCE: 20
+    STR_UFO_NAVIGATION: 30
+    STR_UFO_PLASMA_ARRAY: 800
+    STR_UFO_PLASMA_EMITTER: 18
+    STR_UFO_SHIELD_EMITTER: 30
+    STR_HEAVY_PLASMA: 10
+    STR_HEAVY_PLASMA_CLIP: 20
+    STR_PLASMA_RIFLE: 10
+    STR_PLASMA_RIFLE_CLIP: 20
+    STR_PLASMA_PISTOL: 10
+    STR_PLASMA_PISTOL_CLIP: 20
+    STR_BLASTER_LAUNCHER: 10
+    STR_SMALL_LAUNCHER: 10
+    STR_LASER_PISTOL: 10
+    STR_LASER_AUTO_PISTOL: 10
+    STR_LASER_RIFLE: 10
+    STR_LASER_PULSE_RIFLE: 10
+    STR_HEAVY_LASER: 10
+    STR_HEAVY_AUTO_LASER: 10
+    STR_HEAVY_PLASMA_TERRAN: 10
+    STR_HEAVY_PLASMA_TERRAN_CLIP: 20
+    STR_PLASMA_RIFLE_TERRAN: 10
+    STR_PLASMA_RIFLE_TERRAN_CLIP: 20
+    STR_PLASMA_PISTOL_TERRAN: 10
+    STR_PLASMA_PISTOL_TERRAN_CLIP: 20
+    STR_PLASMA_ASSAULT_CANNON: 10
+    STR_PLASMA_ASSAULT_CANNON_CLIP: 20
+    STR_PLASMA_MACHINEGUN: 10
+    STR_PLASMA_MACHINEGUN_CLIP: 20
+    STR_PLASMA_AUTO_PISTOL: 10
+    STR_PLASMA_AUTO_PISTOL_CLIP: 20
+    STR_ALIEN_GRENADE: 40
+    STR_HEAVY_ARMOR: 10
+    STR_STEALTH_GEAR: 10
+    STR_PERSONAL_ARMOR_L: 10
+    STR_PERSONAL_ARMOR_HEAVY: 10
+    STR_NIGHT_OPS_ARMOR: 10
+    STR_PSIONIC_ARMOR: 10
+    STR_POWER_SUIT: 10
+    STR_FLYING_SUIT: 10
+    STR_PSI_DEFENSE_ARMOR: 10
+    STR_PSI_ATTACK_ARMOR: 10
+    STR_PALADIN_ARMOR: 10
+    STR_ASSASSIN_ARMOR: 10
+    STR_AE_PROXIMITY_GRENADE: 20
+    STR_AE_HIGH_EXPLOSIVE: 20
+    STR_FUSION_HIGH_EXPLOSIVE: 20
+    STR_FIRST_AID_KIT: 10
+    STR_MEDI_KIT: 20
+    STR_MEDI_KIT_SUPER: 10
+    STR_MOTION_SCANNER: 20
+    STR_MIND_PROBE: 20
+    STR_FEAR_PROJECTOR: 20
+    STR_PSI_AMP: 20
+    STR_PSIONIC_DISRUPTOR: 10
+    STR_WELCOME_GIFT: 100
+  scientists: 125
+  engineers: 25

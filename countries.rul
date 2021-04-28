@@ -1,0 +1,49 @@
+countries:
+  - type: STR_USA
+    fundingBase: 750
+    fundingCap: 10000
+  - type: STR_RUSSIA
+    fundingBase: 290
+    fundingCap: 8000
+  - type: STR_UK
+    fundingBase: 300
+    fundingCap: 7000
+  - type: STR_FRANCE
+    fundingBase: 400
+    fundingCap: 8000
+  - type: STR_GERMANY
+    fundingBase: 310
+    fundingCap: 9000
+  - type: STR_ITALY
+    fundingBase: 200
+    fundingCap: 6000
+  - type: STR_SPAIN
+    fundingBase: 175
+    fundingCap: 5000
+  - type: STR_CHINA
+    fundingBase: 305
+    fundingCap: 7000
+  - type: STR_JAPAN
+    fundingBase: 500
+    fundingCap: 10000
+  - type: STR_INDIA
+    fundingBase: 190
+    fundingCap: 5000
+  - type: STR_BRAZIL
+    fundingBase: 375
+    fundingCap: 4000
+  - type: STR_AUSTRALIA
+    fundingBase: 350
+    fundingCap: 5000
+  - type: STR_NIGERIA
+    fundingBase: 225
+    fundingCap: 2000
+  - type: STR_SOUTH_AFRICA
+    fundingBase: 290
+    fundingCap: 3000
+  - type: STR_EGYPT
+    fundingBase: 285
+    fundingCap: 2000
+  - type: STR_CANADA
+    fundingBase: 290
+    fundingCap: 4000

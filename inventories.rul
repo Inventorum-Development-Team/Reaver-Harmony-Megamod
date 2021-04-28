@@ -1,0 +1,47 @@
+invs:
+  - id: STR_RIGHT_HAND
+    x: 0
+    y: 59
+  - id: STR_LEFT_HAND
+    x: 128
+    y: 59
+  - id: STR_RIGHT_LEG
+    x: 2
+    y: 116
+    slots:
+      - [2, 0]
+      - [2, 1]
+  - id: STR_LEFT_LEG
+    x: 110
+    y: 116
+    slots:
+      - [0, 0]
+      - [0, 1]
+  - id: STR_RIGHT_SHOULDER
+    x: 16
+    y: 33
+    slots:
+      - [0, 0]
+      - [1, 0]
+  - id: STR_LEFT_SHOULDER
+    x: 112
+    y: 33
+    slots:
+      - [0, 0]
+      - [1, 0]
+  - id: STR_BACK_PACK
+    x: 192
+    y: 29
+    slots:
+      - [0, 0]
+      - [1, 0]
+      - [2, 0]
+      - [0, 1]
+      - [1, 1]
+      - [2, 1]
+      - [0, 2]
+      - [1, 2]
+      - [2, 2]
+      - [0, 3]
+      - [1, 3]
+      - [2, 3]

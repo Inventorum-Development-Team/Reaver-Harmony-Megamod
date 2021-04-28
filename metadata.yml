@@ -1,0 +1,103 @@
+#
+# metadata.yaml for Reaver's Xcom Harmony
+#
+#================================
+#   The Reaver of Darkness
+#            and
+# Inventorum Development Team
+#      proudly present:
+#
+#   REAVER'S X-COM: HARMONY
+#================================
+#
+# changelog:
+#  0.9.0:   Public release into open beta.
+#
+#
+# resource authors/sources:
+# Chiko: alien and terran plasma variants
+#		* https://openxcom.org/forum/index.php/topic,383.0.html
+#		* available via Chiko's Alternate Xcom
+# Shadow: variations on Chiko's designs and blue plasma bullet sprite
+#		* https://openxcom.org/forum/index.php/topic,1710.0.html
+#		* obtained via Terran Plasma Weapons
+# CanadianBeaver: auto-pistol, submachinegun, automatic lasers, first aid kit, and a few other items
+#		* https://openxcom.org/forum/index.php?topic=4823.0
+#		* obtained via Awesome Guns
+#		* additional credits on mod page
+# Dioxine: large general stores and living quarters sprites, large and small living quarters maps
+#		* https://openxcom.org/forum/index.php?topic=2806.0
+#		* obtained via Improved Living Quarters + Large Stores
+# Ryskeliini: heavy armor design
+#		* https://openxcom.org/forum/index.php?topic=1281.0
+#		* available via Combat Armor (Warboy1982)
+# Robin: variation of Ryskeliini's sprites
+#		* http://www.openxcom.com/mod/armored-vest
+#		* obtained via Armored Vest
+# XOps: corridor and large laboratory, radar, and hyper wave decoder sprites
+#		* http://www.openxcom.com/mod/armored-vest
+#		* obtained via Xeno Operations
+# The_Funktasm: terran launcher variants
+#		* https://openxcom.org/forum/index.php/topic,4983.0.html
+#		* obtained via The_Funktasm's Crap-U-Copia
+# wolwerin: heavy klin sprite (edited for tank auxiliary weapons)
+#		* obtained via I.D.T Discord channel
+# bulletdesigner: Tarantula turret sprite (used for security turrets)
+#		* obtained via 40k
+#		* 40k\Resources\Tarantula\LBOLTERDR18.png
+# ohartenstein23: unit spawn egg script
+#		* obtained via 40k
+# Harald_Gray: original mechtoid
+#       * https://openxcom.org/forum/index.php?topic=2746.0
+#		* obtained via Hardmode Expansion
+#       * further edited within Hardmode Expansion
+# Arathanor, Starvingpoet: smoke and stun explosions
+#       * https://openxcom.mod.io/extra-explosions
+#		* obtained via Extra Explosions
+# Inventorum Development Team/efrenespartano: air equipment sprites + rampage missile sprite
+#       * obtained via https://github.com/Inventorum-Development-Team/IDT_UNEXCOM/tree/master/Resources
+#
+#
+# tool authors/sources:
+# Volutar: MCDEdit
+#		* https://ufopaedia.org/index.php/MCDEdit
+#		uses: edit MCD tileset pieces and images
+# DaiShiva: MapView
+#		* http://openxcommods.weebly.com/mapview.html
+#		uses: edit battlescape maps
+# Bomb Bloke//Humax: XCOMExtractor
+#		* http://www.openxcom.com/mod/xcom-image-extractor
+#		uses: convert .PCK images into .gif format
+# Mark Tyler: mtPaint
+#		* http://mtpaint.sourceforge.net/
+#		uses: pixel editor which preserves palettes
+# Falko: SpriteConverter and PaletteConverter tools
+#		* https://falkooxc2.pythonanywhere.com/
+#		uses: make spritesheets, fix palettes, perform palette swaps
+# The GIMP Development Team: GNU Image Manipulation Program
+#       * https://www.gimp.org/
+#       uses: perform palette migrations into X-Com palettes
+# 
+#
+# The Reaver of Darkness(myself): all battlescape maps in this mod unless otherwise stated; various tiles
+#		in LIGHTNIA.MCD; red/blue laser pistol and heavy laser; blue plasma auto pistol and assault cannon;
+#		smoke, fusion, and alternate incendiary rockets; conventional ammo for blaster and small launchers;
+#		additional graphics for the plasma rifle; alien explosive cannon ammo; sprites for Heracles and
+#		Stalker, Sectopod green laser graphic, Large Workshop sprite and map; tank color swaps; tank
+#       auxiliary weapons (edits of wolwerin's sprites); power suit weapons (edits of xops' sprites); color
+#       swaps of several aliens; night lighting fix of terrain; rearranged map tiles for base defense; UFO
+#       components on top of UFO; new map blocks for Cydonia and Terror Beacon; edits to Luke's UFOs; short
+#       Harvester map variants; Battleship map variants; new UFO maps;
+#
+# Anything not credited here is not necessarily done by me, and may simply be uncredited. Please notify me
+# of any of these you find. If you know who to give credit to, please mention this as well. Best way to
+# contact me is currently via Discord, I am thereaverofdarkness#2362. I can also be contacted via the
+# OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
+
+name: "ReaverXcom Harmony"
+version: 0.9.0
+description: "A massive expansion in the spirit of the original game."
+author: The Reaver of Darkness & Inventorum Development Team
+
+master: xcom1
+reservedSpace: 2

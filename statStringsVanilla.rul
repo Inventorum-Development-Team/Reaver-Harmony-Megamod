@@ -1,0 +1,65 @@
+# These statStrings are based on my four soldier classes, and are calibrated to vanilla soldier attributes.
+# b minor breacher
+# B Major Breacher
+# r minor ranger
+# R Major Ranger
+# s minor sniper
+# S Major Sniper
+# h minor heavy
+# H Major Heavy
+# $ psi wizard
+# ! low bravery or psi strength
+# ` low movement, firing, or strength
+  # statStrings:
+  # - string: "b"
+    # reactions: [50, 59]
+    # health: [30, 39]
+  # - string: "b"
+    # reactions: [50, 59]
+    # health: [40, ~]
+  # - string: "b"
+    # reactions: [60, ~]
+    # health: [30, 39]
+  # - string: "B"
+    # reactions: [60, ~]
+    # health: [40, ~]
+  # - string: "r"
+    # tu: [55, 59]
+    # stamina: [60, 69]
+  # - string: "r"
+    # tu: [55, 59]
+    # stamina: [70, ~]
+  # - string: "r"
+    # tu: [60, ~]
+    # stamina: [60, 69]
+  # - string: "R"
+    # tu: [60, ~]
+    # stamina: [70, ~]
+  # - string: "s"
+    # firing: [60, 74]
+  # - string: "S"
+    # firing: [75, ~]
+  # - string: "h"
+    # strength: [33, 44]
+  # - string: "H"
+    # strength: [45, ~]
+  # - string: "$"
+    # psiStrength: [60, 69]
+    # psiSkill: [60, ~]
+  # - string: "$"
+    # psiStrength: [70, 79]
+    # psiSkill: [48, 59]
+  # - string: "$"
+    # psiStrength: [80, ~]
+    # psiSkill: [40, 47]
+  # - string: "!"
+    # bravery: [~, 20]
+  # - string: "!"
+    # psiStrength: [~, 39]
+  # - string: "`"
+    # tu: [~, 53]
+    # stamina: [~, 49]
+  # - string: "`"
+    # firing: [~, 49]
+  # - string: "`"
+    # strength: [~, 24]

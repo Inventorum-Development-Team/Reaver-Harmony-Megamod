@@ -1,0 +1,789 @@
+craftWeapons:
+  - type: STR_CANNON_UC
+    listOrder: 100
+    sprite: 2
+    sound: 4
+    damage: 25
+    shieldDamageModifier: 10
+    range: 10
+    accuracy: 40
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 8
+    ammoMax: 200
+    rearmRate: 50
+    launcher: STR_CANNON
+    clip: STR_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8
+    weaponType: 1
+  - type: STR_STARLING
+    listOrder: 190
+    sprite: 0
+    sound: 301
+    damage: 50
+    shieldDamageModifier: 10
+    range: 33
+    accuracy: 90
+    reloadCautious: 72
+    reloadStandard: 54
+    reloadAggressive: 36
+    ammoMax: 4
+    rearmRate: 2
+    launcher: STR_STARLING_LAUNCHER
+    clip: STR_STARLING_MISSILES
+    projectileType: 0
+    projectileSpeed: 5
+    weaponType: 1
+  - type: STR_STINGRAY
+    listOrder: 200
+    sprite: 0
+    sound: 301
+    damage: 60
+    shieldDamageModifier: 10
+    range: 27
+    accuracy: 100
+    reloadCautious: 48
+    reloadStandard: 36
+    reloadAggressive: 24
+    ammoMax: 10
+    rearmRate: 2
+    launcher: STR_STINGRAY_LAUNCHER
+    clip: STR_STINGRAY_MISSILES
+    projectileType: 0
+    projectileSpeed: 6
+    weaponType: 2
+  - type: STR_AVALANCHE
+    listOrder: 300
+    sprite: 1
+    sound: 303
+    damage: 100
+    shieldDamageModifier: 10
+    range: 55
+    accuracy: 75
+    reloadCautious: 192
+    reloadStandard: 144
+    reloadAggressive: 96
+    ammoMax: 3
+    rearmRate: 1
+    launcher: STR_AVALANCHE_LAUNCHER
+    clip: STR_AVALANCHE_MISSILES
+    projectileType: 1
+    projectileSpeed: 4
+    weaponType: 2
+  - type: STR_ALLOY_CANNON_UC
+    listOrder: 110
+    sprite: 2
+    sound: 304
+    damage: 30
+    shieldDamageModifier: 10
+    range: 12
+    accuracy: 52
+    reloadCautious: 6
+    reloadStandard: 6
+    reloadAggressive: 6
+    ammoMax: 200
+    rearmRate: 50
+    launcher: STR_ALLOY_CANNON
+    clip: STR_ALLOY_CANNON_ROUNDS_X25
+    projectileType: 2
+    projectileSpeed: 9
+    weaponType: 1
+  - type: STR_SHRIKE
+    listOrder: 160
+    sprite: 0
+    sound: 301
+    damage: 60
+    shieldDamageModifier: 10
+    range: 37
+    accuracy: 110
+    reloadCautious: 48
+    reloadStandard: 36
+    reloadAggressive: 24
+    ammoMax: 6
+    rearmRate: 2
+    launcher: STR_SHRIKE_LAUNCHER
+    clip: STR_SHRIKE_MISSILES
+    projectileType: 0
+    projectileSpeed: 7 #7.5
+    weaponType: 1
+  - type: STR_SCORPION
+    listOrder: 210
+    sprite: 0
+    sound: 301
+    damage: 70
+    shieldDamageModifier: 10
+    range: 32
+    accuracy: 120
+    reloadCautious: 32
+    reloadStandard: 24
+    reloadAggressive: 16
+    ammoMax: 15
+    rearmRate: 3
+    launcher: STR_SCORPION_LAUNCHER
+    clip: STR_SCORPION_MISSILES
+    projectileType: 0
+    projectileSpeed: 9
+    weaponType: 2
+  - type: STR_TORRENT
+    listOrder: 310
+    sprite: 1
+    sound: 303
+    damage: 120
+    shieldDamageModifier: 10
+    range: 60
+    accuracy: 90
+    reloadCautious: 128
+    reloadStandard: 96
+    reloadAggressive: 64
+    ammoMax: 5
+    rearmRate: 2
+    launcher: STR_TORRENT_LAUNCHER
+    clip: STR_TORRENT_MISSILES
+    projectileType: 1
+    projectileSpeed: 6
+    weaponType: 2
+  - type: STR_RAMPAGE
+    listOrder: 320
+    sprite: 1
+    sound: 309
+    damage: 280
+    shieldDamageModifier: 10
+    range: 48
+    accuracy: 105
+    reloadCautious: 192
+    reloadStandard: 144
+    reloadAggressive: 96
+    ammoMax: 6
+    rearmRate: 1
+    launcher: STR_RAMPAGE_LAUNCHER
+    clip: STR_RAMPAGE_MISSILES
+    projectileType: 1
+    projectileSpeed: 5
+    weaponType: 3
+  - type: STR_CRAFT_LIGHT_LASER_UC
+    listOrder: 380
+    sprite: 11
+    sound: 300
+    damage: 65
+    shieldDamageModifier: 10
+    range: 34
+    accuracy: 110
+    reloadCautious: 96
+    reloadStandard: 96
+    reloadAggressive: 96
+    ammoMax: 100
+    rearmRate: 50
+    launcher: STR_CRAFT_LIGHT_LASER
+    projectileType: 4
+    weaponType: 1
+  - type: STR_PULSE_CANNON_UC
+    listOrder: 390
+    sprite: 11
+    sound: 300
+    damage: 45
+    shieldDamageModifier: 10
+    range: 25
+    accuracy: 125
+    reloadCautious: 20
+    reloadStandard: 20
+    reloadAggressive: 20
+    ammoMax: 250
+    rearmRate: 125
+    launcher: STR_PULSE_CANNON
+    projectileType: 4
+    weaponType: 2
+  - type: STR_LASER_CANNON_UC
+    listOrder: 400
+    sprite: 4
+    sound: 302
+    damage: 160
+    shieldDamageModifier: 10
+    range: 44
+    accuracy: 95
+    reloadCautious: 150
+    reloadStandard: 150
+    reloadAggressive: 150
+    ammoMax: 50
+    rearmRate: 25
+    launcher: STR_LASER_CANNON
+    projectileType: 5
+    weaponType: 2
+  - type: STR_TITAN_LASER_CANNON_UC
+    listOrder: 410
+    sprite: 4
+    sound: 302
+    damage: 400
+    shieldDamageModifier: 10
+    range: 35
+    accuracy: 133
+    reloadCautious: 160
+    reloadStandard: 160
+    reloadAggressive: 160
+    ammoMax: 25
+    rearmRate: 10
+    launcher: STR_TITAN_LASER_CANNON
+    projectileType: 5
+    weaponType: 3
+  - type: STR_CRAFT_LIGHT_PLASMA_UC
+    listOrder: 480
+    sprite: 12
+    sound: 308
+    damage: 105
+    shieldDamageModifier: 10
+    range: 36
+    accuracy: 78
+    reloadCautious: 54
+    reloadStandard: 54
+    reloadAggressive: 54
+    ammoMax: 12
+    rearmRate: 6
+    launcher: STR_CRAFT_LIGHT_PLASMA
+    clip: STR_CRAFT_LP_AMMO
+    projectileType: 4
+    weaponType: 1
+  - type: STR_PLASMA_AUTOCANNON_UC
+    listOrder: 490
+    sprite: 12
+    sound: 305
+    damage: 60
+    shieldDamageModifier: 10
+    range: 30
+    accuracy: 90
+    reloadCautious: 12
+    reloadStandard: 12
+    reloadAggressive: 12
+    ammoMax: 80
+    rearmRate: 20
+    launcher: STR_PLASMA_AUTOCANNON
+    clip: STR_PLASMA_AC_AMMO
+    projectileType: 4
+    weaponType: 2
+  - type: STR_PLASMA_BEAM_UC
+    listOrder: 500
+    sprite: 5
+    sound: 308
+    damage: 210
+    shieldDamageModifier: 10
+    range: 47
+    accuracy: 72
+    reloadCautious: 72
+    reloadStandard: 72
+    reloadAggressive: 72
+    ammoMax: 12
+    rearmRate: 4
+    launcher: STR_PLASMA_BEAM
+    clip: STR_PLASMA_BEAM_AMMO
+    projectileType: 5
+    weaponType: 2
+  - type: STR_DEVASTATOR_PLASMA_UC
+    listOrder: 510
+    sprite: 5
+    sound: 308
+    damage: 180
+    shieldDamageModifier: 10
+    range: 42
+    accuracy: 78
+    reloadCautious: 24
+    reloadStandard: 24
+    reloadAggressive: 24
+    ammoMax: 40
+    rearmRate: 5
+    launcher: STR_DEVASTATOR_PLASMA
+    clip: STR_DEVASTATOR_PLASMA_AMMO
+    projectileType: 5
+    weaponType: 3
+  - type: STR_FUSION_BALL_UC
+    listOrder: 600
+    sprite: 13
+    sound: 306
+    damage: 900
+    shieldDamageModifier: 10
+    range: 56
+    accuracy: 150
+    reloadCautious: 104 #128
+    reloadStandard: 78 #96
+    reloadAggressive: 52 #64
+    ammoMax: 8
+    rearmRate: 2
+    launcher: STR_FUSION_BALL_LAUNCHER
+    clip: STR_FUSION_BALL
+    projectileType: 3
+    projectileSpeed: 8 #7.5
+    weaponType: 3
+  - type: STR_HEAVY_FUSION_BALL_UC
+    listOrder: 610
+    sprite: 14
+    sound: 307
+    damage: 4500
+    shieldDamageModifier: 10
+    range: 62
+    accuracy: 100
+    reloadCautious: 256
+    reloadStandard: 192
+    reloadAggressive: 128
+    ammoMax: 2
+    launcher: STR_HEAVY_FUSION_BALL_LAUNCHER
+    clip: STR_HEAVY_FUSION_BALL
+    projectileType: 3
+    projectileSpeed: 3
+    weaponType: 3
+  - type: STR_LIGHT_TRACTOR_BEAM_UC
+    listOrder: 800
+    sprite: 30
+    damage: 1
+    shieldDamageModifier: 100
+    range: 54
+    accuracy: 250
+    reloadCautious: 40
+    reloadStandard: 40
+    reloadAggressive: 40
+    ammoMax: 999
+    rearmRate: 999
+    tractorBeamPower: 900
+    launcher: STR_LIGHT_TRACTOR_BEAM
+    projectileType: 4
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_MEDIUM_TRACTOR_BEAM_UC
+    listOrder: 810
+    sprite: 31
+    damage: 1
+    shieldDamageModifier: 200
+    range: 49
+    accuracy: 250
+    reloadCautious: 40
+    reloadStandard: 40
+    reloadAggressive: 40
+    ammoMax: 999
+    rearmRate: 999
+    tractorBeamPower: 2100
+    launcher: STR_MEDIUM_TRACTOR_BEAM
+    projectileType: 4
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_HEAVY_TRACTOR_BEAM_UC
+    listOrder: 820
+    sprite: 32
+    damage: 1
+    shieldDamageModifier: 400
+    range: 43
+    accuracy: 250
+    reloadCautious: 40
+    reloadStandard: 40
+    reloadAggressive: 40
+    ammoMax: 999
+    rearmRate: 999
+    tractorBeamPower: 4900
+    launcher: STR_HEAVY_TRACTOR_BEAM
+    projectileType: 4
+    weaponType: 3
+    hidePediaInfo: true
+# tier 1
+  - type: STR_UPGRADE_FUEL_TANKS_SMALL
+    listOrder: 1000
+    sprite: 22
+    stats:
+      fuelMax: 400
+    launcher: STR_UPGRADE_FUEL_TANKS_SMALL_UG
+    weaponType: 11
+    hidePediaInfo: true
+  - type: STR_UPGRADE_FUEL_TANKS_MEDIUM
+    listOrder: 1005
+    sprite: 23
+    stats:
+      fuelMax: 700
+    launcher: STR_UPGRADE_FUEL_TANKS_MEDIUM_UG
+    weaponType: 21
+    hidePediaInfo: true
+  - type: STR_UPGRADE_ENGINES_SMALL
+    listOrder: 1010
+    sprite: 24
+    stats:
+      speedMax: 400
+      accel: 1
+    launcher: STR_UPGRADE_ENGINES_SMALL_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_UPGRADE_ENGINES_MEDIUM
+    listOrder: 1015
+    sprite: 25
+    stats:
+      speedMax: 700
+      accel: 2
+    launcher: STR_UPGRADE_ENGINES_MEDIUM_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_UPGRADE_RADAR_SMALL
+    listOrder: 1020
+    sprite: 26
+    stats:
+      radarRange: 300
+      radarChance: 9
+      sightRange: 300
+    launcher: STR_UPGRADE_RADAR_SMALL_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_UPGRADE_RADAR_MEDIUM
+    listOrder: 1025
+    sprite: 27
+    stats:
+      radarRange: 525
+      radarChance: 15
+      sightRange: 525
+    launcher: STR_UPGRADE_RADAR_MEDIUM_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_UPGRADE_PLATING_SMALL
+    listOrder: 1030
+    sprite: 28
+    stats:
+      damageMax: 40
+      armor: 5
+    launcher: STR_UPGRADE_PLATING_SMALL_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_UPGRADE_PLATING_MEDIUM
+    listOrder: 1035
+    sprite: 29
+    stats:
+      damageMax: 70
+      avoidBonus: 7
+    launcher: STR_UPGRADE_PLATING_MEDIUM_UG
+    weaponType: 2
+    hidePediaInfo: true
+# tier 2
+  - type: STR_ALLOY_FUEL_TANKS
+    listOrder: 1100
+    sprite: 22
+    stats:
+      fuelMax: 600
+    launcher: STR_ALLOY_FUEL_TANKS_UG
+    weaponType: 11
+    hidePediaInfo: true
+  - type: STR_ALLOY_ENGINES
+    listOrder: 1105
+    sprite: 24
+    stats:
+      speedMax: 600
+      accel: 1
+    launcher: STR_ALLOY_ENGINES_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_ALLOY_POWER_SOURCE
+    listOrder: 1110
+    sprite: 33
+    stats:
+      fuelMax: 90
+      speedMax: 300
+      accel: 1
+    launcher: STR_ALLOY_POWER_SOURCE_UG
+    weaponType: 12
+    hidePediaInfo: true
+  - type: STR_ALLOY_PLATING_ARMOR
+    listOrder: 1115
+    sprite: 34
+    stats:
+      damageMax: 40
+      armor: 10
+    launcher: STR_ALLOY_PLATING_ARMOR_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_ALLOY_PLATING_EVASION
+    listOrder: 1120
+    sprite: 35
+    stats:
+      damageMax: 40
+      avoidBonus: 8
+    launcher: STR_ALLOY_PLATING_EVASION_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_MOD_TARGETING
+    listOrder: 1125
+    sprite: 36
+    stats:
+      hitBonus: 30
+      powerBonus: 10
+    launcher: STR_MOD_TARGETING_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_COMBO_PURSUER
+    listOrder: 1150
+    sprite: 37
+    stats:
+      speedMax: 600
+      accel: 1
+      damageMax: 20
+      avoidBonus: 4
+      hitBonus: 10
+      powerBonus: 10
+    launcher: STR_COMBO_PURSUER_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_COMBO_BRAWLER
+    listOrder: 1155
+    sprite: 38
+    stats:
+      damageMax: 40
+      armor: 10
+      hitBonus: 30
+      powerBonus: 10
+    launcher: STR_COMBO_BRAWLER_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_COMBO_SENTINEL
+    listOrder: 1160
+    sprite: 39
+    stats:
+      fuelMax: 600
+      radarRange: 375
+      radarChance: 12
+      sightRange: 375
+    launcher: STR_COMBO_SENTINEL_UG
+    weaponType: 21
+    hidePediaInfo: true
+  - type: STR_COMBO_PARAGON
+    listOrder: 1175
+    sprite: 40
+    stats:
+      speedMax: 300
+      damageMax: 40
+      avoidBonus: 8
+      hitBonus: 20
+    launcher: STR_COMBO_PARAGON_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_COMBO_CHAMPION
+    listOrder: 1180
+    sprite: 41
+    stats:
+      speedMax: 300
+      damageMax: 20
+      armor: 5
+      hitBonus: 20
+      powerBonus: 20
+    launcher: STR_COMBO_CHAMPION_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_COMBO_SUBJUGATOR
+    listOrder: 1275
+    sprite: 43
+    stats:
+      fuelMax: 30
+      speedMax: 200
+      shieldCapacity: 40
+      shieldRechargeInGeoscape: 2
+      shieldBleedThrough: 100
+      hitBonus: 20
+    launcher: STR_COMBO_SUBJUGATOR_UG
+    weaponType: 22
+    hidePediaInfo: true
+# tier 3
+  - type: STR_BOOST_ENGINES
+    listOrder: 1200
+    sprite: 25
+    stats:
+      speedMax: 900
+      accel: 2
+    launcher: STR_BOOST_ENGINES_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_BOOST_POWER_SOURCE
+    listOrder: 1110
+    sprite: 33
+    stats:
+      fuelMax: 180
+      speedMax: 450
+      accel: 2
+    launcher: STR_BOOST_POWER_SOURCE_UG
+    weaponType: 12
+    hidePediaInfo: true
+  - type: STR_BOOST_RADAR
+    listOrder: 1210
+    sprite: 27
+    stats:
+      radarRange: 450
+      radarChance: 15
+      sightRange: 450
+    launcher: STR_BOOST_RADAR_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_BOOST_PLATING_ARMOR
+    listOrder: 1220
+    sprite: 34
+    stats:
+      damageMax: 40
+      armor: 15
+    launcher: STR_BOOST_PLATING_ARMOR_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_BOOST_PLATING_EVASION
+    listOrder: 1225
+    sprite: 35
+    stats:
+      damageMax: 40
+      avoidBonus: 12
+    launcher: STR_BOOST_PLATING_EVASION_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_BOOST_PLATING_SHIELDS
+    listOrder: 1230
+    sprite: 42
+    stats:
+      shieldCapacity: 60
+      shieldRechargeInGeoscape: 2
+      shieldBleedThrough: 100
+    launcher: STR_BOOST_PLATING_SHIELDS_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_MOD_TARGETING_CRITICAL
+    listOrder: 1235
+    sprite: 36
+    stats:
+      hitBonus: 10
+      powerBonus: 30
+    launcher: STR_MOD_TARGETING_UG
+    weaponType: 1
+    hidePediaInfo: true
+  - type: STR_PACKAGE_PURSUER
+    listOrder: 1250
+    sprite: 37
+    stats:
+      speedMax: 900
+      accel: 2
+      damageMax: 20
+      avoidBonus: 6
+      powerBonus: 20
+    launcher: STR_PACKAGE_PURSUER_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_PACKAGE_BRAWLER
+    listOrder: 1255
+    sprite: 38
+    stats:
+      damageMax: 40
+      armor: 15
+      hitBonus: 20
+      powerBonus: 20
+    launcher: STR_PACKAGE_BRAWLER_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_PACKAGE_SENTINEL
+    listOrder: 1260
+    sprite: 39
+    stats:
+      fuelMax: 900
+      radarRange: 450
+      radarChance: 15
+      sightRange: 450
+    launcher: STR_PACKAGE_SENTINEL_UG
+    weaponType: 21
+    hidePediaInfo: true
+  - type: STR_PACKAGE_PARAGON
+    listOrder: 1265
+    sprite: 40
+    stats:
+      speedMax: 450
+      accel: 1
+      damageMax: 40
+      avoidBonus: 12
+      hitBonus: 10
+      powerBonus: 10
+    launcher: STR_PACKAGE_PARAGON_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_PACKAGE_CHAMPION
+    listOrder: 1270
+    sprite: 41
+    stats:
+      speedMax: 450
+      accel: 1
+      damageMax: 20
+      armor: 8
+      hitBonus: 10
+      powerBonus: 30
+    launcher: STR_PACKAGE_CHAMPION_UG
+    weaponType: 2
+    hidePediaInfo: true
+  - type: STR_PACKAGE_SUBJUGATOR
+    listOrder: 1275
+    sprite: 43
+    stats:
+      fuelMax: 60
+      speedMax: 300
+      accel: 1
+      shieldCapacity: 60
+      shieldRechargeInGeoscape: 2
+      shieldBleedThrough: 100
+      hitBonus: 10
+      powerBonus: 10
+    launcher: STR_PACKAGE_SUBJUGATOR_UG
+    weaponType: 22
+    hidePediaInfo: true
+  - type: STR_SUITE_ASCENSION
+    listOrder: 1300
+    sprite: 44
+    stats:
+      fuelMax: 900
+      speedMax: 1800
+      accel: 2
+      damageMax: 80
+      avoidBonus: 16
+      armor: 10
+      radarRange: 450
+      radarChance: 15
+      sightRange: 450
+      hitBonus: 20
+      powerBonus: 60
+    launcher: STR_SUITE_ASCENSION_UG
+    weaponType: 31
+    hidePediaInfo: true
+  - type: STR_SUITE_COMBAT
+    listOrder: 1310
+    sprite: 45
+    stats:
+      fuelMax: 90
+      speedMax: 900
+      accel: 2
+      avoidBonus: 12
+      armor: 15
+      powerBonus: 30
+    launcher: STR_SUITE_COMBAT_UG
+    weaponType: 32
+    hidePediaInfo: true
+  - type: STR_SUITE_RECON
+    listOrder: 1320
+    sprite: 46
+    stats:
+      fuelMax: 180
+      shieldCapacity: 120
+      shieldRechargeInGeoscape: 3
+      shieldBleedThrough: 100
+      radarRange: 450
+      radarChance: 18
+      sightRange: 450
+      hitBonus: 20
+    launcher: STR_SUITE_RECON_UG
+    weaponType: 32
+    hidePediaInfo: true
+  - type: STR_UPGRADE_FUEL_TANKS
+    launcher: STR_UPGRADE_FUEL_TANKS
+    hidePediaInfo: true
+  - type: STR_UPGRADE_ENGINES
+    launcher: STR_UPGRADE_ENGINES
+    hidePediaInfo: true
+  - type: STR_UPGRADE_RADAR
+    launcher: STR_UPGRADE_RADAR
+    hidePediaInfo: true
+  - type: STR_UPGRADE_PLATING
+    launcher: STR_UPGRADE_PLATING
+    hidePediaInfo: true
+  - type: STR_ALLOY_FUEL_TANKS_ENGINES
+    launcher: STR_ALLOY_FUEL_TANKS_ENGINES
+    hidePediaInfo: true
+  - type: STR_ALLOY_PLATING
+    launcher: STR_ALLOY_PLATING
+    hidePediaInfo: true
+  - type: STR_BOOST_PLATING
+    launcher: STR_BOOST_PLATING
+    hidePediaInfo: true

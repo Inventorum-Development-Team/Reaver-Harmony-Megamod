@@ -1,0 +1,150 @@
+alienFuel: [STR_ELERIUM_115, 25]
+costEngineer: 25000
+costScientist: 30000
+initialFunding: 9000
+monthlyRatings:
+   21600: STR_MT_RATING_EXEMPLARY
+   7200: STR_MT_RATING_EXCELLENT
+   2400: STR_MT_RATING_GREAT
+   800: STR_MT_RATING_GOOD
+   0: STR_MT_RATING_OK
+   -799: STR_MT_RATING_POOR
+   -2399: STR_MT_RATING_BAD
+   -5599: STR_MT_RATING_TERRIBLE
+   -99999: STR_MT_RATING_ABOMINABLE
+missionRatings:
+   3000: STR_MT_RATING_EXEMPLARY
+   1400: STR_MT_RATING_EXCELLENT
+   600: STR_MT_RATING_GREAT
+   200: STR_MT_RATING_GOOD
+   0: STR_MT_RATING_OK
+   -199: STR_MT_RATING_POOR
+   -599: STR_MT_RATING_BAD
+   -1399: STR_MT_RATING_TERRIBLE
+   -99999: STR_MT_RATING_ABOMINABLE
+destroyedFacility: STR_EMPTY_ROOM
+defeatScore: -1600
+defeatFunds: -10000000
+buildInfiltrationBaseCloseToTheCountry: true
+allowCountriesToCancelAlienPact: false
+chanceToStopRetaliation: 40
+lessAliensDuringBaseDefense: true
+buildTimeReductionScaling: 100
+customTrainingFactor: 30
+noLOSAccuracyPenaltyCursor: true
+noLOSAccuracyPenaltyGlobal: 75
+kneelBonusGlobal: 125
+oneHandedPenaltyGlobal: 60
+tooMuchSmokeThreshold: 20
+statisticalBulletConservation: true
+stunningImprovesMorale: true
+minReactionAccuracy: 15
+extendedMeleeReactions: 2
+maxViewDistance: 30
+bughuntMinTurn: 25
+bughuntMaxEnemies: 2
+shortRadarRange: 2400
+drawEnemyRadarCircles: 1
+showDogfightDistanceInKm: true
+ufoBeamWidthParameter: 60
+ufoTractorBeamSizeModifiers:
+   - 200
+   - 134
+   - 100
+   - 75
+   - 50
+hunterKillerFastRetarget: false
+escortRange: 40
+escortsJoinFightAgainstHK: true
+crewEmergencyEvacuationSurvivalChance: 80
+pilotsEmergencyEvacuationSurvivalChance: 80
+displayCustomCategories: 2
+extraNerdyPediaInfo: false
+giveScoreAlsoForResearchedArtifacts: true
+itemCategories:
+  - type: STR_CAT_PERSONNEL
+  - type: STR_CAT_AIRCRAFT
+  - type: STR_CAT_CRAFT_WEAPONS
+  - type: STR_CAT_CRAFT_EQUIPMENT
+  - type: STR_CAT_HWP
+  - type: STR_CAT_PISTOLS
+  - type: STR_CAT_RIFLES
+  - type: STR_CAT_HEAVY_WEAPONS
+  - type: STR_CAT_LAUNCHERS
+  - type: STR_CAT_GRENADES
+  - type: STR_CAT_MELEE_WEAPONS
+  - type: STR_CAT_EQUIPMENT
+  - type: STR_CAT_ARMOR
+  - type: STR_CAT_EARLY_TECH
+  - type: STR_CAT_MID_TECH
+  - type: STR_CAT_HIGH_TECH
+  - type: STR_CAT_ALIENS
+  - type: STR_CAT_ALIEN_ARTIFACTS
+  - type: STR_CAT_UFO_COMPONENTS
+  - type: STR_CAT_SALVAGE
+difficultyDemigod: true
+difficultyCoefficient: [0, 2, 4, 6, 8]
+difficultyBasedRetaliationDelay: [2, 1, 0, 0, 0]
+aimAndArmorMultipliers: [0.6, 0.9, 1.0, 1.3, 1.4]
+statGrowthMultipliers:
+  tu: 10
+  stamina: 10
+  health: 10
+  bravery: 0
+  reactions: 8
+  firing: -3
+  throwing: 0
+  strength: 0
+  psiStrength: 10
+  psiSkill: 0
+  melee: 0
+  mana: 5
+turnAIUseGrenade: 1
+turnAIUseBlaster: 1
+constants:
+  - damageRange: 25
+  - explosiveDamageRange: 25
+  - fireDamageRange: [22, 38]
+  - extendedItemReloadCost: true
+  - extendedRunningCost: true
+  - extendedTerrainMelee: 4
+mana:
+  enabled: true
+  battleUI: false
+  unlockResearch: STR_PSI_LAB
+  trainingPrimary: true
+  trainingSecondary: false
+  replenishAfterMission: true
+ai:
+  extendedFireModeChoice: true
+  destroyBaseFacilities: true
+  pickUpWeaponsMoreActively: true
+  pickUpWeaponsMoreActivelyCiv: true
+fixedUserOptions:
+  allowPsiStrengthImprovement: false
+  battleUFOExtenderAccuracy: true
+  weaponSelfDestruction: false
+recommendedUserOptions:
+  aggressiveRetaliation: false
+  alienBleeding: true
+  allowBuildingQueue: true
+  allowPsionicCapture: true
+  anytimePsiTraining: true
+  battleExplosionHeight: 3
+  battleInstantGrenade: false
+  bleedingIndicator: true
+  canSellLiveAliens: true
+  canTransferCraftsWhileAirborne: true
+  changeValueByMouseWheel: 10
+  craftLaunchAlways: true
+  friendlyCraftEscort: true
+  noAlienPanicMessages: true
+  oxceManufactureScrollSpeed: 10
+  oxceManufactureScrollSpeedWithCtrl: 100
+  oxceResearchScrollSpeed: 10
+  oxceResearchScrollSpeedWithCtrl: 100
+  psiStrengthEval: true
+  retainCorpses: true
+  showFundsOnGeoscape: true
+  showMoreStatsInInventoryView: true
+  storageLimitsEnforced: true

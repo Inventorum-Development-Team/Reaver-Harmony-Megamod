@@ -1,0 +1,425 @@
+MCDPatches:
+# pathFinding Hacks.
+# bigWall 1 = regular bigwall, no movement allowed.
+# bigWall 2 = can walk by north-east/south-west
+# bigWall 3 = can walk by north-west/south-east
+# bigWall 4 = acts as west wall
+# bigWall 5 = acts as north wall
+# bigWall 6 = acts as east wall
+# bigWall 7 = acts as south wall
+# bigWall 8 = acts as east and south wall
+  - type: XBASE1
+    data:
+      - MCDIndex: 2
+        bigWall: 2
+      - MCDIndex: 3
+        bigWall: 2
+      - MCDIndex: 4
+        bigWall: 3
+      - MCDIndex: 5
+        bigWall: 3
+      - MCDIndex: 19
+        bigWall: 2
+  - type: AVENGER
+    data:
+      - MCDIndex: 12
+        bigWall: 2
+      - MCDIndex: 14
+        bigWall: 3
+      - MCDIndex: 16
+        bigWall: 3
+      - MCDIndex: 26
+        bigWall: 4
+      - MCDIndex: 30
+        bigWall: 4
+      - MCDIndex: 31
+        bigWall: 4
+      - MCDIndex: 32
+        bigWall: 4
+      - MCDIndex: 33
+        bigWall: 4
+      - MCDIndex: 33
+        bigWall: 4
+      - MCDIndex: 39
+        LOFTS: [6,29,29,29,29,29,0,0,0,0,0,0]
+      - MCDIndex: 43
+        bigWall: 6
+      - MCDIndex: 44
+        bigWall: 6
+      - MCDIndex: 45
+        bigWall: 6
+      - MCDIndex: 46
+        bigWall: 6
+      - MCDIndex: 48
+        bigWall: 2
+      - MCDIndex: 54
+        TUSlide: 2
+      - MCDIndex: 56
+        terrainHeight: -7
+  - type: BARN
+    data:
+      - MCDIndex: 21
+        LOFTS: [10,10,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 22
+        LOFTS: [9,9,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 23
+        LOFTS: [10,10,38,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 24
+        LOFTS: [9,9,37,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 25
+        LOFTS: [9,9,37,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 26
+        LOFTS: [10,10,38,0,0,0,0,0,0,0,0,0]
+  - type: CULTIVAT
+    data:
+      - MCDIndex: 14
+        HEBlock: 0
+      - MCDIndex: 15
+        HEBlock: 0
+      - MCDIndex: 18
+        HEBlock: 0
+      - MCDIndex: 19
+        HEBlock: 0
+      - MCDIndex: 20
+        HEBlock: 0
+      - MCDIndex: 22
+        HEBlock: 0
+      - MCDIndex: 23
+        HEBlock: 0
+      - MCDIndex: 24
+        HEBlock: 0
+      - MCDIndex: 25
+        LOFTS: [76,7,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 26
+        LOFTS: [39,7,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 27
+        HEBlock: 0
+      - MCDIndex: 28
+        HEBlock: 0
+      - MCDIndex: 29
+        LOFTS: [39,8,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 30
+        LOFTS: [77,8,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 31
+        LOFTS: [15,15,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 32
+        LOFTS: [16,16,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 33
+        LOFTS: [15,15,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 34
+        LOFTS: [16,16,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 35
+        LOFTS: [41,41,0,0,0,0,0,0,0,0,0,0]
+      - MCDIndex: 36
+        LOFTS: [41,41,0,0,0,0,0,0,0,0,0,0]
+  - type: LIGHTNIN
+    data:
+      - MCDIndex: 0
+        bigWall: 6
+      - MCDIndex: 1
+        bigWall: 6
+      - MCDIndex: 2
+        bigWall: 2
+      - MCDIndex: 3
+        bigWall: 7
+      - MCDIndex: 4
+        bigWall: 3
+      - MCDIndex: 5
+        bigWall: 5
+      - MCDIndex: 6
+        bigWall: 5
+      - MCDIndex: 7
+        bigWall: 2
+      - MCDIndex: 8
+        bigWall: 2
+      - MCDIndex: 9
+        bigWall: 4
+      - MCDIndex: 10
+        bigWall: 4
+      - MCDIndex: 11
+        bigWall: 3
+      - MCDIndex: 12
+        bigWall: 2
+      - MCDIndex: 13
+        bigWall: 7
+        LOFTS: [44,44,44,44,44,44,44,44,44,44,44,44]
+      - MCDIndex: 38
+        TUWalk: 2
+        TUSlide: 2
+        TUFly: 2
+      - MCDIndex: 39
+        TUWalk: 2
+        TUSlide: 2
+        TUFly: 2
+      - MCDIndex: 40
+        HEBlock: 255
+  - type: PLANE
+    data:
+      - MCDIndex: 13
+        bigWall: 6
+      - MCDIndex: 14
+        bigWall: 6
+      - MCDIndex: 49
+        LOFTS: [6,6,6,6,6,6,6,6,6,6,6,6]
+      - MCDIndex: 51
+        LOFTS: [6,6,6,6,6,6,6,6,6,6,6,6]
+      - MCDIndex: 62
+        bigWall: 0
+  - type: U_BASE
+    data:
+      - MCDIndex: 9
+        TUFly: 2
+      - MCDIndex: 10
+        deathTile: 30
+      - MCDIndex: 17
+        armor: 60
+        HEBlock: 60
+      - MCDIndex: 22
+        flammability: 40
+        fuel: 4
+      - MCDIndex: 23
+        flammability: 40
+        fuel: 4
+      - MCDIndex: 24
+        flammability: 40
+        fuel: 4
+      - MCDIndex: 25
+        flammability: 40
+        fuel: 4
+      - MCDIndex: 56
+        HEBlock: 0
+      - MCDIndex: 57
+        HEBlock: 0
+# Mountain terrain death tile fix
+  - type: MOUNT
+    data:
+      - MCDIndex: 0
+        deathTile: 77
+      - MCDIndex: 1
+        deathTile: 77
+      - MCDIndex: 2
+        deathTile: 77
+      - MCDIndex: 3
+        deathTile: 77
+      - MCDIndex: 4
+        deathTile: 77
+      - MCDIndex: 5
+        deathTile: 77
+      - MCDIndex: 6
+        deathTile: 77
+      - MCDIndex: 7
+        deathTile: 77
+      - MCDIndex: 8
+        deathTile: 77
+      - MCDIndex: 9
+        deathTile: 77
+      - MCDIndex: 10
+        deathTile: 77
+      - MCDIndex: 11
+        deathTile: 77
+      - MCDIndex: 12
+        deathTile: 77
+      - MCDIndex: 13
+        deathTile: 77
+      - MCDIndex: 14
+        deathTile: 77
+      - MCDIndex: 15
+        deathTile: 77
+      - MCDIndex: 16
+        deathTile: 77
+      - MCDIndex: 17
+        deathTile: 77
+      - MCDIndex: 18
+        deathTile: 77
+      - MCDIndex: 19
+        deathTile: 77
+      - MCDIndex: 20
+        deathTile: 77
+      - MCDIndex: 21
+        deathTile: 77
+      - MCDIndex: 22
+        deathTile: 77
+      - MCDIndex: 23
+        deathTile: 77
+      - MCDIndex: 71
+        deathTile: 74
+      - MCDIndex: 72
+        deathTile: 75
+      - MCDIndex: 73
+        deathTile: 76
+  - type: U_EXT02
+    data:
+      - MCDIndex: 2
+        bigWall: 6
+      - MCDIndex: 3
+        bigWall: 7
+      - MCDIndex: 4
+        bigWall: 2
+      - MCDIndex: 5
+        bigWall: 2
+      - MCDIndex: 6
+        bigWall: 3
+      - MCDIndex: 7
+        bigWall: 3
+      - MCDIndex: 8
+        bigWall: 8
+      - MCDIndex: 13
+        bigWall: 2
+      - MCDIndex: 14
+        bigWall: 2
+      - MCDIndex: 15
+        bigWall: 2
+  - type: U_BITS
+    data:
+      - MCDIndex: 6
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 7
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+  - type: U_PODS
+    data:
+      - MCDIndex: 0
+        armor: 20
+        explosive: 180
+        targetType: 15
+      - MCDIndex: 1
+        armor: 30
+        explosive: 225
+        targetType: 15
+      - MCDIndex: 2
+        armor: 20
+        HEType: 1
+        HEStrength: 25
+        targetType: 7
+      - MCDIndex: 3
+        armor: 90
+      - MCDIndex: 4
+        armor: 90
+      - MCDIndex: 6
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 7
+        armor: 90
+      - MCDIndex: 8
+        armor: 90
+  - type: U_OPER2
+    data:
+      - MCDIndex: 6
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 7
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+  - type: U_WALL02
+    data:
+      - MCDIndex: 35
+        armor: 40
+      - MCDIndex: 36
+        armor: 40
+      - MCDIndex: 37
+        armor: 40
+      - MCDIndex: 38
+        armor: 40
+      - MCDIndex: 40
+        armor: 50
+      - MCDIndex: 41
+        armor: 50
+      - MCDIndex: 42
+        armor: 50
+      - MCDIndex: 43
+        armor: 50
+  - type: URBITS
+    data:
+      - MCDIndex: 0
+        HEBlock: 0
+      - MCDIndex: 1
+        HEBlock: 0
+      - MCDIndex: 2
+        HEBlock: 0
+      - MCDIndex: 3
+        HEBlock: 0
+      - MCDIndex: 4
+        HEBlock: 0
+      - MCDIndex: 5
+        HEBlock: 0
+      - MCDIndex: 6
+        TUFly: 2
+        HEBlock: 0
+      - MCDIndex: 7
+        TUFly: 2
+        HEBlock: 0
+      - MCDIndex: 10
+        HEBlock: 0
+      - MCDIndex: 11
+        HEBlock: 0
+      - MCDIndex: 12
+        HEBlock: 0
+      - MCDIndex: 13
+        HEBlock: 0
+  - type: POLAR
+    data:
+      - MCDIndex: 0
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 1
+        armor: 50
+      - MCDIndex: 63
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 64
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 65
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 66
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 67
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 68
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 69
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 70
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 71
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 72
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 73
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 74
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 75
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 76
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 77
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 78
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 79
+        TUFly: 0
+        noFloor: true
+      - MCDIndex: 80
+        TUFly: 0
+        noFloor: true

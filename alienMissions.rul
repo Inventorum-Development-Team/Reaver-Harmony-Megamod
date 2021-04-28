@@ -1,0 +1,1970 @@
+alienMissions:
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+  - type: STR_ALIEN_RESEARCH
+    points: 10 #3 landings, 6 UFOs
+    retaliationOdds: 4
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_SECTOID: 30
+        STR_FLOATER: 70
+      4:
+        STR_SECTOID_ARMORED: 100
+      6:
+        STR_SECTOID_ARMORED: 7
+        STR_SNAKEMAN: 90
+        STR_FLOATER: 3
+      9:
+        STR_MIXED_RESEARCH: 100
+      12:
+        STR_SECTOID_ARMORED: 60
+        STR_FLOATER: 10
+        STR_SNAKEMAN: 30
+      15:
+        STR_SECTOID_ARMORED: 30
+        STR_FLOATER: 5
+        STR_SNAKEMAN: 15
+        STR_MIXED_RESEARCH: 50
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        hunterKillerPercentage: 0
+        count: 1
+        trajectory: P0
+        timer: 3000
+      - ufo: STR_SMALL_SCOUT
+        escort: false
+        count: 1
+        trajectory: P2
+        timer: 1500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P01
+        timer: 7800
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P01
+        timer: 900
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P3
+        timer: 7800
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P2
+        timer: 600
+  - type: STR_ALIEN_RESEARCH_ELITE
+    points: 10 #3 landings, 6 UFOs
+    retaliationOdds: 4
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_SECTOID: 30
+        STR_FLOATER: 70
+      4:
+        STR_SECTOID_ARMORED: 100
+      6:
+        STR_SECTOID_ARMORED: 7
+        STR_SNAKEMAN: 90
+        STR_FLOATER: 3
+      9:
+        STR_MIXED_RESEARCH: 100
+      12:
+        STR_SECTOID_ARMORED: 60
+        STR_FLOATER: 10
+        STR_SNAKEMAN: 30
+      15:
+        STR_SECTOID_ARMORED: 30
+        STR_FLOATER: 5
+        STR_SNAKEMAN: 15
+        STR_MIXED_RESEARCH: 50
+    waves:
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P2
+        timer: 1500
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P01
+        timer: 7800
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P01
+        timer: 900
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P3
+        timer: 7800
+      - ufo: STR_HARVESTER_ELITE
+        count: 1
+        trajectory: P2
+        timer: 600
+  - type: STR_ALIEN_ABDUCTION
+    points: 75 #4 landings, 8 UFOs
+    retaliationOdds: 6
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 33
+        STR_FLOATER: 67
+      6:
+        STR_SECTOID_ARMORED: 10
+        STR_FLOATER: 20
+        STR_SNAKEMAN: 70
+      9:
+        STR_MIXED_ABDUCTION: 100
+      12:
+        STR_SECTOID_ARMORED: 30
+        STR_FLOATER: 60
+        STR_SNAKEMAN: 10
+      15:
+        STR_SECTOID_ARMORED: 15
+        STR_FLOATER: 30
+        STR_SNAKEMAN: 5
+        STR_MIXED_ABDUCTION: 50
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 15000
+      - ufo: STR_COVERT_OPS_SHIP
+        count: 1
+        trajectory: P01
+        timer: 270
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 2700
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P01
+        timer: 270
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 2700
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P01
+        timer: 270
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P3
+        timer: 2700
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P3
+        timer: 240
+  - type: STR_ALIEN_ABDUCTION_ELITE
+    points: 75 #4 landings, 8 UFOs
+    retaliationOdds: 6
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 33
+        STR_FLOATER: 67
+      6:
+        STR_SECTOID_ARMORED: 10
+        STR_FLOATER: 20
+        STR_SNAKEMAN: 70
+      9:
+        STR_MIXED_ABDUCTION: 100
+      12:
+        STR_SECTOID_ARMORED: 30
+        STR_FLOATER: 60
+        STR_SNAKEMAN: 10
+      15:
+        STR_SECTOID_ARMORED: 15
+        STR_FLOATER: 30
+        STR_SNAKEMAN: 5
+        STR_MIXED_ABDUCTION: 50
+    waves:
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P0
+        timer: 15000
+      - ufo: STR_COVERT_OPS_SHIP_ELITE
+        count: 1
+        trajectory: P01
+        timer: 270
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P0
+        timer: 2700
+      - ufo: STR_ABDUCTOR_ELITE
+        count: 1
+        trajectory: P01
+        timer: 270
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P1
+        timer: 2700
+      - ufo: STR_ABDUCTOR_ELITE
+        count: 1
+        trajectory: P01
+        timer: 270
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P3
+        timer: 2700
+      - ufo: STR_ABDUCTOR_ELITE
+        count: 1
+        trajectory: P3
+        timer: 240
+  - type: STR_ALIEN_HARVEST
+    points: 15 #10 landings, 8 UFOs
+    retaliationOdds: 6
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 25
+        STR_FLOATER: 75
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MIXED_HARVEST: 100
+      12:
+        STR_SECTOID_ARMORED: 10
+        STR_FLOATER: 30
+        STR_SNAKEMAN: 60
+      15:
+        STR_SECTOID_ARMORED: 5
+        STR_FLOATER: 15
+        STR_SNAKEMAN: 30
+        STR_MIXED_HARVEST: 50
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 4500
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P2
+        timer: 750
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 600
+      - ufo: STR_CARGO_SHIP
+        count: 1
+        trajectory: P3
+        timer: 150
+  - type: STR_ALIEN_HARVEST_ELITE
+    points: 15 #10 landings, 8 UFOs
+    retaliationOdds: 6
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 25
+        STR_FLOATER: 75
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MIXED_HARVEST: 100
+      12:
+        STR_SECTOID_ARMORED: 10
+        STR_FLOATER: 30
+        STR_SNAKEMAN: 60
+      15:
+        STR_SECTOID_ARMORED: 5
+        STR_FLOATER: 15
+        STR_SNAKEMAN: 30
+        STR_MIXED_HARVEST: 50
+    waves:
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P2
+        timer: 4500
+      - ufo: STR_HARVESTER_ELITE
+        count: 1
+        trajectory: P2
+        timer: 750
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_HARVESTER_ELITE
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_HARVESTER_ELITE
+        count: 1
+        trajectory: P4
+        timer: 600
+      - ufo: STR_CARGO_SHIP_ELITE
+        count: 1
+        trajectory: P3
+        timer: 150
+  - type: STR_ALIEN_INFILTRATION
+    points: 25 #9 landings, 12 UFOs
+    retaliationOdds: 8
+    objective: 1    
+    endlessInfiltration: false
+    siteType: STR_ALIEN_OUTPOST_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 100
+      12:
+        STR_ETHEREAL_BASE: 100
+      15:
+        STR_MIXED_INFILTRATION: 100
+      18:
+        STR_SECTOID_BASE: 40
+        STR_ETHEREAL_BASE: 10
+        STR_MIXED_INFILTRATION: 50
+      24:
+        STR_SECTOID_BASE: 10
+        STR_ETHEREAL_BASE: 30
+        STR_MIXED_INFILTRATION: 40
+        STR_MIXED_INVASION_PSIONIC: 20
+      36:
+        STR_SECTOID_BASE: 20
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INFILTRATION: 25
+        STR_MIXED_INVASION_PSIONIC: 50
+      48:
+        STR_SECTOID_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INFILTRATION: 10
+        STR_MIXED_INVASION_PSIONIC: 80
+    waves:
+      - ufo: STR_COVERT_OPS_SHIP
+        count: 1
+        trajectory: P0
+        timer: 9900
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 3000
+      - ufo: STR_ABDUCTOR
+        interruptPercentage: 10
+        count: 1
+        trajectory: P7
+        timer: 2760
+      - ufo: STR_COVERT_OPS_SHIP
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_ABDUCTOR
+        interruptPercentage: 15
+        count: 1
+        trajectory: P7
+        timer: 2760
+      - ufo: STR_COVERT_OPS_SHIP
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_COVERT_OPS_SHIP
+        interruptPercentage: 20
+        count: 1
+        trajectory: P7
+        timer: 3600
+      - ufo: STR_COVERT_OPS_SHIP
+        count: 1
+        trajectory: P7
+        timer: 120
+      - ufo: STR_TERROR_SHIP
+        interruptPercentage: 100
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_ABDUCTOR
+        interruptPercentage: 40
+        count: 2
+        trajectory: P7
+        timer: 120
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P66
+        timer: 480
+  - type: STR_ALIEN_INFILTRATION_DEFENDED
+    points: 35 #5 landings, 12 UFOs
+    retaliationOdds: 8
+    objective: 1    
+    endlessInfiltration: false
+    siteType: STR_ALIEN_OUTPOST_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 100
+      4:
+        STR_SECTOID_BASE: 100
+      12:
+        STR_ETHEREAL_BASE: 100
+      15:
+        STR_MIXED_INFILTRATION: 100
+      18:
+        STR_SECTOID_BASE: 40
+        STR_ETHEREAL_BASE: 10
+        STR_MIXED_INFILTRATION: 50
+      24:
+        STR_SECTOID_BASE: 10
+        STR_ETHEREAL_BASE: 30
+        STR_MIXED_INFILTRATION: 40
+        STR_MIXED_INVASION_PSIONIC: 20
+      36:
+        STR_SECTOID_BASE: 20
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INFILTRATION: 25
+        STR_MIXED_INVASION_PSIONIC: 50
+      48:
+        STR_SECTOID_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INFILTRATION: 10
+        STR_MIXED_INVASION_PSIONIC: 80
+    waves:
+      - ufo: STR_COVERT_OPS_SHIP
+        count: 1
+        trajectory: P1
+        timer: 12960
+      - ufo: STR_LIGHT_DESTROYER
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_COVERT_OPS_SHIP
+        interruptPercentage: 10
+        count: 1
+        trajectory: P78
+        timer: 2760
+      - ufo: STR_LIGHT_DESTROYER
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_ABDUCTOR
+        interruptPercentage: 15
+        count: 1
+        trajectory: P7
+        timer: 2760
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER
+        interruptPercentage: 30
+        count: 1
+        trajectory: P78
+        timer: 3600
+      - ufo: STR_COVERT_OPS_SHIP
+        count: 1
+        trajectory: P7
+        timer: 120
+      - ufo: STR_TERROR_SHIP
+        interruptPercentage: 100
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_ABDUCTOR
+        interruptPercentage: 60
+        count: 1
+        trajectory: P7
+        timer: 120
+      - ufo: STR_MEDIUM_DESTROYER
+        interruptPercentage: 0
+        count: 1
+        trajectory: P78
+        timer: 120
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P66
+        timer: 480
+  - type: STR_ALIEN_INFILTRATION_ELITE
+    points: 30 #7 landings, 12 UFOs
+    retaliationOdds: 8
+    objective: 1    
+    endlessInfiltration: false
+    siteType: STR_ALIEN_OUTPOST_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 100
+      4:
+        STR_SECTOID_BASE: 100
+      12:
+        STR_ETHEREAL_BASE: 100
+      15:
+        STR_MIXED_INFILTRATION: 100
+      18:
+        STR_SECTOID_BASE: 40
+        STR_ETHEREAL_BASE: 10
+        STR_MIXED_INFILTRATION: 50
+      24:
+        STR_SECTOID_BASE: 10
+        STR_ETHEREAL_BASE: 30
+        STR_MIXED_INFILTRATION: 40
+        STR_MIXED_INVASION_PSIONIC: 20
+      36:
+        STR_SECTOID_BASE: 20
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INFILTRATION: 25
+        STR_MIXED_INVASION_PSIONIC: 50
+      48:
+        STR_SECTOID_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INFILTRATION: 10
+        STR_MIXED_INVASION_PSIONIC: 80
+    waves:
+      - ufo: STR_COVERT_OPS_SHIP_ELITE
+        count: 1
+        trajectory: P0
+        timer: 9900
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P1
+        timer: 3000
+      - ufo: STR_ABDUCTOR_ELITE
+        interruptPercentage: 10
+        count: 1
+        trajectory: P78
+        timer: 2760
+      - ufo: STR_COVERT_OPS_SHIP_ELITE
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_ABDUCTOR_ELITE
+        interruptPercentage: 15
+        count: 1
+        trajectory: P7
+        timer: 2760
+      - ufo: STR_COVERT_OPS_SHIP_ELITE
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        interruptPercentage: 30
+        count: 1
+        trajectory: P78
+        timer: 3600
+      - ufo: STR_COVERT_OPS_SHIP_ELITE
+        count: 1
+        trajectory: P7
+        timer: 120
+      - ufo: STR_TERROR_SHIP_ELITE
+        interruptPercentage: 100
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_ABDUCTOR_ELITE
+        interruptPercentage: 60
+        count: 1
+        trajectory: P7
+        timer: 120
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        interruptPercentage: 0
+        count: 1
+        trajectory: P79
+        timer: 120
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P66
+        timer: 480
+  - type: STR_ALIEN_BASE
+    points: 30 #11 landings, 9 UFOs
+    retaliationOdds: 10
+    objective: 2
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 100
+      2:
+        STR_FLOATER_BASE: 100
+      5:
+        STR_SECTOID_BASE: 100
+      6:
+        STR_SNAKEMAN_BASE: 100
+      9:
+        STR_MUTON_BASE: 100
+      12:
+        STR_ETHEREAL_BASE: 100
+      15:
+        STR_SECTOID_BASE: 100
+      17:
+        STR_FLOATER_BASE: 100
+      18:
+        STR_SECTOID_BASE: 25
+        STR_FLOATER_BASE: 25
+        STR_MUTON_BASE: 25
+        STR_ETHEREAL_BASE: 25
+      24:
+        STR_SECTOID_BASE: 20
+        STR_FLOATER_BASE: 20
+        STR_MUTON_BASE: 20
+        STR_ETHEREAL_BASE: 20
+        STR_MIXED_INVASION_PSIONIC: 10
+        STR_MIXED_INVASION_DESTROY: 10
+      36:
+        STR_SECTOID_BASE: 12
+        STR_FLOATER_BASE: 13
+        STR_MUTON_BASE: 13
+        STR_ETHEREAL_BASE: 12
+        STR_MIXED_INVASION_PSIONIC: 25
+        STR_MIXED_INVASION_DESTROY: 25
+      48:
+        STR_SECTOID_BASE: 5
+        STR_FLOATER_BASE: 5
+        STR_MUTON_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 40
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 13500
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 15000
+      - ufo: STR_BATTLESHIP
+        interruptPercentage: 100
+        count: 1
+        trajectory: P4
+        timer: 60
+      - ufo: STR_SUPPLY_SHIP
+        interruptPercentage: 45
+        count: 2
+        trajectory: P3
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        interruptPercentage: 35
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 180
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P66
+        timer: 720
+  - type: STR_ALIEN_BASE_DEFENDED
+    points: 40 #8 landings, 9 UFOs
+    retaliationOdds: 10
+    objective: 2
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 100
+      2:
+        STR_FLOATER_BASE: 100
+      5:
+        STR_SECTOID_BASE: 100
+      6:
+        STR_SNAKEMAN_BASE: 100
+      9:
+        STR_MUTON_BASE: 100
+      12:
+        STR_ETHEREAL_BASE: 100
+      15:
+        STR_SECTOID_BASE: 100
+      17:
+        STR_FLOATER_BASE: 100
+      18:
+        STR_SECTOID_BASE: 25
+        STR_FLOATER_BASE: 25
+        STR_MUTON_BASE: 25
+        STR_ETHEREAL_BASE: 25
+      24:
+        STR_SECTOID_BASE: 20
+        STR_FLOATER_BASE: 20
+        STR_MUTON_BASE: 20
+        STR_ETHEREAL_BASE: 20
+        STR_MIXED_INVASION_PSIONIC: 10
+        STR_MIXED_INVASION_DESTROY: 10
+      36:
+        STR_SECTOID_BASE: 12
+        STR_FLOATER_BASE: 13
+        STR_MUTON_BASE: 13
+        STR_ETHEREAL_BASE: 12
+        STR_MIXED_INVASION_PSIONIC: 25
+        STR_MIXED_INVASION_DESTROY: 25
+      48:
+        STR_SECTOID_BASE: 5
+        STR_FLOATER_BASE: 5
+        STR_MUTON_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 40
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_LIGHT_DESTROYER
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 15000
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P75
+        timer: 60
+      - ufo: STR_MOTHERSHIP
+        interruptPercentage: 100
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_HEAVY_DESTROYER
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        interruptPercentage: 20
+        count: 1
+        trajectory: P3
+        timer: 120
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 180
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P66
+        timer: 720
+  - type: STR_ALIEN_BASE_ELITE
+    points: 30 #10 landings, 9 UFOs
+    retaliationOdds: 10
+    objective: 2
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SECTOID_BASE: 100
+      2:
+        STR_FLOATER_BASE: 100
+      5:
+        STR_SECTOID_BASE: 100
+      6:
+        STR_SNAKEMAN_BASE: 100
+      9:
+        STR_MUTON_BASE: 100
+      12:
+        STR_ETHEREAL_BASE: 100
+      15:
+        STR_SECTOID_BASE: 100
+      17:
+        STR_FLOATER_BASE: 100
+      18:
+        STR_SECTOID_BASE: 25
+        STR_FLOATER_BASE: 25
+        STR_MUTON_BASE: 25
+        STR_ETHEREAL_BASE: 25
+      24:
+        STR_SECTOID_BASE: 20
+        STR_FLOATER_BASE: 20
+        STR_MUTON_BASE: 20
+        STR_ETHEREAL_BASE: 20
+        STR_MIXED_INVASION_PSIONIC: 10
+        STR_MIXED_INVASION_DESTROY: 10
+      36:
+        STR_SECTOID_BASE: 12
+        STR_FLOATER_BASE: 13
+        STR_MUTON_BASE: 13
+        STR_ETHEREAL_BASE: 12
+        STR_MIXED_INVASION_PSIONIC: 25
+        STR_MIXED_INVASION_DESTROY: 25
+      48:
+        STR_SECTOID_BASE: 5
+        STR_FLOATER_BASE: 5
+        STR_MUTON_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 40
+    waves:
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P5
+        timer: 13500
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P5
+        timer: 15000
+      - ufo: STR_BATTLESHIP_ELITE
+        interruptPercentage: 100
+        count: 1
+        trajectory: P4
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        count: 1
+        trajectory: P75
+        timer: 60
+      - ufo: STR_SUPPLY_SHIP_ELITE
+        interruptPercentage: 45
+        count: 2
+        trajectory: P3
+        timer: 60
+      - ufo: STR_TERROR_SHIP_ELITE
+        interruptPercentage: 35
+        count: 1
+        trajectory: P6
+        timer: 120
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P66
+        timer: 720
+  - type: STR_ALIEN_OUTPOST
+    points: 10 #8 landings, 5 UFOs
+    retaliationOdds: 6
+    objective: 2
+    siteType: STR_ALIEN_OUTPOST_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_FLOATER_BASE: 100
+      6:
+        STR_SNAKEMAN_BASE: 100
+      9:
+        STR_MUTON_BASE: 100
+      12:
+        STR_FLOATER_BASE: 50
+        STR_MUTON_BASE: 50
+      24:
+        STR_FLOATER_BASE: 40
+        STR_MUTON_BASE: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON_BASE: 25
+        STR_FLOATER_BASE: 25
+        STR_MIXED_INVASION_DESTROY: 50
+      48:
+        STR_MUTON_BASE: 10
+        STR_FLOATER_BASE: 10
+        STR_MIXED_INVASION_DESTROY: 80
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 13500
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 15000
+      - ufo: STR_SUPPLY_SHIP
+        interruptPercentage: 100
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P66
+        timer: 720
+  - type: STR_ALIEN_OUTPOST_ELITE
+    points: 10 #8 landings, 6 UFOs
+    retaliationOdds: 6
+    objective: 2
+    siteType: STR_ALIEN_OUTPOST_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_FLOATER_BASE: 100
+      6:
+        STR_SNAKEMAN_BASE: 100
+      9:
+        STR_MUTON_BASE: 100
+      12:
+        STR_FLOATER_BASE: 50
+        STR_MUTON_BASE: 50
+      24:
+        STR_FLOATER_BASE: 40
+        STR_MUTON_BASE: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON_BASE: 25
+        STR_FLOATER_BASE: 25
+        STR_MIXED_INVASION_DESTROY: 50
+      48:
+        STR_MUTON_BASE: 10
+        STR_FLOATER_BASE: 10
+        STR_MIXED_INVASION_DESTROY: 80
+    waves:
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P5
+        timer: 13500
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P5
+        timer: 15000
+      - ufo: STR_SUPPLY_SHIP_ELITE
+        interruptPercentage: 100
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_LIGHT_DESTROYER_ELITE
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P66
+        timer: 720
+  - type: STR_SNAKEMAN_OUTPOST
+    points: 10 #6 landings, 6 UFOs
+    retaliationOdds: 4
+    objective: 2
+    siteType: STR_SNAKEMAN_OUTPOST_ASSAULT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_SNAKEMAN_OUTPOST: 100
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P60
+        timer: 14400
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 3000
+      - ufo: STR_CARGO_SHIP
+        interruptPercentage: 100
+        count: 1
+        trajectory: P6
+        timer: 60
+      - ufo: STR_CARGO_SHIP
+        count: 2
+        trajectory: P6
+        timer: 60
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P66
+        timer: 480
+  - type: STR_ALIEN_TERROR
+    points: 10 #2 landings, 3 UFOs
+    objective: 3
+    spawnZone: 3
+    despawnEvenIfTargeted: true
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_TERROR: 100
+      18:
+        STR_SECTOID_ARMORED: 20
+        STR_SNAKEMAN: 20
+        STR_ETHEREAL: 20
+        STR_MUTON: 20
+        STR_FLOATER: 20
+      24:
+        STR_SECTOID_ARMORED: 12
+        STR_SNAKEMAN: 24
+        STR_ETHEREAL: 8
+        STR_MUTON: 12
+        STR_FLOATER: 8
+        STR_MIXED_TERROR: 16
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_SECTOID_ARMORED: 6
+        STR_SNAKEMAN: 12
+        STR_ETHEREAL: 4
+        STR_MUTON: 6
+        STR_FLOATER: 4
+        STR_MIXED_TERROR: 18
+        STR_MIXED_INVASION_DESTROY: 50
+      48:
+        STR_SECTOID_ARMORED: 3
+        STR_SNAKEMAN: 6
+        STR_ETHEREAL: 2
+        STR_MUTON: 3
+        STR_FLOATER: 2
+        STR_MIXED_TERROR: 9
+        STR_MIXED_INVASION_DESTROY: 75
+    waves:
+      - ufo: STR_TERROR_SHIP
+        interruptPercentage: 67
+        count: 1
+        trajectory: P02
+        timer: 9000
+      - ufo: STR_TERROR_SHIP
+        interruptPercentage: 75
+        count: 1
+        trajectory: P02
+        timer: 9000
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+  - type: STR_ALIEN_TERROR_DEFENDED
+    points: 10 #2 landings, 6 UFOs
+    objective: 3
+    spawnZone: 3
+    despawnEvenIfTargeted: true
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_TERROR: 100
+      18:
+        STR_SECTOID_ARMORED: 20
+        STR_SNAKEMAN: 20
+        STR_ETHEREAL: 20
+        STR_MUTON: 20
+        STR_FLOATER: 20
+      24:
+        STR_SECTOID_ARMORED: 12
+        STR_SNAKEMAN: 24
+        STR_ETHEREAL: 8
+        STR_MUTON: 12
+        STR_FLOATER: 8
+        STR_MIXED_TERROR: 16
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_SECTOID_ARMORED: 6
+        STR_SNAKEMAN: 12
+        STR_ETHEREAL: 4
+        STR_MUTON: 6
+        STR_FLOATER: 4
+        STR_MIXED_TERROR: 18
+        STR_MIXED_INVASION_DESTROY: 50
+      48:
+        STR_SECTOID_ARMORED: 3
+        STR_SNAKEMAN: 6
+        STR_ETHEREAL: 2
+        STR_MUTON: 3
+        STR_FLOATER: 2
+        STR_MIXED_TERROR: 9
+        STR_MIXED_INVASION_DESTROY: 75
+    waves:
+      - ufo: STR_TERROR_SHIP
+        interruptPercentage: 67
+        count: 1
+        trajectory: P1
+        timer: 9000
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        interruptPercentage: 75
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P79
+        timer: 60
+  - type: STR_ALIEN_TERROR_ELITE
+    points: 10 #2 landings, 3 UFOs
+    objective: 3
+    spawnZone: 3
+    despawnEvenIfTargeted: true
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_TERROR: 100
+      18:
+        STR_SECTOID_ARMORED: 20
+        STR_SNAKEMAN: 20
+        STR_ETHEREAL: 20
+        STR_MUTON: 20
+        STR_FLOATER: 20
+      24:
+        STR_SECTOID_ARMORED: 12
+        STR_SNAKEMAN: 24
+        STR_ETHEREAL: 8
+        STR_MUTON: 12
+        STR_FLOATER: 8
+        STR_MIXED_TERROR: 16
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_SECTOID_ARMORED: 6
+        STR_SNAKEMAN: 12
+        STR_ETHEREAL: 4
+        STR_MUTON: 6
+        STR_FLOATER: 4
+        STR_MIXED_TERROR: 18
+        STR_MIXED_INVASION_DESTROY: 50
+      48:
+        STR_SECTOID_ARMORED: 3
+        STR_SNAKEMAN: 6
+        STR_ETHEREAL: 2
+        STR_MUTON: 3
+        STR_FLOATER: 2
+        STR_MIXED_TERROR: 9
+        STR_MIXED_INVASION_DESTROY: 75
+    waves:
+      - ufo: STR_TERROR_SHIP_ELITE
+        interruptPercentage: 67
+        count: 1
+        trajectory: P1
+        timer: 9000
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_TERROR_SHIP_ELITE
+        interruptPercentage: 75
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        count: 1
+        trajectory: P79
+        timer: 60
+      - ufo: STR_TERROR_SHIP_ELITE
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        count: 1
+        trajectory: P79
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_LIGHT
+    points: 0
+    objective: 4
+    spawnUfo: STR_LARGE_SCOUT
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 100
+      3: 80
+      6: 0
+      9: 0
+      12: 0
+      15: 0
+      18: 0
+      21: 0
+      24: 0
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 600
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 4500
+  - type: STR_ALIEN_RETALIATION_LIGHT_DEFENDED
+    points: 0
+    objective: 4
+    spawnUfo: STR_MEDIUM_DESTROYER
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 0
+      3: 0
+      6: 20
+      9: 60
+      12: 10
+      15: 10
+      18: 0
+      21: 0
+      24: 0
+    waves:
+      - ufo: STR_LIGHT_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 60
+      - ufo: STR_SMALL_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_LIGHT_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_LIGHT_ELITE
+    points: 0
+    objective: 4
+    spawnUfo: STR_MEDIUM_DESTROYER_ELITE
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 0
+      3: 0
+      6: 0
+      9: 0
+      12: 0
+      15: 0
+      18: 20
+      21: 20
+      24: 20
+    waves:
+      - ufo: STR_LIGHT_DESTROYER_ELITE
+        count: 1
+        trajectory: P88
+        timer: 60
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 3
+        trajectory: P8
+        timer: 60
+      - ufo: STR_LIGHT_DESTROYER_ELITE
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_MEDIUM
+    points: 0
+    objective: 4
+    spawnUfo: STR_TERROR_SHIP
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 0
+      3: 20
+      6: 80
+      9: 10
+      12: 0
+      15: 0
+      18: 0
+      21: 0
+      24: 0
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 600
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_MEDIUM_DEFENDED
+    points: 0
+    objective: 4
+    spawnUfo: STR_HEAVY_DESTROYER
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 0
+      3: 0
+      6: 0
+      9: 0
+      12: 10
+      15: 80
+      18: 15
+      21: 0
+      24: 0
+    waves:
+      - ufo: STR_LIGHT_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 60
+      - ufo: STR_SMALL_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_MEDIUM_ELITE
+    points: 0
+    objective: 4
+    spawnUfo: STR_TERROR_SHIP_ELITE
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 0
+      3: 0
+      6: 0
+      9: 0
+      12: 0
+      15: 0
+      18: 15
+      21: 30
+      24: 30
+    waves:
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_LIGHT_DESTROYER_ELITE
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_HEAVY_DESTROYER_ELITE
+        count: 1
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_HEAVY
+    points: 0
+    objective: 4
+    spawnUfo: STR_BATTLESHIP
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 0
+      3: 0
+      6: 0
+      9: 30
+      12: 80
+      15: 10
+      18: 0
+      21: 0
+      24: 0
+    waves:
+      - ufo: STR_LIGHT_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 60
+      - ufo: STR_SMALL_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_HEAVY_DEFENDED
+    points: 0
+    objective: 4
+    spawnUfo: STR_MOTHERSHIP
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 0
+      3: 0
+      6: 0
+      9: 0
+      12: 0
+      15: 0
+      18: 50
+      21: 25
+      24: 0
+    waves:
+      - ufo: STR_LIGHT_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 600
+      - ufo: STR_LIGHT_DESTROYER
+        count: 2
+        trajectory: P88
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P88
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER
+        count: 1
+        trajectory: P8
+        timer: 120
+      - ufo: STR_HEAVY_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 4500
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_HEAVY_ELITE
+    points: 0
+    objective: 4
+    spawnUfo: STR_MOTHERSHIP_ELITE
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      2:
+        STR_FLOATER: 100
+      4:
+        STR_SECTOID_ARMORED: 50
+        STR_FLOATER: 50
+      6:
+        STR_SNAKEMAN: 100
+      9:
+        STR_MUTON: 100
+      12:
+        STR_ETHEREAL: 100
+      15:
+        STR_MIXED_RETALIATION: 100
+      18:
+        STR_ETHEREAL: 25
+        STR_MIXED_RETALIATION: 75
+      21:
+        STR_MUTON: 50
+        STR_MIXED_RETALIATION: 50
+      24:
+        STR_MUTON: 40
+        STR_MIXED_RETALIATION: 40
+        STR_MIXED_INVASION_DESTROY: 20
+      36:
+        STR_MUTON: 25
+        STR_MIXED_RETALIATION: 25
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 10
+      48:
+        STR_MUTON: 5
+        STR_MIXED_RETALIATION: 20
+        STR_MIXED_INVASION_PSIONIC: 60
+        STR_MIXED_INVASION_DESTROY: 15
+    missionWeights:
+      0: 0
+      3: 0
+      6: 0
+      9: 0
+      12: 0
+      15: 0
+      18: 0
+      21: 25
+      24: 50
+    waves:
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 600
+      - ufo: STR_LIGHT_DESTROYER_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 4500
+      - ufo: STR_BATTLESHIP_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_RETALIATION_INVASION
+    points: 0
+    objective: 4
+    spawnUfo: STR_BATTLESHIP_ELITE
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_PSIONIC: 25
+        STR_MIXED_INVASION_DESTROY: 75
+    missionWeights:
+      0: 0
+      3: 0
+      6: 0
+      9: 0
+      12: 0
+      15: 0
+      18: 0
+      21: 0
+      24: 0
+    waves:
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_SMALL_SCOUT_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 2
+        trajectory: P8
+        timer: 60
+  - type: STR_ALIEN_SUPPLY
+    points: 80
+    retaliationOdds: 16
+    objective: 5
+    raceWeights: {}
+    waves:
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P9
+        timer: 1440
+        objective: true
+  - type: STR_ALIEN_SUPPLY_OUTPOST
+    points: 20
+    retaliationOdds: 4
+    objective: 5
+    raceWeights: {}
+    waves:
+      - ufo: STR_CARGO_SHIP
+        count: 1
+        trajectory: P91
+        timer: 1440
+        objective: true

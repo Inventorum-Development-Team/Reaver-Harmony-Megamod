@@ -1,0 +1,1858 @@
+extraSprites:
+  - type: HIT.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      4: Resources/XComFiles/Weapons_Compilation/MeleeAnimations/StunRod.gif
+      8: Resources/XComFiles/Weapons_Compilation/MeleeAnimations/Sword.gif
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/TerranPlasmaWeapons/terranplasma_hit.gif
+      66: Resources/SectopodLaser/SectopodLaserHit.gif
+      76: Resources/TerranPlasmaWeapons/plasmared_hit.gif
+      86: Resources/SectopodLaser/SectopodLaserRedHit.gif
+      96: Resources/More Bullets/PSI_STUN.png
+      106: Resources/More Bullets/CelatidHit.png
+      116: Resources/More Bullets/CelatidCHit.png
+      126: Resources/More Bullets/PSI_ATTACK.png
+  - type: X1.PCK
+    width: 1024
+    height: 128
+    subX: 128
+    subY: 64
+    files:
+      80: Resources/Extra Explosions/XSmoke2.png
+      100:  Resources/Extra Explosions/XStun.png
+# EQUIPMENT BIGOBS
+  - type: BIGOBS.PCK
+    width: 384
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      300: Resources/TerranPlasmaWeapons/alienterranplasma.gif
+      312: Resources/AwesomeGuns.Laser/bigob1.gif
+      313: Resources/AwesomeGuns.Laser/bigob2alt.gif
+      314: Resources/AwesomeGuns.Laser/bigob3.gif
+      315: Resources/RedBlueLasers/RedBlueLasers_bigobs.gif
+      318: Resources/XComFiles/Weapons_Compilation/MeleeWeapons/BigCombatKnife.gif
+      319: Resources/XComFiles/Weapons_Compilation/EMace/bigobs_EleriumMace.gif
+      320: Resources/ConventionalStun/ConventionalStun_bigobs.gif
+      323: Resources/ConventionalBlaster/ConventionalBlaster_bigobs.gif
+      326: Resources/AwesomeGuns/Bigob1.png
+      327: Resources/AwesomeGuns/Bigob_CLIP1.png
+      328: Resources/AwesomeGuns/Bigob2.png
+      329: Resources/AwesomeGuns/Bigob_CLIP2.png
+      330: Resources/BluePlasmas/BluePlasmas_bigobs.gif
+      333: Resources/BluePlasmas/BluePlasmaClips_bigobs.gif
+      336: Resources/AlienFusionAlloy/AlienFusionRockets_bigobs.gif
+      339: Resources/AlienFusionAlloy/AlienExplosiveCannon_bigobs.gif
+      342: Resources/AlienFusionAlloy/AlloyCannon_bigobs.gif
+      344: Resources/AlienFusionAlloy/AlloyAmmo_bigobs.gif
+      348: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/PlasmaSword.gif
+      349: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/PlasmaBlade.gif
+      350: Resources/SuperStunLance/STUN_ROD_R.gif
+      351: Resources/AwesomeGuns/Pistol_Swap.gif
+      352: Resources/IncendiaryGrenade/Inc_grenade_alt.gif
+      353: Resources/Advanced Medikit/BigOb_PaladinMedikit.gif
+      354: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_PUMP_ACTION_SHOTGUN.gif
+      355: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_PUMP_ACTION_SHOTGUN_SHELLS.gif
+      356: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Cannon.gif
+      357: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CannonClip.gif
+      358: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Launcher.gif
+      359: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherExplosiveBombs.gif
+      360: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherPiercingBombs.gif
+      361: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherStunBombs.gif
+      362: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Pistol.gif
+      363: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/PistolClip.gif
+      364: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Rifle.gif
+      365: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/RifleClip.gif
+      366: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherFusionBombs.gif
+      367: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherIncendiaryBombs.gif
+      368: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherSmokeBombs.gif
+      369: Resources/TerranPlasmaWeapons/alienterranplasma_red.gif
+      377: Resources/ReaversEquipment/FearProjector.gif
+      378: Resources/ReaversEquipment/PsiAmp.gif
+      379: Resources/ReaversEquipment/PsiDisruptor.gif
+      380: Resources/Advanced Medikit/BigOb_FieldMediPack.gif
+      381: Resources/ReaversEquipment/AE_charge_bigob.gif
+      382: Resources/ReaversEquipment/AE_prox_bigob.gif
+      383: Resources/The_Funktasm's Crap-U-Copia/alienterranlaunchers_big.gif
+      387: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_PUMP_ACTION_SHOTGUN_SHELLS_ALLOY.png
+      388: Resources/TerranPlasmaWeapons/redgrenade_bigob.gif
+      389: Resources/ReaversEquipment/Fusion_demo_bigob.gif
+      390: Resources/ReaversEquipment/Stun_grenade_bigob.gif
+      391: Resources/ReaversEquipment/Stun_charge_bigob.gif
+      392: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob.gif
+      393: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_HE_AMMO.gif
+      394: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_IN_AMMO.gif
+      395: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_SM_AMMO.gif
+      396: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_AE_AMMO.gif
+      397: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_ST_AMMO.gif
+      398: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherExplosiveBomb.gif
+      399: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherPiercingBomb.gif
+      400: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherStunBomb.gif
+      401: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherFusionBomb.gif
+      402: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherIncendiaryBomb.gif
+      403: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherSmokeBomb.gif
+      404: Resources/ReaversEquipment/AE_grenade_bigob.gif
+      405: Resources/ReaversEquipment/BattleRifle.png
+      406: Resources/BluePlasmas/PlasmaShotgun.gif
+      408: Resources/ReaversEquipment/ElectroFlareSmall.gif
+      409: Resources/ReaversEquipment/ElectroFlareLarge.gif
+      410: Resources/ConventionalStun/TerranStun_bigobs.gif
+      411: Resources/ConventionalBlaster/BlasterAE_bigobs.png
+# EQUIPMENT FLOOROBS
+  - type: FLOOROB.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      302: Resources/TerranPlasmaWeapons/heavyplasma_floorob.gif
+      303: Resources/AwesomeGuns.Laser/floorob1.gif
+      304: Resources/AwesomeGuns.Laser/floorob2.gif
+      305: Resources/AwesomeGuns.Laser/floorob3.gif
+      306: Resources/XComFiles/Weapons_Compilation/MeleeWeapons/FloorCombatKnife.gif
+      307: Resources/XComFiles/Weapons_Compilation/EMace/floorob_EleriumMace.gif
+      308: Resources/ConventionalStun/ConventionalStun_floorobs.gif
+      311: Resources/ConventionalBlaster/ConventionalBlaster_floorobs.gif
+      314: Resources/RedBlueLasers/RedBlueLasers_floorobs.gif
+      317: Resources/AwesomeGuns/Floorob1.png
+      318: Resources/AwesomeGuns/Floorob_CLIP1.png
+      319: Resources/AwesomeGuns/Floorob2.png
+      320: Resources/AwesomeGuns/Floorob_CLIP2.png
+      321: Resources/BluePlasmas/BluePlasmas_floorobs.gif
+      324: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifle_floorobs.gif
+      326: Resources/BluePlasmas/BluePlasmaClips_floorobs.gif
+      329: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaPistol_floorobs.gif
+      331: Resources/AlienFusionAlloy/AlienFusionRockets_floorobs.gif
+      334: Resources/AlienFusionAlloy/AlienExplosiveCannon_floorobs.gif
+      336: Resources/AlienFusionAlloy/AlloyCannon_floorobs.gif
+      340: Resources/AlienFusionAlloy/AlloyAmmo_floorobs.gif
+      344: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/floorob_PlasmaSword.gif
+      345: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/floorob_PlasmaBlade.gif
+      346: Resources/SuperStunLance/floorob_stun_rod_r.gif
+      347: Resources/IncendiaryGrenade/floorob_Inc_grenade_alt.gif
+      348: Resources/Advanced Medikit/FloorOb_PaladinMedikit.gif
+      349: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/floorob_Shotgun.gif
+      350: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/floorob_ShotgunShells.gif
+      351: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/Cannon.gif
+      352: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CannonClip.gif
+      353: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/Launcher.gif
+      354: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/LauncherExplosiveBombs.gif
+      355: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/LauncherPiercingBombs.gif
+      356: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/LauncherStunBombs.gif
+      357: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/Pistol.gif
+      358: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/PistolClip.gif
+      359: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/Rifle.gif
+      360: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/RifleClip.gif
+      361: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/LauncherSmokeBombs.gif
+      362: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/LauncherIncendiaryBombs.gif
+      363: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/LauncherFusionBombs.gif
+      364: Resources/Advanced Medikit/FloorOb_FieldMediPack.gif
+#      365: Resources/ReaversEquipment/FearProjector.gif
+#      366: Resources/ReaversEquipment/PsiAmp.gif
+#      367: Resources/ReaversEquipment/PsiDisruptor.gif
+      368: Resources/ReaversEquipment/AE_charge_floorob.gif
+      369: Resources/ReaversEquipment/AE_prox_floorob.gif
+      370: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/floorob_ShotgunShells_Alloy.png
+      370: Resources/TerranPlasmaWeapons/redgrenade_floorob.gif
+      371: Resources/ReaversEquipment/Fusion_demo_floorob.gif
+      372: Resources/ReaversEquipment/Stun_grenade_floorob.gif
+      373: Resources/ReaversEquipment/Stun_charge_floorob.gif
+      374: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob.gif
+      375: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_HE_AMMO.gif
+      376: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_IN_AMMO.gif
+      377: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_SM_AMMO.gif
+      378: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_AE_AMMO.gif
+      379: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_ST_AMMO.gif
+      380: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherExplosiveBomb.gif
+      381: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherPiercingBomb.gif
+      382: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherStunBomb.gif
+      383: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherSmokeBomb.gif
+      384: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherIncendiaryBomb.gif
+      385: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherFusionBomb.gif
+      386: Resources/ReaversEquipment/AE_grenade_floorob.gif
+      387: Resources/ReaversEquipment/floorob_ElectroFlareSmall.gif
+      388: Resources/ReaversEquipment/floorob_ElectroFlareLarge.gif
+      389: Resources/ConventionalStun/TerranStun_floorobs.gif
+      390: Resources/ConventionalBlaster/BlasterAE_floorobs.png
+# EQUIPMENT HANDOBS
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      316: Resources/TerranPlasmaWeapons/heavyplasma2_handob.gif
+      324: Resources/RedBlueLasers/RedBlueLaser1_handob.png
+      332: Resources/RedBlueLasers/RedBlueLaser2_handob.png
+      340: Resources/RedBlueLasers/RedBlueLaser3_handob.png
+      348: Resources/AwesomeGuns.Laser/handobs1.gif
+      356: Resources/AwesomeGuns.Laser/handobs2.gif
+      364: Resources/AwesomeGuns.Laser/handobs3.gif
+      372: Resources/XComFiles/Weapons_Compilation/MeleeWeapons/HandOb_CombatKnife.png
+      380: Resources/XComFiles/Weapons_Compilation/EMace/handob_EleriumMace.png
+      388: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/handob_PlasmaSword.png
+      396: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/handob_PlasmaBlade.png
+      428: Resources/AwesomeGuns/Handobs1.png
+      436: Resources/AwesomeGuns/Handobs_CLIP1.png
+      444: Resources/AwesomeGuns/Handobs2.png
+      452: Resources/AwesomeGuns/Handobs_CLIP2.png
+      460: Resources/BluePlasmas/BluePlasmas_handob1.gif
+      476: Resources/BluePlasmas/BluePlasmas_handob3.gif
+      484: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifle_handob.gif
+      492: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifleTerran_handob.gif
+      500: Resources/ConventionalStun/OneHandSmallLauncher_handob.gif
+      508: Resources/IncendiaryGrenade/HandOb_Incgrenade_alt.gif
+      516: Resources/SuperStunLance/handob_stun_rod_1hand.png
+      524: Resources/SuperStunLance/handob_stun_rod_r.png
+      532: Resources/Advanced Medikit/HandOb_PaladinMedikit.png
+      540: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/handob_Shotgun.png
+      548: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/handOb_ShotgunShells.png
+      556: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/Cannon.gif
+      564: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CannonClip.gif
+      572: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/Launcher.gif
+      580: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherExplosiveBombs.gif
+      588: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherPiercingBombs.gif
+      596: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherStunBombs.gif
+      604: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/Pistol.gif
+      612: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/PistolClip.gif
+      620: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/Rifle.gif
+      628: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/RifleClip.gif
+      636: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherFusionBombs.gif
+      644: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherIncendiaryBombs.gif
+      652: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherSmokeBombs.gif
+      660: Resources/TerranPlasmaWeapons/redplasmapistol_handob.gif
+      668: Resources/TerranPlasmaWeapons/redplasmarifle_handob.gif
+      676: Resources/TerranPlasmaWeapons/redheavyplasma_handob.gif
+      684: Resources/TerranPlasmaWeapons/redfusionlauncher_handob.gif
+      692: Resources/Advanced Medikit/HandOb_FieldMediPack.png
+      700: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/handOb_ShotgunShells_Alloy.png
+      708: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs.gif
+      716: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_HE_AMMO.gif
+      724: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_IN_AMMO.gif
+      732: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_SM_AMMO.gif
+      740: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_AE_AMMO.gif
+      748: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_ST_AMMO.gif
+      756: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherExplosiveBomb.gif
+      764: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherPiercingBomb.gif
+      772: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherStunBomb.gif
+      780: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherFusionBomb.gif
+      788: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherIncendiaryBomb.gif
+      796: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherSmokeBomb.gif
+  - type: DETBORD2.PCK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ReaversEquipment/MotionScannerParallels.gif
+  - delete: GlobeMarkers
+  - type: GlobeMarkers
+    width: 105
+    height: 21
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/ReaversArmada/reavers_geo_icons.png
+# BULLETS
+  - type: Projectiles
+    width: 105
+    height: 111
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/More Bullets/Reavers_Bullets.png
+# GuardianBattleAssaultTanks
+  - type: CustomItemPreviews
+    width: 84
+    height: 60
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/GuardianBattleAssaultTanks/ReaversCustomHWPPreviews.gif
+  - type: GTANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/GuardianTanks.png
+  - type: BTANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/BattleTanks.png
+  - type: ATANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/AssaultTanks.png
+  - type: GATANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/GuardianAlloyTanks.png
+  - type: BATANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/BattleAlloyTanks.png
+  - type: AATANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/AssaultAlloyTanks.png
+  - type: NOTANKS.PCK
+    width: 256
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/GuardianBattleAssaultTanks/NightOpsTanks.png
+  - type: FLOOROB.PCK
+    width: 128
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      800: Resources/GuardianBattleAssaultTanks/CorpseAlloy_0.png
+      801: Resources/GuardianBattleAssaultTanks/CorpseAlloy_1.png
+      802: Resources/GuardianBattleAssaultTanks/CorpseAlloy_2.png
+      803: Resources/GuardianBattleAssaultTanks/CorpseAlloy_3.png
+      804: Resources/GuardianBattleAssaultTanks/CorpseGuardianHover_0.png
+      805: Resources/GuardianBattleAssaultTanks/CorpseGuardianHover_1.png
+      806: Resources/GuardianBattleAssaultTanks/CorpseGuardianHover_2.png
+      807: Resources/GuardianBattleAssaultTanks/CorpseGuardianHover_3.png
+      808: Resources/GuardianBattleAssaultTanks/CorpseBattleHover_0.png
+      809: Resources/GuardianBattleAssaultTanks/CorpseBattleHover_1.png
+      810: Resources/GuardianBattleAssaultTanks/CorpseBattleHover_2.png
+      811: Resources/GuardianBattleAssaultTanks/CorpseBattleHover_3.png
+      812: Resources/GuardianBattleAssaultTanks/CorpseAssaultHover_0.png
+      813: Resources/GuardianBattleAssaultTanks/CorpseAssaultHover_1.png
+      814: Resources/GuardianBattleAssaultTanks/CorpseAssaultHover_2.png
+      815: Resources/GuardianBattleAssaultTanks/CorpseAssaultHover_3.png
+      816: Resources/GuardianBattleAssaultTanks/CorpseNO_0.png
+      817: Resources/GuardianBattleAssaultTanks/CorpseNO_1.png
+      818: Resources/GuardianBattleAssaultTanks/CorpseNO_2.png
+      819: Resources/GuardianBattleAssaultTanks/CorpseNO_3.png
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      800: Resources/GuardianBattleAssaultTanks/bigobs_AlienRocketTurret.png
+      801: Resources/GuardianBattleAssaultTanks/bigobs_AlloyLaserTurret.png
+      802: Resources/GuardianBattleAssaultTanks/bigob_tank_gun_guardian.png
+      803: Resources/GuardianBattleAssaultTanks/bigob_tank_gun_battle.png
+      804: Resources/GuardianBattleAssaultTanks/bigob_tank_gun_assault.png
+      805: Resources/GuardianBattleAssaultTanks/bigob_tank_laser_1G.png
+      806: Resources/GuardianBattleAssaultTanks/bigob_tank_laser_2G.png
+      807: Resources/GuardianBattleAssaultTanks/bigob_tank_laser_2B.png
+      808: Resources/GuardianBattleAssaultTanks/bigob_tank_laser_3B.png
+      809: Resources/GuardianBattleAssaultTanks/bigob_tank_laser_3A.png
+      810: Resources/GuardianBattleAssaultTanks/bigob_tank_laser_4A.png
+      811: Resources/GuardianBattleAssaultTanks/bigob_tank_cannon_1G.png
+      812: Resources/GuardianBattleAssaultTanks/bigob_tank_cannon_2G.png
+      813: Resources/GuardianBattleAssaultTanks/bigob_tank_cannon_2B.png
+      814: Resources/GuardianBattleAssaultTanks/bigob_tank_cannon_3B.png
+      815: Resources/GuardianBattleAssaultTanks/bigob_tank_cannon_3A.png
+      816: Resources/GuardianBattleAssaultTanks/bigob_tank_cannon_4A.png
+      817: Resources/GuardianBattleAssaultTanks/bigob_tank_flak.png
+# Air Weapon UFOPedia Images
+  - type: Avalanche
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Avalanche_UFOpedia.png
+  - type: Tornado_UFOPEDIAImage
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Tornado_UFOpedia.png
+  - type: Stingray
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Stingray_UFOpedia.png
+  - type: Barracuda_UFOPEDIAImage
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Barracuda_UFOpedia.png
+  - type: Cannon
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Cannon_UFOpedia.png
+  - type: ALLOY_CANNON_UFOPEDIAImage
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/AlloyCannon_UFOpedia.png
+  - type: LaserCannon
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/LaserCannon_UFOpedia.png
+  - type: PlasmaCannon
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AwesomeGuns/Plasma_UFOpedia.png
+  - type: KONDOR_FUSION_SUPER_HEAVY_MISSILE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/KONDOR_FUSION_SUPER_HEAVY_MISSILE.png
+  - type: LaserArrayUfopedia
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/LaserArrayUfopedia.gif
+  - type: RED_TOP
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/RED_TOP.png
+# Air Equipment UFOPedia Images
+  - type: ADVANCED_RADAR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/ADVANCED_RADAR.png
+  - type: ADVANCED_SENSOR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/ADVANCED_SENSOR.png
+  - type: AFTERBURNER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/AFTERBURNER.png
+  - type: ALLOY_CRAFT_AIRFRAME
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/ALLOY_CRAFT_AIRFRAME.png
+  - type: ALLOY_CRAFT_ARMOR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/ALLOY_CRAFT_ARMOR.png
+  - type: APOLLO_GATLING_LASER_R
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/APOLLO_GATLING_LASER_R.png
+  - type: FLARE_DISPENSER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/FLARE_DISPENSER.png
+  - type: FUEL_TANK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/FUEL_TANK.png
+  - type: IMPROVED_SPY_CAMERA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/IMPROVED_SPY_CAMERA.png
+  - type: SHIELD_GENERATOR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/SHIELD_GENERATOR.png
+  - type: SMART_COCKPIT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/SMART_COCKPIT.png
+  - type: TARGETING_POD
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/TARGETING_POD.png
+  - type: VECTORING_THRUSTER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/VECTORING_THRUSTER.png
+  - type: VOSTOK_PLASMA_CANNON_R
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/VOSTOK_PLASMA_CANNON_R.png
+  - type: ZEUS_PLASMA_GATLING
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/IDTAirSprites/ZEUS_PLASMA_GATLING.png
+# inticons - weapons/equipment
+  - type: INTICON.PCK
+    files:
+      16: Resources/ReaversArmada/Pulse_Cannon_inticon.gif
+      17: Resources/ReaversArmada/Plasma_Autocannon_inticon.gif
+      18: Resources/ReaversArmada/Light_Fusion_Ball_inticon.gif
+      19: Resources/ReaversArmada/Heavy_Fusion_Ball_inticon.gif
+      27: Resources/ReaversArmada/Mod1_FuelTank_s_inticon.png
+      28: Resources/ReaversArmada/Mod1_FuelTank_m_inticon.png
+      29: Resources/ReaversArmada/Mod1_Engine_s_inticon.png
+      30: Resources/ReaversArmada/Mod1_Engine_m_inticon.png
+      31: Resources/ReaversArmada/Mod1_Radar_s_inticon.png
+      32: Resources/ReaversArmada/Mod1_Radar_m_inticon.png
+      33: Resources/ReaversArmada/Mod1_Plating_s_inticon.png
+      34: Resources/ReaversArmada/Mod1_Plating_m_inticon.png
+      35: Resources/ReaversArmada/TractorBeam1_inticon.png
+      36: Resources/ReaversArmada/TractorBeam2_inticon.png
+      37: Resources/ReaversArmada/TractorBeam3_inticon.png
+      38: Resources/ReaversArmada/Mod2_PowerSource_inticon.png
+      39: Resources/ReaversArmada/Mod2_PlatingArmor_inticon.png
+      40: Resources/ReaversArmada/Mod2_PlatingEvasion_inticon.png
+      41: Resources/ReaversArmada/Mod2_TargetingComputer_inticon.png
+      42: Resources/ReaversArmada/Mod2_ComboPursuer_inticon.png
+      43: Resources/ReaversArmada/Mod2_ComboBrawler_inticon.png
+      44: Resources/ReaversArmada/Mod2_ComboSentinel_inticon.png
+      45: Resources/ReaversArmada/Mod2_ComboParagon_inticon.png
+      46: Resources/ReaversArmada/Mod2_ComboChampion_inticon.png
+      47: Resources/ReaversArmada/Mod3_PlatingShields_inticon.png
+      48: Resources/ReaversArmada/Mod3_ComboSubjugator_inticon.png
+      49: Resources/ReaversArmada/Mod3_SuiteAscension_inticon.png
+      50: Resources/ReaversArmada/Mod3_SuiteCombat_inticon.png
+      51: Resources/ReaversArmada/Mod3_SuiteRecon_inticon.png
+  - type: BASEBITS.PCK
+    files:
+      59: Resources/ReaversArmada/Pulse_Cannon_basebit.gif
+      60: Resources/ReaversArmada/Plasma_Autocannon_basebit.gif
+      61: Resources/ReaversArmada/Light_Fusion_Ball_basebit.gif
+      62: Resources/ReaversArmada/Heavy_Fusion_Ball_basebit.gif
+      70: Resources/ReaversArmada/Mod1_FuelTank_s_basebit.gif
+      71: Resources/ReaversArmada/Mod1_FuelTank_m_basebit.gif
+      72: Resources/ReaversArmada/Mod1_Engine_s_basebit.gif
+      73: Resources/ReaversArmada/Mod1_Engine_m_basebit.gif
+      74: Resources/ReaversArmada/Mod1_Radar_s_basebit.gif
+      75: Resources/ReaversArmada/Mod1_Radar_m_basebit.gif
+      76: Resources/ReaversArmada/Mod1_Plating_s_basebit.gif
+      77: Resources/ReaversArmada/Mod1_Plating_m_basebit.gif
+      78: Resources/ReaversArmada/TractorBeam1_basebit.png
+      79: Resources/ReaversArmada/TractorBeam2_basebit.png
+      80: Resources/ReaversArmada/TractorBeam3_basebit.png
+      81: Resources/ReaversArmada/Mod2_PowerSource_basebit.gif
+      82: Resources/ReaversArmada/Mod2_PlatingArmor_basebit.gif
+      83: Resources/ReaversArmada/Mod2_PlatingEvasion_basebit.gif
+      84: Resources/ReaversArmada/Mod2_TargetingComputer_basebit.gif
+      85: Resources/ReaversArmada/Mod2_ComboPursuer_basebit.png
+      86: Resources/ReaversArmada/Mod2_ComboBrawler_basebit.png
+      87: Resources/ReaversArmada/Mod2_ComboSentinel_basebit.png
+      88: Resources/ReaversArmada/Mod2_ComboParagon_basebit.png
+      89: Resources/ReaversArmada/Mod2_ComboChampion_basebit.png
+      90: Resources/ReaversArmada/Mod3_PlatingShields_basebit.gif
+      91: Resources/ReaversArmada/Mod3_ComboSubjugator_basebit.png
+      92: Resources/ReaversArmada/Mod3_SuiteAscension_basebit.gif
+      93: Resources/ReaversArmada/Mod3_SuiteCombat_basebit.gif
+      94: Resources/ReaversArmada/Mod3_SuiteRecon_basebit.gif
+# LargeFacilities
+  - type: BASEBITS.PCK
+    files:
+      400: Resources/ImprovedLivingQuarters/GS2_1R.png
+      401: Resources/ImprovedLivingQuarters/GS2_2.png
+      402: Resources/ImprovedLivingQuarters/GS2_3.png
+      403: Resources/ImprovedLivingQuarters/GS2_4.png
+      404: Resources/ImprovedLivingQuarters/bGS2_1R.png
+      405: Resources/ImprovedLivingQuarters/bGS2_2.png
+      406: Resources/ImprovedLivingQuarters/bGS2_3.png
+      407: Resources/ImprovedLivingQuarters/bGS2_4.png
+      408: Resources/ImprovedLivingQuarters/LQ2_1.png
+      409: Resources/ImprovedLivingQuarters/LQ2_2.png
+      410: Resources/ImprovedLivingQuarters/LQ2_3.png
+      411: Resources/ImprovedLivingQuarters/LQ2_4.png
+      412: Resources/ImprovedLivingQuarters/bLQ2_1.png
+      413: Resources/ImprovedLivingQuarters/bLQ2_2.png
+      414: Resources/ImprovedLivingQuarters/bLQ2_3.png
+      415: Resources/ImprovedLivingQuarters/bLQ2_4.png
+      416: Resources/XenoOperations/Basebits/LargeLabP1.gif
+      417: Resources/XenoOperations/Basebits/LargeLabP2.gif
+      418: Resources/XenoOperations/Basebits/LargeLabP3.gif
+      419: Resources/XenoOperations/Basebits/LargeLabP4.gif
+      420: Resources/XenoOperations/Basebits/LargeLabPC1.gif
+      421: Resources/XenoOperations/Basebits/LargeLabPC2.gif
+      422: Resources/XenoOperations/Basebits/LargeLabPC3.gif
+      423: Resources/XenoOperations/Basebits/LargeLabPC4.gif
+      432: Resources/XenoOperations/Basebits/LargeRadarP1.gif
+      433: Resources/XenoOperations/Basebits/LargeRadarP2.gif
+      434: Resources/XenoOperations/Basebits/LargeRadarP3.gif
+      435: Resources/XenoOperations/Basebits/LargeRadarP4.gif
+      436: Resources/XenoOperations/Basebits/LargeRadarPC1.gif
+      437: Resources/XenoOperations/Basebits/LargeRadarPC2.gif
+      438: Resources/XenoOperations/Basebits/LargeRadarPC3.gif
+      439: Resources/XenoOperations/Basebits/LargeRadarPC4.gif
+      440: Resources/XenoOperations/Basebits/LargeHyperP1.gif
+      441: Resources/XenoOperations/Basebits/LargeHyperP2.gif
+      442: Resources/XenoOperations/Basebits/LargeHyperP3.gif
+      443: Resources/XenoOperations/Basebits/LargeHyperP4.gif
+      444: Resources/XenoOperations/Basebits/LargeHyperPC1.gif
+      445: Resources/XenoOperations/Basebits/LargeHyperPC2.gif
+      446: Resources/XenoOperations/Basebits/LargeHyperPC3.gif
+      447: Resources/XenoOperations/Basebits/LargeHyperPC4.gif
+      448: Resources/XenoOperations/Basebits/Corridor.gif
+      524: Resources/LargeFacilities/rbasebits_12.gif
+      525: Resources/LargeFacilities/rbasebits_13.gif
+      526: Resources/LargeFacilities/rbasebits_14.gif
+      527: Resources/LargeFacilities/rbasebits_15.gif
+      528: Resources/LargeFacilities/brbasebits_12.png
+      529: Resources/LargeFacilities/brbasebits_13.png
+      530: Resources/LargeFacilities/brbasebits_14.png
+      531: Resources/LargeFacilities/brbasebits_15.png
+      532: Resources/LargeFacilities/rbasebits_16.gif
+      533: Resources/LargeFacilities/rbasebits_17.gif
+      534: Resources/LargeFacilities/rbasebits_18.gif
+      535: Resources/LargeFacilities/rbasebits_19.gif
+      536: Resources/LargeFacilities/rbasebitsx_16.gif
+      537: Resources/LargeFacilities/rbasebitsx_17.gif
+      538: Resources/LargeFacilities/rbasebitsx_18.gif
+      539: Resources/LargeFacilities/rbasebitsx_19.gif
+      547: Resources/LargeFacilities/Gym.png
+      548: Resources/LargeFacilities/rbasebits_24.gif
+      549: Resources/LargeFacilities/rbasebits_25.gif
+      550: Resources/LargeFacilities/rbasebits_26.gif
+      551: Resources/LargeFacilities/blank.gif
+      552: Resources/LargeFacilities/rbasebits_27.gif
+      553: Resources/LargeFacilities/rbasebits_28.gif
+      554: Resources/LargeFacilities/hospital_0.gif
+      555: Resources/LargeFacilities/hospital_1.gif
+      556: Resources/LargeFacilities/hospital_2.gif
+      557: Resources/LargeFacilities/hospital_3.gif
+      558: Resources/LargeFacilities/bhospital_0.png
+      559: Resources/LargeFacilities/bhospital_1.png
+      560: Resources/LargeFacilities/bhospital_2.png
+      561: Resources/LargeFacilities/bhospital_3.png
+      562: Resources/LargeFacilities/infirmary.gif
+      563: Resources/LargeFacilities/SBarraks1.png
+      564: Resources/LargeFacilities/SBarraks2.png
+      565: Resources/LargeFacilities/SBarraks3.png
+      566: Resources/LargeFacilities/SBarraks4.png
+      567: Resources/LargeFacilities/SBarraks1.png
+      568: Resources/LargeFacilities/SBarraks2.png
+      569: Resources/LargeFacilities/SBarraks3.png
+      570: Resources/LargeFacilities/SBarraks4.png
+      571: Resources/LargeFacilities/SAlienCont1.png
+      572: Resources/LargeFacilities/SAlienCont2.png
+      573: Resources/LargeFacilities/SAlienCont3.png
+      574: Resources/LargeFacilities/SAlienCont4.png
+      575: Resources/LargeFacilities/SAlienCont1.png
+      576: Resources/LargeFacilities/SAlienCont2.png
+      577: Resources/LargeFacilities/SAlienCont3.png
+      578: Resources/LargeFacilities/SAlienCont4.png
+      579: Resources/LargeFacilities/BiologicalAlterations.png
+# AIRCRAFT
+  - type: INTICON.PCK
+    files:
+      822: Resources/ReaversArmada/inticon_minimised_INTEREXE.gif
+      833: Resources/ReaversArmada/inticon_dogfight_INTEREXE.gif
+      823: Resources/ReaversArmada/inticon_minimised_INTEREXE.gif
+      834: Resources/ReaversArmada/inticon_dogfight_INTEREXE.gif
+      824: Resources/ReaversArmada/inticon_minimised_SKYSTORM.gif
+      835: Resources/ReaversArmada/inticon_dogfight_SKYSTORM.gif
+      825: Resources/ReaversArmada/inticon_minimised_SKYSTORM.gif
+      836: Resources/ReaversArmada/inticon_dogfight_SKYSTORM.gif
+      826: Resources/ReaversArmada/inticon_minimised_MAMMAST.gif
+      837: Resources/ReaversArmada/inticon_dogfight_MAMMAST.gif
+      827: Resources/ReaversArmada/inticon_minimised_MAMMAST.gif
+      838: Resources/ReaversArmada/inticon_dogfight_MAMMAST.gif
+      828: Resources/ReaversArmada/inticon_minimised_INTEREXE.gif
+      839: Resources/ReaversArmada/inticon_dogfight_INTEREXE.gif
+      829: Resources/ReaversArmada/inticon_minimised_MAMMAST.gif
+      840: Resources/ReaversArmada/inticon_dogfight_MAMMAST.gif
+      830: Resources/XComFiles/Vessels/Inticon/Thunder_minimised.png
+      841: Resources/XComFiles/Vessels/Inticon/Thunder_dogfight.png
+      831: Resources/XComFiles/Vessels/Inticon/Tormentor_minimised.png
+      842: Resources/XComFiles/Vessels/Inticon/Tormentor_dogfight.png
+      832: Resources/XComFiles/Vessels/Inticon/Dragonfly_Dark_minimised.png
+      843: Resources/XComFiles/Vessels/Inticon/Dragonfly_Dark_dogfight.png
+      866: Resources/ReaversArmada/Heracles_minimised.gif
+      867: Resources/ReaversArmada/Stalker_minimised.gif
+      868: Resources/XComFiles/Vessels/Inticon/Sentinel_minimized.png
+      877: Resources/ReaversArmada/Heracles_dogfight.gif
+      878: Resources/ReaversArmada/Stalker_dogfight.gif
+      879: Resources/XComFiles/Vessels/Inticon/Sentinel_dogfight.png
+  - type: BASEBITS.PCK
+    files:
+      855: Resources/ReaversArmada/Interceptor_base.png
+      856: Resources/ReaversArmada/Interdictor_base.png
+      857: Resources/ReaversArmada/Skyraider_base.png
+      858: Resources/ReaversArmada/Stormcharger_base.png
+      859: Resources/ReaversArmada/Mammoth_base.png
+      860: Resources/ReaversArmada/Mastodon_base.png
+      861: Resources/ReaversArmada/Executioner_base.png
+      862: Resources/ReaversArmada/Exterminator_base.png
+      863: Resources/XComFiles/Vessels/Basebits/Thunder_base.png
+      864: Resources/XComFiles/Vessels/Basebits/Tormentor_base.png
+      865: Resources/XComFiles/Vessels/Basebits/Dragonfly_Dark_base.png
+      899: Resources/ReaversArmada/Heracles_base.gif
+      900: Resources/ReaversArmada/Stalker_base.gif
+      901: Resources/XComFiles/Vessels/Basebits/Sentinel_base.png
+  - type: AWACS_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/AWACS_ufopedia.png
+  - type: DARKSTAR_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/DARKSTAR_ufopedia.png
+  - type: DRAGONFLY_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Dragonfly_ufopedia.gif
+  - type: DROPSHIP_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Dropship.png
+  - type: HAWKEYE_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/HAWKEYE_ufopedia.png
+  - type: MIG31_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/MiG31_ufopedia.gif
+  - type: RAVEN_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Raven_ufopedia.gif
+  - type: SENTINEL_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Sentinel_ufopedia.gif
+  - type: SKYRAIDER_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Skyraider_ufopedia.png
+  - type: THUNDER_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Thunder_ufopedia.gif
+  - type: TORMENTOR_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/Tormentor_ufopedia.gif
+  - type: INTERCEPTOR_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ReaversArmada/Interceptor_ufopedia.png
+  - type: INTERDICTOR_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ReaversArmada/Interdictor_ufopedia.png
+  - type: EXECUTIONER_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ReaversArmada/Executioner_ufopedia.png
+  - type: PrivateJet
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/PrivateJet_ufopedia.png
+  - type: PublicTransport
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/PublicTransport_ufopedia.gif
+# UFOs
+  - type: CovertOpsShip
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/CovertOpsShip.png
+  - type: LightDestroyer
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/LightDestroyer.png
+  - type: CargoShip
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/CargoShip.png
+  - type: Harvester
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/Harvester.png
+  - type: MediumDestroyer
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/MediumDestroyer.png
+  - type: TerrorShip
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/TerrorShip.png
+  - type: HeavyDestroyer
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/HeavyDestroyer.png
+  - type: Mothership
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/Mothership.png
+  - type: EliteSmallScout
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteSmallScout.png
+  - type: EliteCovertOpsShip
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteCovertOpsShip.png
+  - type: EliteMediumScout
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteMediumScout.png
+  - type: EliteLargeScout
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteLargeScout.png
+  - type: EliteLightDestroyer
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteLightDestroyer.png
+  - type: EliteCargoShip
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteCargoShip.png
+  - type: EliteHarvester
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteHarvester.png
+  - type: EliteAbductor
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteAbductor.png
+  - type: EliteMediumDestroyer
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteMediumDestroyer.png
+  - type: EliteTerrorShip
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteTerrorShip.png
+  - type: EliteSupplyShip
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteSupplyShip.png
+  - type: EliteBattleship
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteBattleship.png
+  - type: EliteMothership
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteMothership.png
+# ARMOR GRAPHICS
+  - typeSingle: BigStunIndicator
+    fileSingle: Resources/Corpse Indicators/Zzz.png
+  - typeSingle: FloorStunIndicator
+    fileSingle: Resources/Corpse Indicators/Zzz.png
+  - typeSingle: BigBurnIndicator
+    fileSingle: Resources/Corpse Indicators/burning.png
+  - typeSingle: FloorBurnIndicator
+    fileSingle: Resources/Corpse Indicators/burning.png
+  - typeSingle: BigWoundIndicator
+    fileSingle: Resources/Corpse Indicators/Bleed.png
+  - typeSingle: FloorWoundIndicator
+    fileSingle: Resources/Corpse Indicators/Bleed.png
+  - typeSingle: BigShockIndicator
+    fileSingle: Resources/Corpse Indicators/Shock.png
+  - typeSingle: FloorShockIndicator
+    fileSingle: Resources/Corpse Indicators/Shock.png
+  - type: CustomArmorPreviews
+    width: 156
+    height: 20
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/ReaversArmors/reavers-custom-armor-previews.png
+  - type: XCOM_4.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/armored_vest/XCOM_4.png
+  - type: AlloyArmor.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/AlloyArmor.png
+  - type: DarkSuit.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/DarkSuit.png
+  - type: PsiArmor1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/PsiArmor1.png
+  - type: PsiArmor2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/PsiArmor2.png
+  - type: PaladinArmor.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/IntPaladina.png
+  - type: AssassinArmor.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/IntAssassina.png
+  - type: NightOpsArmor.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/NightOpsArmor.png
+  - type: StealthGear.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/XCOM_11.png
+  - type: PsionicArmor.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ReaversArmors/PsiArmor.png
+  - type: MAN_4F0.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f0.png
+  - type: MAN_4F1.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f1.png
+  - type: MAN_4F2.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f2.png
+  - type: MAN_4F3.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f3.png
+  - type: MAN_4F4.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f4.gif
+  - type: MAN_4F5.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f5.gif
+  - type: MAN_4F6.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f6.gif
+  - type: MAN_4F7.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4f7.gif
+  - type: MAN_0F4.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_0f4.gif
+  - type: MAN_0F5.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_0f5.gif
+  - type: MAN_0F6.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_0f6.gif
+  - type: MAN_0F7.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_0f7.gif
+  - type: MAN_4M0.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m0.png
+  - type: MAN_4M1.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m1.png
+  - type: MAN_4M2.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m2.png
+  - type: MAN_4M3.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m3.png
+  - type: MAN_4M4.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m4.gif
+  - type: MAN_4M5.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m5.gif
+  - type: MAN_4M6.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m6.gif
+  - type: MAN_4M7.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_4m7.gif
+  - type: MAN_0M4.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_0m4.gif
+  - type: MAN_0M5.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_0m5.gif
+  - type: MAN_0M6.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_0m6.gif
+  - type: MAN_0M7.SPK
+    singleImage: true
+    files:
+      0: Resources/armored_vest/inventory/man_0m7.gif
+  - type: MAN_1F4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_1F4.gif
+  - type: MAN_1F5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_1F5.gif
+  - type: MAN_1F6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_1F6.gif
+  - type: MAN_1F7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_1F7.gif
+  - type: MAN_1M4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_1M4.gif
+  - type: MAN_1M5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_1M5.gif
+  - type: MAN_1M6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_1M6.gif
+  - type: MAN_1M7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_1M7.gif
+  - type: MAN_2_1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_2_1.gif
+  - type: MAN_5M0.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5M0.gif
+  - type: MAN_5M1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5M1.gif
+  - type: MAN_5M2.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5M2.gif
+  - type: MAN_5M3.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5M3.gif
+  - type: MAN_5M4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5M4.gif
+  - type: MAN_5M5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5M5.gif
+  - type: MAN_5M6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5M6.gif
+  - type: MAN_5M7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5M7.gif
+  - type: MAN_5F0.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5F0.gif
+  - type: MAN_5F1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5F1.gif
+  - type: MAN_5F2.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5F2.gif
+  - type: MAN_5F3.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5F3.gif
+  - type: MAN_5F4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5F4.gif
+  - type: MAN_5F5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5F5.gif
+  - type: MAN_5F6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5F6.gif
+  - type: MAN_5F7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_5F7.gif
+  - type: MAN_6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_6.gif
+  - type: MAN_7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_7.gif
+  - type: MAN_8.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_8.gif
+  - type: MAN_9.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/MAN_9.gif
+  - type: MAN_10F0.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10f0.png
+  - type: MAN_10F1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10f1.png
+  - type: MAN_10F2.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10f2.png
+  - type: MAN_10F3.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10f3.png
+  - type: MAN_10F4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10f4.png
+  - type: MAN_10F5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10f5.png
+  - type: MAN_10F6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10f6.png
+  - type: MAN_10F7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10f7.png
+  - type: MAN_10M0.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10m0.png
+  - type: MAN_10M1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10m1.png
+  - type: MAN_10M2.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10m2.png
+  - type: MAN_10M3.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10m3.png
+  - type: MAN_10M4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10m4.png
+  - type: MAN_10M5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10m5.png
+  - type: MAN_10M6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10m6.png
+  - type: MAN_10M7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_10m7.png
+  - type: MAN_11F0.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11f0.png
+  - type: MAN_11F1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11f1.png
+  - type: MAN_11F2.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11f2.png
+  - type: MAN_11F3.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11f3.png
+  - type: MAN_11F4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11f4.png
+  - type: MAN_11F5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11f5.png
+  - type: MAN_11F6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11f6.png
+  - type: MAN_11F7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11f7.png
+  - type: MAN_11M0.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11m0.png
+  - type: MAN_11M1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11m1.png
+  - type: MAN_11M2.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11m2.png
+  - type: MAN_11M3.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11m3.png
+  - type: MAN_11M4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11m4.png
+  - type: MAN_11M5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11m5.png
+  - type: MAN_11M6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11m6.png
+  - type: MAN_11M7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11m7.png
+  - type: MAN_11_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_11_up.png
+  - type: MAN_12F0.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12f0.png
+  - type: MAN_12F1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12f1.png
+  - type: MAN_12F2.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12f2.png
+  - type: MAN_12F3.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12f3.png
+  - type: MAN_12F4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12f4.png
+  - type: MAN_12F5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12f5.png
+  - type: MAN_12F6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12f6.png
+  - type: MAN_12F7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12f7.png
+  - type: MAN_12M0.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12m0.png
+  - type: MAN_12M1.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12m1.png
+  - type: MAN_12M2.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12m2.png
+  - type: MAN_12M3.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12m3.png
+  - type: MAN_12M4.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12m4.png
+  - type: MAN_12M5.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12m5.png
+  - type: MAN_12M6.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12m6.png
+  - type: MAN_12M7.SPK
+    singleImage: true
+    files:
+      0: Resources/ReaversArmors/man_12m7.png
+  - type: BIGOBS.PCK
+    files:
+      299: Resources/armored_vest/bigobs_XCOM4_CORPSE.gif
+      298: Resources/ReaversArmors/bigobs_alloy_armor.gif
+      297: Resources/ReaversArmors/bigobs_dark_suit.gif
+      296: Resources/ReaversArmors/bigobs_psi_armor1.gif
+      295: Resources/ReaversArmors/bigobs_psi_armor2.gif
+      294: Resources/ReaversArmors/IntPaladin_biga.gif
+      293: Resources/ReaversArmors/IntAssassin_biga.gif
+      292: Resources/ReaversArmors/bigobs_nightops_armor.png
+      291: Resources/ReaversArmors/bigobs_corpse11.png
+      290: Resources/ReaversArmors/bigobs_psi_armor.png
+  - type: FLOOROB.PCK
+    files:
+      299: Resources/armored_vest/floorob_XCOM4_CORPSE.gif
+      298: Resources/ReaversArmors/floorob_alloy_armor.gif
+      297: Resources/ReaversArmors/floorob_dark_suit.gif
+      296: Resources/ReaversArmors/floorob_psi_armor1.gif
+      295: Resources/ReaversArmors/floorob_psi_armor2.gif
+      294: Resources/ReaversArmors/IntPaladin_floora.gif
+      293: Resources/ReaversArmors/IntAssassin_floora.gif
+      292: Resources/ReaversArmors/floorob_nightops_armor.png
+      291: Resources/ReaversArmors/floorob_corpse11.png
+      290: Resources/ReaversArmors/floorob_psi_armor.png
+# TURRET GRAPHICS
+  - type: DEFENSE_TURRET_AP.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/40k/DEFENSE_TURRET_AP.png
+  - type: DEFENSE_TURRET_LASER.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/40k/DEFENSE_TURRET_LASER.png
+  - type: DEFENSE_TURRET_PLASMA.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/40k/DEFENSE_TURRET_PLASMA.png
+  - type: BIGOBS.PCK
+    files:
+      249: Resources/40k/DEFENSE_TURRET_CORPSEBIG_AP.png
+      248: Resources/40k/DEFENSE_TURRET_CORPSEBIG_LASER.png
+      247: Resources/40k/DEFENSE_TURRET_CORPSEBIG_PLASMA.png
+  - type: FLOOROB.PCK
+    files:
+      249: Resources/40k/DEFENSE_TURRET_CORPSE_AP.png
+      248: Resources/40k/DEFENSE_TURRET_CORPSE_LASER.png
+      247: Resources/40k/DEFENSE_TURRET_CORPSE_PLASMA.png
+# ALIEN GRAPHICS
+  - type: SECTOID.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_SECTOID.gif
+  - type: SECTOID_A.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armored Sectoids/SpriteSheet_SectoidPowerSkeleton.png
+  - type: SECTOID_A.SPK
+    singleImage: true
+    files:
+      0: Resources/Armored Sectoids/Inventory_SectoidPowerSkeleton.png
+  - type: SECTOID_A_RESEARCH.SPK
+    singleImage: true
+    files:
+      0: Resources/Armored Sectoids/UfoPaedia_SectoidPowerSkeleton.png
+  - type: FLOATER.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_FLOATER.gif
+  - type: SNAKEMAN.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_SNAKEMAN.gif
+  - type: MUTON.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_MUTON.gif
+  - type: ETHEREAL.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_ETHEREAL.gif
+  - type: CYBERDISC.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_CYBERDISC.gif
+  - type: REAPER.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_REAPER.gif
+  - type: CHRYSSALID.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_CHRYSSALID.gif
+  - type: SILACOID.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_SILACOID.gif
+  - type: CELATID.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_CELATID.gif
+  - type: SECTOPOD.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_SECTOPOD.gif
+  - type: ZOMBIE.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_ZOMBIE.gif
+  - type: ETHEREAL_NAVIGATOR.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/ETHEREAL_NAVIGATOR.png
+  - type: ETHEREAL_NAVIGATOR.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_ETHEREAL_N.png
+  - type: ETHEREAL_NAVIGATOR_RESEARCH.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/ufopedia_ETHEREAL_N.gif
+  - type: ETHEREAL_NAVIGATOR_AUTOPSY.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/ufopedia_ETHEREAL_N_corpse.gif
+  - type: MUTON_SOLDIER_B.PCK
+    width: 512
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/MUTON_SOLDIER_b.png
+  - type: MUTON_SOLDIER_B.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_MUTON_B.png
+  - type: MUTON_SOLDIER_B_RESEARCH.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/ufopedia_MUTON_B.gif
+  - type: MUTON_SOLDIER_B_AUTOPSY.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/ufopedia_MUTON_B_corpse.gif
+  - type: SNAKEMAN_COMMANDER_B.PCK
+    width: 320
+    height: 640
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/Snakeman_Queen_B_SpriteSheet.png
+  - type: SNAKEMAN_COMMANDER_B.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/Snakeman_Commander_Inventory.png
+  - type: SNAKEMAN_COMMANDER_B_RESEARCH.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/Snakeman_Commander.png
+  - type: SNAKEMAN_COMMANDER_B_AUTOPSY.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/Snakeman_Commander_Autopsy.png
+  - type: SECTOID_C.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/SectoidPowerC_SpriteSheet.png
+  - type: SECTOID_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/SectoidPowerC_Inventory.png
+  - type: SECTOID_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Sectoid.png
+  - type: FLOATER_C.PCK
+    width: 512
+    height: 280
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/FloaterC_SpriteSheet.png
+  - type: FLOATER_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/FloaterC_Inventory.png
+  - type: FLOATER_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Floater.png
+  - type: ETHEREAL_C.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/ETHEREAL_c.png
+  - type: ETHEREAL_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_ETHEREAL_c.png
+  - type: ETHEREAL_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Ethereal.png
+  - type: CYBERDISC_C.PCK
+    width: 256
+    height: 280
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/CYBERDISC_c.png
+  - type: CYBERDISC_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_CYBERDISC_c.png
+  - type: CYBERDISC_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Cyberdisc.png
+  - type: REAPER_C.PCK
+    width: 256
+    height: 800
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/Reaper_C_SpriteSheet.png
+  - type: REAPER_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/Reaper_C_Inventory.png
+  - type: REAPER_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Reaper.png
+  - type: SECTOPOD_C.PCK
+    width: 256
+    height: 800
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/SECTOPOD_c.png
+  - type: SECTOPOD_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_SECTOPOD_c.png
+  - type: SECTOPOD_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Sectopod.png
+  - type: SILACOID_C.PCK
+    width: 256
+    height: 80
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/SILACOID_c.png
+  - type: SILACOID_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_SILACOID_c.png
+  - type: SILACOID_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Silacoid.png
+  - type: CELATID_C.PCK
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/CELATID_c.png
+  - type: CELATID_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_CELATID_c.png
+  - type: CELATID_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Celatid.png
+  - type: CHRYSSALID_C.PCK
+    width: 256
+    height: 1160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/CHRYSSALID_c.png
+  - type: CHRYSSALID_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_CHRYSSALID_c.png
+  - type: CHRYSSALID_C_UP.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/C_UP_Chryssalid.png
+  - type: ZOMBIE_C.PCK
+    width: 512
+    height: 240
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Elite Aliens/ZOMBIE_c.png
+  - type: ZOMBIE_C.SPK
+    singleImage: true
+    files:
+      0: Resources/Elite Aliens/inventory_ZOMBIE_c.gif
+  - type: BIGOBS.PCK
+    files:
+      900: Resources/Elite Aliens/bigobs_ETHEREAL_NAVIGATOR.png
+      901: Resources/Elite Aliens/bigobs_MUTON_SOLDIER_b.png
+      902: Resources/Elite Aliens/SectoidPowerC_BigOb.png
+      907: Resources/Elite Aliens/bigobs_ethereal_c.png
+      908: Resources/Elite Aliens/bigobs_chryssalid_c.png
+      909: Resources/Elite Aliens/bigobs_silacoid_c.png
+      910: Resources/Elite Aliens/bigobs_celatid_c.png
+      915: Resources/Elite Aliens/FloaterC_BigOb.png
+      930: Resources/Armored Sectoids/BigOb_SectoidPowerSkeleton.png
+      949: Resources/BattlefieldReports/Sectoid A Thumbnail.png
+      950: Resources/BattlefieldReports/Sectoid Thumbnail.png
+      951: Resources/BattlefieldReports/Cyberdisc Thumbnail.png
+      952: Resources/BattlefieldReports/Floater Thumbnail.png
+      953: Resources/BattlefieldReports/Reaper Thumbnail.png
+      954: Resources/BattlefieldReports/Snakeman Thumbnail.png
+      955: Resources/BattlefieldReports/Chryssalid Thumbnail.png
+      956: Resources/BattlefieldReports/Muton Thumbnail.png
+      957: Resources/BattlefieldReports/Silacoid Thumbnail.png
+      958: Resources/BattlefieldReports/Celatid Thumbnail.png
+      959: Resources/BattlefieldReports/Ethereal Thumbnail.png
+      960: Resources/BattlefieldReports/Sectopod Thumbnail.png
+  - type: BIGOBS.PCK
+    width: 64
+    height: 96
+    subX: 32
+    subY: 48
+    files:
+      896: Resources/Elite Aliens/Reavers_Terror.png
+      892: Resources/Elite Aliens/Terror.png
+      891: Resources/Elite Aliens/Zombie.png
+      887: Resources/Elite Aliens/Reavers_Terrorists_Elite.png
+  - type: FLOOROB.PCK
+    files:
+      900: Resources/Elite Aliens/floorob_ETHEREAL_NAVIGATOR.png
+      901: Resources/Elite Aliens/floorob_MUTON_SOLDIER_b.png
+      902: Resources/Elite Aliens/SectoidPowerC_FloorOb.png
+      903: Resources/Elite Aliens/floorob_cyberdisc_c_1.png
+      904: Resources/Elite Aliens/floorob_cyberdisc_c_2.png
+      905: Resources/Elite Aliens/floorob_cyberdisc_c_3.png
+      906: Resources/Elite Aliens/floorob_cyberdisc_c_4.png
+      907: Resources/Elite Aliens/floorob_ethereal_c.png
+      908: Resources/Elite Aliens/floorob_chryssalid_c.png
+      909: Resources/Elite Aliens/floorob_silacoid_c.png
+      910: Resources/Elite Aliens/floorob_celatid_c.png
+      911: Resources/Elite Aliens/floorob_sectopod_c_1.png
+      912: Resources/Elite Aliens/floorob_sectopod_c_2.png
+      913: Resources/Elite Aliens/floorob_sectopod_c_3.png
+      914: Resources/Elite Aliens/floorob_sectopod_c_4.png
+      915: Resources/Elite Aliens/FloaterC_FloorOb.png
+      916: Resources/Elite Aliens/Reaper_C_floorob_00.png
+      917: Resources/Elite Aliens/Reaper_C_floorob_01.png
+      918: Resources/Elite Aliens/Reaper_C_floorob_02.png
+      919: Resources/Elite Aliens/Reaper_C_floorob_03.png
+      920: Resources/Elite Aliens/Snakeman_Queen_B_floorob_0.png
+      921: Resources/Elite Aliens/Snakeman_Queen_B_floorob_1.png
+      922: Resources/Elite Aliens/Snakeman_Queen_B_floorob_2.png
+      923: Resources/Elite Aliens/Snakeman_Queen_B_floorob_3.png
+      930: Resources/Armored Sectoids/FloorOb_SectoidPowerSkeleton.png
+  - type: ALIEN_HABITAT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/AlienHabitat/Alien_Habitat.png
+  - type: WELCOME_GIFT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/LargeFacilities/Welcome_Gift.png

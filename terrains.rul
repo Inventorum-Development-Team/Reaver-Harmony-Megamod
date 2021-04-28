@@ -1,0 +1,612 @@
+terrains:
+  - name: MARS
+    mapDataSets:
+      - BLANKS
+      - MARS
+      - U_WALL02
+    script: MARS
+    mapBlocks:
+      - name: MARS00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MARS01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MARS02
+        width: 10
+        length: 10
+        groups: 0
+      - name: MARS03
+        width: 10
+        length: 10
+        groups: 0
+      - name: MARS04
+        width: 10
+        length: 10
+        groups: 0
+      - name: MARS05
+        width: 10
+        length: 10
+        groups: 0
+      - name: MARS06
+        width: 10
+        length: 10
+        groups: 0
+      - name: MARS07
+        width: 20
+        length: 20
+        groups: 3
+      - name: MARS08
+        width: 20
+        length: 20
+        groups: 3
+      - name: MARS09
+        width: 20
+        length: 20
+        groups: 3
+      - name: MARS10
+        width: 20
+        length: 20
+        groups: 2
+      - name: MARS20
+        width: 10
+        length: 10
+        groups: 10
+      - name: MARS21
+        width: 10
+        length: 10
+        groups: 10
+      - name: MARS22
+        width: 10
+        length: 10
+        groups: 10
+      - name: MARS23
+        width: 10
+        length: 10
+        groups: 10
+      - name: MARS24
+        width: 10
+        length: 10
+        groups: 10
+      - name: MARS25
+        width: 10
+        length: 10
+        groups: 10
+      - name: MARS26
+        width: 10
+        length: 10
+        groups: 10
+      - name: MARS27
+        width: 20
+        length: 20
+        groups: 11
+      - name: MARS28
+        width: 20
+        length: 20
+        groups: 11
+      - name: MARS29
+        width: 20
+        length: 20
+        groups: 11
+  - name: URBAN
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - CITYBEAC
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: URBAN
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: URBAN19
+        width: 10
+        length: 10
+  - name: UBASE
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+      - UFOL83A
+    mapBlocks:
+      - name: UBASE_00
+        width: 20
+        length: 20
+        groups: 3
+      - name: UBASE_01
+        width: 20
+        length: 20
+      - name: UBASE_02
+        width: 20
+        length: 20
+      - name: UBASE_03
+        width: 20
+        length: 20
+        items:
+          STR_ELERIUM_115:
+            - [2, 14, 1]
+            - [2, 16, 1]
+            - [5, 14, 1]
+            - [5, 16, 1]
+      - name: UBASE_04
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [1, 2]
+      - name: UBASE_05
+        width: 10
+        length: 10
+      - name: UBASE_06
+        width: 10
+        length: 10
+      - name: UBASE_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: UBASE_08
+        width: 10
+        length: 10
+      - name: UBASE_09
+        width: 10
+        length: 10
+      - name: UBASE_10
+        width: 10
+        length: 10
+      - name: UBASE_11
+        width: 10
+        length: 10
+      - name: UBASE_12
+        width: 10
+        length: 10
+        groups: 5
+      - name: UBASE_13
+        width: 10
+        length: 10
+        groups: 5
+      - name: UBASE_14
+        width: 10
+        length: 10
+        groups: 5
+      - name: UBASE_15
+        width: 20
+        length: 20
+        groups: 4
+  - name: UPOST
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+      - UFOL83A
+    mapBlocks:
+      - name: UPOST_00
+        width: 10
+        length: 10
+        groups: 3
+      - name: UPOST_01
+        width: 10
+        length: 10
+        groups: 4
+      - name: UPOST_02
+        width: 10
+        length: 10
+      - name: UPOST_03
+        width: 10
+        length: 10
+        items:
+          STR_ELERIUM_115:
+            - [1, 1, 1]
+      - name: UPOST_04
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 1
+      - name: UPOST_05
+        width: 10
+        length: 10
+        groups: 4
+      - name: UPOST_06
+        width: 10
+        length: 10
+      - name: UPOST_07
+        width: 10
+        length: 10
+        groups: 1
+      - name: UPOST_08
+        width: 10
+        length: 10
+      - name: UPOST_09
+        width: 10
+        length: 10
+      - name: UPOST_10
+        width: 10
+        length: 10
+      - name: UPOST_11
+        width: 10
+        length: 10
+        groups: 4
+  - name: SPOST
+    mapDataSets:
+      - BLANKS
+      - U_BASE
+      - U_WALL02
+      - U_PODS
+      - BRAIN
+      - SPOST
+    mapBlocks:
+      - name: SPOST_00
+        width: 10
+        length: 10
+        groups: 1
+      - name: SPOST_01
+        width: 10
+        length: 10
+        groups: 2
+      - name: SPOST_02
+        width: 10
+        length: 10
+        groups: 3
+      - name: SPOST_03
+        width: 10
+        length: 10
+        groups: 3
+      - name: SPOST_04
+        width: 10
+        length: 10
+        groups: 3
+      - name: SPOST_05
+        width: 10
+        length: 10
+        groups: 4
+      - name: SPOST_06
+        width: 10
+        length: 10
+        groups: 4
+      - name: SPOST_07
+        width: 10
+        length: 10
+        groups: 4
+      - name: SPOST_08
+        width: 10
+        length: 10
+        groups: 5
+  - name: XBASE
+    mapDataSets:
+      - BLANKS
+      - XBASE2_1
+      - XBASEADD
+      - XBASE0
+    mapBlocks:
+      - name: XBASE_00
+        width: 10
+        length: 10
+      - name: XBASE_01
+        width: 10
+        length: 10
+      - name: XBASE_02
+        width: 10
+        length: 10
+      - name: XBASE_03
+        width: 10
+        length: 10
+      - name: XBASE_04
+        width: 10
+        length: 10
+      - name: XBASE_05
+        width: 10
+        length: 10
+      - name: XBASE_06
+        width: 10
+        length: 10
+      - name: XBASE_07
+        width: 10
+        length: 10
+      - name: XBASE_08
+        width: 10
+        length: 10
+      - name: XBASE_09
+        width: 10
+        length: 10
+      - name: XBASE_10
+        width: 10
+        length: 10
+      - name: XBASE_11
+        width: 10
+        length: 10
+      - name: XBASE_12
+        width: 10
+        length: 10
+      - name: XBASE_13
+        width: 10
+        length: 10
+      - name: XBASE_14
+        width: 10
+        length: 10
+      - name: XBASE_15
+        width: 10
+        length: 10
+      - name: XBASE_16
+        width: 10
+        length: 10
+      - name: XBASE_17
+        width: 10
+        length: 10
+      - name: XBASE_18
+        width: 10
+        length: 10
+      - name: XBASE_19
+        width: 10
+        length: 10
+      - name: XBASE_20
+        width: 10
+        length: 10
+      - name: RBASE_00
+        width: 10
+        length: 10
+      - name: RBASE_01
+        width: 10
+        length: 10
+      - name: RBASE_02
+        width: 10
+        length: 10
+        items:
+          STR_DEFENSE_AP_TURRET_H_SPAWNER:
+            - [3, 3, 0]
+            - [5, 5, 0]
+          STR_DEFENSE_AP_TURRET_R_SPAWNER:
+            - [3, 5, 0]
+            - [5, 3, 0]
+        fuseTimers:
+          STR_DEFENSE_AP_TURRET_H_SPAWNER: [0, 0]
+          STR_DEFENSE_AP_TURRET_R_SPAWNER: [0, 0]
+      - name: RBASE_03
+        width: 10
+        length: 10
+        items:
+          STR_DEFENSE_LASER_TURRET_H_SPAWNER:
+            - [3, 3, 0]
+            - [5, 5, 0]
+          STR_DEFENSE_LASER_TURRET_R_SPAWNER:
+            - [3, 5, 0]
+            - [5, 3, 0]
+        fuseTimers:
+          STR_DEFENSE_LASER_TURRET_H_SPAWNER: [0, 0]
+          STR_DEFENSE_LASER_TURRET_R_SPAWNER: [0, 0]
+      - name: RBASE_04
+        width: 10
+        length: 10
+        items:
+          STR_DEFENSE_PLASMA_TURRET_H_SPAWNER:
+            - [3, 3, 0]
+            - [5, 5, 0]
+          STR_DEFENSE_PLASMA_TURRET_R_SPAWNER:
+            - [3, 5, 0]
+            - [5, 3, 0]
+        fuseTimers:
+          STR_DEFENSE_PLASMA_TURRET_H_SPAWNER: [0, 0]
+          STR_DEFENSE_PLASMA_TURRET_R_SPAWNER: [0, 0]
+      - name: RBASE_05
+        width: 10
+        length: 10
+      - name: RBASE_06
+        width: 10
+        length: 10
+      - name: RBASE_07
+        width: 10
+        length: 10
+      - name: RBASE_08
+        width: 10
+        length: 10
+      - name: RBASE_09
+        width: 10
+        length: 10
+      - name: RBASE_10
+        width: 10
+        length: 10
+      - name: RBASE_16
+        width: 10
+        length: 10
+      - name: RBASE_17
+        width: 10
+        length: 10
+      - name: RBASE_18
+        width: 10
+        length: 10
+      - name: RBASE_19
+        width: 10
+        length: 10
+      - name: RBASE_20
+        width: 10
+        length: 10
+      - name: RBASE_21
+        width: 10
+        length: 10
+      - name: RBASE_22
+        width: 10
+        length: 10
+      - name: RBASE_23
+        width: 10
+        length: 10
+      - name: RBASE_24
+        width: 10
+        length: 10
+      - name: RBASE_25
+        width: 10
+        length: 10
+      - name: RBASE_26
+        width: 10
+        length: 10
+      - name: RBASE_27
+        width: 10
+        length: 10
+      - name: RBASE_28
+        width: 10
+        length: 10
+      - name: RBASE_29
+        width: 10
+        length: 10
+      - name: RBASE_30
+        width: 10
+        length: 10
+      - name: RBASE_31
+        width: 10
+        length: 10
+      - name: RBASE_32
+        width: 10
+        length: 10
+      - name: RBASE_33
+        width: 10
+        length: 10
+      - name: RBASE_34
+        width: 10
+        length: 10
+      - name: RBASE_35
+        width: 10
+        length: 10
+      - name: RBASE_36
+        width: 10
+        length: 10
+      - name: RBASE_37
+        width: 10
+        length: 10
+      - name: RBASE_38
+        width: 10
+        length: 10
+      - name: RBASE_39
+        width: 10
+        length: 10
+      - name: RBASE_40
+        width: 10
+        length: 10
+      - name: RBASE_41
+        width: 10
+        length: 10
+      - name: RBASE_42
+        width: 10
+        length: 10
+      - name: RBASE_43
+        width: 10
+        length: 10
+      - name: RBASE_44
+        width: 10
+        length: 10
+      - name: RBASE_45
+        width: 10
+        length: 10
+      - name: RBASE_46
+        width: 10
+        length: 10
+      - name: RBASE_47
+        width: 10
+        length: 10
+      - name: RBASE_48
+        width: 10
+        length: 10
+      - name: RBASE_49
+        width: 10
+        length: 10
+      - name: RBASE_50
+        width: 10
+        length: 10
+      - name: RBASE_51
+        width: 10
+        length: 10
+      - name: XBASS_01
+        width: 10
+        length: 10
+      - name: XBASS_02
+        width: 10
+        length: 10
+      - name: XBASS_03
+        width: 10
+        length: 10
+      - name: XBASS_04
+        width: 10
+        length: 10
+      - name: XBASS_05
+        width: 10
+        length: 10
+      - name: XBASS_23
+        width: 10
+        length: 10
+      - name: XOPSXBASE02
+        width: 10
+        length: 10
+      - name: XOPSXBASE03
+        width: 10
+        length: 10
+      - name: XOPSXBASE04
+        width: 10
+        length: 10
+      - name: XOPSXBASE05
+        width: 10
+        length: 10
+      - name: XOPSXBASE16
+        width: 10
+        length: 10
+      - name: XOPSXBASE17
+        width: 10
+        length: 10
+      - name: XOPSXBASE18
+        width: 10
+        length: 10
+      - name: XOPSXBASE19
+        width: 10
+        length: 10

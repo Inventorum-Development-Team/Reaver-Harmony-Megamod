@@ -1,0 +1,192 @@
+ufoTrajectories:
+  - id: P0 #RECONNAISANCE
+    groundTimer: 3000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 74]
+      - [0, 1, 28]
+      - [1, 1, 47]
+      - [5, 2, 100]
+  - id: P01 #SLOW RECONNAISANCE
+    groundTimer: 3000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 62]
+      - [0, 1, 22]
+      - [1, 1, 14]
+      - [1, 1, 22]
+      - [2, 1, 14]
+      - [2, 1, 22]
+      - [1, 1, 47]
+      - [5, 2, 100]
+  - id: P02 #CITY SCANS
+    groundTimer: 2000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 2, 76]
+      - [3, 2, 20]
+      - [3, 1, 44]
+      - [3, 1, 20]
+      - [3, 2, 32]
+      - [3, 1, 65]
+      - [5, 1, 100]
+  - id: P1 #SCAN, LAND TWICE
+    groundTimer: 4000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 2, 76]
+      - [0, 2, 20]
+      - [1, 1, 44]
+      - [0, 0, 20]
+      - [0, 2, 32]
+      - [2, 1, 65]
+      - [5, 0, 100]
+  - id: P2 #SCAN, LAND ONCE
+    groundTimer: 5000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 57]
+      - [0, 2, 26]
+      - [1, 1, 50]
+      - [5, 0, 100]
+  - id: P3 #DESCEND SLOWLY, LAND LONGER (EDITED FROM ORIGINAL)
+    groundTimer: 7500
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 30]
+      - [0, 2, 25]
+      - [1, 1, 20]
+      - [2, 1, 15]
+      - [5, 0, 100]
+  - id: P4 #DESCEND, LAND TWICE LONG
+    groundTimer: 7000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 2, 67]
+      - [0, 2, 52]
+      - [2, 1, 40]
+      - [0, 0, 30]
+      - [0, 2, 20]
+      - [2, 1, 30]
+      - [5, 0, 100]
+  - id: P5 #DESCEND SLOWLY, LAND TWICE
+    groundTimer: 4000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 2, 50]
+      - [0, 2, 20]
+      - [4, 1, 15]
+      - [0, 0, 20]
+      - [0, 2, 29]
+      - [4, 1, 42]
+      - [5, 0, 90]
+  - id: P6 #DESCEND, SCAN, LAND
+    groundTimer: 5000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 50]
+      - [0, 2, 25]
+      - [4, 1, 16]
+      - [5, 0, 100]
+  - id: P60 #QUICK SCAN, BRIEF LANDING
+    groundTimer: 2000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 50]
+      - [5, 2, 100]
+  - id: P66 #FINAL PATROL SCOUT, ENTERS AND EXITS
+    waypoints:
+      - [5, 4, 100]
+      - [5, 4, 100]
+  - id: P7 #DESCEND, LAND LONG ON CITY
+    groundTimer: 9000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 60]
+      - [0, 2, 30]
+      - [3, 1, 20]
+      - [5, 0, 100]
+  - id: P75 #P4 P5 LONG LINGERING SENTINEL
+    groundTimer: 9000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 60]
+      - [1, 2, 30]
+      - [2, 1, 20]
+      - [1, 1, 10]
+      - [2, 1, 10]
+      - [1, 2, 30]
+      - [2, 1, 20]
+      - [1, 1, 10]
+      - [2, 1, 10]
+      - [5, 4, 100]
+  - id: P78 #LINGERING CITY SENTINEL
+    groundTimer: 9000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 60]
+      - [3, 2, 30]
+      - [3, 1, 20]
+      - [3, 1, 10]
+      - [3, 1, 10]
+      - [5, 4, 100]
+  - id: P79 #LINGERING SENTINEL
+    groundTimer: 9000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 3, 60]
+      - [1, 2, 30]
+      - [2, 1, 20]
+      - [1, 1, 10]
+      - [2, 1, 10]
+      - [5, 4, 100]
+  - id: P8 #SCAN MULTIPLE PASSES
+    groundTimer: 6000
+    waypoints:
+      - [5, 4, 100]
+      - [1, 1, 60]
+      - [2, 1, 20]
+      - [3, 1, 30]
+      - [4, 1, 20]
+      - [0, 1, 42]
+      - [2, 1, 56]
+      - [5, 4, 100]
+  - id: P88 #SCANNER DEFENDER
+    groundTimer: 6000
+    waypoints:
+      - [5, 4, 100]
+      - [1, 1, 60]
+      - [2, 1, 30]
+      - [3, 1, 40]
+      - [4, 1, 30]
+      - [0, 1, 50]
+      - [2, 1, 60]
+      - [2, 1, 30]
+      - [3, 1, 40]
+      - [4, 1, 30]
+      - [0, 1, 50]
+      - [2, 1, 60]
+      - [5, 4, 100]
+  - id: P9 #BASE SUPPLY, SHORT LANDING
+    groundTimer: 2880
+    waypoints:
+      - [5, 4, 80]
+      - [5, 0, 100]
+  - id: P91 #BASE SUPPLY, VERY SHORT LANDING
+    groundTimer: 720
+    waypoints:
+      - [5, 4, 80]
+      - [5, 0, 100]
+  - id: __RETALIATION_ASSAULT_RUN
+    groundTimer: 1000
+    waypoints:
+      - [5, 4, 100] #This should always be 5, 4, 100
+      - [5, 0, 100] #only the 0 altitude matters
+  - id: P00 #TRANSPORT DEFENSE TUTORIAL
+    groundTimer: 4000
+    waypoints:
+      - [5, 4, 100]
+      - [0, 0, 100]
+      - [0, 0, 100]
+      - [0, 0, 100]
+      - [5, 0, 100]

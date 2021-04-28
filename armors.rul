@@ -1,0 +1,2405 @@
+armors:
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+  - type: STR_SOLDIER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0M2
+    corpseBattle:
+      - STR_CORPSE
+  - type: STR_BREACHER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0M6
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      stamina: 10
+      health: 8
+      reactions: 13
+      melee: 15
+  - type: STR_RANGER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0M1
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      tu: 8
+      stamina: 15
+      firing: 10
+      throwing: 10
+      strength: 5
+  - type: STR_SNIPER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0F6
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      reactions: 10
+      firing: 20
+  - type: STR_HEAVY_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0M4
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      health: 5
+      reactions: -10
+      firing: 10
+      throwing: 10
+      strength: 13
+  - type: STR_PSI_ADEPT_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0F1
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      bravery: 20
+      psiStrength: 20
+      mana: 10
+  - type: STR_ELITE_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0M7
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      tu: 5
+      stamina: 10
+      health: 5
+      bravery: 20
+      reactions: 7
+      firing: 10
+      throwing: 10
+      strength: 7
+      melee: 10
+  # - type: STR_PSIONIC_PRODIGY_UP
+    # spriteSheet: XCOM_0.PCK
+    # spriteInv: MAN_0F1
+    # corpseBattle:
+      # - STR_CORPSE
+    # stats:
+      # psiStrength: 30
+      # psiSkill: 8
+      # mana: 20
+  - type: STR_SUPER_SOLDIER_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0M5
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      tu: 10
+      stamina: 20
+      health: 15
+      bravery: 30
+      reactions: 13
+      firing: 20
+      throwing: 20
+      strength: 13
+      melee: 20
+      mana: 13
+  - type: STR_SUPER_PSIBORG_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0F4
+    corpseBattle:
+      - STR_CORPSE
+    stats:
+      tu: 10
+      stamina: 20
+      health: 15
+      bravery: 30
+      reactions: 13
+      firing: 20
+      throwing: 20
+      strength: 13
+      melee: 20
+      psiStrength: 30
+      psiSkill: 8
+      mana: 20
+  - type: STR_DEFENSE_AP_TURRET_ARMOR
+    spriteSheet: DEFENSE_TURRET_AP.PCK
+    allowInv: false
+    corpseGeo:
+      - STR_DEFENSE_AP_TURRET_CORPSE
+    corpseBattle:
+      - STR_DEFENSE_AP_TURRET_CORPSE
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 30
+    size: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.0
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    zombiImmune: true
+    bleedImmune: true
+    stunImmune: true
+    painImmune: true
+    fearImmune: true
+    loftempsSet: [ 6 ]
+    drawingRoutine: 19
+    allowsKneeling: false
+    allowsSprinting: false
+    allowsMoving: false
+  - type: STR_DEFENSE_LASER_TURRET_ARMOR
+    spriteSheet: DEFENSE_TURRET_LASER.PCK
+    allowInv: false
+    corpseGeo:
+      - STR_DEFENSE_LASER_TURRET_CORPSE
+    corpseBattle:
+      - STR_DEFENSE_LASER_TURRET_CORPSE
+    frontArmor: 60
+    sideArmor: 60
+    rearArmor: 60
+    underArmor: 45
+    size: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.0
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    zombiImmune: true
+    bleedImmune: true
+    stunImmune: true
+    painImmune: true
+    fearImmune: true
+    loftempsSet: [ 6 ]
+    drawingRoutine: 19
+    allowsKneeling: false
+    allowsSprinting: false
+    allowsMoving: false
+  - type: STR_DEFENSE_PLASMA_TURRET_ARMOR
+    spriteSheet: DEFENSE_TURRET_PLASMA.PCK
+    allowInv: false
+    corpseGeo:
+      - STR_DEFENSE_PLASMA_TURRET_CORPSE
+    corpseBattle:
+      - STR_DEFENSE_PLASMA_TURRET_CORPSE
+    frontArmor: 80
+    sideArmor: 80
+    rearArmor: 80
+    underArmor: 60
+    size: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.0
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    zombiImmune: true
+    bleedImmune: true
+    stunImmune: true
+    painImmune: true
+    fearImmune: true
+    loftempsSet: [ 6 ]
+    drawingRoutine: 19
+    allowsKneeling: false
+    allowsSprinting: false
+    allowsMoving: false
+  - type: TANK_ARMOR_GUARDIAN
+    spriteSheet: GTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 90
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.3
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR
+    spriteSheet: BTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 80
+    sideArmor: 65
+    rearArmor: 50
+    underArmor: 45
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_ASSAULT
+    spriteSheet: ATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 70
+    sideArmor: 50
+    rearArmor: 30
+    underArmor: 30
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_GUARDIAN_ALLOY
+    spriteSheet: GATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 110
+    sideArmor: 100
+    rearArmor: 90
+    underArmor: 80
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.3
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_BATTLE_ALLOY
+    spriteSheet: BATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 95
+    sideArmor: 80
+    rearArmor: 65
+    underArmor: 60
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_ASSAULT_ALLOY
+    spriteSheet: AATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAlloyTank_1
+      - CorpseAlloyTank_2
+      - CorpseAlloyTank_3
+      - CorpseAlloyTank_4
+    frontArmor: 80
+    sideArmor: 60
+    rearArmor: 40
+    underArmor: 40
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_CERBERUS
+    spriteSheet: NOTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseNightOpsTank_1
+      - CorpseNightOpsTank_2
+      - CorpseNightOpsTank_3
+      - CorpseNightOpsTank_4
+    frontArmor: 103
+    sideArmor: 90
+    rearArmor: 77
+    underArmor: 70
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    visibilityAtDark: 12
+    camouflageAtDay: -2
+    camouflageAtDark: -4
+    heatVision: 40
+    personalLight: 0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: TANK_ARMOR_VIGILANTE
+    spriteSheet: NOTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseNightOpsTank_1
+      - CorpseNightOpsTank_2
+      - CorpseNightOpsTank_3
+      - CorpseNightOpsTank_4
+    frontArmor: 87
+    sideArmor: 70
+    rearArmor: 53
+    underArmor: 50
+    drawingRoutine: 2
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.35
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    visibilityAtDark: 12
+    camouflageAtDay: -2
+    camouflageAtDark: -4
+    heatVision: 40
+    personalLight: 0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HOVERTANK_ARMOR_GUARDIAN
+    spriteSheet: GTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseGuardianHover_1
+      - CorpseGuardianHover_2
+      - CorpseGuardianHover_3
+      - CorpseGuardianHover_4
+    frontArmor: 140
+    sideArmor: 135
+    rearArmor: 130
+    underArmor: 115
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.3
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HOVERTANK_ARMOR
+    spriteSheet: BTANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseBattleHover_1
+      - CorpseBattleHover_2
+      - CorpseBattleHover_3
+      - CorpseBattleHover_4
+    frontArmor: 120
+    sideArmor: 110
+    rearArmor: 100
+    underArmor: 90
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HOVERTANK_ARMOR_ASSAULT
+    spriteSheet: ATANKS.PCK
+    allowInv: false
+    corpseBattle:
+      - CorpseAssaultHover_1
+      - CorpseAssaultHover_2
+      - CorpseAssaultHover_3
+      - CorpseAssaultHover_4
+    frontArmor: 100
+    sideArmor: 85
+    rearArmor: 70
+    underArmor: 65
+    drawingRoutine: 2
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.2
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: STR_LIGHT_ARMOR_UP
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0M3
+    corpseBattle:
+      - STR_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+  - type: STR_NONE_UC
+    spriteSheet: XCOM_0.PCK
+    spriteInv: MAN_0
+    customArmorPreviewIndex: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 102, 164, 245, 245, 166, 166, 96, 245, 245, 102, 245, 245, 163, 245] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    loftempsSet: [ 4 ]
+  - type: STR_STEALTH_GEAR_UC
+    spriteSheet: StealthGear.PCK
+    spriteInv: MAN_11
+    customArmorPreviewIndex: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 102, 164, 245, 245, 166, 166, 96, 245, 245, 102, 245, 245, 163, 245] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    corpseBattle:
+      - STR_CORPSE_STEALTH_GEAR
+    storeItem: STR_STEALTH_GEAR
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    visibilityAtDark: 12
+    camouflageAtDark: -2
+    personalLight: 0
+    loftempsSet: [ 3 ]
+  - type: STR_STEALTH_GEAR_UP
+    spriteSheet: StealthGear.PCK
+    spriteInv: MAN_11_UP
+    corpseBattle:
+      - STR_CORPSE_STEALTH_GEAR
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    visibilityAtDark: 12
+    camouflageAtDark: -2
+    personalLight: 0
+  - &STR_HEAVY_ARMOR_UC
+    type: STR_HEAVY_ARMOR_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: XCOM_4.PCK
+    spriteInv: MAN_4
+    customArmorPreviewIndex: 1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 102, 164, 245, 245, 166, 166, 96, 245, 245, 102, 245, 245, 163, 245] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    corpseBattle:
+      - STR_CORPSE_HEAVY_ARMOR
+    storeItem: STR_HEAVY_ARMOR
+    weight: 5
+    stats:
+      tu: -5
+      bravery: 10
+    frontArmor: 56
+    sideArmor: 45
+    rearArmor: 35
+    underArmor: 24
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+    overKill: 2.1
+    meleeDodge:
+      flatHundred: -0.25
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    loftempsSet: [ 4 ]
+  - type: STR_HEAVY_ARMOR_UC_MEDIUM
+    refNode: *STR_HEAVY_ARMOR_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 48
+    sideArmor: 38
+    rearArmor: 30
+    underArmor: 21
+    meleeDodge:
+      flatHundred: -0.30
+  - type: STR_HEAVY_ARMOR_UC_HARD
+    refNode: *STR_HEAVY_ARMOR_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 40
+    sideArmor: 32
+    rearArmor: 25
+    underArmor: 18
+    meleeDodge:
+      flatHundred: -0.35
+  - &STR_PERSONAL_ARMOR_UC
+    type: STR_PERSONAL_ARMOR_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_1
+    customArmorPreviewIndex: 3
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 102, 164, 245, 245, 166, 166, 96, 245, 245, 102, 245, 245, 163, 245] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    corpseBattle:
+      - STR_CORPSE_ARMOR
+    corpseGeo: STR_BROKEN_ARMOR
+    storeItem: STR_PERSONAL_ARMOR_L
+    stats:
+      bravery: 10
+    frontArmor: 80
+    sideArmor: 70
+    rearArmor: 60
+    underArmor: 60
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.3
+      - 1.0
+    overKill: 2.3
+    meleeDodge:
+      flatHundred: -0.10
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    loftempsSet: [ 4 ]
+  - type: STR_PERSONAL_ARMOR_UC_MEDIUM
+    refNode: *STR_PERSONAL_ARMOR_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 70
+    sideArmor: 60
+    rearArmor: 50
+    underArmor: 50
+    meleeDodge:
+      flatHundred: -0.16
+  - type: STR_PERSONAL_ARMOR_UC_HARD
+    refNode: *STR_PERSONAL_ARMOR_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
+    meleeDodge:
+      flatHundred: -0.22
+  - &STR_PERSONAL_ARMOR_HEAVY_UC
+    type: STR_PERSONAL_ARMOR_HEAVY_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: AlloyArmor.PCK
+    spriteInv: MAN_5
+    customArmorPreviewIndex: 4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 102, 164, 245, 245, 166, 166, 96, 245, 245, 102, 245, 245, 163, 245] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    corpseBattle:
+      - STR_CORPSE_ARMOR_ALLOY
+    corpseGeo: STR_BROKEN_ARMOR_ALLOY
+    storeItem: STR_PERSONAL_ARMOR_HEAVY
+    weight: 10
+    stats:
+      tu: -10
+      bravery: 20
+    frontArmor: 110
+    sideArmor: 95
+    rearArmor: 80
+    underArmor: 80
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.3
+      - 1.0
+    overKill: 2.4
+    meleeDodge:
+      flatHundred: 0.02
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    loftempsSet: [ 4 ]
+  - type: STR_PERSONAL_ARMOR_HEAVY_UC_MEDIUM
+    refNode: *STR_PERSONAL_ARMOR_HEAVY_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 95
+    sideArmor: 80
+    rearArmor: 65
+    underArmor: 65
+    meleeDodge:
+      flatHundred: -0.05
+  - type: STR_PERSONAL_ARMOR_HEAVY_UC_HARD
+    refNode: *STR_PERSONAL_ARMOR_HEAVY_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 80
+    sideArmor: 65
+    rearArmor: 50
+    underArmor: 50
+    meleeDodge:
+      flatHundred: -0.12
+  - &STR_NIGHT_OPS_ARMOR_UC
+    type: STR_NIGHT_OPS_ARMOR_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: NightOpsArmor.PCK
+    spriteInv: MAN_10
+    customArmorPreviewIndex: 5
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 102, 164, 245, 245, 166, 166, 96, 245, 245, 102, 245, 245, 163, 245] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    corpseBattle:
+      - STR_CORPSE_NIGHT_OPS_ARMOR
+    corpseGeo: STR_BROKEN_NIGHT_OPS_ARMOR
+    storeItem: STR_NIGHT_OPS_ARMOR
+    stats:
+      bravery: 10
+    frontArmor: 95
+    sideArmor: 85
+    rearArmor: 75
+    underArmor: 75
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.3
+      - 1.0
+    overKill: 2.3
+    meleeDodge:
+      flatHundred: -0.03
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    visibilityAtDark: 19
+    camouflageAtDark: -6
+    heatVision: 40
+    personalLight: 0
+    loftempsSet: [ 4 ]
+  - type: STR_NIGHT_OPS_ARMOR_UC_MEDIUM
+    refNode: *STR_NIGHT_OPS_ARMOR_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 80
+    sideArmor: 70
+    rearArmor: 60
+    underArmor: 60
+    meleeDodge:
+      flatHundred: -0.10
+    visibilityAtDark: 17
+    camouflageAtDark: -5
+  - type: STR_NIGHT_OPS_ARMOR_UC_HARD
+    refNode: *STR_NIGHT_OPS_ARMOR_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 65
+    sideArmor: 55
+    rearArmor: 45
+    underArmor: 45
+    meleeDodge:
+      flatHundred: -0.16
+    visibilityAtDark: 15
+    camouflageAtDark: -4
+  - &STR_PSIONIC_ALLOY_ARMOR_UC
+    type: STR_PSIONIC_ALLOY_ARMOR_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: PsionicArmor.PCK
+    spriteInv: MAN_12
+    customArmorPreviewIndex: 6
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 102, 164, 245, 245, 166, 166, 96, 245, 245, 102, 245, 245, 163, 245] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7
+    corpseBattle:
+      - STR_CORPSE_PSIONIC_ALLOY_ARMOR
+    corpseGeo: STR_BROKEN_PSIONIC_ALLOY_ARMOR
+    storeItem: STR_PSIONIC_ALLOY_ARMOR
+    stats:
+      bravery: 20
+      psiStrength: 20
+    frontArmor: 95
+    sideArmor: 85
+    rearArmor: 75
+    underArmor: 75
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.3
+      - 1.0
+    overKill: 2.3
+    meleeDodge:
+      flatHundred: -0.03
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.16
+    psiVision: 10
+    loftempsSet: [ 4 ]
+  - type: STR_PSIONIC_ALLOY_ARMOR_UC_MEDIUM
+    refNode: *STR_PSIONIC_ALLOY_ARMOR_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 80
+    sideArmor: 70
+    rearArmor: 60
+    underArmor: 60
+    meleeDodge:
+      flatHundred: -0.10
+    psiVision: 9
+  - type: STR_PSIONIC_ALLOY_ARMOR_UC_HARD
+    refNode: *STR_PSIONIC_ALLOY_ARMOR_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 65
+    sideArmor: 55
+    rearArmor: 45
+    underArmor: 45
+    meleeDodge:
+      flatHundred: -0.16
+    psiVision: 8
+  - &STR_POWER_SUIT_UC
+    type: STR_POWER_SUIT_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: DarkSuit.PCK
+    spriteInv: MAN_2_1
+    customArmorPreviewIndex: 7
+    corpseBattle:
+      - STR_CORPSE_DARK_SUIT
+    corpseGeo: STR_BROKEN_DARK_SUIT
+    storeItem: STR_POWER_SUIT
+    weight: 30
+    stats:
+      tu: 10
+      stamina: 10
+      bravery: 20
+      strength: 70
+    frontArmor: 125
+    sideArmor: 105
+    rearArmor: 95
+    underArmor: 85
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 4 ]
+    forcedTorso: 1
+    overKill: 2.5
+    meleeDodge:
+      flatHundred: 0.30
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+  - type: STR_POWER_SUIT_UC_MEDIUM
+    refNode: *STR_POWER_SUIT_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 110
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 70
+    meleeDodge:
+      flatHundred: 0.23
+  - type: STR_POWER_SUIT_UC_HARD
+    refNode: *STR_POWER_SUIT_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 95
+    sideArmor: 75
+    rearArmor: 65
+    underArmor: 55
+    meleeDodge:
+      flatHundred: 0.16
+  - &STR_FLYING_SUIT_UC
+    type: STR_FLYING_SUIT_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: XCOM_2.PCK
+    spriteInv: MAN_3
+    customArmorPreviewIndex: 8
+    corpseBattle:
+      - STR_CORPSE_SUIT
+    corpseGeo: STR_BROKEN_SUIT
+    storeItem: STR_FLYING_SUIT
+    weight: 25
+    stats:
+      tu: 10
+      firing: 10
+      bravery: 10
+      strength: 40
+    frontArmor: 115
+    sideArmor: 95
+    rearArmor: 85
+    underArmor: 75
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 4 ]
+    forcedTorso: 2
+    overKill: 2.5
+    meleeDodge:
+      flatHundred: 0.25
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+  - type: STR_FLYING_SUIT_UC_MEDIUM
+    refNode: *STR_FLYING_SUIT_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 100
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 60
+    meleeDodge:
+      flatHundred: 0.18
+  - type: STR_FLYING_SUIT_UC_HARD
+    refNode: *STR_FLYING_SUIT_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 85
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 45
+    meleeDodge:
+      flatHundred: 0.11
+  - &STR_PSI_DEFENSE_ARMOR_UC
+    type: STR_PSI_DEFENSE_ARMOR_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: PsiArmor1.PCK
+    spriteInv: MAN_6
+    customArmorPreviewIndex: 9
+    corpseBattle:
+      - STR_CORPSE_SUIT_PSI1
+    corpseGeo: STR_BROKEN_SUIT_PSI1
+    storeItem: STR_PSI_DEFENSE_ARMOR
+    weight: 30
+    stats:
+      bravery: 20
+      strength: 50
+      psiStrength: 30
+      psiSkill: -20
+    frontArmor: 135
+    sideArmor: 115
+    rearArmor: 105
+    underArmor: 95
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.0
+    overKill: 2.5
+    meleeDodge:
+      flatHundred: 0.35
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.09
+    loftempsSet: [ 4 ]
+    forcedTorso: 1
+  - type: STR_PSI_DEFENSE_ARMOR_UC_MEDIUM
+    refNode: *STR_PSI_DEFENSE_ARMOR_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 120
+    sideArmor: 100
+    rearArmor: 90
+    underArmor: 80
+    meleeDodge:
+      flatHundred: 0.28
+  - type: STR_PSI_DEFENSE_ARMOR_UC_HARD
+    refNode: *STR_PSI_DEFENSE_ARMOR_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 105
+    sideArmor: 85
+    rearArmor: 75
+    underArmor: 65
+    meleeDodge:
+      flatHundred: 0.21
+  - &STR_PSI_ATTACK_ARMOR_UC
+    type: STR_PSI_ATTACK_ARMOR_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: PsiArmor2.PCK
+    spriteInv: MAN_7
+    customArmorPreviewIndex: 10
+    corpseBattle:
+      - STR_CORPSE_SUIT_PSI2
+    corpseGeo: STR_BROKEN_SUIT_PSI2
+    storeItem: STR_PSI_ATTACK_ARMOR
+    weight: 25
+    stats:
+      bravery: 10
+      strength: 40
+      psiStrength: 0
+      psiSkill: 20
+    frontArmor: 125
+    sideArmor: 105
+    rearArmor: 95
+    underArmor: 85
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.0
+    overKill: 2.5
+    meleeDodge:
+      flatHundred: 0.30
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.17
+    psiVision: 12
+    loftempsSet: [ 4 ]
+    forcedTorso: 2
+  - type: STR_PSI_ATTACK_ARMOR_UC_MEDIUM
+    refNode: *STR_PSI_ATTACK_ARMOR_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 110
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 70
+    meleeDodge:
+      flatHundred: 0.23
+    psiVision: 10
+  - type: STR_PSI_ATTACK_ARMOR_UC_HARD
+    refNode: *STR_PSI_ATTACK_ARMOR_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 95
+    sideArmor: 75
+    rearArmor: 65
+    underArmor: 55
+    meleeDodge:
+      flatHundred: 0.16
+    psiVision: 8
+  - &STR_PALADIN_ARMOR_UC
+    type: STR_PALADIN_ARMOR_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: PaladinArmor.PCK
+    spriteInv: MAN_8
+    customArmorPreviewIndex: 11
+    corpseBattle:
+      - STR_CORPSE_PALADIN_ARMOR
+    corpseGeo: STR_BROKEN_PALADIN_ARMOR
+    storeItem: STR_PALADIN_ARMOR
+    weight: 40
+    stats:
+      tu: -20
+      health: 40
+      bravery: 30
+      strength: 100
+      melee: 20
+      psiStrength: 15
+      psiSkill: -5
+    frontArmor: 180
+    sideArmor: 155
+    rearArmor: 130
+    underArmor: 145
+    damageModifier:
+      - 1.0
+      - 0.7
+      - 0.4
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.7
+      - 1.0
+      - 0.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.10
+    recovery:
+      stun:
+        stunCurrent: 0.15
+        flatHundred: 0.03
+      mana:
+        flatHundred: 0.11
+    heatVision: 70
+    zombiImmune: true
+    loftempsSet: [ 4 ]
+    forcedTorso: 1
+  - type: STR_PALADIN_ARMOR_UC_MEDIUM
+    refNode: *STR_PALADIN_ARMOR_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 160
+    sideArmor: 135
+    rearArmor: 110
+    underArmor: 125
+    meleeDodge:
+      flatHundred: -0.10
+    heatVision: 60
+  - type: STR_PALADIN_ARMOR_UC_HARD
+    refNode: *STR_PALADIN_ARMOR_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 140
+    sideArmor: 115
+    rearArmor: 90
+    underArmor: 105
+    meleeDodge:
+      flatHundred: -0.10
+    heatVision: 50
+  - &STR_ASSASSIN_ARMOR_UC
+    type: STR_ASSASSIN_ARMOR_UC_EASY
+    requires: STR_ARMOR_EASY
+    spriteSheet: AssassinArmor.PCK
+    spriteInv: MAN_9
+    customArmorPreviewIndex: 12
+    corpseBattle:
+      - STR_CORPSE_ASSASSIN_ARMOR
+    corpseGeo: STR_BROKEN_ASSASSIN_ARMOR
+    storeItem: STR_ASSASSIN_ARMOR
+    weight: 20
+    stats:
+      tu: 20
+      stamina: 40
+      bravery: 30
+      reactions: 30
+      firing: 20
+      throwing: 20
+      melee: 20
+      strength: 30
+      psiStrength: 7
+      psiSkill: 5
+    frontArmor: 105
+    sideArmor: 95
+    rearArmor: 90
+    underArmor: 85
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.6
+      - 0.7
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.5
+      - 1.0
+      - 0.5
+      - 0.0
+    overKill: 3
+    meleeDodge:
+      flatHundred: 0.25
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.02
+      mana:
+        flatHundred: 0.15
+    visibilityAtDark: 23
+    camouflageAtDark: -7
+    heatVision: 30
+    psiVision: 6
+    personalLight: 0
+    loftempsSet: [ 4 ]
+    forcedTorso: 2
+  - type: STR_ASSASSIN_ARMOR_UC_MEDIUM
+    refNode: *STR_ASSASSIN_ARMOR_UC
+    requires: STR_ARMOR_MEDIUM
+    frontArmor: 85
+    sideArmor: 75
+    rearArmor: 70
+    underArmor: 65
+    meleeDodge:
+      flatHundred: 0.15
+    visibilityAtDark: 20
+    camouflageAtDark: -5
+    heatVision: 25
+    psiVision: 5
+  - type: STR_ASSASSIN_ARMOR_UC_HARD
+    refNode: *STR_ASSASSIN_ARMOR_UC
+    requires: STR_ARMOR_HARD
+    frontArmor: 65
+    sideArmor: 55
+    rearArmor: 50
+    underArmor: 45
+    meleeDodge:
+      flatHundred: 0.05
+    visibilityAtDark: 17
+    camouflageAtDark: -3
+    heatVision: 20
+    psiVision: 4
+  - type: CIVM_ARMOR
+    spriteSheet: CIVM.PCK
+    corpseBattle:
+      - CIVM_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    loftempsSet: [ 3 ]
+  - type: CIVF_ARMOR
+    spriteSheet: CIVF.PCK
+    corpseBattle:
+      - CIVF_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.4
+    loftempsSet: [ 3 ]
+  - &STR_SECTOID_ARMOR0
+    type: SECTOID_ARMOR0
+    spriteInv: SECTOID
+    frontArmor: 10
+    sideArmor: 9
+    rearArmor: 8
+    underArmor: 8
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.56
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.2
+      - 1.0
+      - 0.0
+      - 0.42 #Psionic
+    overKill: 2
+    visibilityAtDark: 28
+    loftempsSet: [ 3 ]
+  - &STR_SECTOID_ARMOR1
+    type: SECTOID_ARMOR1
+    spriteSheet: SECTOID.PCK
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 11
+    sideArmor: 10
+    rearArmor: 9
+    underArmor: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.49
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.52
+      - 1.2
+      - 1.0
+      - 0.0
+      - 0.42 #Psionic
+    overKill: 2
+    visibilityAtDark: 28
+    loftempsSet: [ 3 ]
+  - &STR_SECTOID_ARMOR2
+    type: SECTOID_ARMOR2
+    spriteSheet: SECTOID.PCK
+    corpseBattle:
+      - STR_SECTOID_CORPSE_PSI
+    frontArmor: 12
+    sideArmor: 11
+    rearArmor: 10
+    underArmor: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.42
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.44
+      - 1.2
+      - 1.0
+      - 0.0
+      - 0.35 #Psionic
+    overKill: 2
+    recovery:
+      mana:
+        flatHundred: 0.13
+    visibilityAtDark: 28
+    psiVision: 8
+    loftempsSet: [ 3 ]
+  - type: SECTOID_ARMORED0
+    refNode: *STR_SECTOID_ARMOR0
+    spriteSheet: SECTOID_A.PCK
+    spriteInv: SECTOID_A
+    corpseBattle:
+      - STR_SECTOID_A_CORPSE
+    frontArmor: 40
+    sideArmor: 36
+    rearArmor: 32
+    underArmor: 30
+  - type: SECTOID_ARMORED1
+    refNode: *STR_SECTOID_ARMOR1
+    spriteSheet: SECTOID_A.PCK
+    spriteInv: SECTOID_A
+    corpseBattle:
+      - STR_SECTOID_A_CORPSE
+    frontArmor: 44
+    sideArmor: 40
+    rearArmor: 36
+    underArmor: 34
+  - type: SECTOID_ARMORED2
+    refNode: *STR_SECTOID_ARMOR2
+    spriteSheet: SECTOID_A.PCK
+    spriteInv: SECTOID_A
+    corpseBattle:
+      - STR_SECTOID_A_CORPSE_PSI
+    frontArmor: 48
+    sideArmor: 44
+    rearArmor: 40
+    underArmor: 38
+  - type: CYBERDISC_ARMOR
+    spriteInv: CYBERDISC
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 40
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.5
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 0.8
+      - 0.0
+      - 0.27 #Psionic
+    overKill: 1.0
+    meleeDodge:
+      flatHundred: -0.25
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    heatVision: 50
+  - type: FLOATER_ARMOR0
+    spriteInv: FLOATER
+    frontArmor: 3
+    sideArmor: 2
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.28
+      - 0.0
+      - 1.00 #Psionic
+    overKill: 0.8
+    visibilityAtDark: 19
+    loftempsSet: [ 4 ]
+  - type: FLOATER_ARMOR1
+    spriteInv: FLOATER
+    frontArmor: 5
+    sideArmor: 3
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.28
+      - 0.0
+      - 0.91 #Psionic
+    overKill: 0.8
+    visibilityAtDark: 19
+    loftempsSet: [ 4 ]
+  - type: FLOATER_ARMOR2
+    spriteInv: FLOATER
+    frontArmor: 7
+    sideArmor: 4
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.28
+      - 0.0
+      - 0.75 #Psionic
+    overKill: 0.8
+    visibilityAtDark: 19
+    loftempsSet: [ 4 ]
+  - type: REAPER_ARMOR
+    spriteInv: REAPER
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 3
+    damageModifier:
+      - 0.7
+      - 0.7
+      - 0.945
+      - 0.525
+      - 0.7
+      - 0.7
+      - 0.525
+      - 0.875
+      - 1.05
+      - 0.0
+      - 0.61 #Psionic
+    overKill: 0.6
+    meleeDodge:
+      flatHundred: -0.35
+    fearImmune: false
+    bleedImmune: false
+    painImmune: false
+    visibilityAtDark: 24
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: SNAKEMAN_ARMOR0
+    spriteInv: SNAKEMAN
+    frontArmor: 12
+    sideArmor: 14
+    rearArmor: 16
+    underArmor: 12
+    damageModifier:
+      - 1.0
+      - 0.56
+      - 0.6
+      - 0.95
+      - 0.72
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.22
+      - 0.0
+      - 0.77 #Psionic
+    overKill: 1.0
+    visibilityAtDark: 22
+    loftempsSet: [ 5 ]
+  - type: SNAKEMAN_ARMOR1
+    spriteInv: SNAKEMAN
+    frontArmor: 14
+    sideArmor: 17
+    rearArmor: 20
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 0.56
+      - 0.6
+      - 0.94
+      - 0.72
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.22
+      - 0.0
+      - 0.69 #Psionic
+    overKill: 1.0
+    visibilityAtDark: 22
+    loftempsSet: [ 5 ]
+  - type: SNAKEMAN_ARMOR2
+    spriteInv: SNAKEMAN
+    frontArmor: 16
+    sideArmor: 20
+    rearArmor: 24
+    underArmor: 18
+    damageModifier:
+      - 1.0
+      - 0.56
+      - 0.6
+      - 0.93
+      - 0.72
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.22
+      - 0.0
+      - 0.60 #Psionic
+    overKill: 1.0
+    visibilityAtDark: 22
+    loftempsSet: [ 5 ]
+  - type: CHRYSSALID_ARMOR
+    spriteInv: CHRYSSALID
+    frontArmor: 28
+    sideArmor: 28
+    rearArmor: 28
+    underArmor: 8
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.08 #0.72*1.6
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.2
+      - 0.0
+      - 0.50 #Psionic
+    overKill: 1.4
+    visibilityAtDark: 20
+    camouflageAtDark: -3
+    loftempsSet: [ 4 ]
+  - type: ZOMBIE_ARMOR
+    spriteSheet: ZOMBIE.PCK
+    drawingRoutine: 4
+    spriteInv: ZOMBIE
+    allowInv: false
+    corpseBattle:
+      - CIVM_CORPSE
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 4
+    damageModifier:
+      - 1.0
+      - 0.6
+      - 1.75
+      - 0.8
+      - 1.0
+      - 0.77
+      - 0.0
+      - 1.0
+      - 1.6
+      - 0.0
+      - 1.00 #Psionic
+    overKill: 0.5
+    fearImmune: false
+    bleedImmune: true
+    painImmune: true
+    visibilityAtDark: 9
+    loftempsSet: [ 4 ]
+    deathFrames: 18
+  - type: MUTON_ARMOR0
+    spriteInv: MUTON
+    corpseBattle:
+      - STR_MUTON_CORPSE
+    frontArmor: 9
+    sideArmor: 9
+    rearArmor: 9
+    underArmor: 7
+    damageModifier:
+      - 0.9
+      - 0.36
+      - 0.9
+      - 0.87
+      - 0.6
+      - 0.6
+      - 0.9
+      - 0.9
+      - 0.96
+      - 0.0
+      - 0.59 #Psionic
+    overKill: 2
+    visibilityAtDark: 25
+    loftempsSet: [ 4 ]
+  - type: MUTON_ARMOR1
+    spriteInv: MUTON
+    corpseBattle:
+      - STR_MUTON_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    damageModifier:
+      - 0.9
+      - 0.36
+      - 0.9
+      - 0.87
+      - 0.6
+      - 0.6
+      - 0.9
+      - 0.9
+      - 0.96
+      - 0.0
+      - 0.53 #Psionic
+    overKill: 2
+    visibilityAtDark: 25
+    loftempsSet: [ 4 ]
+  - type: MUTON_ARMOR2
+    spriteInv: MUTON
+    corpseBattle:
+      - STR_MUTON_CORPSE
+    frontArmor: 11
+    sideArmor: 11
+    rearArmor: 11
+    underArmor: 13
+    damageModifier:
+      - 0.9
+      - 0.36
+      - 0.9
+      - 0.87
+      - 0.6
+      - 0.6
+      - 0.9
+      - 0.9
+      - 0.96
+      - 0.0
+      - 0.53 #Psionic
+    overKill: 2
+    visibilityAtDark: 25
+    loftempsSet: [ 4 ]
+  - type: SILACOID_ARMOR
+    spriteInv: SILACOID
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 20
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 1.3
+      - 0.9
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.0
+      - 0.36 #Psionic 2
+    overKill: 2
+    fearImmune: true
+    visibilityAtDay: 16
+    visibilityAtDark: 16
+    heatVision: 100
+    psiVision: 16
+    loftempsSet: [ 5 ]
+  - type: CELATID_ARMOR
+    spriteInv: CELATID
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    movementType: 1
+    damageModifier:
+      - 0.5
+      - 0.3
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.5
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.0
+      - 0.36 #Psionic
+    overKill: 2
+    fearImmune: true
+    visibilityAtDay: 20
+    visibilityAtDark: 20
+    heatVision: 100
+    psiVision: 20
+    loftempsSet: [ 4 ]
+  - type: ETHEREAL_ARMOR0
+    spriteInv: ETHEREAL
+    frontArmor: 42
+    sideArmor: 42
+    rearArmor: 42
+    underArmor: 35
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.5
+      - 0.65
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.35 #Psionic
+    overKill: 3
+    recovery:
+      mana:
+        flatHundred: 0.13
+    heatVision: 25
+    psiVision: 5
+    loftempsSet: [ 5 ]
+  - type: ETHEREAL_ARMOR1
+    spriteInv: ETHEREAL
+    frontArmor: 48
+    sideArmor: 48
+    rearArmor: 48
+    underArmor: 40
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.5
+      - 0.65
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.33 #Psionic
+    overKill: 3
+    recovery:
+      mana:
+        flatHundred: 0.13
+    heatVision: 25
+    psiVision: 7
+    loftempsSet: [ 5 ]
+  - type: ETHEREAL_ARMOR2
+    spriteInv: ETHEREAL
+    frontArmor: 54
+    sideArmor: 54
+    rearArmor: 54
+    underArmor: 45
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.5
+      - 0.65
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.29 #Psionic
+    overKill: 3
+    recovery:
+      mana:
+        flatHundred: 0.13
+    heatVision: 25
+    psiVision: 12
+    loftempsSet: [ 5 ]
+  - type: SECTOPOD_ARMOR
+    spriteInv: SECTOPOD
+    frontArmor: 145
+    sideArmor: 130
+    rearArmor: 100
+    underArmor: 90
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.4
+      - 1.8
+      - 0.7
+      - 0.8
+      - 0.8
+      - 0.6
+      - 0.0
+      - 0.28 #Psionic
+    overKill: 1
+    meleeDodge:
+      flatHundred: -0.4
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    heatVision: 75
+  - type: SNAKEMAN_ARMOR_B
+    spriteInv: SNAKEMAN_COMMANDER_B
+    spriteSheet: SNAKEMAN_COMMANDER_B.PCK
+    corpseBattle:
+      - SNAKEMAN_COMMANDER_B_CORPSE_1
+      - SNAKEMAN_COMMANDER_B_CORPSE_2
+      - SNAKEMAN_COMMANDER_B_CORPSE_3
+      - SNAKEMAN_COMMANDER_B_CORPSE_4
+    corpseGeo: STR_SNAKEMAN_COMMANDER_B_CORPSE
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 4
+    drawingRoutine: 20
+    size: 2
+    damageModifier:
+      - 0.4
+      - 0.28
+      - 0.144
+      - 0.24
+      - 0.4
+      - 0.4
+      - 0.28
+      - 0.3
+      - 0.64
+      - 0.0
+      - 0.40 #Psionic
+    overKill: 5
+    visibilityAtDark: 27
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: MUTON_ARMOR_B
+    spriteSheet: MUTON_SOLDIER_B.PCK
+    spriteInv: MUTON_SOLDIER_B
+    corpseBattle:
+      - STR_MUTON_B_CORPSE
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 4
+    drawingRoutine: 10
+    damageModifier:
+      - 0.6
+      - 0.24
+      - 0.6
+      - 0.58
+      - 0.4
+      - 0.4
+      - 0.6
+      - 0.6
+      - 0.64
+      - 0.0
+      - 0.40 #Psionic
+    overKill: 2
+    visibilityAtDark: 27
+    loftempsSet: [ 4 ]
+  - type: ETHEREAL_ARMOR_N
+    spriteSheet: ETHEREAL_NAVIGATOR.PCK
+    spriteInv: ETHEREAL_NAVIGATOR
+    corpseBattle:
+      - STR_ETHEREAL_N_CORPSE
+    frontArmor: 48
+    sideArmor: 48
+    rearArmor: 48
+    underArmor: 40
+    movementType: 1
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.5
+      - 0.65
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.32 #Psionic
+    overKill: 3
+    recovery:
+      mana:
+        flatHundred: 0.13
+    heatVision: 25
+    psiVision: 6
+    loftempsSet: [ 5 ]
+  - type: SECTOID_ARMOR_C
+    spriteInv: SECTOID_C
+    spriteSheet: SECTOID_C.PCK
+    corpseBattle:
+      - STR_SECTOID_C_CORPSE
+    frontArmor: 88
+    sideArmor: 80
+    rearArmor: 72
+    underArmor: 68
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.7
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.4
+      - 0.8
+      - 0.0
+      - 0.24 #Psionic
+    overKill: 2.25
+    recovery:
+      mana:
+        flatHundred: 0.13
+    visibilityAtDark: 29
+    psiVision: 10
+    loftempsSet: [ 3 ]
+  - type: FLOATER_ARMOR_C
+    spriteInv: FLOATER_C
+    spriteSheet: FLOATER_C.PCK
+    corpseBattle:
+      - STR_FLOATER_C_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.35
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.25
+      - 1.25
+      - 1.8
+      - 0.0
+      - 0.38 #Psionic
+    overKill: 0.9
+    visibilityAtDark: 20
+    loftempsSet: [ 4 ]
+  - type: ETHEREAL_ARMOR_C
+    spriteInv: ETHEREAL_C
+    spriteSheet: ETHEREAL_C.PCK
+    corpseBattle:
+      - STR_ETHEREAL_C_CORPSE
+    frontArmor: 60
+    sideArmor: 60
+    rearArmor: 60
+    underArmor: 50
+    movementType: 1
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.3
+      - 0.75
+      - 0.7
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.21 #Psionic
+    overKill: 1.75
+    recovery:
+      mana:
+        flatHundred: 0.13
+    heatVision: 25
+    psiVision: 15
+    loftempsSet: [ 5 ]
+  - type: CYBERDISC_ARMOR_C
+    spriteInv: CYBERDISC_C
+    spriteSheet: CYBERDISC_C.PCK
+    allowInv: false
+    corpseBattle:
+      - CYBERDISC_C_CORPSE_1
+      - CYBERDISC_C_CORPSE_2
+      - CYBERDISC_C_CORPSE_3
+      - CYBERDISC_C_CORPSE_4
+    corpseGeo: STR_CYBERDISC_C_CORPSE
+    frontArmor: 96
+    sideArmor: 96
+    rearArmor: 96
+    underArmor: 96
+    drawingRoutine: 3
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.7
+      - 0.25
+      - 0.4
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.0
+      - 0.25 #Psionic
+    overKill: 2
+    meleeDodge:
+      flatHundred: -0.25
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    heatVision: 50
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: REAPER_ARMOR_C
+    spriteInv: REAPER_C
+    spriteSheet: REAPER_C.PCK
+    allowInv: false
+    corpseBattle:
+      - REAPER_C_CORPSE_1
+      - REAPER_C_CORPSE_2
+      - REAPER_C_CORPSE_3
+      - REAPER_C_CORPSE_4
+    corpseGeo: STR_REAPER_C_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 3
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 0.4
+      - 0.28
+      - 0.4
+      - 0.32
+      - 0.4
+      - 0.4
+      - 0.32
+      - 0.4
+      - 0.72
+      - 0.0
+      - 0.61 #Psionic
+    overKill: 0.3
+    meleeDodge:
+      flatHundred: -0.35
+    fearImmune: false
+    bleedImmune: false
+    painImmune: false
+    visibilityAtDark: 25
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: CHRYSSALID_ARMOR_C
+    spriteInv: CHRYSSALID_C
+    spriteSheet: CHRYSSALID_C.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_CHRYSSALID_C_CORPSE
+    frontArmor: 48
+    sideArmor: 48
+    rearArmor: 48
+    underArmor: 48
+    drawingRoutine: 7
+    damageModifier:
+      - 1.0
+      - 1.4
+      - 1.4
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.3
+      - 0.0
+      - 0.44 #Psionic
+    overKill: 0.96
+    visibilityAtDark: 21
+    camouflageAtDark: -4
+    loftempsSet: [ 4 ]
+  - type: SILACOID_ARMOR_C
+    spriteInv: SILACOID_C
+    spriteSheet: SILACOID_C.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_SILACOID_C_CORPSE
+    frontArmor: 75
+    sideArmor: 75
+    rearArmor: 75
+    underArmor: 30
+    drawingRoutine: 8
+    constantAnimation: true
+    damageModifier:
+      - 1.0
+      - 1.5
+      - 0.0
+      - 1.7
+      - 0.7
+      - 0.5
+      - 0.8
+      - 1.2
+      - 0.4
+      - 0.0
+      - 0.33 #Psionic
+    overKill: 1.5
+    fearImmune: true
+    visibilityAtDay: 16
+    visibilityAtDark: 16
+    heatVision: 100
+    psiVision: 10
+    loftempsSet: [ 5 ]
+  - type: CELATID_ARMOR_C
+    spriteInv: CELATID_C
+    spriteSheet: CELATID_C.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_CELATID_C_CORPSE
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 12
+    drawingRoutine: 9
+    constantAnimation: true
+    movementType: 1
+    damageModifier:
+      - 0.3
+      - 0.15
+      - 1.0
+      - 1.5
+      - 0.3
+      - 0.3
+      - 0.95
+      - 0.7
+      - 0.54
+      - 0.0
+      - 0.32 #Psionic
+    overKill: 2
+    fearImmune: true
+    visibilityAtDay: 24
+    visibilityAtDark: 24
+    heatVision: 100
+    psiVision: 24
+    loftempsSet: [ 4 ]
+  - type: SECTOPOD_ARMOR_C
+    spriteInv: SECTOPOD_C
+    spriteSheet: SECTOPOD_C.PCK
+    allowInv: false
+    corpseBattle:
+      - SECTOPOD_C_CORPSE_1
+      - SECTOPOD_C_CORPSE_2
+      - SECTOPOD_C_CORPSE_3
+      - SECTOPOD_C_CORPSE_4
+    corpseGeo: STR_SECTOPOD_C_CORPSE
+    frontArmor: 155
+    sideArmor: 145
+    rearArmor: 125
+    underArmor: 110
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.2
+      - 0.3
+      - 0.4
+      - 2.0
+      - 0.6
+      - 0.7
+      - 0.8
+      - 0.5
+      - 0.0
+      - 0.26 #Psionic
+    overKill: 1
+    meleeDodge:
+      flatHundred: -0.4
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    heatVision: 75
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: ZOMBIE_ARMOR_C
+    spriteSheet: ZOMBIE_C.PCK
+    drawingRoutine: 4
+    spriteInv: ZOMBIE_C
+    allowInv: false
+    corpseBattle:
+      - STR_CORPSE
+    frontArmor: 85
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 45
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 2.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.0
+      - 1.0
+      - 1.8
+      - 0.0
+      - 0.67 #Psionic
+    overKill: 0.4
+    fearImmune: false
+    bleedImmune: true
+    painImmune: true
+    visibilityAtDark: 9
+    loftempsSet: [ 4 ]
+    deathFrames: 18
+# Formula for psionic resistance:    PsiDef = 1.8*PsiStr + 0.5*PsiSki    PsiR1 = 108/PsiDef+72    Psionic Resistance = PsiR1 / ((1 - PsiR1)*3 + PsiR1)

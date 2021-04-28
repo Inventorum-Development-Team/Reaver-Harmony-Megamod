@@ -1,0 +1,163 @@
+arcScripts:
+  - type: startArmorEasy
+    randomArcs:
+      STR_ARMOR_EASY_A: 100
+    firstMonth: 0
+    lastMonth: 0
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 1
+  - type: startArmorMedium
+    randomArcs:
+      STR_ARMOR_MEDIUM_A: 100
+    firstMonth: 0
+    lastMonth: 0
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 2
+    maxDifficulty: 3
+  - type: startArmorHard
+    randomArcs:
+      STR_ARMOR_HARD_A: 100
+    firstMonth: 0
+    lastMonth: 0
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 4
+    maxDifficulty: 4
+  - type: startCraftEasy
+    randomArcs:
+      STR_CRAFT_EASY_A: 100
+    firstMonth: 0
+    lastMonth: 0
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 0
+  - type: startCraftMedium
+    randomArcs:
+      STR_CRAFT_MEDIUM_A: 100
+    firstMonth: 0
+    lastMonth: 0
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 1
+    maxDifficulty: 2
+  - type: startCraftHard
+    randomArcs:
+      STR_CRAFT_HARD_A: 100
+    firstMonth: 0
+    lastMonth: 0
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 3
+    maxDifficulty: 4
+  - type: battlerepSectoid
+    randomArcs:
+      STR_SECTOID_BATTLEREP: 100
+    firstMonth: 0
+    lastMonth: 0
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepSectoidA
+    randomArcs:
+      STR_SECTOID_A_BATTLEREP: 100
+    firstMonth: 5
+    lastMonth: 5
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepCyberdisc
+    randomArcs:
+      STR_CYBERDISC_BATTLEREP: 100
+    firstMonth: 1
+    lastMonth: 1
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepFloater
+    randomArcs:
+      STR_FLOATER_BATTLEREP: 100
+    firstMonth: 2
+    lastMonth: 2
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepReaper
+    randomArcs:
+      STR_REAPER_BATTLEREP: 100
+    firstMonth: 3
+    lastMonth: 3
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepSnakeman
+    randomArcs:
+      STR_SNAKEMAN_BATTLEREP: 100
+    firstMonth: 6
+    lastMonth: 6
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepChryssalid
+    randomArcs:
+      STR_CHRYSSALID_BATTLEREP: 100
+    firstMonth: 7
+    lastMonth: 7
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepMuton
+    randomArcs:
+      STR_MUTON_BATTLEREP: 100
+    firstMonth: 9
+    lastMonth: 9
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepSilacoid
+    randomArcs:
+      STR_SILACOID_BATTLEREP: 100
+    firstMonth: 10
+    lastMonth: 10
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepCelatid
+    randomArcs:
+      STR_CELATID_BATTLEREP: 100
+    firstMonth: 9
+    lastMonth: 9
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepEthereal
+    randomArcs:
+      STR_ETHEREAL_BATTLEREP: 100
+    firstMonth: 12
+    lastMonth: 12
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: battlerepSectopod
+    randomArcs:
+      STR_SECTOPOD_BATTLEREP: 100
+    firstMonth: 13
+    lastMonth: 13
+    executionOdds: 100
+    maxArcs: 1
+    minDifficulty: 0
+    maxDifficulty: 4

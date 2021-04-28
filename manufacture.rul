@@ -1,0 +1,4501 @@
+manufacture:
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_AVENGER
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - name: STR_ALLOY_CANNON
+    listOrder: 40
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 3
+    time: 300
+    cost: 36000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_ALLOY_CANNON_ROUNDS_X25
+    listOrder: 45
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 40
+    cost: 9600
+  - name: STR_SHRIKE_LAUNCHER
+    listOrder: 50
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    space: 2
+    time: 350
+    cost: 32000
+  - name: STR_SHRIKE_MISSILES
+    listOrder: 55
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    space: 1
+    time: 90
+    cost: 9000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ALIEN_EXPLOSIVE_UNITS: 2
+  - name: STR_SCORPION_LAUNCHER
+    listOrder: 60
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    space: 4
+    time: 450
+    cost: 48000
+  - name: STR_SCORPION_MISSILES
+    listOrder: 65
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    space: 1
+    time: 100
+    cost: 7500
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ALIEN_EXPLOSIVE_UNITS: 2
+  - name: STR_TORRENT_LAUNCHER
+    listOrder: 70
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    space: 3
+    time: 300
+    cost: 57000
+  - name: STR_TORRENT_MISSILES
+    listOrder: 75
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    space: 2
+    time: 220
+    cost: 25000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_EXPLOSIVE_UNITS: 5
+  - name: STR_FUSION_BALL_LAUNCHER
+    listOrder: 100
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_FUSION_MISSILE
+    space: 4
+    time: 1800
+    cost: 376000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_FUSION_BALL
+    listOrder: 110
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_FUSION_MISSILE
+    space: 1
+    time: 240 #300
+    cost: 126000 #150000
+    requiredItems:
+      STR_ELERIUM_115: 9 #12
+      STR_ALIEN_WEAPON_COMPONENTS: 24 #30
+  - name: STR_HEAVY_FUSION_BALL_LAUNCHER
+    listOrder: 120
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_HEAVY_FUSION_MISSILE
+    space: 3
+    time: 1200
+    cost: 242000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_HEAVY_FUSION_BALL
+    listOrder: 130
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_HEAVY_FUSION_MISSILE
+    space: 2
+    time: 600
+    cost: 460000
+    requiredItems:
+      STR_ELERIUM_115: 20
+      STR_ALIEN_WEAPON_COMPONENTS: 200
+  - name: STR_CRAFT_LIGHT_LASER
+    listOrder: 180
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_LASER_WEAPONS
+    space: 2
+    time: 400
+    cost: 160000
+  - name: STR_PULSE_CANNON
+    listOrder: 190
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_AUTOMATIC_LASER_WEAPONS
+    space: 3
+    time: 600
+    cost: 450000
+  - name: STR_LASER_CANNON
+    listOrder: 200
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_HEAVY_LASER_WEAPONS
+    space: 4
+    time: 900
+    cost: 640000
+  - name: STR_CRAFT_LIGHT_PLASMA
+    listOrder: 260
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+    space: 2
+    time: 1200
+    cost: 575000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_UFO_PLASMA_EMITTER: 2
+      STR_ALIEN_WEAPON_COMPONENTS: 75
+  - name: STR_CRAFT_LP_AMMO_X3
+    listOrder: 265
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+    space: 0
+    time: 75
+    cost: 60000
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_CRAFT_LP_AMMO: 3
+  - name: STR_PLASMA_AUTOCANNON
+    listOrder: 280
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+    space: 3
+    time: 1600
+    cost: 375000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_UFO_PLASMA_EMITTER: 4
+      STR_ALIEN_WEAPON_COMPONENTS: 90
+  - name: STR_PLASMA_AC_AMMO_X10
+    listOrder: 285
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+    space: 0
+    time: 50
+    cost: 27000
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_PLASMA_AC_AMMO: 10
+  - name: STR_PLASMA_BEAM
+    listOrder: 300
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+      - STR_HEAVY_PLASMA_WEAPONS
+    space: 4
+    time: 2400
+    cost: 1050000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+      STR_UFO_PLASMA_EMITTER: 4
+      STR_ALIEN_WEAPON_COMPONENTS: 150
+  - name: STR_PLASMA_BEAM_AMMO_X2
+    listOrder: 305
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+      - STR_HEAVY_PLASMA_WEAPONS
+    space: 0
+    time: 80
+    cost: 45000
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_PLASMA_BEAM_AMMO: 2
+  - name: STR_DEVASTATOR_PLASMA
+    listOrder: 320
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+    space: 6
+    time: 4500
+    cost: 2600000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 10
+      STR_UFO_PLASMA_EMITTER: 8
+      STR_ALIEN_WEAPON_COMPONENTS: 400
+  - name: STR_DEVASTATOR_PLASMA_AMMO_X2
+    listOrder: 325
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+    space: 0
+    time: 60
+    cost: 30000
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_DEVASTATOR_PLASMA_AMMO: 2
+  - name: STR_BASE_DEFENSE_PLASMA
+    listOrder: 340
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_DEFENSE
+    space: 0
+    time: 200
+    cost: 125000
+    requiredItems:
+      STR_ELERIUM_115: 5
+  - name: STR_LIGHT_TRACTOR_BEAM
+    listOrder: 350
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_TRACTOR_BEAMS
+    space: 2
+    time: 1100
+    cost: 400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_UFO_SHIELD_EMITTER: 3
+      STR_ALIEN_WEAPON_COMPONENTS: 16
+  - name: STR_MEDIUM_TRACTOR_BEAM
+    listOrder: 355
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_TRACTOR_BEAMS
+      - STR_ALIEN_ENGINEER
+    space: 4
+    time: 2200
+    cost: 1200000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+      STR_UFO_SHIELD_EMITTER: 9
+      STR_ALIEN_WEAPON_COMPONENTS: 40
+  - name: STR_HEAVY_TRACTOR_BEAM
+    listOrder: 360
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_TRACTOR_BEAMS
+      - STR_ALIEN_ENGINEER
+      - STR_LARGE_PYLON_MOUNT
+    space: 6
+    time: 4400
+    cost: 3600000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 9
+      STR_UFO_SHIELD_EMITTER: 27
+      STR_ALIEN_WEAPON_COMPONENTS: 100
+  - name: STR_ALLOY_FUEL_TANKS_UG
+    listOrder: 400
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+    space: 5
+    time: 200
+    cost: 50000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+  - name: STR_ALLOY_ENGINES_UG
+    listOrder: 405
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+    space: 5
+    time: 500
+    cost: 210000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+  - name: STR_ALLOY_POWER_SOURCE_UG
+    listOrder: 410
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+    space: 5
+    time: 1100
+    cost: 150000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_ALIEN_POWER_ARRAYS: 5
+  - name: STR_ALLOY_PLATING_ARMOR_UG
+    listOrder: 415
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+    space: 5
+    time: 300
+    cost: 120000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 9
+  - name: STR_ALLOY_PLATING_EVASION_UG
+    listOrder: 420
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+    space: 5
+    time: 500
+    cost: 90000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+  - name: STR_ALLOY_PLATING_SHIELDS_UG
+    listOrder: 425
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ALIENS_ONLY
+      # - STR_ADVANCED_AIR_EQUIPMENT
+      # - STR_ALIEN_POWER_ARRAYS
+      # - STR_UFO_SHIELD_EMITTER
+    space: 5
+    time: 600
+    cost: 120000
+    requiredItems:
+      STR_ALIEN_POWER_ARRAYS: 2
+      STR_UFO_SHIELD_EMITTER: 2
+  - name: STR_MOD_TARGETING_UG
+    listOrder: 430
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    space: 5
+    time: 400
+    cost: 40000
+    requiredItems:
+      STR_ALIEN_COMPUTER_ARRAYS: 4
+  - name: STR_COMBO_PURSUER_UG
+    listOrder: 450
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    space: 10
+    time: 760
+    cost: 265000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 14
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+  - name: STR_COMBO_BRAWLER_UG
+    listOrder: 455
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    space: 10
+    time: 560
+    cost: 160000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 9
+      STR_ALIEN_COMPUTER_ARRAYS: 4
+  - name: STR_COMBO_SENTINEL_UG
+    listOrder: 460
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    space: 10
+    time: 400
+    cost: 105000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+      STR_ALIEN_COMPUTER_ARRAYS: 3
+  - name: STR_COMBO_PARAGON_UG
+    listOrder: 465
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    space: 10
+    time: 760
+    cost: 205000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 16
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+  - name: STR_COMBO_CHAMPION_UG
+    listOrder: 470
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    space: 10
+    time: 640
+    cost: 205000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 13
+      STR_ALIEN_COMPUTER_ARRAYS: 4
+  - name: STR_COMBO_SUBJUGATOR_UG
+    listOrder: 475
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+      - STR_UFO_SHIELD_EMITTER
+    space: 10
+    time: 1080
+    cost: 190000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_POWER_ARRAYS: 5
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+      STR_UFO_SHIELD_EMITTER: 2
+  - name: STR_BOOST_ENGINES_UG
+    listOrder: 500
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+    space: 5
+    time: 800
+    cost: 520000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+  - name: STR_BOOST_POWER_SOURCE_UG
+    listOrder: 505
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+    space: 5
+    time: 1400
+    cost: 400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+      STR_ALIEN_POWER_ARRAYS: 10
+  - name: STR_BOOST_RADAR_UG
+    listOrder: 510
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_HYPER_WAVE_DECODER
+    space: 5
+    time: 600
+    cost: 210000
+    requiredItems:
+      STR_PSIONIC_WAVE_DECODER: 5
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+  - name: STR_BOOST_PLATING_ARMOR_UG
+    listOrder: 515
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+      - STR_ALIEN_ENGINEER
+    space: 5
+    time: 600
+    cost: 340000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 14
+  - name: STR_BOOST_PLATING_EVASION_UG
+    listOrder: 520
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+      - STR_ALIEN_NAVIGATOR
+    space: 5
+    time: 800
+    cost: 280000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 18
+  - name: STR_BOOST_PLATING_SHIELDS_UG
+    listOrder: 525
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+      - STR_UFO_SHIELD_EMITTER
+    space: 5
+    time: 900
+    cost: 340000
+    requiredItems:
+      STR_ALIEN_POWER_ARRAYS: 4
+      STR_UFO_SHIELD_EMITTER: 4
+  - name: STR_MOD_TARGETING_CRITICAL_UG
+    listOrder: 530
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+      - STR_ALIEN_MEDIC
+    space: 5
+    time: 700
+    cost: 180000
+    requiredItems:
+      STR_ALIEN_COMPUTER_ARRAYS: 6
+  - name: STR_PACKAGE_PURSUER_UG
+    listOrder: 550
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_ALIEN_NAVIGATOR
+    space: 10
+    time: 1240
+    cost: 730000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 21
+      STR_ALIEN_COMPUTER_ARRAYS: 3
+  - name: STR_PACKAGE_BRAWLER_UG
+    listOrder: 555
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_ALIEN_ENGINEER
+    space: 10
+    time: 1040
+    cost: 520000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 14
+      STR_ALIEN_COMPUTER_ARRAYS: 6
+  - name: STR_PACKAGE_SENTINEL_UG
+    listOrder: 560
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_AIRCRAFT
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+      - STR_HYPER_WAVE_DECODER
+    space: 10
+    time: 880
+    cost: 410000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 9
+      STR_PSIONIC_WAVE_DECODER: 5
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+  - name: STR_PACKAGE_PARAGON_UG
+    listOrder: 565
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ULTIMATE_CRAFT
+      - STR_ADVANCED_AIR_EQUIPMENT
+    space: 10
+    time: 1240
+    cost: 610000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 24
+      STR_ALIEN_COMPUTER_ARRAYS: 3
+  - name: STR_PACKAGE_CHAMPION_UG
+    listOrder: 570
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_ADVANCED_AIR_EQUIPMENT
+    space: 10
+    time: 1120
+    cost: 610000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 20
+      STR_ALIEN_COMPUTER_ARRAYS: 6
+  - name: STR_PACKAGE_SUBJUGATOR_UG
+    listOrder: 575
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ADVANCED_SPACECRAFT
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_SHIELD_EMITTER
+    space: 10
+    time: 1560
+    cost: 580000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ALIEN_POWER_ARRAYS: 10
+      STR_ALIEN_COMPUTER_ARRAYS: 3
+      STR_UFO_SHIELD_EMITTER: 4
+  - name: STR_SUITE_COMBAT_UG
+    listOrder: 600
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ULTIMATE_CRAFT
+      - STR_FLAGSHIPS_UP
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_EXPLOSIVES
+    space: 20
+    time: 2030
+    cost: 1320000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 20
+      STR_ALIEN_POWER_ARRAYS: 16
+      STR_ALIEN_COMPUTER_ARRAYS: 16
+      STR_ALIEN_WEAPON_COMPONENTS: 100
+  - name: STR_SUITE_RECON_UG
+    listOrder: 605
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_FLAGSHIPS_UP
+      - STR_HYPER_WAVE_DECODER
+      - STR_MIND_SHIELD
+    space: 20
+    time: 2415
+    cost: 1080000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+      STR_ALIEN_POWER_ARRAYS: 8
+      STR_ALIEN_COMPUTER_ARRAYS: 24
+      STR_UFO_SHIELD_EMITTER: 10
+  - name: STR_TANK_AE_ROCKET_GUARDIAN
+    listOrder: 700
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 10
+    time: 2400
+    cost: 1120000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+  - name: STR_TANK_AE_ROCKET_BATTLE
+    listOrder: 705
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    space: 10
+    time: 1800
+    cost: 840000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 7
+  - name: STR_TANK_AE_ROCKET_ASSAULT
+    listOrder: 710
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 10
+    time: 1350
+    cost: 630000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_HWP_G_AE_ROCKETS
+    listOrder: 701
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 0
+    time: 20
+    cost: 8000
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 1
+  - name: STR_HWP_B_AE_ROCKETS
+    listOrder: 706
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    space: 0
+    time: 40
+    cost: 16000
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 2
+  - name: STR_HWP_A_AE_ROCKETS
+    listOrder: 711
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 0
+    time: 80
+    cost: 32000
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 4
+  - name: STR_TANK_LASER_GUARDIAN
+    listOrder: 715
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_ALLOYS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 10
+    time: 3200
+    cost: 1330000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+  - name: STR_TANK_LASER_CANNON
+    listOrder: 720
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_ALLOYS
+    space: 10
+    time: 2400
+    cost: 1000000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 7
+  - name: STR_TANK_LASER_ASSAULT
+    listOrder: 725
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_ALIEN_ALLOYS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 10
+    time: 1800
+    cost: 750000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_HOVERTANK_PLASMA_GUARDIAN
+    listOrder: 730
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 12
+    time: 6400
+    cost: 3600000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 18
+      STR_ELERIUM_115: 13
+      STR_ALIEN_WEAPON_COMPONENTS: 15
+      STR_ANTI_GRAV_UNIT: 10
+  - name: STR_HOVERTANK_PLASMA
+    listOrder: 735
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HOVERTANKS
+    space: 12
+    time: 4800
+    cost: 2500000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 14
+      STR_ELERIUM_115: 17
+      STR_ALIEN_WEAPON_COMPONENTS: 25
+      STR_ANTI_GRAV_UNIT: 8
+  - name: STR_HOVERTANK_PLASMA_ASSAULT
+    listOrder: 740
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 12
+    time: 3600
+    cost: 1500000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 10
+      STR_ELERIUM_115: 21
+      STR_ALIEN_WEAPON_COMPONENTS: 40
+      STR_ANTI_GRAV_UNIT: 6
+  - name: STR_HWP_G_PLASMA_X20
+    listOrder: 731
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 0
+    time: 80
+    cost: 80000
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_HWP_G_PLASMA: 20
+  - name: STR_HWP_PLASMA_X10
+    listOrder: 736
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HOVERTANKS
+    space: 0
+    time: 50
+    cost: 100000
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_HWP_PLASMA: 10
+  - name: STR_HWP_A_PLASMA_X5
+    listOrder: 741
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 0
+    time: 30
+    cost: 125000
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_HWP_A_PLASMA: 5
+  - name: STR_HOVERTANK_LAUNCHER_GUARDIAN
+    listOrder: 745
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 12
+    time: 6400
+    cost: 3600000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 18
+      STR_ELERIUM_115: 15
+      STR_ANTI_GRAV_UNIT: 10
+  - name: STR_HOVERTANK_LAUNCHER
+    listOrder: 750
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANKS
+    space: 12
+    time: 4800
+    cost: 2700000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 15
+      STR_ELERIUM_115: 20
+      STR_ANTI_GRAV_UNIT: 8
+  - name: STR_HOVERTANK_LAUNCHER_ASSAULT
+    listOrder: 755
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_HEAVY_FUSION_MISSILE
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 12
+    time: 3600
+    cost: 1900000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 26
+      STR_ANTI_GRAV_UNIT: 6
+  - name: STR_HWP_G_FUSION_BOMB
+    listOrder: 746
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 0
+    time: 150
+    cost: 50000
+    requiredItems:
+      STR_ELERIUM_115: 2
+      STR_ALIEN_WEAPON_COMPONENTS: 5
+      STR_ALIEN_EXPLOSIVE_UNITS: 1
+  - name: STR_HWP_FUSION_BOMB
+    listOrder: 751
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANKS
+    space: 0
+    time: 200
+    cost: 100000
+    requiredItems:
+      STR_ELERIUM_115: 3
+      STR_ALIEN_WEAPON_COMPONENTS: 8
+      STR_ALIEN_EXPLOSIVE_UNITS: 2
+  - name: STR_HWP_A_FUSION_BOMB
+    listOrder: 756
+    category: STR_HWP_AMMUNITION
+    requires:
+      - STR_HEAVY_FUSION_MISSILE
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    space: 0
+    time: 250
+    cost: 200000
+    requiredItems:
+      STR_ELERIUM_115: 5
+      STR_ALIEN_WEAPON_COMPONENTS: 12
+      STR_ALIEN_EXPLOSIVE_UNITS: 3
+  - name: STR_SUPER_STUN_LANCE
+    listOrder: 820
+    category: STR_MELEE_WEAPONS
+    space: 0
+    time: 600
+    cost: 25000
+  - name: STR_POWER_KNIFE
+    listOrder: 825
+    category: STR_MELEE_WEAPONS
+    requires:
+      - STR_POWERED_MELEE_WEAPONS_UP
+    space: 0
+    time: 400
+    cost: 6000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_POWER_BATON
+    listOrder: 830
+    category: STR_MELEE_WEAPONS
+    requires:
+      - STR_POWERED_MELEE_WEAPONS
+    space: 0
+    time: 800
+    cost: 18000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_POWER_SWORD
+    listOrder: 835
+    category: STR_MELEE_WEAPONS
+    requires:
+      - STR_POWERED_MELEE_WEAPONS
+    space: 0
+    time: 1200
+    cost: 45000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_PISTOL_ALLOY_CLIP
+    listOrder: 840
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 20
+    cost: 400
+  - name: STR_AUTO_PISTOL_ALLOY_CLIP
+    listOrder: 845
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 40
+    cost: 800
+  - name: STR_RIFLE_ALLOY_CLIP
+    listOrder: 850
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 50
+    cost: 1100
+  - name: STR_MACHINEGUN_ALLOY_CLIP
+    listOrder: 855
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 100
+    cost: 2200
+  - name: STR_SHOTGUN_ALLOY_CLIP
+    listOrder: 856
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 55
+    cost: 1200
+  - name: STR_HC_ALLOY_AMMO
+    listOrder: 860
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 70
+    cost: 1700
+  - name: STR_AC_ALLOY_AMMO
+    listOrder: 862
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 120
+    cost: 3000
+  - name: STR_HC_AE_AMMO
+    listOrder: 865
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+    space: 0
+    time: 90
+    cost: 3000
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 6
+  - name: STR_AC_AE_AMMO
+    listOrder: 867
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+    space: 0
+    time: 160
+    cost: 5000
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 8
+  - name: STR_GRENADE_ROUND_AE
+    listOrder: 875
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+    space: 0
+    time: 75
+    cost: 1200
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 3
+  - name: STR_GRENADE_ROUND_ST
+    listOrder: 880
+    category: STR_AMMUNITION
+    requires:
+      - STR_STUN_BOMB
+    space: 0
+    time: 75
+    cost: 3600
+    requiredItems:
+      STR_STUN_CORE: 1
+  - name: STR_ALIEN_ROCKET 
+    listOrder: 890
+    category: STR_AMMUNITION
+    requires:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+    space: 0
+    time: 180
+    cost: 5000
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 5
+  - name: STR_FUSION_ROCKET
+    listOrder: 895
+    category: STR_AMMUNITION
+    requires:
+      - STR_BLASTER_BOMB
+    space: 0
+    time: 250
+    cost: 60000
+    requiredItems:
+      STR_FUSION_CORE: 1
+  - name: STR_LASER_PISTOL
+    listOrder: 900
+    requires:
+      - STR_LASER_WEAPONS
+    space: 0
+    time: 375
+    cost: 8000
+  - name: STR_LASER_AUTO_PISTOL
+    listOrder: 910
+    category: STR_WEAPON
+    requires:
+      - STR_AUTOMATIC_LASER_WEAPONS
+    space: 0
+    time: 500
+    cost: 11500
+  - name: STR_LASER_RIFLE
+    listOrder: 1000
+    requires:
+      - STR_LASER_WEAPONS
+    space: 0
+    time: 525
+    cost: 19500
+  - name: STR_LASER_PULSE_RIFLE
+    listOrder: 1010
+    category: STR_WEAPON
+    requires:
+      - STR_AUTOMATIC_LASER_WEAPONS
+    space: 0
+    time: 750
+    cost: 25800
+  - name: STR_HEAVY_LASER
+    listOrder: 1100
+    requires:
+      - STR_HEAVY_LASER_WEAPONS
+    space: 0
+    time: 875
+    cost: 31200
+  - name: STR_HEAVY_AUTO_LASER
+    listOrder: 1110
+    category: STR_WEAPON
+    requires:
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_AUTOMATIC_LASER_WEAPONS
+    space: 0
+    time: 1200
+    cost: 41200
+  - name: STR_PLASMA_PISTOL
+    listOrder: 0
+    requires:
+      - STR_ALIENS_ONLY
+  - name: STR_PLASMA_PISTOL_CLIP
+    listOrder: 0
+    requires:
+      - STR_ALIENS_ONLY
+  - name: STR_PLASMA_RIFLE
+    listOrder: 0
+    requires:
+      - STR_ALIENS_ONLY
+  - name: STR_PLASMA_RIFLE_CLIP
+    listOrder: 0
+    requires:
+      - STR_ALIENS_ONLY
+  - name: STR_HEAVY_PLASMA
+    listOrder: 0
+    requires:
+      - STR_ALIENS_ONLY
+  - name: STR_HEAVY_PLASMA_CLIP
+    listOrder: 0
+    requires:
+      - STR_ALIENS_ONLY
+  - name: STR_PLASMA_SHOTGUN
+    listOrder: 1480
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_WEAPONS
+    space: 0
+    time: 1080
+    cost: 75000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ALIEN_WEAPON_COMPONENTS: 60
+  - name: STR_PLASMA_SHOTGUN_CLIP
+    listOrder: 1490
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_WEAPONS
+    space: 0
+    time: 120
+    cost: 19400
+  - name: STR_PLASMA_PISTOL_TERRAN
+    listOrder: 1500
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    space: 0
+    time: 720
+    cost: 25000
+    requiredItems:
+      STR_PLASMA_PISTOL: 1
+  - name: STR_PLASMA_PISTOL_TERRAN_CLIP
+    listOrder: 1510
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    space: 0
+    time: 60
+    cost: 1600
+    requiredItems:
+      STR_PLASMA_PISTOL_CLIP: 1
+  - name: STR_PLASMA_AUTO_PISTOL
+    listOrder: 1600
+    category: STR_WEAPON
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    space: 0
+    time: 900
+    cost: 50000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_PLASMA_PISTOL: 2
+  - name: STR_PLASMA_AUTO_PISTOL_CLIP
+    listOrder: 1610
+    category: STR_AMMUNITION
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    space: 0
+    time: 90
+    cost: 3200
+    requiredItems:
+      STR_PLASMA_PISTOL_CLIP: 2
+  - name: STR_PLASMA_RIFLE_TERRAN
+    listOrder: 1700
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    space: 0
+    time: 990
+    cost: 41000
+    requiredItems:
+      STR_PLASMA_RIFLE: 1
+  - name: STR_PLASMA_RIFLE_TERRAN_CLIP
+    listOrder: 1710
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    space: 0
+    time: 80
+    cost: 2200
+    requiredItems:
+      STR_PLASMA_RIFLE_CLIP: 1
+  - name: STR_PLASMA_MACHINEGUN
+    listOrder: 1800
+    category: STR_WEAPON
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    space: 0
+    time: 1240
+    cost: 82000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_PLASMA_RIFLE: 2
+  - name: STR_PLASMA_MACHINEGUN_CLIP
+    listOrder: 1810
+    category: STR_AMMUNITION
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    space: 0
+    time: 120
+    cost: 4400
+    requiredItems:
+      STR_PLASMA_RIFLE_CLIP: 2
+  - name: STR_HEAVY_PLASMA_TERRAN
+    listOrder: 1900
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    space: 0
+    time: 1200
+    cost: 63000
+    requiredItems:
+      STR_HEAVY_PLASMA: 1
+  - name: STR_HEAVY_PLASMA_TERRAN_CLIP
+    listOrder: 1910
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    space: 0
+    time: 110
+    cost: 4000
+    requiredItems:
+      STR_HEAVY_PLASMA_CLIP: 1
+  - name: STR_PLASMA_ASSAULT_CANNON
+    listOrder: 2000
+    category: STR_WEAPON
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    space: 0
+    time: 1500
+    cost: 126000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_HEAVY_PLASMA: 2
+  - name: STR_PLASMA_ASSAULT_CANNON_CLIP
+    listOrder: 2010
+    category: STR_AMMUNITION
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    space: 0
+    time: 165
+    cost: 8000
+    requiredItems:
+      STR_HEAVY_PLASMA_CLIP: 2
+  - name: STR_BLASTER_LAUNCHER_TERRAN
+    listOrder: 2105
+    category: STR_WEAPON
+    requires:
+      - STR_BLASTER_BOMB
+    space: 0
+    time: 1000
+    cost: 54000
+    requiredItems:
+      STR_BLASTER_LAUNCHER: 1
+  - name: STR_BLASTER_BOMB_TERRAN
+    listOrder: 2110
+    category: STR_AMMUNITION
+    requires:
+      - STR_BLASTER_BOMB
+    space: 0
+    time: 60
+    cost: 1500
+    requiredItems:
+      STR_FUSION_CORE: 1
+    producedItems:
+      STR_BLASTER_BOMB_TERRAN: 1
+  - name: STR_BLASTER_HE_BOMB
+    listOrder: 2120
+    category: STR_AMMUNITION
+    requires:
+      - STR_BLASTER_LAUNCHER
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALIEN_GRENADE
+    space: 0
+    time: 60
+    cost: 4800
+    requiredItems:
+      STR_ELERIUM_115: 1
+      STR_ALIEN_EXPLOSIVE_UNITS: 5
+  - name: STR_BLASTER_I_BOMB
+    listOrder: 2130
+    category: STR_AMMUNITION
+    requires:
+      - STR_BLASTER_LAUNCHER
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    space: 0
+    time: 60
+    cost: 14400
+    requiredItems:
+      STR_ELERIUM_115: 1
+  - name: STR_BLASTER_STUN_BOMB
+    listOrder: 2140
+    category: STR_AMMUNITION
+    requires:
+      - STR_BLASTER_LAUNCHER
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_STUN_BOMB
+    space: 0
+    time: 75
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_115: 1
+      STR_STUN_CORE: 2
+  - name: STR_SMALL_LAUNCHER_TERRAN
+    listOrder: 2155
+    category: STR_WEAPON
+    requires:
+      - STR_STUN_BOMB
+    space: 0
+    time: 800
+    cost: 47500
+    requiredItems:
+      STR_SMALL_LAUNCHER: 1
+  - name: STR_STUN_BOMB_TERRAN
+    listOrder: 2160
+    category: STR_AMMUNITION
+    requires:
+      - STR_STUN_BOMB
+    space: 0
+    time: 25
+    cost: 400
+    requiredItems:
+      STR_STUN_CORE: 1
+    producedItems:
+      STR_STUN_BOMB_TERRAN: 1
+  - name: STR_HE_BOMB
+    listOrder: 2170
+    category: STR_AMMUNITION
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALIEN_GRENADE
+    space: 0
+    time: 25
+    cost: 3000
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 2
+      STR_ALIEN_WEAPON_COMPONENTS: 1
+  - name: STR_SMOKE_BOMB
+    listOrder: 2180
+    category: STR_AMMUNITION
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    space: 0
+    time: 25
+    cost: 6000
+    requiredItems:
+      STR_ALIEN_WEAPON_COMPONENTS: 1
+  - name: STR_INCENDIARY_BOMB
+    listOrder: 2190
+    category: STR_AMMUNITION
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    space: 0
+    time: 25
+    cost: 10000
+    requiredItems:
+      STR_ALIEN_WEAPON_COMPONENTS: 1
+  - name: STR_POWER_SUIT_PISTOL
+    listOrder: 2300
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_PLASMA_PISTOL_RED_DESTROYED
+      - STR_PLASMA_PISTOL_CLIP
+    space: 0
+    time: 4800
+    cost: 450000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_POWER_ARRAYS: 4
+      STR_PLASMA_PISTOL_RED_DESTROYED: 8
+      STR_ALIEN_WEAPON_COMPONENTS: 40
+  - name: STR_POWER_SUIT_PISTOL_CLIP
+    listOrder: 2305
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_PLASMA_PISTOL_RED_DESTROYED
+      - STR_PLASMA_PISTOL_CLIP
+    space: 0
+    time: 450
+    cost: 35000
+    requiredItems:
+      STR_ELERIUM_115: 12
+      STR_PLASMA_PISTOL_RED_CLIP_DESTROYED: 4
+      STR_ALIEN_WEAPON_COMPONENTS: 6
+  - name: STR_POWER_SUIT_RIFLE
+    listOrder: 2310
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_PLASMA_RIFLE_RED_DESTROYED
+      - STR_PLASMA_WEAPONS
+      - STR_CELATID_AUTOPSY
+    space: 0
+    time: 6700
+    cost: 980000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ALIEN_POWER_ARRAYS: 6
+      STR_PLASMA_RIFLE_RED_DESTROYED: 8
+      STR_ALIEN_WEAPON_COMPONENTS: 60
+  - name: STR_POWER_SUIT_RIFLE_CLIP
+    listOrder: 2315
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_PLASMA_RIFLE_RED_DESTROYED
+      - STR_PLASMA_WEAPONS
+      - STR_CELATID_AUTOPSY
+    space: 0
+    time: 600
+    cost: 98000
+    requiredItems:
+      STR_ELERIUM_115: 9
+      STR_PLASMA_RIFLE_RED_CLIP_DESTROYED: 4
+      STR_VENOM_GLAND: 4
+  - name: STR_POWER_SUIT_HEAVY
+    listOrder: 2320
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_HEAVY_PLASMA_RED_DESTROYED
+      - STR_HEAVY_LASER_WEAPONS
+    space: 0
+    time: 8100
+    cost: 1150000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_ALIEN_LASER: 20
+      STR_HEAVY_PLASMA_RED_DESTROYED: 8
+      STR_ALIEN_WEAPON_COMPONENTS: 100
+  - name: STR_POWER_SUIT_HEAVY_CLIP #
+    listOrder: 2325
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_HEAVY_PLASMA_RED_DESTROYED
+      - STR_HEAVY_LASER_WEAPONS
+    space: 0
+    time: 820
+    cost: 216000
+    requiredItems:
+      STR_ELERIUM_115: 4
+      STR_HEAVY_PLASMA_RED_CLIP_DESTROYED: 4
+      STR_ALIEN_LASER: 1
+      STR_ALIEN_WEAPON_COMPONENTS: 25
+  - name: STR_POWER_SUIT_LAUNCHER #
+    listOrder: 2340
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_ALIEN_LAUNCHER
+    space: 0
+    time: 4200
+    cost: 375000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+      STR_FUSION_LAUNCHER_RED_DESTROYED: 8
+      STR_ALIEN_WEAPON_COMPONENTS: 80
+  - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H #
+    listOrder: 2345
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 325
+    cost: 150000
+    requiredItems:
+      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
+  - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H #
+    listOrder: 2346
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALIEN_GRENADE_RED_DESTROYED
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+    space: 0
+    time: 375
+    cost: 125000
+    requiredItems:
+      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
+      STR_ALIEN_GRENADE_RED_DESTROYED: 4
+      STR_ALIEN_EXPLOSIVE_UNITS: 5
+  - name: STR_POWER_SUIT_LAUNCHER_F_BOMB_H #
+    listOrder: 2347
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_BLASTER_BOMB
+    space: 0
+    time: 450
+    cost: 180000
+    requiredItems:
+      STR_ELERIUM_115: 2
+      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 4
+      STR_FUSION_CORE: 1
+      STR_ALIEN_WEAPON_COMPONENTS: 5
+  - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H #
+    listOrder: 2348
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    space: 0
+    time: 380
+    cost: 140000
+    requiredItems:
+      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
+  - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H #
+    listOrder: 2349
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_STUN_BOMB
+    space: 0
+    time: 425
+    cost: 75000
+    requiredItems:
+      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
+      STR_STUN_CORE: 3
+  - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L #
+    listOrder: 2350
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALLOY_WEAPONS
+    space: 0
+    time: 455
+    cost: 210000
+    requiredItems:
+      STR_ALIEN_WEAPON_COMPONENTS: 3
+  - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L #
+    listOrder: 2351
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALIEN_GRENADE_RED_DESTROYED
+      - STR_ALIEN_EXPLOSIVES
+    space: 0
+    time: 525
+    cost: 175000
+    requiredItems:
+      STR_ALIEN_WEAPON_COMPONENTS: 3
+      STR_ALIEN_GRENADE_RED_DESTROYED: 6
+      STR_ALIEN_EXPLOSIVE_UNITS: 9
+  - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L #
+    listOrder: 2352
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    space: 0
+    time: 530
+    cost: 195000
+    requiredItems:
+      STR_ALIEN_WEAPON_COMPONENTS: 3
+  - name: STR_POWER_SUIT_LAUNCHER_SM_BOMB_L #
+    listOrder: 2353
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    space: 0
+    time: 500
+    cost: 140000
+    requiredItems:
+      STR_ALIEN_WEAPON_COMPONENTS: 3
+  - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L #
+    listOrder: 2354
+    category: STR_WEAPON
+    requires:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_STUN_BOMB
+    space: 0
+    time: 595
+    cost: 105000
+    requiredItems:
+      STR_ALIEN_WEAPON_COMPONENTS: 3
+      STR_STUN_CORE: 6
+  - name: STR_INCENDIARY_GRENADE
+    listOrder: 2480
+    category: STR_GRENADE
+    space: 0
+    time: 20
+    cost: 100
+  - name: STR_AE_GRENADE
+    listOrder: 2500
+    category: STR_GRENADE
+    requires:
+      - STR_ALIEN_GRENADE_ARSENAL
+    space: 0
+    time: 40
+    cost: 750
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 3
+  - name: STR_AE_PROXIMITY_GRENADE
+    listOrder: 2505
+    category: STR_GRENADE
+    requires:
+      - STR_ALIEN_GRENADE_ARSENAL
+    space: 0
+    time: 70
+    cost: 1500
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 3
+  - name: STR_AE_HIGH_EXPLOSIVE
+    listOrder: 2510
+    category: STR_GRENADE
+    requires:
+      - STR_ALIEN_GRENADE_ARSENAL
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+    space: 0
+    time: 240
+    cost: 4800
+    requiredItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 8
+  - name: STR_STUN_GRENADE
+    listOrder: 2515
+    category: STR_GRENADE
+    requires:
+      - STR_ALIEN_GRENADE_ARSENAL
+      - STR_STUN_BOMB
+    space: 0
+    time: 50
+    cost: 7200
+    requiredItems:
+      STR_STUN_CORE: 1
+  - name: STR_FUSION_HIGH_EXPLOSIVE #
+    listOrder: 2520
+    category: STR_GRENADE
+    requires:
+      - STR_ALIEN_GRENADE_ARSENAL
+      - STR_HEAVY_FUSION_MISSILE
+    space: 0
+    time: 375
+    cost: 40000
+    requiredItems:
+      STR_FUSION_CORE: 2
+  - name: STR_MOTION_SCANNER
+    listOrder: 2540
+    category: STR_EQUIPMENT
+    requires:
+      - STR_MOTION_SCANNER
+    space: 0
+    time: 220
+    cost: 34000
+  - name: STR_MEDI_KIT
+    listOrder: 2550
+    category: STR_EQUIPMENT
+    requires:
+      - STR_MEDI_KIT
+    space: 0
+    time: 420
+    cost: 28000
+  - name: STR_MEDI_KIT_SUPER
+    listOrder: 2555
+    category: STR_EQUIPMENT
+    requires:
+      - STR_SUPER_SOLDIERS
+    space: 0
+    time: 720
+    cost: 490000
+    requiredItems:
+      STR_ALIEN_GENETIC_IMPLANTER: 1
+      STR_ALIEN_COMPUTER_ARRAYS: 1
+  - name: STR_MIND_PROBE_TERRAN
+    listOrder: 2560
+    category: STR_EQUIPMENT
+    requires:
+      - STR_MIND_PROBE
+    space: 0
+    time: 125
+    cost: 25000
+    requiredItems:
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+      STR_PSIONIC_FEEDBACK_DEVICE: 8
+      STR_PSIONIC_WAVE_DECODER: 12
+    producedItems:
+      STR_MIND_PROBE_TERRAN: 1
+  - name: STR_FEAR_PROJECTOR
+    listOrder: 2585
+    category: STR_EQUIPMENT
+    requires:
+      - STR_FEAR_PROJECTION
+    space: 0
+    time: 300
+    cost: 200000
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 8
+  - name: STR_PSI_AMP
+    listOrder: 2590
+    category: STR_EQUIPMENT
+    requires:
+      - STR_PSI_AMP
+    space: 0
+    time: 750
+    cost: 600000
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 3
+      STR_PSIONIC_WAVE_EMITTER: 4
+  - name: STR_PSIONIC_DISRUPTOR
+    listOrder: 2595
+    category: STR_EQUIPMENT
+    requires:
+      - STR_PSIONIC_DISRUPTOR
+    space: 0
+    time: 2000
+    cost: 1500000
+    requiredItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 5
+      STR_PSIONIC_WAVE_EMITTER: 18
+      STR_PSIONIC_WAVE_DECODER: 30
+  - name: STR_HEAVY_ARMOR
+    listOrder: 2680
+    category: STR_CAT_ARMOR
+    space: 1
+    time: 240
+    cost: 10000
+  - name: STR_PERSONAL_ARMOR_L
+    listOrder: 2700
+    category: STR_CAT_ARMOR
+    requires:
+      - STR_PERSONAL_ARMOR
+    space: 2
+    time: 800
+    cost: 33000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+    producedItems:
+      STR_PERSONAL_ARMOR_L: 1
+  - name: STR_PERSONAL_ARMOR_HEAVY
+    listOrder: 2710
+    category: STR_CAT_ARMOR
+    requires:
+      - STR_PERSONAL_ARMOR
+    space: 2
+    time: 1400
+    cost: 57000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 10
+  - name: STR_POWER_SUIT
+    listOrder: 2800
+    category: STR_CAT_ARMOR
+    requires:
+      - STR_POWER_SUIT
+    space: 3
+    time: 1500
+    cost: 160000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+      STR_POWER_SKELETON: 3
+      STR_ALIEN_POWER_ARRAYS: 3
+  - name: STR_FLYING_SUIT
+    listOrder: 2900
+    category: STR_CAT_ARMOR
+    requires:
+      - STR_FLYING_SUIT
+    space: 3
+    time: 2100
+    cost: 225000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 9
+      STR_POWER_SKELETON: 2
+      STR_ALIEN_COMPUTER_ARRAYS: 3
+      STR_ANTI_GRAV_UNIT: 1
+  - name: STR_PSI_DEFENSE_ARMOR
+    listOrder: 2910
+    category: STR_CAT_ARMOR
+    requires:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_POWER_SUIT
+    space: 3
+    time: 2400
+    cost: 360000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 15
+      STR_POWER_SKELETON: 4
+      STR_ALIEN_POWER_ARRAYS: 3
+      STR_PSIONIC_FEEDBACK_DEVICE: 2
+      STR_PSIONIC_WAVE_DECODER: 6
+  - name: STR_PSI_ATTACK_ARMOR
+    listOrder: 2915
+    category: STR_CAT_ARMOR
+    requires:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_FLYING_SUIT
+    space: 3
+    time: 3000
+    cost: 440000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+      STR_POWER_SKELETON: 4
+      STR_ALIEN_COMPUTER_ARRAYS: 6
+      STR_PSIONIC_FEEDBACK_DEVICE: 2
+      STR_PSIONIC_WAVE_EMITTER: 4
+      STR_ANTI_GRAV_UNIT: 1
+  - name: STR_PALADIN_ARMOR
+    listOrder: 2930
+    category: STR_CAT_ARMOR
+    requires:
+      - STR_INTEGRATED_ARMOR
+      - STR_POWER_SUIT
+      - STR_SECTOPOD_AUTOPSY
+    space: 4
+    time: 7500
+    cost: 1400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 15
+      STR_ALIEN_POWER_ARRAYS: 12
+      STR_PSIONIC_FEEDBACK_DEVICE: 18
+      STR_PSIONIC_WAVE_DECODER: 3
+      STR_MUTON_ARMOR_GRAFTS: 24
+      STR_CYBERNETIC_SKELETON_HEAVY: 4
+  - name: STR_ASSASSIN_ARMOR
+    listOrder: 2935
+    category: STR_CAT_ARMOR
+    requires:
+      - STR_INTEGRATED_ARMOR
+      - STR_FLYING_SUIT
+      - STR_CYBERDISC_AUTOPSY
+    space: 4
+    time: 6500
+    cost: 800000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+      STR_ALIEN_COMPUTER_ARRAYS: 12
+      STR_PSIONIC_FEEDBACK_DEVICE: 12
+      STR_PSIONIC_WAVE_EMITTER: 2
+      STR_ANTI_GRAV_UNIT: 1
+      STR_MUTON_ARMOR_GRAFTS: 12
+      STR_CYBERNETIC_SKELETON_LIGHT: 2
+  - name: STR_ALIEN_ALLOYS_INEFFICIENT
+    listOrder: 5000
+    category: STR_INEFFICIENT
+    requires:
+      - STR_ALIEN_ALLOYS
+    space: 0
+    time: 50
+    cost: 7500
+    producedItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_ALIEN_EXPLOSIVES_INEFFICIENT
+    listOrder: 5010
+    category: STR_INEFFICIENT
+    requires:
+      - STR_ALIEN_EXPLOSIVES
+    space: 0
+    time: 60
+    cost: 4400
+    producedItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 1
+  - name: STR_ALIEN_FEEDER_INEFFICIENT
+    listOrder: 5020
+    category: STR_INEFFICIENT
+    requires:
+      - STR_ALIEN_CONTAINMENT
+    space: 0
+    time: 50
+    cost: 1500
+    producedItems:
+      STR_ALIEN_FEEDER: 1
+  - name: STR_REPACKAGE_INTERCEPTOR_EASY
+    listOrder: 3180
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 500
+    cost: 0
+    requiredItems:
+      STR_INTERCEPTOR_EASY: 1
+    producedItems:
+      STR_PACKAGED_INTERCEPTOR: 1
+  - name: STR_REPACKAGE_SKYRAIDER_EASY
+    listOrder: 3185
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 600
+    cost: 0
+    requiredItems:
+      STR_SKYRAIDER_EASY: 1
+    producedItems:
+      STR_PACKAGED_SKYRAIDER: 1
+  - name: STR_REPACKAGE_MAMMOTH_EASY
+    listOrder: 3190
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 800
+    cost: 0
+    requiredItems:
+      STR_MAMMOTH_EASY: 1
+    producedItems:
+      STR_PACKAGED_MAMMOTH: 1
+  - name: STR_REPACKAGE_INTERCEPTOR
+    listOrder: 3180
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 500
+    cost: 0
+    requiredItems:
+      STR_INTERCEPTOR: 1
+    producedItems:
+      STR_PACKAGED_INTERCEPTOR: 1
+  - name: STR_REPACKAGE_SKYRAIDER
+    listOrder: 3185
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 600
+    cost: 0
+    requiredItems:
+      STR_SKYRAIDER: 1
+    producedItems:
+      STR_PACKAGED_SKYRAIDER: 1
+  - name: STR_REPACKAGE_MAMMOTH
+    listOrder: 3190
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 800
+    cost: 0
+    requiredItems:
+      STR_MAMMOTH: 1
+    producedItems:
+      STR_PACKAGED_MAMMOTH: 1
+  - name: STR_REPACKAGE_INTERCEPTOR_HARD
+    listOrder: 3180
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 500
+    cost: 0
+    requiredItems:
+      STR_INTERCEPTOR_HARD: 1
+    producedItems:
+      STR_PACKAGED_INTERCEPTOR: 1
+  - name: STR_REPACKAGE_SKYRAIDER_HARD
+    listOrder: 3185
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 600
+    cost: 0
+    requiredItems:
+      STR_SKYRAIDER_HARD: 1
+    producedItems:
+      STR_PACKAGED_SKYRAIDER: 1
+  - name: STR_REPACKAGE_MAMMOTH_HARD
+    listOrder: 3190
+    category: STR_REPACKAGE_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_ADVANCED_AIRCRAFT
+    space: 0
+    time: 800
+    cost: 0
+    requiredItems:
+      STR_MAMMOTH_HARD: 1
+    producedItems:
+      STR_PACKAGED_MAMMOTH: 1
+  - name: STR_INTERDICTOR_EASY
+    listOrder: 3200
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_ADVANCED_AIRCRAFT
+    space: 12
+    time: 4500
+    cost: 450000
+    requiredItems:
+      STR_PACKAGED_INTERCEPTOR: 1
+      STR_ALIEN_ALLOYS: 16
+      STR_ALIEN_COMPUTER_ARRAYS: 5
+  - name: STR_STORMCHARGER_EASY
+    listOrder: 3205
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_ADVANCED_AIRCRAFT
+    space: 18
+    time: 5400
+    cost: 550000
+    requiredItems:
+      STR_PACKAGED_SKYRAIDER: 1
+      STR_ALIEN_ALLOYS: 18
+      STR_ALIEN_COMPUTER_ARRAYS: 8
+  - name: STR_MASTODON_EASY
+    listOrder: 3210
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_ADVANCED_AIRCRAFT
+    space: 20
+    time: 7200
+    cost: 800000
+    requiredItems:
+      STR_PACKAGED_MAMMOTH: 1
+      STR_ALIEN_ALLOYS: 24
+      STR_ALIEN_COMPUTER_ARRAYS: 15
+  - name: STR_INTERDICTOR
+    listOrder: 3200
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_ADVANCED_AIRCRAFT
+    space: 12
+    time: 4500
+    cost: 450000
+    requiredItems:
+      STR_PACKAGED_INTERCEPTOR: 1
+      STR_ALIEN_ALLOYS: 16
+      STR_ALIEN_COMPUTER_ARRAYS: 5
+  - name: STR_STORMCHARGER
+    listOrder: 3205
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_ADVANCED_AIRCRAFT
+    space: 18
+    time: 5400
+    cost: 550000
+    requiredItems:
+      STR_PACKAGED_SKYRAIDER: 1
+      STR_ALIEN_ALLOYS: 18
+      STR_ALIEN_COMPUTER_ARRAYS: 8
+  - name: STR_MASTODON
+    listOrder: 3210
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_ADVANCED_AIRCRAFT
+    space: 20
+    time: 7200
+    cost: 800000
+    requiredItems:
+      STR_PACKAGED_MAMMOTH: 1
+      STR_ALIEN_ALLOYS: 24
+      STR_ALIEN_COMPUTER_ARRAYS: 15
+  - name: STR_INTERDICTOR_HARD
+    listOrder: 3200
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_ADVANCED_AIRCRAFT
+    space: 12
+    time: 4500
+    cost: 450000
+    requiredItems:
+      STR_PACKAGED_INTERCEPTOR: 1
+      STR_ALIEN_ALLOYS: 16
+      STR_ALIEN_COMPUTER_ARRAYS: 5
+  - name: STR_STORMCHARGER_HARD
+    listOrder: 3205
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_ADVANCED_AIRCRAFT
+    space: 18
+    time: 5400
+    cost: 550000
+    requiredItems:
+      STR_PACKAGED_SKYRAIDER: 1
+      STR_ALIEN_ALLOYS: 18
+      STR_ALIEN_COMPUTER_ARRAYS: 8
+  - name: STR_MASTODON_HARD
+    listOrder: 3210
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_ADVANCED_AIRCRAFT
+    space: 20
+    time: 7200
+    cost: 800000
+    requiredItems:
+      STR_PACKAGED_MAMMOTH: 1
+      STR_ALIEN_ALLOYS: 24
+      STR_ALIEN_COMPUTER_ARRAYS: 15
+  - name: STR_FIRESTORM_EASY
+    listOrder: 3220
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_NEW_FIGHTER_CRAFT
+    space: 30
+    time: 14000
+    cost: 1800000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 60
+      STR_ALIEN_POWER_ARRAYS: 10
+      STR_ALIEN_COMPUTER_ARRAYS: 10
+  - name: STR_LIGHTNING_EASY
+    listOrder: 3225
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_NEW_FIGHTER_TRANSPORTER
+    space: 55
+    time: 18000
+    cost: 4200000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 150
+      STR_ALIEN_POWER_ARRAYS: 15
+      STR_ALIEN_COMPUTER_ARRAYS: 25
+  - name: STR_INFERNO_EASY
+    listOrder: 3230
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_ULTIMATE_CRAFT
+    space: 40
+    time: 26000
+    cost: 5600000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 110
+      STR_ALIEN_POWER_ARRAYS: 40
+      STR_ALIEN_COMPUTER_ARRAYS: 40
+  - name: STR_TEMPEST_EASY
+    listOrder: 3235
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+    space: 65
+    time: 38000
+    cost: 12400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 180
+      STR_ALIEN_POWER_ARRAYS: 45
+      STR_ALIEN_COMPUTER_ARRAYS: 75
+  - name: STR_FIRESTORM
+    listOrder: 3220
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_NEW_FIGHTER_CRAFT
+    space: 30
+    time: 14000
+    cost: 1800000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 60
+      STR_ALIEN_POWER_ARRAYS: 10
+      STR_ALIEN_COMPUTER_ARRAYS: 10
+  - name: STR_LIGHTNING
+    listOrder: 3225
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_NEW_FIGHTER_TRANSPORTER
+    space: 55
+    time: 18000
+    cost: 4200000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 150
+      STR_ALIEN_POWER_ARRAYS: 15
+      STR_ALIEN_COMPUTER_ARRAYS: 25
+  - name: STR_INFERNO
+    listOrder: 3230
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_ULTIMATE_CRAFT
+    space: 40
+    time: 26000
+    cost: 5600000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 110
+      STR_ALIEN_POWER_ARRAYS: 40
+      STR_ALIEN_COMPUTER_ARRAYS: 40
+  - name: STR_TEMPEST
+    listOrder: 3235
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+    space: 65
+    time: 38000
+    cost: 12400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 180
+      STR_ALIEN_POWER_ARRAYS: 45
+      STR_ALIEN_COMPUTER_ARRAYS: 75
+  - name: STR_FIRESTORM_HARD
+    listOrder: 3220
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_NEW_FIGHTER_CRAFT
+    space: 30
+    time: 14000
+    cost: 1800000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 60
+      STR_ALIEN_POWER_ARRAYS: 10
+      STR_ALIEN_COMPUTER_ARRAYS: 10
+  - name: STR_LIGHTNING_HARD
+    listOrder: 3225
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_NEW_FIGHTER_TRANSPORTER
+    space: 55
+    time: 18000
+    cost: 4200000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 150
+      STR_ALIEN_POWER_ARRAYS: 15
+      STR_ALIEN_COMPUTER_ARRAYS: 25
+  - name: STR_INFERNO_HARD
+    listOrder: 3230
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_ULTIMATE_CRAFT
+    space: 40
+    time: 26000
+    cost: 5600000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 110
+      STR_ALIEN_POWER_ARRAYS: 40
+      STR_ALIEN_COMPUTER_ARRAYS: 40
+  - name: STR_TEMPEST_HARD
+    listOrder: 3235
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+    space: 65
+    time: 38000
+    cost: 12400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 180
+      STR_ALIEN_POWER_ARRAYS: 45
+      STR_ALIEN_COMPUTER_ARRAYS: 75
+  - name: STR_AMARANTH_EASY
+    listOrder: 3240
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_FLAGSHIPS
+    space: 36
+    time: 24000
+    cost: 4800000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 180
+      STR_ALIEN_POWER_ARRAYS: 22
+      STR_ALIEN_COMPUTER_ARRAYS: 75
+      STR_UFO_SHIELD_EMITTER: 5
+      STR_CAPACITORS: 16
+      STR_TRANSISTORS_SMALL: 18
+      STR_TRANSISTORS_MEDIUM: 12
+      STR_TRANSISTORS_LARGE: 4
+      STR_TRANSISTORS_VERY_LARGE: 2
+      STR_DIODES_SMALL: 12
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_HIGH_ENERGY: 12
+      STR_TRANSFORMERS: 8
+      STR_INDUCTORS_SMALL: 20
+      STR_INDUCTORS_LARGE: 2
+  - name: STR_HERACLES_EASY
+    listOrder: 3245
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_FLAGSHIPS
+    space: 60
+    time: 60000
+    cost: 14400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 400
+      STR_ALIEN_POWER_ARRAYS: 60
+      STR_ALIEN_COMPUTER_ARRAYS: 24
+      STR_UFO_SHIELD_EMITTER: 8
+      STR_CAPACITORS: 8
+      STR_TRANSISTORS_SMALL: 12
+      STR_TRANSISTORS_MEDIUM: 10
+      STR_TRANSISTORS_LARGE: 12
+      STR_TRANSISTORS_VERY_LARGE: 8
+      STR_DIODES_SMALL: 8
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_LARGE: 4
+      STR_DIODES_HIGH_ENERGY: 6
+      STR_TRANSFORMERS: 10
+      STR_INDUCTORS_SMALL: 15
+      STR_INDUCTORS_LARGE: 5
+  - name: STR_STARBLAZER_EASY
+    listOrder: 3250
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_FLAGSHIPS
+    space: 28
+    time: 36000
+    cost: 7200000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 200
+      STR_ALIEN_POWER_ARRAYS: 52
+      STR_ALIEN_COMPUTER_ARRAYS: 40
+      STR_UFO_SHIELD_EMITTER: 7
+      STR_CAPACITORS: 4
+      STR_TRANSISTORS_SMALL: 6
+      STR_TRANSISTORS_HIGH_ENERGY: 6
+      STR_DIODES_SMALL: 14
+      STR_DIODES_MEDIUM: 14
+      STR_DIODES_LARGE: 10
+      STR_DIODES_VERY_LARGE: 6
+      STR_DIODES_HIGH_ENERGY: 24
+      STR_TRANSFORMERS: 4
+      STR_INDUCTORS_SMALL: 6
+      STR_INDUCTORS_LARGE: 1
+  - name: STR_DIVINITY_EASY
+    listOrder: 3255
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_EASY
+      - STR_FLAGSHIPS
+    space: 44
+    time: 45000
+    cost: 9000000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 280
+      STR_ALIEN_POWER_ARRAYS: 36
+      STR_ALIEN_COMPUTER_ARRAYS: 56
+      STR_UFO_SHIELD_EMITTER: 6
+      STR_CAPACITORS: 12
+      STR_TRANSISTORS_SMALL: 10
+      STR_TRANSISTORS_MEDIUM: 6
+      STR_TRANSISTORS_LARGE: 4
+      STR_TRANSISTORS_VERY_LARGE: 3
+      STR_TRANSISTORS_HIGH_ENERGY: 18
+      STR_DIODES_SMALL: 10
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_LARGE: 4
+      STR_DIODES_VERY_LARGE: 3
+      STR_DIODES_HIGH_ENERGY: 18
+      STR_TRANSFORMERS: 12
+      STR_INDUCTORS_SMALL: 12
+      STR_INDUCTORS_LARGE: 3
+  - name: STR_AMARANTH
+    listOrder: 3240
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_FLAGSHIPS
+    space: 36
+    time: 24000
+    cost: 4800000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 180
+      STR_ALIEN_POWER_ARRAYS: 22
+      STR_ALIEN_COMPUTER_ARRAYS: 75
+      STR_UFO_SHIELD_EMITTER: 5
+      STR_CAPACITORS: 16
+      STR_TRANSISTORS_SMALL: 18
+      STR_TRANSISTORS_MEDIUM: 12
+      STR_TRANSISTORS_LARGE: 4
+      STR_TRANSISTORS_VERY_LARGE: 2
+      STR_DIODES_SMALL: 12
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_HIGH_ENERGY: 12
+      STR_TRANSFORMERS: 8
+      STR_INDUCTORS_SMALL: 20
+      STR_INDUCTORS_LARGE: 2
+  - name: STR_HERACLES
+    listOrder: 3245
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_FLAGSHIPS
+    space: 60
+    time: 60000
+    cost: 14400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 400
+      STR_ALIEN_POWER_ARRAYS: 60
+      STR_ALIEN_COMPUTER_ARRAYS: 24
+      STR_UFO_SHIELD_EMITTER: 8
+      STR_CAPACITORS: 8
+      STR_TRANSISTORS_SMALL: 12
+      STR_TRANSISTORS_MEDIUM: 10
+      STR_TRANSISTORS_LARGE: 12
+      STR_TRANSISTORS_VERY_LARGE: 8
+      STR_DIODES_SMALL: 8
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_LARGE: 4
+      STR_DIODES_HIGH_ENERGY: 6
+      STR_TRANSFORMERS: 10
+      STR_INDUCTORS_SMALL: 15
+      STR_INDUCTORS_LARGE: 5
+  - name: STR_STARBLAZER
+    listOrder: 3250
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_FLAGSHIPS
+    space: 28
+    time: 36000
+    cost: 7200000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 200
+      STR_ALIEN_POWER_ARRAYS: 52
+      STR_ALIEN_COMPUTER_ARRAYS: 40
+      STR_UFO_SHIELD_EMITTER: 7
+      STR_CAPACITORS: 4
+      STR_TRANSISTORS_SMALL: 6
+      STR_TRANSISTORS_HIGH_ENERGY: 6
+      STR_DIODES_SMALL: 14
+      STR_DIODES_MEDIUM: 14
+      STR_DIODES_LARGE: 10
+      STR_DIODES_VERY_LARGE: 6
+      STR_DIODES_HIGH_ENERGY: 24
+      STR_TRANSFORMERS: 4
+      STR_INDUCTORS_SMALL: 6
+      STR_INDUCTORS_LARGE: 1
+  - name: STR_DIVINITY
+    listOrder: 3255
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_MEDIUM
+      - STR_FLAGSHIPS
+    space: 44
+    time: 45000
+    cost: 9000000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 280
+      STR_ALIEN_POWER_ARRAYS: 36
+      STR_ALIEN_COMPUTER_ARRAYS: 56
+      STR_UFO_SHIELD_EMITTER: 6
+      STR_CAPACITORS: 12
+      STR_TRANSISTORS_SMALL: 10
+      STR_TRANSISTORS_MEDIUM: 6
+      STR_TRANSISTORS_LARGE: 4
+      STR_TRANSISTORS_VERY_LARGE: 3
+      STR_TRANSISTORS_HIGH_ENERGY: 18
+      STR_DIODES_SMALL: 10
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_LARGE: 4
+      STR_DIODES_VERY_LARGE: 3
+      STR_DIODES_HIGH_ENERGY: 18
+      STR_TRANSFORMERS: 12
+      STR_INDUCTORS_SMALL: 12
+      STR_INDUCTORS_LARGE: 3
+  - name: STR_AMARANTH_HARD
+    listOrder: 3240
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_FLAGSHIPS
+    space: 36
+    time: 24000
+    cost: 4800000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 180
+      STR_ALIEN_POWER_ARRAYS: 22
+      STR_ALIEN_COMPUTER_ARRAYS: 75
+      STR_UFO_SHIELD_EMITTER: 5
+      STR_CAPACITORS: 16
+      STR_TRANSISTORS_SMALL: 18
+      STR_TRANSISTORS_MEDIUM: 12
+      STR_TRANSISTORS_LARGE: 4
+      STR_TRANSISTORS_VERY_LARGE: 2
+      STR_DIODES_SMALL: 12
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_HIGH_ENERGY: 12
+      STR_TRANSFORMERS: 8
+      STR_INDUCTORS_SMALL: 20
+      STR_INDUCTORS_LARGE: 2
+  - name: STR_HERACLES_HARD
+    listOrder: 3245
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_FLAGSHIPS
+    space: 60
+    time: 60000
+    cost: 14400000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 400
+      STR_ALIEN_POWER_ARRAYS: 60
+      STR_ALIEN_COMPUTER_ARRAYS: 24
+      STR_UFO_SHIELD_EMITTER: 8
+      STR_CAPACITORS: 8
+      STR_TRANSISTORS_SMALL: 12
+      STR_TRANSISTORS_MEDIUM: 10
+      STR_TRANSISTORS_LARGE: 12
+      STR_TRANSISTORS_VERY_LARGE: 8
+      STR_DIODES_SMALL: 8
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_LARGE: 4
+      STR_DIODES_HIGH_ENERGY: 6
+      STR_TRANSFORMERS: 10
+      STR_INDUCTORS_SMALL: 15
+      STR_INDUCTORS_LARGE: 5
+  - name: STR_STARBLAZER_HARD
+    listOrder: 3250
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_FLAGSHIPS
+    space: 28
+    time: 36000
+    cost: 7200000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 200
+      STR_ALIEN_POWER_ARRAYS: 52
+      STR_ALIEN_COMPUTER_ARRAYS: 40
+      STR_UFO_SHIELD_EMITTER: 7
+      STR_CAPACITORS: 4
+      STR_TRANSISTORS_SMALL: 6
+      STR_TRANSISTORS_HIGH_ENERGY: 6
+      STR_DIODES_SMALL: 14
+      STR_DIODES_MEDIUM: 14
+      STR_DIODES_LARGE: 10
+      STR_DIODES_VERY_LARGE: 6
+      STR_DIODES_HIGH_ENERGY: 24
+      STR_TRANSFORMERS: 4
+      STR_INDUCTORS_SMALL: 6
+      STR_INDUCTORS_LARGE: 1
+  - name: STR_DIVINITY_HARD
+    listOrder: 3255
+    category: STR_CRAFT
+    requires:
+      - STR_CRAFT_HARD
+      - STR_FLAGSHIPS
+    space: 44
+    time: 45000
+    cost: 9000000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 280
+      STR_ALIEN_POWER_ARRAYS: 36
+      STR_ALIEN_COMPUTER_ARRAYS: 56
+      STR_UFO_SHIELD_EMITTER: 6
+      STR_CAPACITORS: 12
+      STR_TRANSISTORS_SMALL: 10
+      STR_TRANSISTORS_MEDIUM: 6
+      STR_TRANSISTORS_LARGE: 4
+      STR_TRANSISTORS_VERY_LARGE: 3
+      STR_TRANSISTORS_HIGH_ENERGY: 18
+      STR_DIODES_SMALL: 10
+      STR_DIODES_MEDIUM: 6
+      STR_DIODES_LARGE: 4
+      STR_DIODES_VERY_LARGE: 3
+      STR_DIODES_HIGH_ENERGY: 18
+      STR_TRANSFORMERS: 12
+      STR_INDUCTORS_SMALL: 12
+      STR_INDUCTORS_LARGE: 3
+  - name: STR_SPACECRAFT_FUEL
+    listOrder: 3398
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_UFO_CONSTRUCTION
+    space: 0
+    time: 50
+    cost: 25000
+    requiredItems:
+      STR_ELERIUM_115: 5
+      STR_ALIEN_FUEL_PODS: 1
+    producedItems:
+      STR_SPACECRAFT_FUEL: 5
+# System for armor repair:
+# 100% of space
+# 30% of time
+# 40% of cost
+# 1/2 of components few in number
+# 1/3 of components high in number
+# Broken Armor Value: 30% of original
+  - name: STR_REPAIR_PERSONAL_ARMOR
+    listOrder: 3900
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_PERSONAL_ARMOR
+    space: 2
+    time: 240
+    cost: 13200
+    requiredItems:
+      STR_BROKEN_ARMOR: 1
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_PERSONAL_ARMOR_L: 1
+  - name: STR_REPAIR_PERSONAL_ARMOR_HEAVY
+    listOrder: 3910
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_PERSONAL_ARMOR
+    space: 2
+    time: 420
+    cost: 22800
+    requiredItems:
+      STR_BROKEN_ARMOR_ALLOY: 1
+      STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_PERSONAL_ARMOR_HEAVY: 1
+  - name: STR_REPAIR_NIGHT_OPS_ARMOR
+    listOrder: 3920
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_OUTSOURCING_ARMOR
+      - STR_PERSONAL_ARMOR
+    space: 2
+    time: 500
+    cost: 21000
+    requiredItems:
+      STR_BROKEN_NIGHT_OPS_ARMOR: 1
+      STR_ALIEN_ALLOYS: 1
+      STR_STEALTH_GEAR: 1
+    producedItems:
+      STR_NIGHT_OPS_ARMOR: 1
+  - name: STR_REPAIR_PSIONIC_ALLOY_ARMOR
+    listOrder: 3930
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_OUTSOURCING_ARMOR
+      - STR_PERSONAL_ARMOR
+      - STR_FEAR_PROJECTION
+      - STR_MIND_PROBE
+      - STR_ALIEN_ENTERTAINMENT
+    space: 2
+    time: 600
+    cost: 26500
+    requiredItems:
+      STR_BROKEN_PSIONIC_ALLOY_ARMOR: 1
+      STR_ALIEN_ALLOYS: 1
+      STR_PSIONIC_FEEDBACK_DEVICE: 3
+    producedItems:
+      STR_PSIONIC_ALLOY_ARMOR: 1
+  - name: STR_REPAIR_POWER_SUIT
+    listOrder: 3940
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_POWER_SUIT
+    space: 3
+    time: 450
+    cost: 64000
+    requiredItems:
+      STR_BROKEN_DARK_SUIT: 1
+      STR_ALIEN_ALLOYS: 4
+      STR_POWER_SKELETON: 1
+      STR_ALIEN_POWER_ARRAYS: 1
+    producedItems:
+      STR_POWER_SUIT: 1
+  - name: STR_REPAIR_FLYING_SUIT
+    listOrder: 3950
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_FLYING_SUIT
+    space: 3
+    time: 630
+    cost: 90000
+    requiredItems:
+      STR_BROKEN_SUIT: 1
+      STR_ALIEN_ALLOYS: 3
+      STR_POWER_SKELETON: 1
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+    producedItems:
+      STR_FLYING_SUIT: 1
+  - name: STR_REPAIR_PSI_DEFENSE_ARMOR
+    listOrder: 3960
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_POWER_SUIT
+    space: 3
+    time: 720
+    cost: 144000
+    requiredItems:
+      STR_BROKEN_SUIT_PSI1: 1
+      STR_ALIEN_ALLOYS: 5
+      STR_POWER_SKELETON: 2
+      STR_ALIEN_POWER_ARRAYS: 1
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_DECODER: 2
+    producedItems:
+      STR_PSI_DEFENSE_ARMOR: 1
+  - name: STR_REPAIR_PSI_ATTACK_ARMOR
+    listOrder: 3970
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_FLYING_SUIT
+    space: 3
+    time: 900
+    cost: 176000
+    requiredItems:
+      STR_BROKEN_SUIT_PSI2: 1
+      STR_ALIEN_ALLOYS: 4
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_EMITTER: 2
+    producedItems:
+      STR_PSI_ATTACK_ARMOR: 1
+  - name: STR_REPAIR_PALADIN_ARMOR
+    listOrder: 3980
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_INTEGRATED_ARMOR
+      - STR_POWER_SUIT
+      - STR_SECTOPOD_AUTOPSY
+    space: 4
+    time: 2250
+    cost: 560000
+    requiredItems:
+      STR_BROKEN_PALADIN_ARMOR: 1
+      STR_ALIEN_ALLOYS: 5
+      STR_ALIEN_POWER_ARRAYS: 4
+      STR_PSIONIC_FEEDBACK_DEVICE: 6
+      STR_PSIONIC_WAVE_DECODER: 1
+      STR_MUTON_ARMOR_GRAFTS: 8
+      STR_CYBERNETIC_SKELETON_HEAVY: 2
+    producedItems:
+      STR_PALADIN_ARMOR: 1
+  - name: STR_REPAIR_ASSASSIN_ARMOR
+    listOrder: 3990
+    category: STR_REPAIR_ARMOR
+    requires:
+      - STR_INTEGRATED_ARMOR
+      - STR_FLYING_SUIT
+      - STR_CYBERDISC_AUTOPSY
+    space: 4
+    time: 1950
+    cost: 320000
+    requiredItems:
+      STR_BROKEN_ASSASSIN_ARMOR: 1
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_COMPUTER_ARRAYS: 4
+      STR_PSIONIC_FEEDBACK_DEVICE: 4
+      STR_PSIONIC_WAVE_EMITTER: 1
+      STR_MUTON_ARMOR_GRAFTS: 2
+      STR_CYBERNETIC_SKELETON_LIGHT: 1
+    producedItems:
+      STR_ASSASSIN_ARMOR: 1
+  - name: STR_SALVAGE_SCOUT_POWER_UNIT
+    listOrder: 4000
+    category: STR_SALVAGE
+    requires:
+      - STR_SCOUT_POWER_UNIT
+    space: 2
+    time: 50
+    cost: 0
+    requiredItems:
+      STR_SCOUT_POWER_UNIT: 1
+    producedItems:
+      STR_ELERIUM_115: 5
+      STR_ALIEN_POWER_ARRAYS: 1
+  - name: STR_SALVAGE_UFO_POWER_SOURCE
+    listOrder: 4005
+    category: STR_SALVAGE
+    requires:
+      - STR_UFO_POWER_SOURCE
+    space: 6
+    time: 250
+    cost: 0
+    requiredItems:
+      STR_UFO_POWER_SOURCE: 1
+    producedItems:
+      STR_ALIEN_POWER_ARRAYS: 5
+  - name: STR_SALVAGE_UFO_NAVIGATION
+    listOrder: 4010
+    category: STR_SALVAGE
+    requires:
+      - STR_UFO_NAVIGATION
+    space: 4
+    time: 150
+    cost: 0
+    requiredItems:
+      STR_UFO_NAVIGATION: 1
+    producedItems:
+      STR_ALIEN_COMPUTER_ARRAYS: 5
+  - name: STR_SALVAGE_PLASMA_ARRAY
+    listOrder: 4050
+    category: STR_SALVAGE
+    requires:
+      - STR_UFO_PLASMA_ARRAY
+    space: 0
+    time: 4
+    cost: 0
+    requiredItems:
+      STR_UFO_PLASMA_ARRAY: 2
+    producedItems:
+      STR_ELERIUM_115: 1
+      STR_ALIEN_WEAPON_COMPONENTS: 10
+  - name: STR_SALVAGE_PLASMA_PISTOL
+    listOrder: 4100
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    space: 0
+    time: 20
+    cost: 0
+    requiredItems:
+      STR_PLASMA_PISTOL: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_WEAPON_COMPONENTS: 2
+  - name: STR_SALVAGE_PLASMA_RIFLE
+    listOrder: 4110
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    space: 0
+    time: 25
+    cost: 0
+    requiredItems:
+      STR_PLASMA_RIFLE: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ALIEN_WEAPON_COMPONENTS: 3
+  - name: STR_SALVAGE_HEAVY_PLASMA
+    listOrder: 4120
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    space: 0
+    time: 30
+    cost: 0
+    requiredItems:
+      STR_HEAVY_PLASMA: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_ALIEN_WEAPON_COMPONENTS: 4
+  - name: STR_SALVAGE_PLASMA_PISTOL_CLIP
+    listOrder: 4130
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_PLASMA_PISTOL_CLIP: 4
+    producedItems:
+      STR_ELERIUM_115: 1
+  - name: STR_SALVAGE_PLASMA_RIFLE_CLIP
+    listOrder: 4140
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_PLASMA_RIFLE_CLIP: 3
+    producedItems:
+      STR_ELERIUM_115: 1
+  - name: STR_SALVAGE_HEAVY_PLASMA_CLIP
+    listOrder: 4150
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_HEAVY_PLASMA_CLIP: 2
+    producedItems:
+      STR_ELERIUM_115: 1
+  - name: STR_SALVAGE_ALIEN_GRENADE
+    listOrder: 4200
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_GRENADE
+    space: 0
+    time: 2
+    cost: 0
+    requiredItems:
+      STR_ALIEN_GRENADE: 1
+    producedItems:
+      STR_ALIEN_EXPLOSIVE_UNITS: 3
+  - name: STR_SALVAGE_BLASTER_LAUNCHER
+    listOrder: 4210
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_BLASTER_BOMB
+    space: 0
+    time: 25
+    cost: 0
+    requiredItems:
+      STR_BLASTER_LAUNCHER: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_ALIEN_WEAPON_COMPONENTS: 5
+  - name: STR_SALVAGE_BLASTER_BOMB
+    listOrder: 4220
+    category: STR_SALVAGE
+    requires:
+      - STR_BLASTER_BOMB
+    space: 0
+    time: 5
+    cost: 0
+    requiredItems:
+      STR_BLASTER_BOMB: 1
+    producedItems:
+      STR_FUSION_CORE: 1
+  - name: STR_SALVAGE_SMALL_LAUNCHER
+    listOrder: 4230
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_STUN_BOMB
+    space: 0
+    time: 20
+    cost: 0
+    requiredItems:
+      STR_SMALL_LAUNCHER: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_WEAPON_COMPONENTS: 4
+  - name: STR_SALVAGE_STUN_BOMB
+    listOrder: 4240
+    category: STR_SALVAGE
+    requires:
+      - STR_STUN_BOMB
+    space: 0
+    time: 3
+    cost: 0
+    requiredItems:
+      STR_STUN_BOMB: 1
+    producedItems:
+      STR_STUN_CORE: 1
+  - name: STR_SALVAGE_MIND_PROBE
+    listOrder: 4280
+    category: STR_SALVAGE
+    requires:
+      - STR_MIND_PROBE
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_MIND_PROBE: 1
+    producedItems:
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+      STR_PSIONIC_FEEDBACK_DEVICE: 8
+      STR_PSIONIC_WAVE_DECODER: 12
+  - name: STR_SALVAGE_ALIEN_FOOD
+    listOrder: 4300
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_FOOD
+    space: 5
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_ALIEN_FOOD: 1
+    producedItems:
+      STR_ALIEN_FEEDER: 3
+  - name: STR_SALVAGE_ALIEN_ENTERTAINMENT
+    listOrder: 4305
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_ENTERTAINMENT
+    space: 5
+    time: 25
+    cost: 0
+    requiredItems:
+      STR_ALIEN_ENTERTAINMENT: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 2
+  - name: STR_SALVAGE_ALIEN_HABITAT
+    listOrder: 4310
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_HABITAT
+    space: 1
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_ALIEN_HABITAT: 1
+    producedItems:
+      STR_ALIEN_FEEDER: 2
+      STR_PSIONIC_FEEDBACK_DEVICE: 2
+  - name: STR_SALVAGE_ALIEN_SURGERY
+    listOrder: 4315
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_SURGERY
+    space: 6
+    time: 8
+    cost: 0
+    requiredItems:
+      STR_ALIEN_SURGERY: 1
+    producedItems:
+      STR_ALIEN_LASER: 1
+      STR_ALIEN_SURGICAL_INTERFACE: 1
+      STR_ALIEN_COMPUTER_ARRAYS: 2
+  - name: STR_SALVAGE_EXAMINATION_ROOM
+    listOrder: 4320
+    category: STR_SALVAGE
+    requires:
+      - STR_EXAMINATION_ROOM
+    space: 5
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_EXAMINATION_ROOM: 1
+    producedItems:
+      STR_ALIEN_LASER: 1
+      STR_ALIEN_GENETIC_IMPLANTER: 1
+      STR_ALIEN_COMPUTER_ARRAYS: 3
+  - name: STR_SALVAGE_ALIEN_REPRODUCTION
+    listOrder: 4315
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_REPRODUCTION
+    space: 5
+    time: 8
+    cost: 0
+    requiredItems:
+      STR_ALIEN_REPRODUCTION: 1
+    producedItems:
+      STR_ALIEN_FEEDER: 1
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_ALIEN_SURGICAL_INTERFACE: 1
+      STR_ALIEN_GENETIC_IMPLANTER: 1
+  - name: STR_SKELETON_LIGHT_TO_POWER_INEFFICIENT
+    listOrder: 5100
+    category: STR_INEFFICIENT
+    requires:
+      - STR_CYBERDISC_AUTOPSY
+      - STR_CYBERNETIC_TO_POWER
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_CYBERNETIC_SKELETON_LIGHT: 1
+    producedItems:
+      STR_POWER_SKELETON: 2
+  - name: STR_SKELETON_HEAVY_TO_POWER_INEFFICIENT
+    listOrder: 5110
+    category: STR_INEFFICIENT
+    requires:
+      - STR_SECTOPOD_AUTOPSY
+      - STR_CYBERNETIC_TO_POWER
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_CYBERNETIC_SKELETON_HEAVY: 1
+    producedItems:
+      STR_POWER_SKELETON: 3
+  - name: STR_SKELETON_POWER_TO_LIGHT_INEFFICIENT
+    listOrder: 5120
+    category: STR_INEFFICIENT
+    requires:
+      - STR_CYBERDISC_AUTOPSY
+      - STR_INTEGRATED_ARMOR
+    space: 0
+    time: 200
+    cost: 0
+    requiredItems:
+      STR_POWER_SKELETON: 6
+    producedItems:
+      STR_CYBERNETIC_SKELETON_LIGHT: 1
+  - name: STR_SKELETON_POWER_TO_HEAVY_INEFFICIENT
+    listOrder: 5130
+    category: STR_INEFFICIENT
+    requires:
+      - STR_SECTOPOD_AUTOPSY
+      - STR_INTEGRATED_ARMOR
+    space: 0
+    time: 300
+    cost: 0
+    requiredItems:
+      STR_POWER_SKELETON: 9
+    producedItems:
+      STR_CYBERNETIC_SKELETON_HEAVY: 1
+  - name: STR_SALVAGE_SECTOID
+    listOrder: 4400
+    category: STR_DISSECTION
+    requires:
+      - STR_SECTOID_AUTOPSY
+    space: 0
+    time: 5
+    cost: 0
+    requiredItems:
+      STR_SECTOID_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_TROPHY_CORPSE_SECTOID: 1
+  - name: STR_SALVAGE_PSIONIC_SECTOID
+    listOrder: 4401
+    category: STR_DISSECTION
+    requires:
+      - STR_SECTOID_AUTOPSY
+      - STR_SECTOID_CORPSE_PSI
+    space: 0
+    time: 6
+    cost: 0
+    requiredItems:
+      STR_SECTOID_CORPSE_PSI: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_EMITTER: 2
+      STR_TROPHY_CORPSE_SECTOID: 1
+  - name: STR_SALVAGE_SECTOID_A
+    listOrder: 4405
+    category: STR_DISSECTION
+    requires:
+      - STR_SECTOID_AUTOPSY
+      - STR_SECTOID_ARMOR
+    space: 0
+    time: 6
+    cost: 0
+    requiredItems:
+      STR_SECTOID_A_CORPSE: 1
+    producedItems:
+      STR_POWER_SKELETON: 1
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_TROPHY_CORPSE_SECTOID: 1
+  - name: STR_SALVAGE_PSIONIC_SECTOID_A
+    listOrder: 4406
+    category: STR_DISSECTION
+    requires:
+      - STR_SECTOID_AUTOPSY
+      - STR_SECTOID_A_CORPSE_PSI
+      - STR_SECTOID_ARMOR
+    space: 0
+    time: 7
+    cost: 0
+    requiredItems:
+      STR_SECTOID_A_CORPSE_PSI: 1
+    producedItems:
+      STR_POWER_SKELETON: 1
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_EMITTER: 2
+      STR_TROPHY_CORPSE_SECTOID: 1
+  - name: STR_SALVAGE_FLOATER
+    listOrder: 4410
+    category: STR_DISSECTION
+    requires:
+      - STR_FLOATER_AUTOPSY
+    space: 0
+    time: 6
+    cost: 0
+    requiredItems:
+      STR_FLOATER_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_ANTI_GRAV_UNIT: 1
+      STR_TROPHY_CORPSE_FLOATER: 1
+  - name: STR_SALVAGE_SNAKEMAN
+    listOrder: 4420
+    category: STR_DISSECTION
+    requires:
+      - STR_SNAKEMAN_AUTOPSY
+    space: 0
+    time: 5
+    cost: 0
+    requiredItems:
+      STR_SNAKEMAN_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_TROPHY_CORPSE_SNAKEMAN: 1
+  - name: STR_SALVAGE_MUTON
+    listOrder: 4430
+    category: STR_DISSECTION
+    requires:
+      - STR_MUTON_AUTOPSY
+    space: 0
+    time: 6
+    cost: 0
+    requiredItems:
+      STR_MUTON_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_MUTON_ARMOR_GRAFTS: 3
+      STR_TROPHY_CORPSE_MUTON: 1
+  - name: STR_SALVAGE_MUTON_B
+    listOrder: 4435
+    category: STR_DISSECTION
+    requires:
+      - STR_MUTON_B_AUTOPSY
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_MUTON_B_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_MUTON_ARMOR_GRAFTS: 5
+      STR_TROPHY_CORPSE_MUTON: 1
+  - name: STR_SALVAGE_ETHEREAL
+    listOrder: 4440
+    category: STR_DISSECTION
+    requires:
+      - STR_ETHEREAL_AUTOPSY
+    space: 0
+    time: 6
+    cost: 0
+    requiredItems:
+      STR_ETHEREAL_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_DECODER: 1
+      STR_PSIONIC_WAVE_EMITTER: 1
+      STR_ANTI_GRAV_UNIT: 1
+      STR_TROPHY_CORPSE_ETHEREAL: 1
+  - name: STR_SALVAGE_ETHEREAL_NAVIGATOR
+    listOrder: 4445
+    category: STR_DISSECTION
+    requires:
+      - STR_ETHEREAL_N_AUTOPSY
+    space: 0
+    time: 8
+    cost: 0
+    requiredItems:
+      STR_ETHEREAL_N_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_PSIONIC_WAVE_DECODER: 4
+      STR_PSIONIC_WAVE_EMITTER: 1
+      STR_ANTI_GRAV_UNIT: 1
+      STR_TROPHY_CORPSE_ETHEREAL: 1
+  - name: STR_SALVAGE_REAPER
+    listOrder: 4450
+    category: STR_DISSECTION
+    requires:
+      - STR_REAPER_AUTOPSY
+    space: 2
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_REAPER_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_TROPHY_CORPSE_REAPER: 1
+  - name: STR_SALVAGE_CHRYSSALID
+    listOrder: 4455
+    category: STR_DISSECTION
+    requires:
+      - STR_CHRYSSALID_AUTOPSY
+    space: 0
+    time: 5
+    cost: 0
+    requiredItems:
+      STR_CHRYSSALID_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_TROPHY_CORPSE_CHRYSSALID: 1
+  - name: STR_SALVAGE_SILACOID
+    listOrder: 4460
+    category: STR_DISSECTION
+    requires:
+      - STR_SILACOID_AUTOPSY
+    space: 0
+    time: 5
+    cost: 0
+    requiredItems:
+      STR_SILACOID_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_TROPHY_CORPSE_SILACOID: 1
+  - name: STR_SALVAGE_CELATID
+    listOrder: 4465
+    category: STR_DISSECTION
+    requires:
+      - STR_CELATID_AUTOPSY
+    space: 0
+    time: 7
+    cost: 0
+    requiredItems:
+      STR_CELATID_CORPSE: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_VENOM_GLAND: 1
+      STR_ANTI_GRAV_UNIT: 1
+      STR_TROPHY_CORPSE_CELATID: 1
+  - name: STR_SALVAGE_CYBERDISC
+    listOrder: 4470
+    category: STR_DISSECTION
+    requires:
+      - STR_CYBERDISC_AUTOPSY
+    space: 2
+    time: 25
+    cost: 0
+    requiredItems:
+      STR_CYBERDISC_CORPSE: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_ALIEN_WEAPON_COMPONENTS: 10
+      STR_ANTI_GRAV_UNIT: 4
+      STR_CYBERNETIC_SKELETON_LIGHT: 1
+      STR_TROPHY_CORPSE_CYBERDISC: 1
+  - name: STR_SALVAGE_SECTOPOD
+    listOrder: 4475
+    category: STR_DISSECTION
+    requires:
+      - STR_SECTOPOD_AUTOPSY
+    space: 2
+    time: 25
+    cost: 0
+    requiredItems:
+      STR_SECTOPOD_CORPSE: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_PSIONIC_FEEDBACK_DEVICE: 1
+      STR_ALIEN_WEAPON_COMPONENTS: 2
+      STR_ALIEN_LASER: 3
+      STR_CYBERNETIC_SKELETON_HEAVY: 1
+      STR_TROPHY_CORPSE_SECTOPOD: 1
+  - name: STR_SALVAGE_DATA_CANISTER_SS
+    listOrder: 9000
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CANISTER_SS: 1
+    producedItems:
+      STR_CAPACITORS: 1
+  - name: STR_SALVAGE_DATA_CANISTER_CO
+    listOrder: 9001
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CANISTER_CO: 1
+    producedItems:
+      STR_CAPACITORS: 1
+  - name: STR_SALVAGE_DATA_CORE_MS
+    listOrder: 9010
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_MS: 1
+    producedItems:
+      STR_TRANSISTORS_SMALL: 1
+  - name: STR_SALVAGE_DATA_CORE_LS
+    listOrder: 9011
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_LS: 1
+    producedItems:
+      STR_TRANSISTORS_SMALL: 1
+  - name: STR_SALVAGE_DATA_CORE_CS
+    listOrder: 9012
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_CS: 1
+    producedItems:
+      STR_TRANSISTORS_MEDIUM: 1
+  - name: STR_SALVAGE_DATA_CORE_AB
+    listOrder: 9013
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_AB: 1
+    producedItems:
+      STR_TRANSISTORS_MEDIUM: 1
+  - name: STR_SALVAGE_DATA_CORE_HV
+    listOrder: 9014
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_HV: 1
+    producedItems:
+      STR_TRANSISTORS_MEDIUM: 1
+  - name: STR_SALVAGE_DATA_CORE_TS
+    listOrder: 9015
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_TS: 1
+    producedItems:
+      STR_TRANSISTORS_LARGE: 1
+  - name: STR_SALVAGE_DATA_CORE_SS
+    listOrder: 9016
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_SS: 1
+    producedItems:
+      STR_TRANSISTORS_LARGE: 1
+  - name: STR_SALVAGE_DATA_CORE_BS
+    listOrder: 9017
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_BS: 1
+    producedItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+  - name: STR_SALVAGE_DATA_CORE_MO
+    listOrder: 9018
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_MO: 1
+    producedItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+  - name: STR_SALVAGE_DATA_CORE_LD
+    listOrder: 9020
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_LD: 1
+    producedItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 1
+  - name: STR_SALVAGE_DATA_CORE_MD
+    listOrder: 9021
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_MD: 1
+    producedItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 2
+  - name: STR_SALVAGE_DATA_CORE_HD
+    listOrder: 9022
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CORE_HD: 1
+    producedItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 4
+  - name: STR_SALVAGE_DATA_CAPSULE_MS
+    listOrder: 9030
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_MS: 1
+    producedItems:
+      STR_DIODES_SMALL: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_LS
+    listOrder: 9031
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_LS: 1
+    producedItems:
+      STR_DIODES_SMALL: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_CS
+    listOrder: 9032
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_CS: 1
+    producedItems:
+      STR_DIODES_MEDIUM: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_AB
+    listOrder: 9033
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_AB: 1
+    producedItems:
+      STR_DIODES_MEDIUM: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_HV
+    listOrder: 9034
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_HV: 1
+    producedItems:
+      STR_DIODES_MEDIUM: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_TS
+    listOrder: 9035
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_TS: 1
+    producedItems:
+      STR_DIODES_LARGE: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_SS
+    listOrder: 9036
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_SS: 1
+    producedItems:
+      STR_DIODES_LARGE: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_BS
+    listOrder: 9037
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_BS: 1
+    producedItems:
+      STR_DIODES_VERY_LARGE: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_MO
+    listOrder: 9038
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_MO: 1
+    producedItems:
+      STR_DIODES_VERY_LARGE: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_LD
+    listOrder: 9040
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_LD: 1
+    producedItems:
+      STR_DIODES_HIGH_ENERGY: 1
+  - name: STR_SALVAGE_DATA_CAPSULE_MD
+    listOrder: 9041
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_MD: 1
+    producedItems:
+      STR_DIODES_HIGH_ENERGY: 2
+  - name: STR_SALVAGE_DATA_CAPSULE_HD
+    listOrder: 9042
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CAPSULE_HD: 1
+    producedItems:
+      STR_DIODES_HIGH_ENERGY: 4
+  - name: STR_SALVAGE_DATA_CACHE_TS
+    listOrder: 9050
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CACHE_TS: 1
+    producedItems:
+      STR_TRANSFORMERS: 1
+  - name: STR_SALVAGE_DATA_CACHE_AO
+    listOrder: 9055
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CACHE_AO: 1
+    producedItems:
+      STR_INDUCTORS_SMALL: 1
+  - name: STR_SALVAGE_DATA_CACHE_AB
+    listOrder: 9056
+    category: STR_DATA_TO_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 25
+    cost: 1000
+    requiredItems:
+      STR_DATA_CACHE_AB: 1
+    producedItems:
+      STR_INDUCTORS_LARGE: 1
+  - name: STR_CAPACITORS_FROM_TRANSISTORS_SMALL
+    listOrder: 9090
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_SMALL: 1
+    producedItems:
+      STR_CAPACITORS: 1
+  - name: STR_CAPACITORS_FROM_TRANSISTORS_HIGH_ENERGY
+    listOrder: 9091
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 2
+    producedItems:
+      STR_CAPACITORS: 3
+  - name: STR_CAPACITORS_FROM_DIODES_SMALL
+    listOrder: 9092
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_SMALL: 2
+    producedItems:
+      STR_CAPACITORS: 1
+  - name: STR_CAPACITORS_FROM_DIODES_HIGH_ENERGY
+    listOrder: 9093
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_HIGH_ENERGY: 3
+    producedItems:
+      STR_CAPACITORS: 2
+  - name: STR_CAPACITORS_FROM_TRANSFORMERS
+    listOrder: 9094
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSFORMERS: 1
+    producedItems:
+      STR_CAPACITORS: 4
+  - name: STR_CAPACITORS_FROM_INDUCTORS_SMALL
+    listOrder: 9095
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_SMALL: 1
+    producedItems:
+      STR_CAPACITORS: 2
+  - name: STR_CAPACITORS_FROM_INDUCTORS_LARGE
+    listOrder: 9096
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_LARGE: 1
+    producedItems:
+      STR_CAPACITORS: 6
+  - name: STR_TRANSISTORS_SMALL_FROM_CAPACITORS
+    listOrder: 9100
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS: 2
+    producedItems:
+      STR_TRANSISTORS_SMALL: 1
+  - name: STR_TRANSISTORS_SMALL_FROM_TRANSISTORS_MEDIUM
+    listOrder: 9101
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_MEDIUM: 1
+    producedItems:
+      STR_TRANSISTORS_SMALL: 1
+  - name: STR_TRANSISTORS_SMALL_FROM_TRANSISTORS_HIGH_ENERGY
+    listOrder: 9102
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 1
+    producedItems:
+      STR_TRANSISTORS_SMALL: 1
+  - name: STR_TRANSISTORS_SMALL_FROM_DIODES_SMALL
+    listOrder: 9103
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_SMALL: 2
+    producedItems:
+      STR_TRANSISTORS_SMALL: 1
+  - name: STR_TRANSISTORS_MEDIUM_FROM_TRANSISTORS_SMALL
+    listOrder: 9110
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_SMALL: 2
+    producedItems:
+      STR_TRANSISTORS_MEDIUM: 1
+  - name: STR_TRANSISTORS_MEDIUM_FROM_TRANSISTORS_LARGE
+    listOrder: 9111
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_LARGE: 1
+    producedItems:
+      STR_TRANSISTORS_MEDIUM: 1
+  - name: STR_TRANSISTORS_MEDIUM_FROM_TRANSISTORS_HIGH_ENERGY
+    listOrder: 9112
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 2
+    producedItems:
+      STR_TRANSISTORS_MEDIUM: 1
+  - name: STR_TRANSISTORS_MEDIUM_FROM_DIODES_MEDIUM
+    listOrder: 9113
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_MEDIUM: 2
+    producedItems:
+      STR_TRANSISTORS_MEDIUM: 1
+  - name: STR_TRANSISTORS_LARGE_FROM_TRANSISTORS_MEDIUM
+    listOrder: 9120
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_MEDIUM: 2
+    producedItems:
+      STR_TRANSISTORS_LARGE: 1
+  - name: STR_TRANSISTORS_LARGE_FROM_TRANSISTORS_VERY_LARGE
+    listOrder: 9121
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+    producedItems:
+      STR_TRANSISTORS_LARGE: 1
+  - name: STR_TRANSISTORS_LARGE_FROM_TRANSISTORS_HIGH_ENERGY
+    listOrder: 9122
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 3
+    producedItems:
+      STR_TRANSISTORS_LARGE: 1
+  - name: STR_TRANSISTORS_LARGE_FROM_DIODES_LARGE
+    listOrder: 9123
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_LARGE: 2
+    producedItems:
+      STR_TRANSISTORS_LARGE: 1
+  - name: STR_TRANSISTORS_VERY_LARGE_FROM_TRANSISTORS_LARGE
+    listOrder: 9130
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_LARGE: 2
+    producedItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+  - name: STR_TRANSISTORS_VERY_LARGE_FROM_TRANSISTORS_HIGH_ENERGY
+    listOrder: 9131
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 5
+    producedItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+  - name: STR_TRANSISTORS_VERY_LARGE_FROM_DIODES_VERY_LARGE
+    listOrder: 9132
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_VERY_LARGE: 2
+    producedItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+  - name: STR_TRANSISTORS_VERY_LARGE_FROM_INDUCTORS_LARGE
+    listOrder: 9133
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_LARGE: 1
+    producedItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+  - name: STR_TRANSISTORS_HIGH_ENERGY_FROM_TRANSISTORS_SMALL
+    listOrder: 9140
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_SMALL: 2
+    producedItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 1
+  - name: STR_TRANSISTORS_HIGH_ENERGY_FROM_TRANSISTORS_MEDIUM
+    listOrder: 9141
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_MEDIUM: 1
+    producedItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 1
+  - name: STR_TRANSISTORS_HIGH_ENERGY_FROM_TRANSISTORS_LARGE
+    listOrder: 9142
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_LARGE: 1
+    producedItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 2
+  - name: STR_TRANSISTORS_HIGH_ENERGY_FROM_TRANSISTORS_VERY_LARGE
+    listOrder: 9143
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+    producedItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 3
+  - name: STR_TRANSISTORS_HIGH_ENERGY_FROM_DIODES_HIGH_ENERGY
+    listOrder: 9144
+    category: STR_TRANSISTORS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_HIGH_ENERGY: 2
+    producedItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 1
+  - name: STR_DIODES_SMALL_FROM_CAPACITORS
+    listOrder: 9200
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS: 1
+    producedItems:
+      STR_DIODES_SMALL: 1
+  - name: STR_DIODES_SMALL_FROM_TRANSISTORS_SMALL
+    listOrder: 9201
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_SMALL: 1
+    producedItems:
+      STR_DIODES_SMALL: 1
+  - name: STR_DIODES_SMALL_FROM_DIODES_MEDIUM
+    listOrder: 9202
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_MEDIUM: 1
+    producedItems:
+      STR_DIODES_SMALL: 1
+  - name: STR_DIODES_SMALL_FROM_DIODES_HIGH_ENERGY
+    listOrder: 9203
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_HIGH_ENERGY: 1
+    producedItems:
+      STR_DIODES_SMALL: 2
+  - name: STR_DIODES_MEDIUM_FROM_TRANSISTORS_MEDIUM
+    listOrder: 9210
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_MEDIUM: 1
+    producedItems:
+      STR_DIODES_MEDIUM: 1
+  - name: STR_DIODES_MEDIUM_FROM_DIODES_SMALL
+    listOrder: 9211
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_SMALL: 2
+    producedItems:
+      STR_DIODES_MEDIUM: 1
+  - name: STR_DIODES_MEDIUM_FROM_DIODES_LARGE
+    listOrder: 9212
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_LARGE: 1
+    producedItems:
+      STR_DIODES_MEDIUM: 1
+  - name: STR_DIODES_MEDIUM_FROM_DIODES_HIGH_ENERGY
+    listOrder: 9213
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_HIGH_ENERGY: 2
+    producedItems:
+      STR_DIODES_MEDIUM: 1
+  - name: STR_DIODES_LARGE_FROM_TRANSISTORS_LARGE
+    listOrder: 9220
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_LARGE: 1
+    producedItems:
+      STR_DIODES_LARGE: 1
+  - name: STR_DIODES_LARGE_FROM_DIODES_MEDIUM
+    listOrder: 9221
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_MEDIUM: 2
+    producedItems:
+      STR_DIODES_LARGE: 1
+  - name: STR_DIODES_LARGE_FROM_DIODES_VERY_LARGE
+    listOrder: 9222
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_VERY_LARGE: 1
+    producedItems:
+      STR_DIODES_LARGE: 1
+  - name: STR_DIODES_LARGE_FROM_DIODES_HIGH_ENERGY
+    listOrder: 9223
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_HIGH_ENERGY: 3
+    producedItems:
+      STR_DIODES_LARGE: 1
+  - name: STR_DIODES_VERY_LARGE_FROM_TRANSISTORS_VERY_LARGE
+    listOrder: 9230
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+    producedItems:
+      STR_DIODES_VERY_LARGE: 1
+  - name: STR_DIODES_VERY_LARGE_FROM_DIODES_LARGE
+    listOrder: 9231
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_LARGE: 2
+    producedItems:
+      STR_DIODES_VERY_LARGE: 1
+  - name: STR_DIODES_VERY_LARGE_FROM_DIODES_HIGH_ENERGY
+    listOrder: 9232
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_HIGH_ENERGY: 5
+    producedItems:
+      STR_DIODES_VERY_LARGE: 1
+  - name: STR_DIODES_VERY_LARGE_FROM_INDUCTORS_LARGE
+    listOrder: 9233
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_LARGE: 1
+    producedItems:
+      STR_DIODES_VERY_LARGE: 2
+  - name: STR_DIODES_HIGH_ENERGY_FROM_TRANSISTORS_HIGH_ENERGY
+    listOrder: 9240
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 1
+    producedItems:
+      STR_DIODES_HIGH_ENERGY: 1
+  - name: STR_DIODES_HIGH_ENERGY_FROM_DIODES_SMALL
+    listOrder: 9241
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_SMALL: 2
+    producedItems:
+      STR_DIODES_HIGH_ENERGY: 1
+  - name: STR_DIODES_HIGH_ENERGY_FROM_DIODES_MEDIUM
+    listOrder: 9242
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_MEDIUM: 1
+    producedItems:
+      STR_DIODES_HIGH_ENERGY: 1
+  - name: STR_DIODES_HIGH_ENERGY_FROM_DIODES_LARGE
+    listOrder: 9243
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_LARGE: 1
+    producedItems:
+      STR_DIODES_HIGH_ENERGY: 2
+  - name: STR_DIODES_HIGH_ENERGY_FROM_DIODES_VERY_LARGE
+    listOrder: 9244
+    category: STR_DIODES
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_VERY_LARGE: 1
+    producedItems:
+      STR_DIODES_HIGH_ENERGY: 3
+  - name: STR_TRANSFORMERS_FROM_CAPACITORS
+    listOrder: 9300
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS: 6
+    producedItems:
+      STR_TRANSFORMERS: 1
+  - name: STR_TRANSFORMERS_FROM_INDUCTORS_SMALL
+    listOrder: 9301
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_SMALL: 3
+    producedItems:
+      STR_TRANSFORMERS: 1
+  - name: STR_TRANSFORMERS_FROM_INDUCTORS_LARGE
+    listOrder: 9302
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_LARGE: 1
+    producedItems:
+      STR_TRANSFORMERS: 1
+  - name: STR_INDUCTORS_SMALL_FROM_CAPACITORS
+    listOrder: 9310
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS: 3
+    producedItems:
+      STR_INDUCTORS_SMALL: 1
+  - name: STR_INDUCTORS_SMALL_FROM_TRANSISTORS_SMALL
+    listOrder: 9311
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_SMALL: 2
+    producedItems:
+      STR_INDUCTORS_SMALL: 1
+  - name: STR_INDUCTORS_SMALL_FROM_DIODES_SMALL
+    listOrder: 9312
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_SMALL: 4
+    producedItems:
+      STR_INDUCTORS_SMALL: 1
+  - name: STR_INDUCTORS_SMALL_FROM_TRANSFORMERS
+    listOrder: 9313
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSFORMERS: 1
+    producedItems:
+      STR_INDUCTORS_SMALL: 1
+  - name: STR_INDUCTORS_SMALL_FROM_INDUCTORS_LARGE
+    listOrder: 9314
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_LARGE: 1
+    producedItems:
+      STR_INDUCTORS_SMALL: 2
+  - name: STR_INDUCTORS_LARGE_FROM_CAPACITORS
+    listOrder: 9320
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS: 9
+    producedItems:
+      STR_INDUCTORS_LARGE: 1
+  - name: STR_INDUCTORS_LARGE_FROM_TRANSISTORS_VERY_LARGE
+    listOrder: 9321
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_VERY_LARGE: 2
+    producedItems:
+      STR_INDUCTORS_LARGE: 1
+  - name: STR_INDUCTORS_LARGE_FROM_DIODES_VERY_LARGE
+    listOrder: 9322
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_VERY_LARGE: 3
+    producedItems:
+      STR_INDUCTORS_LARGE: 1
+  - name: STR_INDUCTORS_LARGE_FROM_TRANSFORMERS
+    listOrder: 9323
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSFORMERS: 2
+    producedItems:
+      STR_INDUCTORS_LARGE: 1
+  - name: STR_INDUCTORS_LARGE_FROM_INDUCTORS_SMALL
+    listOrder: 9324
+    category: STR_OTHER_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_SMALL: 4
+    producedItems:
+      STR_INDUCTORS_LARGE: 1

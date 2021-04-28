@@ -1,0 +1,1586 @@
+ufos:
+  - type: STR_SMALL_SCOUT
+    size: STR_VERY_SMALL
+    sprite: 0
+    marker: 30
+    markerLand: 35
+    markerCrash: 40
+    damageMax: 50
+    avoidBonus: 20
+    speedMax: 2200
+    accel: 12
+    power: 0
+    range: 0
+    score: 50
+    reload: 66 #50
+    breakOffTime: 360
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 600
+    missionCustomDeploy: STR_SMALL_SCOUT
+    battlescapeTerrainData:
+      name: UFO1A
+      mapDataSets:
+        - BLANKS
+        - UFO1A
+      mapBlocks:
+        - name: UFO1A
+          width: 10
+          length: 10
+  - type: STR_COVERT_OPS_SHIP
+    size: STR_VERY_SMALL
+    modSprite: CovertOpsShip
+    marker: 30
+    markerLand: 35
+    markerCrash: 40
+    damageMax: 90
+    avoidBonus: 10
+    speedMax: 2800
+    accel: 11
+    power: 38
+    hitBonus: 10
+    range: 38
+    score: 75
+    reload: 92 #76
+    breakOffTime: 380
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_COVERT_OPS_SHIP
+    battlescapeTerrainData:
+      name: RFO_0CO
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - UFOL83A
+        - U_TRoD
+      mapBlocks:
+        - name: RFO_0COa
+          width: 10
+          length: 10
+        - name: RFO_0COb
+          width: 10
+          length: 10
+        - name: RFO_0COc
+          width: 10
+          length: 10
+        - name: RFO_0COd
+          width: 10
+          length: 10
+  - type: STR_MEDIUM_SCOUT
+    size: STR_SMALL
+    sprite: 1
+    marker: 31
+    markerLand: 36
+    markerCrash: 41
+    damageMax: 175
+    avoidBonus: 10
+    speedMax: 2400
+    accel: 9
+    power: 28
+    hitBonus: 30
+    range: 27
+    score: 100
+    reload: 56 #40
+    breakOffTime: 400
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 600
+    missionCustomDeploy: STR_MEDIUM_SCOUT
+    battlescapeTerrainData:
+      name: UFO_110
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83A
+        - U_TRoD
+      mapBlocks:
+        - name: ox_ufo1
+          width: 10
+          length: 10
+        - name: ox_ufo1b
+          width: 10
+          length: 10
+        - name: ox_ufo1c
+          width: 10
+          length: 10
+        - name: ox_ufo1d
+          width: 10
+          length: 10
+        - name: ox_ufo1e
+          width: 10
+          length: 10
+        - name: ox_ufo1f
+          width: 10
+          length: 10
+        - name: ox_ufo1g
+          width: 10
+          length: 10
+  - type: STR_LARGE_SCOUT
+    size: STR_SMALL
+    sprite: 2
+    marker: 31
+    markerLand: 36
+    markerCrash: 41
+    damageMax: 250
+    avoidBonus: 5
+    speedMax: 2700
+    accel: 9
+    power: 75
+    range: 43
+    score: 125
+    reload: 104 #88
+    breakOffTime: 450
+    hunterKillerPercentage: 20
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 600
+    missionCustomDeploy: STR_LARGE_SCOUT
+    battlescapeTerrainData:
+      name: UFO_120
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83A
+        - U_TRoD
+      mapBlocks:
+        - name: ox_ufo2a
+          width: 20
+          length: 20
+        - name: ox_ufo2b
+          width: 20
+          length: 20
+        - name: ox_ufo2c
+          width: 20
+          length: 20
+        - name: ox_ufo2d
+          width: 20
+          length: 20
+        - name: ox_ufo2e
+          width: 20
+          length: 20
+        - name: ox_ufo2f
+          width: 20
+          length: 20
+        - name: ox_ufo2g
+          width: 20
+          length: 20
+        - name: ox_ufo2h
+          width: 20
+          length: 20
+        - name: ox_ufo2i
+          width: 20
+          length: 20
+        - name: ox_ufo2j
+          width: 20
+          length: 20
+        - name: ox_ufo2k
+          width: 20
+          length: 20
+        - name: ox_ufo2l
+          width: 20
+          length: 20
+  - type: STR_LIGHT_DESTROYER
+    size: STR_SMALL
+    modSprite: LightDestroyer
+    marker: 31
+    markerLand: 36
+    markerCrash: 41
+    damageMax: 200
+    shieldCapacity: 10 # 1 Shield Emitter
+    shieldRechargeInGeoscape: 1 #2
+    shieldBleedThrough: 100
+    avoidBonus: 7
+    speedMax: 3000
+    accel: 10
+    power: 75
+    hitBonus: 20
+    range: 40
+    score: 175
+    reload: 68 #52
+    breakOffTime: 500
+    hunterKillerPercentage: 100
+    huntMode: 1
+    huntSpeed: 70
+    huntBehavior: 0
+    radarRange: 900
+    sightRange: 300
+    missionCustomDeploy: STR_LIGHT_DESTROYER
+    battlescapeTerrainData:
+      name: RFO_1LD
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83A
+        - U_PODS
+        - U_DISEC3
+        - U_TRoD
+      mapBlocks:
+        - name: RFO_1LDa
+          width: 20
+          length: 20
+        - name: RFO_1LDb
+          width: 20
+          length: 20
+        - name: RFO_1LDc
+          width: 20
+          length: 20
+        - name: RFO_1LDd
+          width: 20
+          length: 20
+        - name: RFO_1LDe
+          width: 20
+          length: 20
+        - name: RFO_1LDf
+          width: 20
+          length: 20
+        - name: RFO_1LDg
+          width: 20
+          length: 20
+        - name: RFO_1LDh
+          width: 20
+          length: 20
+  - type: STR_CARGO_SHIP
+    size: STR_MEDIUM_UC
+    modSprite: CargoShip
+    marker: 32
+    markerLand: 37
+    markerCrash: 42
+    damageMax: 600
+    shieldCapacity: 20 # 2 Shield Emitters
+    shieldRechargeInGeoscape: 1 #4
+    shieldBleedThrough: 100
+    avoidBonus: -3
+    speedMax: 2600
+    accel: 6
+    power: 56
+    hitBonus: 30
+    range: 32
+    score: 250
+    reload: 60 #44
+    breakOffTime: 475
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_CARGO_SHIP
+    battlescapeTerrainData:
+      name: RFO_2CS
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC3
+        - U_BITS
+        - UFOL83A
+        - U_TRoD
+      mapBlocks:
+        - name: RFO_2CSa
+          width: 20
+          length: 20
+        - name: RFO_2CSb
+          width: 20
+          length: 20
+        - name: RFO_2CSc
+          width: 20
+          length: 20
+        - name: RFO_2CSd
+          width: 20
+          length: 20
+        - name: RFO_2CSe
+          width: 20
+          length: 20
+        - name: RFO_2CSf
+          width: 20
+          length: 20
+        - name: RFO_2CSg
+          width: 20
+          length: 20
+        - name: RFO_2CSh
+          width: 20
+          length: 20
+        - name: RFO_2CSi
+          width: 20
+          length: 20
+        - name: RFO_2CSj
+          width: 20
+          length: 20
+        - name: RFO_2CSk
+          width: 20
+          length: 20
+        - name: RFO_2CSl
+          width: 20
+          length: 20
+  - type: STR_ABDUCTOR
+    size: STR_MEDIUM_UC
+    sprite: 4
+    marker: 32
+    markerLand: 37
+    markerCrash: 42
+    damageMax: 450
+    shieldCapacity: 30 # 3 Shield Emitters
+    shieldRechargeInGeoscape: 1 #5
+    shieldBleedThrough: 100
+    avoidBonus: 2
+    speedMax: 4300
+    accel: 8
+    power: 175
+    range: 47
+    score: 300
+    reload: 120 #104
+    breakOffTime: 550
+    hunterKillerPercentage: 15
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_ABDUCTOR
+    battlescapeTerrainData:
+      name: UFO_140
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_OPER2
+        - U_BITS
+        - UFOL83A
+        - U_PODS
+        - U_TRoD
+      mapBlocks:
+        - name: ox_ufo4a
+          width: 20
+          length: 20
+        - name: ox_ufo4b
+          width: 20
+          length: 20
+        - name: ox_ufo4c
+          width: 20
+          length: 20
+        - name: ox_ufo4d
+          width: 20
+          length: 20
+        - name: ox_ufo4e
+          width: 20
+          length: 20
+        - name: ox_ufo4f
+          width: 20
+          length: 20
+        - name: ox_ufo4g
+          width: 20
+          length: 20
+        - name: ox_ufo4h
+          width: 20
+          length: 20
+        - name: ox_ufo4i
+          width: 20
+          length: 20
+        - name: ox_ufo4j
+          width: 20
+          length: 20
+  - type: STR_HARVESTER
+    size: STR_MEDIUM_UC
+    modSprite: Harvester
+    marker: 32
+    markerLand: 37
+    markerCrash: 42
+    damageMax: 525
+    shieldCapacity: 37 #375, 3 Shield Emitters
+    shieldRechargeInGeoscape: 1 #5
+    shieldBleedThrough: 100
+    speedMax: 4000
+    accel: 8
+    power: 50
+    hitBonus: 30
+    range: 36
+    score: 275
+    reload: 52 #36
+    breakOffTime: 500
+    hunterKillerPercentage: 5
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_HARVESTER
+    battlescapeTerrainData:
+      name: UFO_130
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC3
+        - U_BITS
+        - UFOL83A
+        - U_TRoD
+      mapBlocks:
+        - name: ox_ufo3a
+          width: 20
+          length: 20
+        - name: ox_ufo3b
+          width: 20
+          length: 20
+        - name: ox_ufo3c
+          width: 20
+          length: 20
+        - name: ox_ufo3d
+          width: 20
+          length: 20
+        - name: ox_ufo3e
+          width: 20
+          length: 20
+        - name: ox_ufo3f
+          width: 20
+          length: 20
+        - name: ox_ufo3g
+          width: 20
+          length: 20
+        - name: ox_ufo3h
+          width: 20
+          length: 20
+        - name: ox_ufo3i
+          width: 20
+          length: 20
+        - name: ox_ufo3j
+          width: 20
+          length: 20
+        - name: ox_ufo3k
+          width: 20
+          length: 20
+  - type: STR_MEDIUM_DESTROYER
+    size: STR_MEDIUM_UC
+    modSprite: MediumDestroyer
+    marker: 32
+    markerLand: 37
+    markerCrash: 42
+    damageMax: 550
+    shieldCapacity: 45 # 4 Shield Emitters
+    shieldRechargeInGeoscape: 1 #6
+    shieldBleedThrough: 100
+    avoidBonus: 0
+    speedMax: 4500
+    accel: 8
+    power: 145
+    hitBonus: 20
+    range: 41
+    score: 375
+    reload: 62 #46
+    breakOffTime: 600
+    hunterKillerPercentage: 100
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 900
+    sightRange: 300
+    missionCustomDeploy: STR_ABDUCTOR
+    battlescapeTerrainData:
+      name: RFO_3MD
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - UFOL83A
+        - U_BASE
+        - U_TRoD
+      mapBlocks:
+        - name: RFO_3MDa
+          width: 20
+          length: 20
+        - name: RFO_3MDb
+          width: 20
+          length: 20
+        - name: RFO_3MDc
+          width: 20
+          length: 20
+        - name: RFO_3MDd
+          width: 20
+          length: 20
+        - name: RFO_3MDe
+          width: 20
+          length: 20
+        - name: RFO_3MDf
+          width: 20
+          length: 20
+  - type: STR_TERROR_SHIP
+    size: STR_LARGE
+    modSprite: TerrorShip
+    marker: 33
+    markerLand: 38
+    markerCrash: 43
+    damageMax: 900
+    shieldCapacity: 90 # 6 Shield Emitters
+    shieldRechargeInGeoscape: 1 #9
+    shieldBleedThrough: 100
+    avoidBonus: 5
+    speedMax: 4800
+    accel: 6
+    power: 240
+    range: 56
+    score: 500
+    reload: 88 #72
+    breakOffTime: 700
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_TERROR_SHIP
+    battlescapeTerrainData:
+      name: UFO_150
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - UFOL83A
+        - U_TRoD
+      mapBlocks:
+        - name: ox_ufo5a
+          width: 30
+          length: 20
+        - name: ox_ufo5b
+          width: 20
+          length: 30
+        - name: ox_ufo5c
+          width: 30
+          length: 20
+        - name: ox_ufo5d
+          width: 20
+          length: 30
+        - name: ox_ufo5e
+          width: 30
+          length: 20
+        - name: ox_ufo5f
+          width: 20
+          length: 30
+        - name: ox_ufo5g
+          width: 30
+          length: 20
+        - name: ox_ufo5h
+          width: 20
+          length: 30
+  - type: STR_SUPPLY_SHIP
+    size: STR_LARGE
+    sprite: 7
+    marker: 33
+    markerLand: 38
+    markerCrash: 43
+    damageMax: 1100
+    shieldCapacity: 220 # 12 Shield Emitters
+    shieldRechargeInGeoscape: 1 #11
+    shieldBleedThrough: 100
+    avoidBonus: -5
+    speedMax: 3200
+    accel: 5
+    power: 80
+    hitBonus: 30
+    range: 44
+    score: 450
+    reload: 48 #32
+    breakOffTime: 600
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_SUPPLY_SHIP
+    battlescapeTerrainData:
+      name: UFO_170
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC2
+        - U_BITS
+        - U_BASE
+        - U_PODS
+        - U_TRoD
+      mapBlocks:
+        - name: ox_ufo7a
+          width: 30
+          length: 20
+        - name: ox_ufo7b
+          width: 20
+          length: 30
+        - name: ox_ufo7c
+          width: 30
+          length: 20
+        - name: ox_ufo7d
+          width: 20
+          length: 30
+  - type: STR_HEAVY_DESTROYER
+    size: STR_LARGE
+    modSprite: HeavyDestroyer
+    marker: 33
+    markerLand: 38
+    markerCrash: 43
+    damageMax: 1000
+    shieldCapacity: 150 # 9 Shield Emitters
+    shieldRechargeInGeoscape: 1 #10
+    shieldBleedThrough: 100
+    avoidBonus: 0
+    speedMax: 5400
+    accel: 6
+    power: 235
+    hitBonus: 20
+    range: 45
+    score: 600
+    reload: 60 #44
+    breakOffTime: 750
+    hunterKillerPercentage: 100
+    huntMode: 1
+    huntSpeed: 50
+    huntBehavior: 0
+    radarRange: 900
+    sightRange: 300
+    missionCustomDeploy: STR_HEAVY_DESTROYER
+    battlescapeTerrainData:
+      name: RFO_4HD
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_DISEC3
+        - U_BASE
+        - U_TRoD
+      mapBlocks:
+        - name: RFO_4HDa
+          width: 30
+          length: 30
+        - name: RFO_4HDb
+          width: 30
+          length: 30
+        - name: RFO_4HDc
+          width: 30
+          length: 30
+        - name: RFO_4HDd
+          width: 30
+          length: 30
+        - name: RFO_4HDe
+          width: 30
+          length: 30
+        - name: RFO_4HDf
+          width: 30
+          length: 30
+  - type: STR_BATTLESHIP
+    size: STR_VERY_LARGE
+    sprite: 6
+    marker: 34
+    markerLand: 39
+    markerCrash: 44
+    damageMax: 1800
+    shieldCapacity: 420 # 16 Shield Emitters
+    shieldRechargeInGeoscape: 2 #20
+    shieldBleedThrough: 100
+    avoidBonus: 20
+    speedMax: 5200
+    accel: 6
+    power: 200
+    hitBonus: 20
+    range: 62
+    score: 700
+    reload: 66 #50
+    breakOffTime: 900
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_BATTLESHIP
+    battlescapeTerrainData:
+      name: UFO_160
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_DISEC3
+        - U_BASE
+        - U_TRoD
+      mapBlocks:
+        - name: UFO_16Ra
+          width: 30
+          length: 30
+        - name: UFO_16Rb
+          width: 30
+          length: 30
+        - name: UFO_16Rc
+          width: 30
+          length: 30
+        - name: UFO_16Rd
+          width: 30
+          length: 30
+  - type: STR_MOTHERSHIP
+    size: STR_VERY_LARGE
+    modSprite: Mothership
+    marker: 34
+    markerLand: 39
+    markerCrash: 44
+    damageMax: 2500
+    shieldCapacity: 750 # 26 Shield Emitters
+    shieldRechargeInGeoscape: 3 #25
+    shieldBleedThrough: 100
+    avoidBonus: 0
+    speedMax: 3700
+    accel: 5
+    power: 240
+    hitBonus: 10
+    range: 52
+    score: 800
+    reload: 92 #76
+    breakOffTime: 750
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_MOTHERSHIP
+    battlescapeTerrainData:
+      name: RFO_5MO
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_DISEC2
+        - U_OPER2
+        - U_BASE
+        - U_TRoD
+      mapBlocks:
+        - name: RFO_5MOa
+          width: 50
+          length: 30
+  - type: STR_SMALL_SCOUT_ELITE
+    size: STR_VERY_SMALL
+    modSprite: EliteSmallScout
+    marker: 30
+    markerLand: 35
+    markerCrash: 40
+    damageMax: 70
+    shieldCapacity: 13
+    shieldRechargeInGeoscape: 1 #3
+    shieldBleedThrough: 100
+    avoidBonus: 40
+    speedMax: 3200
+    accel: 12
+    power: 28
+    hitBonus: 29
+    range: 37
+    score: 100
+    reload: 74 #58
+    breakOffTime: 460
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 600
+    missionCustomDeploy: STR_SMALL_SCOUT_ELITE
+    battlescapeTerrainData:
+      name: UFO1A
+      mapDataSets:
+        - BLANKS
+        - UFO1R
+      mapBlocks:
+        - name: UFO1A
+          width: 10
+          length: 10
+  - type: STR_COVERT_OPS_SHIP_ELITE
+    size: STR_VERY_SMALL
+    modSprite: EliteCovertOpsShip
+    marker: 30
+    markerLand: 35
+    markerCrash: 40
+    damageMax: 126
+    shieldCapacity: 19 #189, 2 Shield Emitters
+    shieldRechargeInGeoscape: 1 #4
+    shieldBleedThrough: 100
+    avoidBonus: 33
+    speedMax: 3800
+    accel: 11
+    power: 48
+    hitBonus: 18
+    range: 48
+    score: 125
+    reload: 104 #88
+    breakOffTime: 480
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_COVERT_OPS_SHIP_ELITE
+    battlescapeTerrainData:
+      name: RFO_0CO
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_PODSR
+        - U_BITSR
+        - UFOL83AR
+        - U_TRoDR
+      mapBlocks:
+        - name: RFO_0COa
+          width: 10
+          length: 10
+        - name: RFO_0COb
+          width: 10
+          length: 10
+        - name: RFO_0COc
+          width: 10
+          length: 10
+        - name: RFO_0COd
+          width: 10
+          length: 10
+  - type: STR_MEDIUM_SCOUT_ELITE
+    size: STR_SMALL
+    modSprite: EliteMediumScout
+    marker: 31
+    markerLand: 36
+    markerCrash: 41
+    damageMax: 245
+    shieldCapacity: 25 #245, 2 Shield Emitters
+    shieldRechargeInGeoscape: 1 #5
+    shieldBleedThrough: 100
+    avoidBonus: 36
+    speedMax: 3400
+    accel: 9
+    power: 34
+    hitBonus: 40
+    range: 42
+    score: 175
+    reload: 60 #44
+    breakOffTime: 500
+    hunterKillerPercentage: 10
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 600
+    missionCustomDeploy: STR_MEDIUM_SCOUT_ELITE
+    battlescapeTerrainData:
+      name: UFO_110
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_BITSR
+        - UFOL83AR
+        - U_TRoDR
+      mapBlocks:
+        - name: ox_ufo1
+          width: 10
+          length: 10
+        - name: ox_ufo1b
+          width: 10
+          length: 10
+        - name: ox_ufo1c
+          width: 10
+          length: 10
+        - name: ox_ufo1d
+          width: 10
+          length: 10
+        - name: ox_ufo1e
+          width: 10
+          length: 10
+        - name: ox_ufo1f
+          width: 10
+          length: 10
+        - name: ox_ufo1g
+          width: 10
+          length: 10
+  - type: STR_LARGE_SCOUT_ELITE
+    size: STR_SMALL
+    modSprite: EliteLargeScout
+    marker: 31
+    markerLand: 36
+    markerCrash: 41
+    damageMax: 350
+    shieldCapacity: 28 #275, 2 Shield Emitters
+    shieldRechargeInGeoscape: 1 #5
+    shieldBleedThrough: 100
+    avoidBonus: 33
+    speedMax: 3700
+    accel: 9
+    power: 95
+    hitBonus: 7
+    range: 51
+    score: 200
+    reload: 118 #102
+    breakOffTime: 550
+    hunterKillerPercentage: 40
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 600
+    missionCustomDeploy: STR_LARGE_SCOUT_ELITE
+    battlescapeTerrainData:
+      name: UFO_120
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_BITSR
+        - UFOL83AR
+        - U_TRoDR
+      mapBlocks:
+        - name: ox_ufo2a
+          width: 20
+          length: 20
+        - name: ox_ufo2b
+          width: 20
+          length: 20
+        - name: ox_ufo2c
+          width: 20
+          length: 20
+        - name: ox_ufo2d
+          width: 20
+          length: 20
+        - name: ox_ufo2e
+          width: 20
+          length: 20
+        - name: ox_ufo2f
+          width: 20
+          length: 20
+        - name: ox_ufo2g
+          width: 20
+          length: 20
+        - name: ox_ufo2h
+          width: 20
+          length: 20
+        - name: ox_ufo2i
+          width: 20
+          length: 20
+        - name: ox_ufo2j
+          width: 20
+          length: 20
+        - name: ox_ufo2k
+          width: 20
+          length: 20
+        - name: ox_ufo2l
+          width: 20
+          length: 20
+  - type: STR_LIGHT_DESTROYER_ELITE
+    size: STR_SMALL
+    modSprite: EliteLightDestroyer
+    marker: 31
+    markerLand: 36
+    markerCrash: 41
+    damageMax: 280
+    shieldCapacity: 44 # 3 Shield Emitters
+    shieldRechargeInGeoscape: 1 #7
+    shieldBleedThrough: 100
+    avoidBonus: 34
+    speedMax: 4000
+    accel: 9
+    power: 94
+    hitBonus: 29
+    range: 49
+    score: 250
+    reload: 76 #60
+    breakOffTime: 600
+    hunterKillerPercentage: 100
+    huntMode: 1
+    huntSpeed: 90
+    huntBehavior: 0
+    radarRange: 900
+    sightRange: 300
+    missionCustomDeploy: STR_LIGHT_DESTROYER_ELITE
+    battlescapeTerrainData:
+      name: RFO_1LD
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_BITSR
+        - UFOL83AR
+        - U_PODSR
+        - U_DISEC3R
+        - U_TRoDR
+      mapBlocks:
+        - name: RFO_1LDa
+          width: 20
+          length: 20
+        - name: RFO_1LDb
+          width: 20
+          length: 20
+        - name: RFO_1LDc
+          width: 20
+          length: 20
+        - name: RFO_1LDd
+          width: 20
+          length: 20
+        - name: RFO_1LDe
+          width: 20
+          length: 20
+        - name: RFO_1LDf
+          width: 20
+          length: 20
+        - name: RFO_1LDg
+          width: 20
+          length: 20
+        - name: RFO_1LDh
+          width: 20
+          length: 20
+  - type: STR_CARGO_SHIP_ELITE
+    size: STR_MEDIUM_UC
+    modSprite: EliteCargoShip
+    marker: 32
+    markerLand: 37
+    markerCrash: 42
+    damageMax: 840
+    shieldCapacity: 88 #880, 5 Shield Emitters
+    shieldRechargeInGeoscape: 1 #9
+    shieldBleedThrough: 100
+    avoidBonus: 27
+    speedMax: 3600
+    accel: 6
+    power: 70
+    hitBonus: 40
+    range: 45
+    score: 350
+    reload: 64 #48
+    breakOffTime: 575
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_CARGO_SHIP_ELITE
+    battlescapeTerrainData:
+      name: RFO_2CS
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_DISEC3R
+        - U_BITSR
+        - UFOL83AR
+        - U_TRoDR
+      mapBlocks:
+        - name: RFO_2CSa
+          width: 20
+          length: 20
+        - name: RFO_2CSb
+          width: 20
+          length: 20
+        - name: RFO_2CSc
+          width: 20
+          length: 20
+        - name: RFO_2CSd
+          width: 20
+          length: 20
+        - name: RFO_2CSe
+          width: 20
+          length: 20
+        - name: RFO_2CSf
+          width: 20
+          length: 20
+        - name: RFO_2CSg
+          width: 20
+          length: 20
+        - name: RFO_2CSh
+          width: 20
+          length: 20
+        - name: RFO_2CSi
+          width: 20
+          length: 20
+        - name: RFO_2CSj
+          width: 20
+          length: 20
+        - name: RFO_2CSk
+          width: 20
+          length: 20
+        - name: RFO_2CSl
+          width: 20
+          length: 20
+  - type: STR_ABDUCTOR_ELITE
+    size: STR_MEDIUM_UC
+    modSprite: EliteAbductor
+    marker: 32
+    markerLand: 37
+    markerCrash: 42
+    damageMax: 630
+    shieldCapacity: 95 #945, 6 Shield Emitters
+    shieldRechargeInGeoscape: 1 #10
+    shieldBleedThrough: 100
+    avoidBonus: 32
+    speedMax: 5300
+    accel: 8
+    power: 220
+    hitBonus: 7
+    range: 55
+    score: 400
+    reload: 136 #120
+    breakOffTime: 650
+    hunterKillerPercentage: 30
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_ABDUCTOR_ELITE
+    battlescapeTerrainData:
+      name: UFO_140
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_OPER2R
+        - U_BITSR
+        - UFOL83AR
+        - U_PODSR
+        - U_TRoDR
+      mapBlocks:
+        - name: ox_ufo4a
+          width: 20
+          length: 20
+        - name: ox_ufo4b
+          width: 20
+          length: 20
+        - name: ox_ufo4c
+          width: 20
+          length: 20
+        - name: ox_ufo4d
+          width: 20
+          length: 20
+        - name: ox_ufo4e
+          width: 20
+          length: 20
+        - name: ox_ufo4f
+          width: 20
+          length: 20
+        - name: ox_ufo4g
+          width: 20
+          length: 20
+        - name: ox_ufo4h
+          width: 20
+          length: 20
+        - name: ox_ufo4i
+          width: 20
+          length: 20
+        - name: ox_ufo4j
+          width: 20
+          length: 20
+  - type: STR_HARVESTER_ELITE
+    size: STR_MEDIUM_UC
+    modSprite: EliteHarvester
+    marker: 32
+    markerLand: 37
+    markerCrash: 42
+    damageMax: 735
+    shieldCapacity: 107 #1065, 6 Shield Emitters
+    shieldRechargeInGeoscape: 1 #10
+    shieldBleedThrough: 100
+    avoidBonus: 30
+    speedMax: 5000
+    accel: 8
+    power: 62
+    hitBonus: 40
+    range: 46
+    score: 375
+    reload: 56 #40
+    breakOffTime: 600
+    hunterKillerPercentage: 15
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_HARVESTER_ELITE
+    battlescapeTerrainData:
+      name: UFO_130
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_DISEC3R
+        - U_BITSR
+        - UFOL83AR
+        - U_TRoDR
+      mapBlocks:
+        - name: ox_ufo3a
+          width: 20
+          length: 20
+        - name: ox_ufo3b
+          width: 20
+          length: 20
+        - name: ox_ufo3c
+          width: 20
+          length: 20
+        - name: ox_ufo3d
+          width: 20
+          length: 20
+        - name: ox_ufo3e
+          width: 20
+          length: 20
+        - name: ox_ufo3f
+          width: 20
+          length: 20
+        - name: ox_ufo3g
+          width: 20
+          length: 20
+        # - name: ox_ufo3h
+          # width: 20
+          # length: 20
+        # - name: ox_ufo3i
+          # width: 20
+          # length: 20
+        # - name: ox_ufo3j
+          # width: 20
+          # length: 20
+        # - name: ox_ufo3k
+          # width: 20
+          # length: 20
+  - type: STR_MEDIUM_DESTROYER_ELITE
+    size: STR_MEDIUM_UC
+    modSprite: EliteMediumDestroyer
+    marker: 32
+    markerLand: 37
+    markerCrash: 42
+    damageMax: 770
+    shieldCapacity: 118 # 7 Shield Emitters
+    shieldRechargeInGeoscape: 1 #11
+    shieldBleedThrough: 100
+    avoidBonus: 30
+    speedMax: 5500
+    accel: 8
+    power: 181
+    hitBonus: 29
+    range: 50
+    score: 475
+    reload: 72 #56
+    breakOffTime: 700
+    hunterKillerPercentage: 100
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 900
+    sightRange: 300
+    missionCustomDeploy: STR_ABDUCTOR_ELITE
+    battlescapeTerrainData:
+      name: RFO_3MD
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_PODSR
+        - U_BITSR
+        - UFOL83AR
+        - U_BASE
+        - U_TRoDR
+      mapBlocks:
+        - name: RFO_3MDa
+          width: 20
+          length: 20
+        - name: RFO_3MDb
+          width: 20
+          length: 20
+        - name: RFO_3MDc
+          width: 20
+          length: 20
+        - name: RFO_3MDd
+          width: 20
+          length: 20
+        - name: RFO_3MDe
+          width: 20
+          length: 20
+        - name: RFO_3MDf
+          width: 20
+          length: 20
+  - type: STR_TERROR_SHIP_ELITE
+    size: STR_LARGE
+    modSprite: EliteTerrorShip
+    marker: 33
+    markerLand: 38
+    markerCrash: 43
+    damageMax: 1260
+    shieldCapacity: 189 # 10 Shield Emitters
+    shieldRechargeInGeoscape: 1 #14
+    shieldBleedThrough: 100
+    avoidBonus: 35
+    speedMax: 5800
+    accel: 6
+    power: 300
+    hitBonus: 7
+    range: 60
+    score: 650
+    reload: 100 #84
+    breakOffTime: 800
+    hunterKillerPercentage: 25
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_TERROR_SHIP_ELITE
+    battlescapeTerrainData:
+      name: UFO_150
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_PODSR
+        - U_BITSR
+        - UFOL83AR
+        - U_TRoDR
+      mapBlocks:
+        - name: ox_ufo5a
+          width: 30
+          length: 20
+        - name: ox_ufo5b
+          width: 20
+          length: 30
+        - name: ox_ufo5c
+          width: 30
+          length: 20
+        - name: ox_ufo5d
+          width: 20
+          length: 30
+        - name: ox_ufo5e
+          width: 30
+          length: 20
+        - name: ox_ufo5f
+          width: 20
+          length: 30
+        - name: ox_ufo5g
+          width: 30
+          length: 20
+        - name: ox_ufo5h
+          width: 20
+          length: 30
+  - type: STR_SUPPLY_SHIP_ELITE
+    size: STR_LARGE
+    modSprite: EliteSupplyShip
+    marker: 33
+    markerLand: 38
+    markerCrash: 43
+    damageMax: 1540
+    shieldCapacity: 374 # 16 Shield Emitters
+    shieldRechargeInGeoscape: 2 #16
+    shieldBleedThrough: 100
+    avoidBonus: 25
+    speedMax: 4200
+    accel: 6
+    power: 100
+    hitBonus: 40
+    range: 53
+    score: 600
+    reload: 52 #36
+    breakOffTime: 700
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_SUPPLY_SHIP_ELITE
+    battlescapeTerrainData:
+      name: UFO_170
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_DISEC2
+        - U_BITSR
+        - U_BASE
+        - U_PODSR
+        - U_TRoDR
+      mapBlocks:
+        - name: ox_ufo7a
+          width: 30
+          length: 20
+        - name: ox_ufo7b
+          width: 20
+          length: 30
+        - name: ox_ufo7c
+          width: 30
+          length: 20
+        - name: ox_ufo7d
+          width: 20
+          length: 30
+  - type: STR_HEAVY_DESTROYER_ELITE
+    size: STR_LARGE
+    modSprite: HeavyDestroyer
+    marker: 33
+    markerLand: 38
+    markerCrash: 43
+    damageMax: 1400
+    shieldCapacity: 273 #2725, 13 Shield Emitters
+    shieldRechargeInGeoscape: 2 #15
+    shieldBleedThrough: 100
+    avoidBonus: 30
+    speedMax: 6400
+    accel: 6
+    power: 294
+    hitBonus: 29
+    range: 52
+    score: 750
+    reload: 68 #52
+    breakOffTime: 850
+    hunterKillerPercentage: 100
+    huntMode: 1
+    huntSpeed: 60
+    huntBehavior: 0
+    radarRange: 900
+    sightRange: 300
+    missionCustomDeploy: STR_HEAVY_DESTROYER_ELITE
+    battlescapeTerrainData:
+      name: RFO_4HD
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_PODSR
+        - U_BITSR
+        - U_DISEC3R
+        - U_BASE
+        - U_TRoDR
+      mapBlocks:
+        - name: RFO_4HDa
+          width: 30
+          length: 30
+        - name: RFO_4HDb
+          width: 30
+          length: 30
+        - name: RFO_4HDc
+          width: 30
+          length: 30
+        - name: RFO_4HDd
+          width: 30
+          length: 30
+        - name: RFO_4HDe
+          width: 30
+          length: 30
+        - name: RFO_4HDf
+          width: 30
+          length: 30
+  - type: STR_BATTLESHIP_ELITE
+    size: STR_VERY_LARGE
+    modSprite: EliteBattleship
+    marker: 34
+    markerLand: 39
+    markerCrash: 44
+    damageMax: 2520
+    shieldCapacity: 648 # 22 Shield Emitters
+    shieldRechargeInGeoscape: 3 #25
+    shieldBleedThrough: 100
+    avoidBonus: 45
+    speedMax: 6200
+    accel: 6
+    power: 255
+    hitBonus: 29
+    range: 64
+    score: 950
+    reload: 74 #58
+    breakOffTime: 1000
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_BATTLESHIP_ELITE
+    battlescapeTerrainData:
+      name: UFO_160
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_PODSR
+        - U_BITSR
+        - U_DISEC3R
+        - U_BASE
+        - U_TRoDR
+      mapBlocks:
+        - name: UFO_16Ra
+          width: 30
+          length: 30
+        - name: UFO_16Rb
+          width: 30
+          length: 30
+        - name: UFO_16Rc
+          width: 30
+          length: 30
+        - name: UFO_16Rd
+          width: 30
+          length: 30
+  - type: STR_MOTHERSHIP_ELITE
+    size: STR_VERY_LARGE
+    modSprite: EliteMothership
+    marker: 34
+    markerLand: 39
+    markerCrash: 44
+    damageMax: 3500
+    shieldCapacity: 1050 # 35 Shield Emitters
+    shieldRechargeInGeoscape: 3 #30
+    shieldBleedThrough: 100
+    avoidBonus: 30
+    speedMax: 4700
+    accel: 5
+    power: 300
+    hitBonus: 18
+    range: 58
+    score: 1050
+    reload: 104 #88
+    breakOffTime: 850
+    hunterKillerPercentage: 0
+    huntMode: 1
+    huntSpeed: 75
+    huntBehavior: 0
+    radarRange: 600
+    sightRange: 300
+    missionCustomDeploy: STR_MOTHERSHIP_ELITE
+    battlescapeTerrainData:
+      name: RFO_5MO
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_PODSR
+        - U_BITSR
+        - U_DISEC2
+        - U_OPER2R
+        - U_BASE
+        - U_TRoDR
+      mapBlocks:
+        - name: RFO_5MOa
+          width: 50
+          length: 30

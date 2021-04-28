@@ -1,0 +1,3484 @@
+research:
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_LASER_CANNON
+  - delete: STR_PLASMA_CANNON
+  - delete: STR_PLASMA_CANNON_DEP1
+  - delete: STR_PLASMA_CANNON_DEP2
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_LEADER_PLUS
+  - delete: STR_COMMANDER_PLUS
+  - name: STR_ALIENS_ONLY
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_ARMOR_EASY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ARMOR_EASY_A
+  - name: STR_ARMOR_MEDIUM
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ARMOR_MEDIUM_A
+  - name: STR_ARMOR_HARD
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ARMOR_HARD_A
+  - name: STR_ARMOR_EASY_A
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_ARMOR_MEDIUM_A
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_ARMOR_HARD_A
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_CRAFT_EASY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CRAFT_EASY_A
+  - name: STR_CRAFT_MEDIUM
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CRAFT_MEDIUM_A
+  - name: STR_CRAFT_HARD
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CRAFT_HARD_A
+  - name: STR_CRAFT_EASY_A
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_CRAFT_MEDIUM_A
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_CRAFT_HARD_A
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_SECTOID_BATTLEREP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_SECTOID_A_BATTLEREP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_CYBERDISC_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_CYBERDISC_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLOATER_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_FLOATER_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_REAPER_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_REAPER_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_SNAKEMAN_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_SNAKEMAN_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_CHRYSSALID_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_CHRYSSALID_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_MUTON_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_MUTON_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_SILACOID_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_SILACOID_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_CELATID_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_CELATID_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_ETHEREAL_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_ETHEREAL_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_SECTOPOD_BATTLEREP
+    cost: 0
+    points: 0
+    lookup: STR_SECTOPOD_BATTLEREP
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_SECTOID_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOID_BATTLEREP
+  - name: STR_SECTOID_A_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOID_A_BATTLEREP
+  - name: STR_CYBERDISC_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CYBERDISC_BATTLEREP
+  - name: STR_FLOATER_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_FLOATER_BATTLEREP
+  - name: STR_REAPER_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_REAPER_BATTLEREP
+  - name: STR_SNAKEMAN_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SNAKEMAN_BATTLEREP
+  - name: STR_CHRYSSALID_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CHRYSSALID_BATTLEREP
+  - name: STR_MUTON_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MUTON_BATTLEREP
+  - name: STR_SILACOID_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SILACOID_BATTLEREP
+  - name: STR_CELATID_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CELATID_BATTLEREP
+  - name: STR_ETHEREAL_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ETHEREAL_BATTLEREP
+  - name: STR_SECTOPOD_BATTLEREPORT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOPOD_BATTLEREP
+  - name: STR_RESEARCH_ADVICE
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_MOTION_SCANNER
+    listOrder: 100
+    cost: 60
+    points: 18
+  - name: STR_MIND_PROBE
+    listOrder: 110
+    cost: 120
+    points: 60
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_PSI_LAB
+      - STR_PSIONIC_TECHNOLOGY
+  - name: STR_MEDI_KIT
+    listOrder: 120
+    cost: 130
+    points: 39
+  - name: STR_PSIONIC_RESEARCH
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PSIONIC_TECHNOLOGY
+      - STR_PSIONIC_ALIEN
+      - STR_PSIONIC_ALIEN_CORPSE
+  - name: STR_PSIONIC_TECHNOLOGY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MIND_PROBE
+      - STR_ALIEN_ENTERTAINMENT
+    unlocks:
+      - STR_PSIONIC_RESEARCH
+  - name: STR_PSIONIC_ALIEN
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_LEADER
+      - STR_ETHEREAL_SOLDIER
+    unlocks:
+      - STR_PSIONIC_RESEARCH
+  - name: STR_PSIONIC_ALIEN_CORPSE
+    dependencies:
+      - STR_SECTOID_CORPSE_PSI
+      - STR_ETHEREAL_CORPSE
+    unlocks:
+      - STR_PSIONIC_RESEARCH
+  - name: STR_PSIONIC_IMPLANTATION
+    listOrder: 140
+    cost: 800
+    points: 80
+    dependencies:
+      - STR_PSI_LAB
+      - STR_PSIONIC_TECHNOLOGY
+      - STR_PSIONIC_ALIEN
+      - STR_PSIONIC_ALIEN_CORPSE
+  - name: STR_ADVANCED_PSIONIC_IMPLANTATION
+    listOrder: 145
+    cost: 1400
+    points: 140
+    dependencies:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_PSIONIC_IMPLANTATION
+  - name: STR_FEAR_PROJECTION
+    listOrder: 150
+    cost: 750
+    points: 150
+    dependencies:
+      - STR_PSI_LAB
+      - STR_PSIONIC_TECHNOLOGY
+      - STR_PSIONIC_ALIEN
+      - STR_PSIONIC_ALIEN_CORPSE
+    lookup: STR_FEAR_PROJECTOR
+  - name: STR_FEAR_PROJECTOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_FEAR_PROJECTION
+  - name: STR_FEAR_PROJECTION_DEP1
+    dependencies:
+      - STR_PSI_LAB
+      - STR_PSIONIC_TECHNOLOGY
+      - STR_PSIONIC_ALIEN
+    unlocks:
+      - STR_FEAR_PROJECTION
+      - STR_PSIONIC_IMPLANTATION
+  - name: STR_FEAR_PROJECTION_DEP2
+    dependencies:
+      - STR_PSI_LAB
+      - STR_PSIONIC_TECHNOLOGY
+      - STR_PSIONIC_ALIEN_CORPSE
+    unlocks:
+      - STR_FEAR_PROJECTION
+      - STR_PSIONIC_IMPLANTATION
+  - name: STR_FEAR_PROJECTION_DEP3
+    dependencies:
+      - STR_PSI_LAB
+      - STR_PSIONIC_ALIEN
+      - STR_PSIONIC_ALIEN_CORPSE
+    unlocks:
+      - STR_FEAR_PROJECTION
+      - STR_PSIONIC_IMPLANTATION
+  - name: STR_PSI_AMP
+    listOrder: 160
+    cost: 1200
+    points: 120
+    dependencies:
+      - STR_FEAR_PROJECTION
+      - STR_MIND_PROBE
+      - STR_ALIEN_ENTERTAINMENT
+  - name: STR_PSIONIC_DISRUPTOR
+    listOrder: 170
+    cost: 1800
+    points: 180
+    dependencies:
+      - STR_PSI_AMP
+      - STR_MIND_PROBE
+      - STR_ALIEN_ENTERTAINMENT
+      - STR_ETHEREAL_COMMANDER
+  - name: STR_PSIONIC_DISRUPTOR_DEP1
+    dependencies:
+      - STR_PSI_AMP
+      - STR_MIND_PROBE
+      - STR_ALIEN_ENTERTAINMENT
+      - STR_ETHEREAL_NAVIGATOR
+    unlocks:
+      - STR_PSIONIC_DISRUPTOR
+  - name: STR_PSIONIC_DISRUPTOR_DEP2
+    dependencies:
+      - STR_PSI_AMP
+      - STR_MIND_PROBE
+      - STR_ALIEN_ENTERTAINMENT
+      - STR_ETHEREAL_N_CORPSE
+    unlocks:
+      - STR_PSIONIC_DISRUPTOR
+  - name: STR_ALIEN_GRENADE
+    listOrder: 200
+    cost: 200
+    points: 40
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_EQP_OUT
+  - name: STR_POWERED_MELEE_WEAPONS
+    listOrder: 300
+    cost: 500
+    points: 100
+    dependencies:
+      - STR_ELERIUM_115
+      - STR_ALIEN_POWER_ARRAYS
+  - name: STR_POWERED_MELEE_WEAPONS_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ELERIUM_115
+      - STR_ALIEN_POWER_ARRAYS
+    unlocks:
+      - STR_EQP_OUT
+  - name: STR_ALLOY_WEAPONS
+    listOrder: 400
+    cost: 180
+    points: 36
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    unlocks:
+      - STR_WEP_OUT
+  - name: STR_LASER_WEAPONS
+    listOrder: 450
+    cost: 400
+    points: 80
+    dependencies:
+      - STR_ALIEN_POWER_ARRAYS
+    unlocks:
+      - STR_WEP_OUT
+    lookup: STR_LASER_RIFLE
+  - name: STR_LASER_RIFLE
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_HEAVY_LASER_WEAPONS
+    listOrder: 460
+    cost: 650
+    points: 130
+    dependencies:
+      - STR_LASER_WEAPONS
+    unlocks:
+      - STR_AIR_OUT
+      - STR_ADVANCED_LASER_WEAPONS
+  - name: STR_AUTOMATIC_LASER_WEAPONS
+    listOrder: 470
+    cost: 550
+    points: 110
+    dependencies:
+      - STR_LASER_WEAPONS
+    unlocks:
+      - STR_AIR_OUT
+      - STR_ADVANCED_LASER_WEAPONS
+  - name: STR_ADVANCED_LASER_WEAPONS
+    listOrder: 480
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_AUTOMATIC_LASER_WEAPONS
+  - name: STR_PLASMA_PRELIMINARY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_UFO_PLASMA_ARRAY
+      - STR_HEAVY_PLASMA
+      - STR_PLASMA_RIFLE
+      - STR_PLASMA_PISTOL
+  - name: STR_PLASMA_WEAPONS
+    listOrder: 500
+    cost: 1400
+    points: 140
+    dependencies:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_ENGINEER
+  - name: STR_PLASMA_WEAPON_CLIP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_HEAVY_PLASMA_CLIP
+      - STR_PLASMA_RIFLE_CLIP
+      - STR_PLASMA_PISTOL_CLIP
+  - name: STR_AUTOMATIC_PLASMA_WEAPONS
+    listOrder: 510
+    cost: 2000
+    points: 200
+    dependencies:
+      - STR_HEAVY_PLASMA_CLIP
+      - STR_PLASMA_RIFLE_CLIP
+      - STR_PLASMA_PISTOL_CLIP
+  - name: STR_HEAVY_PLASMA_WEAPONS
+    listOrder: 520
+    cost: 1400
+    points: 140
+    dependencies:
+      - STR_HEAVY_PLASMA_CLIP
+  - name: STR_HEAVY_PLASMA_WEAPONS_DEP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_UFO_PLASMA_EMITTER
+    unlocks:
+      - STR_HEAVY_PLASMA_WEAPONS
+  - name: STR_HEAVY_PLASMA_WEAPONS_DEPC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_HOVERTANKS
+      - STR_GUARDIAN_AND_ASSAULT_TANKS
+    unlocks:
+      - STR_HEAVY_PLASMA_WEAPONS
+  - name: STR_PLASMA_PISTOL
+    listOrder: 550
+    cost: 40
+    points: 12
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_PLASMA_PRELIMINARY
+  - name: STR_PLASMA_PISTOL_CLIP
+    listOrder: 555
+    cost: 240
+    points: 24
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL
+    unlocks:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+    lookup: STR_PLASMA_PISTOL_TERRAN
+  - name: STR_PLASMA_RIFLE
+    listOrder: 560
+    cost: 50
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_PLASMA_PRELIMINARY
+  - name: STR_PLASMA_RIFLE_CLIP
+    listOrder: 565
+    cost: 300
+    points: 30
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE
+    unlocks:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+    lookup: STR_PLASMA_RIFLE_TERRAN
+  - name: STR_HEAVY_PLASMA
+    listOrder: 570
+    cost: 60
+    points: 18
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_PLASMA_PRELIMINARY
+  - name: STR_HEAVY_PLASMA_CLIP
+    listOrder: 575
+    cost: 360
+    points: 36
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA
+    unlocks:
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+    lookup: STR_HEAVY_PLASMA_TERRAN
+  - name: STR_PLASMA_PISTOL_TERRAN
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_PLASMA_RIFLE_TERRAN
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_HEAVY_PLASMA_TERRAN
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_ALIEN_LAUNCHER
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_BLASTER_BOMB
+      - STR_STUN_BOMB
+  - name: STR_SMALL_LAUNCHER
+    listOrder: 600
+    cost: 90
+    points: 27
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_STUN_UP
+  - name: STR_STUN_BOMB
+    listOrder: 610
+    cost: 1080
+    points: 108
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_SMALL_LAUNCHER
+      - STR_ALIEN_ENGINEER
+    unlocks:
+      - STR_ALIEN_LAUNCHER
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_STUN_UP
+    lookup: STR_SMALL_LAUNCHER_TERRAN
+  - name: STR_BLASTER_LAUNCHER
+    listOrder: 650
+    cost: 150
+    points: 45
+    needItem: true
+    destroyItem: true
+  - name: STR_BLASTER_BOMB
+    listOrder: 660
+    cost: 1800
+    points: 180
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_BLASTER_LAUNCHER
+      - STR_ALIEN_ENGINEER
+    unlocks:
+      - STR_ALIEN_LAUNCHER
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    lookup: STR_BLASTER_LAUNCHER_TERRAN
+  - name: STR_SMALL_LAUNCHER_TERRAN
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_BLASTER_LAUNCHER_TERRAN
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_ALIEN_EXPLOSIVES
+    listOrder: 3000
+    cost: 500
+    points: 100
+    dependencies:
+      - STR_ALIEN_GRENADE
+    unlocks:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_WEP_OUT
+  - name: STR_ALIEN_GRENADE_ARSENAL
+    listOrder: 3005
+    cost: 420
+    points: 84
+    dependencies:
+      - STR_ALIEN_GRENADE
+    unlocks:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+  - name: STR_HEAVY_ALIEN_EXPLOSIVES
+    listOrder: 3010
+    cost: 700
+    points: 140
+    dependencies:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_GRENADE_ARSENAL
+  - name: STR_LAUNCHER_CONVENTIONAL_BOMBS
+    listOrder: 3050
+    cost: 300
+    points: 60
+    dependencies:
+      - STR_STUN_BOMB
+      - STR_BLASTER_BOMB
+  - name: STR_FUSION_MISSILE
+    listOrder: 3060
+    cost: 900
+    points: 90
+    dependencies:
+      - STR_BLASTER_BOMB
+  - name: STR_HEAVY_FUSION_MISSILE
+    listOrder: 3065
+    cost: 1350
+    points: 135
+    dependencies:
+      - STR_FUSION_MISSILE
+  - name: STR_TRACTOR_BEAMS
+    listOrder: 3080
+    cost: 810
+    points: 81
+    dependencies:
+      - STR_UFO_SHIELD_EMITTER
+      - STR_ALIEN_POWER_ARRAYS
+  - name: STR_POWER_SUIT_WEAPONS_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUITS
+      - STR_PLASMA_PISTOL_RED_DESTROYED
+      - STR_PLASMA_RIFLE_RED_DESTROYED
+      - STR_HEAVY_PLASMA_RED_DESTROYED
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_PLASMA_PISTOL_CLIP
+      - STR_CELATID_AUTOPSY
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_ALIEN_LAUNCHER
+  - name: STR_POWER_SUIT_WEAPONS
+    listOrder: 700
+    cost: 4000
+    points: 400
+    dependencies:
+      - STR_POWER_SUITS
+      - STR_PLASMA_PISTOL_RED_DESTROYED
+      - STR_PLASMA_RIFLE_RED_DESTROYED
+      - STR_HEAVY_PLASMA_RED_DESTROYED
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_PLASMA_PISTOL_CLIP
+      - STR_CELATID_AUTOPSY
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_ALIEN_LAUNCHER
+  - name: STR_POWER_SUIT_WEAPONS_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUITS
+      - STR_PLASMA_PISTOL_RED_DESTROYED
+      - STR_PLASMA_PISTOL_CLIP
+    unlocks:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_POWER_SUIT_WEAPONS_UP
+  - name: STR_POWER_SUIT_WEAPONS_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUITS
+      - STR_PLASMA_RIFLE_RED_DESTROYED
+      - STR_PLASMA_WEAPONS
+      - STR_CELATID_AUTOPSY
+    unlocks:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_POWER_SUIT_WEAPONS_UP
+  - name: STR_POWER_SUIT_WEAPONS_DEP3
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUITS
+      - STR_HEAVY_PLASMA_RED_DESTROYED
+      - STR_HEAVY_LASER_WEAPONS
+    unlocks:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_POWER_SUIT_WEAPONS_UP
+  - name: STR_POWER_SUIT_WEAPONS_DEP4
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUITS
+      - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_ALIEN_LAUNCHER
+    unlocks:
+      - STR_POWER_SUIT_WEAPONS
+      - STR_POWER_SUIT_WEAPONS_UP
+  - name: STR_PLASMA_PISTOL_RED_DESTROYED
+    listOrder: 800
+    cost: 400
+    points: 120
+    needItem: true
+    destroyItem: true
+    lookup: STR_PLASMA_PISTOL_RED
+  - name: STR_PLASMA_RIFLE_RED_DESTROYED
+    listOrder: 810
+    cost: 500
+    points: 150
+    needItem: true
+    destroyItem: true
+    lookup: STR_PLASMA_RIFLE_RED
+  - name: STR_HEAVY_PLASMA_RED_DESTROYED
+    listOrder: 820
+    cost: 600
+    points: 180
+    needItem: true
+    destroyItem: true
+    lookup: STR_HEAVY_PLASMA_RED
+  - name: STR_FUSION_LAUNCHER_RED_DESTROYED
+    listOrder: 830
+    cost: 800
+    points: 240
+    needItem: true
+    destroyItem: true
+    lookup: STR_FUSION_LAUNCHER_RED
+  - name: STR_ALIEN_GRENADE_RED_DESTROYED
+    listOrder: 840
+    cost: 300
+    points: 90
+    needItem: true
+    destroyItem: true
+    lookup: STR_ALIEN_GRENADE_RED
+  - name: STR_PLASMA_PISTOL_RED
+    needItem: true
+  - name: STR_PLASMA_RIFLE_RED
+    needItem: true
+  - name: STR_HEAVY_PLASMA_RED
+    needItem: true
+  - name: STR_FUSION_LAUNCHER_RED
+    needItem: true
+  - name: STR_ALIEN_GRENADE_RED
+    needItem: true
+  - name: STR_PERSONAL_ARMOR
+    listOrder: 900
+    cost: 450
+    points: 90
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    unlocks:
+      - STR_ARM_OUT
+  - name: STR_POWER_SUITS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUIT
+      - STR_FLYING_SUIT
+  - name: STR_POWER_SUITS_WORKAROUND_A
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PERSONAL_ARMOR
+      - STR_ELERIUM_115
+      - STR_ALIEN_POWER_ARRAYS
+      - STR_UFO_NAVIGATION
+      - STR_ALIEN_ENGINEER
+      - STR_PSI_AMP
+      - STR_EXAMINATION_ROOM
+      - STR_ETHEREAL_COMMANDER
+      - STR_SECTOPOD_AUTOPSY
+    unlocks:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_PSIONIC_POWER_ARMOR_UP
+      - STR_CYBERNETIC_TO_POWER
+  - name: STR_POWER_SUITS_WORKAROUND_B
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PERSONAL_ARMOR
+      - STR_ELERIUM_115
+      - STR_ALIEN_POWER_ARRAYS
+      - STR_UFO_NAVIGATION
+      - STR_ALIEN_ENGINEER
+      - STR_PSI_AMP
+      - STR_EXAMINATION_ROOM
+      - STR_ETHEREAL_COMMANDER
+      - STR_CYBERDISC_AUTOPSY
+    unlocks:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_PSIONIC_POWER_ARMOR_UP
+      - STR_CYBERNETIC_TO_POWER
+  - name: STR_CYBERNETIC_TO_POWER
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SKELETON #These must have this dependency, and workaround does work
+      - STR_SECTOPOD_AUTOPSY
+  - name: STR_CYBERNETIC_TO_POWER_DEP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SKELETON #These must have this dependency, and workaround does work
+      - STR_CYBERDISC_AUTOPSY
+    unlocks:
+      - STR_CYBERNETIC_TO_POWER
+  - name: STR_POWER_SKELETON
+    listOrder: 920
+    cost: 200
+    points: 20
+    dependencies:
+      - STR_SECTOID_ARMOR
+  - name: STR_POWER_SUIT
+    listOrder: 930
+    cost: 600
+    points: 60
+    dependencies:
+      - STR_ELERIUM_115
+      - STR_ALIEN_POWER_ARRAYS
+      - STR_PERSONAL_ARMOR
+      - STR_POWER_SKELETON
+    unlocks:
+      - STR_POWER_SUITS
+  - name: STR_FLYING_SUIT
+    listOrder: 940
+    cost: 750
+    points: 75
+    dependencies:
+      - STR_ELERIUM_115
+      - STR_UFO_NAVIGATION
+      - STR_PERSONAL_ARMOR
+      - STR_ANTI_GRAVITY
+      - STR_POWER_SKELETON
+    unlocks:
+      - STR_POWER_SUITS
+  - name: STR_PSIONIC_POWER_ARMOR_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PSI_AMP
+      - STR_EXAMINATION_ROOM
+      - STR_ETHEREAL_COMMANDER
+      - STR_POWER_SUITS
+  - name: STR_PSIONIC_POWER_ARMOR
+    listOrder: 950
+    cost: 1800
+    points: 180
+    dependencies:
+      - STR_PSI_AMP
+      - STR_EXAMINATION_ROOM
+      - STR_ETHEREAL_COMMANDER
+      - STR_POWER_SUITS
+  - name: STR_INTEGRATED_ARMOR_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_CYBERDISC_AUTOPSY
+      - STR_SECTOPOD_AUTOPSY
+      - STR_MUTON_AUTOPSY
+  - name: STR_INTEGRATED_ARMOR
+    listOrder: 960
+    cost: 4500
+    points: 450
+    dependencies:
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_SUPER_SOLDIERS
+      - STR_CYBERDISC_AUTOPSY
+      - STR_SECTOPOD_AUTOPSY
+      - STR_MUTON_AUTOPSY
+  - name: STR_INTEGRATED_ARMOR_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUIT
+      - STR_SUPER_SOLDIERS
+      - STR_SECTOPOD_AUTOPSY
+      - STR_MUTON_AUTOPSY
+    unlocks:
+      - STR_INTEGRATED_ARMOR
+      - STR_INTEGRATED_ARMOR_UP
+  - name: STR_INTEGRATED_ARMOR_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_FLYING_SUIT
+      - STR_SUPER_SOLDIERS
+      - STR_CYBERDISC_AUTOPSY
+      - STR_MUTON_AUTOPSY
+    unlocks:
+      - STR_INTEGRATED_ARMOR
+      - STR_INTEGRATED_ARMOR_UP
+  - name: STR_INTEGRATED_ARMOR_DEP3
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUITS_WORKAROUND_A
+      - STR_SUPER_SOLDIERS
+      - STR_MUTON_AUTOPSY
+    unlocks:
+      - STR_INTEGRATED_ARMOR_DEP1
+  - name: STR_INTEGRATED_ARMOR_DEP4
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWER_SUITS_WORKAROUND_B
+      - STR_SUPER_SOLDIERS
+      - STR_MUTON_AUTOPSY
+    unlocks:
+      - STR_INTEGRATED_ARMOR_DEP2
+  - name: STR_SOLDIER_SCREENING
+    listOrder: 1000
+    cost: 80
+    points: 24
+  - name: STR_SUPER_SOLDIERS
+    listOrder: 1050
+    cost: 2100
+    points: 210
+    dependencies:
+      - STR_MEDI_KIT
+      - STR_EXAMINATION_ROOM
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_MEDIC
+  - name: STR_GUARDIAN_AND_ASSAULT_TANKS
+    listOrder: 1100
+    cost: 270
+    points: 81
+  - name: STR_HOVERTANKS
+    listOrder: 1150
+    cost: 800
+    points: 80
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_UFO_CONSTRUCTION
+  - name: STR_HOVERTANKS_UP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_UFO_CONSTRUCTION
+  - name: STR_HOVERTANKS_DEP1
+    dependencies:
+      - STR_FUSION_MISSILE
+      - STR_UFO_CONSTRUCTION
+    unlocks:
+      - STR_HOVERTANKS
+      - STR_HOVERTANKS_UP1
+  - name: STR_ADVANCED_AIRCRAFT
+    listOrder: 1200
+    cost: 600
+    points: 120
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_UFO_NAVIGATION
+    unlocks:
+      - STR_AIR_OUT
+  - name: STR_ADVANCED_AIR_EQUIPMENT
+    listOrder: 1210
+    cost: 500
+    points: 100
+    dependencies:
+      - STR_ALIEN_ALLOYS
+    unlocks:
+      - STR_AIR_OUT
+  - name: STR_BASIC_SPACECRAFT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
+  - name: STR_ADVANCED_SPACECRAFT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ULTIMATE_CRAFT
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+  - name: STR_NEW_FIGHTER_CRAFT
+    listOrder: 1250
+    cost: 750
+    points: 75
+    dependencies:
+      - STR_UFO_CONSTRUCTION
+    unlocks:
+      - STR_BASIC_SPACECRAFT
+  - name: STR_NEW_FIGHTER_TRANSPORTER
+    listOrder: 1260
+    cost: 850
+    points: 85
+    dependencies:
+      - STR_UFO_CONSTRUCTION
+    unlocks:
+      - STR_BASIC_SPACECRAFT
+  - name: STR_ULTIMATE_CRAFT
+    listOrder: 1270
+    cost: 1500
+    points: 150
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+    unlocks:
+      - STR_ADVANCED_SPACECRAFT
+  - name: STR_ULTIMATE_TRANSPORT_CRAFT
+    listOrder: 1280
+    cost: 1700
+    points: 170
+    dependencies:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    unlocks:
+      - STR_ADVANCED_SPACECRAFT
+  - name: STR_FLAGSHIPS_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_FLAGSHIPS
+  - name: STR_FLAGSHIPS
+    listOrder: 1300
+    cost: 9000
+    points: 1800
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_SMALL_SCOUT
+      - STR_COVERT_OPS_SHIP
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_LIGHT_DESTROYER
+      - STR_CARGO_SHIP
+      - STR_ABDUCTOR
+      - STR_HARVESTER
+      - STR_MEDIUM_DESTROYER
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_HEAVY_DESTROYER
+      - STR_BATTLESHIP
+      - STR_MOTHERSHIP
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_ADVANCED_SPACECRAFT
+  - name: STR_FLAGSHIPS_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ULTIMATE_CRAFT
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_SMALL_SCOUT
+      - STR_COVERT_OPS_SHIP
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ULTIMATE_CRAFT
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_CARGO_SHIP
+      - STR_ABDUCTOR
+      - STR_HARVESTER
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP3
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ULTIMATE_CRAFT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_BATTLESHIP
+      - STR_MOTHERSHIP
+      - STR_FUSION_MISSILE
+      - STR_HEAVY_FUSION_MISSILE
+      - STR_FUSION_DEFENSE
+      - STR_POWER_SUIT
+      - STR_FLYING_SUIT
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP4
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_LIGHT_DESTROYER
+      - STR_MEDIUM_DESTROYER
+      - STR_HEAVY_DESTROYER
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_MIND_SHIELD
+      - STR_PSIONIC_DISRUPTOR
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP5
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_ALIEN_INVASION_PSIONIC
+      - STR_ALIEN_INVASION_DESTROY
+      - STR_POWER_SUIT_WEAPONS
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP6
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_ALIEN_INVASION
+      - STR_ALIEN_HOME_INVASION
+      - STR_SNAKEMAN_INVASION
+      - STR_INTEGRATED_ARMOR
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP7
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_ALIEN_INVASION
+      - STR_ALIEN_HOME_INVASION
+      - STR_POWER_SUIT_WEAPONS
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP8
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_ALIEN_INVASION_PSIONIC
+      - STR_ALIEN_INVASION_DESTROY
+      - STR_SNAKEMAN_INVASION
+      - STR_INTEGRATED_ARMOR
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP9
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_LIGHT_DESTROYER_ELITE
+      - STR_MEDIUM_DESTROYER_ELITE
+      - STR_HEAVY_DESTROYER_ELITE
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEPA
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_TERROR_SHIP_ELITE
+      - STR_SUPPLY_SHIP_ELITE
+      - STR_BATTLESHIP_ELITE
+      - STR_MOTHERSHIP_ELITE
+      - STR_PSIONIC_POWER_ARMOR
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEPB
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_CARGO_SHIP_ELITE
+      - STR_ABDUCTOR_ELITE
+      - STR_HARVESTER_ELITE
+      - STR_FUSION_MISSILE
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEPC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_SMALL_SCOUT_ELITE
+      - STR_COVERT_OPS_SHIP_ELITE
+      - STR_MEDIUM_SCOUT_ELITE
+      - STR_LARGE_SCOUT_ELITE
+      - STR_ALLOY_WEAPONS
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_GRENADE
+      - STR_POWER_SUITS
+      - STR_FEAR_PROJECTION
+      - STR_MEDI_KIT
+      - STR_MOTION_SCANNER
+      - STR_MIND_PROBE
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEPD
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_ALIEN_SOLDIER
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_MEDIC
+      - STR_ALIEN_ENGINEER
+      - STR_LEADER_PLUS
+      - STR_SECTOID
+      - STR_SECTOID_AUTOPSY
+      - STR_FLOATER
+      - STR_FLOATER_AUTOPSY
+      - STR_SNAKEMAN
+      - STR_SNAKEMAN_AUTOPSY
+      - STR_MUTON
+      - STR_MUTON_AUTOPSY
+      - STR_ETHEREAL
+      - STR_ETHEREAL_AUTOPSY
+      - STR_CYBERDISC
+      - STR_CYBERDISC_AUTOPSY
+      - STR_REAPER
+      - STR_REAPER_AUTOPSY
+      - STR_CHRYSSALID
+      - STR_CHRYSSALID_AUTOPSY
+      - STR_CELATID
+      - STR_CELATID_AUTOPSY
+      - STR_SILACOID
+      - STR_SILACOID_AUTOPSY
+      - STR_SECTOPOD
+      - STR_SECTOPOD_AUTOPSY
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEPE
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_TRANSPORTER
+      - STR_ULTIMATE_CRAFT
+      - STR_ALIEN_ALLOYS
+      - STR_ELERIUM_115
+      - STR_ALIEN_POWER_ARRAYS
+      - STR_UFO_NAVIGATION
+      - STR_UFO_PLASMA_EMITTER
+      - STR_UFO_PLASMA_ARRAY
+      - STR_UFO_SHIELD_EMITTER
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_ENTERTAINMENT
+      - STR_ALIEN_REPRODUCTION
+      - STR_ALIEN_SURGERY
+      - STR_EXAMINATION_ROOM
+      - STR_ALIEN_HABITAT
+      - STR_ALIEN_FUEL_PODS
+      - STR_TRACTOR_BEAMS
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEPF
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ULTIMATE_CRAFT
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_SMALL_SCOUT_ELITE
+      - STR_COVERT_OPS_SHIP_ELITE
+      - STR_MEDIUM_SCOUT_ELITE
+      - STR_LARGE_SCOUT_ELITE
+      - STR_LIGHT_DESTROYER_ELITE
+      - STR_CARGO_SHIP_ELITE
+      - STR_ABDUCTOR_ELITE
+      - STR_HARVESTER_ELITE
+      - STR_MEDIUM_DESTROYER_ELITE
+      - STR_TERROR_SHIP_ELITE
+      - STR_SUPPLY_SHIP_ELITE
+      - STR_HEAVY_DESTROYER_ELITE
+      - STR_BATTLESHIP_ELITE
+      - STR_MOTHERSHIP_ELITE
+      - STR_MIND_SHIELD
+    unlocks:
+      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_UP
+  - name: STR_UFO_CONSTRUCTION
+    listOrder: 1399
+    cost: 900
+    points: 90
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_ELERIUM_115
+      - STR_ALIEN_POWER_ARRAYS
+      - STR_UFO_NAVIGATION
+      - STR_ALIEN_ENGINEER
+      - STR_ANTI_GRAVITY
+  - name: STR_LASER_DEFENSE
+    listOrder: 1400
+    cost: 500
+    points: 75
+    dependencies:
+      - STR_ALIEN_POWER_ARRAYS
+  - name: STR_PLASMA_DEFENSE
+    listOrder: 1410
+    cost: 900
+    points: 135
+    dependencies:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_ENGINEER
+  - name: STR_FUSION_DEFENSE
+    listOrder: 1420
+    cost: 1600
+    points: 400
+    dependencies:
+      - STR_HEAVY_FUSION_MISSILE
+      - STR_PLASMA_WEAPONS
+  - name: STR_GRAV_SHIELD
+    listOrder: 1490
+    cost: 930
+    points: 93
+    dependencies:
+      - STR_UFO_CONSTRUCTION
+      - STR_UFO_SHIELD_EMITTER
+      - STR_ANTI_GRAVITY
+  - name: STR_MIND_SHIELD
+    listOrder: 1500
+    cost: 360
+    points: 72
+    dependencies:
+      - STR_MIND_PROBE
+      - STR_PSI_LAB
+  - name: STR_HYPER_WAVE_DECODER
+    listOrder: 1510
+    cost: 670
+    points: 134
+    dependencies:
+      - STR_ALIEN_NAVIGATOR
+  - name: STR_HYPER_WAVE_DECODER_DEP1
+    dependencies:
+      - STR_MIND_PROBE
+      - STR_PSIONIC_ALIEN_CORPSE
+    unlocks:
+      - STR_HYPER_WAVE_DECODER
+  - name: STR_PSI_LAB
+    listOrder: 1520
+    cost: 480
+    points: 96
+    dependencies:
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_CORPSE_PSI
+      - STR_ETHEREAL_SOLDIER
+      - STR_ETHEREAL_SOLDIER_B
+      - STR_ETHEREAL_LEADER
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_CORPSE
+      - STR_MIND_PROBE
+      - STR_ALIEN_ENTERTAINMENT
+    lookup: STR_PSI_LAB_LOOKUP
+  - name: STR_PSI_LAB_LOOKUP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PSI_LAB
+  - name: STR_CONTAINING_ALIENS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOID_AUTOPSY
+      - STR_FLOATER_AUTOPSY
+      - STR_SNAKEMAN_AUTOPSY
+      - STR_MUTON_AUTOPSY
+      - STR_ETHEREAL_AUTOPSY
+  - name: STR_ALIEN_CONTAINMENT
+    listOrder: 1530
+    cost: 300
+    points: 60
+    dependencies:
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_ENTERTAINMENT
+  - name: STR_ELERIUM_115
+    listOrder: 1600
+    cost: 440
+    points: 88
+    needItem: true
+    destroyItem: true
+  - name: STR_ALIEN_ALLOYS
+    listOrder: 1610
+    cost: 400
+    points: 80
+    needItem: true
+    destroyItem: true
+  - name: STR_ALIEN_FUEL_PODS
+    listOrder: 1615
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: true
+  - name: STR_UFO_POWER_SOURCE
+    listOrder: 1620
+    cost: 600
+    points: 120
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_ARRAYS
+  - name: STR_SCOUT_POWER_UNIT
+    listOrder: 1625
+    cost: 500
+    points: 100
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_POWER_ARRAYS
+  - name: STR_ALIEN_POWER_ARRAYS
+    cost: 0
+    points: 100
+    dependencies:
+      - STR_UFO_POWER_SOURCE
+      - STR_SCOUT_POWER_UNIT
+  - name: STR_UFO_NAVIGATION
+    listOrder: 1630
+    cost: 500
+    points: 100
+    needItem: true
+    destroyItem: true
+  - name: STR_UFO_PLASMA_ARRAY
+    listOrder: 1650
+    cost: 80
+    points: 24
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_PLASMA_PRELIMINARY
+  - name: STR_UFO_PLASMA_EMITTER
+    listOrder: 1660
+    cost: 420
+    points: 42
+    needItem: true
+    destroyItem: true
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_UFO_PLASMA_ARRAY
+    unlocks:
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+  - name: STR_UFO_SHIELD_EMITTER
+    listOrder: 1680
+    cost: 90
+    points: 27
+    needItem: true
+    destroyItem: true
+  - name: STR_ALIEN_FOOD
+    listOrder: 1700
+    cost: 150
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+  - name: STR_ALIEN_REPRODUCTION
+    listOrder: 1710
+    cost: 150
+    points: 15
+    needItem: true
+    destroyItem: true
+  - name: STR_ALIEN_ENTERTAINMENT
+    listOrder: 1720
+    cost: 375
+    points: 38
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_PSI_LAB
+      - STR_PSIONIC_TECHNOLOGY
+      - STR_CONTAINING_ALIENS
+  - name: STR_ALIEN_HABITAT
+    listOrder: 1730
+    cost: 400
+    points: 40
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_PSI_LAB
+      - STR_PSIONIC_TECHNOLOGY
+      - STR_CONTAINING_ALIENS
+      - STR_ALIEN_CONTAINMENT
+  - name: STR_ALIEN_SURGERY
+    listOrder: 1740
+    cost: 150
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_STUN_UP
+  - name: STR_EXAMINATION_ROOM
+    listOrder: 1750
+    cost: 150
+    points: 15
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_STUN_UP
+  - name: STR_ANTI_GRAVITY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_FLOATER_AUTOPSY
+      - STR_CYBERDISC_AUTOPSY
+      - STR_CELATID_AUTOPSY
+  - name: STR_ALIEN_LASER
+    listOrder: 1800
+    cost: 250
+    points: 25
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LASER_WEAPONS
+      - STR_LASER_DEFENSE
+  - name: STR_SECTOID_CORPSE
+    listOrder: 1900
+    cost: 50
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+    lookup: STR_SECTOID_AUTOPSY
+  - name: STR_SECTOID_CORPSE_PSI
+    listOrder: 1901
+    cost: 75
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_PSI_LAB
+      - STR_PSIONIC_ALIEN_CORPSE
+    lookup: STR_SECTOID_AUTOPSY
+  - name: STR_SECTOID_A_CORPSE
+    listOrder: 1905
+    cost: 50
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_SECTOID_ARMOR
+    lookup: STR_SECTOID_AUTOPSY
+  - name: STR_SECTOID_A_CORPSE_PSI
+    listOrder: 1906
+    cost: 75
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_PSI_LAB
+      - STR_PSIONIC_ALIEN_CORPSE
+      - STR_SECTOID_ARMOR
+      - STR_SECTOID_CORPSE_PSI
+    lookup: STR_SECTOID_AUTOPSY
+  - name: STR_SECTOID_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLOATER_CORPSE
+    listOrder: 1910
+    cost: 55
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_ANTI_GRAVITY
+  - name: STR_SNAKEMAN_CORPSE
+    listOrder: 1920
+    cost: 60
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+  - name: STR_SNAKEMAN_COMMANDER_B_CORPSE
+    listOrder: 1925
+    cost: 150
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+    lookup: STR_SNAKEMAN_COMMANDER_B_AUTOPSY
+  - name: STR_MUTON_CORPSE
+    listOrder: 1930
+    cost: 70
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+  - name: STR_MUTON_B_CORPSE
+    listOrder: 1935
+    cost: 140
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+    lookup: STR_MUTON_B_AUTOPSY
+  - name: STR_ETHEREAL_CORPSE
+    listOrder: 1940
+    cost: 90
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_PSIONIC_ALIEN_CORPSE
+      - STR_PSI_LAB
+  - name: STR_ETHEREAL_N_CORPSE
+    listOrder: 1946
+    cost: 120
+    points: 0
+    lookup: STR_ETHEREAL_N_AUTOPSY
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_PSIONIC_ALIEN_CORPSE
+      - STR_PSI_LAB
+    lookup: STR_ETHEREAL_N_AUTOPSY
+  - name: STR_CELATID_CORPSE
+    listOrder: 1950
+    cost: 170
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_ACID_UP
+      - STR_ANTI_GRAVITY
+  - name: STR_SILACOID_CORPSE
+    listOrder: 1955
+    cost: 140
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+  - name: STR_CHRYSSALID_CORPSE
+    listOrder: 1960
+    cost: 120
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+  - name: STR_REAPER_CORPSE
+    listOrder: 1970
+    cost: 80
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+  - name: STR_CYBERDISC_CORPSE
+    listOrder: 1980
+    cost: 110
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_PLASMA_PRELIMINARY
+      - STR_PLASMA_UP
+      - STR_STUN_UP
+      - STR_ANTI_GRAVITY
+  - name: STR_SECTOPOD_CORPSE
+    listOrder: 1990
+    cost: 130
+    points: 0
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_CONTAINING_ALIENS
+      - STR_LASER_WEAPONS
+      - STR_STUN_UP
+  - name: STR_SECTOID_AUTOPSY
+    points: 10
+    needItem: true
+  - name: STR_SECTOID_PSI_AUTOPSY
+    points: 15
+    needItem: true
+  - name: STR_SNAKEMAN_AUTOPSY
+    points: 12
+    needItem: true
+  - name: STR_SNAKEMAN_COMMANDER_B_AUTOPSY
+    points: 150
+    needItem: true
+  - name: STR_ETHEREAL_AUTOPSY
+    points: 27
+    needItem: true
+  - name: STR_ETHEREAL_N_AUTOPSY
+    points: 60
+    needItem: true
+  - name: STR_MUTON_AUTOPSY
+    points: 14
+    needItem: true
+  - name: STR_MUTON_B_AUTOPSY
+    points: 28
+    needItem: true
+  - name: STR_FLOATER_AUTOPSY
+    points: 11
+    needItem: true
+  - name: STR_CELATID_AUTOPSY
+    points: 34
+    needItem: true
+  - name: STR_SILACOID_AUTOPSY
+    points: 28
+    needItem: true
+  - name: STR_CHRYSSALID_AUTOPSY
+    points: 24
+    needItem: true
+  - name: STR_REAPER_AUTOPSY
+    points: 16
+    needItem: true
+  - name: STR_CYBERDISC_AUTOPSY
+    points: 22
+    needItem: true
+  - name: STR_SECTOPOD_AUTOPSY
+    points: 26
+    needItem: true
+  - name: STR_SECTOID
+    listOrder: 2000
+    points: 40
+    needItem: true
+  - name: STR_FLOATER
+    listOrder: 2005
+    points: 50
+    needItem: true
+  - name: STR_SNAKEMAN
+    listOrder: 2010
+    points: 60
+    needItem: true
+  - name: STR_MUTON
+    listOrder: 2015
+    points: 80
+    needItem: true
+  - name: STR_ETHEREAL
+    listOrder: 2020
+    points: 100
+    needItem: true
+  - name: STR_CELATID
+    listOrder: 2025
+    points: 70
+    needItem: true
+  - name: STR_SILACOID
+    listOrder: 2027
+    points: 60
+    needItem: true
+  - name: STR_CHRYSSALID
+    listOrder: 2030
+    points: 90
+    needItem: true
+  - name: STR_REAPER
+    listOrder: 2035
+    points: 110
+    needItem: true
+  - name: STR_CYBERDISC
+    listOrder: 2040
+    points: 140
+    needItem: true
+  - name: STR_SECTOPOD
+    listOrder: 2045
+    points: 150
+    needItem: true
+  - name: STR_SECTOID_SOLDIER
+    listOrder: 2050
+    cost: 120
+    points: 24
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_SOLDIER
+  - name: STR_SECTOID_A_SOLDIER
+    listOrder: 2050
+    cost: 120
+    points: 24
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_SOLDIER
+  - name: STR_FLOATER_SOLDIER
+    listOrder: 2060
+    cost: 110
+    points: 22
+    lookup: STR_FLOATER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_SOLDIER
+  - name: STR_SNAKEMAN_SOLDIER
+    listOrder: 2070
+    cost: 130
+    points: 26
+    lookup: STR_SNAKEMAN
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_SOLDIER
+  - name: STR_MUTON_SOLDIER
+    listOrder: 2080
+    cost: 140
+    points: 28
+    lookup: STR_MUTON
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_ALIEN_SOLDIER
+      - STR_ACID_UP
+  - name: STR_MUTON_SOLDIER_B
+    listOrder: 2085
+    cost: 160
+    points: 32
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_ALIEN_SOLDIER
+      - STR_ACID_UP
+  - name: STR_ETHEREAL_SOLDIER
+    listOrder: 2090
+    cost: 180
+    points: 45
+    lookup: STR_ETHEREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+      - STR_ALIEN_SOLDIER
+  - name: STR_ETHEREAL_SOLDIER_B
+    listOrder: 2095
+    cost: 180
+    points: 45
+    lookup: STR_ETHEREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+      - STR_ALIEN_SOLDIER
+  - name: STR_SECTOID_NAVIGATOR
+    listOrder: 2100
+    cost: 250
+    points: 25
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_OUTPOST
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    getOneFreeProtected:
+      STR_PRE_INVASION_MISSIONS:
+        - STR_DATA_CAPSULE_MS
+        - STR_DATA_CAPSULE_LS
+        - STR_DATA_CAPSULE_CS
+        - STR_DATA_CAPSULE_AB
+        - STR_DATA_CAPSULE_HV
+        - STR_DATA_CAPSULE_TS
+        - STR_DATA_CAPSULE_SS
+        - STR_DATA_CAPSULE_BS
+        - STR_DATA_CAPSULE_MO
+        - STR_DATA_CAPSULE_LD
+        - STR_DATA_CAPSULE_MD
+        - STR_DATA_CAPSULE_HD
+        - STR_DATA_CACHE_TS
+        - STR_DATA_CACHE_AO
+        - STR_DATA_CACHE_AB
+  - name: STR_SECTOID_A_NAVIGATOR
+    listOrder: 2100
+    cost: 250
+    points: 25
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_OUTPOST
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    getOneFreeProtected:
+      STR_PRE_INVASION_MISSIONS:
+        - STR_DATA_CAPSULE_MS
+        - STR_DATA_CAPSULE_LS
+        - STR_DATA_CAPSULE_CS
+        - STR_DATA_CAPSULE_AB
+        - STR_DATA_CAPSULE_HV
+        - STR_DATA_CAPSULE_TS
+        - STR_DATA_CAPSULE_SS
+        - STR_DATA_CAPSULE_BS
+        - STR_DATA_CAPSULE_MO
+        - STR_DATA_CAPSULE_LD
+        - STR_DATA_CAPSULE_MD
+        - STR_DATA_CAPSULE_HD
+        - STR_DATA_CACHE_TS
+        - STR_DATA_CACHE_AO
+        - STR_DATA_CACHE_AB
+  - name: STR_FLOATER_NAVIGATOR
+    listOrder: 2110
+    cost: 200
+    points: 20
+    lookup: STR_FLOATER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_OUTPOST
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    getOneFreeProtected:
+      STR_PRE_INVASION_MISSIONS:
+        - STR_DATA_CAPSULE_MS
+        - STR_DATA_CAPSULE_LS
+        - STR_DATA_CAPSULE_CS
+        - STR_DATA_CAPSULE_AB
+        - STR_DATA_CAPSULE_HV
+        - STR_DATA_CAPSULE_TS
+        - STR_DATA_CAPSULE_SS
+        - STR_DATA_CAPSULE_BS
+        - STR_DATA_CAPSULE_MO
+        - STR_DATA_CAPSULE_LD
+        - STR_DATA_CAPSULE_MD
+        - STR_DATA_CAPSULE_HD
+        - STR_DATA_CACHE_TS
+        - STR_DATA_CACHE_AO
+        - STR_DATA_CACHE_AB
+  - name: STR_SNAKEMAN_NAVIGATOR
+    listOrder: 2120
+    cost: 250
+    points: 25
+    lookup: STR_SNAKEMAN
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_OUTPOST
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    getOneFreeProtected:
+      STR_PRE_INVASION_MISSIONS:
+        - STR_DATA_CAPSULE_MS
+        - STR_DATA_CAPSULE_LS
+        - STR_DATA_CAPSULE_CS
+        - STR_DATA_CAPSULE_AB
+        - STR_DATA_CAPSULE_HV
+        - STR_DATA_CAPSULE_TS
+        - STR_DATA_CAPSULE_SS
+        - STR_DATA_CAPSULE_BS
+        - STR_DATA_CAPSULE_MO
+        - STR_DATA_CAPSULE_LD
+        - STR_DATA_CAPSULE_MD
+        - STR_DATA_CAPSULE_HD
+        - STR_DATA_CACHE_TS
+        - STR_DATA_CACHE_AO
+        - STR_DATA_CACHE_AB
+  - name: STR_MUTON_NAVIGATOR
+    listOrder: 2130
+    cost: 300
+    points: 30
+    lookup: STR_MUTON
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_ACID_UP
+    getOneFree:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_OUTPOST
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    getOneFreeProtected:
+      STR_PRE_INVASION_MISSIONS:
+        - STR_DATA_CAPSULE_MS
+        - STR_DATA_CAPSULE_LS
+        - STR_DATA_CAPSULE_CS
+        - STR_DATA_CAPSULE_AB
+        - STR_DATA_CAPSULE_HV
+        - STR_DATA_CAPSULE_TS
+        - STR_DATA_CAPSULE_SS
+        - STR_DATA_CAPSULE_BS
+        - STR_DATA_CAPSULE_MO
+        - STR_DATA_CAPSULE_LD
+        - STR_DATA_CAPSULE_MD
+        - STR_DATA_CAPSULE_HD
+        - STR_DATA_CACHE_TS
+        - STR_DATA_CACHE_AO
+        - STR_DATA_CACHE_AB
+  - name: STR_ETHEREAL_NAVIGATOR
+    listOrder: 2146
+    cost: 600
+    points: 150
+    lookup: STR_ETHEREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+    getOneFree:
+      - STR_ALIEN_INVASION
+      - STR_ALIEN_INVASION_PSIONIC
+      - STR_ALIEN_INVASION_DESTROY
+      - STR_ALIEN_HOME_INVASION
+      - STR_SNAKEMAN_INVASION
+    getOneFreeProtected:
+      STR_INVASION_MISSIONS:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_OUTPOST
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    getOneFreeProtected:
+      STR_PRE_INVASION_MISSIONS:
+        - STR_DATA_CAPSULE_MS
+        - STR_DATA_CAPSULE_LS
+        - STR_DATA_CAPSULE_CS
+        - STR_DATA_CAPSULE_AB
+        - STR_DATA_CAPSULE_HV
+        - STR_DATA_CAPSULE_TS
+        - STR_DATA_CAPSULE_SS
+        - STR_DATA_CAPSULE_BS
+        - STR_DATA_CAPSULE_MO
+        - STR_DATA_CAPSULE_LD
+        - STR_DATA_CAPSULE_MD
+        - STR_DATA_CAPSULE_HD
+        - STR_DATA_CACHE_TS
+        - STR_DATA_CACHE_AO
+        - STR_DATA_CACHE_AB
+  - name: STR_SECTOID_MEDIC
+    listOrder: 2200
+    cost: 200
+    points: 20
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_MEDIC
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_FLOATER
+      - STR_CHRYSSALID
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+    getOneFreeProtected:
+      STR_NON_ELITE_ALIENS:
+      - STR_MUTON_SOLDIER_B
+      - STR_MUTON_B_CORPSE
+      - STR_SNAKEMAN_COMMANDER_B
+      - STR_SNAKEMAN_COMMANDER_B_CORPSE
+    getOneFreeProtected:
+      STR_CYDONIA_ELITE_ALIENS:
+      - STR_SECTOID_C
+      - STR_FLOATER_C
+      - STR_CYBERDISC_C
+      - STR_REAPER_C
+      - STR_ETHEREAL_C
+      - STR_CHRYSSALID_C
+      - STR_SILACOID_C
+      - STR_CELATID_C
+      - STR_SECTOPOD_C
+  - name: STR_SECTOID_A_MEDIC
+    listOrder: 2200
+    cost: 200
+    points: 20
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_MEDIC
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_FLOATER
+      - STR_CHRYSSALID
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+    getOneFreeProtected:
+      STR_NON_ELITE_ALIENS:
+      - STR_MUTON_SOLDIER_B
+      - STR_MUTON_B_AUTOPSY
+      - STR_SNAKEMAN_COMMANDER_B
+      - STR_SNAKEMAN_COMMANDER_B_AUTOPSY
+    getOneFreeProtected:
+      STR_CYDONIA_ELITE_ALIENS:
+      - STR_SECTOID_C
+      - STR_FLOATER_C
+      - STR_CYBERDISC_C
+      - STR_REAPER_C
+      - STR_ETHEREAL_C
+      - STR_CHRYSSALID_C
+      - STR_SILACOID_C
+      - STR_CELATID_C
+      - STR_SECTOPOD_C
+  - name: STR_FLOATER_MEDIC
+    listOrder: 2210
+    cost: 180
+    points: 18
+    lookup: STR_FLOATER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_MEDIC
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_SECTOID
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_CHRYSSALID
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+    getOneFreeProtected:
+      STR_NON_ELITE_ALIENS:
+      - STR_MUTON_SOLDIER_B
+      - STR_MUTON_B_AUTOPSY
+      - STR_SNAKEMAN_COMMANDER_B
+      - STR_SNAKEMAN_COMMANDER_B_AUTOPSY
+    getOneFreeProtected:
+      STR_CYDONIA_ELITE_ALIENS:
+      - STR_SECTOID_C
+      - STR_FLOATER_C
+      - STR_CYBERDISC_C
+      - STR_REAPER_C
+      - STR_ETHEREAL_C
+      - STR_CHRYSSALID_C
+      - STR_SILACOID_C
+      - STR_CELATID_C
+      - STR_SECTOPOD_C
+  - name: STR_SECTOID_ENGINEER
+    listOrder: 2300
+    cost: 500
+    points: 50
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ENGINEER
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_COVERT_OPS_SHIP
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_LIGHT_DESTROYER
+      - STR_CARGO_SHIP
+      - STR_ABDUCTOR
+      - STR_HARVESTER
+      - STR_MEDIUM_DESTROYER
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_HEAVY_DESTROYER
+      - STR_BATTLESHIP
+      - STR_MOTHERSHIP
+    getOneFreeProtected:
+      STR_NON_ELITE_UFOS:
+        - STR_SMALL_SCOUT_ELITE
+        - STR_COVERT_OPS_SHIP_ELITE
+        - STR_MEDIUM_SCOUT_ELITE
+        - STR_LARGE_SCOUT_ELITE
+        - STR_LIGHT_DESTROYER_ELITE
+        - STR_CARGO_SHIP_ELITE
+        - STR_ABDUCTOR_ELITE
+        - STR_HARVESTER_ELITE
+        - STR_MEDIUM_DESTROYER_ELITE
+        - STR_TERROR_SHIP_ELITE
+        - STR_SUPPLY_SHIP_ELITE
+        - STR_HEAVY_DESTROYER_ELITE
+        - STR_BATTLESHIP_ELITE
+        - STR_MOTHERSHIP_ELITE
+  - name: STR_SECTOID_A_ENGINEER
+    listOrder: 2300
+    cost: 500
+    points: 50
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ENGINEER
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_COVERT_OPS_SHIP
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_LIGHT_DESTROYER
+      - STR_CARGO_SHIP
+      - STR_ABDUCTOR
+      - STR_HARVESTER
+      - STR_MEDIUM_DESTROYER
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_HEAVY_DESTROYER
+      - STR_BATTLESHIP
+      - STR_MOTHERSHIP
+    getOneFreeProtected:
+      STR_NON_ELITE_UFOS:
+        - STR_SMALL_SCOUT_ELITE
+        - STR_COVERT_OPS_SHIP_ELITE
+        - STR_MEDIUM_SCOUT_ELITE
+        - STR_LARGE_SCOUT_ELITE
+        - STR_LIGHT_DESTROYER_ELITE
+        - STR_CARGO_SHIP_ELITE
+        - STR_ABDUCTOR_ELITE
+        - STR_HARVESTER_ELITE
+        - STR_MEDIUM_DESTROYER_ELITE
+        - STR_TERROR_SHIP_ELITE
+        - STR_SUPPLY_SHIP_ELITE
+        - STR_HEAVY_DESTROYER_ELITE
+        - STR_BATTLESHIP_ELITE
+        - STR_MOTHERSHIP_ELITE
+  - name: STR_FLOATER_ENGINEER
+    listOrder: 2310
+    cost: 400
+    points: 40
+    lookup: STR_FLOATER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ENGINEER
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_COVERT_OPS_SHIP
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_LIGHT_DESTROYER
+      - STR_CARGO_SHIP
+      - STR_ABDUCTOR
+      - STR_HARVESTER
+      - STR_MEDIUM_DESTROYER
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_HEAVY_DESTROYER
+      - STR_BATTLESHIP
+      - STR_MOTHERSHIP
+    getOneFreeProtected:
+      STR_NON_ELITE_UFOS:
+        - STR_SMALL_SCOUT_ELITE
+        - STR_COVERT_OPS_SHIP_ELITE
+        - STR_MEDIUM_SCOUT_ELITE
+        - STR_LARGE_SCOUT_ELITE
+        - STR_LIGHT_DESTROYER_ELITE
+        - STR_CARGO_SHIP_ELITE
+        - STR_ABDUCTOR_ELITE
+        - STR_HARVESTER_ELITE
+        - STR_MEDIUM_DESTROYER_ELITE
+        - STR_TERROR_SHIP_ELITE
+        - STR_SUPPLY_SHIP_ELITE
+        - STR_HEAVY_DESTROYER_ELITE
+        - STR_BATTLESHIP_ELITE
+        - STR_MOTHERSHIP_ELITE
+  - name: STR_SNAKEMAN_ENGINEER
+    listOrder: 2320
+    cost: 600
+    points: 60
+    lookup: STR_SNAKEMAN
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ENGINEER
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_COVERT_OPS_SHIP
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_LIGHT_DESTROYER
+      - STR_CARGO_SHIP
+      - STR_ABDUCTOR
+      - STR_HARVESTER
+      - STR_MEDIUM_DESTROYER
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_HEAVY_DESTROYER
+      - STR_BATTLESHIP
+      - STR_MOTHERSHIP
+    getOneFreeProtected:
+      STR_NON_ELITE_UFOS:
+        - STR_SMALL_SCOUT_ELITE
+        - STR_COVERT_OPS_SHIP_ELITE
+        - STR_MEDIUM_SCOUT_ELITE
+        - STR_LARGE_SCOUT_ELITE
+        - STR_LIGHT_DESTROYER_ELITE
+        - STR_CARGO_SHIP_ELITE
+        - STR_ABDUCTOR_ELITE
+        - STR_HARVESTER_ELITE
+        - STR_MEDIUM_DESTROYER_ELITE
+        - STR_TERROR_SHIP_ELITE
+        - STR_SUPPLY_SHIP_ELITE
+        - STR_HEAVY_DESTROYER_ELITE
+        - STR_BATTLESHIP_ELITE
+        - STR_MOTHERSHIP_ELITE
+  - name: STR_MUTON_ENGINEER
+    listOrder: 2330
+    cost: 600
+    points: 60
+    lookup: STR_MUTON
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_ALIEN_ENGINEER
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_ACID_UP
+    getOneFree:
+      - STR_SMALL_SCOUT
+      - STR_COVERT_OPS_SHIP
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_LIGHT_DESTROYER
+      - STR_CARGO_SHIP
+      - STR_ABDUCTOR
+      - STR_HARVESTER
+      - STR_MEDIUM_DESTROYER
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_HEAVY_DESTROYER
+      - STR_BATTLESHIP
+      - STR_MOTHERSHIP
+    getOneFreeProtected:
+      STR_NON_ELITE_UFOS:
+        - STR_SMALL_SCOUT_ELITE
+        - STR_COVERT_OPS_SHIP_ELITE
+        - STR_MEDIUM_SCOUT_ELITE
+        - STR_LARGE_SCOUT_ELITE
+        - STR_LIGHT_DESTROYER_ELITE
+        - STR_CARGO_SHIP_ELITE
+        - STR_ABDUCTOR_ELITE
+        - STR_HARVESTER_ELITE
+        - STR_MEDIUM_DESTROYER_ELITE
+        - STR_TERROR_SHIP_ELITE
+        - STR_SUPPLY_SHIP_ELITE
+        - STR_HEAVY_DESTROYER_ELITE
+        - STR_BATTLESHIP_ELITE
+        - STR_MOTHERSHIP_ELITE
+  - name: STR_SECTOID_LEADER
+    listOrder: 2400
+    cost: 300
+    points: 75
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+  - name: STR_SECTOID_A_LEADER
+    listOrder: 2400
+    cost: 300
+    points: 75
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+  - name: STR_FLOATER_LEADER
+    listOrder: 2410
+    cost: 220
+    points: 55
+    lookup: STR_FLOATER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+  - name: STR_SNAKEMAN_LEADER
+    listOrder: 2420
+    cost: 260
+    points: 65
+    lookup: STR_SNAKEMAN
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+  - name: STR_ETHEREAL_LEADER
+    listOrder: 2440
+    cost: 540
+    points: 135
+    lookup: STR_ETHEREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+  - name: STR_SECTOID_COMMANDER
+    listOrder: 2500
+    cost: 450
+    points: 113
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+  - name: STR_SECTOID_A_COMMANDER
+    listOrder: 2500
+    cost: 450
+    points: 113
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+  - name: STR_FLOATER_COMMANDER
+    listOrder: 2510
+    cost: 330
+    points: 83
+    lookup: STR_FLOATER
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+  - name: STR_SNAKEMAN_COMMANDER
+    listOrder: 2520
+    cost: 390
+    points: 98
+    lookup: STR_SNAKEMAN
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+  - name: STR_SNAKEMAN_COMMANDER_B
+    listOrder: 2525
+    cost: 450
+    points: 150
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+  - name: STR_ETHEREAL_COMMANDER
+    listOrder: 2540
+    cost: 810
+    points: 203
+    lookup: STR_ETHEREAL
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
+      - STR_PSI_LAB
+  - name: STR_CELATID_TERRORIST
+    listOrder: 2600
+    cost: 220
+    points: 33
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_ACID_UP
+  - name: STR_SILACOID_TERRORIST
+    listOrder: 2605
+    cost: 190
+    points: 28
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_ACID_UP
+  - name: STR_CHRYSSALID_TERRORIST
+    listOrder: 2610
+    cost: 170
+    points: 25
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+  - name: STR_REAPER_TERRORIST
+    listOrder: 2620
+    cost: 130
+    points: 19
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+  - name: STR_CYBERDISC_TERRORIST
+    listOrder: 2630
+    cost: 160
+    points: 24
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_PLASMA_PRELIMINARY
+      - STR_PLASMA_UP
+      - STR_STUN_UP
+  - name: STR_SECTOPOD_TERRORIST
+    listOrder: 2640
+    cost: 180
+    points: 27
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_ALIEN_ORIGINS_UP
+      - STR_LASER_WEAPONS
+      - STR_STUN_UP
+  - name: STR_SECTOID_C
+    points: 110
+    needItem: true
+  - name: STR_FLOATER_C
+    points: 100
+    needItem: true
+  - name: STR_CYBERDISC_C
+    points: 200
+    needItem: true
+  - name: STR_REAPER_C
+    points: 150
+    needItem: true
+  - name: STR_ETHEREAL_C
+    points: 140
+    needItem: true
+  - name: STR_CHRYSSALID_C
+    points: 130
+    needItem: true
+  - name: STR_SILACOID_C
+    points: 80
+    needItem: true
+  - name: STR_CELATID_C
+    points: 90
+    needItem: true
+  - name: STR_SECTOPOD_C
+    points: 180
+    needItem: true
+  - name: STR_PLASMA_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PLASMA_WEAPONS
+  - name: STR_STUN_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SMALL_LAUNCHER
+  - name: STR_ACID_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CELATID_TERRORIST
+  - name: STR_ALIEN_SOLDIER
+    dependencies:
+      - STR_SECTOID_SOLDIER
+      - STR_FLOATER_SOLDIER
+      - STR_SNAKEMAN_SOLDIER
+      - STR_MUTON_SOLDIER
+      - STR_ETHEREAL_SOLDIER
+    unlocks:
+      - STR_PLASMA_UP
+  - name: STR_ALIEN_NAVIGATOR
+    dependencies:
+      - STR_SECTOID_NAVIGATOR
+      - STR_SNAKEMAN_NAVIGATOR
+      - STR_MUTON_NAVIGATOR
+      - STR_FLOATER_NAVIGATOR
+    unlocks:
+      - STR_HYPER_WAVE_DECODER
+      - STR_ALIEN_PLATING_SPECIALIST
+  - name: STR_ALIEN_MEDIC
+    dependencies:
+      - STR_SECTOID_MEDIC
+      - STR_FLOATER_MEDIC
+    unlocks:
+      - STR_STUN_UP
+  - name: STR_ALIEN_ENGINEER
+    dependencies:
+      - STR_SECTOID_ENGINEER
+      - STR_SNAKEMAN_ENGINEER
+      - STR_MUTON_ENGINEER
+      - STR_FLOATER_ENGINEER
+    unlocks:
+      - STR_ALIEN_PLATING_SPECIALIST
+  - name: STR_ALIEN_PLATING_SPECIALIST
+    dependencies:
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_ENGINEER
+  - name: STR_NON_ELITE_UFOS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SMALL_SCOUT
+      - STR_COVERT_OPS_SHIP
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_LIGHT_DESTROYER
+      - STR_CARGO_SHIP
+      - STR_ABDUCTOR
+      - STR_HARVESTER
+      - STR_MEDIUM_DESTROYER
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_HEAVY_DESTROYER
+      - STR_BATTLESHIP
+      - STR_MOTHERSHIP
+  - name: STR_PRE_INVASION_MISSIONS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_OUTPOST
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+  - name: STR_INVASION_MISSIONS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIEN_INVASION
+      - STR_ALIEN_INVASION_PSIONIC
+      - STR_ALIEN_INVASION_DESTROY
+      - STR_ALIEN_HOME_INVASION
+      - STR_SNAKEMAN_INVASION
+  - name: STR_NON_ELITE_ALIENS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_FLOATER
+      - STR_CHRYSSALID
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+  - name: STR_CYDONIA_ELITE_ALIENS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_MUTON_SOLDIER_B
+      - STR_MUTON_B_CORPSE
+      - STR_SNAKEMAN_COMMANDER_B
+      - STR_SNAKEMAN_COMMANDER_B_CORPSE
+      - STR_CYDONIA_OR_BUST
+  - name: STR_LEADER_PLUS
+    requires:
+      - STR_ALIEN_ORIGINS
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SNAKEMAN_COMMANDER
+      - STR_SNAKEMAN_LEADER
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_LEADER
+      - STR_FLOATER_COMMANDER
+      - STR_FLOATER_LEADER
+  - name: STR_COMMANDER_PLUS
+    requires:
+      - STR_THE_MARTIAN_SOLUTION
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SNAKEMAN_COMMANDER
+      - STR_ETHEREAL_COMMANDER
+      - STR_FLOATER_COMMANDER
+  - name: STR_ALIEN_RESEARCH
+    points: 20
+    needItem: true
+  - name: STR_ALIEN_HARVEST
+    points: 30
+    needItem: true
+    unlocks:
+      - STR_STUN_UP
+  - name: STR_ALIEN_ABDUCTION
+    points: 40
+    needItem: true
+    unlocks:
+      - STR_STUN_UP
+  - name: STR_ALIEN_INFILTRATION
+    points: 120
+    needItem: true
+  - name: STR_ALIEN_BASE
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_OUTPOST
+    points: 40
+    needItem: true
+  - name: STR_ALIEN_TERROR
+    points: 60
+    needItem: true
+  - name: STR_ALIEN_RETALIATION
+    points: 80
+    needItem: true
+  - name: STR_ALIEN_SUPPLY
+    points: 40
+    needItem: true
+  - name: STR_ALIEN_INVASION
+    points: 150
+    needItem: true
+  - name: STR_ALIEN_INVASION_PSIONIC
+    points: 150
+    needItem: true
+  - name: STR_ALIEN_INVASION_DESTROY
+    points: 150
+    needItem: true
+  - name: STR_ALIEN_HOME_INVASION
+    points: 200
+    needItem: true
+  - name: STR_ALIEN_HOME_DEFENSE_DEP
+    cost: 0
+    points: 0
+    requires:
+      - STR_CYDONIA_OR_BUST
+      - STR_ALIEN_INVASION
+      - STR_ALIEN_HOME_INVASION
+    unlocks:
+      - STR_ALIEN_HOME_DEFENSE
+    needItem: true
+  - name: STR_ALIEN_HOME_DEFENSE
+    listOrder: 2690
+    cost: 1500
+    points: 300
+    dependencies:
+      - STR_ALIEN_HOME_DEFENSE_DEP
+  - name: STR_SNAKEMAN_INVASION
+    points: 150
+    needItem: true
+    dependencies:
+      - STR_SNAKEMAN_COMMANDER_B
+      - STR_SNAKEMAN_COMMANDER_B_CORPSE
+  - name: STR_ALIEN_ORIGINS_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_ENGINEER
+      - STR_SECTOID_MEDIC
+      - STR_SECTOID_NAVIGATOR
+      - STR_SECTOID_SOLDIER
+      - STR_CYBERDISC_TERRORIST
+      - STR_SNAKEMAN_COMMANDER
+      - STR_SNAKEMAN_LEADER
+      - STR_SNAKEMAN_ENGINEER
+      - STR_SNAKEMAN_NAVIGATOR
+      - STR_SNAKEMAN_SOLDIER
+      - STR_CHRYSSALID_TERRORIST
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_LEADER
+      - STR_ETHEREAL_SOLDIER
+      - STR_SECTOPOD_TERRORIST
+      - STR_MUTON_ENGINEER
+      - STR_MUTON_NAVIGATOR
+      - STR_MUTON_SOLDIER
+      - STR_SILACOID_TERRORIST
+      - STR_CELATID_TERRORIST
+      - STR_FLOATER_COMMANDER
+      - STR_FLOATER_LEADER
+      - STR_FLOATER_ENGINEER
+      - STR_FLOATER_MEDIC
+      - STR_FLOATER_NAVIGATOR
+      - STR_FLOATER_SOLDIER
+      - STR_REAPER_TERRORIST
+  - name: STR_ALIEN_ORIGINS
+    listOrder: 2700
+    cost: 300
+    points: 310
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_ENGINEER
+      - STR_SECTOID_MEDIC
+      - STR_SECTOID_NAVIGATOR
+      - STR_SECTOID_SOLDIER
+      - STR_CYBERDISC_TERRORIST
+      - STR_SNAKEMAN_COMMANDER
+      - STR_SNAKEMAN_LEADER
+      - STR_SNAKEMAN_ENGINEER
+      - STR_SNAKEMAN_NAVIGATOR
+      - STR_SNAKEMAN_SOLDIER
+      - STR_CHRYSSALID_TERRORIST
+      - STR_ETHEREAL_COMMANDER
+      - STR_ETHEREAL_LEADER
+      - STR_ETHEREAL_SOLDIER
+      - STR_SECTOPOD_TERRORIST
+      - STR_MUTON_ENGINEER
+      - STR_MUTON_NAVIGATOR
+      - STR_MUTON_SOLDIER
+      - STR_SILACOID_TERRORIST
+      - STR_CELATID_TERRORIST
+      - STR_FLOATER_COMMANDER
+      - STR_FLOATER_LEADER
+      - STR_FLOATER_ENGINEER
+      - STR_FLOATER_MEDIC
+      - STR_FLOATER_NAVIGATOR
+      - STR_FLOATER_SOLDIER
+      - STR_REAPER_TERRORIST
+  - name: STR_THE_MARTIAN_SOLUTION
+    listOrder: 2710
+    cost: 750
+    points: 400
+    dependencies:
+      - STR_ALIEN_ORIGINS
+      - STR_LEADER_PLUS
+      - STR_ALIEN_MEDIC
+      - STR_ALIEN_NAVIGATOR
+      - STR_ALIEN_ENGINEER
+  - name: STR_CYDONIA_OR_BUST
+    listOrder: 2720
+    cost: 1800
+    points: 610
+    unlockFinalMission: true
+    dependencies:
+      - STR_COMMANDER_PLUS
+      - STR_BASIC_SPACECRAFT
+      - STR_ETHEREAL_NAVIGATOR
+  - name: STR_DATA_CANISTER_SS
+    listOrder: 2750
+    cost: 90
+    points: 9
+    needItem: true
+    destroyItem: false
+    lookup: STR_SMALL_SCOUT
+  - name: STR_DATA_CANISTER_CO
+    listOrder: 2751
+    cost: 90
+    points: 9
+    needItem: true
+    destroyItem: false
+    lookup: STR_COVERT_OPS_SHIP
+  - name: STR_DATA_CORE_MS
+    listOrder: 2752
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+    lookup: STR_MEDIUM_SCOUT
+  - name: STR_DATA_CORE_LS
+    listOrder: 2753
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+    lookup: STR_LARGE_SCOUT
+  - name: STR_DATA_CORE_CS
+    listOrder: 2754
+    cost: 120
+    points: 12
+    needItem: true
+    destroyItem: false
+    lookup: STR_CARGO_SHIP
+  - name: STR_DATA_CORE_AB
+    listOrder: 2755
+    cost: 120
+    points: 12
+    needItem: true
+    destroyItem: false
+    lookup: STR_ABDUCTOR
+  - name: STR_DATA_CORE_HV
+    listOrder: 2756
+    cost: 120
+    points: 12
+    needItem: true
+    destroyItem: false
+    lookup: STR_HARVESTER
+  - name: STR_DATA_CORE_TS
+    listOrder: 2757
+    cost: 150
+    points: 15
+    needItem: true
+    destroyItem: false
+    lookup: STR_TERROR_SHIP
+  - name: STR_DATA_CORE_SS
+    listOrder: 2758
+    cost: 150
+    points: 15
+    needItem: true
+    destroyItem: false
+    lookup: STR_SUPPLY_SHIP
+  - name: STR_DATA_CORE_BS
+    listOrder: 2759
+    cost: 200
+    points: 20
+    needItem: true
+    destroyItem: false
+    lookup: STR_BATTLESHIP
+  - name: STR_DATA_CORE_MO
+    listOrder: 2760
+    cost: 200
+    points: 20
+    needItem: true
+    destroyItem: false
+    lookup: STR_MOTHERSHIP
+  - name: STR_DATA_CORE_LD
+    listOrder: 2761
+    cost: 120
+    points: 12
+    needItem: true
+    destroyItem: false
+    lookup: STR_LIGHT_DESTROYER
+  - name: STR_DATA_CORE_MD
+    listOrder: 2762
+    cost: 140
+    points: 10
+    needItem: true
+    destroyItem: false
+    lookup: STR_MEDIUM_DESTROYER
+  - name: STR_DATA_CORE_HD
+    listOrder: 2763
+    cost: 180
+    points: 18
+    needItem: true
+    destroyItem: false
+    lookup: STR_HEAVY_DESTROYER
+  - name: STR_DATA_CAPSULE_MS
+    listOrder: 2764
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_LS
+    listOrder: 2765
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_CS
+    listOrder: 2766
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_AB
+    listOrder: 2767
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_HV
+    listOrder: 2768
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_TS
+    listOrder: 2769
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_SS
+    listOrder: 2770
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_BS
+    listOrder: 2771
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_MO
+    listOrder: 2772
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_LD
+    listOrder: 2773
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_MD
+    listOrder: 2774
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CAPSULE_HD
+    listOrder: 2775
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CACHE_TS
+    listOrder: 2776
+    cost: 100
+    points: 10
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CACHE_AO
+    listOrder: 2777
+    cost: 80
+    points: 8
+    needItem: true
+    destroyItem: false
+  - name: STR_DATA_CACHE_AB
+    listOrder: 2778
+    cost: 140
+    points: 14
+    needItem: true
+    destroyItem: false
+  - name: STR_SMALL_SCOUT
+    listOrder: 2800
+    points: 20
+    needItem: true
+  - name: STR_COVERT_OPS_SHIP
+    listOrder: 2801
+    points: 25
+    needItem: true
+  - name: STR_MEDIUM_SCOUT
+    listOrder: 2802
+    points: 35
+    needItem: true
+  - name: STR_LARGE_SCOUT
+    listOrder: 2803
+    points: 45
+    needItem: true
+  - name: STR_LIGHT_DESTROYER
+    listOrder: 2804
+    points: 55
+    needItem: true
+  - name: STR_ABDUCTOR
+    listOrder: 2805
+    points: 60
+    needItem: true
+  - name: STR_HARVESTER
+    listOrder: 2806
+    points: 60
+    needItem: true
+  - name: STR_CARGO_SHIP
+    listOrder: 2807
+    points: 50
+    needItem: true
+  - name: STR_MEDIUM_DESTROYER
+    listOrder: 2808
+    points: 75
+    needItem: true
+  - name: STR_TERROR_SHIP
+    listOrder: 2809
+    points: 80
+    needItem: true
+  - name: STR_HEAVY_DESTROYER
+    listOrder: 2810
+    points: 135
+    needItem: true
+  - name: STR_SUPPLY_SHIP
+    listOrder: 2811
+    points: 100
+    needItem: true
+  - name: STR_BATTLESHIP
+    listOrder: 2812
+    points: 150
+    needItem: true
+  - name: STR_MOTHERSHIP
+    listOrder: 2813
+    points: 180
+    needItem: true
+  - name: STR_SMALL_SCOUT_ELITE
+    listOrder: 2820
+    points: 120
+    needItem: true
+  - name: STR_COVERT_OPS_SHIP_ELITE
+    listOrder: 2821
+    points: 125
+    needItem: true
+  - name: STR_MEDIUM_SCOUT_ELITE
+    listOrder: 2822
+    points: 135
+    needItem: true
+  - name: STR_LARGE_SCOUT_ELITE
+    listOrder: 2823
+    points: 145
+    needItem: true
+  - name: STR_LIGHT_DESTROYER_ELITE
+    listOrder: 2824
+    points: 155
+    needItem: true
+  - name: STR_CARGO_SHIP_ELITE
+    listOrder: 2827
+    points: 150
+    needItem: true
+  - name: STR_ABDUCTOR_ELITE
+    listOrder: 2825
+    points: 160
+    needItem: true
+  - name: STR_HARVESTER_ELITE
+    listOrder: 2826
+    points: 160
+    needItem: true
+  - name: STR_MEDIUM_DESTROYER_ELITE
+    listOrder: 2828
+    points: 175
+    needItem: true
+  - name: STR_TERROR_SHIP_ELITE
+    listOrder: 2829
+    points: 180
+    needItem: true
+  - name: STR_SUPPLY_SHIP_ELITE
+    listOrder: 2831
+    points: 200
+    needItem: true
+  - name: STR_HEAVY_DESTROYER_ELITE
+    listOrder: 2830
+    points: 235
+    needItem: true
+  - name: STR_BATTLESHIP_ELITE
+    listOrder: 2832
+    points: 250
+    needItem: true
+  - name: STR_MOTHERSHIP_ELITE
+    listOrder: 2833
+    points: 280
+    needItem: true
+  - name: STR_OUTSOURCING
+    listOrder: 3100
+    cost: 225
+    points: -675
+    dependencies:
+      - STR_OUT_OUT
+      - STR_ALIEN_ALLOYS
+  - name: STR_OUTSOURCING_GWEAPONS
+    listOrder: 3110
+    cost: 450
+    points: -1350
+    dependencies:
+      - STR_OUTSOURCING
+      - STR_WEP_OUT
+  - name: STR_OUTSOURCING_ARMOR
+    listOrder: 3120
+    cost: 300
+    points: -900
+    dependencies:
+      - STR_OUTSOURCING
+      - STR_ARM_OUT
+  - name: STR_OUTSOURCING_AIR
+    listOrder: 3130
+    cost: 500
+    points: -1500
+    dependencies:
+      - STR_OUTSOURCING
+      - STR_AIR_OUT
+  - name: STR_OUTSOURCING_TANKS
+    listOrder: 3140
+    cost: 400
+    points: -1200
+    dependencies:
+      - STR_OUTSOURCING
+      - STR_HWP_OUT
+  - name: STR_OUTSOURCING_EQUIPMENT
+    listOrder: 3150
+    cost: 375
+    points: -1125
+    dependencies:
+      - STR_OUTSOURCING
+      - STR_EQP_OUT
+  - name: STR_LARGE_AIR_EQUIPMENT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_OUTSOURCING_AIR
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+  - name: STR_LARGE_AIR_EQUIPMENT_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_LASER_WEAPONS
+    unlocks:
+      - STR_LARGE_AIR_EQUIPMENT
+  - name: STR_LARGE_AIR_EQUIPMENT_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_HEAVY_PLASMA_WEAPONS
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+    unlocks:
+      - STR_LARGE_AIR_EQUIPMENT
+  - name: STR_LARGE_AIR_EQUIPMENT_DEP3
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_FUSION_MISSILE
+    unlocks:
+      - STR_LARGE_AIR_EQUIPMENT
+  - name: STR_LARGE_PYLON_MOUNT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_AIRCRAFT
+      - STR_LARGE_AIR_EQUIPMENT
+  - name: STR_LARGE_PYLON_MOUNT_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_NEW_FIGHTER_CRAFT
+    unlocks:
+      - STR_LARGE_PYLON_MOUNT
+  - name: STR_LARGE_PYLON_MOUNT_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ULTIMATE_TRANSPORT_CRAFT
+    unlocks:
+      - STR_LARGE_PYLON_MOUNT
+  - name: STR_WEP_OUT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALLOY_WEAPONS
+    unlocks:
+      - STR_OUT_OUT
+  - name: STR_ARM_OUT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PERSONAL_ARMOR
+    unlocks:
+      - STR_OUT_OUT
+  - name: STR_AIR_OUT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ADVANCED_AIRCRAFT
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_AUTOMATIC_LASER_WEAPONS
+    unlocks:
+      - STR_OUT_OUT
+  - name: STR_AIR_OUT_DEP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    unlocks:
+      - STR_AIR_OUT
+  - name: STR_HWP_OUT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_ALLOYS
+    unlocks:
+      - STR_OUT_OUT
+  - name: STR_HWP_OUT_DEP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+    unlocks:
+      - STR_HWP_OUT
+  - name: STR_EQP_OUT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_POWERED_MELEE_WEAPONS_UP
+      - STR_ALIEN_GRENADE
+    unlocks:
+      - STR_OUT_OUT
+  - name: STR_OUT_OUT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_WEP_OUT
+      - STR_ARM_OUT
+      - STR_AIR_OUT
+      - STR_HWP_OUT
+      - STR_EQP_OUT

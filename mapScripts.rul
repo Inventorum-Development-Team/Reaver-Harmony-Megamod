@@ -1,0 +1,374 @@
+mapScripts:
+  - type: FARM
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+      maxUses: [99, 4, 4, 4, 4, 4, 8, 99, 8, 8, 8, 99, 4, 4, 6, 4, 2, 3, 1]
+  - type: URBAN
+    commands:
+    - type: addBlock
+      label: 3
+      rects:
+        - [0, 1, 1, 4]
+      blocks: 15
+      executionChances: 25
+    - type: addBlock
+      label: 4
+      conditionals: -3
+      rects:
+        - [1, 0, 4, 1]
+      blocks: 15
+      executionChances: 33
+    - type: addBlock
+      label: 5
+      conditionals: [-3, -4]
+      rects:
+        - [1, 5, 4, 1]
+      blocks: 15
+      executionChances: 50
+    - type: addBlock
+      conditionals: [-3, -4, -5]
+      rects:
+        - [5, 1, 1, 4]
+      blocks: 15
+    - type: addCraft
+      rects:
+        - [2, 2, 2, 2]
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: fillArea
+      rects:
+        - [2, 2, 2, 2]
+      blocks: [3, 4]
+      freqs: [3, 3]
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [3, 4, 10, 11, 12, 13, 14]
+      freqs: [3, 3, 2, 2, 2, 2, 2]
+  - type: MARS
+    commands:
+    - type: addBlock
+      label: 3
+      rects:
+        - [3, 4, 2, 4]
+      blocks: 10
+      executionChances: 25
+    - type: addBlock
+      label: 4
+      conditionals: -3
+      rects:
+        - [4, 3, 4, 2]
+      blocks: 10
+      executionChances: 33
+    - type: addBlock
+      label: 5
+      conditionals: [-3, -4]
+      rects:
+        - [4, 7, 4, 2]
+      blocks: 10
+      executionChances: 50
+    - type: addBlock
+      conditionals: [-3, -4, -5]
+      rects:
+        - [7, 4, 2, 4]
+      blocks: 10
+    - type: addCraft
+      rects:
+        - [6, 5, 2, 2]
+      conditionals: 3
+    - type: fillArea
+      rects:
+        - [5, 4, 4, 4]
+      conditionals: 3
+      groups: 0
+    - type: addCraft
+      rects:
+        - [5, 6, 2, 2]
+      conditionals: 4
+    - type: fillArea
+      rects:
+        - [4, 5, 4, 4]
+      conditionals: 4
+      groups: 0
+    - type: addCraft
+      rects:
+        - [5, 4, 2, 2]
+      conditionals: 5
+    - type: fillArea
+      rects:
+        - [4, 3, 4, 4]
+      conditionals: 5
+      groups: 0
+    - type: addCraft
+      rects:
+        - [4, 5, 2, 2]
+      conditionals: [-3, -4, -5]
+    - type: fillArea
+      rects:
+        - [3, 4, 4, 4]
+      conditionals: [-3, -4, -5]
+      groups: 0
+    - type: fillArea
+      blocks: [7, 8, 9]
+      maxUses: [5, 3, 8]
+    - type: fillArea
+      groups: 0
+  - type: ALIENOUTPOST
+    commands:
+    - type: addBlock
+      groups: 2
+    - type: addBlock
+      groups: 3
+    - type: addBlock
+      blocks: 1
+      executionChances: 20
+    - type: addBlock
+      blocks: 5
+      executionChances: 50
+    - type: addBlock
+      blocks: 11
+      executionChances: 50
+    - type: fillArea
+      groups: [0, 1]
+      freqs: [3, 2]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+  - type: ALIENBASE
+    commands:
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      size: 2
+      groups: 3
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+      groups: [0, 1]
+      freqs: [3, 2]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+  - type: SNAKEMANOUTPOST
+    commands:
+    - type: addBlock
+      label: 1
+      rects:
+        - [3, 1, 1, 1]
+      blocks: 1
+      executionChances: 25
+    - type: addBlock
+      label: 2
+      conditionals: -1
+      rects:
+        - [5, 3, 1, 1]
+      blocks: 1
+      executionChances: 33
+    - type: addBlock
+      label: 3
+      conditionals: [-1, -2]
+      rects:
+        - [3, 5, 1, 1]
+      blocks: 1
+      executionChances: 50
+    - type: addBlock
+      label: 4
+      conditionals: [-1, -2, -3]
+      rects:
+        - [1, 3, 1, 1]
+      blocks: 1
+    - type: addBlock
+      conditionals: 1
+      rects:
+        - [3, 2, 1, 1]
+      groups: 4
+    - type: addBlock
+      conditionals: 2
+      rects:
+        - [4, 3, 1, 1]
+      groups: 4
+    - type: addBlock
+      conditionals: 3
+      rects:
+        - [3, 4, 1, 1]
+      groups: 4
+    - type: addBlock
+      conditionals: 4
+      rects:
+        - [2, 3, 1, 1]
+      groups: 4
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 1
+        MCDReplacements:
+          - type: westWall
+            set: 1
+            entry: 53
+          - type: northWall
+            set: 1
+            entry: 52
+          - type: corner
+            set: 1
+            entry: 54
+          - type: floor
+            set: 1
+            entry: 55
+    - type: fillArea
+      rects:
+        - [0, 0, 6, 1]
+      blocks: 8
+    - type: fillArea
+      rects:
+        - [6, 0, 1, 6]
+      blocks: 8
+    - type: fillArea
+      rects:
+        - [1, 6, 6, 1]
+      blocks: 8
+    - type: fillArea
+      rects:
+        - [0, 1, 1, 6]
+      blocks: 8
+    - type: fillArea
+      rects:
+        - [1, 1, 1, 2]
+      blocks: 8
+    - type: addBlock
+      rects:
+        - [2, 1, 1, 1]
+      blocks: 8
+    - type: fillArea
+      rects:
+        - [4, 1, 2, 1]
+      blocks: 8
+    - type: addBlock
+      rects:
+        - [5, 2, 1, 1]
+      blocks: 8
+    - type: fillArea
+      rects:
+        - [5, 4, 1, 2]
+      blocks: 8
+    - type: addBlock
+      rects:
+        - [4, 5, 1, 1]
+      blocks: 8
+    - type: fillArea
+      rects:
+        - [1, 5, 2, 1]
+      blocks: 8
+    - type: addBlock
+      rects:
+        - [1, 4, 1, 1]
+      blocks: 8
+    - type: addBlock
+      rects:
+        - [3, 3, 1, 1]
+      blocks: 0
+    - type: addBlock
+      blocks: [2, 3, 4]
+      maxUses: [2, 1, 3]
+      freqs: [2, 1, 3]
+      executions: 3
+    - type: fillArea
+      groups: 4
+  - type: BOSSBATTLE
+    commands:
+    - type: addBlock
+      groups: 2
+      rects:
+        - [1, 6, 2, 2]
+      executions: 1
+    - type: addBlock
+      groups: 4
+      size: 2
+      rects:
+        - [1, 0, 2, 2]
+    - type: fillArea
+      blocks: [1, 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 9, 9]
+    - type: fillArea
+      groups: 5
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+  - type: XBASE
+    commands:
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 3
+            entry: 59
+          - type: northWall
+            set: 3
+            entry: 58
+    - type: fillArea
+      blocks: 20

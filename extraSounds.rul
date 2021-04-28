@@ -1,0 +1,40 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      300: Resources/AwesomeGuns.Laser/Fire1.ogg
+      301: Resources/AwesomeGuns.Laser/Fire2.ogg
+      302: Resources/AwesomeGuns.Laser/Fire3.ogg
+      303: Resources/AwesomeGuns.Laser/Hit.ogg
+      304: Resources/AwesomeGuns.Laser/FireT.ogg
+      305: Resources/XComFiles/Weapons_Compilation/WeaponSounds/LaserPistolFire.wav
+      306: Resources/XComFiles/Weapons_Compilation/WeaponSounds/SlashHit.wav
+      307: Resources/XComFiles/Weapons_Compilation/WeaponSounds/Heavy_Hit.wav
+      308: Resources/XComFiles/Weapons_Compilation/WeaponSounds/PlasmaBlade_slice.wav
+      309: Resources/XComFiles/Weapons_Compilation/WeaponSounds/PlasmaSword_slice.wav
+      310: Resources/XComFiles/Weapons_Compilation/WeaponSounds/PlasmaMelee_hit.wav
+      311: Resources/AwesomeGuns/stun_rod.ogg
+      312: Resources/XComFiles/Weapons_Compilation/WeaponSounds/AlienAcid.wav
+      313: Resources/XComFiles/Weapons_Compilation/WeaponSounds/ShotgunFire.wav
+      314: Resources/XComFiles/Weapons_Compilation/WeaponSounds/LaserHeavyFire.wav
+      315: Resources/XComFiles/Weapons_Compilation/WeaponSounds/PlasmaPistolFire.wav
+      316: Resources/XComFiles/Weapons_Compilation/WeaponSounds/PlasmaHeavyFire.wav
+      317: Resources/XComFiles/Weapons_Compilation/WeaponSounds/ArrowHit.wav
+      318: Resources/PIRATEZ/SOUND/BozarFire.wav
+      319: Resources/PIRATEZ/SOUND/SniperHit.wav
+      320: Resources/AwesomeGuns/hit.wav
+      321: Resources/PIRATEZ/SOUND/geo_missile_smaller.ogg
+      322: Resources/HQ Sounds/geo_planedestroyed.ogg
+      323: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Fire.wav
+      324: Resources/ReaversEquipment/Psi_Hit.wav
+  - type: GEO.CAT
+    files:
+      300: Resources/AwesomeGuns/laser.wav
+      301: Resources/From the Apocalypse/MISSILE_HEAVY_attack.wav
+      302: Resources/PIRATEZ/SOUND/geo_laser.ogg
+      303: Resources/HQ Sounds/geo_missile_smaller.ogg
+      304: Resources/PIRATEZ/SOUND/XGaussFire2.wav
+      305: Resources/XenoOperations/Sounds/heavyplasmacannon.ogg
+      306: Resources/XenoOperations/Sounds/Hybrid2.ogg
+      307: Resources/XenoOperations/Sounds/Hybrid3.ogg
+      308: Resources/XenoOperations/Sounds/PlasmasHit1.ogg
+      309: Resources/HQ Sounds/geo_missile.ogg
