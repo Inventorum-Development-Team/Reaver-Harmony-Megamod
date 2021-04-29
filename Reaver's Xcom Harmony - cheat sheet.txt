@@ -168,13 +168,13 @@ Harvester (crashed):	18	15.3% of landed elerium quantity
 Terror Ship (crashed):	30	16.7% of landed elerium quantity
 Supply Ship (crashed):	44	22.7% of landed elerium quantity
 Battleship (crashed):	60	23.1% of landed elerium quantity
-Medium Scout (landed):	54	
-Large Scout (landed):	60	
-Abductor (landed):	115	
-Harvester (landed):	118	
-Terror Ship (landed):	180	
-Supply Ship (landed):	194	
-Battleship (landed):	260	
+Medium Scout (landed):	54
+Large Scout (landed):	60
+Abductor (landed):	115
+Harvester (landed):	118
+Terror Ship (landed):	180
+Supply Ship (landed):	194
+Battleship (landed):	260
 
 
 ELITE UFO		DAMAGEMAX	TOTAL HIT POINTS
@@ -232,22 +232,22 @@ Heavy Destroyer		45	28		80	280	80.00
 Battleship		62	25		80	200	64.00
 Mothership		52	38		70	240	44.21
 
-Elite Small Scout	37	29		89	28	
-Elite Covert Ops Ship	48	44		78	48	
-Elite Medium Scout	42	22		100	34	
-Elite Large Scout	51	51		67	95	
-Elite Light Destroyer	49	30		89	94	
+Elite Small Scout	37	29		89	28
+Elite Covert Ops Ship	48	44		78	48
+Elite Medium Scout	42	22		100	34
+Elite Large Scout	51	51		67	95
+Elite Light Destroyer	49	30		89	94
 
-Elite Cargo Ship	45	24		100	70	
-Elite Abductor		55	60		67	220	
-Elite Harvester		46	20		100	62	
-Elite Medium Destroyer	50	35		89	200	
+Elite Cargo Ship	45	24		100	70
+Elite Abductor		55	60		67	220
+Elite Harvester		46	20		100	62
+Elite Medium Destroyer	50	35		89	200
 
-Elite Terror Ship	60	51		67	300	
-Elite Supply Ship	53	18		100	100	
-Elite Heavy Destroyer	52	32		89	350	
-Elite Battleship	64	29		89	255	
-Elite Mothership	58	44		78	300	
+Elite Terror Ship	60	51		67	300
+Elite Supply Ship	53	18		100	100
+Elite Heavy Destroyer	52	32		89	350
+Elite Battleship	64	29		89	255
+Elite Mothership	58	44		78	300
 
 
 
