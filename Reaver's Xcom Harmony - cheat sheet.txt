@@ -3,6 +3,8 @@ Reaver's X-Com Harmony - Cheat Sheet
 This document was designed to assist me in developing the game. The information contained herein may contain
 spoilers or the information may be out of date.
 
+
+
 DIFFICULTY SETTING:	EFFECTS:
 
 Beginner:		easy armor, easy aircraft, easy aliens, low alien numbers, UFO attack -0gs/retreat -0gs, defeat score -1600
