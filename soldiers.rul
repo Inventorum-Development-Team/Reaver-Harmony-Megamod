@@ -406,7 +406,7 @@ soldiers:
       firing: 50
       throwing: 50
       strength: 27
-      psiStrength: 30
+      psiStrength: 40
       psiSkill: 0
       melee: 50
       mana: 27
@@ -604,7 +604,7 @@ soldiers:
       firing: 60
       throwing: 60
       strength: 35
-      psiStrength: 30
+      psiStrength: 40
       psiSkill: 0
       melee: 60
       mana: 33
