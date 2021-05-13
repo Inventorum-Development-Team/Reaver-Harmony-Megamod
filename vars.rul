@@ -31,7 +31,6 @@ chanceToStopRetaliation: 40
 lessAliensDuringBaseDefense: true
 buildTimeReductionScaling: 100
 customTrainingFactor: 30
-noLOSAccuracyPenaltyCursor: true
 noLOSAccuracyPenaltyGlobal: 75
 kneelBonusGlobal: 125
 oneHandedPenaltyGlobal: 60
@@ -82,6 +81,8 @@ itemCategories:
   - type: STR_CAT_ALIEN_ARTIFACTS
   - type: STR_CAT_UFO_COMPONENTS
   - type: STR_CAT_SALVAGE
+  - type: STR_CAT_DATA_MODULE
+  - type: STR_CAT_FLAGSHIP_COMPONENT
 difficultyDemigod: true
 difficultyCoefficient: [0, 2, 4, 6, 8]
 difficultyBasedRetaliationDelay: [2, 1, 0, 0, 0]
@@ -102,12 +103,12 @@ statGrowthMultipliers:
 turnAIUseGrenade: 1
 turnAIUseBlaster: 1
 constants:
-  - damageRange: 25
-  - explosiveDamageRange: 25
-  - fireDamageRange: [22, 38]
-  - extendedItemReloadCost: true
-  - extendedRunningCost: true
-  - extendedTerrainMelee: 4
+    damageRange: 25
+    explosiveDamageRange: 25
+    fireDamageRange: [22, 38]
+    extendedItemReloadCost: true
+    extendedRunningCost: true
+    extendedTerrainMelee: 4
 mana:
   enabled: true
   battleUI: false

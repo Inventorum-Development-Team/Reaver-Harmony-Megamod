@@ -284,16 +284,11 @@ MCDPatches:
       - MCDIndex: 0
         armor: 20
         explosive: 180
-        targetType: 15
       - MCDIndex: 1
         armor: 30
         explosive: 225
-        targetType: 15
       - MCDIndex: 2
         armor: 20
-        HEType: 1
-        HEStrength: 25
-        targetType: 7
       - MCDIndex: 3
         armor: 90
       - MCDIndex: 4

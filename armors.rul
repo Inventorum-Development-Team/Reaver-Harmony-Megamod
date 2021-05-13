@@ -117,8 +117,7 @@ armors:
   - type: STR_DEFENSE_AP_TURRET_ARMOR
     spriteSheet: DEFENSE_TURRET_AP.PCK
     allowInv: false
-    corpseGeo:
-      - STR_DEFENSE_AP_TURRET_CORPSE
+    corpseGeo: STR_DEFENSE_AP_TURRET_CORPSE
     corpseBattle:
       - STR_DEFENSE_AP_TURRET_CORPSE
     frontArmor: 40
@@ -142,19 +141,16 @@ armors:
       flatHundred: -0.4
     zombiImmune: true
     bleedImmune: true
-    stunImmune: true
     painImmune: true
     fearImmune: true
     loftempsSet: [ 6 ]
     drawingRoutine: 19
     allowsKneeling: false
-    allowsSprinting: false
     allowsMoving: false
   - type: STR_DEFENSE_LASER_TURRET_ARMOR
     spriteSheet: DEFENSE_TURRET_LASER.PCK
     allowInv: false
-    corpseGeo:
-      - STR_DEFENSE_LASER_TURRET_CORPSE
+    corpseGeo: STR_DEFENSE_LASER_TURRET_CORPSE
     corpseBattle:
       - STR_DEFENSE_LASER_TURRET_CORPSE
     frontArmor: 60
@@ -178,19 +174,16 @@ armors:
       flatHundred: -0.4
     zombiImmune: true
     bleedImmune: true
-    stunImmune: true
     painImmune: true
     fearImmune: true
     loftempsSet: [ 6 ]
     drawingRoutine: 19
     allowsKneeling: false
-    allowsSprinting: false
     allowsMoving: false
   - type: STR_DEFENSE_PLASMA_TURRET_ARMOR
     spriteSheet: DEFENSE_TURRET_PLASMA.PCK
     allowInv: false
-    corpseGeo:
-      - STR_DEFENSE_PLASMA_TURRET_CORPSE
+    corpseGeo: STR_DEFENSE_PLASMA_TURRET_CORPSE
     corpseBattle:
       - STR_DEFENSE_PLASMA_TURRET_CORPSE
     frontArmor: 80
@@ -214,13 +207,11 @@ armors:
       flatHundred: -0.4
     zombiImmune: true
     bleedImmune: true
-    stunImmune: true
     painImmune: true
     fearImmune: true
     loftempsSet: [ 6 ]
     drawingRoutine: 19
     allowsKneeling: false
-    allowsSprinting: false
     allowsMoving: false
   - type: TANK_ARMOR_GUARDIAN
     spriteSheet: GTANKS.PCK

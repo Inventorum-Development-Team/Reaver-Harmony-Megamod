@@ -1662,7 +1662,6 @@ items:
     transferTime: 144
     costSell: 1380000
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
-    transferTime: 96
     weight: 1
     customItemPreviewIndex: 3
     bigSprite: 800
@@ -1693,7 +1692,6 @@ items:
     transferTime: 144
     costSell: 1010000
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
-    transferTime: 96
     weight: 1
     customItemPreviewIndex: 10
     bigSprite: 800
@@ -1725,7 +1723,6 @@ items:
     transferTime: 144
     costSell: 740000
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
-    transferTime: 96
     weight: 1
     customItemPreviewIndex: 17
     bigSprite: 800
@@ -1757,7 +1754,6 @@ items:
     transferTime: 72
     costSell: 13100
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
-    transferTime: 48
     weight: 1
     bigSprite: -1
     floorSprite: 16
@@ -1786,7 +1782,6 @@ items:
     transferTime: 72
     costSell: 26200
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
-    transferTime: 48
     weight: 1
     bigSprite: -1
     floorSprite: 16
@@ -1817,7 +1812,6 @@ items:
     transferTime: 72
     costSell: 52500
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
-    transferTime: 48
     weight: 1
     bigSprite: -1
     floorSprite: 16
@@ -1850,7 +1844,6 @@ items:
     transferTime: 144
     costSell: 1645000
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
-    transferTime: 96
     weight: 1
     customItemPreviewIndex: 2
     bigSprite: 801
@@ -1923,7 +1916,6 @@ items:
     transferTime: 144
     costSell: 885000
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
-    transferTime: 96
     weight: 1
     customItemPreviewIndex: 16
     bigSprite: 801
@@ -4513,7 +4505,6 @@ items:
     damageAlter:
       RadiusReduction: 15
       ArmorEffectiveness: 0.2
-    damageType: 6
     clipSize: 1
     battleType: 2
     blastRadius: 4
@@ -4868,7 +4859,6 @@ items:
     damageAlter:
       RadiusReduction: 10
       ArmorEffectiveness: 0.2
-    damageType: 6
     clipSize: 1
     battleType: 2
     blastRadius: 4
@@ -4905,7 +4895,7 @@ items:
       - STR_ALIENS_ONLY
     size: 0.0125
     costSell: 179000
-    categories: [STR_ALIEN_ARTIFACTS]
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 5
     bigSprite: 29
     floorSprite: 28
@@ -5318,9 +5308,6 @@ items:
     costPanic:
       time: 18
       mana: 4
-    flatPanic:
-      time: false
-      mana: true
     costMindControl:
       time: 0
     accuracyPanic: 10
@@ -5415,15 +5402,9 @@ items:
     costPanic:
       time: 20
       mana: 6
-    flatPanic:
-      time: true
-      mana: true
     costMindControl:
       time: 30
       mana: 12
-    flatMindControl:
-      time: true
-      mana: true
     tuUse: 25
     flatRate: true
     twoHanded: true #used only for handobs offset
@@ -5450,15 +5431,9 @@ items:
     costPanic:
       time: 30
       mana: 9
-    flatPanic:
-      time: false
-      mana: true
     costMindControl:
       time: 65
       mana: 26
-    flatMindControl:
-      time: false
-      mana: true
     costUse:
       time: 45
       mana: 16
@@ -5528,7 +5503,7 @@ items:
   - type: STR_POWER_SUIT_PISTOL_CLIP
     listOrder: 6005
     size: 0.003
-    costSell: 340,000
+    costSell: 340000
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
     weight: 7
     bigSprite: 363
@@ -7711,10 +7686,9 @@ items:
     floorSprite: 31
     handSprite: 104
     bulletSprite: 43
-    hitAnimation: 116
     fireSound: 51
     hitSound: 19
-    hitAnimation: 46
+    hitAnimation: 116
     power: 60
     damageType: 8
     damageAlter:
@@ -7946,15 +7920,9 @@ items:
     costPanic:
       time: 25
       mana: 10
-    flatPanic:
-      time: true
-      mana: true
     costMindControl:
       time: 25
       mana: 18
-    flatMindControl:
-      time: true
-      mana: true
     flatRate: true
     recover: false
   - type: FLOATER_PSI_WEAPON
@@ -8001,15 +7969,9 @@ items:
     costPanic:
       time: 25
       mana: 10
-    flatPanic:
-      time: true
-      mana: true
     costMindControl:
       time: 25
       mana: 18
-    flatMindControl:
-      time: true
-      mana: true
     flatRate: true
     recover: false
   - type: STR_WELCOME_GIFT

@@ -272,6 +272,7 @@ research:
     points: 140
     dependencies:
       - STR_PSIONIC_POWER_ARMOR
+      - STR_PSIONIC_DISRUPTOR
       - STR_SUPER_SOLDIERS
       - STR_PSIONIC_IMPLANTATION
   - name: STR_FEAR_PROJECTION
@@ -1674,7 +1675,6 @@ research:
     listOrder: 1946
     cost: 120
     points: 0
-    lookup: STR_ETHEREAL_N_AUTOPSY
     needItem: true
     destroyItem: true
     unlocks:
@@ -2137,23 +2137,22 @@ research:
       - STR_ALIEN_TERROR
       - STR_ALIEN_RETALIATION
       - STR_ALIEN_SUPPLY
-    getOneFreeProtected:
       STR_PRE_INVASION_MISSIONS:
-        - STR_DATA_CAPSULE_MS
-        - STR_DATA_CAPSULE_LS
-        - STR_DATA_CAPSULE_CS
-        - STR_DATA_CAPSULE_AB
-        - STR_DATA_CAPSULE_HV
-        - STR_DATA_CAPSULE_TS
-        - STR_DATA_CAPSULE_SS
-        - STR_DATA_CAPSULE_BS
-        - STR_DATA_CAPSULE_MO
-        - STR_DATA_CAPSULE_LD
-        - STR_DATA_CAPSULE_MD
-        - STR_DATA_CAPSULE_HD
-        - STR_DATA_CACHE_TS
-        - STR_DATA_CACHE_AO
-        - STR_DATA_CACHE_AB
+      - STR_DATA_CAPSULE_MS
+      - STR_DATA_CAPSULE_LS
+      - STR_DATA_CAPSULE_CS
+      - STR_DATA_CAPSULE_AB
+      - STR_DATA_CAPSULE_HV
+      - STR_DATA_CAPSULE_TS
+      - STR_DATA_CAPSULE_SS
+      - STR_DATA_CAPSULE_BS
+      - STR_DATA_CAPSULE_MO
+      - STR_DATA_CAPSULE_LD
+      - STR_DATA_CAPSULE_MD
+      - STR_DATA_CAPSULE_HD
+      - STR_DATA_CACHE_TS
+      - STR_DATA_CACHE_AO
+      - STR_DATA_CACHE_AB
   - name: STR_SECTOID_MEDIC
     listOrder: 2200
     cost: 200
@@ -2193,7 +2192,6 @@ research:
       - STR_MUTON_B_CORPSE
       - STR_SNAKEMAN_COMMANDER_B
       - STR_SNAKEMAN_COMMANDER_B_CORPSE
-    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
       - STR_SECTOID_C
       - STR_FLOATER_C
@@ -2243,7 +2241,6 @@ research:
       - STR_MUTON_B_AUTOPSY
       - STR_SNAKEMAN_COMMANDER_B
       - STR_SNAKEMAN_COMMANDER_B_AUTOPSY
-    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
       - STR_SECTOID_C
       - STR_FLOATER_C
@@ -2293,7 +2290,6 @@ research:
       - STR_MUTON_B_AUTOPSY
       - STR_SNAKEMAN_COMMANDER_B
       - STR_SNAKEMAN_COMMANDER_B_AUTOPSY
-    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
       - STR_SECTOID_C
       - STR_FLOATER_C

@@ -135,10 +135,7 @@ soldierTransformation:
   - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_1
     listOrder: 100
     requires:
-      - STR_PSI_DISRUPTOR
-      - STR_PSIONIC_ARMOR
-      - STR_SUPER_SOLDIERS
-      - STR_PSIONIC_IMPLANTATION
+      - STR_ADVANCED_PSIONIC_IMPLANTATION
     requiresBaseFunc:
       - STR_SUPER_SOLDIERS
     producedSoldierType: STR_SUPER_PSIBORG
@@ -171,10 +168,7 @@ soldierTransformation:
   - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_2
     listOrder: 110
     requires:
-      - STR_PSI_DISRUPTOR
-      - STR_PSIONIC_ARMOR
-      - STR_SUPER_SOLDIERS
-      - STR_PSIONIC_IMPLANTATION
+      - STR_ADVANCED_PSIONIC_IMPLANTATION
     requiresBaseFunc:
       - STR_SUPER_SOLDIERS
     producedSoldierType: STR_SUPER_PSIBORG
@@ -209,10 +203,7 @@ soldierTransformation:
   - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_3
     listOrder: 120
     requires:
-      - STR_PSI_DISRUPTOR
-      - STR_PSIONIC_ARMOR
-      - STR_SUPER_SOLDIERS
-      - STR_PSIONIC_IMPLANTATION
+      - STR_ADVANCED_PSIONIC_IMPLANTATION
     requiresBaseFunc:
       - STR_SUPER_SOLDIERS
     producedSoldierType: STR_SUPER_PSIBORG
@@ -248,10 +239,7 @@ soldierTransformation:
   - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_4
     listOrder: 130
     requires:
-      - STR_PSI_DISRUPTOR
-      - STR_PSIONIC_ARMOR
-      - STR_SUPER_SOLDIERS
-      - STR_PSIONIC_IMPLANTATION
+      - STR_ADVANCED_PSIONIC_IMPLANTATION
     requiresBaseFunc:
       - STR_SUPER_SOLDIERS
     producedSoldierType: STR_SUPER_PSIBORG
@@ -288,10 +276,7 @@ soldierTransformation:
   - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_5
     listOrder: 140
     requires:
-      - STR_PSI_DISRUPTOR
-      - STR_PSIONIC_ARMOR
-      - STR_SUPER_SOLDIERS
-      - STR_PSIONIC_IMPLANTATION
+      - STR_ADVANCED_PSIONIC_IMPLANTATION
     requiresBaseFunc:
       - STR_SUPER_SOLDIERS
     producedSoldierType: STR_SUPER_PSIBORG
@@ -329,10 +314,7 @@ soldierTransformation:
   - name: STR_SUPER_PSIBORG_PSI_DEF_MASTERY_6
     listOrder: 150
     requires:
-      - STR_PSI_DISRUPTOR
-      - STR_PSIONIC_ARMOR
-      - STR_SUPER_SOLDIERS
-      - STR_PSIONIC_IMPLANTATION
+      - STR_ADVANCED_PSIONIC_IMPLANTATION
     requiresBaseFunc:
       - STR_SUPER_SOLDIERS
     producedSoldierType: STR_SUPER_PSIBORG

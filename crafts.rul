@@ -25,7 +25,6 @@ crafts:
     costSell: 350000
     costRent: 350000
     forceShowInMonthlyCosts: false
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 60
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -34,7 +33,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 175
-    craftType: 1
   - type: STR_SKYRAIDER_EASY
     listOrder: 100
     sprite: 824
@@ -66,7 +64,6 @@ crafts:
     costSell: 450000
     costRent: 450000
     forceShowInMonthlyCosts: false
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 50
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -75,7 +72,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 225
-    craftType: 2
     battlescapeTerrainData:
       name: SKYRAIDER
       mapDataSets:
@@ -120,7 +116,6 @@ crafts:
     costBuy: 650000
     costSell: 650000
     costRent: 650000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 40
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -129,7 +124,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 325
-    craftType: 2
     battlescapeTerrainData:
       name: MAMMOTH
       mapDataSets:
@@ -179,17 +173,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 2112000
-    transferTime: 144
     costSell: 1900000
     costRent: 350000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 90
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 175
   - type: STR_STORMCHARGER_EASY
     listOrder: 140
@@ -221,17 +213,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 2860000
-    transferTime: 144
     costSell: 2600000
     costRent: 450000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 75
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 225
     battlescapeTerrainData:
       name: STORMCHARGER
@@ -283,17 +273,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 3905000
-    transferTime: 144
     costSell: 3550000
     costRent: 650000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 60
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 325
     battlescapeTerrainData:
       name: MASTODON
@@ -351,14 +339,13 @@ crafts:
     costBuy: 2530000
     costSell: 2300000
     costRent: 400000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 110
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 200
   - type: STR_EXTERMINATOR_EASY
     listOrder: 170
@@ -393,14 +380,13 @@ crafts:
     costBuy: 5060000
     costSell: 4600000
     costRent: 800000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 90
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 400
     battlescapeTerrainData:
       name: MAMMOTH
@@ -1014,7 +1000,6 @@ crafts:
     costSell: 350000
     costRent: 350000
     forceShowInMonthlyCosts: false
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 60
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -1023,7 +1008,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 140
-    craftType: 1
   - type: STR_SKYRAIDER
     listOrder: 100
     sprite: 824
@@ -1054,7 +1038,6 @@ crafts:
     costSell: 450000
     costRent: 450000
     forceShowInMonthlyCosts: false
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 50
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -1063,7 +1046,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 180
-    craftType: 2
     battlescapeTerrainData:
       name: SKYRAIDER
       mapDataSets:
@@ -1107,7 +1089,6 @@ crafts:
     costBuy: 650000
     costSell: 650000
     costRent: 650000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 40
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -1116,7 +1097,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 260
-    craftType: 2
     battlescapeTerrainData:
       name: MAMMOTH
       mapDataSets:
@@ -1165,17 +1145,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 2112000
-    transferTime: 144
     costSell: 1900000
     costRent: 350000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 90
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 140
   - type: STR_STORMCHARGER
     listOrder: 140
@@ -1206,17 +1184,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 2860000
-    transferTime: 144
     costSell: 2600000
     costRent: 450000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 75
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 180
     battlescapeTerrainData:
       name: STORMCHARGER
@@ -1267,17 +1243,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 3905000
-    transferTime: 144
     costSell: 3550000
     costRent: 650000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 60
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 260
     battlescapeTerrainData:
       name: MASTODON
@@ -1334,14 +1308,13 @@ crafts:
     costBuy: 2530000
     costSell: 2300000
     costRent: 400000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 110
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 160
   - type: STR_EXTERMINATOR
     listOrder: 170
@@ -1375,14 +1348,13 @@ crafts:
     costBuy: 5060000
     costSell: 4600000
     costRent: 800000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 90
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 320
     battlescapeTerrainData:
       name: MAMMOTH
@@ -1989,7 +1961,6 @@ crafts:
     costSell: 350000
     costRent: 350000
     forceShowInMonthlyCosts: false
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 60
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -1998,7 +1969,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 105
-    craftType: 1
   - type: STR_SKYRAIDER_HARD
     listOrder: 100
     sprite: 824
@@ -2030,7 +2000,6 @@ crafts:
     costSell: 450000
     costRent: 450000
     forceShowInMonthlyCosts: false
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 50
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -2039,7 +2008,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 135
-    craftType: 2
     battlescapeTerrainData:
       name: SKYRAIDER
       mapDataSets:
@@ -2084,7 +2052,6 @@ crafts:
     costBuy: 650000
     costSell: 650000
     costRent: 650000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_EARLY_TECH]
     refuelRate: 40
     repairRate: 2
     shieldRechargedAtBase: 50
@@ -2093,7 +2060,6 @@ crafts:
     radarChance: 40
     transferTime: 96
     score: 195
-    craftType: 2
     battlescapeTerrainData:
       name: MAMMOTH
       mapDataSets:
@@ -2143,17 +2109,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 2112000
-    transferTime: 144
     costSell: 1900000
     costRent: 350000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 90
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 105
   - type: STR_STORMCHARGER_HARD
     listOrder: 140
@@ -2185,17 +2149,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 2860000
-    transferTime: 144
     costSell: 2600000
     costRent: 450000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 75
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 135
     battlescapeTerrainData:
       name: STORMCHARGER
@@ -2247,17 +2209,15 @@ crafts:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
     costBuy: 3905000
-    transferTime: 144
     costSell: 3550000
     costRent: 650000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 60
     repairRate: 2
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 195
     battlescapeTerrainData:
       name: MASTODON
@@ -2315,14 +2275,13 @@ crafts:
     costBuy: 2530000
     costSell: 2300000
     costRent: 400000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 110
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 120
   - type: STR_EXTERMINATOR_HARD
     listOrder: 170
@@ -2357,14 +2316,13 @@ crafts:
     costBuy: 5060000
     costSell: 4600000
     costRent: 800000
-    categories: [STR_CAT_AIRCRAFT, STR_CAT_MID_TECH]
     refuelRate: 90
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
     radarChance: 40
-    transferTime: 120
+    transferTime: 144
     score: 240
     battlescapeTerrainData:
       name: MAMMOTH

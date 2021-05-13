@@ -3300,7 +3300,6 @@ ufopaedia:
     text: STR_ALIEN_RETALIATION_UFOPEDIA
   - id: STR_ALIEN_SUPPLY
     listOrder: 10270
-    listOrder: 10910
     type_id: 8
     section: STR_ALIEN_RESEARCH_UC
     requires:

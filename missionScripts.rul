@@ -525,7 +525,6 @@ missionScripts:
     lastMonth: 80
     missionWeights:
       0:
-      0:
         STR_ALIEN_OUTPOST_ELITE: 50
         STR_ALIEN_BASE_ELITE: 50
     raceWeights:

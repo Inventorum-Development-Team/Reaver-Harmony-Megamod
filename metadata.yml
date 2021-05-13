@@ -12,6 +12,9 @@
 #
 # changelog:
 #  0.9.0:   Public release into open beta.
+#  0.9.1:   Several validation fixes using VSCode. Special thanks to pedroterzero.
+#       * Fixed advanced psi implantation requirements.
+#       * Fix to critical targeting computer.
 #
 #
 # resource authors/sources:
