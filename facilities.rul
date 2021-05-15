@@ -245,7 +245,7 @@ facilities:
     buildTime: 12
     monthlyCost: 1200
     radarRange: 1800
-    radarChance: 100
+    radarChance: 10
     sightRange: 2000
     sightChance: 2
     buildOverFacilities:
