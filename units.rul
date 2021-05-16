@@ -23,7 +23,8 @@ units:
     energyRecovery: 10
     livingWeapon: true
     builtInWeaponSets:
-      - STR_TURRET_WEAPON_AP_H
+          -
+            - STR_TURRET_WEAPON_AP_H
   - type: STR_DEFENSE_AP_TURRET_R
     race: STR_DEFENSE_AP_TURRET
     stats:
@@ -48,7 +49,8 @@ units:
     energyRecovery: 10
     livingWeapon: true
     builtInWeaponSets:
-      - STR_TURRET_WEAPON_AP_R
+          -
+            - STR_TURRET_WEAPON_AP_R
   - type: STR_DEFENSE_LASER_TURRET_H
     race: STR_DEFENSE_LASER_TURRET
     stats:
@@ -73,7 +75,8 @@ units:
     energyRecovery: 10
     livingWeapon: true
     builtInWeaponSets:
-      - STR_TURRET_WEAPON_LASER_H
+          -
+            - STR_TURRET_WEAPON_LASER_H
   - type: STR_DEFENSE_LASER_TURRET_R
     race: STR_DEFENSE_LASER_TURRET
     stats:
@@ -98,7 +101,8 @@ units:
     energyRecovery: 10
     livingWeapon: true
     builtInWeaponSets:
-      - STR_TURRET_WEAPON_LASER_R
+          -
+            - STR_TURRET_WEAPON_LASER_R
   - type: STR_DEFENSE_PLASMA_TURRET_H
     race: STR_DEFENSE_PLASMA_TURRET
     stats:
@@ -123,7 +127,8 @@ units:
     energyRecovery: 10
     livingWeapon: true
     builtInWeaponSets:
-      - STR_TURRET_WEAPON_PLASMA_H
+          -
+            - STR_TURRET_WEAPON_PLASMA_H
   - type: STR_DEFENSE_PLASMA_TURRET_R
     race: STR_DEFENSE_PLASMA_TURRET
     stats:
@@ -148,7 +153,8 @@ units:
     energyRecovery: 10
     livingWeapon: true
     builtInWeaponSets:
-      - STR_TURRET_WEAPON_PLASMA_R
+          -
+            - STR_TURRET_WEAPON_PLASMA_R
   - type: STR_TANK_CANNON_GUARDIAN
     race: STR_TANK_CANNON_GUARDIAN
     stats:
@@ -171,7 +177,8 @@ units:
     moveSound: 14
     energyRecovery: 43
     builtInWeaponSets:
-      - STR_AUX_TANK_MACHINEGUN_G
+          -
+            - STR_AUX_TANK_MACHINEGUN_G
   - type: STR_TANK_CANNON
     race: STR_TANK_CANNON
     stats:
@@ -194,7 +201,8 @@ units:
     moveSound: 14
     energyRecovery: 50
     builtInWeaponSets:
-      - STR_AUX_TANK_MACHINEGUN_B
+          -
+            - STR_AUX_TANK_MACHINEGUN_B
   - type: STR_TANK_CANNON_ASSAULT
     race: STR_TANK_CANNON_ASSAULT
     stats:
@@ -217,7 +225,8 @@ units:
     moveSound: 14
     energyRecovery: 57
     builtInWeaponSets:
-      - STR_AUX_TANK_MACHINEGUN_A
+          -
+            - STR_AUX_TANK_MACHINEGUN_A
   - type: STR_TANK_ROCKET_GUARDIAN
     race: STR_TANK_ROCKET_GUARDIAN
     stats:
@@ -240,7 +249,8 @@ units:
     moveSound: 14
     energyRecovery: 43
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_G1
+          -
+            - STR_AUX_TANK_CANNON_G1
   - type: STR_TANK_ROCKET_LAUNCHER
     race: STR_TANK_ROCKET_LAUNCHER
     stats:
@@ -263,7 +273,8 @@ units:
     moveSound: 14
     energyRecovery: 50
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_B1
+          -
+            - STR_AUX_TANK_CANNON_B1
   - type: STR_TANK_ROCKET_ASSAULT
     race: STR_TANK_ROCKET_ASSAULT
     stats:
@@ -286,7 +297,8 @@ units:
     moveSound: 14
     energyRecovery: 57
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_A1
+          -
+            - STR_AUX_TANK_CANNON_A1
   - type: STR_TANK_AE_ROCKET_GUARDIAN
     race: STR_TANK_AE_ROCKET_GUARDIAN
     stats:
@@ -309,7 +321,8 @@ units:
     moveSound: 14
     energyRecovery: 43
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_G2
+          -
+            - STR_AUX_TANK_CANNON_G2
   - type: STR_TANK_AE_ROCKET_BATTLE
     race: STR_TANK_AE_ROCKET_BATTLE
     stats:
@@ -332,7 +345,8 @@ units:
     moveSound: 14
     energyRecovery: 50
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_B2
+          -
+            - STR_AUX_TANK_CANNON_B2
   - type: STR_TANK_AE_ROCKET_ASSAULT
     race: STR_TANK_AE_ROCKET_ASSAULT
     stats:
@@ -355,7 +369,8 @@ units:
     moveSound: 14
     energyRecovery: 57
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_A2
+          -
+            - STR_AUX_TANK_CANNON_A2
   - type: STR_TANK_LASER_GUARDIAN
     race: STR_TANK_LASER_GUARDIAN
     stats:
@@ -378,7 +393,8 @@ units:
     moveSound: 14
     energyRecovery: 45
     builtInWeaponSets:
-      - STR_AUX_TANK_LIGHT_LASER_G2
+          -
+            - STR_AUX_TANK_LIGHT_LASER_G2
   - type: STR_TANK_LASER_CANNON
     race: STR_TANK_LASER_CANNON
     stats:
@@ -401,7 +417,8 @@ units:
     moveSound: 14
     energyRecovery: 52
     builtInWeaponSets:
-      - STR_AUX_TANK_LIGHT_LASER_B2
+          -
+            - STR_AUX_TANK_LIGHT_LASER_B2
   - type: STR_TANK_LASER_ASSAULT
     race: STR_TANK_LASER_ASSAULT
     stats:
@@ -424,7 +441,8 @@ units:
     moveSound: 14
     energyRecovery: 60
     builtInWeaponSets:
-      - STR_AUX_TANK_LIGHT_LASER_A2
+          -
+            - STR_AUX_TANK_LIGHT_LASER_A2
   - type: STR_TANK_CERBERUS
     race: STR_TANK_CERBERUS
     stats:
@@ -447,7 +465,8 @@ units:
     moveSound: 14
     energyRecovery: 48
     builtInWeaponSets:
-      - STR_AUX_TANK_SMOKE_LAUNCHER
+          -
+            - STR_AUX_TANK_SMOKE_LAUNCHER
   - type: STR_TANK_VIGILANTE
     race: STR_TANK_VIGILANTE
     stats:
@@ -470,7 +489,8 @@ units:
     moveSound: 14
     energyRecovery: 56
     builtInWeaponSets:
-      - STR_AUX_TANK_FLAK_GUN
+          -
+            - STR_AUX_TANK_FLAK_GUN
   - type: STR_HOVERTANK_PLASMA_GUARDIAN
     race: STR_HOVERTANK_PLASMA_GUARDIAN
     stats:
@@ -494,7 +514,8 @@ units:
     moveSound: 40
     energyRecovery: 45
     builtInWeaponSets:
-      - STR_AUX_TANK_LIGHT_LASER_G3
+          -
+            - STR_AUX_TANK_LIGHT_LASER_G3
   - type: STR_HOVERTANK_PLASMA
     race: STR_HOVERTANK_PLASMA
     stats:
@@ -518,7 +539,8 @@ units:
     moveSound: 40
     energyRecovery: 55
     builtInWeaponSets:
-      - STR_AUX_TANK_LIGHT_LASER_B3
+          -
+            - STR_AUX_TANK_LIGHT_LASER_B3
   - type: STR_HOVERTANK_PLASMA_ASSAULT
     race: STR_HOVERTANK_PLASMA_ASSAULT
     stats:
@@ -542,7 +564,8 @@ units:
     moveSound: 40
     energyRecovery: 65
     builtInWeaponSets:
-      - STR_AUX_TANK_LIGHT_LASER_A3
+          -
+            - STR_AUX_TANK_LIGHT_LASER_A3
   - type: STR_HOVERTANK_LAUNCHER_GUARDIAN
     race: STR_HOVERTANK_LAUNCHER_GUARDIAN
     stats:
@@ -566,7 +589,8 @@ units:
     moveSound: 40
     energyRecovery: 45
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_G3
+          -
+            - STR_AUX_TANK_CANNON_G3
   - type: STR_HOVERTANK_LAUNCHER
     race: STR_HOVERTANK_LAUNCHER
     stats:
@@ -590,7 +614,8 @@ units:
     moveSound: 40
     energyRecovery: 55
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_B3
+          -
+            - STR_AUX_TANK_CANNON_B3
   - type: STR_HOVERTANK_LAUNCHER_ASSAULT
     race: STR_HOVERTANK_LAUNCHER_ASSAULT
     stats:
@@ -614,7 +639,8 @@ units:
     moveSound: 40
     energyRecovery: 65
     builtInWeaponSets:
-      - STR_AUX_TANK_CANNON_A3
+          -
+            - STR_AUX_TANK_CANNON_A3
   - type: MALE_CIVILIAN
     race: STR_CIVILIAN
     stats:
@@ -1171,9 +1197,10 @@ units:
     specab: 1
     livingWeapon: true
     capturable: true
-    builtInWeapons:
-      - SNAKEMAN_B_WEAPON_QUEEN_BITE
-      - SNAKEMAN_B_WEAPON_PLASMA_TURRET
+    builtInWeaponSets:
+          -
+            - SNAKEMAN_B_WEAPON_QUEEN_BITE
+            - SNAKEMAN_B_WEAPON_PLASMA_TURRET
   - type: STR_CHRYSSALID_TERRORIST
     stats:
       tu: 79
