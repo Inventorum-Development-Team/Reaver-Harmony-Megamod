@@ -743,8 +743,8 @@ facilities:
       - STR_MIND_PROBE
     mind: true
     mindPower: 40
-    spriteShape: 559
-    spriteFacility: 559
+    spriteShape: 580
+    spriteFacility: 580
     size: 2
     buildCost: 500000
     refundValue: 250000

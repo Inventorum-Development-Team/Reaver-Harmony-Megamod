@@ -1,6 +1,17 @@
 extended:
   scripts:
     damageUnit:
+    # Global fix to Transformation attacks like Chryssalid zombification
+    # Requires at least 1 hit point of damage before zombification triggers
+    # This applies to *every* weapon that zombifies.  It *has* to get through armor to work.
+      - offset: 4
+        code: |
+          if gt to_transform 0;
+            if eq to_health 0;
+              set to_transform 0;
+            end;
+          end;
+          return;
       - offset: 99
         code: |
           set to_transform 100;

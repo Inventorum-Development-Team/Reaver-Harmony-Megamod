@@ -3048,7 +3048,7 @@ items:
       - STR_HC_ALLOY_AMMO
       - STR_HC_AE_AMMO
     accuracyAuto: 35
-    accuracySnap: 65
+    accuracySnap: 72
     accuracyAimed: 100
     tuAuto: 26
     tuSnap: 38
@@ -3854,7 +3854,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.06
     accuracyAuto: 42
-    accuracySnap: 79
+    accuracySnap: 88
     accuracyAimed: 121
     tuAuto: 32
     tuSnap: 47
@@ -3902,7 +3902,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.09
     accuracyAuto: 74
-    accuracySnap: 88
+    accuracySnap: 83
     accuracyAimed: 96
     tuAuto: 78
     tuSnap: 33
@@ -4217,7 +4217,7 @@ items:
     compatibleAmmo:
       - STR_HEAVY_PLASMA_TERRAN_CLIP
     accuracyAuto: 40
-    accuracySnap: 72
+    accuracySnap: 80
     accuracyAimed: 110
     tuAuto: 29
     tuSnap: 42
@@ -4274,7 +4274,7 @@ items:
     compatibleAmmo:
       - STR_PLASMA_ASSAULT_CANNON_CLIP
     accuracyAuto: 70
-    accuracySnap: 80
+    accuracySnap: 75
     accuracyAimed: 85
     tuAuto: 67
     tuSnap: 28
@@ -4706,7 +4706,7 @@ items:
     handSprite: 316
     fireSound: 316
     accuracyAuto: 40
-    accuracySnap: 72
+    accuracySnap: 80
     accuracyAimed: 110
     tuAuto: 29
     tuSnap: 42
@@ -5602,7 +5602,7 @@ items:
     compatibleAmmo:
       - STR_POWER_SUIT_HEAVY_CLIP
     accuracyAuto: 50
-    accuracySnap: 91
+    accuracySnap: 93
     accuracyAimed: 121
     tuAuto: 36
     tuSnap: 53
@@ -7480,7 +7480,7 @@ items:
     damageType: 7
     damageAlter:
       ToArmor: 0
-      ToArmorPre: 0.05
+      ToArmorPre: 0.15
     accuracyMelee: 100
     tuMelee: 15
     zombieUnit: STR_ZOMBIE
@@ -7670,7 +7670,7 @@ items:
     damageType: 7
     damageAlter:
       ToArmor: 0
-      ToArmorPre: 0.05
+      ToArmorPre: 0.15
     accuracyMelee: 100
     tuMelee: 15
     battleType: 3

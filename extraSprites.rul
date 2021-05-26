@@ -689,6 +689,14 @@ extraSprites:
       577: Resources/LargeFacilities/SAlienCont3.png
       578: Resources/LargeFacilities/SAlienCont4.png
       579: Resources/LargeFacilities/BiologicalAlterations.png
+      580: Resources/XenoOperations/Basebits/LargeMindP1.png
+      581: Resources/XenoOperations/Basebits/LargeMindP2.png
+      582: Resources/XenoOperations/Basebits/LargeMindP3.png
+      583: Resources/XenoOperations/Basebits/LargeMindP4.png
+      584: Resources/XenoOperations/Basebits/LargeMindPC1.png
+      585: Resources/XenoOperations/Basebits/LargeMindPC2.png
+      586: Resources/XenoOperations/Basebits/LargeMindPC3.png
+      587: Resources/XenoOperations/Basebits/LargeMindPC4.png
 # AIRCRAFT
   - type: INTICON.PCK
     files:

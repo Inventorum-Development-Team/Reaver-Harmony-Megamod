@@ -137,8 +137,6 @@ armors:
       - 1.0
       - 0.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     zombiImmune: true
     bleedImmune: true
     painImmune: true
@@ -170,8 +168,6 @@ armors:
       - 1.0
       - 0.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     zombiImmune: true
     bleedImmune: true
     painImmune: true
@@ -203,8 +199,6 @@ armors:
       - 1.0
       - 0.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     zombiImmune: true
     bleedImmune: true
     painImmune: true
@@ -569,8 +563,6 @@ armors:
       - 1.6
       - 1.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     recovery:
       stun:
         stunCurrent: 0.10
@@ -604,8 +596,6 @@ armors:
       - 1.6
       - 1.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     recovery:
       stun:
         stunCurrent: 0.10
@@ -640,8 +630,6 @@ armors:
       - 1.6
       - 1.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     recovery:
       stun:
         stunCurrent: 0.10
@@ -673,8 +661,6 @@ armors:
       - 1.6
       - 1.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     recovery:
       stun:
         stunCurrent: 0.10
@@ -717,8 +703,6 @@ armors:
       - 1.5
       - 1.0
     overKill: 2.1
-    meleeDodge:
-      flatHundred: -0.25
     recovery:
       stun:
         stunCurrent: 0.10
@@ -733,8 +717,6 @@ armors:
     sideArmor: 38
     rearArmor: 30
     underArmor: 21
-    meleeDodge:
-      flatHundred: -0.30
   - type: STR_HEAVY_ARMOR_UC_HARD
     refNode: *STR_HEAVY_ARMOR_UC
     requires: STR_ARMOR_HARD
@@ -742,8 +724,6 @@ armors:
     sideArmor: 32
     rearArmor: 25
     underArmor: 18
-    meleeDodge:
-      flatHundred: -0.35
   - &STR_PERSONAL_ARMOR_UC
     type: STR_PERSONAL_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -776,8 +756,6 @@ armors:
       - 1.3
       - 1.0
     overKill: 2.3
-    meleeDodge:
-      flatHundred: -0.10
     recovery:
       stun:
         stunCurrent: 0.10
@@ -792,8 +770,6 @@ armors:
     sideArmor: 60
     rearArmor: 50
     underArmor: 50
-    meleeDodge:
-      flatHundred: -0.16
   - type: STR_PERSONAL_ARMOR_UC_HARD
     refNode: *STR_PERSONAL_ARMOR_UC
     requires: STR_ARMOR_HARD
@@ -801,8 +777,6 @@ armors:
     sideArmor: 50
     rearArmor: 40
     underArmor: 40
-    meleeDodge:
-      flatHundred: -0.22
   - &STR_PERSONAL_ARMOR_HEAVY_UC
     type: STR_PERSONAL_ARMOR_HEAVY_UC_EASY
     requires: STR_ARMOR_EASY
@@ -837,8 +811,6 @@ armors:
       - 1.3
       - 1.0
     overKill: 2.4
-    meleeDodge:
-      flatHundred: 0.02
     recovery:
       stun:
         stunCurrent: 0.10
@@ -853,8 +825,6 @@ armors:
     sideArmor: 80
     rearArmor: 65
     underArmor: 65
-    meleeDodge:
-      flatHundred: -0.05
   - type: STR_PERSONAL_ARMOR_HEAVY_UC_HARD
     refNode: *STR_PERSONAL_ARMOR_HEAVY_UC
     requires: STR_ARMOR_HARD
@@ -862,8 +832,6 @@ armors:
     sideArmor: 65
     rearArmor: 50
     underArmor: 50
-    meleeDodge:
-      flatHundred: -0.12
   - &STR_NIGHT_OPS_ARMOR_UC
     type: STR_NIGHT_OPS_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -896,8 +864,6 @@ armors:
       - 1.3
       - 1.0
     overKill: 2.3
-    meleeDodge:
-      flatHundred: -0.03
     recovery:
       stun:
         stunCurrent: 0.10
@@ -916,8 +882,6 @@ armors:
     sideArmor: 70
     rearArmor: 60
     underArmor: 60
-    meleeDodge:
-      flatHundred: -0.10
     visibilityAtDark: 17
     camouflageAtDark: -5
   - type: STR_NIGHT_OPS_ARMOR_UC_HARD
@@ -927,8 +891,6 @@ armors:
     sideArmor: 55
     rearArmor: 45
     underArmor: 45
-    meleeDodge:
-      flatHundred: -0.16
     visibilityAtDark: 15
     camouflageAtDark: -4
   - &STR_PSIONIC_ALLOY_ARMOR_UC
@@ -964,8 +926,6 @@ armors:
       - 1.3
       - 1.0
     overKill: 2.3
-    meleeDodge:
-      flatHundred: -0.03
     recovery:
       stun:
         stunCurrent: 0.10
@@ -981,8 +941,6 @@ armors:
     sideArmor: 70
     rearArmor: 60
     underArmor: 60
-    meleeDodge:
-      flatHundred: -0.10
     psiVision: 9
   - type: STR_PSIONIC_ALLOY_ARMOR_UC_HARD
     refNode: *STR_PSIONIC_ALLOY_ARMOR_UC
@@ -991,8 +949,6 @@ armors:
     sideArmor: 55
     rearArmor: 45
     underArmor: 45
-    meleeDodge:
-      flatHundred: -0.16
     psiVision: 8
   - &STR_POWER_SUIT_UC
     type: STR_POWER_SUIT_UC_EASY
@@ -1028,8 +984,6 @@ armors:
     loftempsSet: [ 4 ]
     forcedTorso: 1
     overKill: 2.5
-    meleeDodge:
-      flatHundred: 0.30
     recovery:
       stun:
         stunCurrent: 0.10
@@ -1043,8 +997,6 @@ armors:
     sideArmor: 90
     rearArmor: 80
     underArmor: 70
-    meleeDodge:
-      flatHundred: 0.23
   - type: STR_POWER_SUIT_UC_HARD
     refNode: *STR_POWER_SUIT_UC
     requires: STR_ARMOR_HARD
@@ -1052,8 +1004,6 @@ armors:
     sideArmor: 75
     rearArmor: 65
     underArmor: 55
-    meleeDodge:
-      flatHundred: 0.16
   - &STR_FLYING_SUIT_UC
     type: STR_FLYING_SUIT_UC_EASY
     requires: STR_ARMOR_EASY
@@ -1089,8 +1039,6 @@ armors:
     loftempsSet: [ 4 ]
     forcedTorso: 2
     overKill: 2.5
-    meleeDodge:
-      flatHundred: 0.25
     recovery:
       stun:
         stunCurrent: 0.10
@@ -1104,8 +1052,6 @@ armors:
     sideArmor: 80
     rearArmor: 70
     underArmor: 60
-    meleeDodge:
-      flatHundred: 0.18
   - type: STR_FLYING_SUIT_UC_HARD
     refNode: *STR_FLYING_SUIT_UC
     requires: STR_ARMOR_HARD
@@ -1113,8 +1059,6 @@ armors:
     sideArmor: 65
     rearArmor: 55
     underArmor: 45
-    meleeDodge:
-      flatHundred: 0.11
   - &STR_PSI_DEFENSE_ARMOR_UC
     type: STR_PSI_DEFENSE_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -1147,8 +1091,6 @@ armors:
       - 1.0
       - 0.0
     overKill: 2.5
-    meleeDodge:
-      flatHundred: 0.35
     recovery:
       stun:
         stunCurrent: 0.10
@@ -1164,8 +1106,6 @@ armors:
     sideArmor: 100
     rearArmor: 90
     underArmor: 80
-    meleeDodge:
-      flatHundred: 0.28
   - type: STR_PSI_DEFENSE_ARMOR_UC_HARD
     refNode: *STR_PSI_DEFENSE_ARMOR_UC
     requires: STR_ARMOR_HARD
@@ -1173,8 +1113,6 @@ armors:
     sideArmor: 85
     rearArmor: 75
     underArmor: 65
-    meleeDodge:
-      flatHundred: 0.21
   - &STR_PSI_ATTACK_ARMOR_UC
     type: STR_PSI_ATTACK_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -1208,8 +1146,6 @@ armors:
       - 1.0
       - 0.0
     overKill: 2.5
-    meleeDodge:
-      flatHundred: 0.30
     recovery:
       stun:
         stunCurrent: 0.10
@@ -1226,8 +1162,6 @@ armors:
     sideArmor: 90
     rearArmor: 80
     underArmor: 70
-    meleeDodge:
-      flatHundred: 0.23
     psiVision: 10
   - type: STR_PSI_ATTACK_ARMOR_UC_HARD
     refNode: *STR_PSI_ATTACK_ARMOR_UC
@@ -1236,8 +1170,6 @@ armors:
     sideArmor: 75
     rearArmor: 65
     underArmor: 55
-    meleeDodge:
-      flatHundred: 0.16
     psiVision: 8
   - &STR_PALADIN_ARMOR_UC
     type: STR_PALADIN_ARMOR_UC_EASY
@@ -1274,8 +1206,6 @@ armors:
       - 1.0
       - 0.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.10
     recovery:
       stun:
         stunCurrent: 0.15
@@ -1293,8 +1223,6 @@ armors:
     sideArmor: 135
     rearArmor: 110
     underArmor: 125
-    meleeDodge:
-      flatHundred: -0.10
     heatVision: 60
   - type: STR_PALADIN_ARMOR_UC_HARD
     refNode: *STR_PALADIN_ARMOR_UC
@@ -1303,8 +1231,6 @@ armors:
     sideArmor: 115
     rearArmor: 90
     underArmor: 105
-    meleeDodge:
-      flatHundred: -0.10
     heatVision: 50
   - &STR_ASSASSIN_ARMOR_UC
     type: STR_ASSASSIN_ARMOR_UC_EASY
@@ -1345,8 +1271,6 @@ armors:
       - 0.5
       - 0.0
     overKill: 3
-    meleeDodge:
-      flatHundred: 0.25
     recovery:
       stun:
         stunCurrent: 0.10
@@ -1367,8 +1291,6 @@ armors:
     sideArmor: 75
     rearArmor: 70
     underArmor: 65
-    meleeDodge:
-      flatHundred: 0.15
     visibilityAtDark: 20
     camouflageAtDark: -5
     heatVision: 25
@@ -1380,8 +1302,6 @@ armors:
     sideArmor: 55
     rearArmor: 50
     underArmor: 45
-    meleeDodge:
-      flatHundred: 0.05
     visibilityAtDark: 17
     camouflageAtDark: -3
     heatVision: 20
@@ -1407,8 +1327,6 @@ armors:
       - 1.6
       - 1.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     loftempsSet: [ 3 ]
   - type: CIVF_ARMOR
     spriteSheet: CIVF.PCK
@@ -1431,8 +1349,6 @@ armors:
       - 1.6
       - 1.0
     overKill: 2
-    meleeDodge:
-      flatHundred: -0.4
     loftempsSet: [ 3 ]
   - &STR_SECTOID_ARMOR0
     type: SECTOID_ARMOR0
@@ -1448,7 +1364,7 @@ armors:
       - 0.7
       - 1.0
       - 1.0
-      - 0.6
+      - 0.9
       - 1.2
       - 1.0
       - 0.0
@@ -1472,7 +1388,7 @@ armors:
       - 0.7
       - 1.0
       - 1.0
-      - 0.52
+      - 0.82
       - 1.2
       - 1.0
       - 0.0
@@ -1496,7 +1412,7 @@ armors:
       - 0.7
       - 1.0
       - 1.0
-      - 0.44
+      - 0.74
       - 1.2
       - 1.0
       - 0.0
@@ -1748,13 +1664,13 @@ armors:
     allowInv: false
     corpseBattle:
       - CIVM_CORPSE
-    frontArmor: 8
-    sideArmor: 8
-    rearArmor: 8
-    underArmor: 4
+    frontArmor: 22
+    sideArmor: 22
+    rearArmor: 22
+    underArmor: 26
     damageModifier:
       - 1.0
-      - 0.6
+      - 0.8
       - 1.75
       - 0.8
       - 1.0
