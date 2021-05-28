@@ -740,10 +740,10 @@ armors:
     storeItem: STR_PERSONAL_ARMOR_L
     stats:
       bravery: 10
-    frontArmor: 80
-    sideArmor: 70
-    rearArmor: 60
-    underArmor: 60
+    frontArmor: 85
+    sideArmor: 75
+    rearArmor: 65
+    underArmor: 65
     damageModifier:
       - 1.0
       - 1.0
@@ -766,17 +766,17 @@ armors:
   - type: STR_PERSONAL_ARMOR_UC_MEDIUM
     refNode: *STR_PERSONAL_ARMOR_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 70
-    sideArmor: 60
-    rearArmor: 50
-    underArmor: 50
+    frontArmor: 75
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 55
   - type: STR_PERSONAL_ARMOR_UC_HARD
     refNode: *STR_PERSONAL_ARMOR_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 60
-    sideArmor: 50
-    rearArmor: 40
-    underArmor: 40
+    frontArmor: 65
+    sideArmor: 55
+    rearArmor: 45
+    underArmor: 45
   - &STR_PERSONAL_ARMOR_HEAVY_UC
     type: STR_PERSONAL_ARMOR_HEAVY_UC_EASY
     requires: STR_ARMOR_EASY
@@ -795,10 +795,10 @@ armors:
     stats:
       tu: -10
       bravery: 20
-    frontArmor: 110
-    sideArmor: 95
-    rearArmor: 80
-    underArmor: 80
+    frontArmor: 120
+    sideArmor: 105
+    rearArmor: 90
+    underArmor: 90
     damageModifier:
       - 1.0
       - 1.0
@@ -821,17 +821,17 @@ armors:
   - type: STR_PERSONAL_ARMOR_HEAVY_UC_MEDIUM
     refNode: *STR_PERSONAL_ARMOR_HEAVY_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 95
-    sideArmor: 80
-    rearArmor: 65
-    underArmor: 65
+    frontArmor: 105
+    sideArmor: 90
+    rearArmor: 75
+    underArmor: 75
   - type: STR_PERSONAL_ARMOR_HEAVY_UC_HARD
     refNode: *STR_PERSONAL_ARMOR_HEAVY_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 80
-    sideArmor: 65
-    rearArmor: 50
-    underArmor: 50
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
   - &STR_NIGHT_OPS_ARMOR_UC
     type: STR_NIGHT_OPS_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -848,10 +848,10 @@ armors:
     storeItem: STR_NIGHT_OPS_ARMOR
     stats:
       bravery: 10
-    frontArmor: 95
-    sideArmor: 85
-    rearArmor: 75
-    underArmor: 75
+    frontArmor: 105
+    sideArmor: 95
+    rearArmor: 85
+    underArmor: 85
     damageModifier:
       - 1.0
       - 1.0
@@ -878,19 +878,19 @@ armors:
   - type: STR_NIGHT_OPS_ARMOR_UC_MEDIUM
     refNode: *STR_NIGHT_OPS_ARMOR_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 80
-    sideArmor: 70
-    rearArmor: 60
-    underArmor: 60
+    frontArmor: 90
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 70
     visibilityAtDark: 17
     camouflageAtDark: -5
   - type: STR_NIGHT_OPS_ARMOR_UC_HARD
     refNode: *STR_NIGHT_OPS_ARMOR_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 65
-    sideArmor: 55
-    rearArmor: 45
-    underArmor: 45
+    frontArmor: 75
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 55
     visibilityAtDark: 15
     camouflageAtDark: -4
   - &STR_PSIONIC_ALLOY_ARMOR_UC
@@ -910,10 +910,10 @@ armors:
     stats:
       bravery: 20
       psiStrength: 20
-    frontArmor: 95
-    sideArmor: 85
-    rearArmor: 75
-    underArmor: 75
+    frontArmor: 105
+    sideArmor: 95
+    rearArmor: 85
+    underArmor: 85
     damageModifier:
       - 1.0
       - 1.0
@@ -937,18 +937,18 @@ armors:
   - type: STR_PSIONIC_ALLOY_ARMOR_UC_MEDIUM
     refNode: *STR_PSIONIC_ALLOY_ARMOR_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 80
-    sideArmor: 70
-    rearArmor: 60
-    underArmor: 60
+    frontArmor: 90
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 70
     psiVision: 9
   - type: STR_PSIONIC_ALLOY_ARMOR_UC_HARD
     refNode: *STR_PSIONIC_ALLOY_ARMOR_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 65
-    sideArmor: 55
-    rearArmor: 45
-    underArmor: 45
+    frontArmor: 75
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 55
     psiVision: 8
   - &STR_POWER_SUIT_UC
     type: STR_POWER_SUIT_UC_EASY

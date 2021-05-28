@@ -7200,20 +7200,28 @@ items:
     costSell: 75000
     categories: [STR_CAT_ALIENS]
   - type: HOVERTANK_CORPSE_1
+    battleType: 11
     armor: 240
   - type: HOVERTANK_CORPSE_2
+    battleType: 11
     armor: 240
   - type: HOVERTANK_CORPSE_3
+    battleType: 11
     armor: 240
   - type: HOVERTANK_CORPSE_4
+    battleType: 11
     armor: 240
   - type: TANK_CORPSE_1
+    battleType: 11
     armor: 160
   - type: TANK_CORPSE_2
+    battleType: 11
     armor: 160
   - type: TANK_CORPSE_3
+    battleType: 11
     armor: 160
   - type: TANK_CORPSE_4
+    battleType: 11
     armor: 160
   - type: CIVM_CORPSE
     weight: 30
@@ -7225,24 +7233,28 @@ items:
     floorSprite: 804
     invWidth: 0
     invHeight: 0
+    battleType: 11
     armor: 270
     recover: false
   - type: CorpseGuardianHover_2
     floorSprite: 805
     invWidth: 0
     invHeight: 0
+    battleType: 11
     armor: 270
     recover: false
   - type: CorpseGuardianHover_3
     floorSprite: 806
     invWidth: 0
     invHeight: 0
+    battleType: 11
     armor: 270
     recover: false
   - type: CorpseGuardianHover_4
     floorSprite: 807
     invWidth: 0
     invHeight: 0
+    battleType: 11
     armor: 270
     recover: false
   - type: CorpseBattleHover_1
@@ -7250,96 +7262,112 @@ items:
     invWidth: 0
     invHeight: 0
     armor: 240
+    battleType: 11
     recover: false
   - type: CorpseBattleHover_2
     floorSprite: 809
     invWidth: 0
     invHeight: 0
     armor: 240
+    battleType: 11
     recover: false
   - type: CorpseBattleHover_3
     floorSprite: 810
     invWidth: 0
     invHeight: 0
     armor: 240
+    battleType: 11
     recover: false
   - type: CorpseBattleHover_4
     floorSprite: 811
     invWidth: 0
     invHeight: 0
     armor: 240
+    battleType: 11
     recover: false
   - type: CorpseAssaultHover_1
     floorSprite: 812
     invWidth: 0
     invHeight: 0
     armor: 210
+    battleType: 11
     recover: false
   - type: CorpseAssaultHover_2
     floorSprite: 813
     invWidth: 0
     invHeight: 0
     armor: 210
+    battleType: 11
     recover: false
   - type: CorpseAssaultHover_3
     floorSprite: 814
     invWidth: 0
     invHeight: 0
     armor: 210
+    battleType: 11
     recover: false
   - type: CorpseAssaultHover_4
     floorSprite: 815
     invWidth: 0
     invHeight: 0
     armor: 210
+    battleType: 11
     recover: false
   - type: CorpseAlloyTank_1
     floorSprite: 800
     invWidth: 0
     invHeight: 0
     armor: 190
+    battleType: 11
     recover: false
   - type: CorpseAlloyTank_2
     floorSprite: 801
     invWidth: 0
     invHeight: 0
     armor: 190
+    battleType: 11
     recover: false
   - type: CorpseAlloyTank_3
     floorSprite: 802
     invWidth: 0
     invHeight: 0
     armor: 190
+    battleType: 11
     recover: false
   - type: CorpseAlloyTank_4
     floorSprite: 803
     invWidth: 0
     invHeight: 0
     armor: 190
+    battleType: 11
     recover: false
   - type: CorpseNightOpsTank_1
     floorSprite: 816
     invWidth: 0
     invHeight: 0
     armor: 190
+    battleType: 11
     recover: false
   - type: CorpseNightOpsTank_2
     floorSprite: 817
     invWidth: 0
     invHeight: 0
     armor: 190
+    battleType: 11
     recover: false
   - type: CorpseNightOpsTank_3
     floorSprite: 818
     invWidth: 0
     invHeight: 0
     armor: 190
+    battleType: 11
     recover: false
   - type: CorpseNightOpsTank_4
     floorSprite: 819
     invWidth: 0
     invHeight: 0
     armor: 190
+    battleType: 11
     recover: false
   - type: STR_DEFENSE_AP_TURRET_CORPSE
     weight: 25
@@ -7474,6 +7502,28 @@ items:
     invHeight: 3
     recover: false
     flatRate: true
+  - type: SNAKEMAN_BITE
+    bigSprite: 886
+    meleeSound: 48
+    strengthApplied: true
+    damageType: 7
+    damageAlter:
+      ArmorEffectiveness: 0.25
+      ToArmor: 0
+      ToArmorPre: 0.02
+      ToHealth: 0.25
+      ToWound: 0.125
+      RandomWound: false
+    accuracyMelee: 100
+    tuMelee: 35
+    clipSize: -1
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    flatRate: false
   - type: CHRYSSALID_WEAPON
     bigSprite: 895
     strengthApplied: true
@@ -7505,6 +7555,7 @@ items:
     arcingShot: true
   - type: SILACOID_WEAPON
     bigSprite: 892
+    meleeSound: 50
     strengthApplied: true
     damageType: 7
     damageAlter:
@@ -7537,6 +7588,7 @@ items:
     bulletSpeed: 5
   - type: ZOMBIE_WEAPON
     bigSprite: 891
+    meleeSound: 48
     strengthApplied: true
     damageType: 7
     damageAlter:
@@ -7592,7 +7644,7 @@ items:
     invHeight: 3
     recover: false
   - type: SNAKEMAN_B_WEAPON_QUEEN_BITE
-    bigSprite: 893
+    bigSprite: 886
     floorSprite: 31
     handSprite: 104
     meleeSound: 48
@@ -7608,6 +7660,7 @@ items:
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
+    clipSize: -1
     recover: false
     flatRate: true
   - type: CYBERDISC_C_WEAPON
@@ -7644,7 +7697,7 @@ items:
     bigSprite: 888
     floorSprite: 31
     handSprite: 104
-    meleeSound: 50
+    meleeSound: 48
     strengthApplied: true
     damageType: 7
     damageAlter:

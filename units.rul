@@ -1093,12 +1093,13 @@ units:
       strength: 47
       psiStrength: 32
       psiSkill: 0
-      melee: 76
+      melee: 85
     armor: SNAKEMAN_ARMOR0
     standHeight: 18
     kneelHeight: 18
     value: 20
     aggression: 6
+    meleeWeapon: SNAKEMAN_BITE
   - type: STR_SNAKEMAN_ENGINEER
     stats:
       tu: 39
@@ -1111,12 +1112,13 @@ units:
       strength: 47
       psiStrength: 34
       psiSkill: 0
-      melee: 76
+      melee: 85
     armor: SNAKEMAN_ARMOR1
     standHeight: 18
     kneelHeight: 18
     value: 26
     aggression: 2
+    meleeWeapon: SNAKEMAN_BITE
   - type: STR_SNAKEMAN_NAVIGATOR
     stats:
       tu: 39
@@ -1129,12 +1131,13 @@ units:
       strength: 47
       psiStrength: 34
       psiSkill: 0
-      melee: 76
+      melee: 85
     armor: SNAKEMAN_ARMOR1
     standHeight: 18
     kneelHeight: 18
     value: 24
     aggression: 3
+    meleeWeapon: SNAKEMAN_BITE
   - type: STR_SNAKEMAN_LEADER
     stats:
       tu: 39
@@ -1147,12 +1150,13 @@ units:
       strength: 47
       psiStrength: 36
       psiSkill: 0
-      melee: 76
+      melee: 85
     armor: SNAKEMAN_ARMOR2
     standHeight: 18
     kneelHeight: 18
     value: 30
     aggression: 2
+    meleeWeapon: SNAKEMAN_BITE
   - type: STR_SNAKEMAN_COMMANDER
     stats:
       tu: 39
@@ -1165,12 +1169,13 @@ units:
       strength: 47
       psiStrength: 38
       psiSkill: 0
-      melee: 76
+      melee: 85
     armor: SNAKEMAN_ARMOR2
     standHeight: 18
     kneelHeight: 18
     value: 40
     aggression: 1
+    meleeWeapon: SNAKEMAN_BITE
   - type: STR_SNAKEMAN_COMMANDER_B
     race: STR_SNAKEMAN_B
     rank: STR_LIVE_COMMANDER

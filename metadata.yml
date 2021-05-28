@@ -20,13 +20,16 @@
 #       * Sealed a small hole in the Mammoth and Mastodon.
 #       * Barrels and fueling stations now explode as incendiary type.
 #  0.9.1.4: Added Mastodon starboard ramp, small bug fixes to Mammoth/Mastodon.
-#  0.9.2: FINALLY FIXED VANILLA BUG WITH CHRYSSALID ATTACKS IGNORING ARMOR!!
+#  0.9.2:   FINALLY FIXED VANILLA BUG WITH CHRYSSALID ATTACKS IGNORING ARMOR!!
 #       * Tweaked melee accuracy and strength values of melee opponents.
 #       * Increased zombie toughness, making it take larger weapons to vaporize.
 #       * Tweaked heavy weapon snap shot accuracies.
 #       * Marble Machine now takes marbles all the way to space.
 #       * Snap and aimed shots now show number of shots in UFOPedia.
 #       * Large Mind Shield sprite fixed.
+#  0.9.3:   Buffed alloy armor slightly; heavy alloy armor now has about equal armor to a flying suit.
+#       * Fixed bug with tank corpses.
+#       * Snakemen now have a melee attack; details in relevant UFOPedia articles.
 #
 #
 # resource authors/sources:

@@ -1825,6 +1825,7 @@ extraSprites:
       892: Resources/Elite Aliens/Terror.png
       891: Resources/Elite Aliens/Zombie.png
       887: Resources/Elite Aliens/Reavers_Terrorists_Elite.png
+      886: Resources/Elite Aliens/Snakeman_Bite.png
   - type: FLOOROB.PCK
     files:
       900: Resources/Elite Aliens/floorob_ETHEREAL_NAVIGATOR.png
