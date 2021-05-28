@@ -1210,7 +1210,7 @@ units:
     stats:
       tu: 79
       stamina: 84
-      health: 35
+      health: 50
       bravery: 90
       reactions: 32
       firing: 0

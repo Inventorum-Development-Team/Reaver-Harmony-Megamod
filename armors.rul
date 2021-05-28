@@ -1574,20 +1574,20 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: SNAKEMAN_ARMOR0
     spriteInv: SNAKEMAN
-    frontArmor: 12
-    sideArmor: 14
-    rearArmor: 16
-    underArmor: 12
+    frontArmor: 9
+    sideArmor: 11
+    rearArmor: 13
+    underArmor: 9
     damageModifier:
-      - 1.0
+      - 0.7
+      - 0.392
+      - 0.42
+      - 0.665
+      - 0.504
       - 0.56
-      - 0.6
-      - 0.95
-      - 0.72
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.22
+      - 0.7
+      - 0.7
+      - 0.854
       - 0.0
       - 0.77 #Psionic
     overKill: 1.0
@@ -1595,20 +1595,20 @@ armors:
     loftempsSet: [ 5 ]
   - type: SNAKEMAN_ARMOR1
     spriteInv: SNAKEMAN
-    frontArmor: 14
-    sideArmor: 17
-    rearArmor: 20
-    underArmor: 15
+    frontArmor: 11
+    sideArmor: 13
+    rearArmor: 16
+    underArmor: 12
     damageModifier:
-      - 1.0
+      - 0.7
+      - 0.392
+      - 0.42
+      - 0.658
+      - 0.504
       - 0.56
-      - 0.6
-      - 0.94
-      - 0.72
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.22
+      - 0.7
+      - 0.7
+      - 0.854
       - 0.0
       - 0.69 #Psionic
     overKill: 1.0
@@ -1616,20 +1616,20 @@ armors:
     loftempsSet: [ 5 ]
   - type: SNAKEMAN_ARMOR2
     spriteInv: SNAKEMAN
-    frontArmor: 16
-    sideArmor: 20
-    rearArmor: 24
-    underArmor: 18
+    frontArmor: 13
+    sideArmor: 16
+    rearArmor: 19
+    underArmor: 15
     damageModifier:
-      - 1.0
+      - 0.7
+      - 0.392
+      - 0.42
+      - 0.651
+      - 0.504
       - 0.56
-      - 0.6
-      - 0.93
-      - 0.72
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.22
+      - 0.7
+      - 0.7
+      - 0.854
       - 0.0
       - 0.60 #Psionic
     overKill: 1.0
@@ -1640,7 +1640,7 @@ armors:
     frontArmor: 28
     sideArmor: 28
     rearArmor: 28
-    underArmor: 8
+    underArmor: 14
     damageModifier:
       - 1.0
       - 1.0
@@ -1691,20 +1691,20 @@ armors:
     spriteInv: MUTON
     corpseBattle:
       - STR_MUTON_CORPSE
-    frontArmor: 9
-    sideArmor: 9
-    rearArmor: 9
-    underArmor: 7
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 5
     damageModifier:
-      - 0.9
-      - 0.36
-      - 0.9
-      - 0.87
+      - 0.6
+      - 0.24
+      - 0.6
+      - 0.58
+      - 0.4
+      - 0.4
       - 0.6
       - 0.6
-      - 0.9
-      - 0.9
-      - 0.96
+      - 0.64
       - 0.0
       - 0.59 #Psionic
     overKill: 2
@@ -1714,20 +1714,20 @@ armors:
     spriteInv: MUTON
     corpseBattle:
       - STR_MUTON_CORPSE
-    frontArmor: 10
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 10
+    frontArmor: 7
+    sideArmor: 7
+    rearArmor: 7
+    underArmor: 7
     damageModifier:
-      - 0.9
-      - 0.36
-      - 0.9
-      - 0.87
+      - 0.6
+      - 0.24
+      - 0.6
+      - 0.58
+      - 0.4
+      - 0.4
       - 0.6
       - 0.6
-      - 0.9
-      - 0.9
-      - 0.96
+      - 0.64
       - 0.0
       - 0.53 #Psionic
     overKill: 2
@@ -1737,20 +1737,20 @@ armors:
     spriteInv: MUTON
     corpseBattle:
       - STR_MUTON_CORPSE
-    frontArmor: 11
-    sideArmor: 11
-    rearArmor: 11
-    underArmor: 13
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 9
     damageModifier:
-      - 0.9
-      - 0.36
-      - 0.9
-      - 0.87
+      - 0.6
+      - 0.24
+      - 0.6
+      - 0.58
+      - 0.4
+      - 0.4
       - 0.6
       - 0.6
-      - 0.9
-      - 0.9
-      - 0.96
+      - 0.64
       - 0.0
       - 0.53 #Psionic
     overKill: 2
@@ -1951,15 +1951,15 @@ armors:
     underArmor: 4
     drawingRoutine: 10
     damageModifier:
-      - 0.6
-      - 0.24
-      - 0.6
-      - 0.58
+      - 0.4
+      - 0.16
+      - 0.4
+      - 0.387
+      - 0.267
+      - 0.267
       - 0.4
       - 0.4
-      - 0.6
-      - 0.6
-      - 0.64
+      - 0.42
       - 0.0
       - 0.40 #Psionic
     overKill: 2

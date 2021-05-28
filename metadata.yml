@@ -27,7 +27,8 @@
 #       * Marble Machine now takes marbles all the way to space.
 #       * Snap and aimed shots now show number of shots in UFOPedia.
 #       * Large Mind Shield sprite fixed.
-#  0.9.3:   Buffed alloy armor slightly; heavy alloy armor now has about equal armor to a flying suit.
+#  0.9.3:   Buffed snakeman and muton health significantly.
+#       * Buffed alloy armor slightly; heavy alloy armor now has about equal armor to a flying suit.
 #       * Fixed bug with tank corpses.
 #       * Snakemen now have a melee attack; details in relevant UFOPedia articles.
 #
@@ -113,7 +114,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 0.9.2
+version: 0.9.3
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
