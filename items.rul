@@ -4974,7 +4974,7 @@ items:
     listOrder: 4230
     size: 0.002
     requiresBuy:
-      - STR_OUTSOURCING_EQUIPMENT
+      - STR_OUTSOURCING
     costBuy: 550
     transferTime: 36
     costSell: 500
@@ -5256,7 +5256,7 @@ items:
     manaRecovery: 9
     painKillerRecovery: 0.75
     moraleRecovery: 15
-    tuUse: 15
+    tuUse: 12
     flatRate: false
     medikitTargetSelf: true
     armor: 110

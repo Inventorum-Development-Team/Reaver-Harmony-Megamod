@@ -31,6 +31,9 @@
 #       * Buffed alloy armor slightly; heavy alloy armor now has about equal armor to a flying suit.
 #       * Fixed bug with tank corpses.
 #       * Snakemen now have a melee attack; details in relevant UFOPedia articles.
+#       * Reduced TU cost of using super medi kit.
+#       * Incendiary grenade can now be purchased with basic outsourcing.
+#       * Hopefully fixed some critical bugs with certain craft maps.
 #
 #
 # resource authors/sources:
