@@ -227,6 +227,18 @@ terrains:
         width: 20
         length: 20
         groups: 4
+      - name: UBASE_16
+        width: 10
+        length: 10
+        groups: 5
+      - name: UBASE_17
+        width: 10
+        length: 10
+        groups: 5
+      - name: UBASE_18
+        width: 10
+        length: 10
+        groups: 5
   - name: UPOST
     mapDataSets:
       - BLANKS

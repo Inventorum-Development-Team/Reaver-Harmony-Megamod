@@ -6242,8 +6242,8 @@ alienDeployments:
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
       - alienRank: 3
-        lowQty: 3
-        highQty: 7
+        lowQty: 5
+        highQty: 9
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -6278,8 +6278,8 @@ alienDeployments:
             - STR_HEAVY_PLASMA_RED_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 5
-        lowQty: 6
-        highQty: 8
+        lowQty: 8
+        highQty: 10
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -6300,7 +6300,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
       - alienRank: 6
         lowQty: 2
-        highQty: 3
+        highQty: 4
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -6311,7 +6311,7 @@ alienDeployments:
           -
             []
     width: 40
-    length: 80
+    length: 100
     height: 3
     terrains:
       - UBASE

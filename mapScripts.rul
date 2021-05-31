@@ -149,8 +149,8 @@ mapScripts:
       blocks: 11
       executionChances: 50
     - type: fillArea
-      groups: [0, 1]
-      freqs: [3, 2]
+      blocks: [2, 3, 6, 7, 8, 9, 10]
+      maxUses: [2, 2, 2, 2, 2, 2, 2]
     - type: digTunnel
       direction: both
       tunnelData:
@@ -328,7 +328,7 @@ mapScripts:
     - type: addBlock
       groups: 2
       rects:
-        - [1, 6, 2, 2]
+        - [1, 8, 2, 2]
       executions: 1
     - type: addBlock
       groups: 4
@@ -336,8 +336,11 @@ mapScripts:
       rects:
         - [1, 0, 2, 2]
     - type: fillArea
-      blocks: [1, 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 9, 9]
+      blocks: [1, 2, 3, 5, 6, 8, 9, 10, 11]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+      blocks: [12, 13, 14, 16, 17, 18]
+      maxUses: [1, 1, 1, 1, 1, 1]
     - type: fillArea
       groups: 5
     - type: digTunnel
