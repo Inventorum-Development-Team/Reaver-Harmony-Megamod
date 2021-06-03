@@ -22,6 +22,7 @@ units:
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
+    capturable: false
     builtInWeaponSets:
           -
             - STR_TURRET_WEAPON_AP_H
@@ -48,6 +49,7 @@ units:
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
+    capturable: false
     builtInWeaponSets:
           -
             - STR_TURRET_WEAPON_AP_R
@@ -74,6 +76,7 @@ units:
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
+    capturable: false
     builtInWeaponSets:
           -
             - STR_TURRET_WEAPON_LASER_H
@@ -100,6 +103,7 @@ units:
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
+    capturable: false
     builtInWeaponSets:
           -
             - STR_TURRET_WEAPON_LASER_R
@@ -126,6 +130,7 @@ units:
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
+    capturable: false
     builtInWeaponSets:
           -
             - STR_TURRET_WEAPON_PLASMA_H
@@ -152,6 +157,7 @@ units:
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
+    capturable: false
     builtInWeaponSets:
           -
             - STR_TURRET_WEAPON_PLASMA_R
@@ -1201,7 +1207,7 @@ units:
     aggression: 0
     specab: 1
     livingWeapon: true
-    capturable: true
+    capturable: false
     builtInWeaponSets:
           -
             - SNAKEMAN_B_WEAPON_QUEEN_BITE
@@ -1502,6 +1508,7 @@ units:
     energyRecovery: 20
     spawnUnit: STR_CHRYSSALID_TERRORIST
     livingWeapon: true
+    capturable: false
   - type: STR_SECTOID_SOLDIER_C
     race: STR_SECTOID_C
     rank: STR_LIVE_SOLDIER
@@ -1525,6 +1532,7 @@ units:
     deathSound: 10
     intelligence: 3
     aggression: 8
+    capturable: false
   - type: STR_SECTOID_LEADER_C
     race: STR_SECTOID_C
     rank: STR_LIVE_LEADER
@@ -1549,6 +1557,7 @@ units:
     deathSound: 10
     intelligence: 0
     aggression: 3
+    capturable: false
   - type: STR_SECTOID_COMMANDER_C
     race: STR_SECTOID_C
     rank: STR_LIVE_COMMANDER
@@ -1573,6 +1582,7 @@ units:
     deathSound: 10
     intelligence: 0
     aggression: 0
+    capturable: false
   - type: STR_CYBERDISC_TERRORIST_C
     race: STR_CYBERDISC_C
     rank: STR_LIVE_TERRORIST
@@ -1600,7 +1610,7 @@ units:
     energyRecovery: 50
     specab: 1
     livingWeapon: true
-    capturable: true
+    capturable: false
   - type: STR_FLOATER_NAVIGATOR_C
     stats:
       tu: 58
@@ -1622,6 +1632,7 @@ units:
     moveSound: 15
     intelligence: 6
     aggression: 5
+    capturable: false
   - type: STR_FLOATER_MEDIC_C
     stats:
       tu: 58
@@ -1646,6 +1657,7 @@ units:
     moveSound: 15
     intelligence: 0
     aggression: 1
+    capturable: false
   - type: STR_FLOATER_ENGINEER_C
     stats:
       tu: 58
@@ -1667,6 +1679,7 @@ units:
     moveSound: 15
     intelligence: 6
     aggression: 3
+    capturable: false
   - type: STR_REAPER_TERRORIST_C
     race: STR_REAPER_C
     rank: STR_LIVE_TERRORIST
@@ -1691,7 +1704,7 @@ units:
     aggression: 4
     energyRecovery: 34
     livingWeapon: true
-    capturable: true
+    capturable: false
   - type: STR_ETHEREAL_SOLDIER_C
     race: STR_ETHEREAL_C
     rank: STR_LIVE_SOLDIER
@@ -1717,6 +1730,7 @@ units:
     intelligence: 0
     aggression: 4
     energyRecovery: 40
+    capturable: false
   - type: STR_ETHEREAL_LEADER_C
     race: STR_ETHEREAL_C
     rank: STR_LIVE_LEADER
@@ -1742,6 +1756,7 @@ units:
     intelligence: 0
     aggression: 1
     energyRecovery: 40
+    capturable: false
   - type: STR_ETHEREAL_COMMANDER_C
     race: STR_ETHEREAL_C
     rank: STR_LIVE_COMMANDER
@@ -1767,6 +1782,7 @@ units:
     intelligence: 0
     aggression: 1
     energyRecovery: 40
+    capturable: false
   - type: STR_CHRYSSALID_TERRORIST_C
     race: STR_CHRYSSALID_C
     rank: STR_LIVE_TERRORIST
@@ -1792,6 +1808,7 @@ units:
     isLeeroyJenkins: true
     energyRecovery: 40
     livingWeapon: true
+    capturable: false
   - type: STR_SILACOID_TERRORIST_C
     race: STR_SILACOID_C
     rank: STR_LIVE_TERRORIST
@@ -1818,6 +1835,7 @@ units:
     energyRecovery: 40
     specab: 2
     livingWeapon: true
+    capturable: false
   - type: STR_CELATID_TERRORIST_C
     race: STR_CELATID_C
     rank: STR_LIVE_TERRORIST
@@ -1844,6 +1862,7 @@ units:
     aggression: 2
     energyRecovery: 40
     livingWeapon: true
+    capturable: false
   - type: STR_SECTOPOD_TERRORIST_C
     race: STR_SECTOPOD_C
     rank: STR_LIVE_TERRORIST
@@ -1868,7 +1887,7 @@ units:
     aggression: 8
     energyRecovery: 50
     livingWeapon: true
-    capturable: true
+    capturable: false
   - type: STR_ZOMBIE_C
     race: STR_ZOMBIE_C
     rank: STR_LIVE_TERRORIST
@@ -1893,3 +1912,4 @@ units:
     energyRecovery: 20
     spawnUnit: STR_CHRYSSALID_TERRORIST_C
     livingWeapon: true
+    capturable: false

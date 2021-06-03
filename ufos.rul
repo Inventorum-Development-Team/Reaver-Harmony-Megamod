@@ -1304,7 +1304,7 @@ ufos:
         - U_PODSR
         - U_BITSR
         - UFOL83AR
-        - U_BASE
+        - U_BASER
         - U_TRoDR
       mapBlocks:
         - name: RFO_3MDa
@@ -1420,7 +1420,7 @@ ufos:
         - U_WALL02R
         - U_DISEC2
         - U_BITSR
-        - U_BASE
+        - U_BASER
         - U_PODSR
         - U_TRoDR
       mapBlocks:
@@ -1471,7 +1471,7 @@ ufos:
         - U_PODSR
         - U_BITSR
         - U_DISEC3R
-        - U_BASE
+        - U_BASER
         - U_TRoDR
       mapBlocks:
         - name: RFO_4HDa
@@ -1527,7 +1527,7 @@ ufos:
         - U_PODSR
         - U_BITSR
         - U_DISEC3R
-        - U_BASE
+        - U_BASER
         - U_TRoDR
       mapBlocks:
         - name: UFO_16Ra
@@ -1578,7 +1578,7 @@ ufos:
         - U_BITSR
         - U_DISEC2
         - U_OPER2R
-        - U_BASE
+        - U_BASER
         - U_TRoDR
       mapBlocks:
         - name: RFO_5MOa

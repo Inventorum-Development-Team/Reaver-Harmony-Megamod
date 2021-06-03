@@ -40,6 +40,16 @@
 #       * Added new mapblocks to Cydonia underground and made tweaks to its map script.
 #       * Soldiers now always spawn inside the exit area during alien base or outpost missions.
 #       * Base defense: Soldiers are now much less likely to spawn in access lift, tanks are a bit less likely to.
+#  0.9.5:   Added several new damage types to better differentiate between weapon types.
+#       * Slightly tweaked resistances across the board.
+#       * Reduced how often aliens carry blaster launchers and increased how often they carry small launchers.
+#       * Made elite aliens show up a bit earlier in the event that you complete the research tree quickly.
+#       * Invasion now begins almost year earlier.
+#       * Improved several UFOPedia descriptions.
+#       * Unit on elite small scout now correctly carries red grenade.
+#       * Fixed bug with Medium Destroyer sometimes carrying derelict alien habitat units.
+#       * Elite craft now yield two data units.
+#       * Fixed some visual glitches on maps.
 #
 #
 # resource authors/sources:

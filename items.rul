@@ -679,7 +679,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 40
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.42
       IgnoreOverKill: false
@@ -697,13 +697,13 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_AP_R
-    bigSprite: 1
+    bigSprite: 7
     bulletSprite: 2
     fireSound: 4
     hitSound: 22
     hitAnimation: -1
     power: 25
-    damageType: 1
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.72
       IgnoreOverKill: false
@@ -721,7 +721,7 @@ items:
     fixedWeapon: true
     recover: false
     clipSize: 90
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_LASER_H
     bigSprite: 317
@@ -730,7 +730,7 @@ items:
     hitSound: 303
     hitAnimation: 36
     power: 80
-    damageType: 4
+    damageType: 14
     damageAlter:
       ArmorEffectiveness: 0.69
       IgnoreOverKill: false
@@ -748,13 +748,13 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_LASER_R
-    bigSprite: 0
+    bigSprite: 314
     bulletSprite: 6
     fireSound: 11
     hitSound: 19
     hitAnimation: -1
     power: 50
-    damageType: 4
+    damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.2
       IgnoreOverKill: false
@@ -772,7 +772,7 @@ items:
     fixedWeapon: true
     recover: false
     clipSize: -1
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_PLASMA_H
     bigSprite: 304
@@ -782,7 +782,7 @@ items:
     hitSound: 19
     hitAnimation: 56
     power: 120
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.69
       IgnoreOverKill: false
@@ -800,14 +800,14 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_PLASMA_R
-    bigSprite: 302
+    bigSprite: 330
     handSprite: 0
     bulletSprite: 36
     fireSound: 18
     hitSound: 19
     hitAnimation: -1
     power: 75
-    damageType: 5
+    damageType: 18
     damageAlter:
       ArmorEffectiveness: 1.2
       IgnoreOverKill: false
@@ -834,7 +834,7 @@ items:
     hitSound: 22
     hitAnimation: -1
     power: 18
-    damageType: 1
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.75
       IgnoreOverKill: false
@@ -861,7 +861,7 @@ items:
     hitSound: 22
     hitAnimation: -1
     power: 24
-    damageType: 1
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.7
       IgnoreOverKill: false
@@ -1059,7 +1059,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 43
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.36
       IgnoreOverKill: false
@@ -1083,7 +1083,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 75
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.36
       IgnoreOverKill: false
@@ -1107,7 +1107,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 107
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.36
       IgnoreOverKill: false
@@ -1131,7 +1131,7 @@ items:
     hitSound: 303
     hitAnimation: -1
     power: 36
-    damageType: 4
+    damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false
@@ -1158,7 +1158,7 @@ items:
     hitSound: 303
     hitAnimation: -1
     power: 54
-    damageType: 4
+    damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false
@@ -1185,7 +1185,7 @@ items:
     hitSound: 303
     hitAnimation: -1
     power: 48
-    damageType: 4
+    damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.15
       IgnoreOverKill: false
@@ -1212,7 +1212,7 @@ items:
     hitSound: 303
     hitAnimation: -1
     power: 72
-    damageType: 4
+    damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.15
       IgnoreOverKill: false
@@ -1321,7 +1321,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     power: 15
-    damageType: 1
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.9
       IgnoreOverKill: false
@@ -1464,6 +1464,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 48
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.324
       IgnoreOverKill: false
@@ -1490,7 +1491,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 64
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.2
       IgnoreOverKill: false
@@ -1891,6 +1892,7 @@ items:
     fireSound: 314
     hitSound: 303
     power: 96
+    damageType: 14
     damageAlter:
       ArmorEffectiveness: 0.54
       IgnoreOverKill: false
@@ -1926,7 +1928,7 @@ items:
     hitSound: 303
     hitAnimation: 36
     power: 128
-    damageType: 4
+    damageType: 14
     damageAlter:
       ArmorEffectiveness: 0.333
       IgnoreOverKill: false
@@ -2058,7 +2060,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 100
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.25
       IgnoreOverKill: false
@@ -2178,7 +2180,7 @@ items:
     hitSound: 19
     hitAnimation: 56
     power: 144
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.54
       IgnoreOverKill: false
@@ -2201,7 +2203,7 @@ items:
     hitSound: 19
     hitAnimation: 56
     power: 192
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.333
       IgnoreOverKill: false
@@ -2276,7 +2278,7 @@ items:
     explosionHitSound: 320
     explosionSpeed: -2
     power: 180
-    damageType: 3
+    damageType: 13
     damageAlter:
       RadiusReduction: 23
       ArmorEffectiveness: 0.5
@@ -2303,7 +2305,7 @@ items:
     explosionHitSound: 320
     explosionSpeed: -2
     power: 280
-    damageType: 3
+    damageType: 13
     damageAlter:
       RadiusReduction: 29
       ArmorEffectiveness: 0.5
@@ -2330,7 +2332,7 @@ items:
     explosionHitSound: 322
     explosionSpeed: -3
     power: 440
-    damageType: 3
+    damageType: 13
     damageAlter:
       RadiusReduction: 36
       ArmorEffectiveness: 0.5
@@ -2356,7 +2358,7 @@ items:
     meleeHitSound: 306
     meleeAnimation: 8
     power: 0
-    hidePower: true
+    hidePower: false
     damageType: 7
     damageBonus:
       strength: 0.3
@@ -2395,7 +2397,7 @@ items:
     meleeAnimation: 8
     meleeSound: 308
     power: 0
-    hidePower: true
+    hidePower: false
     damageType: 7
     damageBonus:
       reactions: 1.0
@@ -2471,7 +2473,7 @@ items:
     meleeAnimation: 8
     meleeSound: 309
     power: 0
-    hidePower: true
+    hidePower: false
     damageType: 7
     damageBonus:
       strength: 1.6
@@ -2505,6 +2507,7 @@ items:
     meleeAnimation: 4
     meleeSound: 307
     power: 45
+    damageType: 6
     damageAlter:
       RandomType: 1
       ArmorEffectiveness: 0.2
@@ -2603,6 +2606,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     power: 27
+    damageType: 1
     damageAlter:
       ArmorEffectiveness: 0.6
       IgnoreOverKill: false
@@ -2684,7 +2688,7 @@ items:
     hitSound: 22
     hitAnimation: -1
     power: 21
-    damageType: 1
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.75
       IgnoreOverKill: false
@@ -2712,7 +2716,7 @@ items:
     hitSound: 22
     hitAnimation: -1
     power: 28
-    damageType: 1
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.75
       IgnoreOverKill: false
@@ -2850,7 +2854,7 @@ items:
     hitSound: 22
     hitAnimation: -1
     power: 18
-    damageType: 1
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.75
       IgnoreOverKill: false
@@ -2878,7 +2882,7 @@ items:
     hitSound: 22
     hitAnimation: -1
     power: 24
-    damageType: 1
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.75
       IgnoreOverKill: false
@@ -2940,7 +2944,7 @@ items:
     shotgunBehavior: 1
     shotgunChoke: 100
     power: 12
-    damageType: 7
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.9
       IgnoreOverKill: false
@@ -2973,7 +2977,7 @@ items:
     shotgunBehavior: 1
     shotgunChoke: 100
     power: 16
-    damageType: 7
+    damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.9
       IgnoreOverKill: false
@@ -3047,7 +3051,7 @@ items:
       - STR_HC_I_AMMO
       - STR_HC_ALLOY_AMMO
       - STR_HC_AE_AMMO
-    accuracyAuto: 35
+    accuracyAuto: 39
     accuracySnap: 72
     accuracyAimed: 100
     tuAuto: 26
@@ -3080,6 +3084,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 45
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.36
       IgnoreOverKill: false
@@ -3096,6 +3101,7 @@ items:
     weight: 5
     bulletSprite: 19
     power: 50
+    damageType: 3
     damageAlter:
       RadiusReduction: 11
       ArmorEffectiveness: 0.5
@@ -3138,7 +3144,7 @@ items:
     hitSound: 13
     hitAnimation: 26
     power: 60
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.36
       IgnoreOverKill: false
@@ -3231,6 +3237,7 @@ items:
     hitSound: 13
     hitAnimation: -1
     power: 33
+    damageType: 1
     damageAlter:
       ArmorEffectiveness: 0.54
       IgnoreOverKill: false
@@ -3247,6 +3254,7 @@ items:
     weight: 9
     bulletSprite: 17
     power: 30
+    damageType: 3
     damageAlter:
       RadiusReduction: 9
       ArmorEffectiveness: 0.5
@@ -3584,6 +3592,7 @@ items:
     bulletSprite: 26
     explosionSpeed: -1
     power: 100
+    damageType: 2
     damageAlter:
       ToHealth: 1.5
       IgnoreOverKill: false
@@ -3633,7 +3642,7 @@ items:
     explosionHitSound: 320
     explosionSpeed: -2
     power: 320
-    damageType: 3
+    damageType: 13
     damageAlter:
       RadiusReduction: 31
       ArmorEffectiveness: 0.5
@@ -3668,6 +3677,7 @@ items:
     hitSound: 303
     hitAnimation: 36
     power: 54
+    damageType: 4
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
@@ -3713,7 +3723,7 @@ items:
     hitSound: 303
     hitAnimation: -1
     power: 42
-    damageType: 4
+    damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false
@@ -3799,7 +3809,7 @@ items:
     hitSound: 303
     hitAnimation: -1
     power: 36
-    damageType: 4
+    damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false
@@ -3848,12 +3858,13 @@ items:
     hitSound: 303
     hitAnimation: 36
     power: 90
+    damageType: 14
     damageAlter:
       ArmorEffectiveness: 0.6
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.06
-    accuracyAuto: 42
+    accuracyAuto: 47
     accuracySnap: 88
     accuracyAimed: 121
     tuAuto: 32
@@ -3974,7 +3985,7 @@ items:
     shotgunBehavior: 1
     shotgunChoke: 100
     power: 36
-    damageType: 5
+    damageType: 18
     damageAlter:
       ArmorEffectiveness: 1.5
       IgnoreOverKill: false
@@ -4082,7 +4093,7 @@ items:
     hitSound: 19
     hitAnimation: -1
     power: 63
-    damageType: 5
+    damageType: 18
     damageAlter:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false
@@ -4194,7 +4205,7 @@ items:
     hitSound: 19
     hitAnimation: -1
     power: 54
-    damageType: 5
+    damageType: 18
     damageAlter:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false
@@ -4216,7 +4227,7 @@ items:
     fireSound: 316
     compatibleAmmo:
       - STR_HEAVY_PLASMA_TERRAN_CLIP
-    accuracyAuto: 40
+    accuracyAuto: 44
     accuracySnap: 80
     accuracyAimed: 110
     tuAuto: 29
@@ -4251,7 +4262,7 @@ items:
     hitSound: 19
     hitAnimation: 56
     power: 135
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.6
       IgnoreOverKill: false
@@ -4363,6 +4374,7 @@ items:
     explosionHitSound: 320
     explosionSpeed: -2
     power: 260
+    damageType: 13
     damageAlter:
       RadiusReduction: 28
       ArmorEffectiveness: 0.5
@@ -4370,7 +4382,6 @@ items:
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.7
-    damageType: 3
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -4705,7 +4716,7 @@ items:
     bigSprite: 310
     handSprite: 316
     fireSound: 316
-    accuracyAuto: 40
+    accuracyAuto: 44
     accuracySnap: 80
     accuracyAimed: 110
     tuAuto: 29
@@ -4742,7 +4753,7 @@ items:
     hitSound: 19
     hitAnimation: 46
     power: 135
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.6
       IgnoreOverKill: false
@@ -4796,6 +4807,7 @@ items:
     explosionHitSound: 320
     explosionSpeed: -2
     power: 260
+    damageType: 13
     damageAlter:
       RadiusReduction: 28
       ArmorEffectiveness: 0.5
@@ -4803,7 +4815,6 @@ items:
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.7
-    damageType: 3
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -4874,6 +4885,7 @@ items:
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 2
     power: 125
+    damageType: 3
     damageAlter:
       RadiusReduction: 17
       ArmorEffectiveness: 0.5
@@ -5143,7 +5155,7 @@ items:
     explosionHitSound: 322
     explosionSpeed: -3
     power: 460
-    damageType: 3
+    damageType: 13
     damageAlter:
       RadiusReduction: 38
       ArmorEffectiveness: 0.5
@@ -5637,7 +5649,7 @@ items:
     hitSound: 303
     hitAnimation: 86
     power: 155
-    damageType: 4
+    damageType: 14
     damageAlter:
       ArmorEffectiveness: 0.48
       IgnoreOverKill: false
@@ -5723,7 +5735,7 @@ items:
     hitSound: 317
     hitAnimation: 26
     power: 185
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.18
       IgnoreOverKill: false
@@ -5774,7 +5786,7 @@ items:
     handSprite: 780
     bulletSprite: 10
     power: 320
-    damageType: 3
+    damageType: 13
     damageAlter:
       RadiusReduction: 31
       ArmorEffectiveness: 0.5
@@ -5850,7 +5862,7 @@ items:
     hitSound: 319
     hitAnimation: 26
     power: 95
-    damageType: 1
+    damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.29
       IgnoreOverKill: false
@@ -6217,7 +6229,7 @@ items:
     hitSound: 19
     hitAnimation: 76
     power: 95
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
@@ -6249,7 +6261,7 @@ items:
     accuracyAimed: 127
     tuAuto: 60
     tuSnap: 27
-    tuAimed: 77
+    tuAimed: 69
     autoRange: 12
     snapRange: 18
     aimRange: 40
@@ -6279,7 +6291,7 @@ items:
     hitSound: 19
     hitAnimation: 76
     power: 110
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
@@ -6307,7 +6319,7 @@ items:
     compatibleAmmo:
       - STR_HEAVY_PLASMA_RED_CLIP
     accuracyAuto: 66
-    accuracySnap: 72
+    accuracySnap: 80
     accuracyAimed: 110
     tuAuto: 87
     tuSnap: 42
@@ -6341,7 +6353,7 @@ items:
     hitSound: 19
     hitAnimation: 76
     power: 155
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.6
       IgnoreOverKill: false
@@ -6394,7 +6406,7 @@ items:
     floorSprite: 327
     bulletSprite: 41
     power: 250
-    damageType: 3
+    damageType: 13
     damageAlter:
       RadiusReduction: 20
       ArmorEffectiveness: 0.5
@@ -7956,12 +7968,21 @@ items:
     costSell: 40000
     categories: [STR_CAT_ALIENS]
   - type: STR_REAPER_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
     costSell: 60000
     categories: [STR_CAT_ALIENS]
   - type: STR_SECTOPOD_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
     costSell: 300000
     categories: [STR_CAT_ALIENS]
   - type: STR_CYBERDISC_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
     costSell: 240000
     categories: [STR_CAT_ALIENS]
   - type: SECTOID_PSI_WEAPON

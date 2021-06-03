@@ -347,7 +347,7 @@ facilities:
     refundValue: 25000
     buildTime: 12
     monthlyCost: 5000
-    storage: 25
+    storage: 30
     rightClickActionType: 7
     mapName: XBASE_07
     buildOverFacilities:
@@ -364,7 +364,7 @@ facilities:
     refundValue: 125000
     buildTime: 18
     monthlyCost: 25000
-    storage: 125
+    storage: 180
     rightClickActionType: 7
     mapName: RBASE_16
     buildOverFacilities:

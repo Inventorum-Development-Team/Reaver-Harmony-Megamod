@@ -265,7 +265,7 @@ missionScripts:
         STR_ALIEN_BASE_ELITE: 20
     useTable: false
   - type: snakemanInfestation
-    firstMonth: 21
+    firstMonth: 14 #21
     lastMonth: 116
     missionWeights:
       0:
@@ -385,7 +385,7 @@ missionScripts:
     useTable: false
     randomDelay: 102240 #Apr, May 2000 +10 days
   - type: invasionElitePhaseOne
-    firstMonth: 27
+    firstMonth: 18 #27
     lastMonth: 60
     missionWeights:
       0:
@@ -412,7 +412,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseTwo
-    firstMonth: 33
+    firstMonth: 24 #33
     lastMonth: 64
     missionWeights:
       0:
@@ -439,7 +439,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseThree
-    firstMonth: 36
+    firstMonth: 27 #36
     lastMonth: 68
     missionWeights:
       0:
@@ -467,7 +467,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseFour
-    firstMonth: 39
+    firstMonth: 30 #39
     lastMonth: 72
     missionWeights:
       0:
@@ -494,7 +494,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseFive
-    firstMonth: 42
+    firstMonth: 33 #42
     lastMonth: 76
     missionWeights:
       0:
@@ -521,7 +521,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseSix
-    firstMonth: 45
+    firstMonth: 36 #45
     lastMonth: 80
     missionWeights:
       0:
@@ -549,7 +549,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseSeven
-    firstMonth: 48
+    firstMonth: 39 #48
     lastMonth: 84
     missionWeights:
       0:
@@ -576,7 +576,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseEight
-    firstMonth: 51
+    firstMonth: 42 #51
     lastMonth: 88
     missionWeights:
       0:
@@ -688,12 +688,16 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_RETALIATION_MEDIUM_ELITE: 100
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_PSIONIC: 50
+        STR_MIXED_INVASION_DESTROY: 50
     researchTriggers:
       STR_FLAGSHIPS: true
     startDelay: 600
     targetBaseOdds: 100
     useTable: false
-    maxRuns: 1
+    lastMonth: 23
     varName: rRFla
   - type: researchRetaliationCydoniaIntel
     missionWeights:
