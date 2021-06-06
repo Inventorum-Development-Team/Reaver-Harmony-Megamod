@@ -2927,6 +2927,7 @@ research:
       - STR_ALIEN_OUTPOST
       - STR_DATA_CACHE_AO
       - STR_SNAKEMAN_INVASION
+    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
         - STR_CHRYSSALID_C
   - name: STR_ETHEREAL_COMMANDER

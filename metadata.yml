@@ -50,7 +50,7 @@
 #       * Fixed bug with Medium Destroyer sometimes carrying derelict alien habitat units.
 #       * Elite craft now yield two data units.
 #       * Fixed some visual glitches on maps.
-#  0.9.6:   Reduced some of the larger-sized component costs of Flagships.
+#  0.9.6.1:   Reduced some of the larger-sized component costs of Flagships.
 #       * Increased likelihood of missions being infiltration.
 #       * Added Patroller UFO which will attack X-Com craft earlier in the game than destroyers.
 #       * Storage space from General Stores increased. Other facilities unaffected.
@@ -139,7 +139,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 0.9.6
+version: 0.9.6.1
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
