@@ -76,6 +76,52 @@ ufos:
         - name: RFO_0COd
           width: 10
           length: 10
+  - type: STR_PATROLLER
+    size: STR_VERY_SMALL
+    modSprite: Patroller
+    marker: 30
+    markerLand: 35
+    markerCrash: 40
+    damageMax: 80
+    avoidBonus: 25
+    speedMax: 2500
+    accel: 10
+    power: 34
+    hitBonus: 30
+    range: 34
+    score: 100
+    reload: 60 #44
+    breakOffTime: 420
+    hunterKillerPercentage: 100
+    huntMode: 1
+    huntSpeed: 80
+    huntBehavior: 0
+    radarRange: 900
+    sightRange: 300
+    missionCustomDeploy: STR_COVERT_OPS_SHIP
+    battlescapeTerrainData:
+      name: RFO_6PA
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - UFOL83A
+        - U_TRoD
+      mapBlocks:
+        - name: RFO_6PAa
+          width: 10
+          length: 10
+        - name: RFO_6PAb
+          width: 10
+          length: 10
+        - name: RFO_6PAc
+          width: 10
+          length: 10
+        - name: RFO_6PAd
+          width: 10
+          length: 10
   - type: STR_MEDIUM_SCOUT
     size: STR_SMALL
     sprite: 1
@@ -637,7 +683,7 @@ ufos:
           length: 30
   - type: STR_HEAVY_DESTROYER
     size: STR_LARGE
-    modSprite: HeavyDestroyer
+    modSprite: MediumDestroyer
     marker: 33
     markerLand: 38
     markerCrash: 43
@@ -865,6 +911,55 @@ ufos:
           width: 10
           length: 10
         - name: RFO_0COd
+          width: 10
+          length: 10
+  - type: STR_PATROLLER_ELITE
+    size: STR_VERY_SMALL
+    modSprite: ElitePatroller
+    marker: 30
+    markerLand: 35
+    markerCrash: 40
+    damageMax: 112
+    shieldCapacity: 18 #176, 2 Shield Emitters
+    shieldRechargeInGeoscape: 1 #4
+    shieldBleedThrough: 100
+    avoidBonus: 43
+    speedMax: 3500
+    accel: 11
+    power: 42
+    hitBonus: 40
+    range: 45
+    score: 150
+    reload: 79 #63
+    breakOffTime: 520
+    hunterKillerPercentage: 100
+    huntMode: 1
+    huntSpeed: 100
+    huntBehavior: 0
+    radarRange: 900
+    sightRange: 300
+    missionCustomDeploy: STR_COVERT_OPS_SHIP
+    battlescapeTerrainData:
+      name: RFO_6PA
+      mapDataSets:
+        - BLANKS
+        - U_EXT02R
+        - U_WALL02R
+        - U_PODSR
+        - U_BITSR
+        - UFOL83AR
+        - U_TRoDR
+      mapBlocks:
+        - name: RFO_6PAa
+          width: 10
+          length: 10
+        - name: RFO_6PAb
+          width: 10
+          length: 10
+        - name: RFO_6PAc
+          width: 10
+          length: 10
+        - name: RFO_6PAd
           width: 10
           length: 10
   - type: STR_MEDIUM_SCOUT_ELITE
@@ -1438,7 +1533,7 @@ ufos:
           length: 30
   - type: STR_HEAVY_DESTROYER_ELITE
     size: STR_LARGE
-    modSprite: HeavyDestroyer
+    modSprite: EliteMediumDestroyer
     marker: 33
     markerLand: 38
     markerCrash: 43

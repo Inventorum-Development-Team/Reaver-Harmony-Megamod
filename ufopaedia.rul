@@ -3461,12 +3461,19 @@ ufopaedia:
       - STR_SMALL_SCOUT
     text: STR_SMALL_SCOUT_UFOPEDIA
   - id: STR_COVERT_OPS_SHIP
-    listOrder: 12005
+    listOrder: 12004
     type_id: 9
     section: STR_UFOS
     requires:
       - STR_COVERT_OPS_SHIP
     text: STR_COVERT_OPS_SHIP_UFOPEDIA
+  - id: STR_PATROLLER
+    listOrder: 12007
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_PATROLLER
+    text: STR_PATROLLER_UFOPEDIA
   - id: STR_MEDIUM_SCOUT
     listOrder: 12010
     type_id: 9
@@ -3559,12 +3566,19 @@ ufopaedia:
       - STR_SMALL_SCOUT_ELITE
     text: STR_SMALL_SCOUT_ELITE_UFOPEDIA
   - id: STR_COVERT_OPS_SHIP_ELITE
-    listOrder: 12105
+    listOrder: 12104
     type_id: 9
     section: STR_UFOS
     requires:
       - STR_COVERT_OPS_SHIP_ELITE
     text: STR_COVERT_OPS_SHIP_ELITE_UFOPEDIA
+  - id: STR_PATROLLER_ELITE
+    listOrder: 12107
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_PATROLLER_ELITE
+    text: STR_PATROLLER_ELITE_UFOPEDIA
   - id: STR_MEDIUM_SCOUT_ELITE
     listOrder: 12110
     type_id: 9
@@ -3657,12 +3671,19 @@ ufopaedia:
       - STR_DATA_CANISTER_SS
     text: STR_SMALL_SCOUT_DATA_UFOPEDIA
   - id: STR_COVERT_OPS_SHIP_DATA
-    listOrder: 12205
+    listOrder: 12204
     type_id: 8
     section: STR_UFOS
     requires:
       - STR_DATA_CANISTER_CO
     text: STR_COVERT_OPS_SHIP_DATA_UFOPEDIA
+  - id: STR_PATROLLER_DATA
+    listOrder: 12207
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_DATA_CANISTER_PA
+    text: STR_PATROLLER_DATA_UFOPEDIA
   - id: STR_MEDIUM_SCOUT_DATA
     listOrder: 12210
     type_id: 8

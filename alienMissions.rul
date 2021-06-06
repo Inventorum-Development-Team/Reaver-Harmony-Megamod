@@ -8,7 +8,7 @@ alienMissions:
   - delete: STR_ALIEN_RETALIATION
   - delete: STR_ALIEN_SUPPLY
   - type: STR_ALIEN_RESEARCH
-    points: 10 #3 landings, 6 UFOs
+    points: 10 #3 landings, 7 UFOs
     retaliationOdds: 4
     raceWeights:
       0:
@@ -56,12 +56,16 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 7800
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
+        timer: 300
       - ufo: STR_HARVESTER
         count: 1
         trajectory: P2
-        timer: 600
+        timer: 300
   - type: STR_ALIEN_RESEARCH_ELITE
-    points: 10 #3 landings, 6 UFOs
+    points: 10 #3 landings, 7 UFOs
     retaliationOdds: 4
     raceWeights:
       0:
@@ -107,12 +111,16 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 7800
+      - ufo: STR_PATROLLER_ELITE
+        count: 1
+        trajectory: P79
+        timer: 300
       - ufo: STR_HARVESTER_ELITE
         count: 1
         trajectory: P2
-        timer: 600
+        timer: 300
   - type: STR_ALIEN_ABDUCTION
-    points: 75 #4 landings, 8 UFOs
+    points: 75 #4 landings, 10 UFOs
     retaliationOdds: 6
     raceWeights:
       0:
@@ -154,9 +162,9 @@ alienMissions:
         count: 1
         trajectory: P01
         timer: 270
-      - ufo: STR_MEDIUM_SCOUT
+      - ufo: STR_PATROLLER
         count: 1
-        trajectory: P1
+        trajectory: P79
         timer: 2700
       - ufo: STR_ABDUCTOR
         count: 1
@@ -166,12 +174,16 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 2700
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
+        timer: 120
       - ufo: STR_ABDUCTOR
         count: 1
         trajectory: P3
-        timer: 240
+        timer: 120
   - type: STR_ALIEN_ABDUCTION_ELITE
-    points: 75 #4 landings, 8 UFOs
+    points: 75 #4 landings, 10 UFOs
     retaliationOdds: 6
     raceWeights:
       0:
@@ -213,7 +225,7 @@ alienMissions:
         count: 1
         trajectory: P01
         timer: 270
-      - ufo: STR_MEDIUM_SCOUT_ELITE
+      - ufo: STR_PATROLLER_ELITE
         count: 1
         trajectory: P1
         timer: 2700
@@ -225,12 +237,16 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 2700
+      - ufo: STR_PATROLLER_ELITE
+        count: 1
+        trajectory: P79
+        timer: 120
       - ufo: STR_ABDUCTOR_ELITE
         count: 1
         trajectory: P3
         timer: 240
   - type: STR_ALIEN_HARVEST
-    points: 15 #10 landings, 8 UFOs
+    points: 15 #10 landings, 9 UFOs
     retaliationOdds: 6
     raceWeights:
       0:
@@ -282,12 +298,16 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 600
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
+        timer: 60
       - ufo: STR_CARGO_SHIP
         count: 1
         trajectory: P3
-        timer: 150
+        timer: 90
   - type: STR_ALIEN_HARVEST_ELITE
-    points: 15 #10 landings, 8 UFOs
+    points: 15 #10 landings, 9 UFOs
     retaliationOdds: 6
     raceWeights:
       0:
@@ -339,12 +359,16 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 600
+      - ufo: STR_PATROLLER_ELITE
+        count: 1
+        trajectory: P79
+        timer: 60
       - ufo: STR_CARGO_SHIP_ELITE
         count: 1
         trajectory: P3
-        timer: 150
+        timer: 90
   - type: STR_ALIEN_INFILTRATION
-    points: 25 #9 landings, 12 UFOs
+    points: 25 #9 landings, 15 UFOs
     retaliationOdds: 8
     objective: 1    
     endlessInfiltration: false
@@ -390,19 +414,27 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 2760
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
+        timer: 60
       - ufo: STR_COVERT_OPS_SHIP
         count: 1
         trajectory: P6
-        timer: 120
+        timer: 60
       - ufo: STR_ABDUCTOR
         interruptPercentage: 15
         count: 1
         trajectory: P7
         timer: 2760
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
+        timer: 60
       - ufo: STR_COVERT_OPS_SHIP
         count: 1
         trajectory: P6
-        timer: 120
+        timer: 60
       - ufo: STR_COVERT_OPS_SHIP
         interruptPercentage: 20
         count: 1
@@ -412,6 +444,10 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 120
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
+        timer: 60
       - ufo: STR_TERROR_SHIP
         interruptPercentage: 100
         count: 1
@@ -607,7 +643,7 @@ alienMissions:
         trajectory: P66
         timer: 480
   - type: STR_ALIEN_BASE
-    points: 30 #11 landings, 9 UFOs
+    points: 30 #11 landings, 11 UFOs
     retaliationOdds: 10
     objective: 2
     siteType: STR_ALIEN_BASE_ASSAULT
@@ -673,10 +709,18 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 60
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
+        timer: 60
       - ufo: STR_SUPPLY_SHIP
         interruptPercentage: 45
         count: 2
         trajectory: P3
+        timer: 60
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
         timer: 60
       - ufo: STR_TERROR_SHIP
         interruptPercentage: 35
@@ -865,7 +909,7 @@ alienMissions:
         trajectory: P66
         timer: 720
   - type: STR_ALIEN_OUTPOST
-    points: 10 #8 landings, 5 UFOs
+    points: 10 #8 landings, 6 UFOs
     retaliationOdds: 6
     objective: 2
     siteType: STR_ALIEN_OUTPOST_ASSAULT
@@ -905,6 +949,10 @@ alienMissions:
         count: 1
         trajectory: P5
         timer: 15000
+      - ufo: STR_PATROLLER
+        count: 1
+        trajectory: P79
+        timer: 60
       - ufo: STR_SUPPLY_SHIP
         interruptPercentage: 100
         count: 1

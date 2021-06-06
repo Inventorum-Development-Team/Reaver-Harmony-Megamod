@@ -89,8 +89,8 @@ missionScripts:
         STR_ALIEN_RESEARCH: 14
         STR_ALIEN_ABDUCTION: 16
         STR_ALIEN_HARVEST: 10
-        STR_ALIEN_INFILTRATION: 20
-        STR_ALIEN_OUTPOST: 40
+        STR_ALIEN_INFILTRATION: 40
+        STR_ALIEN_OUTPOST: 20
     # regionWeights:
       # 0:
         # STR_NORTH_AMERICA: 15
@@ -117,8 +117,8 @@ missionScripts:
         STR_ALIEN_RESEARCH: 12
         STR_ALIEN_ABDUCTION: 4
         STR_ALIEN_HARVEST: 24
-        STR_ALIEN_INFILTRATION: 20
-        STR_ALIEN_OUTPOST: 40
+        STR_ALIEN_INFILTRATION: 50
+        STR_ALIEN_OUTPOST: 10
     # regionWeights:
       # 0:
         # STR_NORTH_AMERICA: 16
@@ -174,7 +174,8 @@ missionScripts:
         STR_ALIEN_RETALIATION_LIGHT_DEFENDED: 6
         STR_ALIEN_RETALIATION_MEDIUM_DEFENDED: 34
         STR_ALIEN_RETALIATION_HEAVY: 20
-        STR_ALIEN_OUTPOST: 28
+        STR_ALIEN_INFILTRATION: 21
+        STR_ALIEN_OUTPOST: 7
     useTable: false
   - type: infiltration/incursion3
     firstMonth: 12

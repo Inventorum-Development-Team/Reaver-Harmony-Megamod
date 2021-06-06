@@ -847,6 +847,12 @@ extraSprites:
     height: 81
     files:
       0: Resources/ReaversUFOs/CovertOpsShip.png
+  - type: Patroller
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/Patroller.png
   - type: LightDestroyer
     singleImage: true
     width: 160
@@ -901,6 +907,12 @@ extraSprites:
     height: 81
     files:
       0: Resources/ReaversUFOs/EliteCovertOpsShip.png
+  - type: ElitePatroller
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/ElitePatroller.png
   - type: EliteMediumScout
     singleImage: true
     width: 160

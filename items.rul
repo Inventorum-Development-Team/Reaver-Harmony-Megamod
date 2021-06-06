@@ -2283,6 +2283,7 @@ items:
       RadiusReduction: 23
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.6
@@ -2310,6 +2311,7 @@ items:
       RadiusReduction: 29
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.725
@@ -2337,6 +2339,7 @@ items:
       RadiusReduction: 36
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.925
@@ -3647,6 +3650,7 @@ items:
       RadiusReduction: 31
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.775
@@ -4379,6 +4383,7 @@ items:
       RadiusReduction: 28
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.7
@@ -4812,6 +4817,7 @@ items:
       RadiusReduction: 28
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.7
@@ -5160,6 +5166,7 @@ items:
       RadiusReduction: 38
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.95
@@ -5791,6 +5798,7 @@ items:
       RadiusReduction: 31
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.775
@@ -6228,8 +6236,8 @@ items:
     bulletSprite: 39
     hitSound: 19
     hitAnimation: 76
-    power: 95
-    damageType: 15
+    power: 101
+    damageType: 5
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
@@ -6291,7 +6299,7 @@ items:
     hitSound: 19
     hitAnimation: 76
     power: 110
-    damageType: 15
+    damageType: 5
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
@@ -6411,6 +6419,7 @@ items:
       RadiusReduction: 20
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
     blastRadius: 10
@@ -6435,6 +6444,7 @@ items:
     floorSprite: 370
     explosionHitSound: 320
     power: 180
+    damageType: 3
     damageAlter:
       RadiusReduction: 20
       ArmorEffectiveness: 0.5
@@ -6442,7 +6452,6 @@ items:
       ToArmor: 0
       ToArmorPre: 0.1
     blastRadius: 7
-    damageType: 3
     battleType: 4
     recoveryPoints: 2
     armor: 35
@@ -7475,7 +7484,7 @@ items:
     hitSound: 19
     hitAnimation: 46
     power: 144
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.6
       IgnoreOverKill: false
@@ -7583,7 +7592,7 @@ items:
     hitSound: 303
     hitAnimation: 66
     power: 90
-    damageType: 4
+    damageType: 14
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
@@ -7635,7 +7644,7 @@ items:
     hitSound: 19
     hitAnimation: 46
     power: 144
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.75
       IgnoreOverKill: false
@@ -7685,7 +7694,7 @@ items:
     hitSound: 19
     hitAnimation: 76
     power: 162
-    damageType: 5
+    damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.6
       IgnoreOverKill: false
@@ -7804,7 +7813,7 @@ items:
     hitSound: 303
     hitAnimation: 86
     power: 117
-    damageType: 4
+    damageType: 14
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
@@ -8065,6 +8074,13 @@ items:
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 80
+    recoveryPoints: 1
+  - type: STR_DATA_CANISTER_PA
+    listOrder: 99502
+    size: 0
+    costSell: 0
+    categories: [STR_CAT_DATA_MODULE]
+    specialType: 90
     recoveryPoints: 1
   - type: STR_DATA_CORE_MS
     listOrder: 99510
