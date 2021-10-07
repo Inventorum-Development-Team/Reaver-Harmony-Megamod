@@ -65,7 +65,7 @@ items:
     transferTime: 48
   - type: STR_CANNON_ROUNDS_X50
     listOrder: 101
-    size: 0.006
+    size: 0.025
     costBuy: 2480
     costSell: 1860
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
@@ -82,7 +82,7 @@ items:
     transferTime: 72
   - type: STR_ALLOY_CANNON_ROUNDS_X25
     listOrder: 111
-    size: 0.006
+    size: 0.025
     requiresBuy:
       - STR_OUTSOURCING_AIR
     costBuy: 11660
@@ -99,7 +99,7 @@ items:
     transferTime: 48
   - type: STR_STARLING_MISSILES
     listOrder: 191
-    size: 0.03
+    size: 0.06
     costBuy: 10000
     costSell: 7500
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
@@ -116,7 +116,7 @@ items:
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
   - type: STR_SHRIKE_MISSILES
     listOrder: 196
-    size: 0.025
+    size: 0.05
     requiresBuy:
       - STR_OUTSOURCING_AIR
       - STR_ALIEN_EXPLOSIVES
@@ -134,7 +134,7 @@ items:
     transferTime: 48
   - type: STR_STINGRAY_MISSILES
     listOrder: 201
-    size: 0.03
+    size: 0.06
     costBuy: 7200
     costSell: 5760
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
@@ -151,7 +151,7 @@ items:
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
   - type: STR_SCORPION_MISSILES
     listOrder: 206
-    size: 0.025
+    size: 0.05
     requiresBuy:
       - STR_OUTSOURCING_AIR
       - STR_HEAVY_ALIEN_EXPLOSIVES
@@ -169,7 +169,7 @@ items:
     transferTime: 48
   - type: STR_AVALANCHE_MISSILES
     listOrder: 301
-    size: 0.09
+    size: 0.18
     costBuy: 24000
     costSell: 19200
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
@@ -186,7 +186,7 @@ items:
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
   - type: STR_TORRENT_MISSILES
     listOrder: 306
-    size: 0.072
+    size: 0.144
     requiresBuy:
       - STR_OUTSOURCING_AIR
       - STR_HEAVY_ALIEN_EXPLOSIVES
@@ -194,6 +194,25 @@ items:
     transferTime: 72
     costSell: 74900
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
+    clipSize: 1
+  - type: STR_RAGE_LAUNCHER
+    listOrder: 308
+    size: 0.075
+    requiresBuy:
+      - STR_LARGE_PYLON_MOUNT
+    costBuy: 26000
+    transferTime: 60
+    costSell: 20800
+    categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
+  - type: STR_RAGE_MISSILES
+    listOrder: 309
+    size: 0.35
+    requiresBuy:
+      - STR_LARGE_PYLON_MOUNT
+    costBuy: 90000
+    transferTime: 60
+    costSell: 72000
+    categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
     clipSize: 1
   - type: STR_RAMPAGE_LAUNCHER
     listOrder: 310
@@ -209,7 +228,7 @@ items:
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
   - type: STR_RAMPAGE_MISSILES
     listOrder: 311
-    size: 0.1
+    size: 0.2
     requiresBuy:
       - STR_OUTSOURCING_AIR
       - STR_ALIEN_EXPLOSIVES
@@ -268,7 +287,7 @@ items:
     transferTime: 48
   - type: STR_CRAFT_LP_AMMO
     listOrder: 481
-    size: 0.0025
+    size: 0.005
     costSell: 28000
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
@@ -281,7 +300,7 @@ items:
     transferTime: 48
   - type: STR_PLASMA_AC_AMMO
     listOrder: 491
-    size: 0.0012
+    size: 0.0025
     costSell: 5000
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
@@ -294,7 +313,7 @@ items:
     transferTime: 48
   - type: STR_PLASMA_BEAM_AMMO
     listOrder: 501
-    size: 0.005
+    size: 0.01
     costSell: 34600
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
@@ -307,7 +326,7 @@ items:
     transferTime: 48
   - type: STR_DEVASTATOR_PLASMA_AMMO
     listOrder: 511
-    size: 0.004
+    size: 0.008
     costSell: 26500
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
@@ -320,7 +339,7 @@ items:
     transferTime: 48
   - type: STR_FUSION_BALL
     listOrder: 601
-    size: 0.05
+    size: 0.1
     costSell: 357400
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
@@ -333,7 +352,7 @@ items:
     transferTime: 48
   - type: STR_HEAVY_FUSION_BALL
     listOrder: 611
-    size: 0.1
+    size: 0.2
     costSell: 1216000
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
@@ -825,7 +844,7 @@ items:
     fixedWeapon: true
     recover: false
     clipSize: 45
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
   - type: STR_AUX_TANK_MACHINEGUN_G
     bigSprite: 802
@@ -2004,6 +2023,7 @@ items:
     damageType: 2
     damageAlter:
       ToHealth: 0.75
+      ToMorale: 2.0
     bulletSpeed: 2
     clipSize: 5
     battleType: 2
@@ -2277,10 +2297,10 @@ items:
     bulletSprite: 10
     explosionHitSound: 320
     explosionSpeed: -2
-    power: 180
+    power: 140
     damageType: 13
     damageAlter:
-      RadiusReduction: 23
+      RadiusReduction: 19
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
@@ -2305,10 +2325,10 @@ items:
     bulletSprite: 10
     explosionHitSound: 320
     explosionSpeed: -2
-    power: 280
+    power: 210
     damageType: 13
     damageAlter:
-      RadiusReduction: 29
+      RadiusReduction: 22
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
@@ -2333,10 +2353,10 @@ items:
     bulletSprite: 10
     explosionHitSound: 322
     explosionSpeed: -3
-    power: 440
+    power: 315
     damageType: 13
     damageAlter:
-      RadiusReduction: 36
+      RadiusReduction: 26
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
@@ -2364,9 +2384,9 @@ items:
     hidePower: false
     damageType: 7
     damageBonus:
-      strength: 0.3
-      reactions: 0.3
-      melee: 0.3
+      strength: 0.4
+      reactions: 0.4
+      melee: 0.2
     damageAlter:
       ToArmor: 0
       ToArmorPre: 0.02
@@ -2605,6 +2625,7 @@ items:
     costSell: 210
     categories: [STR_CAT_PISTOLS, STR_CAT_EARLY_TECH]
     weight: 2
+    handSprite: 436
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
@@ -2764,6 +2785,7 @@ items:
     costSell: 600
     categories: [STR_CAT_RIFLES, STR_CAT_EARLY_TECH]
     weight: 3
+    handSprite: 452
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
@@ -2942,18 +2964,18 @@ items:
     handSprite: 548
     hitSound: 22
     hitAnimation: 26
-    shotgunPellets: 12
+    shotgunPellets: 9
     shotgunSpread: 20
     shotgunBehavior: 1
     shotgunChoke: 100
-    power: 12
+    power: 15
     damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.9
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.09
-      ToTile: 0.75
+      ToTile: 0.6
       TileDamageMethod: 2
     clipSize: 8
     battleType: 2
@@ -2975,18 +2997,18 @@ items:
     handSprite: 700
     hitSound: 22
     hitAnimation: 26
-    shotgunPellets: 12
+    shotgunPellets: 9
     shotgunSpread: 20
     shotgunBehavior: 1
     shotgunChoke: 100
-    power: 16
+    power: 20
     damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.9
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.09
-      ToTile: 0.75
+      ToTile: 0.6
       TileDamageMethod: 2
     clipSize: 8
     battleType: 2
@@ -3054,8 +3076,8 @@ items:
       - STR_HC_I_AMMO
       - STR_HC_ALLOY_AMMO
       - STR_HC_AE_AMMO
-    accuracyAuto: 39
-    accuracySnap: 72
+    accuracyAuto: 44
+    accuracySnap: 81
     accuracyAimed: 100
     tuAuto: 26
     tuSnap: 38
@@ -3083,6 +3105,7 @@ items:
     costSell: 900
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_EARLY_TECH]
     weight: 5
+    handSprite: 1012
     bulletSprite: 18
     hitSound: 13
     hitAnimation: 26
@@ -3102,6 +3125,7 @@ items:
     costSell: 1500
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_EARLY_TECH]
     weight: 5
+    handSprite: 1028
     bulletSprite: 19
     power: 50
     damageType: 3
@@ -3121,11 +3145,13 @@ items:
     costSell: 1200
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_EARLY_TECH]
     weight: 5
+    handSprite: 1044
     bulletSprite: 18
     explosionSpeed: -1
     power: 50
     damageAlter:
       ToHealth: 1.0
+      ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 6
     armor: 30
@@ -3143,6 +3169,7 @@ items:
     weight: 5
     bigSprite: 342
     floorSprite: 336
+    handSprite: 1020
     bulletSprite: 18
     hitSound: 13
     hitAnimation: 26
@@ -3169,16 +3196,17 @@ items:
     transferTime: 36
     costSell: 32800
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_MID_TECH]
-    weight: 4
+    weight: 3
     bigSprite: 339
     floorSprite: 334
+    handSprite: 1036
     bulletSprite: 19
     hitSound: 0
     hitAnimation: 0
-    power: 80
+    power: 90
     damageType: 3
     damageAlter:
-      RadiusReduction: 14
+      RadiusReduction: 15
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
@@ -3187,7 +3215,7 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-    blastRadius: 4
+    blastRadius: 5
     armor: 50
     attraction: 15
   - type: STR_AUTO_CANNON
@@ -3236,6 +3264,7 @@ items:
     costSell: 1575
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_EARLY_TECH]
     weight: 9
+    handSprite: 972
     bulletSprite: 16
     hitSound: 13
     hitAnimation: -1
@@ -3255,6 +3284,7 @@ items:
     costSell: 2625
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_EARLY_TECH]
     weight: 9
+    handSprite: 988
     bulletSprite: 17
     power: 30
     damageType: 3
@@ -3274,11 +3304,13 @@ items:
     costSell: 2100
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_EARLY_TECH]
     weight: 9
+    handSprite: 1004
     bulletSprite: 16
     explosionSpeed: -1
     power: 30
     damageAlter:
       ToHealth: 0.8
+      ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 24
     armor: 30
@@ -3296,6 +3328,7 @@ items:
     weight: 9
     bigSprite: 343
     floorSprite: 337
+    handSprite: 980
     bulletSprite: 16
     hitSound: 13
     hitAnimation: -1
@@ -3322,13 +3355,14 @@ items:
     transferTime: 36
     costSell: 46000
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_MID_TECH]
-    weight: 7
+    weight: 6
     bigSprite: 340
     floorSprite: 335
+    handSprite: 996
     bulletSprite: 17
     hitSound: 0
     hitAnimation: 0
-    power: 48
+    power: 55
     damageType: 3
     damageAlter:
       RadiusReduction: 11
@@ -3424,6 +3458,7 @@ items:
     damageType: 2
     damageAlter:
       ToHealth: 1.1
+      ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
     battleType: 2
@@ -3498,7 +3533,7 @@ items:
     power: 110
     damageType: 6
     damageAlter:
-      RadiusReduction: 15
+      RadiusReduction: 10
       ArmorEffectiveness: 0.3
     clipSize: 1
     battleType: 2
@@ -3545,6 +3580,7 @@ items:
     weight: 6
     bigSprite: 336
     floorSprite: 331
+    handSprite: 1052
     bulletSprite: 24
     hitAnimation: 80
     explosionSpeed: -3
@@ -3568,6 +3604,7 @@ items:
     weight: 9
     bigSprite: 17
     floorSprite: 17
+    handSprite: 1060
     bulletSprite: 25
     power: 100
     damageType: 3
@@ -3592,12 +3629,14 @@ items:
     categories: [STR_CAT_LAUNCHERS, STR_CAT_EARLY_TECH]
     weight: 9
     bigSprite: 338
+    handSprite: 1068
     bulletSprite: 26
     explosionSpeed: -1
     power: 100
     damageType: 2
     damageAlter:
       ToHealth: 1.5
+      ToMorale: 2.0
       IgnoreOverKill: false
     blastRadius: 5
     armor: 30
@@ -3615,6 +3654,7 @@ items:
     weight: 6
     bigSprite: 16
     floorSprite: 16
+    handSprite: 1076
     bulletSprite: 27
     explosionHitSound: 320
     power: 180
@@ -3640,6 +3680,7 @@ items:
     weight: 9
     bigSprite: 337
     floorSprite: 332
+    handSprite: 1084
     bulletSprite: 28
     fireSound: 53
     explosionHitSound: 320
@@ -3868,8 +3909,8 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.06
-    accuracyAuto: 47
-    accuracySnap: 88
+    accuracyAuto: 53
+    accuracySnap: 99
     accuracyAimed: 121
     tuAuto: 32
     tuSnap: 47
@@ -3901,7 +3942,7 @@ items:
     transferTime: 36
     costSell: 83000
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_MID_TECH]
-    weight: 35
+    weight: 36
     bigSprite: 314
     floorSprite: 305
     handSprite: 364
@@ -3982,6 +4023,7 @@ items:
     weight: 4
     bigSprite: 407
     floorSprite: 326
+    handSprite: 1100
     hitSound: 19
     hitAnimation: 56
     shotgunPellets: 12
@@ -4042,6 +4084,7 @@ items:
     weight: 2
     bigSprite: 301
     floorSprite: 327
+    handSprite: 1092
     bulletSprite: 36
     hitSound: 19
     hitAnimation: 56
@@ -4093,6 +4136,7 @@ items:
     weight: 4
     bigSprite: 335
     floorSprite: 326
+    handSprite: 1100
     bulletSprite: 35
     hitSound: 19
     hitAnimation: -1
@@ -4147,6 +4191,7 @@ items:
     weight: 3
     bigSprite: 303
     floorSprite: 327
+    handSprite: 1092
     bulletSprite: 36
     hitSound: 19
     hitAnimation: 56
@@ -4205,6 +4250,7 @@ items:
     weight: 5
     bigSprite: 334
     floorSprite: 326
+    handSprite: 1100
     bulletSprite: 35
     hitSound: 19
     hitAnimation: -1
@@ -4231,8 +4277,8 @@ items:
     fireSound: 316
     compatibleAmmo:
       - STR_HEAVY_PLASMA_TERRAN_CLIP
-    accuracyAuto: 44
-    accuracySnap: 80
+    accuracyAuto: 49
+    accuracySnap: 90
     accuracyAimed: 110
     tuAuto: 29
     tuSnap: 42
@@ -4262,6 +4308,7 @@ items:
     weight: 4
     bigSprite: 305
     floorSprite: 327
+    handSprite: 1092
     bulletSprite: 37
     hitSound: 19
     hitAnimation: 56
@@ -4321,6 +4368,7 @@ items:
     weight: 7
     bigSprite: 333
     floorSprite: 326
+    handSprite: 1100
     bulletSprite: 36
     hitSound: 19
     hitAnimation: -1
@@ -4374,6 +4422,7 @@ items:
     weight: 4
     bigSprite: 323
     floorSprite: 311
+    handSprite: 812
     bulletSprite: 10
     explosionHitSound: 320
     explosionSpeed: -2
@@ -4409,6 +4458,7 @@ items:
     weight: 3
     bigSprite: 411
     floorSprite: 390
+    handSprite: 820
     bulletSprite: 45
     power: 140
     damageType: 3
@@ -4439,12 +4489,14 @@ items:
     weight: 4
     bigSprite: 324
     floorSprite: 312
+    handSprite: 828
     bulletSprite: 46
     explosionSpeed: -1
     power: 140
     damageType: 2
     damageAlter:
       ToHealth: 1.9
+      ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
     battleType: 2
@@ -4461,18 +4513,19 @@ items:
     weight: 4
     bigSprite: 325
     floorSprite: 313
+    handSprite: 836
     bulletSprite: 10
     hitAnimation: 100
     power: 140
     damageType: 6
     damageAlter:
-      RadiusReduction: 13
+      RadiusReduction: 10
       ArmorEffectiveness: 0.2
     clipSize: 1
     battleType: 2
     invWidth: 1
     invHeight: 2
-    blastRadius: 8
+    blastRadius: 7
     armor: 60
     attraction: 15
   - type: STR_SMALL_LAUNCHER_TERRAN
@@ -4514,13 +4567,14 @@ items:
     weight: 2
     bigSprite: 410
     floorSprite: 389
+    handSprite: 844
     bulletSprite: 44
     hitAnimation: 100
     power: 90
     damageType: 6
     damageAlter:
-      RadiusReduction: 15
-      ArmorEffectiveness: 0.2
+      RadiusReduction: 10
+      ArmorEffectiveness: 0.3
     clipSize: 1
     battleType: 2
     blastRadius: 4
@@ -4542,6 +4596,7 @@ items:
     weight: 2
     bigSprite: 320
     floorSprite: 308
+    handSprite: 852
     bulletSprite: 23
     power: 90
     damageType: 3
@@ -4570,6 +4625,7 @@ items:
     weight: 2
     bigSprite: 322
     floorSprite: 309
+    handSprite: 868
     bulletSprite: 22
     hitAnimation: 80
     explosionSpeed: -3
@@ -4594,12 +4650,14 @@ items:
     weight: 2
     bigSprite: 321
     floorSprite: 310
+    handSprite: 860
     bulletSprite: 23
     explosionSpeed: -1
     power: 90
     damageType: 2
     damageAlter:
       ToHealth: 1.4
+      ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
     battleType: 2
@@ -4646,6 +4704,7 @@ items:
     weight: 2
     bigSprite: 307
     floorSprite: 328
+    handSprite: 1092
     bulletSprite: 8
     power: 81
     damageType: 5
@@ -4696,6 +4755,7 @@ items:
     weight: 3
     bigSprite: 309
     floorSprite: 328
+    handSprite: 1092
     bulletSprite: 8
     hitSound: 19
     hitAnimation: 46
@@ -4721,8 +4781,8 @@ items:
     bigSprite: 310
     handSprite: 316
     fireSound: 316
-    accuracyAuto: 44
-    accuracySnap: 80
+    accuracyAuto: 49
+    accuracySnap: 90
     accuracyAimed: 110
     tuAuto: 29
     tuSnap: 42
@@ -4754,6 +4814,7 @@ items:
     weight: 4
     bigSprite: 311
     floorSprite: 328
+    handSprite: 1092
     bulletSprite: 33
     hitSound: 19
     hitAnimation: 46
@@ -4808,6 +4869,7 @@ items:
     weight: 4
     bigSprite: 36
     floorSprite: 35
+    handSprite: 804
     bulletSprite: 10
     explosionHitSound: 320
     explosionSpeed: -2
@@ -4869,13 +4931,14 @@ items:
     weight: 2
     bigSprite: 38
     floorSprite: 37
+    handSprite: 844
     bulletSprite: 44
     hitAnimation: 100
     power: 90
     damageType: 6
     damageAlter:
       RadiusReduction: 10
-      ArmorEffectiveness: 0.2
+      ArmorEffectiveness: 0.3
     clipSize: 1
     battleType: 2
     blastRadius: 4
@@ -4890,6 +4953,7 @@ items:
     costSell: 5930
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 2
+    handSprite: 892
     power: 125
     damageType: 3
     damageAlter:
@@ -4917,6 +4981,7 @@ items:
     weight: 5
     bigSprite: 29
     floorSprite: 28
+    handSprite: 956
     hitSound: 37
     battleType: 8
     invWidth: 2
@@ -4955,6 +5020,7 @@ items:
     costSell: 120
     categories: [STR_CAT_EQUIPMENT, STR_CAT_GRENADES, STR_CAT_EARLY_TECH]
     weight: 2
+    handSprite: 940
     hitAnimation: 80
     explosionSpeed: -3
     power: 70
@@ -4973,6 +5039,7 @@ items:
     costSell: 400
     categories: [STR_CAT_GRENADES, STR_CAT_EARLY_TECH]
     weight: 3
+    handSprite: 932
     power: 70
     damageType: 3
     damageAlter:
@@ -5006,6 +5073,7 @@ items:
     damageType: 2
     damageAlter:
       ToHealth: 1.2
+      ToMorale: 2.0
       IgnoreOverKill: false
     battleType: 4
     blastRadius: 3
@@ -5020,6 +5088,7 @@ items:
     size: 0.005
     categories: [STR_CAT_GRENADES, STR_CAT_EARLY_TECH]
     weight: 10
+    handSprite: 908
     explosionHitSound: 320
     power: 140
     damageType: 3
@@ -5049,6 +5118,7 @@ items:
     weight: 2
     bigSprite: 404
     floorSprite: 386
+    handSprite: 876
     power: 125
     damageType: 3
     damageAlter:
@@ -5073,11 +5143,12 @@ items:
     weight: 3
     bigSprite: 390
     floorSprite: 372
+    handSprite: 844
     hitAnimation: 100
     power: 125
     damageType: 6
     damageAlter:
-      RadiusReduction: 15
+      RadiusReduction: 10
       ArmorEffectiveness: 0.3
     battleType: 4
     blastRadius: 6
@@ -5100,6 +5171,7 @@ items:
     weight: 2
     bigSprite: 382
     floorSprite: 369
+    handSprite: 884
     power: 125
     damageType: 3
     damageAlter:
@@ -5130,6 +5202,7 @@ items:
     weight: 7
     bigSprite: 381
     floorSprite: 368
+    handSprite: 916
     explosionHitSound: 320
     explosionSpeed: -1
     power: 250
@@ -5158,6 +5231,7 @@ items:
     weight: 10
     bigSprite: 389
     floorSprite: 371
+    handSprite: 924
     explosionHitSound: 322
     explosionSpeed: -3
     power: 460
@@ -5189,6 +5263,7 @@ items:
     weight: 2
     bigSprite: 408
     floorSprite: 387
+    handSprite: 900
     power: 12
     battleType: 10
     armor: 15
@@ -5202,6 +5277,7 @@ items:
     weight: 4
     bigSprite: 409
     floorSprite: 388
+    handSprite: 900
     power: 20
     battleType: 10
     armor: 90
@@ -5238,6 +5314,7 @@ items:
     transferTime: 36
     costSell: 38800
     categories: [STR_CAT_EQUIPMENT, STR_CAT_EARLY_TECH]
+    handSprite: 948
     painKiller: 10
     heal: 10
     stimulant: 10
@@ -5291,6 +5368,7 @@ items:
     costSell: 39500
     categories: [STR_CAT_EQUIPMENT, STR_CAT_EARLY_TECH]
     weight: 3
+    handSprite: 964
     tuUse: 10
     flatRate: false
     armor: 50
@@ -5303,6 +5381,7 @@ items:
     weight: 5
     bigSprite: 29
     floorSprite: 28
+    handSprite: 956
     hitSound: 37
     battleType: 8
     invWidth: 2
@@ -5524,14 +5603,14 @@ items:
     size: 0.003
     costSell: 340000
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 7
+    weight: 5
     bigSprite: 363
     floorSprite: 358
     handSprite: 612
     bulletSprite: 36
     hitSound: 19
     hitAnimation: 56
-    power: 105
+    power: 110
     damageType: 5
     damageAlter:
       ArmorEffectiveness: 1.0
@@ -5582,7 +5661,7 @@ items:
     size: 0.004
     costSell: 434000
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
-    weight: 9
+    weight: 7
     bigSprite: 365
     floorSprite: 360
     handSprite: 628
@@ -5620,8 +5699,8 @@ items:
     fireSound: 314
     compatibleAmmo:
       - STR_POWER_SUIT_HEAVY_CLIP
-    accuracyAuto: 50
-    accuracySnap: 93
+    accuracyAuto: 54
+    accuracySnap: 100
     accuracyAimed: 121
     tuAuto: 36
     tuSnap: 53
@@ -5648,14 +5727,14 @@ items:
     size: 0.005
     costSell: 556000
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
-    weight: 8
+    weight: 6
     bigSprite: 357
     floorSprite: 352
     handSprite: 564
     bulletSprite: 47
     hitSound: 303
     hitAnimation: 86
-    power: 155
+    power: 165
     damageType: 14
     damageAlter:
       ArmorEffectiveness: 0.48
@@ -5673,7 +5752,7 @@ items:
     size: 0.025
     costSell: 0
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 35
+    weight: 22
     bigSprite: 358
     floorSprite: 353
     handSprite: 572
@@ -5824,6 +5903,7 @@ items:
     damageType: 2
     damageAlter:
       ToHealth: 2.3
+      ToMorale: 2.0
       IgnoreOverKill: false
     blastRadius: 8
     clipSize: 1
@@ -5847,7 +5927,7 @@ items:
     power: 180
     damageType: 6
     damageAlter:
-      RadiusReduction: 15
+      RadiusReduction: 10
       ArmorEffectiveness: 0.3
     blastRadius: 9
     clipSize: 1
@@ -5923,6 +6003,7 @@ items:
     damageType: 2
     damageAlter:
       ToHealth: 1.6
+      ToMorale: 2.0
       IgnoreOverKill: false
     blastRadius: 4
     clipSize: 3
@@ -5968,7 +6049,7 @@ items:
     power: 110
     damageType: 6
     damageAlter:
-      RadiusReduction: 15
+      RadiusReduction: 10
       ArmorEffectiveness: 0.3
     blastRadius: 5
     clipSize: 3
@@ -5982,6 +6063,7 @@ items:
     size: 0.0001
     costSell: 10000
     categories: [STR_CAT_UFO_COMPONENTS, STR_CAT_SALVAGE]
+    bigSprite: 412
     armor: 30
   - type: STR_UFO_POWER_SOURCE
     size: 0.2
@@ -6232,7 +6314,8 @@ items:
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 2
     bigSprite: 370
-    floorSprite: 327
+    floorSprite: 391
+    handSprite: 1108
     bulletSprite: 39
     hitSound: 19
     hitAnimation: 76
@@ -6294,7 +6377,8 @@ items:
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 3
     bigSprite: 372
-    floorSprite: 327
+    floorSprite: 391
+    handSprite: 1108
     bulletSprite: 39
     hitSound: 19
     hitAnimation: 76
@@ -6319,15 +6403,15 @@ items:
     size: 0.05
     costSell: 171600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 16
+    weight: 18
     bigSprite: 373
     floorSprite: 302
     handSprite: 676
     fireSound: 316
     compatibleAmmo:
       - STR_HEAVY_PLASMA_RED_CLIP
-    accuracyAuto: 66
-    accuracySnap: 80
+    accuracyAuto: 74
+    accuracySnap: 90
     accuracyAimed: 110
     tuAuto: 87
     tuSnap: 42
@@ -6354,9 +6438,10 @@ items:
     size: 0.005
     costSell: 9600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 5
+    weight: 3
     bigSprite: 374
-    floorSprite: 327
+    floorSprite: 391
+    handSprite: 1108
     bulletSprite: 40
     hitSound: 19
     hitAnimation: 76
@@ -6411,18 +6496,21 @@ items:
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 4
     bigSprite: 376
-    floorSprite: 327
+    floorSprite: 391
+    handSprite: 1108
     bulletSprite: 41
-    power: 250
+    explosionHitSound: 320
+    explosionSpeed: -2
+    power: 300
     damageType: 13
     damageAlter:
-      RadiusReduction: 20
+      RadiusReduction: 30
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 10
+    blastRadius: 5
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -6442,6 +6530,7 @@ items:
     weight: 2
     bigSprite: 388
     floorSprite: 370
+    handSprite: 1116
     explosionHitSound: 320
     power: 180
     damageType: 3

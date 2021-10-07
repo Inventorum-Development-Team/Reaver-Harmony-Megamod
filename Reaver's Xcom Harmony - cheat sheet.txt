@@ -90,15 +90,17 @@ RESEARCH ITEM		AVAILABLE OPTIONS
 
 Plasma Weaponry:	all sites 100% chance (if you didn't get it, it was destroyed)
 Alien Grenade:		all sites 100% chance (if you didn't get it, it was used or destroyed)
-UFO Navigation:		all alien craft (usually survives crash)
-UFO Power Source:	all alien craft (usually does not survive crash)
+UFO Navigation:		all alien craft except small scouts (usually survives crash)
+UFO Power Source:	all alien craft (usually does not survive crash except on very small UFOs)
 Alien Alloys:		all alien craft and bases 100% chance
-Elerium-115:		all alien craft (usually does not survive crash except on small scouts)
+Elerium-115:		all alien craft (usually much more when landed)
  - Scout Power Unit:	   salvage this item to collect the Elerium-115
-Alien Food:		any Harvester or Supply Ship; Alien Outpost or Alien Base
+ - UFO Plasma Arrays:	   salvage these for a small amount of Elerium-115
+Alien Food:		any Harvester, Cargo Ship, or Supply Ship; Alien Outpost or Alien Base
 Alien Entertainment:	any Abductor or Terror Ship; Alien Outpost or Alien Base
-Alien Habitat:		any Battleship, Alien Outpost, Alien Base; rarely occurs on smaller craft
+Alien Habitat:		any Battleship, Mothership, Alien Outpost, Alien Base; rarely occurs on smaller craft
 Examination Room:	Abductor
+Alien Surgery:		Harvester
 
 
 
@@ -157,24 +159,41 @@ Alien Base:		Blaster Bomb, Plasma Clips, Stun Bomb, Alien Food, Alien Entertainm
 Cydonia:		irrelevant, you can't take any of it home because game ends at end of mission
 
 
-ALIEN CRAFT		QUANTITY OF ELERIUM INCLUDING PLASMA ARRAYS
-all crashes assume full recovery of plasma arrays
+ALIEN CRAFT		VOLUME IN TILES
+Small Scout:		4
+Patroller:		14
+Covert Ops:		17
+Medium Scout:		47
+Light Destroyer:	123
+Large Scout:		133
+Abductor:		358
+Medium Destroyer:	374
+Harvester:		386
+Cargo Ship:		467
+Terror Ship:		510
+Heavy Destroyer:	672
+Supply Ship:		741
+Battleship:		1226
+Mothership:		2659
 
-Small Scout:		10
-Medium Scout (crashed):	4	7.4% of landed elerium quantity
-Large Scout (crashed):	10	16.7% of landed elerium quantity
-Abductor (crashed):	15	13% of landed elerium quantity
-Harvester (crashed):	18	15.3% of landed elerium quantity
-Terror Ship (crashed):	30	16.7% of landed elerium quantity
-Supply Ship (crashed):	44	22.7% of landed elerium quantity
-Battleship (crashed):	60	23.1% of landed elerium quantity
-Medium Scout (landed):	54
-Large Scout (landed):	60
-Abductor (landed):	115
-Harvester (landed):	118
-Terror Ship (landed):	180
-Supply Ship (landed):	194
-Battleship (landed):	260
+
+ALIEN CRAFT		QUANTITY OF ELERIUM FROM POWER SOURCE VS PLASMA ARRAYS
+			POWER SOURCES	PLASMA ARRAYS	TOTAL
+Small Scout		5		-		5
+Covert Ops Ship		10		4		14
+Patroller		10		2		12
+Medium Scout		25		4		29
+Large Scout		50		12		62
+Light Destroyer		75		17.5		92.5
+Cargo Ship		75		14.5		89.5
+Abductor		100		13.5		113.5
+Harvester		100		17.5		117.5
+Medium Destroyer	125		30		155
+Terror Ship		125		20		145
+Supply Ship		150		26		176
+Heavy Destroyer		200		55		255
+Battleship		250		61		311
+Mothership		300		73		373
 
 
 ELITE UFO		DAMAGEMAX	TOTAL HIT POINTS
@@ -195,6 +214,7 @@ Battleship		+40%		+50%
 Mothership		+40%		+40%
 
 
+BASE ODDS OF HITTING A UFO WITHOUT ACCURACY BONUSES
 UFO TYPE	HIT %	150	133	125	110	100	88	75	52	40
 
 Small Scout		100	86.4	80	68	60	50.4	40	21.6	12

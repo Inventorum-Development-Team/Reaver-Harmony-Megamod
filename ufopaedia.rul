@@ -5,6 +5,7 @@ ufopaedia:
   - delete: STR_SKYRANGER
   - delete: STR_AVENGER
   - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_ELERIUM_115
   - id: STR_INTERCEPTOR_EASY
     listOrder: 100
     type_id: 1
@@ -979,6 +980,14 @@ ufopaedia:
       - STR_ALIEN_ALLOYS
     image_id: Tornado_UFOPEDIAImage
     text: STR_TORRENT_UFOPEDIA
+  - id: STR_RAGE
+    listOrder: 575
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_LARGE_PYLON_MOUNT
+    image_id: KONDOR_FUSION_SUPER_HEAVY_MISSILE
+    text: STR_RAGE_UFOPEDIA
   - id: STR_RAMPAGE
     listOrder: 580
     type_id: 2
@@ -1332,7 +1341,7 @@ ufopaedia:
     image_id: ADVANCED_RADAR
     text: STR_PACKAGE_SUBJUGATOR_UFOPEDIA
   - id: STR_SUITE_ASCENSION
-    listOrder: 985
+    listOrder: 990
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1343,7 +1352,7 @@ ufopaedia:
     image_id: ADVANCED_RADAR
     text: STR_SUITE_ASCENSION_UFOPEDIA
   - id: STR_SUITE_COMBAT
-    listOrder: 990
+    listOrder: 993
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1354,7 +1363,7 @@ ufopaedia:
     image_id: SMART_COCKPIT
     text: STR_SUITE_COMBAT_UFOPEDIA
   - id: STR_SUITE_RECON
-    listOrder: 995
+    listOrder: 996
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -2177,12 +2186,12 @@ ufopaedia:
       - STR_STUN_BOMB
     text: STR_STUN_GRENADE_UFOPEDIA
   - id: STR_FIRST_AID_KIT
-    listOrder: 4290
+    listOrder: 4390
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FIRST_AID_KIT_UFOPEDIA
   - id: STR_MEDI_KIT_SUPER
-    listOrder: 4310
+    listOrder: 4410
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
@@ -2478,6 +2487,9 @@ ufopaedia:
         text: STR_POWER_SUIT_LAUNCHER_UFOPEDIA_2
       - title: STR_POWER_SUIT_LAUNCHER
         text: STR_POWER_SUIT_LAUNCHER_UFOPEDIA_3
+        ammoSlot: 1
+      - title: STR_POWER_SUIT_LAUNCHER
+        text: STR_POWER_SUIT_LAUNCHER_UFOPEDIA_4
         ammoSlot: 1
   - id: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
     listOrder: 5052
@@ -2987,20 +2999,20 @@ ufopaedia:
     requires:
       - STR_MUTON_BATTLEREPORT
     text: STR_MUTON_BATTLEFIELD_REPORT
-  - id: STR_SILACOID_BATTLEREPORT
-    listOrder: 7767
-    type_id: 4
-    section: STR_ALIEN_LIFE_FORMS
-    requires:
-      - STR_SILACOID_BATTLEREPORT
-    text: STR_SILACOID_BATTLEFIELD_REPORT
   - id: STR_CELATID_BATTLEREPORT
-    listOrder: 7768
+    listOrder: 7767
     type_id: 4
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_CELATID_BATTLEREPORT
     text: STR_CELATID_BATTLEFIELD_REPORT
+  - id: STR_SILACOID_BATTLEREPORT
+    listOrder: 7768
+    type_id: 4
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SILACOID_BATTLEREPORT
+    text: STR_SILACOID_BATTLEFIELD_REPORT
   - id: STR_ETHEREAL_BATTLEREPORT
     listOrder: 7769
     type_id: 4
@@ -3015,6 +3027,204 @@ ufopaedia:
     requires:
       - STR_SECTOPOD_BATTLEREPORT
     text: STR_SECTOPOD_BATTLEFIELD_REPORT
+  - id: STR_SECTOID
+    listOrder: 7800
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID
+    image_id: UP024.SPK
+    text: STR_SECTOID_UFOPEDIA
+    text_width: 158
+  - id: STR_SECTOID_AUTOPSY
+    listOrder: 7900
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UP025.SPK
+    text: STR_SECTOID_AUTOPSY_UFOPEDIA
+    requires:
+      - STR_SECTOID_CORPSE
+    text_width: 158
+  - id: STR_FLOATER
+    listOrder: 8000
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_FLOATER
+    image_id: UP018.SPK
+    text: STR_FLOATER_UFOPEDIA
+    text_width: 158
+  - id: STR_FLOATER_AUTOPSY
+    listOrder: 8100
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_FLOATER_CORPSE
+    image_id: UP019.SPK
+    text: STR_FLOATER_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_SNAKEMAN
+    listOrder: 8200
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SNAKEMAN
+    image_id: UP030.SPK
+    text: STR_SNAKEMAN_UFOPEDIA
+    text_width: 158
+  - id: STR_SNAKEMAN_AUTOPSY
+    listOrder: 8300
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SNAKEMAN_CORPSE
+    image_id: UP031.SPK
+    text: STR_SNAKEMAN_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_MUTON
+    listOrder: 8400
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUTON
+    image_id: UP020.SPK
+    text: STR_MUTON_UFOPEDIA
+    text_width: 158
+  - id: STR_MUTON_AUTOPSY
+    listOrder: 8500
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUTON_CORPSE
+    image_id: UP021.SPK
+    text: STR_MUTON_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_ETHEREAL
+    listOrder: 8600
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ETHEREAL
+    image_id: UP016.SPK
+    text: STR_ETHEREAL_UFOPEDIA
+    text_width: 158
+  - id: STR_ETHEREAL_AUTOPSY
+    listOrder: 8700
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ETHEREAL_CORPSE
+    image_id: UP017.SPK
+    text: STR_ETHEREAL_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_CYBERDISC
+    listOrder: 8800
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CYBERDISC
+    image_id: UP041.SPK
+    text: STR_CYBERDISC_UFOPEDIA
+    text_width: 158
+  - id: STR_CYBERDISC_AUTOPSY
+    listOrder: 8900
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CYBERDISC_CORPSE
+    image_id: UP042.SPK
+    text: STR_CYBERDISC_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_REAPER
+    listOrder: 9000
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_REAPER
+    image_id: UP022.SPK
+    text: STR_REAPER_UFOPEDIA
+    text_width: 158
+  - id: STR_REAPER_AUTOPSY
+    listOrder: 9100
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_REAPER_CORPSE
+    image_id: UP023.SPK
+    text: STR_REAPER_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_CHRYSSALID
+    listOrder: 9200
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHRYSSALID
+    image_id: UP014.SPK
+    text: STR_CHRYSSALID_UFOPEDIA
+    text_width: 158
+  - id: STR_CHRYSSALID_AUTOPSY
+    listOrder: 9300
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHRYSSALID_CORPSE
+    image_id: UP015.SPK
+    text: STR_CHRYSSALID_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_CELATID
+    listOrder: 9400
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CELATID
+    image_id: UP012.SPK
+    text: STR_CELATID_UFOPEDIA
+    text_width: 158
+  - id: STR_CELATID_AUTOPSY
+    listOrder: 9500
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CELATID_CORPSE
+    image_id: UP013.SPK
+    text: STR_CELATID_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_SILACOID
+    listOrder: 9600
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SILACOID
+    image_id: UP028.SPK
+    text: STR_SILACOID_UFOPEDIA
+    text_width: 158
+  - id: STR_SILACOID_AUTOPSY
+    listOrder: 9700
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SILACOID_CORPSE
+    image_id: UP029.SPK
+    text: STR_SILACOID_AUTOPSY_UFOPEDIA
+    text_width: 158
+  - id: STR_SECTOPOD
+    listOrder: 9800
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOPOD
+    image_id: UP026.SPK
+    text: STR_SECTOPOD_UFOPEDIA
+    text_width: 158
+  - id: STR_SECTOPOD_AUTOPSY
+    listOrder: 9900
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOPOD_CORPSE
+    image_id: UP027.SPK
+    text: STR_SECTOPOD_AUTOPSY_UFOPEDIA
+    text_width: 158
   - id: STR_ETHEREAL_NAVIGATOR
     listOrder: 9940
     type_id: 7
@@ -3347,13 +3557,6 @@ ufopaedia:
     requires:
       - STR_SNAKEMAN_INVASION
     text: STR_SNAKEMAN_INVASION_UFOPEDIA
-  - id: STR_ELERIUM_115
-    listOrder: 11005
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_ELERIUM_115
-    text: STR_ELERIUM_115_UFOPEDIA
   - id: STR_ALIEN_ALLOYS
     listOrder: 11000
     type_id: 7
@@ -3363,6 +3566,15 @@ ufopaedia:
     image_id: UP040.SPK
     text: STR_ALIEN_ALLOYS_UFOPEDIA
     text_width: 145
+  - id: STR_ELERIUM_115
+    listOrder: 11005
+    type_id: 7
+    section: STR_UFOS
+    requires:
+      - STR_ELERIUM_115
+    image_id: ELERIUM_115
+    text: STR_ELERIUM_115_UFOPEDIA
+    text_width: 150
   - id: STR_ALIEN_FUEL_PODS
     listOrder: 11007
     type_id: 7
@@ -3843,6 +4055,18 @@ ufopaedia:
     type_id: 8
     section: STR_UFO_COMPONENTS
     text: STR_UFO_COMPONENTS_UFOPEDIA
+  - id: STR_ALIEN_AUTOPSIES_UP
+    listOrder: 13202
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    text: STR_ALIEN_AUTOPSIES_UFOPEDIA
+  - id: STR_ALIEN_INTERROGATION_UP
+    listOrder: 13204
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_CONTAINMENT
+    text: STR_ALIEN_INTERROGATION_UFOPEDIA
   - id: STR_ADVANCED_AIRCRAFT_UP
     listOrder: 13210
     type_id: 8

@@ -1,13 +1,16 @@
 facilities:
   - delete: STR_LARGE_RADAR_SYSTEM
   - type: STR_ACCESS_LIFT
+    spriteShape: 2
+    spriteFacility: 17
     lift: true
     mind: true
     mindPower: 3
     buildCost: 300000
     buildTime: 1
     monthlyCost: 8000
-    mapName: XBASE_00
+    mapName: RBASE_11
+    destroyedFacility: STR_ACCESS_LIFT
   - type: STR_CORRIDOR
     spriteShape: 548
     spriteFacility: 548
@@ -17,6 +20,27 @@ facilities:
     mapName: RBASE_00
     canBeBuiltOver: true
     refundValue: 10000
+    destroyedFacility: STR_CORRIDOR
+  - type: STR_CORRIDOR_NS
+    spriteShape: 588
+    spriteFacility: 588
+    buildCost: 12000
+    buildTime: 2
+    monthlyCost: 1200
+    mapName: RBASE_52
+    canBeBuiltOver: true
+    refundValue: 8000
+    destroyedFacility: STR_CORRIDOR_NS
+  - type: STR_CORRIDOR_EW
+    spriteShape: 589
+    spriteFacility: 589
+    buildCost: 12000
+    buildTime: 2
+    monthlyCost: 1200
+    mapName: RBASE_53
+    canBeBuiltOver: true
+    refundValue: 8000
+    destroyedFacility: STR_CORRIDOR_EW
   - type: STR_EMPTY_ROOM
     spriteShape: 1
     spriteFacility: 549
@@ -26,6 +50,7 @@ facilities:
     mapName: RBASE_01
     canBeBuiltOver: true
     refundValue: 40000
+    destroyedFacility: STR_EMPTY_ROOM
   - type: STR_SECURITY_ROOM_AP
     spriteShape: 1
     spriteFacility: 550
@@ -35,11 +60,17 @@ facilities:
     mapName: RBASE_02
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_SECURITY_ROOM_AP_DESTROYED
+      - STR_SECURITY_ROOM_LASER_DESTROYED
+      - STR_SECURITY_ROOM_PLASMA_DESTROYED
     refundValue: 100000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 1
+    destroyedFacility: STR_SECURITY_ROOM_AP_DESTROYED
   - type: STR_SECURITY_ROOM_LASER
     requires:
       - STR_LASER_DEFENSE
@@ -55,12 +86,18 @@ facilities:
     mapName: RBASE_03
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_SECURITY_ROOM_AP
+      - STR_SECURITY_ROOM_AP_DESTROYED
+      - STR_SECURITY_ROOM_LASER_DESTROYED
+      - STR_SECURITY_ROOM_PLASMA_DESTROYED
     refundValue: 200000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 1
+    destroyedFacility: STR_SECURITY_ROOM_LASER_DESTROYED
   - type: STR_SECURITY_ROOM_PLASMA
     requires:
       - STR_PLASMA_DEFENSE
@@ -82,14 +119,22 @@ facilities:
     mapName: RBASE_04
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_SECURITY_ROOM_AP
       - STR_SECURITY_ROOM_LASER
+      - STR_SECURITY_ROOM_AP_DESTROYED
+      - STR_SECURITY_ROOM_LASER_DESTROYED
+      - STR_SECURITY_ROOM_PLASMA_DESTROYED
     refundValue: 600000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_SECURITY_ROOM_PLASMA_DESTROYED
   - type: STR_LIVING_QUARTERS
+    spriteShape: 1
+    spriteFacility: 18
     buildCost: 400000
     refundValue: 300000
     buildTime: 16
@@ -107,11 +152,16 @@ facilities:
       - [8, 2, 1]
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_BARRACKS_SMALL
+      - STR_LIVING_QUARTERS_DESTROYED
+      - STR_BARRACKS_SMALL_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_LIVING_QUARTERS_DESTROYED
   - type: STR_LIVING_QUARTERS_LARGE
     spriteShape: 408
     spriteFacility: 408
@@ -167,13 +217,23 @@ facilities:
       - [14, 16, 0]
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_LIVING_QUARTERS
+      - STR_BARRACKS
       - STR_HANGAR
+      - STR_LIVING_QUARTERS_DESTROYED
+      - STR_LIVING_QUARTERS_LARGE_DESTROYED
+      - STR_BARRACKS_SMALL_DESTROYED
+      - STR_BARRACKS_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_LIVING_QUARTERS_LARGE_DESTROYED
   - type: STR_LABORATORY
+    spriteShape: 1
+    spriteFacility: 19
     buildCost: 750000
     refundValue: 600000
     buildTime: 26
@@ -183,10 +243,14 @@ facilities:
     mapName: XBASE_02
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_LABORATORY_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_LABORATORY_DESTROYED
   - type: STR_LABORATORY_LARGE
     spriteShape: 416
     spriteFacility: 416
@@ -200,13 +264,20 @@ facilities:
     mapName: RBASE_24
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_LABORATORY
       - STR_HANGAR
+      - STR_LABORATORY_DESTROYED
+      - STR_LABORATORY_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 4
+    destroyedFacility: STR_LABORATORY_LARGE_DESTROYED
   - type: STR_WORKSHOP
+    spriteShape: 1
+    spriteFacility: 20
     buildCost: 800000
     refundValue: 640000
     buildTime: 22
@@ -216,10 +287,14 @@ facilities:
     mapName: XBASE_03
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_WORKSHOP_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_WORKSHOP_DESTROYED
   - type: STR_WORKSHOP_LARGE
     spriteShape: 524
     spriteFacility: 524
@@ -233,27 +308,40 @@ facilities:
     mapName: RBASE_32
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_WORKSHOP
       - STR_HANGAR
+      - STR_WORKSHOP_DESTROYED
+      - STR_WORKSHOP_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 4
+    destroyedFacility: STR_WORKSHOP_LARGE_DESTROYED
   - type: STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
     buildCost: 300000
     refundValue: 150000
     buildTime: 12
-    monthlyCost: 1200
+    monthlyCost: 12000
     radarRange: 1800
     radarChance: 10
     sightRange: 2000
     sightChance: 2
+    mapName: XBASE_04
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_SMALL_RADAR_SYSTEM_DESTROYED
+      - STR_HYPER_WAVE_DECODER_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_SMALL_RADAR_SYSTEM_DESTROYED
   - type: STR_LARGE_RADAR_FACILITY
     spriteShape: 432
     spriteFacility: 432
@@ -269,12 +357,19 @@ facilities:
     mapName: RBASE_44
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_SMALL_RADAR_SYSTEM
       - STR_HANGAR
+      - STR_SMALL_RADAR_SYSTEM_DESTROYED
+      - STR_LARGE_RADAR_FACILITY_DESTROYED
+      - STR_HYPER_WAVE_DECODER_DESTROYED
+      - STR_HYPER_WAVE_DECODER_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_LARGE_RADAR_FACILITY_DESTROYED
   - type: STR_HYPER_WAVE_DECODER
     requires:
       - STR_HYPER_WAVE_DECODER
@@ -299,13 +394,19 @@ facilities:
       STR_ALIEN_COMPUTER_ARRAYS:
         build: 10
         refund: 10
+    mapName: XBASE_15
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_SMALL_RADAR_SYSTEM
+      - STR_SMALL_RADAR_SYSTEM_DESTROYED
+      - STR_HYPER_WAVE_DECODER_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_HYPER_WAVE_DECODER_DESTROYED
   - type: STR_HYPER_WAVE_DECODER_LARGE
     requires:
       - STR_HYPER_WAVE_DECODER
@@ -334,15 +435,24 @@ facilities:
     mapName: RBASE_48
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_SMALL_RADAR_SYSTEM
       - STR_LARGE_RADAR_FACILITY
       - STR_HYPER_WAVE_DECODER
       - STR_HANGAR
+      - STR_SMALL_RADAR_SYSTEM_DESTROYED
+      - STR_LARGE_RADAR_FACILITY_DESTROYED
+      - STR_HYPER_WAVE_DECODER_DESTROYED
+      - STR_HYPER_WAVE_DECODER_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 4
+    destroyedFacility: STR_HYPER_WAVE_DECODER_LARGE_DESTROYED
   - type: STR_GENERAL_STORES
+    spriteShape: 1
+    spriteFacility: 24
     buildCost: 75000
     refundValue: 25000
     buildTime: 12
@@ -352,10 +462,13 @@ facilities:
     mapName: XBASE_07
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_GENERAL_STORES
   - type: STR_GENERAL_STORES_LARGE
     spriteShape: 400
     spriteFacility: 400
@@ -369,12 +482,15 @@ facilities:
     mapName: RBASE_16
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_GENERAL_STORES
       - STR_HANGAR
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_GENERAL_STORES_LARGE
   - type: STR_TRAINING_CENTER
     spriteShape: 1
     spriteFacility: 547
@@ -397,11 +513,16 @@ facilities:
       - [7, 4, 1]
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_BARRACKS_SMALL
+      - STR_TRAINING_CENTER_DESTROYED
+      - STR_BARRACKS_SMALL_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_TRAINING_CENTER_DESTROYED
   - type: STR_BARRACKS_SMALL
     spriteShape: 1
     spriteFacility: 547
@@ -425,12 +546,18 @@ facilities:
       - [7, 4, 1]
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_LIVING_QUARTERS
       - STR_TRAINING_CENTER
+      - STR_BARRACKS_SMALL_DESTROYED
+      - STR_TRAINING_CENTER_DESTROYED
+      - STR_LIVING_QUARTERS_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_BARRACKS_SMALL_DESTROYED
   - type: STR_BARRACKS
     spriteShape: 563
     spriteFacility: 563
@@ -469,6 +596,8 @@ facilities:
       - [14, 15, 0]
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_LIVING_QUARTERS
       - STR_LIVING_QUARTERS_LARGE
@@ -477,9 +606,17 @@ facilities:
       - STR_TRAINING_CENTER
       - STR_BARRACKS_SMALL
       - STR_HANGAR
+      - STR_BARRACKS_SMALL_DESTROYED
+      - STR_BARRACKS_DESTROYED
+      - STR_TRAINING_CENTER_DESTROYED
+      - STR_LIVING_QUARTERS_DESTROYED
+      - STR_LIVING_QUARTERS_LARGE_DESTROYED
+      - STR_INFIRMARY_DESTROYED
+      - STR_HOSPITAL_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_BARRACKS_DESTROYED
   - type: STR_INFIRMARY
     spriteShape: 1
     spriteFacility: 562
@@ -492,10 +629,15 @@ facilities:
     mapName: RBASE_07
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_INFIRMARY_DESTROYED
+      - STR_BIOLOGICAL_ALTERATIONS_CENTER_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_INFIRMARY_DESTROYED
   - type: STR_HOSPITAL
     spriteShape: 554
     spriteFacility: 554
@@ -511,12 +653,18 @@ facilities:
     mapName: RBASE_36
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_INFIRMARY
       - STR_HANGAR
+      - STR_INFIRMARY_DESTROYED
+      - STR_HOSPITAL_DESTROYED
+      - STR_BIOLOGICAL_ALTERATIONS_CENTER_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_HOSPITAL_DESTROYED
   - type: STR_BIOLOGICAL_ALTERATIONS_CENTER
     requires:
       - STR_SUPER_SOLDIERS
@@ -542,14 +690,21 @@ facilities:
     mapName: RBASE_08
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_INFIRMARY
+      - STR_INFIRMARY_DESTROYED
+      - STR_BIOLOGICAL_ALTERATIONS_CENTER_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_BIOLOGICAL_ALTERATIONS_CENTER_DESTROYED
   - type: STR_ALIEN_CONTAINMENT
     requires:
       - STR_ALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
     buildCost: 800000
     refundValue: 400000
     buildTime: 14
@@ -566,10 +721,14 @@ facilities:
     mapName: RBASE_06
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_ALIEN_CONTAINMENT_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_ALIEN_CONTAINMENT_DESTROYED
   - type: STR_ALIEN_CONTAINMENT_LARGE
     requires:
       - STR_ALIEN_CONTAINMENT
@@ -596,13 +755,20 @@ facilities:
     mapName: RBASE_28
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_ALIEN_CONTAINMENT
       - STR_HANGAR
+      - STR_ALIEN_CONTAINMENT_DESTROYED
+      - STR_ALIEN_CONTAINMENT_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_ALIEN_CONTAINMENT_LARGE_DESTROYED
   - type: STR_MISSILE_DEFENSES
+    spriteShape: 2
+    spriteFacility: 23
     buildCost: 100000
     refundValue: 70000
     buildTime: 14
@@ -616,13 +782,22 @@ facilities:
     mapName: XBASE_06
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_LASER_DEFENSES_DESTROYED
+      - STR_PLASMA_DEFENSES_DESTROYED
+      - STR_FUSION_BALL_DEFENSES_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_MISSILE_DEFENSES_DESTROYED
   - type: STR_LASER_DEFENSES
     requires:
       - STR_LASER_DEFENSE
+    spriteShape: 3
+    spriteFacility: 26
     buildCost: 600000
     refundValue: 400000
     buildTime: 20
@@ -634,15 +809,24 @@ facilities:
     mapName: XBASE_09
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_MISSILE_DEFENSES
       - STR_PLASMA_DEFENSES
+      - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_LASER_DEFENSES_DESTROYED
+      - STR_PLASMA_DEFENSES_DESTROYED
+      - STR_FUSION_BALL_DEFENSES_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_LASER_DEFENSES_DESTROYED
   - type: STR_PLASMA_DEFENSES
     requires:
       - STR_PLASMA_DEFENSE
+    spriteShape: 3
+    spriteFacility: 27
     buildCost: 1200000
     refundValue: 720000
     buildTime: 24
@@ -660,15 +844,24 @@ facilities:
     mapName: XBASE_10
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_MISSILE_DEFENSES
       - STR_LASER_DEFENSES
+      - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_LASER_DEFENSES_DESTROYED
+      - STR_PLASMA_DEFENSES_DESTROYED
+      - STR_FUSION_BALL_DEFENSES_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_PLASMA_DEFENSES_DESTROYED
   - type: STR_FUSION_BALL_DEFENSES
     requires:
       - STR_FUSION_DEFENSE
+    spriteShape: 3
+    spriteFacility: 28
     buildCost: 14400000
     refundValue: 10800000
     buildTime: 42
@@ -687,16 +880,25 @@ facilities:
     mapName: XBASE_11
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_MISSILE_DEFENSES
       - STR_LASER_DEFENSES
       - STR_PLASMA_DEFENSES
+      - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_LASER_DEFENSES_DESTROYED
+      - STR_PLASMA_DEFENSES_DESTROYED
+      - STR_FUSION_BALL_DEFENSES_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 4
+    destroyedFacility: STR_FUSION_BALL_DEFENSES_DESTROYED
   - type: STR_GRAV_SHIELD
     requires:
       - STR_GRAV_SHIELD
+    spriteShape: 2
+    spriteFacility: 29
     buildCost: 4650000
     refundValue: 2385000
     buildTime: 38
@@ -714,13 +916,19 @@ facilities:
     mapName: XBASE_12
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_GRAV_SHIELD_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 4
+    destroyedFacility: STR_GRAV_SHIELD_DESTROYED
   - type: STR_MIND_SHIELD
     requires:
       - STR_MIND_SHIELD
+    spriteShape: 2
+    spriteFacility: 30
     mind: true
     mindPower: 4
     buildCost: 250000
@@ -731,12 +939,17 @@ facilities:
       STR_PSIONIC_FEEDBACK_DEVICE:
         build: 60
         refund: 60
+    mapName: XBASE_13
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_MIND_SHIELD_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_MIND_SHIELD_DESTROYED
   - type: STR_MIND_SHIELD_LARGE
     requires:
       - STR_MIND_SHIELD
@@ -763,15 +976,22 @@ facilities:
     mapName: XBASS_02
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_MIND_SHIELD
       - STR_HANGAR
+      - STR_MIND_SHIELD_DESTROYED
+      - STR_MIND_SHIELD_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_MIND_SHIELD_LARGE_DESTROYED
   - type: STR_PSIONIC_LABORATORY
     requires:
       - STR_PSI_LAB
+    spriteShape: 1
+    spriteFacility: 31
     buildCost: 625000
     refundValue: 475000
     buildTime: 18
@@ -785,25 +1005,492 @@ facilities:
     mapName: RBASE_10
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
+      - STR_PSIONIC_LABORATORY_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
+    destroyedFacility: STR_PSIONIC_LABORATORY_DESTROYED
   - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
     buildCost: 300000
     refundValue: 200000
     buildTime: 14
     monthlyCost: 50000
     storage: 10
     mapName: XBASE_16
-    storageTiles:
-      - [1, 12, 0]
+    storageTiles: [[-1, -1, -1]]
     buildOverFacilities:
       - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 3
+    destroyedFacility: STR_HANGAR
+  - type: STR_SECURITY_ROOM_AP_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 778
+    buildTime: 7
+    monthlyCost: 2000
+    mapName: RBASE_01
+    refundValue: 25000
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_SECURITY_ROOM_LASER_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 779
+    buildTime: 7
+    monthlyCost: 2000
+    buildCostItems:
+      STR_ALIEN_ALLOYS:
+        refund: 8
+    mapName: RBASE_01
+    refundValue: 50000
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_SECURITY_ROOM_PLASMA_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 780
+    buildTime: 9
+    monthlyCost: 2000
+    buildCostItems:
+      STR_ALIEN_ALLOYS:
+        refund: 9
+      STR_ELERIUM_115:
+        refund: 2
+      STR_ALIEN_WEAPON_COMPONENTS:
+        refund: 10
+    mapName: RBASE_01
+    refundValue: 150000
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_LIVING_QUARTERS_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 760
+    refundValue: 75000
+    buildTime: 12
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_LIVING_QUARTERS_LARGE_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 724
+    spriteFacility: 724
+    size: 2
+    refundValue: 375000
+    buildTime: 18
+    monthlyCost: 8000
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_LABORATORY_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 761
+    refundValue: 150000
+    buildTime: 19
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_LABORATORY_LARGE_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 736
+    spriteFacility: 736
+    size: 2
+    refundValue: 750000
+    buildTime: 29
+    monthlyCost: 8000
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_WORKSHOP_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 762
+    refundValue: 160000
+    buildTime: 16
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_WORKSHOP_LARGE_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 748
+    spriteFacility: 748
+    size: 2
+    refundValue: 800000
+    buildTime: 25
+    monthlyCost: 8000
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_SMALL_RADAR_SYSTEM_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 2
+    spriteFacility: 763
+    refundValue: 37500
+    buildTime: 9
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_LARGE_RADAR_FACILITY_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 744
+    spriteFacility: 744
+    size: 2
+    refundValue: 225000
+    buildTime: 13
+    monthlyCost: 8000
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_HYPER_WAVE_DECODER_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 2
+    spriteFacility: 774
+    refundValue: 262500
+    buildTime: 15
+    monthlyCost: 2000
+    buildCostItems:
+      STR_PSIONIC_FEEDBACK_DEVICE:
+        refund: 2
+      STR_PSIONIC_WAVE_DECODER:
+        refund: 4
+      STR_ALIEN_COMPUTER_ARRAYS:
+        refund: 2
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_HYPER_WAVE_DECODER_LARGE_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 732
+    spriteFacility: 732
+    size: 2
+    refundValue: 1050000
+    buildTime: 22
+    monthlyCost: 8000
+    buildCostItems:
+      STR_PSIONIC_FEEDBACK_DEVICE:
+        build: 4
+        refund: 4
+      STR_PSIONIC_WAVE_DECODER:
+        build: 30
+        refund: 30
+      STR_ALIEN_COMPUTER_ARRAYS:
+        build: 7
+        refund: 7
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_GENERAL_STORES_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 766
+    refundValue: 6250
+    buildTime: 9
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_GENERAL_STORES_LARGE_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 720
+    spriteFacility: 720
+    size: 2
+    refundValue: 31250
+    buildTime: 13
+    monthlyCost: 8000
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_TRAINING_CENTER_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 776
+    size: 1
+    refundValue: 50000
+    buildTime: 10
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_BARRACKS_SMALL_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 776
+    size: 1
+    refundValue: 41250
+    buildTime: 10
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_BARRACKS_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 756
+    spriteFacility: 756
+    size: 2
+    refundValue: 270000
+    buildTime: 16
+    monthlyCost: 8000
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_INFIRMARY_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 777
+    refundValue: 60000
+    buildTime: 12
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_HOSPITAL_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 728
+    spriteFacility: 728
+    size: 2
+    refundValue: 300000
+    buildTime: 18
+    monthlyCost: 37500
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_BIOLOGICAL_ALTERATIONS_CENTER_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 775
+    refundValue: 1212500
+    buildTime: 15
+    monthlyCost: 2000
+    buildCostItems:
+      STR_ALIEN_GENETIC_IMPLANTER:
+        refund: 5
+      STR_ALIEN_SURGICAL_INTERFACE:
+        refund: 10
+      STR_ALIEN_LASER:
+        refund: 5
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_ALIEN_CONTAINMENT_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 767
+    refundValue: 100000
+    buildTime: 10
+    monthlyCost: 2000
+    buildCostItems:
+      STR_ALIEN_FEEDER:
+        refund: 2
+      STR_PSIONIC_FEEDBACK_DEVICE:
+        refund: 1
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_ALIEN_CONTAINMENT_LARGE_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 752
+    spriteFacility: 752
+    size: 2
+    refundValue: 400000
+    buildTime: 16
+    monthlyCost: 8000
+    buildCostItems:
+      STR_ALIEN_HABITAT:
+        refund: 12
+      STR_ALIEN_FEEDER:
+        refund: 50
+      STR_PSIONIC_FEEDBACK_DEVICE:
+        refund: 50
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_MISSILE_DEFENSES_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 2
+    spriteFacility: 765
+    refundValue: 17500
+    buildTime: 10
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_LASER_DEFENSES_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 3
+    spriteFacility: 768
+    refundValue: 100000
+    buildTime: 15
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_PLASMA_DEFENSES_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 3
+    spriteFacility: 769
+    refundValue: 180000
+    buildTime: 18
+    monthlyCost: 2000
+    buildCostItems:
+      STR_ALIEN_WEAPON_COMPONENTS:
+        refund: 90
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_FUSION_BALL_DEFENSES_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 3
+    spriteFacility: 770
+    refundValue: 2700000
+    buildTime: 31
+    monthlyCost: 2000
+    buildCostItems:
+      STR_ALIEN_POWER_ARRAYS:
+        refund: 10
+      STR_ALIEN_WEAPON_COMPONENTS:
+        refund: 60
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_GRAV_SHIELD_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 2
+    spriteFacility: 771
+    refundValue: 596250
+    buildTime: 28
+    monthlyCost: 2000
+    buildCostItems:
+      STR_ALIEN_POWER_ARRAYS:
+        refund: 12
+      STR_UFO_SHIELD_EMITTER:
+        refund: 3
+      STR_ANTI_GRAV_UNIT:
+        refund: 25
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_MIND_SHIELD_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 2
+    spriteFacility: 772
+    refundValue: 31250
+    buildTime: 10
+    monthlyCost: 2000
+    buildCostItems:
+      STR_PSIONIC_FEEDBACK_DEVICE:
+        refund: 15
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_MIND_SHIELD_LARGE_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 740
+    spriteFacility: 740
+    size: 2
+    refundValue: 62500
+    buildTime: 16
+    monthlyCost: 8000
+    buildCostItems:
+      STR_PSIONIC_FEEDBACK_DEVICE:
+        refund: 60
+      STR_PSIONIC_WAVE_DECODER:
+        refund: 22
+      STR_ALIEN_COMPUTER_ARRAYS:
+        refund: 6
+    mapName: RBASE_56
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+  - type: STR_PSIONIC_LABORATORY_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 1
+    spriteFacility: 773
+    refundValue: 118750
+    buildTime: 13
+    monthlyCost: 2000
+    buildCostItems:
+      STR_PSIONIC_FEEDBACK_DEVICE:
+        refund: 3
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
 
 # Defense facilities deal 50-150% of their listed power as damage, and their
 #   chance to hit is the listed value, unaffected by the size of the UFO.

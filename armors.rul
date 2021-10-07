@@ -34,6 +34,7 @@ armors:
     corpseBattle:
       - STR_CORPSE
     stats:
+      tu: 5
       reactions: 10
       firing: 20
   - type: STR_HEAVY_UP
@@ -1640,7 +1641,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.1 # 1 ARMOR PIERCING
-      - 0.56 # 2 INCENDIARY
+      - 0.7 # 2 INCENDIARY
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.1 # 4 LASER
       - 1.1 # 5 PLASMA
@@ -1650,7 +1651,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.1 # 11 ARMOR PENETRATOR
-      - 0.56 # 12
+      - 0.7 # 12
       - 0.7 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -1673,7 +1674,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.1 # 1 ARMOR PIERCING
-      - 0.49 # 2 INCENDIARY
+      - 0.63 # 2 INCENDIARY
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.1 # 4 LASER
       - 1.1 # 5 PLASMA
@@ -1683,7 +1684,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.1 # 11 ARMOR PENETRATOR
-      - 0.49 # 12
+      - 0.63 # 12
       - 0.7 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -1706,7 +1707,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.1 # 1 ARMOR PIERCING
-      - 0.42 # 2 INCENDIARY
+      - 0.56 # 2 INCENDIARY
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.1 # 4 LASER
       - 1.1 # 5 PLASMA
@@ -1716,7 +1717,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.1 # 11 ARMOR PENETRATOR
-      - 0.42 # 12
+      - 0.56 # 12
       - 0.7 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -2023,7 +2024,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.2 # 2 INCENDIARY
+      - 1.4 # 2 INCENDIARY
       - 1.08 # 3 HIGH EXPLOSIVE 0.72*1.6
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA

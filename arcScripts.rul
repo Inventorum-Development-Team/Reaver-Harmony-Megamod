@@ -7,7 +7,7 @@ arcScripts:
     executionOdds: 100
     maxArcs: 1
     minDifficulty: 0
-    maxDifficulty: 1
+    maxDifficulty: 0
   - type: startArmorMedium
     randomArcs:
       STR_ARMOR_MEDIUM_A: 100
@@ -15,8 +15,8 @@ arcScripts:
     lastMonth: 0
     executionOdds: 100
     maxArcs: 1
-    minDifficulty: 2
-    maxDifficulty: 3
+    minDifficulty: 1
+    maxDifficulty: 2
   - type: startArmorHard
     randomArcs:
       STR_ARMOR_HARD_A: 100
@@ -24,7 +24,7 @@ arcScripts:
     lastMonth: 0
     executionOdds: 100
     maxArcs: 1
-    minDifficulty: 4
+    minDifficulty: 3
     maxDifficulty: 4
   - type: startCraftEasy
     randomArcs:
@@ -34,7 +34,7 @@ arcScripts:
     executionOdds: 100
     maxArcs: 1
     minDifficulty: 0
-    maxDifficulty: 0
+    maxDifficulty: 1
   - type: startCraftMedium
     randomArcs:
       STR_CRAFT_MEDIUM_A: 100
@@ -42,8 +42,8 @@ arcScripts:
     lastMonth: 0
     executionOdds: 100
     maxArcs: 1
-    minDifficulty: 1
-    maxDifficulty: 2
+    minDifficulty: 2
+    maxDifficulty: 3
   - type: startCraftHard
     randomArcs:
       STR_CRAFT_HARD_A: 100
@@ -51,7 +51,7 @@ arcScripts:
     lastMonth: 0
     executionOdds: 100
     maxArcs: 1
-    minDifficulty: 3
+    minDifficulty: 4
     maxDifficulty: 4
   - type: battlerepSectoid
     randomArcs:

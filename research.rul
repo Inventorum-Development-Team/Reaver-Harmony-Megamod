@@ -929,8 +929,8 @@ research:
       - STR_INTEGRATED_ARMOR_DEP2
   - name: STR_SOLDIER_SCREENING
     listOrder: 1000
-    cost: 80
-    points: 24
+    cost: 50
+    points: 15
   - name: STR_SUPER_SOLDIERS
     listOrder: 1050
     cost: 2100
@@ -942,8 +942,8 @@ research:
       - STR_ALIEN_MEDIC
   - name: STR_GUARDIAN_AND_ASSAULT_TANKS
     listOrder: 1100
-    cost: 270
-    points: 81
+    cost: 200
+    points: 60
   - name: STR_HOVERTANKS
     listOrder: 1150
     cost: 800
@@ -3743,7 +3743,6 @@ research:
     dependencies:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
-      - STR_LARGE_AIR_EQUIPMENT
   - name: STR_LARGE_PYLON_MOUNT_DEP1
     cost: 0
     points: 0

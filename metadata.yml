@@ -50,12 +50,52 @@
 #       * Fixed bug with Medium Destroyer sometimes carrying derelict alien habitat units.
 #       * Elite craft now yield two data units.
 #       * Fixed some visual glitches on maps.
-#  0.9.6.1:   Reduced some of the larger-sized component costs of Flagships.
+#  0.9.6.1: Reduced some of the larger-sized component costs of Flagships.
 #       * Increased likelihood of missions being infiltration.
 #       * Added Patroller UFO which will attack X-Com craft earlier in the game than destroyers.
 #       * Storage space from General Stores increased. Other facilities unaffected.
 #       * Increased how often plasma pistols and plasma rifles appear in the late game.
 #       * Added options for continued research of live aliens, in particular leaders and commanders.
+#  1.0.0:   Changed Experienced and Genius difficulty to have harder armors instead of harder aircraft.
+#           - Existing saves will be unaffected unless you edit them.
+#           - This will make Cydonia harder but the rest of the game easier for most players.
+#       * Covert Ops and Patroller now correctly yield two small power sources.
+#       * Incendiary attacks now reduce target's morale.
+#       * Increased Sectoid and Chryssalid vulnerability to incendiary damage.
+#       * Reduced the amount of power that stun explosions are decreased per tile.
+#           - This means that stun bombs remain potent all the way out to the edge of the explosion.
+#       * If a base facility is destroyed during base defense, it will now convert to a destroyed version.
+#           - This will save on rebuild time more than anything else, plus it lets you see what happened.
+#           - Access Lift, Hangars, and Corridors are all indestructible.
+#       * Added a new Access Lift design.
+#       * Added north/south and east/west corridors.
+#       * Number of civilians on terror sites now tends to be closer to the average.
+#           - Penalty for failing terror site objective slightly reduced.
+#           - Bonus for completing terror site objective increased.
+#       * Shotgun has fewer pellets but more damage per pellet, for realism.
+#       * Adjusted Combat Knife damage bonus.
+#       * Increased auto and snap accuracy of Heavy Cannon, Heavy Laser, Heavy Plasma, and Doom Laser Cannon.
+#       * Buffed HC-AE and AC-AE ammo.
+#       * Nerfed fusion hovertank damage.
+#       * Buffed Fate Plasma and Doom Laser damage slightly, reduced weight of theirs and Scourge ammo.
+#       * Reduced weight of Calamity Launcher, its ammo is not changed.
+#       * Fixed bug with alien red fusion ammo explosion.
+#       * Added Rage missiles, in case player has large pylons but no other large weapons or modules.
+#           - Executioner and Exterminator no longer require unlocking large weapons tech to purchase.
+#       * Aircraft Cannon and Alloy Cannon now shoot faster, same DPS.
+#       * Advanced Missiles and Plasma craft weapons now have higher damage but lower accuracy.
+#           - Base DPS and ammo costs are unchanged.
+#       * Several aircraft ammos now takes up more space in stores.
+#       * Sniper-screened soldiers now have a time unit bonus.
+#       * New Research Project Information entries about corpses and live aliens.
+#       * Reduced research cost of Guardian and Assault Tanks as well as Soldier Screening.
+#       * Restored vanilla Cyberdisc hitbox due to issues with hitting it with melee while on elevated ground.
+#       * Improved color-coding on various launcher ammo, to make them easier to tell apart.
+#       * Altered Laser Pulse Rifle sprite to make it look more similar to its counterparts.
+#       * Super Medi-Kit now has a unique sprite.
+#       * New Elerium-115 sprite.
+#       * Added several new handob sprites.
+#       * Minor text, sprite, and UFOPedia changes.
 #
 #
 # resource authors/sources:
@@ -65,7 +105,7 @@
 # Shadow: variations on Chiko's designs and blue plasma bullet sprite
 #		* https://openxcom.org/forum/index.php/topic,1710.0.html
 #		* obtained via Terran Plasma Weapons
-# CanadianBeaver: auto-pistol, submachinegun, automatic lasers, first aid kit, and a few other items
+# CanadianBeaver: auto-pistol, submachinegun, automatic lasers, and a few other items
 #		* https://openxcom.org/forum/index.php?topic=4823.0
 #		* obtained via Awesome Guns
 #		* additional credits on mod page
@@ -100,6 +140,13 @@
 #		* obtained via Extra Explosions
 # Inventorum Development Team/efrenespartano: air equipment sprites + rampage missile sprite
 #       * obtained via https://github.com/Inventorum-Development-Team/IDT_UNEXCOM/tree/master/Resources
+# ivandogovich: various handobs
+#       * https://openxcom.mod.io/improved-hand-objects
+#       * obtained via Improved Handobs
+#
+# unknown sources:
+#       * first aid kit, obtained via Awesome Guns
+#       * super medi kit, obtained via The X-Com Files
 #
 #
 # tool authors/sources:
@@ -123,15 +170,16 @@
 #       uses: perform palette migrations into X-Com palettes
 # 
 #
-# The Reaver of Darkness(myself): all battlescape maps in this mod unless otherwise stated; various tiles
-#		in LIGHTNIA.MCD; red/blue laser pistol and heavy laser; blue plasma auto pistol and assault cannon;
+# The Reaver of Darkness(myself): all battlescape maps in this mod unless otherwise stated; new tiles added
+#		in LIGHTNIAR.MCD; red/blue laser pistol and heavy laser; blue plasma auto pistol and assault cannon;
 #		smoke, fusion, and alternate incendiary rockets; conventional ammo for blaster and small launchers;
 #		additional graphics for the plasma rifle; alien explosive cannon ammo; sprites for Heracles and
 #		Stalker, Sectopod green laser graphic, Large Workshop sprite and map; tank color swaps; tank
 #       auxiliary weapons (edits of wolwerin's sprites); power suit weapons (edits of xops' sprites); color
 #       swaps of several aliens; night lighting fix of terrain; rearranged map tiles for base defense; UFO
 #       components on top of UFO; new map blocks for Cydonia and Terror Beacon; edits to Luke's UFOs; short
-#       Harvester map variants; Battleship map variants; new UFO maps;
+#       Harvester map variants; Battleship map variants; new UFO maps; Geoscape marks; paladin and assassin
+#       power suit variants; new tiles added in PLANEMOD.MCD;
 #
 # Anything not credited here is not necessarily done by me, and may simply be uncredited. Please notify me
 # of any of these you find. If you know who to give credit to, please mention this as well. Best way to
@@ -139,7 +187,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 0.9.6.1
+version: 1.0.0
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

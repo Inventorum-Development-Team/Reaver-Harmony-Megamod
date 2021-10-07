@@ -2,7 +2,7 @@ crafts:
   - delete: STR_SKYRANGER
   - delete: STR_AVENGER
   - type: STR_INTERCEPTOR_EASY
-    listOrder: 80
+    listOrder: 79
     sprite: 822
     marker: 15
     fuelMax: 1000
@@ -34,7 +34,7 @@ crafts:
     transferTime: 96
     score: 175
   - type: STR_SKYRAIDER_EASY
-    listOrder: 100
+    listOrder: 99
     sprite: 824
     marker: 16
     fuelMax: 1200
@@ -91,7 +91,7 @@ crafts:
       - [4, 12, 1, 0]
       - [5, 12, 1, 0]
   - type: STR_MAMMOTH_EASY
-    listOrder: 110
+    listOrder: 109
     sprite: 826
     marker: 17
     fuelMax: 1400
@@ -149,7 +149,7 @@ crafts:
       - [9, 11, 1, 0]
       - [10, 11, 1, 0]
   - type: STR_INTERDICTOR_EASY
-    listOrder: 120
+    listOrder: 119
     sprite: 823
     marker: 15
     fuelMax: 1200
@@ -184,7 +184,7 @@ crafts:
     transferTime: 144
     score: 175
   - type: STR_STORMCHARGER_EASY
-    listOrder: 140
+    listOrder: 139
     sprite: 825
     marker: 16
     fuelMax: 1500
@@ -246,7 +246,7 @@ crafts:
       - [5, 14, 1, 2]
       - [5, 15, 1, 0]
   - type: STR_MASTODON_EASY
-    listOrder: 150
+    listOrder: 149
     sprite: 827
     marker: 17
     fuelMax: 1800
@@ -312,7 +312,7 @@ crafts:
       - [9, 14, 1, 0]
       - [10, 14, 1, 0]
   - type: STR_EXECUTIONER_EASY
-    listOrder: 160
+    listOrder: 159
     sprite: 828
     marker: 15
     fuelMax: 1300
@@ -335,7 +335,6 @@ crafts:
       - STR_CRAFT_EASY
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
-      - STR_LARGE_AIR_EQUIPMENT
     costBuy: 2530000
     costSell: 2300000
     costRent: 400000
@@ -348,7 +347,7 @@ crafts:
     transferTime: 144
     score: 200
   - type: STR_EXTERMINATOR_EASY
-    listOrder: 170
+    listOrder: 169
     sprite: 829
     marker: 17
     fuelMax: 1600
@@ -373,7 +372,6 @@ crafts:
       - STR_CRAFT_EASY
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
-      - STR_LARGE_AIR_EQUIPMENT
     soldiers: 14
     maxItems: 252
     vehicles: 3
@@ -398,7 +396,7 @@ crafts:
           width: 20
           length: 20
   - type: STR_FIRESTORM_EASY
-    listOrder: 200
+    listOrder: 199
     sprite: 4
     marker: 18
     fuelMax: 60
@@ -456,7 +454,7 @@ crafts:
       - [2, 3, 1, 4]
       - [2, 6, 1, 0]
   - type: STR_LIGHTNING_EASY
-    listOrder: 300
+    listOrder: 299
     sprite: 1
     marker: 19
     fuelMax: 90
@@ -518,7 +516,7 @@ crafts:
       - [7, 8, 1, 6]
       - [12, 11, 1, 2]
   - type: STR_INFERNO_EASY
-    listOrder: 400
+    listOrder: 399
     sprite: 2
     marker: 20
     fuelMax: 90
@@ -580,7 +578,7 @@ crafts:
       - [3, 11, 1, 0]
       - [6, 11, 1, 0]
   - type: STR_TEMPEST_EASY
-    listOrder: 410
+    listOrder: 409
     sprite: 825
     marker: 21
     fuelMax: 120
@@ -653,7 +651,7 @@ crafts:
       - [5, 12, 1, 4]
       - [5, 14, 1, 0]
   - type: STR_AMARANTH_EASY
-    listOrder: 420
+    listOrder: 419
     sprite: 867
     marker: 26
     fuelMax: 900
@@ -735,7 +733,7 @@ crafts:
       - [10, 16, 1, 0]
       - [11, 4, 1, 1]
   - type: STR_HERACLES_EASY
-    listOrder: 430
+    listOrder: 429
     sprite: 866
     marker: 27
     fuelMax: 480
@@ -819,7 +817,7 @@ crafts:
       - [9, 14, 1, 4]
       - [11, 13, 1, 5]
   - type: STR_STARBLAZER_EASY
-    listOrder: 440
+    listOrder: 439
     sprite: 868
     marker: 28
     fuelMax: 180
@@ -897,7 +895,7 @@ crafts:
       - [10, 3, 1, 5]
       - [11, 2, 2, 4]
   - type: STR_DIVINITY_EASY
-    listOrder: 450
+    listOrder: 449
     sprite: 832
     marker: 29
     fuelMax: 450
@@ -1304,7 +1302,6 @@ crafts:
       - STR_CRAFT_MEDIUM
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
-      - STR_LARGE_AIR_EQUIPMENT
     costBuy: 2530000
     costSell: 2300000
     costRent: 400000
@@ -1341,7 +1338,6 @@ crafts:
       - STR_CRAFT_MEDIUM
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
-      - STR_LARGE_AIR_EQUIPMENT
     soldiers: 14
     maxItems: 252
     vehicles: 3
@@ -1938,7 +1934,7 @@ crafts:
       - [10, 9, 2, 0]
       - [9, 12, 2, 4]
   - type: STR_INTERCEPTOR_HARD
-    listOrder: 80
+    listOrder: 81
     sprite: 822
     marker: 15
     fuelMax: 1000
@@ -1970,7 +1966,7 @@ crafts:
     transferTime: 96
     score: 105
   - type: STR_SKYRAIDER_HARD
-    listOrder: 100
+    listOrder: 101
     sprite: 824
     marker: 16
     fuelMax: 1200
@@ -2027,7 +2023,7 @@ crafts:
       - [4, 12, 1, 0]
       - [5, 12, 1, 0]
   - type: STR_MAMMOTH_HARD
-    listOrder: 110
+    listOrder: 111
     sprite: 826
     marker: 17
     fuelMax: 1400
@@ -2085,7 +2081,7 @@ crafts:
       - [9, 11, 1, 0]
       - [10, 11, 1, 0]
   - type: STR_INTERDICTOR_HARD
-    listOrder: 120
+    listOrder: 121
     sprite: 823
     marker: 15
     fuelMax: 1200
@@ -2120,7 +2116,7 @@ crafts:
     transferTime: 144
     score: 105
   - type: STR_STORMCHARGER_HARD
-    listOrder: 140
+    listOrder: 141
     sprite: 825
     marker: 16
     fuelMax: 1500
@@ -2182,7 +2178,7 @@ crafts:
       - [5, 14, 1, 2]
       - [5, 15, 1, 0]
   - type: STR_MASTODON_HARD
-    listOrder: 150
+    listOrder: 151
     sprite: 827
     marker: 17
     fuelMax: 1800
@@ -2248,7 +2244,7 @@ crafts:
       - [9, 14, 1, 0]
       - [10, 14, 1, 0]
   - type: STR_EXECUTIONER_HARD
-    listOrder: 160
+    listOrder: 161
     sprite: 828
     marker: 15
     fuelMax: 1300
@@ -2271,7 +2267,6 @@ crafts:
       - STR_CRAFT_HARD
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
-      - STR_LARGE_AIR_EQUIPMENT
     costBuy: 2530000
     costSell: 2300000
     costRent: 400000
@@ -2284,7 +2279,7 @@ crafts:
     transferTime: 144
     score: 120
   - type: STR_EXTERMINATOR_HARD
-    listOrder: 170
+    listOrder: 171
     sprite: 829
     marker: 17
     fuelMax: 1600
@@ -2309,7 +2304,6 @@ crafts:
       - STR_CRAFT_HARD
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_AIRCRAFT
-      - STR_LARGE_AIR_EQUIPMENT
     soldiers: 14
     maxItems: 252
     vehicles: 3
@@ -2334,7 +2328,7 @@ crafts:
           width: 20
           length: 20
   - type: STR_FIRESTORM_HARD
-    listOrder: 200
+    listOrder: 201
     sprite: 4
     marker: 18
     fuelMax: 60
@@ -2392,7 +2386,7 @@ crafts:
       - [2, 3, 1, 4]
       - [2, 6, 1, 0]
   - type: STR_LIGHTNING_HARD
-    listOrder: 300
+    listOrder: 301
     sprite: 1
     marker: 19
     fuelMax: 90
@@ -2454,7 +2448,7 @@ crafts:
       - [7, 8, 1, 6]
       - [12, 11, 1, 2]
   - type: STR_INFERNO_HARD
-    listOrder: 400
+    listOrder: 401
     sprite: 2
     marker: 20
     fuelMax: 90
@@ -2516,7 +2510,7 @@ crafts:
       - [3, 11, 1, 0]
       - [6, 11, 1, 0]
   - type: STR_TEMPEST_HARD
-    listOrder: 410
+    listOrder: 411
     sprite: 825
     marker: 21
     fuelMax: 120
@@ -2589,7 +2583,7 @@ crafts:
       - [5, 12, 1, 4]
       - [5, 14, 1, 0]
   - type: STR_AMARANTH_HARD
-    listOrder: 420
+    listOrder: 421
     sprite: 867
     marker: 26
     fuelMax: 900
@@ -2671,7 +2665,7 @@ crafts:
       - [10, 16, 1, 0]
       - [11, 4, 1, 1]
   - type: STR_HERACLES_HARD
-    listOrder: 430
+    listOrder: 431
     sprite: 866
     marker: 27
     fuelMax: 480
@@ -2755,7 +2749,7 @@ crafts:
       - [9, 14, 1, 4]
       - [11, 13, 1, 5]
   - type: STR_STARBLAZER_HARD
-    listOrder: 440
+    listOrder: 441
     sprite: 868
     marker: 28
     fuelMax: 180
@@ -2833,7 +2827,7 @@ crafts:
       - [10, 3, 1, 5]
       - [11, 2, 2, 4]
   - type: STR_DIVINITY_HARD
-    listOrder: 450
+    listOrder: 451
     sprite: 832
     marker: 29
     fuelMax: 450

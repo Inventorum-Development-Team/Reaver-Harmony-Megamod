@@ -950,9 +950,9 @@ units:
       psiSkill: 0
       melee: 0
     armor: CYBERDISC_ARMOR
-    standHeight: 7
-    kneelHeight: 7
-    floatHeight: 8
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
     value: 120
     aggression: 8
     capturable: true
@@ -1599,9 +1599,9 @@ units:
       psiSkill: 0
       melee: 0
     armor: CYBERDISC_ARMOR_C
-    standHeight: 7
-    kneelHeight: 7
-    floatHeight: 8
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
     value: 240
     deathSound: 23
     moveSound: 40

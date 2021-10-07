@@ -60,7 +60,7 @@ extraSprites:
       350: Resources/SuperStunLance/STUN_ROD_R.gif
       351: Resources/AwesomeGuns/Pistol_Swap.gif
       352: Resources/IncendiaryGrenade/Inc_grenade_alt.gif
-      353: Resources/Advanced Medikit/BigOb_PaladinMedikit.gif
+      353: Resources/Advanced Medikit/BigOb_TraumaPack.png
       354: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_PUMP_ACTION_SHOTGUN.gif
       355: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_PUMP_ACTION_SHOTGUN_SHELLS.gif
       356: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Cannon.gif
@@ -90,11 +90,11 @@ extraSprites:
       390: Resources/ReaversEquipment/Stun_grenade_bigob.gif
       391: Resources/ReaversEquipment/Stun_charge_bigob.gif
       392: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob.gif
-      393: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_HE_AMMO.gif
-      394: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_IN_AMMO.gif
-      395: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_SM_AMMO.gif
-      396: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_AE_AMMO.gif
-      397: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_ST_AMMO.gif
+      393: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_HE_AMMO.png
+      394: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_IN_AMMO.png
+      395: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_SM_AMMO.png
+      396: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_AE_AMMO.png
+      397: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_ST_AMMO.png
       398: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherExplosiveBomb.gif
       399: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherPiercingBomb.gif
       400: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/CLauncherStunBomb.gif
@@ -108,6 +108,7 @@ extraSprites:
       409: Resources/ReaversEquipment/ElectroFlareLarge.gif
       410: Resources/ConventionalStun/TerranStun_bigobs.gif
       411: Resources/ConventionalBlaster/BlasterAE_bigobs.png
+      412: Resources/ReaversUFOs/BigObs_Elerium.png
 # EQUIPMENT FLOOROBS
   - type: FLOOROB.PCK
     width: 128
@@ -140,7 +141,7 @@ extraSprites:
       345: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/floorob_PlasmaBlade.gif
       346: Resources/SuperStunLance/floorob_stun_rod_r.gif
       347: Resources/IncendiaryGrenade/floorob_Inc_grenade_alt.gif
-      348: Resources/Advanced Medikit/FloorOb_PaladinMedikit.gif
+      348: Resources/Advanced Medikit/FloorOb_TraumaPack.png
       349: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/floorob_Shotgun.gif
       350: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/floorob_ShotgunShells.gif
       351: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/Cannon.gif
@@ -168,11 +169,11 @@ extraSprites:
       372: Resources/ReaversEquipment/Stun_grenade_floorob.gif
       373: Resources/ReaversEquipment/Stun_charge_floorob.gif
       374: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob.gif
-      375: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_HE_AMMO.gif
-      376: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_IN_AMMO.gif
-      377: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_SM_AMMO.gif
-      378: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_AE_AMMO.gif
-      379: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_ST_AMMO.gif
+      375: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_HE_AMMO.png
+      376: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_IN_AMMO.png
+      377: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_SM_AMMO.png
+      378: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_AE_AMMO.png
+      379: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Floorob_ST_AMMO.png
       380: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherExplosiveBomb.gif
       381: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherPiercingBomb.gif
       382: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Floorob/CLauncherStunBomb.gif
@@ -184,6 +185,7 @@ extraSprites:
       388: Resources/ReaversEquipment/floorob_ElectroFlareLarge.gif
       389: Resources/ConventionalStun/TerranStun_floorobs.gif
       390: Resources/ConventionalBlaster/BlasterAE_floorobs.png
+      391: Resources/TerranPlasmaWeapons/RedPlasmaClip_floorob.gif
 # EQUIPMENT HANDOBS
   - type: HANDOB.PCK
     width: 256
@@ -214,7 +216,7 @@ extraSprites:
       508: Resources/IncendiaryGrenade/HandOb_Incgrenade_alt.gif
       516: Resources/SuperStunLance/handob_stun_rod_1hand.png
       524: Resources/SuperStunLance/handob_stun_rod_r.png
-      532: Resources/Advanced Medikit/HandOb_PaladinMedikit.png
+      532: Resources/Advanced Medikit/HandOb_TraumaPack.png
       540: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/handob_Shotgun.png
       548: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/handOb_ShotgunShells.png
       556: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/Cannon.gif
@@ -237,17 +239,57 @@ extraSprites:
       692: Resources/Advanced Medikit/HandOb_FieldMediPack.png
       700: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/handOb_ShotgunShells_Alloy.png
       708: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs.gif
-      716: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_HE_AMMO.gif
-      724: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_IN_AMMO.gif
-      732: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_SM_AMMO.gif
-      740: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_AE_AMMO.gif
-      748: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_ST_AMMO.gif
+      716: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_HE_AMMO.png
+      724: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_IN_AMMO.png
+      732: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_SM_AMMO.png
+      740: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_AE_AMMO.png
+      748: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs_ST_AMMO.png
       756: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherExplosiveBomb.gif
       764: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherPiercingBomb.gif
       772: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherStunBomb.gif
       780: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherFusionBomb.gif
       788: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherIncendiaryBomb.gif
       796: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherSmokeBomb.gif
+      804: Resources/ConventionalBlaster/HandOb_BlasterBomb.png
+      812: Resources/ConventionalBlaster/HandOb_BlasterBomb_Fusion.png
+      820: Resources/ConventionalBlaster/HandOb_BlasterBomb_Explosive.png
+      828: Resources/ConventionalBlaster/HandOb_BlasterBomb_Incendiary.png
+      836: Resources/ConventionalBlaster/HandOb_BlasterBomb_Stun.png
+      844: Resources/ConventionalStun/HandOb_StunBomb.png
+      852: Resources/ConventionalStun/HandOb_StunBomb_Explosive.png
+      860: Resources/ConventionalStun/HandOb_StunBomb_Incendiary.png
+      868: Resources/ConventionalStun/HandOb_StunBomb_Smoke.png
+      876: Resources/ReaversEquipment/HandOb_AEGrenade.png
+      884: Resources/ReaversEquipment/HandOb_AEProx.png
+      892: Resources/ReaversEquipment/HandOb_AlienGrenade.png
+      900: Resources/ReaversEquipment/HandOb_ElectroFlare.png
+      908: Resources/ReaversEquipment/HandOb_HE.png
+      916: Resources/ReaversEquipment/HandOb_HE_AE.png
+      924: Resources/ReaversEquipment/HandOb_HE_Fusion.png
+      932: Resources/ReaversEquipment/HandOb_Proxie.png
+      940: Resources/ReaversEquipment/HandOb_SmokeGrenade.png
+      948: Resources/ReaversEquipment/HandOb_Medikit.gif
+      956: Resources/ReaversEquipment/HandOb_MindProbe.gif
+      964: Resources/ReaversEquipment/HandOb_Scanner.gif
+      972: Resources/AlienFusionAlloy/HandOb_APAutoCannon.gif
+      980: Resources/AlienFusionAlloy/HandOb_AlloyAutoCannon.gif
+      988: Resources/AlienFusionAlloy/HandOb_HEAutoCannon.gif
+      996: Resources/AlienFusionAlloy/HandOb_AEAutoCannon.gif
+      1004: Resources/AlienFusionAlloy/HandOb_INAutoCannon.gif
+      1012: Resources/AlienFusionAlloy/HandOb_APHeavyCannon.gif
+      1020: Resources/AlienFusionAlloy/HandOb_AlloyHeavyCannon.gif
+      1028: Resources/AlienFusionAlloy/HandOb_HEHeavyCannon.gif
+      1036: Resources/AlienFusionAlloy/HandOb_AEHeavyCannon.gif
+      1044: Resources/AlienFusionAlloy/HandOb_INHeavyCannon.gif
+      1052: Resources/AlienFusionAlloy/HandOb_SmokeRocket.png
+      1060: Resources/AlienFusionAlloy/HandOb_LGRocket.gif
+      1068: Resources/AlienFusionAlloy/HandOb_INRocket.gif
+      1076: Resources/AlienFusionAlloy/HandOb_SMRocket.gif
+      1084: Resources/AlienFusionAlloy/HandOb_FusionRocket.png
+      1092: Resources/BluePlasmas/HandOb_PRifleClip.gif
+      1100: Resources/BluePlasmas/HandOb_PHeavyClip.gif
+      1108: Resources/TerranPlasmaWeapons/HandOb_RedClip.gif
+      1116: Resources/TerranPlasmaWeapons/HandOb_RedGrenade.png
   - type: DETBORD2.PCK
     singleImage: true
     width: 320
@@ -697,6 +739,72 @@ extraSprites:
       585: Resources/XenoOperations/Basebits/LargeMindPC2.png
       586: Resources/XenoOperations/Basebits/LargeMindPC3.png
       587: Resources/XenoOperations/Basebits/LargeMindPC4.png
+      588: Resources/LargeFacilities/rbasebits_24_ns.gif
+      589: Resources/LargeFacilities/rbasebits_24_ew.gif
+      591: Resources/LargeFacilities/blank.gif
+      592: Resources/LargeFacilities/blank.gif
+#
+      720: Resources/DestroyedFacilities/destroyed_GS2_1R.png
+      721: Resources/DestroyedFacilities/destroyed_GS2_2.png
+      722: Resources/DestroyedFacilities/destroyed_GS2_3.png
+      723: Resources/DestroyedFacilities/destroyed_GS2_4.png
+      724: Resources/DestroyedFacilities/destroyed_LQ2_1.png
+      725: Resources/DestroyedFacilities/destroyed_LQ2_2.png
+      726: Resources/DestroyedFacilities/destroyed_LQ2_3.png
+      727: Resources/DestroyedFacilities/destroyed_LQ2_4.png
+      728: Resources/DestroyedFacilities/destroyed_hospital_0.gif
+      729: Resources/DestroyedFacilities/destroyed_hospital_1.gif
+      730: Resources/DestroyedFacilities/destroyed_hospital_2.gif
+      731: Resources/DestroyedFacilities/destroyed_hospital_3.gif
+      732: Resources/DestroyedFacilities/destroyed_LargeHyperP1.gif
+      733: Resources/DestroyedFacilities/destroyed_LargeHyperP2.gif
+      734: Resources/DestroyedFacilities/destroyed_LargeHyperP3.gif
+      735: Resources/DestroyedFacilities/destroyed_LargeHyperP4.gif
+      736: Resources/DestroyedFacilities/destroyed_LargeLabP1.gif
+      737: Resources/DestroyedFacilities/destroyed_LargeLabP2.gif
+      738: Resources/DestroyedFacilities/destroyed_LargeLabP3.gif
+      739: Resources/DestroyedFacilities/destroyed_LargeLabP4.gif
+      740: Resources/DestroyedFacilities/destroyed_LargeMindP1.png
+      741: Resources/DestroyedFacilities/destroyed_LargeMindP2.png
+      742: Resources/DestroyedFacilities/destroyed_LargeMindP3.png
+      743: Resources/DestroyedFacilities/destroyed_LargeMindP4.png
+      744: Resources/DestroyedFacilities/destroyed_LargeRadarP1.gif
+      745: Resources/DestroyedFacilities/destroyed_LargeRadarP2.gif
+      746: Resources/DestroyedFacilities/destroyed_LargeRadarP3.gif
+      747: Resources/DestroyedFacilities/destroyed_LargeRadarP4.gif
+      748: Resources/DestroyedFacilities/destroyed_rbasebits_12.gif
+      749: Resources/DestroyedFacilities/destroyed_rbasebits_13.gif
+      750: Resources/DestroyedFacilities/destroyed_rbasebits_14.gif
+      751: Resources/DestroyedFacilities/destroyed_rbasebits_15.gif
+      752: Resources/DestroyedFacilities/destroyed_SAlienCont1.png
+      753: Resources/DestroyedFacilities/destroyed_SAlienCont2.png
+      754: Resources/DestroyedFacilities/destroyed_SAlienCont3.png
+      755: Resources/DestroyedFacilities/destroyed_SAlienCont4.png
+      756: Resources/DestroyedFacilities/destroyed_SBarraks1.png
+      757: Resources/DestroyedFacilities/destroyed_SBarraks2.png
+      758: Resources/DestroyedFacilities/destroyed_SBarraks3.png
+      759: Resources/DestroyedFacilities/destroyed_SBarraks4.png
+      760: Resources/DestroyedFacilities/destroy_basebits_18_0.gif
+      761: Resources/DestroyedFacilities/destroy_basebits_19_0.gif
+      762: Resources/DestroyedFacilities/destroy_basebits_20_0.gif
+      763: Resources/DestroyedFacilities/destroy_basebits_21_0.gif
+      764: Resources/DestroyedFacilities/destroy_basebits_22_0.gif
+      765: Resources/DestroyedFacilities/destroy_basebits_23_0.gif
+      766: Resources/DestroyedFacilities/destroy_basebits_24_0.gif
+      767: Resources/DestroyedFacilities/destroy_basebits_25_0.gif
+      768: Resources/DestroyedFacilities/destroy_basebits_26_0.gif
+      769: Resources/DestroyedFacilities/destroy_basebits_27_0.gif
+      770: Resources/DestroyedFacilities/destroy_basebits_28_0.gif
+      771: Resources/DestroyedFacilities/destroy_basebits_29_0.gif
+      772: Resources/DestroyedFacilities/destroy_basebits_30_0.gif
+      773: Resources/DestroyedFacilities/destroy_basebits_31_0.gif
+      774: Resources/DestroyedFacilities/destroy_basebits_32_0.gif
+      775: Resources/DestroyedFacilities/destroy_BiologicalAlterations.png
+      776: Resources/DestroyedFacilities/destroy_Gym.png
+      777: Resources/DestroyedFacilities/destroy_infirmary.gif
+      778: Resources/DestroyedFacilities/destroy_rbasebits_26.gif
+      779: Resources/DestroyedFacilities/destroy_rbasebits_27.gif
+      780: Resources/DestroyedFacilities/destroy_rbasebits_28.gif
 # AIRCRAFT
   - type: INTICON.PCK
     files:
@@ -1871,6 +1979,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/AlienHabitat/Alien_Habitat.png
+  - type: ELERIUM_115
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ReaversUFOs/Elerium_UFOpaedia.png
   - type: WELCOME_GIFT
     singleImage: true
     width: 320
