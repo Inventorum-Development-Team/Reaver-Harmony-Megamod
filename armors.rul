@@ -7,6 +7,7 @@ armors:
     spriteInv: MAN_0M2
     corpseBattle:
       - STR_CORPSE
+    loftempsSet: [ 4 ]
   - type: STR_BREACHER_UP
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0M6
@@ -17,6 +18,7 @@ armors:
       health: 8
       reactions: 13
       melee: 15
+    loftempsSet: [ 4 ]
   - type: STR_RANGER_UP
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0M1
@@ -28,6 +30,7 @@ armors:
       firing: 10
       throwing: 10
       strength: 5
+    loftempsSet: [ 4 ]
   - type: STR_SNIPER_UP
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0F6
@@ -37,6 +40,7 @@ armors:
       tu: 5
       reactions: 10
       firing: 20
+    loftempsSet: [ 4 ]
   - type: STR_HEAVY_UP
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0M4
@@ -48,6 +52,7 @@ armors:
       firing: 10
       throwing: 10
       strength: 13
+    loftempsSet: [ 4 ]
   - type: STR_PSI_ADEPT_UP
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0F1
@@ -57,6 +62,7 @@ armors:
       bravery: 20
       psiStrength: 20
       mana: 10
+    loftempsSet: [ 4 ]
   - type: STR_ELITE_UP
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0M7
@@ -72,6 +78,7 @@ armors:
       throwing: 10
       strength: 7
       melee: 10
+    loftempsSet: [ 4 ]
   # - type: STR_PSIONIC_PRODIGY_UP
     # spriteSheet: XCOM_0.PCK
     # spriteInv: MAN_0F1
@@ -81,6 +88,7 @@ armors:
       # psiStrength: 30
       # psiSkill: 8
       # mana: 20
+    # loftempsSet: [ 4 ]
   - type: STR_SUPER_SOLDIER_UP
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0M5
@@ -97,6 +105,7 @@ armors:
       strength: 13
       melee: 20
       mana: 13
+    loftempsSet: [ 4 ]
   - type: STR_SUPER_PSIBORG_UP
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0F4
@@ -115,6 +124,7 @@ armors:
       psiStrength: 30
       psiSkill: 8
       mana: 20
+    loftempsSet: [ 4 ]
   - type: STR_DEFENSE_AP_TURRET_ARMOR
     spriteSheet: DEFENSE_TURRET_AP.PCK
     allowInv: false
@@ -690,6 +700,7 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
+    loftempsSet: [ 4 ]
   - type: STR_NONE_UC
     spriteSheet: XCOM_0.PCK
     spriteInv: MAN_0
@@ -821,6 +832,7 @@ armors:
     visibilityAtDark: 12
     camouflageAtDark: -2
     personalLight: 0
+    loftempsSet: [ 4 ]
   - &STR_HEAVY_ARMOR_UC
     type: STR_HEAVY_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY

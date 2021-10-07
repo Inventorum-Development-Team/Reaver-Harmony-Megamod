@@ -96,6 +96,7 @@
 #       * New Elerium-115 sprite.
 #       * Added several new handob sprites.
 #       * Minor text, sprite, and UFOPedia changes.
+#  1.0.1:   Fixed crash at startup when running on OXCE 7.1.
 #
 #
 # resource authors/sources:
