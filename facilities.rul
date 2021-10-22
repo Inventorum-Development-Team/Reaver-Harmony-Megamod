@@ -741,15 +741,15 @@ facilities:
     buildTime: 21
     monthlyCost: 720000
     buildCostItems:
-      STR_ALIEN_HABITAT:
+      STR_HABITAT_FLORA:
         build: 50
         refund: 50
       STR_ALIEN_FEEDER:
-        build: 200
-        refund: 200
+        build: 300
+        refund: 300
       STR_PSIONIC_FEEDBACK_DEVICE:
-        build: 200
-        refund: 200
+        build: 300
+        refund: 300
     aliens: 60
     rightClickActionType: 1
     mapName: RBASE_28

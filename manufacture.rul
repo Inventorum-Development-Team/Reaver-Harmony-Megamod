@@ -3075,6 +3075,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_HABITAT: 1
     producedItems:
+      STR_HABITAT_FLORA: 1
       STR_ALIEN_FEEDER: 2
       STR_PSIONIC_FEEDBACK_DEVICE: 2
   - name: STR_SALVAGE_ALIEN_SURGERY

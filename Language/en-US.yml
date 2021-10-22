@@ -1108,6 +1108,7 @@ en-US:
   STR_SKELETON_POWER_TO_HEAVY_INEFFICIENT: "Inefficient: Heavy from Power Skeleton"
   STR_SKELETON_POWER_TO_LIGHT_INEFFICIENT: "Inefficient: Light from Power Skeleton"
   STR_ALIEN_FEEDER: "Alien Feeder"
+  STR_HABITAT_FLORA: "Habitat Flora"
   STR_SCOUT_POWER_UNIT: "Small Power Source"
   STR_UFO_PLASMA_EMITTER: "UFO Plasma Emitter"
   STR_UFO_PLASMA_ARRAY: "UFO Plasma Array"

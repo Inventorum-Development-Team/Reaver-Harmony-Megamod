@@ -1077,7 +1077,7 @@ units:
       reactions: 33
       firing: 0
       throwing: 0
-      strength: 125
+      strength: 145
       psiStrength: 40
       psiSkill: 0
       melee: 90
@@ -1193,7 +1193,7 @@ units:
       reactions: 19
       firing: 70
       throwing: 0
-      strength: 141
+      strength: 188
       psiStrength: 60
       psiSkill: 0
       melee: 76
@@ -1317,7 +1317,7 @@ units:
       reactions: 25
       firing: 0
       throwing: 0
-      strength: 95
+      strength: 120
       psiStrength: 77
       psiSkill: 0
       melee: 80
@@ -1495,7 +1495,7 @@ units:
       reactions: 15
       firing: 0
       throwing: 0
-      strength: 85
+      strength: 100
       psiStrength: 20
       psiSkill: 0
       melee: 80
@@ -1691,7 +1691,7 @@ units:
       reactions: 41
       firing: 0
       throwing: 0
-      strength: 160
+      strength: 180
       psiStrength: 82
       psiSkill: 0
       melee: 90
@@ -1820,7 +1820,7 @@ units:
       reactions: 28
       firing: 0
       throwing: 0
-      strength: 130
+      strength: 155
       psiStrength: 84
       psiSkill: 0
       melee: 80
@@ -1899,7 +1899,7 @@ units:
       reactions: 18
       firing: 0
       throwing: 0
-      strength: 120
+      strength: 135
       psiStrength: 50
       psiSkill: 0
       melee: 80

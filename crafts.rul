@@ -7,8 +7,8 @@ crafts:
     marker: 15
     fuelMax: 1000
     damageMax: 120
-    avoidBonus: 22
-    armor: 0
+    avoidBonus: 28
+    armor: 8
     powerBonus: 20
     speedMax: 1600
     accel: 3
@@ -39,8 +39,8 @@ crafts:
     marker: 16
     fuelMax: 1200
     damageMax: 160
-    avoidBonus: 6
-    armor: 4
+    avoidBonus: 12
+    armor: 12
     powerBonus: 20
     speedMax: 1250
     accel: 2
@@ -96,8 +96,8 @@ crafts:
     marker: 17
     fuelMax: 1400
     damageMax: 200
-    avoidBonus: 0
-    armor: 12
+    avoidBonus: 6
+    armor: 20
     powerBonus: 20
     speedMax: 1040
     accel: 1
@@ -154,8 +154,8 @@ crafts:
     marker: 15
     fuelMax: 1200
     damageMax: 160
-    avoidBonus: 25
-    armor: 0
+    avoidBonus: 31
+    armor: 8
     powerBonus: 20
     speedMax: 2000
     accel: 4
@@ -189,8 +189,8 @@ crafts:
     marker: 16
     fuelMax: 1500
     damageMax: 220
-    avoidBonus: 8
-    armor: 7
+    avoidBonus: 14
+    armor: 15
     powerBonus: 20
     speedMax: 1550
     accel: 3
@@ -251,8 +251,8 @@ crafts:
     marker: 17
     fuelMax: 1800
     damageMax: 280
-    avoidBonus: 0
-    armor: 21
+    avoidBonus: 6
+    armor: 29
     powerBonus: 20
     speedMax: 1280
     accel: 2
@@ -317,8 +317,8 @@ crafts:
     marker: 15
     fuelMax: 1300
     damageMax: 190
-    avoidBonus: 23
-    armor: 6
+    avoidBonus: 29
+    armor: 14
     powerBonus: 20
     speedMax: 1800
     accel: 3
@@ -352,8 +352,8 @@ crafts:
     marker: 17
     fuelMax: 1600
     damageMax: 250
-    avoidBonus: 5
-    armor: 11
+    avoidBonus: 11
+    armor: 19
     powerBonus: 20
     speedMax: 1430
     accel: 2
@@ -401,8 +401,8 @@ crafts:
     marker: 18
     fuelMax: 60
     damageMax: 400
-    avoidBonus: 15
-    armor: 0
+    avoidBonus: 21
+    armor: 8
     powerBonus: 20
     speedMax: 3600
     accel: 7
@@ -459,8 +459,8 @@ crafts:
     marker: 19
     fuelMax: 90
     damageMax: 500
-    avoidBonus: 9
-    armor: 19
+    avoidBonus: 15
+    armor: 27
     powerBonus: 20
     speedMax: 2500
     accel: 5
@@ -521,8 +521,8 @@ crafts:
     marker: 20
     fuelMax: 90
     damageMax: 700
-    avoidBonus: 11
-    armor: 7
+    avoidBonus: 17
+    armor: 15
     powerBonus: 20
     speedMax: 3900
     accel: 8
@@ -583,8 +583,8 @@ crafts:
     marker: 21
     fuelMax: 120
     damageMax: 850
-    avoidBonus: 0
-    armor: 20
+    avoidBonus: 6
+    armor: 28
     powerBonus: 20
     speedMax: 3000
     accel: 6
@@ -659,8 +659,8 @@ crafts:
     shieldCapacity: 300
     shieldRechargeInGeoscape: 2
     shieldBleedThrough: 100
-    avoidBonus: 12
-    armor: 10
+    avoidBonus: 18
+    armor: 18
     powerBonus: 20
     speedMax: 4500
     accel: 8
@@ -741,8 +741,8 @@ crafts:
     shieldCapacity: 450
     shieldRechargeInGeoscape: 2
     shieldBleedThrough: 100
-    avoidBonus: 5
-    armor: 20
+    avoidBonus: 11
+    armor: 28
     powerBonus: 20
     speedMax: 3900
     accel: 7
@@ -825,8 +825,8 @@ crafts:
     shieldCapacity: 400
     shieldRechargeInGeoscape: 2
     shieldBleedThrough: 100
-    avoidBonus: 8
-    armor: 16
+    avoidBonus: 14
+    armor: 24
     powerBonus: 20
     speedMax: 5900
     accel: 11
@@ -903,8 +903,8 @@ crafts:
     shieldCapacity: 350
     shieldRechargeInGeoscape: 2
     shieldBleedThrough: 100
-    avoidBonus: 10
-    armor: 13
+    avoidBonus: 16
+    armor: 21
     powerBonus: 20
     speedMax: 4800
     accel: 10
@@ -981,8 +981,8 @@ crafts:
     marker: 15
     fuelMax: 1000
     damageMax: 80
-    avoidBonus: 22
-    armor: 0
+    avoidBonus: 25
+    armor: 4
     speedMax: 1400
     accel: 3
     weapons: 2
@@ -1012,8 +1012,8 @@ crafts:
     marker: 16
     fuelMax: 1200
     damageMax: 120
-    avoidBonus: 6
-    armor: 4
+    avoidBonus: 9
+    armor: 8
     speedMax: 1050
     accel: 2
     weapons: 4
@@ -1068,8 +1068,8 @@ crafts:
     marker: 17
     fuelMax: 1400
     damageMax: 160
-    avoidBonus: 0
-    armor: 12
+    avoidBonus: 3
+    armor: 16
     speedMax: 840
     accel: 1
     weapons: 2
@@ -1125,8 +1125,8 @@ crafts:
     marker: 15
     fuelMax: 1200
     damageMax: 120
-    avoidBonus: 25
-    armor: 0
+    avoidBonus: 28
+    armor: 4
     speedMax: 1800
     accel: 4
     weapons: 3
@@ -1159,8 +1159,8 @@ crafts:
     marker: 16
     fuelMax: 1500
     damageMax: 180
-    avoidBonus: 8
-    armor: 7
+    avoidBonus: 11
+    armor: 11
     speedMax: 1350
     accel: 3
     weapons: 4
@@ -1220,8 +1220,8 @@ crafts:
     marker: 17
     fuelMax: 1800
     damageMax: 240
-    avoidBonus: 0
-    armor: 21
+    avoidBonus: 3
+    armor: 25
     speedMax: 1080
     accel: 2
     weapons: 3
@@ -1285,8 +1285,8 @@ crafts:
     marker: 15
     fuelMax: 1300
     damageMax: 150
-    avoidBonus: 23
-    armor: 6
+    avoidBonus: 26
+    armor: 10
     speedMax: 1600
     accel: 3
     weapons: 3
@@ -1319,8 +1319,8 @@ crafts:
     marker: 17
     fuelMax: 1600
     damageMax: 210
-    avoidBonus: 5
-    armor: 11
+    avoidBonus: 8
+    armor: 15
     speedMax: 1230
     accel: 2
     weapons: 4
@@ -1367,8 +1367,8 @@ crafts:
     marker: 18
     fuelMax: 60
     damageMax: 300
-    avoidBonus: 15
-    armor: 0
+    avoidBonus: 18
+    armor: 4
     speedMax: 3300
     accel: 7
     weapons: 4
@@ -1424,8 +1424,8 @@ crafts:
     marker: 19
     fuelMax: 90
     damageMax: 400
-    avoidBonus: 9
-    armor: 19
+    avoidBonus: 12
+    armor: 23
     speedMax: 2200
     accel: 5
     weapons: 3
@@ -1485,8 +1485,8 @@ crafts:
     marker: 20
     fuelMax: 90
     damageMax: 600
-    avoidBonus: 11
-    armor: 7
+    avoidBonus: 14
+    armor: 11
     speedMax: 3600
     accel: 8
     weapons: 4
@@ -1546,8 +1546,8 @@ crafts:
     marker: 21
     fuelMax: 120
     damageMax: 750
-    avoidBonus: 0
-    armor: 20
+    avoidBonus: 3
+    armor: 24
     speedMax: 2700
     accel: 6
     weapons: 4
@@ -1621,8 +1621,8 @@ crafts:
     shieldCapacity: 200
     shieldRechargeInGeoscape: 2
     shieldBleedThrough: 100
-    avoidBonus: 12
-    armor: 10
+    avoidBonus: 15
+    armor: 14
     speedMax: 4200
     accel: 8
     weapons: 4
@@ -1702,8 +1702,8 @@ crafts:
     shieldCapacity: 350
     shieldRechargeInGeoscape: 2
     shieldBleedThrough: 100
-    avoidBonus: 5
-    armor: 20
+    avoidBonus: 8
+    armor: 24
     speedMax: 3600
     accel: 7
     weapons: 4
@@ -1785,8 +1785,8 @@ crafts:
     shieldCapacity: 300
     shieldRechargeInGeoscape: 2
     shieldBleedThrough: 100
-    avoidBonus: 8
-    armor: 16
+    avoidBonus: 11
+    armor: 20
     speedMax: 5600
     accel: 11
     weapons: 4
@@ -1862,8 +1862,8 @@ crafts:
     shieldCapacity: 250
     shieldRechargeInGeoscape: 2
     shieldBleedThrough: 100
-    avoidBonus: 10
-    armor: 13
+    avoidBonus: 13
+    armor: 17
     speedMax: 4500
     accel: 10
     weapons: 4

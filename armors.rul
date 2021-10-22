@@ -1179,10 +1179,10 @@ armors:
       stamina: 10
       bravery: 20
       strength: 70
-    frontArmor: 125
-    sideArmor: 105
-    rearArmor: 95
-    underArmor: 85
+    frontArmor: 185
+    sideArmor: 155
+    rearArmor: 135
+    underArmor: 125
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
@@ -1216,17 +1216,17 @@ armors:
   - type: STR_POWER_SUIT_UC_MEDIUM
     refNode: *STR_POWER_SUIT_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 110
-    sideArmor: 90
-    rearArmor: 80
-    underArmor: 70
+    frontArmor: 160
+    sideArmor: 130
+    rearArmor: 110
+    underArmor: 100
   - type: STR_POWER_SUIT_UC_HARD
     refNode: *STR_POWER_SUIT_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 95
-    sideArmor: 75
-    rearArmor: 65
-    underArmor: 55
+    frontArmor: 135
+    sideArmor: 105
+    rearArmor: 85
+    underArmor: 75
   - &STR_FLYING_SUIT_UC
     type: STR_FLYING_SUIT_UC_EASY
     requires: STR_ARMOR_EASY
@@ -1243,10 +1243,10 @@ armors:
       firing: 10
       bravery: 10
       strength: 40
-    frontArmor: 115
-    sideArmor: 95
-    rearArmor: 85
-    underArmor: 75
+    frontArmor: 170
+    sideArmor: 140
+    rearArmor: 120
+    underArmor: 110
     movementType: 1
     damageModifier:
       - 1.0 # 0 NONE
@@ -1281,17 +1281,17 @@ armors:
   - type: STR_FLYING_SUIT_UC_MEDIUM
     refNode: *STR_FLYING_SUIT_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 100
-    sideArmor: 80
-    rearArmor: 70
-    underArmor: 60
+    frontArmor: 145
+    sideArmor: 115
+    rearArmor: 95
+    underArmor: 85
   - type: STR_FLYING_SUIT_UC_HARD
     refNode: *STR_FLYING_SUIT_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 85
-    sideArmor: 65
-    rearArmor: 55
-    underArmor: 45
+    frontArmor: 120
+    sideArmor: 90
+    rearArmor: 70
+    underArmor: 60
   - &STR_PSI_DEFENSE_ARMOR_UC
     type: STR_PSI_DEFENSE_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -1308,10 +1308,10 @@ armors:
       strength: 50
       psiStrength: 30
       psiSkill: -20
-    frontArmor: 135
-    sideArmor: 115
-    rearArmor: 105
-    underArmor: 95
+    frontArmor: 215
+    sideArmor: 180
+    rearArmor: 155
+    underArmor: 145
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
@@ -1345,17 +1345,17 @@ armors:
   - type: STR_PSI_DEFENSE_ARMOR_UC_MEDIUM
     refNode: *STR_PSI_DEFENSE_ARMOR_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 120
-    sideArmor: 100
-    rearArmor: 90
-    underArmor: 80
+    frontArmor: 190
+    sideArmor: 155
+    rearArmor: 130
+    underArmor: 120
   - type: STR_PSI_DEFENSE_ARMOR_UC_HARD
     refNode: *STR_PSI_DEFENSE_ARMOR_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 105
-    sideArmor: 85
-    rearArmor: 75
-    underArmor: 65
+    frontArmor: 165
+    sideArmor: 130
+    rearArmor: 105
+    underArmor: 95
   - &STR_PSI_ATTACK_ARMOR_UC
     type: STR_PSI_ATTACK_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -1372,10 +1372,10 @@ armors:
       strength: 40
       psiStrength: 0
       psiSkill: 20
-    frontArmor: 125
-    sideArmor: 105
-    rearArmor: 95
-    underArmor: 85
+    frontArmor: 190
+    sideArmor: 160
+    rearArmor: 140
+    underArmor: 130
     movementType: 1
     damageModifier:
       - 1.0 # 0 NONE
@@ -1411,18 +1411,18 @@ armors:
   - type: STR_PSI_ATTACK_ARMOR_UC_MEDIUM
     refNode: *STR_PSI_ATTACK_ARMOR_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 110
-    sideArmor: 90
-    rearArmor: 80
-    underArmor: 70
+    frontArmor: 165
+    sideArmor: 135
+    rearArmor: 115
+    underArmor: 105
     psiVision: 10
   - type: STR_PSI_ATTACK_ARMOR_UC_HARD
     refNode: *STR_PSI_ATTACK_ARMOR_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 95
-    sideArmor: 75
-    rearArmor: 65
-    underArmor: 55
+    frontArmor: 140
+    sideArmor: 110
+    rearArmor: 90
+    underArmor: 80
     psiVision: 8
   - &STR_PALADIN_ARMOR_UC
     type: STR_PALADIN_ARMOR_UC_EASY
@@ -1443,10 +1443,10 @@ armors:
       melee: 20
       psiStrength: 15
       psiSkill: -5
-    frontArmor: 180
-    sideArmor: 155
-    rearArmor: 130
-    underArmor: 145
+    frontArmor: 255
+    sideArmor: 220
+    rearArmor: 185
+    underArmor: 170
     damageModifier:
       - 1.0 # 0 NONE
       - 0.8 # 1 ARMOR PIERCING
@@ -1482,18 +1482,18 @@ armors:
   - type: STR_PALADIN_ARMOR_UC_MEDIUM
     refNode: *STR_PALADIN_ARMOR_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 160
-    sideArmor: 135
-    rearArmor: 110
-    underArmor: 125
+    frontArmor: 225
+    sideArmor: 190
+    rearArmor: 155
+    underArmor: 140
     heatVision: 60
   - type: STR_PALADIN_ARMOR_UC_HARD
     refNode: *STR_PALADIN_ARMOR_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 140
-    sideArmor: 115
-    rearArmor: 90
-    underArmor: 105
+    frontArmor: 195
+    sideArmor: 160
+    rearArmor: 125
+    underArmor: 110
     heatVision: 50
   - &STR_ASSASSIN_ARMOR_UC
     type: STR_ASSASSIN_ARMOR_UC_EASY
@@ -1517,10 +1517,10 @@ armors:
       strength: 30
       psiStrength: 7
       psiSkill: 5
-    frontArmor: 105
-    sideArmor: 95
-    rearArmor: 90
-    underArmor: 85
+    frontArmor: 160
+    sideArmor: 145
+    rearArmor: 135
+    underArmor: 130
     movementType: 1
     damageModifier:
       - 1.0 # 0 NONE
@@ -1560,10 +1560,10 @@ armors:
   - type: STR_ASSASSIN_ARMOR_UC_MEDIUM
     refNode: *STR_ASSASSIN_ARMOR_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 85
-    sideArmor: 75
-    rearArmor: 70
-    underArmor: 65
+    frontArmor: 130
+    sideArmor: 115
+    rearArmor: 105
+    underArmor: 100
     visibilityAtDark: 20
     camouflageAtDark: -5
     heatVision: 25
@@ -1571,10 +1571,10 @@ armors:
   - type: STR_ASSASSIN_ARMOR_UC_HARD
     refNode: *STR_ASSASSIN_ARMOR_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 65
-    sideArmor: 55
-    rearArmor: 50
-    underArmor: 45
+    frontArmor: 100
+    sideArmor: 85
+    rearArmor: 75
+    underArmor: 70
     visibilityAtDark: 17
     camouflageAtDark: -3
     heatVision: 20

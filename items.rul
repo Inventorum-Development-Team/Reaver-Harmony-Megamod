@@ -6194,6 +6194,10 @@ items:
     size: 0.001
     costSell: 15000
     categories: [STR_CAT_SALVAGE]
+  - type: STR_HABITAT_FLORA
+    size: 0.0001
+    costSell: 1000
+    categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_FEEDER
     size: 0.001
     requiresBuy:
@@ -7575,10 +7579,10 @@ items:
     power: 144
     damageType: 15
     damageAlter:
-      ArmorEffectiveness: 0.6
+      ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.06
+      ToArmorPre: 0.05
     accuracySnap: 75
     accuracyAimed: 125
     tuSnap: 40
@@ -7601,6 +7605,7 @@ items:
     strengthApplied: true
     damageType: 7
     damageAlter:
+      IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.05
     accuracyMelee: 100
@@ -7618,7 +7623,7 @@ items:
     strengthApplied: true
     damageType: 7
     damageAlter:
-      ArmorEffectiveness: 0.25
+      ArmorEffectiveness: 0.2
       ToArmor: 0
       ToArmorPre: 0.02
       ToHealth: 0.25
@@ -7639,6 +7644,7 @@ items:
     strengthApplied: true
     damageType: 7
     damageAlter:
+      ArmorEffectiveness: 0.8
       ToArmor: 0
       ToArmorPre: 0.15
     accuracyMelee: 100
@@ -7653,7 +7659,7 @@ items:
     damageType: 8
     damageAlter:
       ToArmor: 0
-      ToArmorPre: 0.4
+      ToArmorPre: 0.5
     accuracySnap: 75
     accuracyAimed: 110
     tuSnap: 30
@@ -7669,8 +7675,9 @@ items:
     strengthApplied: true
     damageType: 7
     damageAlter:
+      ArmorEffectiveness: 0.8
       ToArmor: 0
-      ToArmorPre: 0.05
+      ToArmorPre: 0.04
     accuracyMelee: 100
     tuMelee: 15
     flatRate: true
@@ -7683,10 +7690,10 @@ items:
     power: 90
     damageType: 14
     damageAlter:
-      ArmorEffectiveness: 1.0
+      ArmorEffectiveness: 0.8
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.1
+      ToArmorPre: 0.08
     accuracyAuto: 0
     accuracySnap: 54
     accuracyAimed: 90
@@ -7732,7 +7739,7 @@ items:
     bulletSprite: 34
     hitSound: 19
     hitAnimation: 46
-    power: 144
+    power: 150
     damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.75
@@ -7785,10 +7792,10 @@ items:
     power: 162
     damageType: 15
     damageAlter:
-      ArmorEffectiveness: 0.6
+      ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.06
+      ToArmorPre: 0.05
     accuracySnap: 75
     accuracyAimed: 125
     tuSnap: 40
@@ -7811,6 +7818,7 @@ items:
     strengthApplied: true
     damageType: 7
     damageAlter:
+      IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.05
     accuracyMelee: 100
@@ -7832,6 +7840,7 @@ items:
     strengthApplied: true
     damageType: 7
     damageAlter:
+      ArmorEffectiveness: 0.8
       ToArmor: 0
       ToArmorPre: 0.15
     accuracyMelee: 100
@@ -7856,7 +7865,7 @@ items:
     damageType: 8
     damageAlter:
       ToArmor: 0
-      ToArmorPre: 0.8
+      ToArmorPre: 1.0
     accuracySnap: 75
     accuracyAimed: 110
     tuSnap: 40
@@ -7881,8 +7890,9 @@ items:
     strengthApplied: true
     damageType: 7
     damageAlter:
+      ArmorEffectiveness: 0.8
       ToArmor: 0
-      ToArmorPre: 0.05
+      ToArmorPre: 0.04
     accuracyMelee: 100
     tuMelee: 15
     clipSize: -1
@@ -7904,10 +7914,10 @@ items:
     power: 117
     damageType: 14
     damageAlter:
-      ArmorEffectiveness: 1.0
+      ArmorEffectiveness: 0.8
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.1
+      ToArmorPre: 0.08
     accuracySnap: 60
     accuracyAimed: 100
     tuSnap: 45

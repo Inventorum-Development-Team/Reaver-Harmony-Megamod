@@ -97,6 +97,12 @@
 #       * Added several new handob sprites.
 #       * Minor text, sprite, and UFOPedia changes.
 #  1.0.1:   Fixed crash at startup when running on OXCE 7.1.
+#  1.0.2:   Increased aircraft defenses on lower difficulties.
+#       * Greatly increased armor values on all types of power armor.
+#           - Power armor on hard difficulty now has more armor than power armor on easy difficulty previously had.
+#           - Terrorist units have had their attacks buffed slightly to compensate for this change.
+#       * Added Habitat Flora item from salvaging Alien Habitat.
+#       * Fixed bug with Shotgun handobs sprite.
 #
 #
 # resource authors/sources:
@@ -188,7 +194,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 1.0.1
+version: 1.0.2
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
