@@ -103,6 +103,12 @@
 #           - Terrorist units have had their attacks buffed slightly to compensate for this change.
 #       * Added Habitat Flora item from salvaging Alien Habitat.
 #       * Fixed bug with Shotgun handobs sprite.
+#  1.0.3:   Fixed bug with snakeman queen not appearing inside snakeman colony.
+#           - Any pre-existing colonies or colony missions will still not have a queen.
+#       * Fixed bug in which attempting to recover live cyberdisc or sectopod causes crash.
+#       * Fixed bug in which navigators rarely showed up without a mind probe.
+#       * Re-tooled alien weapon loadouts. Details (spoilers) have been updated in the Cheat Sheet.
+#       * Removed scope from Machinegun; added scope to Rifle.
 #
 #
 # resource authors/sources:
@@ -194,7 +200,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 1.0.2
+version: 1.0.3
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

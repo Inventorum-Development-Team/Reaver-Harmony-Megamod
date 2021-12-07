@@ -273,7 +273,7 @@ missionScripts:
         STR_SNAKEMAN_OUTPOST: 100
     raceWeights:
       0:
-        STR_SNAKEMAN: 100
+        STR_SNAKEMAN_OUTPOST: 100
     useTable: false
   - type: sectoidOutpost
     firstMonth: 1

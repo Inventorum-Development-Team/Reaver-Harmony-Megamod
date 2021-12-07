@@ -11,36 +11,42 @@ alienDeployments:
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_ALIEN_GRENADE
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_ALIEN_GRENADE
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_ALIEN_GRENADE
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_ALIEN_GRENADE
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_ALIEN_GRENADE
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_MIND_PROBE
     width: 40
@@ -61,34 +67,34 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 1
@@ -99,37 +105,31 @@ alienDeployments:
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
     width: 40
@@ -150,34 +150,34 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 1
@@ -238,145 +238,35 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 2
         highQty: 4
         dQty: 0
         percentageOutsideUfo: 60
-        itemSets:
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_ALIEN_GRENADE_RED
-            - STR_ALIEN_GRENADE_RED
-    width: 40
-    length: 50
-    height: 10
-  - type: STR_LARGE_SCOUT
-    data:
-      - alienRank: 2
-        lowQty: 1
-        highQty: 1
-        dQty: 0
-        percentageOutsideUfo: 35
-        itemSets:
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
-          -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
-          -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-      - alienRank: 4
-        lowQty: 1
-        highQty: 1
-        dQty: 0
-        percentageOutsideUfo: 25
-        itemSets:
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_MIND_PROBE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_MIND_PROBE
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_MIND_PROBE
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_MIND_PROBE
-          -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_MIND_PROBE
-      - alienRank: 5
-        lowQty: 3
-        highQty: 9
-        dQty: 1
-        percentageOutsideUfo: 65
         itemSets:
           -
             - STR_PLASMA_PISTOL
@@ -408,6 +298,113 @@ alienDeployments:
             - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
+    width: 40
+    length: 50
+    height: 10
+  - type: STR_LARGE_SCOUT
+    data:
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_MIND_PROBE
+      - alienRank: 5
+        lowQty: 3
+        highQty: 9
+        dQty: 1
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
     width: 50
     length: 50
     height: 10
@@ -425,29 +422,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 2
@@ -539,41 +536,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 2
         highQty: 4
@@ -593,20 +590,17 @@ alienDeployments:
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 1
         highQty: 1
@@ -644,12 +638,10 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -662,29 +654,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 3
@@ -734,41 +726,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 1
@@ -788,20 +780,17 @@ alienDeployments:
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 3
         highQty: 7
@@ -839,12 +828,10 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -857,29 +844,30 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 2
         highQty: 5
@@ -907,13 +895,13 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
     width: 60
@@ -940,20 +928,17 @@ alienDeployments:
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 2
         highQty: 2
@@ -991,12 +976,10 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 2
         highQty: 5
@@ -1009,29 +992,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 4
@@ -1081,41 +1064,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 1
@@ -1204,29 +1187,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 1
@@ -1360,41 +1343,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -1470,29 +1453,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 3
@@ -1537,18 +1520,6 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
@@ -1567,9 +1538,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -1626,41 +1609,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 0
         highQty: 2
@@ -1680,20 +1663,17 @@ alienDeployments:
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 1
         highQty: 1
@@ -1731,12 +1711,10 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -1749,29 +1727,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 6
@@ -1800,13 +1778,13 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
     width: 70
@@ -1821,41 +1799,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 1
@@ -1944,29 +1922,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 3
@@ -2011,18 +1989,6 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
@@ -2041,9 +2007,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -2146,41 +2124,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -2269,29 +2247,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 8
@@ -2336,18 +2314,6 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
@@ -2366,9 +2332,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -2471,41 +2449,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 3
@@ -2521,24 +2499,21 @@ alienDeployments:
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 3
         highQty: 5
@@ -2576,12 +2551,10 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 3
         highQty: 5
@@ -2594,29 +2567,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 7
@@ -2661,18 +2634,6 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
@@ -2691,9 +2652,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -2750,41 +2723,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -2861,29 +2834,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 3
@@ -2928,18 +2901,6 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
@@ -2958,9 +2919,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -3088,41 +3061,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 2
         highQty: 4
@@ -3237,29 +3210,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 4
@@ -3310,18 +3283,6 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
@@ -3340,9 +3301,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP 
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -5297,41 +5270,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 1
@@ -5439,29 +5412,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 2
@@ -5490,13 +5463,13 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 6
@@ -5505,18 +5478,6 @@ alienDeployments:
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -5536,9 +5497,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP 
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -5621,41 +5594,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 1
@@ -5763,29 +5736,29 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 1
@@ -5814,13 +5787,13 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 6
@@ -5829,18 +5802,6 @@ alienDeployments:
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -5860,9 +5821,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP 
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -5983,41 +5956,41 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-          -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -6107,19 +6080,19 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
             - STR_MIND_PROBE
           -
             - STR_PLASMA_PISTOL
@@ -6174,18 +6147,6 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
@@ -6204,9 +6165,21 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -6519,9 +6492,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_MIND_PROBE
     width: 40
@@ -6536,10 +6509,10 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 1
@@ -6548,9 +6521,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
     width: 40
@@ -6594,9 +6567,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 2
@@ -6605,8 +6578,8 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
     width: 50
@@ -6621,12 +6594,9 @@ alienDeployments:
         percentageOutsideUfo: 35
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -6634,9 +6604,9 @@ alienDeployments:
         percentageOutsideUfo: 25
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 3
@@ -6645,8 +6615,8 @@ alienDeployments:
         percentageOutsideUfo: 65
         itemSets:
           -
-            - STR_PLASMA_RIFLE_RED
-            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
     width: 50
@@ -6700,11 +6670,11 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 2
         highQty: 4
@@ -6712,12 +6682,9 @@ alienDeployments:
         percentageOutsideUfo: 30
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 1
         highQty: 1
@@ -6725,12 +6692,10 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -6738,9 +6703,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 3
@@ -6765,11 +6730,11 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 1
@@ -6777,12 +6742,9 @@ alienDeployments:
         percentageOutsideUfo: 30
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 3
         highQty: 7
@@ -6790,12 +6752,10 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -6803,9 +6763,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 2
@@ -6814,8 +6774,8 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
     width: 60
@@ -6830,12 +6790,9 @@ alienDeployments:
         percentageOutsideUfo: 30
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 2
         highQty: 2
@@ -6843,12 +6800,10 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 2
         highQty: 5
@@ -6856,9 +6811,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 4
@@ -6883,11 +6838,11 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 1
@@ -6943,9 +6898,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -6972,11 +6927,11 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -7010,9 +6965,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 3
@@ -7032,9 +6987,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -7061,39 +7016,13 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 0
-        highQty: 2
-        dQty: 1
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-      - alienRank: 3
-        lowQty: 1
-        highQty: 1
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-      - alienRank: 4
-        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 20
@@ -7102,6 +7031,27 @@ alienDeployments:
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
             - STR_HEAVY_PLASMA_RED_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 6
@@ -7110,8 +7060,8 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
     width: 60
@@ -7126,11 +7076,11 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 1
@@ -7186,9 +7136,9 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
             - STR_ALIEN_GRENADE_RED
       - alienRank: 7
@@ -7231,11 +7181,11 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -7269,9 +7219,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 8
@@ -7291,11 +7241,11 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP 
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
-            - STR_ALIEN_GRENADE_RED        
+            - STR_ALIEN_GRENADE_RED      
       - alienRank: 7
         lowQty: 1
         highQty: 3
@@ -7336,11 +7286,11 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
       - alienRank: 2
         lowQty: 1
         highQty: 3
@@ -7348,12 +7298,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
       - alienRank: 3
         lowQty: 3
         highQty: 5
@@ -7361,12 +7308,10 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 2
         highQty: 4
@@ -7374,9 +7319,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA_RED
-            - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 7
@@ -7396,11 +7341,11 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_PISTOL_RED
-            - STR_PLASMA_PISTOL_RED_CLIP
-            - STR_PLASMA_PISTOL_RED_CLIP  
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
             - STR_ALIEN_GRENADE_RED
-            - STR_ALIEN_GRENADE_RED       
+            - STR_ALIEN_GRENADE_RED      
       - alienRank: 7
         lowQty: 3
         highQty: 7

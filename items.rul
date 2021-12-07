@@ -2756,9 +2756,9 @@ items:
     costSell: 9000
     categories: [STR_CAT_RIFLES, STR_CAT_EARLY_TECH]
     weight: 8
-    bigSprite: 1
-    floorSprite: 1
-    handSprite: 0
+    bigSprite: 413
+    floorSprite: 392
+    handSprite: 1124
     fireSound: 4
     compatibleAmmo:
       - STR_RIFLE_CLIP
@@ -7998,6 +7998,9 @@ items:
     recover: true
     liveAlien: true
   - type: STR_SNAKEMAN_COMMANDER_B
+    size: 0.0
+    recover: true
+    liveAlien: true
     costSell: 600000
     categories: [STR_CAT_ALIENS]
   - type: STR_SNAKEMAN_COMMANDER

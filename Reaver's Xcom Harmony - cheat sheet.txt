@@ -8,15 +8,15 @@ spoilers or the information may be out of date.
 DIFFICULTY SETTING:	EFFECTS:
 
 Beginner:		easy armor, easy aircraft, easy aliens, low alien numbers, UFO attack -0gs/retreat -0gs, defeat score -1600
-Experienced:		easy armor, medium aircraft, medium aliens, low alien numbers, UFO attack -4gs/retreat -60gs, defeat score -1400
+Experienced:		medium armor, easy aircraft, medium aliens, low alien numbers, UFO attack -4gs/retreat -60gs, defeat score -1400
 Veteran:		medium armor, medium aircraft, medium aliens, medium alien numbers, UFO attack -8gs/retreat -120gs, defeat score -1200
-Genius:			medium armor, hard aircraft, hard aliens, medium alien numbers, UFO attack -12gs/retreat -180gs, defeat score -1000
+Genius:			hard armor, medium aircraft, hard aliens, medium alien numbers, UFO attack -12gs/retreat -180gs, defeat score -1000
 Superhuman:		hard armor, hard aircraft, hard aliens, high alien numbers, UFO attack -16gs/retreat -240gs, defeat score -800
 
-From Beginner to Experienced:	Craft get weaker, aliens get tougher
-From Experienced to Veteran:	Armor gets weaker, more aliens to fight (also means more loot)
-From Veteran to Genius:		Craft get weaker, aliens get tougher
-From Genius to Superhuman:	Armor gets weaker, more aliens to fight (also means more loot)
+From Beginner to Experienced:	Armor gets weaker, aliens get tougher
+From Experienced to Veteran:	Craft get weaker, more aliens to fight (also means more loot)
+From Veteran to Genius:		Armor gets weaker, aliens get tougher
+From Genius to Superhuman:	Craft get weaker, more aliens to fight (also means more loot)
 
 Every difficulty increase:	UFO attacks get faster (especially fast-firing UFOs), defeat score gets higher
 
@@ -34,36 +34,39 @@ Commanders:		BATTLESHIP (1), Alien Base
 
 
 
+WHICH ALIENS CARRY WHAT WEAPONRY
 
-BASIC WEAPON		EARLY GAME > MID GAME > LATE GAME
+RANK			WEAPON LOADOUT
 
-Plasma Pistols:		Soldiers > {rare} > Leaders
-Plasma Rifles:		Navigators/Leaders > Soldiers > {rare}
-Heavy Plasmas:		Engineers > Leaders > Soldiers/Navigators
- - all {rare} entries can be obtained on certain race terrorist sites
- - soldiers (rank 5) carry the fewest clips
- - more clips can be obtained from rank 6 and 7 soldiers
- - the highest number of clips are found on leaders
+Soldiers:		Pistols initially, gradually moves to rifles and sometimes heavies. Always carries grenades.
+Navigators:		Pistol and mind probe.
+Medics:			Small launcher with stun ammo.
+Engineers:		Usually heavy plasma but sometimes blaster launcher with some fusion ammo.
+Leaders:		Rifles initially but moves to heavies and finally to pistols. Carries several clips.
+Commanders:		Always carries a blaster launcher and several fusion ammo.
 
+
+
+WHERE TO FIND A PARTICULAR ITEM
 
 WEAPON/ITEM		GOOD OPTIONS; RECOMMENDED OPTION IS IN BOLD
 
 Small Launchers:	All Medics, ABDUCTOR
 Stun Bombs:		All Medics, ALIEN BASE, Alien Outpost
-Blaster Launchers:	All Engineers and Commanders, HARVESTER
-Blaster Bombs:		All Engineers and Commanders, ALIEN BASE, Alien Outpost
+Blaster Launchers:	Some Engineers and all COMMANDERS, Destroyers, Battleships, Terror Ships
+Blaster Bombs:		Some Engineers and all Commanders, ALIEN BASE, Alien Outpost
 Alien Grenade:		Soldiers (rank 5), All Alien Craft, LARGE SCOUT
-Mind Probe:		Navigators on Scout Craft and Alien Outpost, MEDIUM SCOUT
+Mind Probe:		All Navigators, MEDIUM SCOUT, Covert Ops, Small Scout
 Alien Alloys:		Larger alien craft, ALIEN BASE, Alien Outpost
-Elerium-115:		Larger alien craft (landed), Alien Base, BATTLESHIP (LANDED)
-UFO Navigation:		Alien Craft (except small scout), MEDIUM AND LARGE SCOUT
+Elerium-115:		Larger alien craft (landed), Alien Base, BATTLESHIP OR MOTHERSHIP (LANDED)
+UFO Navigation:		Alien Craft (except small scout), MEDIUM DESTROYER
 UFO Power Source:	same places you find Elerium-115 (except small scout)
-UFO Plasma Emitters:	All alien craft (not small scouts), the larger the better
+UFO Plasma Emitters:	All alien craft (not small scouts), the larger the better, DESTROYERS
 UFO Plasma Arrays:	All alien craft (not small scouts), the larger the better
-UFO Shield Emitters:	All alien craft medium and up, the larger the better
-Alien Food:		Harvesters, SUPPLY SHIPS, Alien Outpost, Alien Base
-Alien Entertainment:	Abductors, Terror Ships, Alien Outpost, ALIEN BASE
-Alien Habitat:		Battleships, ALIEN BASE
+UFO Shield Emitters:	All alien craft medium and up, the larger the better, SUPPLY SHIPS
+Alien Food:		Harvesters, Cargo Ships, Destroyers, SUPPLY SHIPS, Alien Outpost, Alien Base
+Alien Entertainment:	Abductors, Terror Ships, Destroyers, Alien Outpost, ALIEN BASE
+Alien Habitat:		Battleships, ALIEN BASE, occasionally appears on most other craft
 
 
 SALVAGE ITEM			SOURCE; IDEAL SOURCES IN BOLD
@@ -84,6 +87,7 @@ Alien Surgical Interface:	ALIEN SURGERY
 Alien Genetic Implanter:	EXAMINATION ROOM
 Muton Armor Grafts:		ANY MUTON CORPSE
 Venom Gland:			CELATID CORPSE
+Habitat Seeds:			ALIEN HABITAT
 
 
 RESEARCH ITEM		AVAILABLE OPTIONS

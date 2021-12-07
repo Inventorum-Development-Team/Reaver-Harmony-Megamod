@@ -109,6 +109,7 @@ extraSprites:
       410: Resources/ConventionalStun/TerranStun_bigobs.gif
       411: Resources/ConventionalBlaster/BlasterAE_bigobs.png
       412: Resources/ReaversUFOs/BigObs_Elerium.png
+      413: Resources/AwesomeGuns/bigobs_rifle_scope.gif
 # EQUIPMENT FLOOROBS
   - type: FLOOROB.PCK
     width: 128
@@ -186,6 +187,7 @@ extraSprites:
       389: Resources/ConventionalStun/TerranStun_floorobs.gif
       390: Resources/ConventionalBlaster/BlasterAE_floorobs.png
       391: Resources/TerranPlasmaWeapons/RedPlasmaClip_floorob.gif
+      392: Resources/AwesomeGuns/floorob_rifle_scope.gif
 # EQUIPMENT HANDOBS
   - type: HANDOB.PCK
     width: 256
@@ -290,6 +292,7 @@ extraSprites:
       1100: Resources/BluePlasmas/HandOb_PHeavyClip.gif
       1108: Resources/TerranPlasmaWeapons/HandOb_RedClip.gif
       1116: Resources/TerranPlasmaWeapons/HandOb_RedGrenade.png
+      1124: Resources/AwesomeGuns/handob_rifle_scope.png
   - type: DETBORD2.PCK
     singleImage: true
     width: 320

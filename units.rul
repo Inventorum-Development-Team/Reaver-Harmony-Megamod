@@ -956,6 +956,7 @@ units:
     value: 120
     aggression: 8
     capturable: true
+    liveAlien: STR_CYBERDISC_TERRORIST
   - type: STR_FLOATER_SOLDIER
     stats:
       tu: 46
@@ -1200,14 +1201,14 @@ units:
     armor: SNAKEMAN_ARMOR_B
     standHeight: 23
     kneelHeight: 16
-    value: 100
+    value: 50
     deathSound: 8
     moveSound: 0
     intelligence: 0
     aggression: 0
     specab: 1
     livingWeapon: true
-    capturable: false
+    capturable: true
     builtInWeaponSets:
           -
             - SNAKEMAN_B_WEAPON_QUEEN_BITE
@@ -1484,6 +1485,7 @@ units:
     value: 150
     aggression: 8
     capturable: true
+    liveAlien: STR_SECTOPOD_TERRORIST
   - type: STR_ZOMBIE
     race: STR_ZOMBIE
     rank: STR_LIVE_TERRORIST
