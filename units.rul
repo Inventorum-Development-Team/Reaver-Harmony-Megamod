@@ -693,11 +693,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 32
       firing: 73
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 48
       psiSkill: 0
@@ -711,11 +711,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 32
       firing: 73
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 48
       psiSkill: 0
@@ -728,11 +728,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 32
       firing: 73
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 48
       psiSkill: 0
@@ -746,11 +746,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 32
       firing: 73
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 48
       psiSkill: 0
@@ -764,11 +764,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 28
       firing: 61
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 50
       psiSkill: 35
@@ -784,11 +784,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 30
+      health: 18
       bravery: 80
       reactions: 25
       firing: 48
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 52
       psiSkill: 65
@@ -806,11 +806,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 32
       firing: 73
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 48
       psiSkill: 0
@@ -828,11 +828,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 32
       firing: 73
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 48
       psiSkill: 0
@@ -850,11 +850,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 32
       firing: 73
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 48
       psiSkill: 0
@@ -872,11 +872,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 32
       firing: 73
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 48
       psiSkill: 0
@@ -894,11 +894,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 24
+      health: 14
       bravery: 80
       reactions: 28
       firing: 61
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 50
       psiSkill: 35
@@ -918,11 +918,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 30
+      health: 18
       bravery: 80
       reactions: 25
       firing: 48
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 52
       psiSkill: 65
@@ -940,7 +940,7 @@ units:
     stats:
       tu: 55
       stamina: 54
-      health: 50
+      health: 30
       bravery: 110
       reactions: 38
       firing: 86
@@ -961,11 +961,11 @@ units:
     stats:
       tu: 46
       stamina: 54
-      health: 50
+      health: 30
       bravery: 80
       reactions: 22
       firing: 65
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 20
       psiSkill: 0
@@ -980,11 +980,11 @@ units:
     stats:
       tu: 46
       stamina: 54
-      health: 60
+      health: 36
       bravery: 80
       reactions: 22
       firing: 65
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 22
       psiSkill: 0
@@ -999,11 +999,11 @@ units:
     stats:
       tu: 46
       stamina: 54
-      health: 60
+      health: 36
       bravery: 80
       reactions: 22
       firing: 65
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 22
       melee: 70
@@ -1018,11 +1018,11 @@ units:
     stats:
       tu: 46
       stamina: 54
-      health: 60
+      health: 36
       bravery: 80
       reactions: 22
       firing: 65
-      throwing: 58
+      throwing: 29
       strength: 40
       psiStrength: 22
       psiSkill: 0
@@ -1037,11 +1037,11 @@ units:
     stats:
       tu: 46
       stamina: 54
-      health: 70
+      health: 42
       bravery: 80
       reactions: 19
       firing: 59
-      throwing: 58
+      throwing: 29
       strength: 47
       psiStrength: 25
       psiSkill: 0
@@ -1055,11 +1055,11 @@ units:
     stats:
       tu: 46
       stamina: 54
-      health: 80
+      health: 48
       bravery: 80
       reactions: 17
       firing: 53
-      throwing: 58
+      throwing: 29
       strength: 48
       psiStrength: 28
       psiSkill: 0
@@ -1073,7 +1073,7 @@ units:
     stats:
       tu: 55
       stamina: 54
-      health: 132
+      health: 79
       bravery: 90
       reactions: 33
       firing: 0
@@ -1092,11 +1092,11 @@ units:
     stats:
       tu: 39
       stamina: 48
-      health: 60
+      health: 36
       bravery: 80
       reactions: 19
       firing: 78
-      throwing: 65
+      throwing: 33
       strength: 47
       psiStrength: 32
       psiSkill: 0
@@ -1111,11 +1111,11 @@ units:
     stats:
       tu: 39
       stamina: 48
-      health: 70
+      health: 42
       bravery: 80
       reactions: 19
       firing: 78
-      throwing: 65
+      throwing: 33
       strength: 47
       psiStrength: 34
       psiSkill: 0
@@ -1130,11 +1130,11 @@ units:
     stats:
       tu: 39
       stamina: 48
-      health: 70
+      health: 42
       bravery: 80
       reactions: 19
       firing: 78
-      throwing: 65
+      throwing: 33
       strength: 47
       psiStrength: 34
       psiSkill: 0
@@ -1149,11 +1149,11 @@ units:
     stats:
       tu: 39
       stamina: 48
-      health: 80
+      health: 48
       bravery: 80
       reactions: 17
       firing: 73
-      throwing: 65
+      throwing: 33
       strength: 47
       psiStrength: 36
       psiSkill: 0
@@ -1168,11 +1168,11 @@ units:
     stats:
       tu: 39
       stamina: 48
-      health: 90
+      health: 54
       bravery: 80
       reactions: 15
       firing: 67
-      throwing: 65
+      throwing: 33
       strength: 47
       psiStrength: 38
       psiSkill: 0
@@ -1189,7 +1189,7 @@ units:
     stats:
       tu: 20
       stamina: 24
-      health: 210
+      health: 126
       bravery: 100
       reactions: 19
       firing: 70
@@ -1217,7 +1217,7 @@ units:
     stats:
       tu: 79
       stamina: 84
-      health: 50
+      health: 30
       bravery: 90
       reactions: 32
       firing: 0
@@ -1236,11 +1236,11 @@ units:
     stats:
       tu: 32
       stamina: 54
-      health: 100
+      health: 60
       bravery: 100
       reactions: 28
       firing: 85
-      throwing: 62
+      throwing: 36
       strength: 70
       psiStrength: 44
       psiSkill: 0
@@ -1256,11 +1256,11 @@ units:
     stats:
       tu: 48
       stamina: 54
-      health: 150
+      health: 90
       bravery: 100
       reactions: 33
       firing: 97
-      throwing: 75
+      throwing: 40
       strength: 80
       psiStrength: 75
       psiSkill: 0
@@ -1277,11 +1277,11 @@ units:
     stats:
       tu: 32
       stamina: 54
-      health: 110
+      health: 66
       bravery: 100
       reactions: 28
       firing: 85
-      throwing: 62
+      throwing: 36
       strength: 70
       psiStrength: 48
       psiSkill: 0
@@ -1295,11 +1295,11 @@ units:
     stats:
       tu: 32
       stamina: 54
-      health: 120
+      health: 72
       bravery: 100
       reactions: 28
       firing: 85
-      throwing: 62
+      throwing: 36
       strength: 70
       psiStrength: 48
       psiSkill: 0
@@ -1313,7 +1313,7 @@ units:
     stats:
       tu: 46
       stamina: 48
-      health: 76
+      health: 46
       bravery: 110
       reactions: 25
       firing: 0
@@ -1333,7 +1333,7 @@ units:
     stats:
       tu: 60
       stamina: 54
-      health: 90
+      health: 54
       bravery: 110
       reactions: 35
       firing: 82
@@ -1357,11 +1357,11 @@ units:
     stats:
       tu: 49
       stamina: 58
-      health: 18
+      health: 11
       reactions: 25
       bravery: 70
       firing: 67
-      throwing: 65
+      throwing: 30
       strength: 48
       psiStrength: 72
       psiSkill: 19
@@ -1380,11 +1380,11 @@ units:
     stats:
       tu: 47
       stamina: 58
-      health: 18
+      health: 11
       reactions: 22
       bravery: 70
       firing: 63
-      throwing: 60
+      throwing: 28
       strength: 48
       psiStrength: 75
       psiSkill: 26
@@ -1403,11 +1403,11 @@ units:
     stats:
       tu: 45
       stamina: 58
-      health: 21
+      health: 13
       reactions: 16
       bravery: 70
       firing: 55
-      throwing: 50
+      throwing: 24
       strength: 48
       psiStrength: 81
       psiSkill: 37
@@ -1424,11 +1424,11 @@ units:
     stats:
       tu: 42
       stamina: 58
-      health: 24
+      health: 14
       reactions: 14
       bravery: 70
       firing: 48
-      throwing: 45
+      throwing: 22
       strength: 48
       psiStrength: 90
       psiSkill: 45
@@ -1447,11 +1447,11 @@ units:
     stats:
       tu: 48
       stamina: 58
-      health: 19
+      health: 12
       bravery: 70
       reactions: 20
       firing: 61
-      throwing: 60
+      throwing: 26
       strength: 48
       psiStrength: 78
       psiSkill: 30
@@ -1470,7 +1470,7 @@ units:
     stats:
       tu: 55
       stamina: 54
-      health: 96
+      health: 58
       bravery: 110
       reactions: 30
       firing: 136
@@ -1492,7 +1492,7 @@ units:
     stats:
       tu: 30
       stamina: 56
-      health: 42
+      health: 25
       bravery: 110
       reactions: 15
       firing: 0
@@ -1517,11 +1517,11 @@ units:
     stats:
       tu: 60
       stamina: 72
-      health: 20
+      health: 12
       bravery: 80
       reactions: 40
       firing: 109
-      throwing: 72
+      throwing: 36
       strength: 60
       psiStrength: 75
       psiSkill: 0
@@ -1541,11 +1541,11 @@ units:
     stats:
       tu: 60
       stamina: 72
-      health: 22
+      health: 13
       bravery: 80
       reactions: 35
       firing: 92
-      throwing: 72
+      throwing: 36
       strength: 60
       psiStrength: 80
       psiSkill: 35
@@ -1566,11 +1566,11 @@ units:
     stats:
       tu: 60
       stamina: 72
-      health: 24
+      health: 14
       bravery: 80
       reactions: 31
       firing: 73
-      throwing: 72
+      throwing: 36
       strength: 60
       psiStrength: 85
       psiSkill: 45
@@ -1591,7 +1591,7 @@ units:
     stats:
       tu: 55
       stamina: 54
-      health: 35
+      health: 21
       bravery: 110
       reactions: 45
       firing: 102
@@ -1617,11 +1617,11 @@ units:
     stats:
       tu: 58
       stamina: 68
-      health: 100
+      health: 60
       bravery: 90
       reactions: 33
       firing: 81
-      throwing: 72
+      throwing: 36
       strength: 50
       psiStrength: 56
       melee: 70
@@ -1639,11 +1639,11 @@ units:
     stats:
       tu: 58
       stamina: 68
-      health: 100
+      health: 60
       bravery: 90
       reactions: 28
       firing: 81
-      throwing: 72
+      throwing: 36
       strength: 50
       psiStrength: 62
       psiSkill: 64
@@ -1664,11 +1664,11 @@ units:
     stats:
       tu: 58
       stamina: 68
-      health: 100
+      health: 60
       bravery: 90
       reactions: 28
       firing: 98
-      throwing: 72
+      throwing: 36
       strength: 50
       psiStrength: 68
       melee: 70
@@ -1688,7 +1688,7 @@ units:
     stats:
       tu: 77
       stamina: 76
-      health: 140
+      health: 84
       bravery: 100
       reactions: 41
       firing: 0
@@ -1713,11 +1713,11 @@ units:
     stats:
       tu: 55
       stamina: 65
-      health: 24
+      health: 14
       bravery: 60
       reactions: 35
       firing: 92
-      throwing: 85
+      throwing: 30
       strength: 48
       psiStrength: 80
       psiSkill: 35
@@ -1739,11 +1739,11 @@ units:
     stats:
       tu: 51
       stamina: 65
-      health: 32
+      health: 19
       bravery: 60
       reactions: 25
       firing: 78
-      throwing: 70
+      throwing: 26
       strength: 48
       psiStrength: 90
       psiSkill: 40
@@ -1765,11 +1765,11 @@ units:
     stats:
       tu: 47
       stamina: 65
-      health: 40
+      health: 24
       bravery: 60
       reactions: 18
       firing: 73
-      throwing: 60
+      throwing: 22
       strength: 48
       psiStrength: 100
       psiSkill: 45
@@ -1791,7 +1791,7 @@ units:
     stats:
       tu: 79
       stamina: 84
-      health: 50
+      health: 30
       bravery: 90
       reactions: 36
       firing: 0
@@ -1817,7 +1817,7 @@ units:
     stats:
       tu: 54
       stamina: 50
-      health: 114
+      health: 68
       bravery: 110
       reactions: 28
       firing: 0
@@ -1844,7 +1844,7 @@ units:
     stats:
       tu: 30
       stamina: 45
-      health: 150
+      health: 90
       bravery: 110
       reactions: 21
       firing: 102
@@ -1871,7 +1871,7 @@ units:
     stats:
       tu: 55
       stamina: 54
-      health: 192
+      health: 115
       bravery: 110
       reactions: 36
       firing: 136
@@ -1896,7 +1896,7 @@ units:
     stats:
       tu: 50
       stamina: 96
-      health: 66
+      health: 40
       bravery: 110
       reactions: 18
       firing: 0

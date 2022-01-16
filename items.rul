@@ -2529,7 +2529,7 @@ items:
     meleeHitSound: 311
     meleeAnimation: 4
     meleeSound: 307
-    power: 45
+    power: 30
     damageType: 6
     damageAlter:
       RandomType: 1
@@ -2540,7 +2540,7 @@ items:
     damageBonus:
       melee: 0.3
     accuracyMelee: 150
-    tuMelee: 15
+    tuMelee: 12
     flatRate: true
     meleeMultiplier:
       melee: 1.0
@@ -2565,7 +2565,7 @@ items:
     meleeHitSound: 311
     meleeAnimation: 4
     meleeSound: 307
-    power: 90
+    power: 60
     damageType: 6
     damageAlter:
       RandomType: 1
@@ -2576,7 +2576,7 @@ items:
     damageBonus:
       melee: 1.2
     accuracyMelee: 130
-    tuMelee: 25
+    tuMelee: 20
     flatRate: true
     meleeMultiplier:
       melee: 1.0
@@ -2685,7 +2685,7 @@ items:
     accuracySnap: 54
     accuracyAimed: 79
     tuAuto: 13
-    tuSnap: 9
+    tuSnap: 7
     tuAimed: 19
     autoRange: 11
     snapRange: 15
@@ -2845,7 +2845,7 @@ items:
     accuracySnap: 53
     accuracyAimed: 69
     tuAuto: 17
-    tuSnap: 11
+    tuSnap: 10
     tuAimed: 26
     autoRange: 12
     snapRange: 17
@@ -3778,7 +3778,7 @@ items:
     accuracySnap: 64
     accuracyAimed: 100
     tuAuto: 18
-    tuSnap: 13
+    tuSnap: 9
     tuAimed: 28
     autoRange: 11
     snapRange: 15
@@ -3864,7 +3864,7 @@ items:
     accuracySnap: 68
     accuracyAimed: 88
     tuAuto: 21
-    tuSnap: 14
+    tuSnap: 12
     tuAimed: 33
     autoRange: 12
     snapRange: 17
@@ -4115,7 +4115,7 @@ items:
     accuracySnap: 58
     accuracyAimed: 88
     tuAuto: 15
-    tuSnap: 11
+    tuSnap: 8
     tuAimed: 23
     autoRange: 11
     snapRange: 15
@@ -4222,7 +4222,7 @@ items:
     accuracySnap: 60
     accuracyAimed: 77
     tuAuto: 19
-    tuSnap: 12
+    tuSnap: 11
     tuAimed: 29
     autoRange: 12
     snapRange: 17

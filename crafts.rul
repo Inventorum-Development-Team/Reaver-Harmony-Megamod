@@ -686,7 +686,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 1050
     sightRange: 1350
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 500
@@ -768,7 +768,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 750
     sightRange: 1050
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 900
@@ -851,7 +851,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 600
@@ -929,7 +929,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 750
     sightRange: 1050
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 750
@@ -1647,7 +1647,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 1050
     sightRange: 1350
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 500
@@ -1728,7 +1728,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 750
     sightRange: 1050
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 900
@@ -1810,7 +1810,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 600
@@ -1887,7 +1887,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 750
     sightRange: 1050
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 750
@@ -2618,7 +2618,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 1050
     sightRange: 1350
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 500
@@ -2700,7 +2700,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 750
     sightRange: 1050
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 900
@@ -2783,7 +2783,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 600
@@ -2861,7 +2861,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 750
     sightRange: 1050
-    radarChance: 40
+    radarChance: 100 #40
     undetectable: true
     autoPatrol: true
     score: 750

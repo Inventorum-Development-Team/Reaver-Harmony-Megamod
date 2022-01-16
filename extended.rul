@@ -1,5 +1,17 @@
 extended:
   scripts:
+    detectUfoFromCraft:
+      - offset: -1 # runs before local scripts
+        code: |
+          var int temp;
+
+          craft.Stats.getRadarChance temp;
+          debug_log "getRadarChance" temp;
+
+          if gt temp 99; # if radarChance is 100 or higher, return 3 (makes hyper=true)
+            return 3 detection_chance; # decoder visual
+          end;
+          return 1 detection_chance; # normal visual
     damageUnit:
     # Global fix to Transformation attacks like Chryssalid zombification
     # Requires at least 1 hit point of damage before zombification triggers

@@ -31,7 +31,7 @@ craftWeapons:
     launcher: STR_STARLING_LAUNCHER
     clip: STR_STARLING_MISSILES
     projectileType: 0
-    projectileSpeed: 5
+    projectileSpeed: 6
     weaponType: 1
   - type: STR_STINGRAY
     sprite: 0
@@ -48,7 +48,7 @@ craftWeapons:
     launcher: STR_STINGRAY_LAUNCHER
     clip: STR_STINGRAY_MISSILES
     projectileType: 0
-    projectileSpeed: 6
+    projectileSpeed: 7
     weaponType: 2
   - type: STR_AVALANCHE
     sprite: 1
@@ -65,7 +65,7 @@ craftWeapons:
     launcher: STR_AVALANCHE_LAUNCHER
     clip: STR_AVALANCHE_MISSILES
     projectileType: 1
-    projectileSpeed: 4
+    projectileSpeed: 6
     weaponType: 2
   - type: STR_ALLOY_CANNON_UC
     sprite: 2
@@ -99,7 +99,7 @@ craftWeapons:
     launcher: STR_SHRIKE_LAUNCHER
     clip: STR_SHRIKE_MISSILES
     projectileType: 0
-    projectileSpeed: 7 #7.5
+    projectileSpeed: 8 #7.5
     weaponType: 1
   - type: STR_SCORPION
     sprite: 0
@@ -133,7 +133,7 @@ craftWeapons:
     launcher: STR_TORRENT_LAUNCHER
     clip: STR_TORRENT_MISSILES
     projectileType: 1
-    projectileSpeed: 6
+    projectileSpeed: 7
     weaponType: 2
   - type: STR_RAGE
     sprite: 1
@@ -150,7 +150,7 @@ craftWeapons:
     launcher: STR_RAGE_LAUNCHER
     clip: STR_RAGE_MISSILES
     projectileType: 1
-    projectileSpeed: 3
+    projectileSpeed: 5
     weaponType: 3
   - type: STR_RAMPAGE
     sprite: 1
@@ -167,7 +167,7 @@ craftWeapons:
     launcher: STR_RAMPAGE_LAUNCHER
     clip: STR_RAMPAGE_MISSILES
     projectileType: 1
-    projectileSpeed: 5
+    projectileSpeed: 6
     weaponType: 3
   - type: STR_CRAFT_LIGHT_LASER_UC
     sprite: 11
@@ -324,7 +324,7 @@ craftWeapons:
     launcher: STR_HEAVY_FUSION_BALL_LAUNCHER
     clip: STR_HEAVY_FUSION_BALL
     projectileType: 3
-    projectileSpeed: 3
+    projectileSpeed: 5
     weaponType: 3
   - type: STR_LIGHT_TRACTOR_BEAM_UC
     sprite: 30
@@ -514,9 +514,9 @@ craftWeapons:
     sprite: 39
     stats:
       fuelMax: 600
-      radarRange: 375
+      radarRange: 450
       radarChance: 12
-      sightRange: 375
+      sightRange: 450
     launcher: STR_COMBO_SENTINEL_UG
     weaponType: 21
     hidePediaInfo: true
@@ -575,7 +575,7 @@ craftWeapons:
     sprite: 27
     stats:
       radarRange: 450
-      radarChance: 15
+      radarChance: 100 #15
       sightRange: 450
     launcher: STR_BOOST_RADAR_UG
     weaponType: 1
@@ -639,7 +639,7 @@ craftWeapons:
     stats:
       fuelMax: 900
       radarRange: 450
-      radarChance: 15
+      radarChance: 100 #15
       sightRange: 450
     launcher: STR_PACKAGE_SENTINEL_UG
     weaponType: 21
@@ -719,7 +719,7 @@ craftWeapons:
       shieldRechargeInGeoscape: 3
       shieldBleedThrough: 100
       radarRange: 450
-      radarChance: 18
+      radarChance: 100 #18
       sightRange: 450
       hitBonus: 20
     launcher: STR_SUITE_RECON_UG

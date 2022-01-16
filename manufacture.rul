@@ -635,7 +635,7 @@ manufacture:
     category: STR_CRAFT_EQUIPMENT
     requires:
       - STR_ULTIMATE_CRAFT
-      - STR_FLAGSHIPS_UP
+      - STR_ALIEN_ENGINEER
       - STR_LASER_WEAPONS
       - STR_ALIEN_EXPLOSIVES
     space: 20
@@ -651,7 +651,7 @@ manufacture:
     category: STR_CRAFT_EQUIPMENT
     requires:
       - STR_ULTIMATE_TRANSPORT_CRAFT
-      - STR_FLAGSHIPS_UP
+      - STR_ALIEN_NAVIGATOR
       - STR_HYPER_WAVE_DECODER
       - STR_MIND_SHIELD
     space: 20

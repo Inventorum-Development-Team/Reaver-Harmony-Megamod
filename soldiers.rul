@@ -38,7 +38,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 60
       melee: 90
       mana: 0
     statCaps:
@@ -104,7 +104,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 60
       melee: 90
       mana: 0
     statCaps:
@@ -170,7 +170,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 60
       melee: 90
       mana: 0
     statCaps:
@@ -236,7 +236,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 60
       melee: 90
       mana: 0
     statCaps:
@@ -302,7 +302,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 60
       melee: 90
       mana: 0
     statCaps:
@@ -369,7 +369,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 60
       melee: 90
       mana: 0
     statCaps:
@@ -433,7 +433,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 60
       melee: 90
       mana: 0
     statCaps:
@@ -501,7 +501,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 70
       melee: 90
       mana: 0
     statCaps:
@@ -566,7 +566,7 @@ soldiers:
       throwing: 90
       strength: 50
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 70
       melee: 90
       mana: 0
     statCaps:
@@ -631,7 +631,7 @@ soldiers:
       throwing: 100
       strength: 60
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 60
       melee: 100
       mana: 0
     statCaps:
@@ -696,7 +696,7 @@ soldiers:
       throwing: 100
       strength: 60
       psiStrength: 0
-      psiSkill: 0
+      psiSkill: 70
       melee: 100
       mana: 0
     statCaps:

@@ -1060,6 +1060,7 @@ research:
       - STR_ALIEN_RETALIATION
       - STR_ALIEN_SUPPLY
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_ADVANCED_SPACECRAFT
   - name: STR_FLAGSHIPS_DEP1
@@ -1079,6 +1080,7 @@ research:
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_AUTOMATIC_PLASMA_WEAPONS
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1097,6 +1099,7 @@ research:
       - STR_ALIEN_SUPPLY
       - STR_PSIONIC_POWER_ARMOR
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1115,6 +1118,7 @@ research:
       - STR_POWER_SUIT
       - STR_FLYING_SUIT
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1131,6 +1135,7 @@ research:
       - STR_MIND_SHIELD
       - STR_PSIONIC_DISRUPTOR
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1143,6 +1148,7 @@ research:
       - STR_ALIEN_INVASION_DESTROY
       - STR_POWER_SUIT_WEAPONS
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1156,6 +1162,7 @@ research:
       - STR_SNAKEMAN_INVASION
       - STR_INTEGRATED_ARMOR
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1168,6 +1175,7 @@ research:
       - STR_ALIEN_HOME_INVASION
       - STR_POWER_SUIT_WEAPONS
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1181,6 +1189,7 @@ research:
       - STR_SNAKEMAN_INVASION
       - STR_INTEGRATED_ARMOR
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1196,6 +1205,7 @@ research:
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_AUTOMATIC_PLASMA_WEAPONS
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1211,6 +1221,7 @@ research:
       - STR_MOTHERSHIP_ELITE
       - STR_PSIONIC_POWER_ARMOR
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1225,6 +1236,7 @@ research:
       - STR_HARVESTER_ELITE
       - STR_FUSION_MISSILE
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1247,6 +1259,7 @@ research:
       - STR_MOTION_SCANNER
       - STR_MIND_PROBE
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1284,6 +1297,7 @@ research:
       - STR_SECTOPOD
       - STR_SECTOPOD_AUTOPSY
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1309,6 +1323,7 @@ research:
       - STR_ALIEN_FUEL_PODS
       - STR_TRACTOR_BEAMS
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
@@ -1333,6 +1348,7 @@ research:
       - STR_BATTLESHIP_ELITE
       - STR_MOTHERSHIP_ELITE
       - STR_MIND_SHIELD
+      - STR_HYPER_WAVE_DECODER
     unlocks:
       - STR_FLAGSHIPS
       - STR_FLAGSHIPS_UP
