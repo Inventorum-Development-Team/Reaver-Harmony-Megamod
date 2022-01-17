@@ -1,7 +1,8 @@
 alienFuel: [STR_ELERIUM_115, 25]
-costEngineer: 25000
-costScientist: 30000
+costEngineer: 22500
+costScientist: 25000
 initialFunding: 9000
+performanceBonusFactor: 250
 monthlyRatings:
    21600: STR_MT_RATING_EXEMPLARY
    7200: STR_MT_RATING_EXCELLENT

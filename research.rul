@@ -349,8 +349,8 @@ research:
       - STR_PSIONIC_DISRUPTOR
   - name: STR_ALIEN_GRENADE
     listOrder: 200
-    cost: 200
-    points: 40
+    cost: 30
+    points: 9
     needItem: true
     destroyItem: true
     unlocks:
@@ -646,7 +646,6 @@ research:
     points: 81
     dependencies:
       - STR_UFO_SHIELD_EMITTER
-      - STR_ALIEN_POWER_ARRAYS
   - name: STR_POWER_SUIT_WEAPONS_UP
     cost: 0
     points: 0

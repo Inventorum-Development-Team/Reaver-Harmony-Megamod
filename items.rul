@@ -360,13 +360,13 @@ items:
   - type: STR_LIGHT_TRACTOR_BEAM
     listOrder: 650
     size: 0.2
-    costSell: 652000
+    costSell: 653000
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_CRAFT_EQUIPMENT, STR_CAT_HIGH_TECH]
     transferTime: 48
   - type: STR_MEDIUM_TRACTOR_BEAM
     listOrder: 655
     size: 0.4
-    costSell: 1845000
+    costSell: 1843000
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_CRAFT_EQUIPMENT, STR_CAT_HIGH_TECH]
     transferTime: 48
   - type: STR_HEAVY_TRACTOR_BEAM
@@ -2408,9 +2408,9 @@ items:
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
       - STR_POWERED_MELEE_WEAPONS_UP
-    costBuy: 36300
+    costBuy: 47300
     transferTime: 36
-    costSell: 33000
+    costSell: 43000
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_MID_TECH]
     weight: 3
     bigSprite: 349
@@ -2534,7 +2534,7 @@ items:
     damageAlter:
       RandomType: 1
       ArmorEffectiveness: 0.2
-      ToHealth: 0.4
+      ToHealth: 0.3
       RandomHealth: true
       IgnoreOverKill: false
     damageBonus:

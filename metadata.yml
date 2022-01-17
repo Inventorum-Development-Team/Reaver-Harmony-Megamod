@@ -122,6 +122,13 @@
 #       * Reduced snap shot TU cost on auto pistol and machinegun style firearms.
 #       * Increased projectile speed of some craft missiles to fix a bug.
 #       * Alien throwing accuracy now varies by difficulty level.
+#       * Financial improvements:
+#           - The Council now pays a one-time bonus each month based on your monthly score, with the most noticeable
+#               difference happening at very high scores. There is no bonus or penalty for a negative score.
+#           - Engineers and scientists cost a bit less and their salaries have been reduced slightly.
+#           - Powered melee weapons now cost elerium instead of alien alloys to make. This better fits their research
+#               requirements while also giving a more powerful way to earn profit manufacturing earlier in the game.
+#           - Tractor beam research and manufacture path made a bit easier to get started on.
 #
 #
 # resource authors/sources:
@@ -194,6 +201,13 @@
 # The GIMP Development Team: GNU Image Manipulation Program
 #       * https://www.gimp.org/
 #       uses: perform palette migrations into X-Com palettes
+#
+#
+# other game ideas and help:
+# Meridian:
+#		for always being extremely patient and helpful no matter how difficult I have been
+#		for being extremely skillful with the code and helping me when I get stuck
+# Lord_Kane: Welcome Gift, Rifle scope, various small ideas, putting pressure on me to update :)
 # 
 #
 # The Reaver of Darkness(myself): all battlescape maps in this mod unless otherwise stated; new tiles added
