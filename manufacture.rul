@@ -959,7 +959,7 @@ manufacture:
     time: 800
     cost: 18000
     requiredItems:
-      STR_ELERIUM_115: 1
+      STR_ELERIUM_115: 2
   - name: STR_POWER_SWORD
     listOrder: 835
     category: STR_MELEE_WEAPONS
@@ -969,7 +969,7 @@ manufacture:
     time: 1200
     cost: 45000
     requiredItems:
-      STR_ELERIUM_115: 1
+      STR_ELERIUM_115: 2
   - name: STR_PISTOL_ALLOY_CLIP
     listOrder: 840
     category: STR_AMMUNITION
@@ -2655,13 +2655,13 @@ manufacture:
     requires:
       - STR_UFO_CONSTRUCTION
     space: 0
-    time: 50
-    cost: 25000
+    time: 20
+    cost: 10000
     requiredItems:
-      STR_ELERIUM_115: 5
+      STR_ELERIUM_115: 2
       STR_ALIEN_FUEL_PODS: 1
     producedItems:
-      STR_SPACECRAFT_FUEL: 5
+      STR_SPACECRAFT_FUEL: 2
 # System for armor repair:
 # 100% of space
 # 30% of time
@@ -2883,89 +2883,8 @@ manufacture:
     producedItems:
       STR_ELERIUM_115: 1
       STR_ALIEN_WEAPON_COMPONENTS: 10
-  - name: STR_SALVAGE_PLASMA_PISTOL
-    listOrder: 4100
-    category: STR_SALVAGE_INEFFICIENT
-    requires:
-      - STR_PLASMA_PRELIMINARY
-      - STR_PLASMA_PISTOL
-    space: 0
-    time: 20
-    cost: 0
-    requiredItems:
-      STR_PLASMA_PISTOL: 1
-    producedItems:
-      STR_ALIEN_ALLOYS: 2
-      STR_ALIEN_WEAPON_COMPONENTS: 2
-  - name: STR_SALVAGE_PLASMA_RIFLE
-    listOrder: 4110
-    category: STR_SALVAGE_INEFFICIENT
-    requires:
-      - STR_PLASMA_PRELIMINARY
-      - STR_PLASMA_RIFLE
-    space: 0
-    time: 25
-    cost: 0
-    requiredItems:
-      STR_PLASMA_RIFLE: 1
-    producedItems:
-      STR_ALIEN_ALLOYS: 3
-      STR_ALIEN_WEAPON_COMPONENTS: 3
-  - name: STR_SALVAGE_HEAVY_PLASMA
-    listOrder: 4120
-    category: STR_SALVAGE_INEFFICIENT
-    requires:
-      - STR_PLASMA_PRELIMINARY
-      - STR_HEAVY_PLASMA
-    space: 0
-    time: 30
-    cost: 0
-    requiredItems:
-      STR_HEAVY_PLASMA: 1
-    producedItems:
-      STR_ALIEN_ALLOYS: 4
-      STR_ALIEN_WEAPON_COMPONENTS: 4
-  - name: STR_SALVAGE_PLASMA_PISTOL_CLIP
-    listOrder: 4130
-    category: STR_SALVAGE_INEFFICIENT
-    requires:
-      - STR_PLASMA_PRELIMINARY
-      - STR_PLASMA_PISTOL
-    space: 0
-    time: 10
-    cost: 0
-    requiredItems:
-      STR_PLASMA_PISTOL_CLIP: 4
-    producedItems:
-      STR_ELERIUM_115: 1
-  - name: STR_SALVAGE_PLASMA_RIFLE_CLIP
-    listOrder: 4140
-    category: STR_SALVAGE_INEFFICIENT
-    requires:
-      - STR_PLASMA_PRELIMINARY
-      - STR_PLASMA_RIFLE
-    space: 0
-    time: 10
-    cost: 0
-    requiredItems:
-      STR_PLASMA_RIFLE_CLIP: 3
-    producedItems:
-      STR_ELERIUM_115: 1
-  - name: STR_SALVAGE_HEAVY_PLASMA_CLIP
-    listOrder: 4150
-    category: STR_SALVAGE_INEFFICIENT
-    requires:
-      - STR_PLASMA_PRELIMINARY
-      - STR_HEAVY_PLASMA
-    space: 0
-    time: 10
-    cost: 0
-    requiredItems:
-      STR_HEAVY_PLASMA_CLIP: 2
-    producedItems:
-      STR_ELERIUM_115: 1
   - name: STR_SALVAGE_ALIEN_GRENADE
-    listOrder: 4200
+    listOrder: 4100
     category: STR_SALVAGE
     requires:
       - STR_ALIEN_GRENADE
@@ -2976,21 +2895,8 @@ manufacture:
       STR_ALIEN_GRENADE: 1
     producedItems:
       STR_ALIEN_EXPLOSIVE_UNITS: 3
-  - name: STR_SALVAGE_BLASTER_LAUNCHER
-    listOrder: 4210
-    category: STR_SALVAGE_INEFFICIENT
-    requires:
-      - STR_BLASTER_BOMB
-    space: 0
-    time: 25
-    cost: 0
-    requiredItems:
-      STR_BLASTER_LAUNCHER: 1
-    producedItems:
-      STR_ALIEN_ALLOYS: 5
-      STR_ALIEN_WEAPON_COMPONENTS: 5
   - name: STR_SALVAGE_BLASTER_BOMB
-    listOrder: 4220
+    listOrder: 4120
     category: STR_SALVAGE
     requires:
       - STR_BLASTER_BOMB
@@ -3001,21 +2907,8 @@ manufacture:
       STR_BLASTER_BOMB: 1
     producedItems:
       STR_FUSION_CORE: 1
-  - name: STR_SALVAGE_SMALL_LAUNCHER
-    listOrder: 4230
-    category: STR_SALVAGE_INEFFICIENT
-    requires:
-      - STR_STUN_BOMB
-    space: 0
-    time: 20
-    cost: 0
-    requiredItems:
-      STR_SMALL_LAUNCHER: 1
-    producedItems:
-      STR_ALIEN_ALLOYS: 2
-      STR_ALIEN_WEAPON_COMPONENTS: 4
   - name: STR_SALVAGE_STUN_BOMB
-    listOrder: 4240
+    listOrder: 4140
     category: STR_SALVAGE
     requires:
       - STR_STUN_BOMB
@@ -3027,7 +2920,7 @@ manufacture:
     producedItems:
       STR_STUN_CORE: 1
   - name: STR_SALVAGE_MIND_PROBE
-    listOrder: 4280
+    listOrder: 4180
     category: STR_SALVAGE
     requires:
       - STR_MIND_PROBE
@@ -3041,7 +2934,7 @@ manufacture:
       STR_PSIONIC_FEEDBACK_DEVICE: 8
       STR_PSIONIC_WAVE_DECODER: 12
   - name: STR_SALVAGE_ALIEN_FOOD
-    listOrder: 4300
+    listOrder: 4200
     category: STR_SALVAGE
     requires:
       - STR_ALIEN_FOOD
@@ -3053,7 +2946,7 @@ manufacture:
     producedItems:
       STR_ALIEN_FEEDER: 3
   - name: STR_SALVAGE_ALIEN_ENTERTAINMENT
-    listOrder: 4305
+    listOrder: 4205
     category: STR_SALVAGE
     requires:
       - STR_ALIEN_ENTERTAINMENT
@@ -3065,7 +2958,7 @@ manufacture:
     producedItems:
       STR_PSIONIC_FEEDBACK_DEVICE: 2
   - name: STR_SALVAGE_ALIEN_HABITAT
-    listOrder: 4310
+    listOrder: 4210
     category: STR_SALVAGE
     requires:
       - STR_ALIEN_HABITAT
@@ -3079,7 +2972,7 @@ manufacture:
       STR_ALIEN_FEEDER: 2
       STR_PSIONIC_FEEDBACK_DEVICE: 2
   - name: STR_SALVAGE_ALIEN_SURGERY
-    listOrder: 4315
+    listOrder: 4215
     category: STR_SALVAGE
     requires:
       - STR_ALIEN_SURGERY
@@ -3093,7 +2986,7 @@ manufacture:
       STR_ALIEN_SURGICAL_INTERFACE: 1
       STR_ALIEN_COMPUTER_ARRAYS: 2
   - name: STR_SALVAGE_EXAMINATION_ROOM
-    listOrder: 4320
+    listOrder: 4220
     category: STR_SALVAGE
     requires:
       - STR_EXAMINATION_ROOM
@@ -3107,7 +3000,7 @@ manufacture:
       STR_ALIEN_GENETIC_IMPLANTER: 1
       STR_ALIEN_COMPUTER_ARRAYS: 3
   - name: STR_SALVAGE_ALIEN_REPRODUCTION
-    listOrder: 4315
+    listOrder: 4225
     category: STR_SALVAGE
     requires:
       - STR_ALIEN_REPRODUCTION
@@ -3121,6 +3014,113 @@ manufacture:
       STR_PSIONIC_FEEDBACK_DEVICE: 1
       STR_ALIEN_SURGICAL_INTERFACE: 1
       STR_ALIEN_GENETIC_IMPLANTER: 1
+  - name: STR_SALVAGE_PLASMA_PISTOL
+    listOrder: 5200
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_PRELIMINARY
+      - STR_PLASMA_PISTOL
+    space: 0
+    time: 20
+    cost: 0
+    requiredItems:
+      STR_PLASMA_PISTOL: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_WEAPON_COMPONENTS: 2
+  - name: STR_SALVAGE_PLASMA_RIFLE
+    listOrder: 5210
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_PRELIMINARY
+      - STR_PLASMA_RIFLE
+    space: 0
+    time: 25
+    cost: 0
+    requiredItems:
+      STR_PLASMA_RIFLE: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ALIEN_WEAPON_COMPONENTS: 3
+  - name: STR_SALVAGE_HEAVY_PLASMA
+    listOrder: 5220
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_PRELIMINARY
+      - STR_HEAVY_PLASMA
+    space: 0
+    time: 30
+    cost: 0
+    requiredItems:
+      STR_HEAVY_PLASMA: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_ALIEN_WEAPON_COMPONENTS: 4
+  - name: STR_SALVAGE_PLASMA_PISTOL_CLIP
+    listOrder: 5230
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_PRELIMINARY
+      - STR_PLASMA_PISTOL
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_PLASMA_PISTOL_CLIP: 4
+    producedItems:
+      STR_ELERIUM_115: 1
+  - name: STR_SALVAGE_PLASMA_RIFLE_CLIP
+    listOrder: 5240
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_PRELIMINARY
+      - STR_PLASMA_RIFLE
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_PLASMA_RIFLE_CLIP: 3
+    producedItems:
+      STR_ELERIUM_115: 1
+  - name: STR_SALVAGE_HEAVY_PLASMA_CLIP
+    listOrder: 5250
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_PLASMA_PRELIMINARY
+      - STR_HEAVY_PLASMA
+    space: 0
+    time: 10
+    cost: 0
+    requiredItems:
+      STR_HEAVY_PLASMA_CLIP: 2
+    producedItems:
+      STR_ELERIUM_115: 1
+  - name: STR_SALVAGE_BLASTER_LAUNCHER
+    listOrder: 5260
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_BLASTER_BOMB
+    space: 0
+    time: 25
+    cost: 0
+    requiredItems:
+      STR_BLASTER_LAUNCHER: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_ALIEN_WEAPON_COMPONENTS: 5
+  - name: STR_SALVAGE_SMALL_LAUNCHER
+    listOrder: 5280
+    category: STR_SALVAGE_INEFFICIENT
+    requires:
+      - STR_STUN_BOMB
+    space: 0
+    time: 20
+    cost: 0
+    requiredItems:
+      STR_SMALL_LAUNCHER: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_WEAPON_COMPONENTS: 4
   - name: STR_SKELETON_LIGHT_TO_POWER_INEFFICIENT
     listOrder: 5100
     category: STR_INEFFICIENT

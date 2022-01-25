@@ -647,7 +647,7 @@ items:
   - type: STR_SPACECRAFT_FUEL
     listOrder: 1050
     size: 0.01
-    costSell: 28500
+    costSell: 33000
     categories: [STR_CAT_AIRCRAFT, STR_CAT_HIGH_TECH]
   - type: STR_DEFENSE_AP_TURRET_H_SPAWNER
     spawnUnit: STR_DEFENSE_AP_TURRET_H
@@ -2388,8 +2388,10 @@ items:
       reactions: 0.4
       melee: 0.2
     damageAlter:
+      IgnoreOverKill: true
       ToArmor: 0
       ToArmorPre: 0.02
+      ToTile: 0
     accuracyMelee: 100
     tuMelee: 8
     flatRate: true
@@ -2426,8 +2428,10 @@ items:
       reactions: 1.0
       melee: 0.3
     damageAlter:
+      IgnoreOverKill: true
       ToArmor: 0
       ToArmorPre: 0.1
+      ToTile: 0
     accuracyMelee: 90
     tuMelee: 7
     flatRate: true
@@ -2446,9 +2450,9 @@ items:
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
       - STR_POWERED_MELEE_WEAPONS
-    costBuy: 80300
+    costBuy: 102300
     transferTime: 36
-    costSell: 73000
+    costSell: 93000
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_MID_TECH]
     weight: 5
     bigSprite: 319
@@ -2462,6 +2466,7 @@ items:
       strength: 0.1
       melee: 0.1
     damageAlter:
+      IgnoreOverKill: true
       ToArmor: 0
       ToArmorPre: 0.1
     accuracyMelee: 175
@@ -2484,9 +2489,9 @@ items:
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
       - STR_POWERED_MELEE_WEAPONS
-    costBuy: 130900
+    costBuy: 152900
     transferTime: 36
-    costSell: 119000
+    costSell: 139000
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_MID_TECH]
     weight: 6
     bigSprite: 348
@@ -2502,7 +2507,7 @@ items:
       strength: 1.6
       melee: 0.3
     damageAlter:
-      IgnoreOverKill: false
+      IgnoreOverKill: true
       ToArmor: 0
       ToArmorPre: 0.1
     accuracyMelee: 110
@@ -2538,7 +2543,9 @@ items:
       RandomHealth: true
       IgnoreOverKill: false
     damageBonus:
+      IgnoreOverKill: true
       melee: 0.3
+      ToTile: 0
     accuracyMelee: 150
     tuMelee: 12
     flatRate: true
@@ -2574,7 +2581,9 @@ items:
       RandomHealth: true
       IgnoreOverKill: false
     damageBonus:
+      IgnoreOverKill: true
       melee: 1.2
+      ToTile: 0
     accuracyMelee: 130
     tuMelee: 20
     flatRate: true
@@ -2615,6 +2624,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 10
     armor: 80
     attraction: 10
@@ -2944,6 +2954,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 10
     battleType: 1
     twoHanded: true
@@ -3090,6 +3101,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 15
     battleType: 1
     twoHanded: true
@@ -3286,6 +3298,7 @@ items:
     weight: 9
     handSprite: 988
     bulletSprite: 17
+    explosionSpeed: 6
     power: 30
     damageType: 3
     damageAlter:
@@ -3306,7 +3319,7 @@ items:
     weight: 9
     handSprite: 1004
     bulletSprite: 16
-    explosionSpeed: -1
+    explosionSpeed: 4
     power: 30
     damageAlter:
       ToHealth: 0.8
@@ -3362,6 +3375,7 @@ items:
     bulletSprite: 17
     hitSound: 0
     hitAnimation: 0
+    explosionSpeed: 6
     power: 55
     damageType: 3
     damageAlter:
@@ -3742,6 +3756,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     clipSize: -1
     battleType: 1
     invWidth: 1
@@ -3923,6 +3938,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     battleType: 1
     twoHanded: true
     blockBothHands: true
@@ -4007,6 +4023,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 10
     battleType: 1
     twoHanded: true
@@ -4069,6 +4086,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 10
     battleType: 1
     invWidth: 1
@@ -4291,6 +4309,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 15
     battleType: 1
     twoHanded: true
@@ -4404,6 +4423,7 @@ items:
     bulletSpeed: 3
     confAimed:
       name: STR_LAUNCH_MISSILE
+      shortName: STR_LAUNCH_MISSILE_SHORT
     tuLoad: 10
     battleType: 1
     twoHanded: true
@@ -4690,6 +4710,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 10
     recoveryPoints: 2
     armor: 120
@@ -4795,6 +4816,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 15
     battleType: 1
     twoHanded: true
@@ -4849,6 +4871,7 @@ items:
     bulletSpeed: 3
     confAimed:
       name: STR_LAUNCH_MISSILE
+      shortName: STR_LAUNCH_MISSILE_SHORT
     tuLoad: 10
     battleType: 1
     twoHanded: true
@@ -5648,6 +5671,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 6
     battleType: 1
     twoHanded: true
@@ -5713,6 +5737,7 @@ items:
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
     tuLoad: 6
     battleType: 1
     twoHanded: true
@@ -5791,14 +5816,17 @@ items:
     confAimed:
       shots: 1
       name: STR_LAUNCH_MISSILE
+      shortName: STR_LAUNCH_MISSILE_SHORT
       ammoSlot: 0
     confSnap:
       shots: 1
       name: STR_LAUNCH_BOMB_AIMED
+      shortName: STR_LAUNCH_BOMB_AIMED_SHORT
       ammoSlot: 1
     confAuto:
       shots: 1
       name: STR_LAUNCH_BOMB_SNAP
+      shortName: STR_LAUNCH_BOMB_SNAP_SHORT
       ammoSlot: 1
     tuLoad: 6
     battleType: 1
@@ -6066,49 +6094,49 @@ items:
     bigSprite: 412
     armor: 30
   - type: STR_UFO_POWER_SOURCE
-    size: 0.2
+    size: 0.25
     costSell: 125000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 2
     recoveryPoints: 6
   - type: STR_UFO_NAVIGATION
-    size: 0.2
+    size: 0.25
     costSell: 80000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 3
     recoveryPoints: 4
   - type: STR_ALIEN_FOOD
-    size: 0.2
+    size: 0.15
     costSell: 5000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 5
     recoveryPoints: 1
   - type: STR_ALIEN_REPRODUCTION
-    size: 0.2
+    size: 0.15
     costSell: 58000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 6
     recoveryPoints: 3
   - type: STR_ALIEN_ENTERTAINMENT
-    size: 0.2
+    size: 0.15
     costSell: 12500
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 7
     recoveryPoints: 2
   - type: STR_ALIEN_SURGERY
-    size: 0.25
+    size: 0.15
     costSell: 38000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 8
     recoveryPoints: 4
   - type: STR_EXAMINATION_ROOM
-    size: 0.2
+    size: 0.15
     costSell: 90000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 9
     recoveryPoints: 10
   - type: STR_ALIEN_ALLOYS
-    size: 0.025
+    size: 0.02
     requiresBuy:
       - STR_OUTSOURCING
     costBuy: 11000
@@ -6133,19 +6161,19 @@ items:
     specialType: 63
     recoveryPoints: 8
   - type: STR_UFO_PLASMA_EMITTER
-    size: 0.1
+    size: 0.05
     costSell: 100000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 50
     recoveryPoints: 6
   - type: STR_UFO_PLASMA_ARRAY
-    size: 0.025
+    size: 0.02
     costSell: 4000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 51
     recoveryPoints: 1
   - type: STR_UFO_SHIELD_EMITTER
-    size: 0.1
+    size: 0.05
     costSell: 25000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 52
@@ -6480,6 +6508,9 @@ items:
     accuracyAimed: 135
     tuAimed: 75
     bulletSpeed: 3
+    confAimed:
+      name: STR_LAUNCH_MISSILE
+      shortName: STR_LAUNCH_MISSILE_SHORT
     tuLoad: 10
     battleType: 1
     twoHanded: true
@@ -6850,15 +6881,16 @@ items:
     armor: 165
   - type: STR_SECTOID_CORPSE
     listOrder: 6300
-    size: 0.25
+    size: 0.15
     costSell: 15000
     categories: [STR_CAT_ALIENS]
     weight: 30
     recoveryPoints: 3
+    battleType: 11
     armor: 60
   - type: STR_SECTOID_CORPSE_PSI
     listOrder: 6310
-    size: 0.25
+    size: 0.15
     costSell: 45000
     categories: [STR_CAT_ALIENS]
     weight: 30
@@ -6871,7 +6903,7 @@ items:
     armor: 60
   - type: STR_SECTOID_A_CORPSE
     listOrder: 6320
-    size: 0.28
+    size: 0.17
     costSell: 25000
     categories: [STR_CAT_ALIENS]
     weight: 40
@@ -6882,14 +6914,27 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 84
+  - type: STR_SECTOID_A1_CORPSE
+    listOrder: 6320
+    size: 0.17
+    costSell: 25000
+    categories: [STR_CAT_ALIENS]
+    weight: 40
+    bigSprite: 931
+    floorSprite: 931
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 84
   - type: STR_SECTOID_A_CORPSE_PSI
     listOrder: 6330
-    size: 0.28
+    size: 0.17
     costSell: 55000
     categories: [STR_CAT_ALIENS]
     weight: 40
-    bigSprite: 930
-    floorSprite: 930
+    bigSprite: 932
+    floorSprite: 932
     invWidth: 2
     invHeight: 3
     recoveryPoints: 11
@@ -6897,31 +6942,86 @@ items:
     armor: 84
   - type: STR_FLOATER_CORPSE
     listOrder: 6400
-    size: 0.4
+    size: 0.25
     costSell: 27000
     categories: [STR_CAT_ALIENS]
     weight: 28
     recoveryPoints: 5
+    battleType: 11
+    armor: 78
+  - type: STR_FLOATER1_CORPSE
+    listOrder: 6400
+    size: 0.25
+    costSell: 27000
+    categories: [STR_CAT_ALIENS]
+    weight: 28
+    bigSprite: 933
+    floorSprite: 933
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 78
+  - type: STR_FLOATER2_CORPSE
+    listOrder: 6400
+    size: 0.25
+    costSell: 27000
+    categories: [STR_CAT_ALIENS]
+    weight: 28
+    bigSprite: 934
+    floorSprite: 934
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
     armor: 78
   - type: STR_SNAKEMAN_CORPSE
     listOrder: 6500
-    size: 0.4
+    size: 0.25
     costSell: 20000
     categories: [STR_CAT_ALIENS]
     weight: 40
     recoveryPoints: 4
+    battleType: 11
+    armor: 96
+  - type: STR_SNAKEMAN1_CORPSE
+    listOrder: 6500
+    size: 0.25
+    costSell: 20000
+    categories: [STR_CAT_ALIENS]
+    weight: 40
+    bigSprite: 935
+    floorSprite: 935
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 4
+    battleType: 11
+    armor: 96
+  - type: STR_SNAKEMAN2_CORPSE
+    listOrder: 6500
+    size: 0.25
+    costSell: 20000
+    categories: [STR_CAT_ALIENS]
+    weight: 40
+    bigSprite: 936
+    floorSprite: 936
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 4
+    battleType: 11
     armor: 96
   - type: STR_MUTON_CORPSE
     listOrder: 6600
-    size: 0.4
+    size: 0.25
     costSell: 40000
     categories: [STR_CAT_ALIENS]
     weight: 40
     recoveryPoints: 8
+    battleType: 11
     armor: 150
   - type: STR_MUTON_B_CORPSE
     listOrder: 6610
-    size: 0.4
+    size: 0.25
     costSell: 50000
     categories: [STR_CAT_ALIENS]
     weight: 40
@@ -6950,39 +7050,40 @@ items:
     invHeight: 0
     recoveryPoints: 24
     battleType: 11
-    armor: 192
+    armor: 400
   - type: SNAKEMAN_COMMANDER_B_CORPSE_2
     floorSprite: 921
     invWidth: 0
     invHeight: 0
     battleType: 11
-    armor: 192
+    armor: 400
     recover: false
   - type: SNAKEMAN_COMMANDER_B_CORPSE_3
     floorSprite: 922
     invWidth: 0
     invHeight: 0
     battleType: 11
-    armor: 192
+    armor: 400
     recover: false
   - type: SNAKEMAN_COMMANDER_B_CORPSE_4
     floorSprite: 923
     invWidth: 0
     invHeight: 0
     battleType: 11
-    armor: 192
+    armor: 400
     recover: false
   - type: STR_ETHEREAL_CORPSE
     listOrder: 6700
-    size: 0.3
+    size: 0.2
     costSell: 50000
     categories: [STR_CAT_ALIENS]
     weight: 32
     recoveryPoints: 9
+    battleType: 11
     armor: 84
   - type: STR_ETHEREAL_N_CORPSE
     listOrder: 6710
-    size: 0.3
+    size: 0.2
     costSell: 85000
     categories: [STR_CAT_ALIENS]
     weight: 32
@@ -6995,7 +7096,7 @@ items:
     armor: 84
   - type: STR_CYBERDISC_CORPSE
     listOrder: 6800
-    size: 0.8
+    size: 0.6
     costSell: 180000
     categories: [STR_CAT_ALIENS]
     power: 180
@@ -7007,70 +7108,88 @@ items:
       ToArmor: 0
       ToArmorPre: 0.1
     blastRadius: 7
+    battleType: 11
   - type: CYBERDISC_CORPSE_1
     recoveryPoints: 36
+    battleType: 11
     armor: 117
   - type: CYBERDISC_CORPSE_2
+    battleType: 11
     armor: 117
   - type: CYBERDISC_CORPSE_3
+    battleType: 11
     armor: 117
   - type: CYBERDISC_CORPSE_4
+    battleType: 11
     armor: 117
   - type: STR_REAPER_CORPSE
     listOrder: 6900
-    size: 1.2
+    size: 1.0
     costSell: 40000
     categories: [STR_CAT_ALIENS]
+    battleType: 11
   - type: REAPER_CORPSE_1
     recoveryPoints: 8
+    battleType: 11
     armor: 150
   - type: REAPER_CORPSE_2
+    battleType: 11
     armor: 150
   - type: REAPER_CORPSE_3
+    battleType: 11
     armor: 150
   - type: REAPER_CORPSE_4
+    battleType: 11
     armor: 150
   - type: STR_CHRYSSALID_CORPSE
     listOrder: 7000
-    size: 0.35
+    size: 0.22
     costSell: 30000
     categories: [STR_CAT_ALIENS]
     weight: 30
     recoveryPoints: 6
+    battleType: 11
     armor: 121
   - type: STR_CELATID_CORPSE
     listOrder: 7100
-    size: 0.2
+    size: 0.12
     costSell: 42000
     categories: [STR_CAT_ALIENS]
     weight: 10
     recoveryPoints: 8
+    battleType: 11
     armor: 117
   - type: STR_SILACOID_CORPSE
     listOrder: 7200
-    size: 0.25
+    size: 0.18
     costSell: 32000
     categories: [STR_CAT_ALIENS]
     weight: 60
     recoveryPoints: 6
+    battleType: 11
     armor: 118
   - type: STR_SECTOPOD_CORPSE
     listOrder: 7300
-    size: 1.35
+    size: 1.1
     costSell: 240000
     categories: [STR_CAT_ALIENS]
+    battleType: 11
   - type: SECTOPOD_CORPSE_1
     recoveryPoints: 48
+    battleType: 11
     armor: 232
   - type: SECTOPOD_CORPSE_2
+    battleType: 11
     armor: 232
   - type: SECTOPOD_CORPSE_3
+    battleType: 11
     armor: 232
   - type: SECTOPOD_CORPSE_4
+    battleType: 11
     armor: 232
   - type: STR_SECTOID_C_CORPSE
     listOrder: 6340
-    size: 0.28
+    size: 0.17
     costSell: 25000
     categories: [STR_CAT_ALIENS]
     weight: 40
@@ -7083,7 +7202,7 @@ items:
     armor: 140
   - type: STR_FLOATER_C_CORPSE
     listOrder: 6420
-    size: 0.4
+    size: 0.25
     costSell: 65000
     categories: [STR_CAT_ALIENS]
     weight: 28
@@ -7096,7 +7215,7 @@ items:
     armor: 118
   - type: STR_ETHEREAL_C_CORPSE
     listOrder: 6720
-    size: 0.4
+    size: 0.2
     costSell: 95000
     categories: [STR_CAT_ALIENS]
     weight: 40
@@ -7109,7 +7228,7 @@ items:
     armor: 124
   - type: STR_CELATID_C_CORPSE
     listOrder: 7120
-    size: 0.4
+    size: 0.12
     costSell: 92000
     categories: [STR_CAT_ALIENS]
     weight: 14
@@ -7122,7 +7241,7 @@ items:
     armor: 157
   - type: STR_SILACOID_C_CORPSE
     listOrder: 7220
-    size: 0.4
+    size: 0.18
     costSell: 82000
     categories: [STR_CAT_ALIENS]
     weight: 72
@@ -7135,7 +7254,7 @@ items:
     armor: 158
   - type: STR_CHRYSSALID_C_CORPSE
     listOrder: 7020
-    size: 0.4
+    size: 0.25
     costSell: 80000
     categories: [STR_CAT_ALIENS]
     weight: 36
@@ -7148,7 +7267,7 @@ items:
     armor: 161
   - type: STR_SECTOPOD_C_CORPSE
     listOrder: 7320
-    size: 1
+    size: 1.1
     costSell: 340000
     categories: [STR_CAT_ALIENS]
     battleType: 11
@@ -7182,7 +7301,7 @@ items:
     recover: false
   - type: STR_CYBERDISC_C_CORPSE
     listOrder: 6820
-    size: 1
+    size: 0.6
     costSell: 280000
     categories: [STR_CAT_ALIENS]
     power: 260
@@ -7226,7 +7345,7 @@ items:
     recover: false
   - type: STR_REAPER_C_CORPSE
     listOrder: 6920
-    size: 1.2
+    size: 1.0
     costSell: 40000
     categories: [STR_CAT_ALIENS]
     battleType: 11
@@ -7260,57 +7379,57 @@ items:
     recover: false
   - type: STR_TROPHY_CORPSE_SECTOID
     listOrder: 7400
-    size: 0.25
+    size: 0.15
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_FLOATER
     listOrder: 7405
-    size: 0.4
+    size: 0.25
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_SNAKEMAN
     listOrder: 7410
-    size: 0.4
+    size: 0.25
     costSell: 15000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_MUTON
     listOrder: 7415
-    size: 0.4
+    size: 0.25
     costSell: 20000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_ETHEREAL
     listOrder: 7420
-    size: 0.3
+    size: 0.2
     costSell: 8000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_REAPER
     listOrder: 7425
-    size: 1.2
+    size: 1.0
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_CHRYSSALID
     listOrder: 7430
-    size: 0.35
-    costSell: 10000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_TROPHY_CORPSE_SILACOID
-    listOrder: 7435
-    size: 0.25
+    size: 0.22
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_CELATID
     listOrder: 7440
-    size: 0.2
+    size: 0.12
+    costSell: 10000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_TROPHY_CORPSE_SILACOID
+    listOrder: 7435
+    size: 0.18
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_CYBERDISC
     listOrder: 7445
-    size: 0.8
+    size: 0.6
     costSell: 50000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_SECTOPOD
     listOrder: 7450
-    size: 1.35
+    size: 1.1
     costSell: 75000
     categories: [STR_CAT_ALIENS]
   - type: HOVERTANK_CORPSE_1
@@ -7662,6 +7781,9 @@ items:
       ToArmorPre: 0.5
     accuracySnap: 75
     accuracyAimed: 110
+    accuracyMultiplier:
+      firing: 0.5
+      throwing: 0.5
     tuSnap: 30
     tuAimed: 60
     snapRange: 12
@@ -7771,7 +7893,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.05
     accuracyMelee: 100
-    tuMelee: 6
+    tuMelee: 3
     clipSize: -1
     battleType: 3
     fixedWeapon: true
@@ -7868,6 +7990,9 @@ items:
       ToArmorPre: 1.0
     accuracySnap: 75
     accuracyAimed: 110
+    accuracyMultiplier:
+      firing: 0.5
+      throwing: 0.5
     tuSnap: 40
     tuAimed: 80
     snapRange: 12

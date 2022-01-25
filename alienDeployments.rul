@@ -3371,7 +3371,7 @@ alienDeployments:
       textOffset: -16
       background: BACK01.SCR
       showTarget: false
-    objectiveType: 3
+    objectiveType: 30
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
@@ -3747,7 +3747,7 @@ alienDeployments:
       # textOffset: -16
       # background: BACK01.SCR
       # showTarget: false
-    # objectiveType: 3
+    # objectiveType: 30
     # markerName: STR_ALIEN_BASE
     # markerIcon: 7
     # genMission:
@@ -4123,7 +4123,7 @@ alienDeployments:
       # textOffset: -16
       # background: BACK01.SCR
       # showTarget: false
-    # objectiveType: 3
+    # objectiveType: 30
     # markerName: STR_ALIEN_BASE
     # markerIcon: 7
     # genMission:
@@ -4499,7 +4499,7 @@ alienDeployments:
       # textOffset: -16
       # background: BACK01.SCR
       # showTarget: false
-    # objectiveType: 3
+    # objectiveType: 30
     # markerName: STR_ALIEN_BASE
     # markerIcon: 7
     # genMission:
@@ -4875,7 +4875,7 @@ alienDeployments:
       # textOffset: -16
       # background: BACK01.SCR
       # showTarget: false
-    # objectiveType: 3
+    # objectiveType: 30
     # markerName: STR_ALIEN_BASE
     # markerIcon: 7
     # genMission:
@@ -5251,7 +5251,7 @@ alienDeployments:
       # textOffset: -16
       # background: BACK01.SCR
       # showTarget: false
-    # objectiveType: 3
+    # objectiveType: 30
     # markerName: STR_ALIEN_BASE
     # markerIcon: 7
     # genMission:

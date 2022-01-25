@@ -129,6 +129,17 @@
 #           - Powered melee weapons now cost elerium instead of alien alloys to make. This better fits their research
 #               requirements while also giving a more powerful way to earn profit manufacturing earlier in the game.
 #           - Tractor beam research and manufacture path made a bit easier to get started on.
+#       * Spacecraft fuel costs 2.5x as much deuterium now; also fixed spacecraft fuel sell value being incorrect.
+#       * Reduced the space some items take up, namely corpses and most UFO components.
+#       * Increased General Stores capacity from 30/180 to 50/300.
+#       * Civilians will no longer pick up alien weapons. They also won't pick up weapons you throw to them.
+#       * Aircraft upgrade progression has been made clearer by being sorted into tiers 1, 2, and 3.
+#       * Fixed bug in which destroying the terror site beacon often failed to destroy the beacon base.
+#       * Soldiers and items should now start inside the exit area of the alien base.
+#       * Heavy Destroyer now has its own interception image; Light Destroyer interception image updated.
+#       * You can now tell upper ranks from lower ranks visually with some alien races.
+#       * Snakeman Queen mechanics greatly improved. (Still likely buggy!)
+#       * Various small bug fixes and balance tweaks.
 #
 #
 # resource authors/sources:

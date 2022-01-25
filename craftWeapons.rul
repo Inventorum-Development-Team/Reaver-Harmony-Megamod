@@ -338,6 +338,8 @@ craftWeapons:
     ammoMax: 999
     rearmRate: 999
     tractorBeamPower: 900
+    stats:
+      hitBonus: 10
     launcher: STR_LIGHT_TRACTOR_BEAM
     projectileType: 4
     weaponType: 1
@@ -354,6 +356,8 @@ craftWeapons:
     ammoMax: 999
     rearmRate: 999
     tractorBeamPower: 2100
+    stats:
+      hitBonus: 15
     launcher: STR_MEDIUM_TRACTOR_BEAM
     projectileType: 4
     weaponType: 2
@@ -370,6 +374,8 @@ craftWeapons:
     ammoMax: 999
     rearmRate: 999
     tractorBeamPower: 4900
+    stats:
+      hitBonus: 20
     launcher: STR_HEAVY_TRACTOR_BEAM
     projectileType: 4
     weaponType: 3

@@ -30,16 +30,16 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_EASY
-    image_id: DRAGONFLY_BIG
+    image_id: HAWKEYE_BIG
     rect_stats:
-      x: 210
-      y: 130
-      width: 160
+      x: 180
+      y: 134
+      width: 140
       height: 80
     rect_text:
       x: 5
       y: 40
-      width: 100
+      width: 300
       height: 160
     text: STR_SKYRAIDER_UFOPEDIA
   - id: STR_MAMMOTH_EASY
@@ -48,7 +48,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_EASY
-    image_id: UP004.SPK
+    image_id: MAMMOTH_BIG
     rect_stats:
       x: 160
       y: 5
@@ -86,7 +86,7 @@ ufopaedia:
     requires:
       - STR_CRAFT_EASY
       - STR_ADVANCED_AIRCRAFT
-    image_id: HAWKEYE_BIG
+    image_id: HAWKEYE_ALLOY_BIG
     rect_stats:
       x: 180
       y: 134
@@ -105,17 +105,17 @@ ufopaedia:
     requires:
       - STR_CRAFT_EASY
       - STR_ADVANCED_AIRCRAFT
-    image_id: AWACS_BIG
+    image_id: MASTODON_BIG
     rect_stats:
-      x: 190
-      y: 10
-      width: 140
-      height: 80
+      x: 160
+      y: 5
+      width: 160
+      height: 60
     rect_text:
       x: 5
       y: 40
       width: 140
-      height: 120
+      height: 100
     text: STR_MASTODON_UFOPEDIA
   - id: STR_EXECUTIONER_EASY
     listOrder: 200
@@ -335,16 +335,16 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_MEDIUM
-    image_id: DRAGONFLY_BIG
+    image_id: HAWKEYE_BIG
     rect_stats:
-      x: 210
-      y: 130
-      width: 160
+      x: 180
+      y: 134
+      width: 140
       height: 80
     rect_text:
       x: 5
       y: 40
-      width: 100
+      width: 300
       height: 160
     text: STR_SKYRAIDER_UFOPEDIA
   - id: STR_MAMMOTH
@@ -353,7 +353,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_MEDIUM
-    image_id: UP004.SPK
+    image_id: MAMMOTH_BIG
     rect_stats:
       x: 160
       y: 5
@@ -391,7 +391,7 @@ ufopaedia:
     requires:
       - STR_CRAFT_MEDIUM
       - STR_ADVANCED_AIRCRAFT
-    image_id: HAWKEYE_BIG
+    image_id: HAWKEYE_ALLOY_BIG
     rect_stats:
       x: 180
       y: 134
@@ -410,17 +410,17 @@ ufopaedia:
     requires:
       - STR_CRAFT_MEDIUM
       - STR_ADVANCED_AIRCRAFT
-    image_id: AWACS_BIG
+    image_id: MASTODON_BIG
     rect_stats:
-      x: 190
-      y: 10
-      width: 140
-      height: 80
+      x: 160
+      y: 5
+      width: 160
+      height: 60
     rect_text:
       x: 5
       y: 40
       width: 140
-      height: 120
+      height: 100
     text: STR_MASTODON_UFOPEDIA
   - id: STR_EXECUTIONER
     listOrder: 200
@@ -640,16 +640,16 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_HARD
-    image_id: DRAGONFLY_BIG
+    image_id: HAWKEYE_BIG
     rect_stats:
-      x: 210
-      y: 130
-      width: 160
+      x: 180
+      y: 134
+      width: 140
       height: 80
     rect_text:
       x: 5
       y: 40
-      width: 100
+      width: 300
       height: 160
     text: STR_SKYRAIDER_UFOPEDIA
   - id: STR_MAMMOTH_HARD
@@ -658,7 +658,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_HARD
-    image_id: UP004.SPK
+    image_id: MAMMOTH_BIG
     rect_stats:
       x: 160
       y: 5
@@ -696,7 +696,7 @@ ufopaedia:
     requires:
       - STR_CRAFT_HARD
       - STR_ADVANCED_AIRCRAFT
-    image_id: HAWKEYE_BIG
+    image_id: HAWKEYE_ALLOY_BIG
     rect_stats:
       x: 180
       y: 134
@@ -715,17 +715,17 @@ ufopaedia:
     requires:
       - STR_CRAFT_HARD
       - STR_ADVANCED_AIRCRAFT
-    image_id: AWACS_BIG
+    image_id: MASTODON_BIG
     rect_stats:
-      x: 190
-      y: 10
-      width: 140
-      height: 80
+      x: 160
+      y: 5
+      width: 160
+      height: 60
     rect_text:
       x: 5
       y: 40
       width: 140
-      height: 120
+      height: 100
     text: STR_MASTODON_UFOPEDIA
   - id: STR_EXECUTIONER_HARD
     listOrder: 200

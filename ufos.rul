@@ -683,7 +683,7 @@ ufos:
           length: 30
   - type: STR_HEAVY_DESTROYER
     size: STR_LARGE
-    modSprite: MediumDestroyer
+    modSprite: HeavyDestroyer
     marker: 33
     markerLand: 38
     markerCrash: 43
@@ -1533,7 +1533,7 @@ ufos:
           length: 30
   - type: STR_HEAVY_DESTROYER_ELITE
     size: STR_LARGE
-    modSprite: EliteMediumDestroyer
+    modSprite: EliteHeavyDestroyer
     marker: 33
     markerLand: 38
     markerCrash: 43

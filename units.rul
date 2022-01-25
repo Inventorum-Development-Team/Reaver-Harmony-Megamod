@@ -1337,7 +1337,7 @@ units:
       bravery: 110
       reactions: 35
       firing: 82
-      throwing: 0
+      throwing: 45
       strength: 70
       psiStrength: 80
       psiSkill: 0
@@ -1848,7 +1848,7 @@ units:
       bravery: 110
       reactions: 21
       firing: 102
-      throwing: 0
+      throwing: 56
       strength: 70
       psiStrength: 88
       psiSkill: 0

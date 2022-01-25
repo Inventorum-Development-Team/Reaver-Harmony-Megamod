@@ -121,7 +121,7 @@ ai:
   extendedFireModeChoice: true
   destroyBaseFacilities: true
   pickUpWeaponsMoreActively: true
-  pickUpWeaponsMoreActivelyCiv: true
+  pickUpWeaponsMoreActivelyCiv: false
 fixedUserOptions:
   allowPsiStrengthImprovement: false
   battleUFOExtenderAccuracy: true

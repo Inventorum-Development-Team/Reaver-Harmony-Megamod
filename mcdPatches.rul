@@ -329,6 +329,8 @@ MCDPatches:
         armor: 50
       - MCDIndex: 43
         armor: 50
+      - MCDIndex: 44
+        armor: 50
   - type: URBITS
     data:
       - MCDIndex: 0

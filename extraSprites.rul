@@ -885,6 +885,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/XComFiles/Vessels/Ufopedia/HAWKEYE_ufopedia.png
+  - type: HAWKEYE_ALLOY_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/XComFiles/Vessels/Ufopedia/HAWKEYE_ALLOY_ufopedia.png
   - type: MIG31_BIG
     singleImage: true
     width: 320
@@ -933,6 +939,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/ReaversArmada/Interdictor_ufopedia.png
+  - type: MAMMOTH_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ReaversArmada/Mammoth_ufopedia.png
+  - type: MASTODON_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ReaversArmada/Mastodon_ufopedia.png
   - type: EXECUTIONER_BIG
     singleImage: true
     width: 320
@@ -1048,18 +1066,18 @@ extraSprites:
     height: 81
     files:
       0: Resources/ReaversUFOs/EliteCargoShip.png
-  - type: EliteHarvester
-    singleImage: true
-    width: 160
-    height: 81
-    files:
-      0: Resources/ReaversUFOs/EliteHarvester.png
   - type: EliteAbductor
     singleImage: true
     width: 160
     height: 81
     files:
       0: Resources/ReaversUFOs/EliteAbductor.png
+  - type: EliteHarvester
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteHarvester.png
   - type: EliteMediumDestroyer
     singleImage: true
     width: 160
@@ -1072,6 +1090,12 @@ extraSprites:
     height: 81
     files:
       0: Resources/ReaversUFOs/EliteTerrorShip.png
+  - type: EliteHeavyDestroyer
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/EliteHeavyDestroyer.png
   - type: EliteSupplyShip
     singleImage: true
     width: 160
@@ -1660,10 +1684,32 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Armored Sectoids/SpriteSheet_SectoidPowerSkeleton.png
+  - type: SECTOID_A1.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armored Sectoids/SpriteSheet_SectoidPowerSkeleton1.png
+  - type: SECTOID_A2.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armored Sectoids/SpriteSheet_SectoidPowerSkeleton2.png
   - type: SECTOID_A.SPK
     singleImage: true
     files:
       0: Resources/Armored Sectoids/Inventory_SectoidPowerSkeleton.png
+  - type: SECTOID_A1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armored Sectoids/Inventory_SectoidPowerSkeleton1.png
+  - type: SECTOID_A2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armored Sectoids/Inventory_SectoidPowerSkeleton2.png
   - type: SECTOID_A_RESEARCH.SPK
     singleImage: true
     files:
@@ -1672,10 +1718,54 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Elite Aliens/inventory_FLOATER.gif
+  - type: FLOATER1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armored Sectoids/inventory_FLOATER1.png
+  - type: FLOATER2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armored Sectoids/inventory_FLOATER2.png
+  - type: FLOATER1.PCK
+    width: 512
+    height: 280
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armored Sectoids/FLOATER1.png
+  - type: FLOATER2.PCK
+    width: 512
+    height: 280
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armored Sectoids/FLOATER2.png
   - type: SNAKEMAN.SPK
     singleImage: true
     files:
       0: Resources/Elite Aliens/inventory_SNAKEMAN.gif
+  - type: SNAKEMAN1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armored Sectoids/inventory_SNAKEMAN1.png
+  - type: SNAKEMAN2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armored Sectoids/inventory_SNAKEMAN2.png
+  - type: SNAKEMAN1.PCK
+    width: 320
+    height: 560
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armored Sectoids/SNAKEMAN1.png
+  - type: SNAKEMAN2.PCK
+    width: 320
+    height: 560
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armored Sectoids/SNAKEMAN2.png
   - type: MUTON.SPK
     singleImage: true
     files:
@@ -1926,6 +2016,12 @@ extraSprites:
       910: Resources/Elite Aliens/bigobs_celatid_c.png
       915: Resources/Elite Aliens/FloaterC_BigOb.png
       930: Resources/Armored Sectoids/BigOb_SectoidPowerSkeleton.png
+      931: Resources/Armored Sectoids/BigOb_SectoidPowerSkeleton1.png
+      932: Resources/Armored Sectoids/BigOb_SectoidPowerSkeleton2.png
+      933: Resources/Armored Sectoids/bigobs_floater1.png
+      934: Resources/Armored Sectoids/bigobs_floater2.png
+      935: Resources/Armored Sectoids/bigobs_snakeman1.png
+      936: Resources/Armored Sectoids/bigobs_snakeman2.png
       949: Resources/BattlefieldReports/Sectoid A Thumbnail.png
       950: Resources/BattlefieldReports/Sectoid Thumbnail.png
       951: Resources/BattlefieldReports/Cyberdisc Thumbnail.png
@@ -1976,6 +2072,12 @@ extraSprites:
       922: Resources/Elite Aliens/Snakeman_Queen_B_floorob_2.png
       923: Resources/Elite Aliens/Snakeman_Queen_B_floorob_3.png
       930: Resources/Armored Sectoids/FloorOb_SectoidPowerSkeleton.png
+      931: Resources/Armored Sectoids/FloorOb_SectoidPowerSkeleton1.png
+      932: Resources/Armored Sectoids/FloorOb_SectoidPowerSkeleton2.png
+      933: Resources/Armored Sectoids/floorob_floater1.png
+      934: Resources/Armored Sectoids/floorob_floater2.png
+      935: Resources/Armored Sectoids/floorob_snakeman1.png
+      936: Resources/Armored Sectoids/floorob_snakeman2.png
   - type: ALIEN_HABITAT
     singleImage: true
     width: 320

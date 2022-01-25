@@ -160,7 +160,7 @@ terrains:
     mapDataSets:
       - BLANKS
       - U_BASE
-      - U_WALL02
+      - U_WALL02AB
       - U_PODS
       - BRAIN
       - UFOL83A

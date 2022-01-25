@@ -707,11 +707,11 @@ alienMissions:
       - ufo: STR_BATTLESHIP
         interruptPercentage: 100
         count: 1
-        trajectory: P4
+        trajectory: P40
         timer: 60
       - ufo: STR_PATROLLER
         count: 1
-        trajectory: P79
+        trajectory: P75
         timer: 60
       - ufo: STR_SUPPLY_SHIP
         interruptPercentage: 45
@@ -804,7 +804,7 @@ alienMissions:
       - ufo: STR_MOTHERSHIP
         interruptPercentage: 100
         count: 1
-        trajectory: P5
+        trajectory: P4
         timer: 60
       - ufo: STR_HEAVY_DESTROYER
         count: 1
@@ -888,11 +888,11 @@ alienMissions:
       - ufo: STR_BATTLESHIP_ELITE
         interruptPercentage: 100
         count: 1
-        trajectory: P4
+        trajectory: P40
         timer: 60
-      - ufo: STR_MEDIUM_DESTROYER_ELITE
+      - ufo: STR_HEAVY_DESTROYER_ELITE
         count: 1
-        trajectory: P75
+        trajectory: P76
         timer: 60
       - ufo: STR_SUPPLY_SHIP_ELITE
         interruptPercentage: 45
@@ -956,7 +956,7 @@ alienMissions:
       - ufo: STR_SUPPLY_SHIP
         interruptPercentage: 100
         count: 1
-        trajectory: P5
+        trajectory: P4
         timer: 60
       - ufo: STR_SMALL_SCOUT
         count: 1
@@ -1006,7 +1006,7 @@ alienMissions:
       - ufo: STR_SUPPLY_SHIP_ELITE
         interruptPercentage: 100
         count: 1
-        trajectory: P5
+        trajectory: P4
         timer: 60
       - ufo: STR_LIGHT_DESTROYER_ELITE
         count: 1
@@ -1718,7 +1718,7 @@ alienMissions:
         count: 2
         trajectory: P8
         timer: 60
-      - ufo: STR_HEAVY_DESTROYER_ELITE
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
         count: 1
         trajectory: P8
         timer: 60
