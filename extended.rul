@@ -46,6 +46,155 @@ extended:
             set to_health temp; #damage that will be done to unit, other scripts can alter this after
           end;
           return;
-  tags:
+    selectItemSprite:
+      - offset: 1
+        code: |
+          var ptr BattleItem ammoItem;
+          var ptr RuleItem weaponRuleset;
+          var ptr RuleItem ammoRuleset;
+          var int doResprite;
+          var int newSprite;
+
+          if eq blit_part blit_item_big;
+            item.getRuleItem weaponRuleset;
+            weaponRuleset.getTag doResprite Tag.ALLOW_AMMO_TO_RESPRITE;
+            if eq doResprite 1;
+              item.getAmmoItem ammoItem;
+              ammoItem.getRuleItem ammoRuleset;
+              ammoRuleset.getTag newSprite Tag.NEW_BIGOB_FOR_WEAPON;
+
+              if neq newSprite 0;
+                add sprite_index newSprite;
+              end;
+
+            end;
+
+          end;
+
+          return sprite_index;
+  tags: # Tags and tag definitions must be in the same file.
     RuleItem:
       MODNAME_GUN_HP_CUT: int
+      ALLOW_AMMO_TO_RESPRITE: int
+      NEW_BIGOB_FOR_WEAPON: int
+items:
+  - type: STR_HEAVY_CANNON
+    tags:
+      ALLOW_AMMO_TO_RESPRITE: 1
+  - type: STR_AUTO_CANNON
+    tags:
+      ALLOW_AMMO_TO_RESPRITE: 1
+  - type: STR_GRENADE_LAUNCHER
+    tags:
+      ALLOW_AMMO_TO_RESPRITE: 1
+  - type: STR_ROCKET_LAUNCHER
+    tags:
+      ALLOW_AMMO_TO_RESPRITE: 1
+  - type: STR_BLASTER_LAUNCHER_TERRAN
+    tags:
+      ALLOW_AMMO_TO_RESPRITE: 1
+  - type: STR_SMALL_LAUNCHER_TERRAN
+    tags:
+      ALLOW_AMMO_TO_RESPRITE: 1
+  - type: STR_POWER_SUIT_LAUNCHER
+    tags:
+      ALLOW_AMMO_TO_RESPRITE: 1
+  - type: STR_HC_AP_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 1
+  - type: STR_HC_HE_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 2
+  - type: STR_HC_I_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 3
+  - type: STR_HC_ALLOY_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 4
+  - type: STR_HC_AE_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 5
+  - type: STR_AC_AP_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -25
+  - type: STR_AC_HE_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -24
+  - type: STR_AC_I_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -23
+  - type: STR_AC_ALLOY_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -22
+  - type: STR_AC_AE_AMMO
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -21
+  - type: STR_GRENADE_ROUND_HE
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 34
+  - type: STR_GRENADE_ROUND_IN
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 35
+  - type: STR_GRENADE_ROUND_SM
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 36
+  - type: STR_GRENADE_ROUND_AE
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 33
+  - type: STR_GRENADE_ROUND_ST
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 37
+  - type: STR_SMALL_ROCKET
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -12
+  - type: STR_LARGE_ROCKET
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -15
+  - type: STR_EXPLOSIVE_ROCKET
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -15
+  - type: STR_INCENDIARY_ROCKET
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -13
+  - type: STR_ALIEN_ROCKET
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -16
+  - type: STR_FUSION_ROCKET
+    tags:
+      NEW_BIGOB_FOR_WEAPON: -14
+  - type: STR_BLASTER_BOMB_TERRAN
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 54
+  - type: STR_BLASTER_HE_BOMB
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 55
+  - type: STR_BLASTER_I_BOMB
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 56
+  - type: STR_BLASTER_STUN_BOMB
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 57
+  - type: STR_STUN_BOMB_TERRAN
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 54
+  - type: STR_HE_BOMB
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 51
+  - type: STR_SMOKE_BOMB
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 53
+  - type: STR_INCENDIARY_BOMB
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 52
+  - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 0
+  - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 0
+  - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 0
+  - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
+    tags:
+      NEW_BIGOB_FOR_WEAPON: 0

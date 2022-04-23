@@ -328,13 +328,13 @@ craftWeapons:
     weaponType: 3
   - type: STR_LIGHT_TRACTOR_BEAM_UC
     sprite: 30
-    damage: 1
+    damage: 2
     shieldDamageModifier: 100
     range: 54
     accuracy: 250
-    reloadCautious: 40
-    reloadStandard: 40
-    reloadAggressive: 40
+    reloadCautious: 60
+    reloadStandard: 60
+    reloadAggressive: 60
     ammoMax: 999
     rearmRate: 999
     tractorBeamPower: 900
@@ -346,13 +346,13 @@ craftWeapons:
     hidePediaInfo: true
   - type: STR_MEDIUM_TRACTOR_BEAM_UC
     sprite: 31
-    damage: 1
+    damage: 2
     shieldDamageModifier: 200
     range: 49
     accuracy: 250
-    reloadCautious: 40
-    reloadStandard: 40
-    reloadAggressive: 40
+    reloadCautious: 60
+    reloadStandard: 60
+    reloadAggressive: 60
     ammoMax: 999
     rearmRate: 999
     tractorBeamPower: 2100
@@ -364,13 +364,13 @@ craftWeapons:
     hidePediaInfo: true
   - type: STR_HEAVY_TRACTOR_BEAM_UC
     sprite: 32
-    damage: 1
+    damage: 2
     shieldDamageModifier: 400
     range: 43
     accuracy: 250
-    reloadCautious: 40
-    reloadStandard: 40
-    reloadAggressive: 40
+    reloadCautious: 60
+    reloadStandard: 60
+    reloadAggressive: 60
     ammoMax: 999
     rearmRate: 999
     tractorBeamPower: 4900
@@ -464,7 +464,7 @@ craftWeapons:
   - type: STR_ALLOY_POWER_SOURCE
     sprite: 33
     stats:
-      fuelMax: 90
+      fuelMax: 60
       speedMax: 300
       accel: 1
     launcher: STR_ALLOY_POWER_SOURCE_UG
@@ -550,7 +550,7 @@ craftWeapons:
   - type: STR_COMBO_SUBJUGATOR
     sprite: 43
     stats:
-      fuelMax: 30
+      fuelMax: 20
       speedMax: 200
       shieldCapacity: 40
       shieldRechargeInGeoscape: 2
@@ -571,9 +571,9 @@ craftWeapons:
   - type: STR_BOOST_POWER_SOURCE
     sprite: 33
     stats:
-      fuelMax: 180
+      fuelMax: 120
       speedMax: 450
-      accel: 2
+      accel: 1
     launcher: STR_BOOST_POWER_SOURCE_UG
     weaponType: 12
     hidePediaInfo: true
@@ -677,7 +677,7 @@ craftWeapons:
   - type: STR_PACKAGE_SUBJUGATOR
     sprite: 43
     stats:
-      fuelMax: 60
+      fuelMax: 40
       speedMax: 300
       accel: 1
       shieldCapacity: 60
@@ -697,9 +697,9 @@ craftWeapons:
       damageMax: 80
       avoidBonus: 16
       armor: 10
-      radarRange: 450
-      radarChance: 15
-      sightRange: 450
+      radarRange: 300 #450 extra amount has been rolled into base values for Executioner and Exterminator
+      radarChance: 5 #15
+      sightRange: 300 #450
       hitBonus: 20
       powerBonus: 60
     launcher: STR_SUITE_ASCENSION_UG
@@ -708,7 +708,7 @@ craftWeapons:
   - type: STR_SUITE_COMBAT
     sprite: 45
     stats:
-      fuelMax: 90
+      fuelMax: 40
       speedMax: 900
       accel: 2
       avoidBonus: 12
@@ -720,8 +720,8 @@ craftWeapons:
   - type: STR_SUITE_RECON
     sprite: 46
     stats:
-      fuelMax: 180
-      shieldCapacity: 120
+      fuelMax: 360
+      shieldCapacity: 60
       shieldRechargeInGeoscape: 3
       shieldBleedThrough: 100
       radarRange: 450

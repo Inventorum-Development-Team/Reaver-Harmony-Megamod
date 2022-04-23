@@ -29,6 +29,13 @@ extraSprites:
     files:
       80: Resources/Extra Explosions/XSmoke2.png
       100:  Resources/Extra Explosions/XStun.png
+  - type: DayNightIndicator
+    width: 72
+    height: 24
+    subX: 24
+    subY: 24
+    files:
+      0: Resources/ReaversArmada/DayNightIndicatorR.png
 # EQUIPMENT BIGOBS
   - type: BIGOBS.PCK
     width: 384
@@ -43,18 +50,18 @@ extraSprites:
       315: Resources/RedBlueLasers/RedBlueLasers_bigobs.gif
       318: Resources/XComFiles/Weapons_Compilation/MeleeWeapons/BigCombatKnife.gif
       319: Resources/XComFiles/Weapons_Compilation/EMace/bigobs_EleriumMace.gif
-      320: Resources/ConventionalStun/ConventionalStun_bigobs.gif
-      323: Resources/ConventionalBlaster/ConventionalBlaster_bigobs.gif
+      320: Resources/ReaversLaunchers/ConventionalStun_bigobs.gif
+      323: Resources/ReaversLaunchers/ConventionalBlaster_bigobs.gif
       326: Resources/AwesomeGuns/Bigob1.png
       327: Resources/AwesomeGuns/Bigob_CLIP1.png
       328: Resources/AwesomeGuns/Bigob2.png
       329: Resources/AwesomeGuns/Bigob_CLIP2.png
       330: Resources/BluePlasmas/BluePlasmas_bigobs.gif
       333: Resources/BluePlasmas/BluePlasmaClips_bigobs.gif
-      336: Resources/AlienFusionAlloy/AlienFusionRockets_bigobs.gif
-      339: Resources/AlienFusionAlloy/AlienExplosiveCannon_bigobs.gif
-      342: Resources/AlienFusionAlloy/AlloyCannon_bigobs.gif
-      344: Resources/AlienFusionAlloy/AlloyAmmo_bigobs.gif
+      336: Resources/ReaversLaunchers/AlienFusionRockets_bigobs.gif
+      339: Resources/ReaversLaunchers/AlienExplosiveCannon_bigobs.gif
+      342: Resources/ReaversLaunchers/AlloyCannon_bigobs.gif
+      344: Resources/ReaversLaunchers/AlloyAmmo_bigobs.gif
       348: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/PlasmaSword.gif
       349: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/PlasmaBlade.gif
       350: Resources/SuperStunLance/STUN_ROD_R.gif
@@ -83,13 +90,13 @@ extraSprites:
       380: Resources/Advanced Medikit/BigOb_FieldMediPack.gif
       381: Resources/ReaversEquipment/AE_charge_bigob.gif
       382: Resources/ReaversEquipment/AE_prox_bigob.gif
-      383: Resources/The_Funktasm's Crap-U-Copia/alienterranlaunchers_big.gif
+      383: Resources/ReaversLaunchers/alienterranlaunchers_big.png
       387: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_PUMP_ACTION_SHOTGUN_SHELLS_ALLOY.png
       388: Resources/TerranPlasmaWeapons/redgrenade_bigob.gif
       389: Resources/ReaversEquipment/Fusion_demo_bigob.gif
       390: Resources/ReaversEquipment/Stun_grenade_bigob.gif
       391: Resources/ReaversEquipment/Stun_charge_bigob.gif
-      392: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob.gif
+      392: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob.png
       393: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_HE_AMMO.png
       394: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_IN_AMMO.png
       395: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Bigob_SM_AMMO.png
@@ -106,10 +113,19 @@ extraSprites:
       406: Resources/BluePlasmas/PlasmaShotgun.gif
       408: Resources/ReaversEquipment/ElectroFlareSmall.gif
       409: Resources/ReaversEquipment/ElectroFlareLarge.gif
-      410: Resources/ConventionalStun/TerranStun_bigobs.gif
-      411: Resources/ConventionalBlaster/BlasterAE_bigobs.png
+      410: Resources/ReaversLaunchers/TerranStun_bigobs.gif
+      411: Resources/ReaversLaunchers/BlasterAE_bigobs.png
       412: Resources/ReaversUFOs/BigObs_Elerium.png
       413: Resources/AwesomeGuns/bigobs_rifle_scope.gif
+      414: Resources/ReaversLaunchers/HeavyCannon.png
+      415: Resources/ReaversLaunchers/LoadedHeavyCannons.png
+      420: Resources/ReaversLaunchers/LoadedAutoCannons.png
+      425: Resources/ReaversLaunchers/LoadedGrenadeLaunchers.png
+      430: Resources/ReaversLaunchers/LoadedRocketLaunchers.png
+      435: Resources/ReaversLaunchers/LoadedSmallLaunchers.png
+      440: Resources/ReaversLaunchers/LoadedBlasterLaunchers.png
+      445: Resources/ReaversLaunchers/AutoCannon.png
+      446: Resources/ReaversLaunchers/RocketLauncher.png
 # EQUIPMENT FLOOROBS
   - type: FLOOROB.PCK
     width: 128
@@ -123,8 +139,8 @@ extraSprites:
       305: Resources/AwesomeGuns.Laser/floorob3.gif
       306: Resources/XComFiles/Weapons_Compilation/MeleeWeapons/FloorCombatKnife.gif
       307: Resources/XComFiles/Weapons_Compilation/EMace/floorob_EleriumMace.gif
-      308: Resources/ConventionalStun/ConventionalStun_floorobs.gif
-      311: Resources/ConventionalBlaster/ConventionalBlaster_floorobs.gif
+      308: Resources/ReaversLaunchers/ConventionalStun_floorobs.gif
+      311: Resources/ReaversLaunchers/ConventionalBlaster_floorobs.gif
       314: Resources/RedBlueLasers/RedBlueLasers_floorobs.gif
       317: Resources/AwesomeGuns/Floorob1.png
       318: Resources/AwesomeGuns/Floorob_CLIP1.png
@@ -134,10 +150,10 @@ extraSprites:
       324: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifle_floorobs.gif
       326: Resources/BluePlasmas/BluePlasmaClips_floorobs.gif
       329: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaPistol_floorobs.gif
-      331: Resources/AlienFusionAlloy/AlienFusionRockets_floorobs.gif
-      334: Resources/AlienFusionAlloy/AlienExplosiveCannon_floorobs.gif
-      336: Resources/AlienFusionAlloy/AlloyCannon_floorobs.gif
-      340: Resources/AlienFusionAlloy/AlloyAmmo_floorobs.gif
+      331: Resources/ReaversLaunchers/AlienFusionRockets_floorobs.gif
+      334: Resources/ReaversLaunchers/AlienExplosiveCannon_floorobs.gif
+      336: Resources/ReaversLaunchers/AlloyCannon_floorobs.gif
+      340: Resources/ReaversLaunchers/AlloyAmmo_floorobs.gif
       344: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/floorob_PlasmaSword.gif
       345: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/floorob_PlasmaBlade.gif
       346: Resources/SuperStunLance/floorob_stun_rod_r.gif
@@ -184,8 +200,8 @@ extraSprites:
       386: Resources/ReaversEquipment/AE_grenade_floorob.gif
       387: Resources/ReaversEquipment/floorob_ElectroFlareSmall.gif
       388: Resources/ReaversEquipment/floorob_ElectroFlareLarge.gif
-      389: Resources/ConventionalStun/TerranStun_floorobs.gif
-      390: Resources/ConventionalBlaster/BlasterAE_floorobs.png
+      389: Resources/ReaversLaunchers/TerranStun_floorobs.gif
+      390: Resources/ReaversLaunchers/BlasterAE_floorobs.png
       391: Resources/TerranPlasmaWeapons/RedPlasmaClip_floorob.gif
       392: Resources/AwesomeGuns/floorob_rifle_scope.gif
 # EQUIPMENT HANDOBS
@@ -214,7 +230,7 @@ extraSprites:
       476: Resources/BluePlasmas/BluePlasmas_handob3.gif
       484: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifle_handob.gif
       492: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifleTerran_handob.gif
-      500: Resources/ConventionalStun/OneHandSmallLauncher_handob.gif
+      500: Resources/ReaversLaunchers/OneHandSmallLauncher_handob.gif
       508: Resources/IncendiaryGrenade/HandOb_Incgrenade_alt.gif
       516: Resources/SuperStunLance/handob_stun_rod_1hand.png
       524: Resources/SuperStunLance/handob_stun_rod_r.png
@@ -252,15 +268,15 @@ extraSprites:
       780: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherFusionBomb.gif
       788: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherIncendiaryBomb.gif
       796: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/CLauncherSmokeBomb.gif
-      804: Resources/ConventionalBlaster/HandOb_BlasterBomb.png
-      812: Resources/ConventionalBlaster/HandOb_BlasterBomb_Fusion.png
-      820: Resources/ConventionalBlaster/HandOb_BlasterBomb_Explosive.png
-      828: Resources/ConventionalBlaster/HandOb_BlasterBomb_Incendiary.png
-      836: Resources/ConventionalBlaster/HandOb_BlasterBomb_Stun.png
-      844: Resources/ConventionalStun/HandOb_StunBomb.png
-      852: Resources/ConventionalStun/HandOb_StunBomb_Explosive.png
-      860: Resources/ConventionalStun/HandOb_StunBomb_Incendiary.png
-      868: Resources/ConventionalStun/HandOb_StunBomb_Smoke.png
+      804: Resources/ReaversLaunchers/HandOb_BlasterBomb.png
+      812: Resources/ReaversLaunchers/HandOb_BlasterBomb_Fusion.png
+      820: Resources/ReaversLaunchers/HandOb_BlasterBomb_Explosive.png
+      828: Resources/ReaversLaunchers/HandOb_BlasterBomb_Incendiary.png
+      836: Resources/ReaversLaunchers/HandOb_BlasterBomb_Stun.png
+      844: Resources/ReaversLaunchers/HandOb_StunBomb.png
+      852: Resources/ReaversLaunchers/HandOb_StunBomb_Explosive.png
+      860: Resources/ReaversLaunchers/HandOb_StunBomb_Incendiary.png
+      868: Resources/ReaversLaunchers/HandOb_StunBomb_Smoke.png
       876: Resources/ReaversEquipment/HandOb_AEGrenade.png
       884: Resources/ReaversEquipment/HandOb_AEProx.png
       892: Resources/ReaversEquipment/HandOb_AlienGrenade.png
@@ -273,21 +289,21 @@ extraSprites:
       948: Resources/ReaversEquipment/HandOb_Medikit.gif
       956: Resources/ReaversEquipment/HandOb_MindProbe.gif
       964: Resources/ReaversEquipment/HandOb_Scanner.gif
-      972: Resources/AlienFusionAlloy/HandOb_APAutoCannon.gif
-      980: Resources/AlienFusionAlloy/HandOb_AlloyAutoCannon.gif
-      988: Resources/AlienFusionAlloy/HandOb_HEAutoCannon.gif
-      996: Resources/AlienFusionAlloy/HandOb_AEAutoCannon.gif
-      1004: Resources/AlienFusionAlloy/HandOb_INAutoCannon.gif
-      1012: Resources/AlienFusionAlloy/HandOb_APHeavyCannon.gif
-      1020: Resources/AlienFusionAlloy/HandOb_AlloyHeavyCannon.gif
-      1028: Resources/AlienFusionAlloy/HandOb_HEHeavyCannon.gif
-      1036: Resources/AlienFusionAlloy/HandOb_AEHeavyCannon.gif
-      1044: Resources/AlienFusionAlloy/HandOb_INHeavyCannon.gif
-      1052: Resources/AlienFusionAlloy/HandOb_SmokeRocket.png
-      1060: Resources/AlienFusionAlloy/HandOb_LGRocket.gif
-      1068: Resources/AlienFusionAlloy/HandOb_INRocket.gif
-      1076: Resources/AlienFusionAlloy/HandOb_SMRocket.gif
-      1084: Resources/AlienFusionAlloy/HandOb_FusionRocket.png
+      972: Resources/ReaversLaunchers/HandOb_APAutoCannon.gif
+      980: Resources/ReaversLaunchers/HandOb_AlloyAutoCannon.gif
+      988: Resources/ReaversLaunchers/HandOb_HEAutoCannon.gif
+      996: Resources/ReaversLaunchers/HandOb_AEAutoCannon.gif
+      1004: Resources/ReaversLaunchers/HandOb_INAutoCannon.gif
+      1012: Resources/ReaversLaunchers/HandOb_APHeavyCannon.gif
+      1020: Resources/ReaversLaunchers/HandOb_AlloyHeavyCannon.gif
+      1028: Resources/ReaversLaunchers/HandOb_HEHeavyCannon.gif
+      1036: Resources/ReaversLaunchers/HandOb_AEHeavyCannon.gif
+      1044: Resources/ReaversLaunchers/HandOb_INHeavyCannon.gif
+      1052: Resources/ReaversLaunchers/HandOb_SmokeRocket.png
+      1060: Resources/ReaversLaunchers/HandOb_LGRocket.gif
+      1068: Resources/ReaversLaunchers/HandOb_INRocket.gif
+      1076: Resources/ReaversLaunchers/HandOb_SMRocket.gif
+      1084: Resources/ReaversLaunchers/HandOb_FusionRocket.png
       1092: Resources/BluePlasmas/HandOb_PRifleClip.gif
       1100: Resources/BluePlasmas/HandOb_PHeavyClip.gif
       1108: Resources/TerranPlasmaWeapons/HandOb_RedClip.gif
@@ -746,6 +762,7 @@ extraSprites:
       589: Resources/LargeFacilities/rbasebits_24_ew.gif
       591: Resources/LargeFacilities/blank.gif
       592: Resources/LargeFacilities/blank.gif
+      593: Resources/LargeFacilities/basebits_23R.png
 #
       720: Resources/DestroyedFacilities/destroyed_GS2_1R.png
       721: Resources/DestroyedFacilities/destroyed_GS2_2.png
@@ -808,6 +825,7 @@ extraSprites:
       778: Resources/DestroyedFacilities/destroy_rbasebits_26.gif
       779: Resources/DestroyedFacilities/destroy_rbasebits_27.gif
       780: Resources/DestroyedFacilities/destroy_rbasebits_28.gif
+      781: Resources/DestroyedFacilities/destroy_basebits_23R.png
 # AIRCRAFT
   - type: INTICON.PCK
     files:
@@ -833,6 +851,8 @@ extraSprites:
       842: Resources/XComFiles/Vessels/Inticon/Tormentor_dogfight.png
       832: Resources/XComFiles/Vessels/Inticon/Dragonfly_Dark_minimised.png
       843: Resources/XComFiles/Vessels/Inticon/Dragonfly_Dark_dogfight.png
+      844: Resources/XComFiles/Vessels/Inticon/Dropship_minimised.png
+      855: Resources/XComFiles/Vessels/Inticon/Dropship_dogfight.png
       866: Resources/ReaversArmada/Heracles_minimised.gif
       867: Resources/ReaversArmada/Stalker_minimised.gif
       868: Resources/XComFiles/Vessels/Inticon/Sentinel_minimized.png
@@ -852,6 +872,7 @@ extraSprites:
       863: Resources/XComFiles/Vessels/Basebits/Thunder_base.png
       864: Resources/XComFiles/Vessels/Basebits/Tormentor_base.png
       865: Resources/XComFiles/Vessels/Basebits/Dragonfly_Dark_base.png
+      877: Resources/XComFiles/Vessels/Basebits/Dropship_base.png
       899: Resources/ReaversArmada/Heracles_base.gif
       900: Resources/ReaversArmada/Stalker_base.gif
       901: Resources/XComFiles/Vessels/Basebits/Sentinel_base.png
@@ -1663,10 +1684,18 @@ extraSprites:
     files:
       0: Resources/40k/DEFENSE_TURRET_PLASMA.png
   - type: BIGOBS.PCK
+    width: 32
+    height: 48
     files:
       249: Resources/40k/DEFENSE_TURRET_CORPSEBIG_AP.png
       248: Resources/40k/DEFENSE_TURRET_CORPSEBIG_LASER.png
       247: Resources/40k/DEFENSE_TURRET_CORPSEBIG_PLASMA.png
+      246: Resources/GuardianBattleAssaultTanks/bigob_turret_AP_heavy.png
+      245: Resources/GuardianBattleAssaultTanks/bigob_turret_AP_rapid.png
+      244: Resources/GuardianBattleAssaultTanks/bigob_turret_laser_heavy.png
+      243: Resources/GuardianBattleAssaultTanks/bigob_turret_laser_rapid.png
+      242: Resources/GuardianBattleAssaultTanks/bigob_turret_plasma_heavy.png
+      241: Resources/GuardianBattleAssaultTanks/bigob_turret_plasma_rapid.png
   - type: FLOOROB.PCK
     files:
       249: Resources/40k/DEFENSE_TURRET_CORPSE_AP.png

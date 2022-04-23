@@ -103,7 +103,8 @@ ufoTrajectories:
     groundTimer: 2000
     waypoints:
       - [5, 4, 100]
-      - [0, 3, 50]
+      - [0, 3, 100]
+      - [0, 0, 100]
       - [5, 2, 100]
   - id: P66 #FINAL PATROL SCOUT, ENTERS AND EXITS
     waypoints:

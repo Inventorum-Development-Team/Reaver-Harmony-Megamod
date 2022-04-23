@@ -1,7 +1,7 @@
 Reaver's X-Com Harmony - Cheat Sheet
 
-This document was designed to assist me in developing the game. The information contained herein may contain
-spoilers or the information may be out of date.
+This document was designed to assist me in developing the game. The information contained herein may be
+high spoilerific or the information may be out of date.
 
 
 
@@ -331,6 +331,76 @@ Medium Scout		27		Stingray Missile	27
 					Alloy Cannon		12
 					Cannon			10
 Small Scout		--
+
+
+
+AIRCRAFT / SPACECRAFT
+
+The following table compares the Executioner and Exterminator to the Firestorm and shows how they perform
+relative to each other.
+ *Filling the additional small pylon on the Exterminator for more accurate comparison with the Executioner.
+     EHP without Ascension Suite: tier 2 Airframe, Armor Plating (respectively)
+     EHP with Ascension Suite: tier 3 Airframe, Armor Plating (respectively)
+     Top Speed/Flight Time without Ascension Suite: tier 2 Engine
+     Top Speed/Flight Time with Ascension Suite: tier 3 Engine
+		EXECUTIONER		W/ASCENSION		FIRESTORM		W/COMBAT
+Damage Max	150			230			300			300
+Dodge		26			42			18			30
+Armor		10			20			4			19
+EHP vs. TerrorS	480			1521			739			1179
+EHP vs. SupplyS	306			852			462			860
+EHP vs. MediumD	320			814			512			795
+Repair Time	<2d2h			<3d5h			<3d3h			<3d3h
+Top Speed	1900			3700			3300			4200
+Flight Time	11h20m			9h50m			6h40m			13h20m
+Patrol Time	24h00m			20h20m			6h40m			13h20m
+Refuel Time	6h			10h			1h			2h
+Radar Range	900			1200			750			750
+Sight Range	1200			1500			1050			1050
+Detect Chance	40			45			40			40
+Approx. Cost	$2,930,000		$5,515,000		$5,940,000		$9,482,000
+		EXTERMINATOR		W/ASCENSION		FIRESTORM		W/COMBAT
+Damage Max	210			290			300			300
+Dodge		8			24			18			30
+Armor		15			25			4			19
+EHP vs. TerrorS	459	646*		1004	1713*		739			1179
+EHP vs. SupplyS	388	645*		930	2000*		462			860
+EHP vs. MediumD	363	486*	507*	756	1095*	1124*	512			795
+Repair Time	<2d22h	<3d12h		<4d1h			<3d3h			<3d3h
+Top Speed	1170	1770*		2970	3870*		3300			4200
+Flight Time	24h10m	15h40m*		14h20m	10h50m*		6h40m			13h20m
+Patrol Time	53h20m	33h20m*		29h40m	21h50m*		6h40m			13h20m
+Refuel Time	9h			14h			1h			2h
+Radar Range	600			900			750			750
+Sight Range	900			1200			1050			1050
+Detect Chance	60			65			40			40
+Soldiers	14			14			12			12
+Vehicles	3			3			2			2
+Items		252			252			336			336
+Approx. Cost	$5,860,000		$8,445,000		$5,940,000		$9,482,000
+ALLOY CANNON	12km | 26/10 | 2600	12km | 58/10 | 5760
+PULSE CANNON							25km | 25/10 | 12,656	25km | 33/10 | 16,453
+SHRIKE		37km | 18/10 | 399	37km | 33/10 | 722
+SCORPION							32km | 34/10 | 1230	32km | 44/10 | 1599
+LIGHT LASER	34km |  7/10 | 6825	34km | 12/10 | 11,960
+LASER BEAM							44km | 10/10 | 7600	44km | 13/10 | 9880
+LIGHT PLASMA	36km | 15/10 | 980	36km | 31/10 | 2009
+PLASMA BEAM							47km | 21/10 | 1814	47km | 27/10 | 2359
+L TRACTOR BEAM	54km | 3.3 Shield/10	54km | 5.3 Shield/10
+M TRACTOR BEAM							49km | 6.7 Shield/10	49km | 8.7 Shield/10
+     The Exterminator with Ascension Suite holds up very well in competition with the Firestorm, both being of very
+similar cost and overall potential in many areas. The Firestorm's largest advantages over the Exterminator are
+higher evasion and much higher speed; while the Exterminator's largest advantages are stronger armor, longer flight
+time when patrolling, a bit more crew capacity, and not spending spacecraft fuel to fly.
+     The Firestorm wins out over the Executioner for the most part, with the Executioner's primary advantages being
+that it's cheaper, it has higher evasion, and it has a greater radar range.
+     Ascension Suite-boosted small weapons are of comparable strength to Combat Suite-boosted medium weapons,
+though the mediums tend to be a bit stronger. Medium tractor beams excel in particular. This pairs well with the
+Executioner and Exterminator having two and three small pylons with which to mount these boosted weapons, compared
+to the Firestorm having only a single medium pylon.
+     It is of particular note that both the Executioner (with Ascension Suite) and Firestorm (in general) are
+especially good at fighting Terror Ships, while the Exterminator is particularly good at fighting Supply Ships.
+
 
 
 CRAFT WEAPONS		DAMAGE PER TEN SECONDS BEFORE/AFTER ACCURACY

@@ -265,6 +265,17 @@ manufacture:
       STR_ELERIUM_115: 1
     producedItems:
       STR_DEVASTATOR_PLASMA_AMMO: 2
+  - name: STR_BASE_DEFENSE_AE_MISSILES
+    listOrder: 335
+    category: STR_AMMUNITION
+    requires:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+    space: 3
+    time: 350
+    cost: 31250
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ALIEN_EXPLOSIVE_UNITS: 8
   - name: STR_BASE_DEFENSE_PLASMA
     listOrder: 340
     category: STR_AMMUNITION
@@ -655,13 +666,13 @@ manufacture:
       - STR_HYPER_WAVE_DECODER
       - STR_MIND_SHIELD
     space: 20
-    time: 2415
-    cost: 1080000
+    time: 2765
+    cost: 1240000
     requiredItems:
       STR_ALIEN_ALLOYS: 12
-      STR_ALIEN_POWER_ARRAYS: 8
+      STR_ALIEN_POWER_ARRAYS: 18
       STR_ALIEN_COMPUTER_ARRAYS: 24
-      STR_UFO_SHIELD_EMITTER: 10
+      STR_UFO_SHIELD_EMITTER: 5
   - name: STR_TANK_AE_ROCKET_GUARDIAN
     listOrder: 700
     category: STR_HEAVY_WEAPONS_PLATFORM
@@ -2852,7 +2863,7 @@ manufacture:
     requires:
       - STR_UFO_POWER_SOURCE
     space: 6
-    time: 250
+    time: 125
     cost: 0
     requiredItems:
       STR_UFO_POWER_SOURCE: 1
@@ -2864,7 +2875,7 @@ manufacture:
     requires:
       - STR_UFO_NAVIGATION
     space: 4
-    time: 150
+    time: 75
     cost: 0
     requiredItems:
       STR_UFO_NAVIGATION: 1
@@ -3317,7 +3328,7 @@ manufacture:
     producedItems:
       STR_PSIONIC_FEEDBACK_DEVICE: 1
       STR_PSIONIC_WAVE_DECODER: 4
-      STR_PSIONIC_WAVE_EMITTER: 1
+      STR_PSIONIC_WAVE_EMITTER: 2
       STR_ANTI_GRAV_UNIT: 1
       STR_TROPHY_CORPSE_ETHEREAL: 1
   - name: STR_SALVAGE_REAPER

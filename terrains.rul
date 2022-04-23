@@ -601,6 +601,18 @@ terrains:
       - name: RBASE_59
         width: 10
         length: 10
+      - name: RBASE_60
+        width: 10
+        length: 10
+      - name: RBASE_61
+        width: 10
+        length: 10
+      - name: RBASE_62
+        width: 10
+        length: 10
+      - name: RBASE_63
+        width: 10
+        length: 10
       - name: XBASS_01
         width: 10
         length: 10

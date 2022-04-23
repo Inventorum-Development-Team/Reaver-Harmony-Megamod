@@ -51,6 +51,16 @@ items:
     costSell: 24000
     categories: [STR_CAT_EARLY_TECH]
     transferTime: 48
+  - type: STR_BASE_DEFENSE_AE_MISSILES
+    listOrder: 92
+    size: 0.0
+    requiresBuy:
+      - STR_OUTSOURCING
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+    costBuy: 154000
+    costSell: 140000
+    categories: [STR_CAT_MID_TECH]
+    transferTime: 72
   - type: STR_BASE_DEFENSE_PLASMA
     listOrder: 95
     size: 0.0
@@ -642,7 +652,7 @@ items:
   - type: STR_SUITE_RECON_UG
     listOrder: 1020
     size: 0.8
-    costSell: 3025000
+    costSell: 3455000
     categories: [STR_CAT_CRAFT_EQUIPMENT, STR_CAT_HIGH_TECH]
   - type: STR_SPACECRAFT_FUEL
     listOrder: 1050
@@ -692,7 +702,7 @@ items:
     battleType: 4
     hitAnimation: 1
   - type: STR_TURRET_WEAPON_AP_H
-    bigSprite: 11
+    bigSprite: 246
     bulletSprite: 16
     fireSound: 12
     hitSound: 13
@@ -704,6 +714,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.042
+      ToTile: 0.6
     accuracySnap: 72
     tuSnap: 24
     snapRange: 15
@@ -716,7 +727,7 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_AP_R
-    bigSprite: 7
+    bigSprite: 245
     bulletSprite: 2
     fireSound: 4
     hitSound: 22
@@ -728,6 +739,8 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.072
+      ToTile: 0.44
+      TileDamageMethod: 2
     accuracySnap: 60
     tuSnap: 28
     snapRange: 10
@@ -743,7 +756,7 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_LASER_H
-    bigSprite: 317
+    bigSprite: 244
     bulletSprite: 7
     fireSound: 314
     hitSound: 303
@@ -755,6 +768,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.069
+      ToTile: 0.6
     accuracySnap: 96
     tuSnap: 32
     snapRange: 15
@@ -767,7 +781,7 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_LASER_R
-    bigSprite: 314
+    bigSprite: 243
     bulletSprite: 6
     fireSound: 11
     hitSound: 19
@@ -779,6 +793,8 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.12
+      ToTile: 0.44
+      TileDamageMethod: 2
     accuracySnap: 80
     tuSnap: 36
     snapRange: 10
@@ -794,7 +810,7 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_PLASMA_H
-    bigSprite: 304
+    bigSprite: 242
     handSprite: 0
     bulletSprite: 37
     fireSound: 316
@@ -807,6 +823,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.069
+      ToTile: 0.6
     accuracySnap: 84
     tuSnap: 28
     snapRange: 15
@@ -819,7 +836,7 @@ items:
     invWidth: 2
     invHeight: 3
   - type: STR_TURRET_WEAPON_PLASMA_R
-    bigSprite: 330
+    bigSprite: 241
     handSprite: 0
     bulletSprite: 36
     fireSound: 18
@@ -832,6 +849,8 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.12
+      ToTile: 0.44
+      TileDamageMethod: 2
     accuracySnap: 70
     tuSnap: 32
     snapRange: 10
@@ -852,13 +871,14 @@ items:
     fireSound: 4
     hitSound: 22
     hitAnimation: -1
-    power: 18
+    power: 14
     damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.75
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.075
+      TileDamageMethod: 2
     accuracyAuto: 50
     tuAuto: 40
     autoRange: 6
@@ -879,13 +899,15 @@ items:
     fireSound: 4
     hitSound: 22
     hitAnimation: -1
-    power: 24
+    power: 18
     damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.7
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.07
+      ToTile: 0.44
+      TileDamageMethod: 2
     accuracyAuto: 50
     tuAuto: 40
     autoRange: 7
@@ -906,13 +928,15 @@ items:
     fireSound: 318
     hitSound: 319
     hitAnimation: -1
-    power: 32
+    power: 24
     damageType: 1
     damageAlter:
       ArmorEffectiveness: 0.65
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.065
+      ToTile: 0.4
+      TileDamageMethod: 2
     accuracyAuto: 50
     tuAuto: 40
     autoRange: 8
@@ -933,13 +957,14 @@ items:
     fireSound: 4
     hitSound: 22
     hitAnimation: 26
-    power: 24
+    power: 32
     damageType: 1
     damageAlter:
       ArmorEffectiveness: 0.52
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.052
+      ToTile: 0.55
     accuracySnap: 75
     tuSnap: 32
     snapRange: 8
@@ -957,13 +982,14 @@ items:
     fireSound: 4
     hitSound: 22
     hitAnimation: 26
-    power: 42
+    power: 48
     damageType: 1
     damageAlter:
       ArmorEffectiveness: 0.52
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.052
+      ToTile: 0.55
     accuracySnap: 75
     tuSnap: 32
     snapRange: 8
@@ -981,13 +1007,14 @@ items:
     fireSound: 4
     hitSound: 22
     hitAnimation: 26
-    power: 60
+    power: 64
     damageType: 1
     damageAlter:
       ArmorEffectiveness: 0.52
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.052
+      ToTile: 0.55
     accuracySnap: 75
     tuSnap: 32
     snapRange: 8
@@ -1005,13 +1032,14 @@ items:
     fireSound: 12
     hitSound: 13
     hitAnimation: 26
-    power: 32
+    power: 40
     damageType: 1
     damageAlter:
       ArmorEffectiveness: 0.44
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.044
+      ToTile: 0.64
     accuracySnap: 75
     tuSnap: 32
     snapRange: 9
@@ -1029,13 +1057,14 @@ items:
     fireSound: 12
     hitSound: 13
     hitAnimation: 26
-    power: 56
+    power: 60
     damageType: 1
     damageAlter:
       ArmorEffectiveness: 0.44
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.044
+      ToTile: 0.64
     accuracySnap: 75
     tuSnap: 32
     snapRange: 9
@@ -1060,6 +1089,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.044
+      ToTile: 0.64
     accuracySnap: 75
     tuSnap: 32
     snapRange: 9
@@ -1077,13 +1107,14 @@ items:
     fireSound: 12
     hitSound: 13
     hitAnimation: 26
-    power: 43
+    power: 48
     damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.36
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.036
+      ToTile: 0.7
     accuracySnap: 75
     tuSnap: 32
     snapRange: 10
@@ -1101,13 +1132,14 @@ items:
     fireSound: 12
     hitSound: 13
     hitAnimation: 26
-    power: 75
+    power: 72
     damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.36
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.036
+      ToTile: 0.7
     accuracySnap: 75
     tuSnap: 32
     snapRange: 10
@@ -1125,13 +1157,14 @@ items:
     fireSound: 12
     hitSound: 13
     hitAnimation: 26
-    power: 107
+    power: 96
     damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.36
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.036
+      ToTile: 0.7
     accuracySnap: 75
     tuSnap: 32
     snapRange: 10
@@ -1149,13 +1182,14 @@ items:
     fireSound: 300
     hitSound: 303
     hitAnimation: -1
-    power: 36
+    power: 27
     damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.125
+      TileDamageMethod: 2
     accuracyAuto: 65
     tuAuto: 40
     autoRange: 7
@@ -1176,13 +1210,14 @@ items:
     fireSound: 300
     hitSound: 303
     hitAnimation: -1
-    power: 54
+    power: 41
     damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.25
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.125
+      TileDamageMethod: 2
     accuracyAuto: 65
     tuAuto: 40
     autoRange: 7
@@ -1203,13 +1238,15 @@ items:
     fireSound: 300
     hitSound: 303
     hitAnimation: -1
-    power: 48
+    power: 36
     damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.15
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.115
+      ToTile: 0.44
+      TileDamageMethod: 2
     accuracyAuto: 65
     tuAuto: 40
     autoRange: 8
@@ -1230,13 +1267,15 @@ items:
     fireSound: 300
     hitSound: 303
     hitAnimation: -1
-    power: 72
+    power: 54
     damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.15
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.115
+      ToTile: 0.44
+      TileDamageMethod: 2
     accuracyAuto: 65
     tuAuto: 40
     autoRange: 8
@@ -1257,13 +1296,15 @@ items:
     fireSound: 301
     hitSound: 303
     hitAnimation: -1
-    power: 64
+    power: 48
     damageType: 4
     damageAlter:
       ArmorEffectiveness: 1.05
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.105
+      ToTile: 0.4
+      TileDamageMethod: 2
     accuracyAuto: 65
     tuAuto: 40
     autoRange: 9
@@ -1284,13 +1325,15 @@ items:
     fireSound: 301
     hitSound: 303
     hitAnimation: -1
-    power: 96
+    power: 72
     damageType: 4
     damageAlter:
       ArmorEffectiveness: 1.05
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.105
+      ToTile: 0.4
+      TileDamageMethod: 2
     accuracyAuto: 65
     tuAuto: 40
     autoRange: 9
@@ -1326,7 +1369,8 @@ items:
     dropoff: 1
     bulletSpeed: 2
     arcingShot: true
-    blastRadius: 2
+    damageAlter:
+      FixRadius: 2
     clipSize: 50
     battleType: 1
     fixedWeapon: true
@@ -1365,7 +1409,7 @@ items:
     invHeight: 3
     defaultInventorySlot: STR_LEFT_HAND
   - type: STR_TANK_CANNON_GUARDIAN
-    listOrder: 1090
+    listOrder: 1110
     requiresBuy:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     size: 2
@@ -1412,7 +1456,7 @@ items:
     clipSize: 20
     fixedWeapon: true
   - type: STR_TANK_CANNON_ASSAULT
-    listOrder: 1110
+    listOrder: 1090
     requiresBuy:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     size: 2
@@ -1443,7 +1487,7 @@ items:
     invHeight: 3
     turretType: 0
   - type: STR_HWP_G_CANNON_SHELLS
-    listOrder: 1092
+    listOrder: 1112
     requiresBuy:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     size: 0.004
@@ -1464,6 +1508,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.054
+      ToTile: 0.6
     bulletSpeed: 3
     clipSize: 1
     battleType: 2
@@ -1489,13 +1534,14 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.0324
+      ToTile: 0.67
     bulletSpeed: 3
     clipSize: 1
     battleType: 2
     invWidth: 2
     invHeight: 1
   - type: STR_HWP_A_CANNON_SHELLS
-    listOrder: 1112
+    listOrder: 1092
     requiresBuy:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     size: 0.01
@@ -1516,13 +1562,14 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.02
+      ToTile: 0.75
     bulletSpeed: 3
     clipSize: 1
     battleType: 2
     invWidth: 2
     invHeight: 1
   - type: STR_TANK_ROCKET_GUARDIAN
-    listOrder: 1190
+    listOrder: 1210
     requiresBuy:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     size: 2
@@ -1565,7 +1612,7 @@ items:
     snapRange: 15
     aimRange: 45
   - type: STR_TANK_ROCKET_ASSAULT
-    listOrder: 1210
+    listOrder: 1190
     requiresBuy:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     size: 2
@@ -1593,7 +1640,7 @@ items:
     invHeight: 3
     turretType: 1
   - type: STR_HWP_G_ROCKETS
-    listOrder: 1192
+    listOrder: 1212
     requiresBuy:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     size: 0.025
@@ -1608,6 +1655,7 @@ items:
     power: 60
     damageType: 3
     damageAlter:
+      FixRadius: 4
       RadiusReduction: 12.5
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -1617,7 +1665,6 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 4
   - type: STR_HWP_ROCKETS
     listOrder: 1202
     size: 0.03
@@ -1632,6 +1679,7 @@ items:
     power: 95
     damageType: 3
     damageAlter:
+      FixRadius: 5
       RadiusReduction: 15
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -1641,9 +1689,8 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 5
   - type: STR_HWP_A_ROCKETS
-    listOrder: 1212
+    listOrder: 1192
     requiresBuy:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     size: 0.04
@@ -1660,6 +1707,7 @@ items:
     power: 145
     damageType: 3
     damageAlter:
+      FixRadius: 7
       RadiusReduction: 18.5
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -1669,9 +1717,8 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 7
   - type: STR_TANK_AE_ROCKET_GUARDIAN
-    listOrder: 1420
+    listOrder: 1440
     size: 2
     requiresBuy:
       - STR_OUTSOURCING_TANKS
@@ -1732,7 +1779,7 @@ items:
     invHeight: 3
     turretType: 1
   - type: STR_TANK_AE_ROCKET_ASSAULT
-    listOrder: 1440
+    listOrder: 1420
     size: 2
     requiresBuy:
       - STR_OUTSOURCING_TANKS
@@ -1763,7 +1810,7 @@ items:
     invHeight: 3
     turretType: 1
   - type: STR_HWP_G_AE_ROCKETS
-    listOrder: 1421
+    listOrder: 1441
     size: 0.025
     requiresBuy:
       - STR_OUTSOURCING_TANKS
@@ -1781,6 +1828,7 @@ items:
     power: 110
     damageType: 3
     damageAlter:
+      FixRadius: 5
       RadiusReduction: 16.5
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -1790,7 +1838,6 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 5
   - type: STR_HWP_B_AE_ROCKETS
     listOrder: 1431
     size: 0.03
@@ -1810,6 +1857,7 @@ items:
     power: 165
     damageType: 3
     damageAlter:
+      FixRadius: 7
       RadiusReduction: 20
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -1819,9 +1867,8 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 7
   - type: STR_HWP_A_AE_ROCKETS
-    listOrder: 1441
+    listOrder: 1421
     size: 0.04
     requiresBuy:
       - STR_OUTSOURCING_TANKS
@@ -1842,6 +1889,7 @@ items:
     power: 245
     damageType: 3
     damageAlter:
+      FixRadius: 9
       RadiusReduction: 23.5
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -1851,9 +1899,8 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 9
   - type: STR_TANK_LASER_GUARDIAN
-    listOrder: 1495
+    listOrder: 1505
     size: 2
     requiresBuy:
       - STR_OUTSOURCING_TANKS
@@ -1880,6 +1927,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.09
+      ToTile: 0.6
     accuracySnap: 75
     accuracyAimed: 130
     tuSnap: 37
@@ -1917,6 +1965,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.065
+      ToTile: 0.67
     accuracySnap: 75
     accuracyAimed: 130
     tuSnap: 37
@@ -1926,7 +1975,7 @@ items:
     dropoff: 1
     bulletSpeed: 5
   - type: STR_TANK_LASER_ASSAULT
-    listOrder: 1505
+    listOrder: 1495
     size: 2
     requiresBuy:
       - STR_OUTSOURCING_TANKS
@@ -1953,6 +2002,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.04
+      ToTile: 0.75
     accuracySnap: 75
     accuracyAimed: 130
     tuSnap: 37
@@ -1968,7 +2018,7 @@ items:
     invHeight: 3
     turretType: 2
   - type: STR_TANK_CERBERUS
-    listOrder: 1540
+    listOrder: 1545
     requiresBuy:
       - STR_OUTSOURCING_TANKS
     size: 2
@@ -2004,7 +2054,7 @@ items:
     invHeight: 1
     turretType: 1
   - type: STR_HWP_CERBERUS_FLASH_BOMBS_X5
-    listOrder: 1541
+    listOrder: 1546
     requiresBuy:
       - STR_OUTSOURCING_TANKS
     size: 0.005
@@ -2022,6 +2072,7 @@ items:
     power: 25
     damageType: 2
     damageAlter:
+      FixRadius: 1
       ToHealth: 0.75
       ToMorale: 2.0
     bulletSpeed: 2
@@ -2029,9 +2080,8 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 1
   - type: STR_TANK_VIGILANTE
-    listOrder: 1545
+    listOrder: 1540
     requiresBuy:
       - STR_OUTSOURCING_TANKS
       - STR_ALLOY_WEAPONS
@@ -2064,7 +2114,7 @@ items:
     invHeight: 3
     turretType: 0
   - type: STR_HWP_VIGILANTE_PENETRATOR_ROUNDS
-    listOrder: 1546
+    listOrder: 1541
     requiresBuy:
       - STR_OUTSOURCING_TANKS
       - STR_ALLOY_WEAPONS
@@ -2082,16 +2132,17 @@ items:
     power: 100
     damageType: 11
     damageAlter:
-      ArmorEffectiveness: 0.25
+      ArmorEffectiveness: 0.2
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.025
+      ToArmorPre: 0.02
+      ToTile: 0.75
     clipSize: 1
     battleType: 2
     invWidth: 2
     invHeight: 1
   - type: STR_HOVERTANK_PLASMA_GUARDIAN
-    listOrder: 1590
+    listOrder: 1610
     size: 2
     costSell: 4920000
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2137,7 +2188,7 @@ items:
     bulletSpeed: 4
     clipSize: 30
   - type: STR_HOVERTANK_PLASMA_ASSAULT
-    listOrder: 1610
+    listOrder: 1590
     size: 2
     costSell: 2500000
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2165,7 +2216,7 @@ items:
     invHeight: 3
     turretType: 3
   - type: STR_HWP_G_PLASMA
-    listOrder: 1595
+    listOrder: 1615
     size: 0.003
     costSell: 5200
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2183,6 +2234,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
+      ToTile: 0.6
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -2206,12 +2258,13 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.075
+      ToTile: 0.67
     clipSize: 1
     battleType: 2
     invWidth: 1
     invHeight: 3
   - type: STR_HWP_A_PLASMA
-    listOrder: 1615
+    listOrder: 1595
     size: 0.006
     costSell: 29300
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2229,12 +2282,13 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.05
+      ToTile: 0.75
     clipSize: 1
     battleType: 2
     invWidth: 1
     invHeight: 3
   - type: STR_HOVERTANK_LAUNCHER_GUARDIAN
-    listOrder: 1690
+    listOrder: 1710
     size: 2
     costSell: 4970000
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2264,7 +2318,7 @@ items:
     accuracyAimed: 100
     tuAimed: 66
   - type: STR_HOVERTANK_LAUNCHER_ASSAULT
-    listOrder: 1805
+    listOrder: 1690
     size: 2
     costSell: 2950000
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2286,7 +2340,7 @@ items:
     invHeight: 3
     turretType: 4
   - type: STR_HWP_G_FUSION_BOMB
-    listOrder: 1695
+    listOrder: 1715
     size: 0.03
     costSell: 110000
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2300,6 +2354,7 @@ items:
     power: 140
     damageType: 13
     damageAlter:
+      FixRadius: 6
       RadiusReduction: 19
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -2312,9 +2367,8 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 1
-    blastRadius: 6
   - type: STR_HWP_FUSION_BOMB
-    listOrder: 1800
+    listOrder: 1705
     size: 0.04
     costSell: 192000
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2328,6 +2382,7 @@ items:
     power: 210
     damageType: 13
     damageAlter:
+      FixRadius: 8
       RadiusReduction: 22
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -2340,9 +2395,8 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 1
-    blastRadius: 8
   - type: STR_HWP_A_FUSION_BOMB
-    listOrder: 1810
+    listOrder: 1695
     size: 0.06
     costSell: 340000
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
@@ -2356,6 +2410,7 @@ items:
     power: 315
     damageType: 13
     damageAlter:
+      FixRadius: 11
       RadiusReduction: 26
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -2367,7 +2422,6 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 1
-    blastRadius: 11
   - type: STR_COMBAT_KNIFE
     listOrder: 1860
     size: 0.003
@@ -2446,7 +2500,7 @@ items:
     experienceTrainingMode: 13
   - type: STR_POWER_BATON
     listOrder: 1870
-    size: 0.005
+    size: 0.0075
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
       - STR_POWERED_MELEE_WEAPONS
@@ -2485,7 +2539,7 @@ items:
     experienceTrainingMode: 1
   - type: STR_POWER_SWORD
     listOrder: 1875
-    size: 0.005
+    size: 0.0075
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
       - STR_POWERED_MELEE_WEAPONS
@@ -2525,7 +2579,7 @@ items:
     experienceTrainingMode: 1
   - type: STR_STUN_ROD
     listOrder: 1880
-    size: 0.005
+    size: 0.0075
     costBuy: 1260
     costSell: 945
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_EARLY_TECH]
@@ -2558,7 +2612,7 @@ items:
     experienceTrainingMode: 1
   - type: STR_SUPER_STUN_LANCE
     listOrder: 1885
-    size: 0.01
+    size: 0.015
     requiresBuy:
       - STR_OUTSOURCING
     costBuy: 40865
@@ -2728,6 +2782,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.075
+      TileDamageMethod: 2
     clipSize: 30
     battleType: 2
     armor: 40
@@ -2756,6 +2811,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.075
+      TileDamageMethod: 2
     clipSize: 30
     battleType: 2
     armor: 60
@@ -2790,7 +2846,7 @@ items:
     attraction: 10
     experienceTrainingMode: 4
   - type: STR_RIFLE_CLIP
-    size: 0.0025
+    size: 0.002
     costBuy: 800
     costSell: 600
     categories: [STR_CAT_RIFLES, STR_CAT_EARLY_TECH]
@@ -2811,7 +2867,7 @@ items:
     attraction: 10
   - type: STR_RIFLE_ALLOY_CLIP
     listOrder: 2205
-    size: 0.0025
+    size: 0.002
     requiresBuy:
       - STR_OUTSOURCING_GWEAPONS
       - STR_ALLOY_WEAPONS
@@ -2877,7 +2933,7 @@ items:
     experienceTrainingMode: 5
   - type: STR_MACHINEGUN_CLIP
     listOrder: 2215
-    size: 0.003
+    size: 0.0025
     costBuy: 1600
     costSell: 1200
     categories: [STR_CAT_RIFLES, STR_CAT_EARLY_TECH]
@@ -2895,13 +2951,14 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.075
+      TileDamageMethod: 2
     clipSize: 70
     battleType: 2
     armor: 40
     attraction: 10
   - type: STR_MACHINEGUN_ALLOY_CLIP
     listOrder: 2220
-    size: 0.003
+    size: 0.0025
     requiresBuy:
       - STR_OUTSOURCING_GWEAPONS
       - STR_ALLOY_WEAPONS
@@ -2923,6 +2980,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.075
+      TileDamageMethod: 2
     clipSize: 70
     battleType: 2
     armor: 60
@@ -3071,13 +3129,65 @@ items:
     armor: 999
     attraction: 15
     experienceTrainingMode: 5 # The Battle Rifle is a limited edition item available only to closed alpha testers
+  - type: STR_TERRAIN_DESTROYER
+    listOrder: 1
+    size: 0.01
+    requiresBuy:
+      - STR_ALIENS_ONLY
+#      - STR_SOLDIER_SCREENING
+    costBuy: 100
+    transferTime: 1
+    costSell: 100
+    categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
+    weight: 17
+    bigSprite: 405
+    floorSprite: 319
+    handSprite: 444
+    bulletSprite: 12
+    fireSound: 318
+    explosionHitSound: 322
+    explosionSpeed: 12
+    power: 250
+    damageType: 13
+    damageAlter:
+      FixRadius: 15
+      RadiusReduction: 0
+      ToArmor: 0
+      ToHealth: 0
+      ToWound: 0
+      ToStun: 0
+      ToTile: 10
+      FireThreshold: 99999
+      SmokeThreshold: 99999
+    accuracyAuto: 200
+    accuracySnap: 200
+    accuracyAimed: 200
+    tuAuto: 1
+    tuSnap: 1
+    tuAimed: 1
+    autoRange: 60
+    snapRange: 60
+    aimRange: 60
+    bulletSpeed: 18
+    confSnap:
+      shots: 1
+    confAimed:
+      shots: 2
+    autoShots: 5
+    sprayWaypoints: 2
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 999 # The Terrain Destroyer is a debug tool only
   - type: STR_HEAVY_CANNON
     size: 0.025
     costBuy: 25600
     costSell: 19200
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_EARLY_TECH]
     weight: 16
-    bigSprite: 11
+    bigSprite: 414
     floorSprite: 11
     handSprite: 24
     fireSound: 12
@@ -3128,9 +3238,12 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.036
+      ToTile: 0.67
     clipSize: 6
     armor: 40
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 1
   - type: STR_HC_HE_AMMO
     size: 0.005
     costBuy: 2000
@@ -3142,15 +3255,17 @@ items:
     power: 50
     damageType: 3
     damageAlter:
-      RadiusReduction: 11
+      FixRadius: 3
+      RadiusReduction: 11 #22%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
     clipSize: 6
-    blastRadius: 3
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 2
   - type: STR_HC_I_AMMO
     size: 0.005
     costBuy: 1600
@@ -3162,12 +3277,15 @@ items:
     explosionSpeed: -1
     power: 50
     damageAlter:
+      FixRadius: 2
       ToHealth: 1.0
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 6
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 3
   - type: STR_HC_ALLOY_AMMO
     listOrder: 2605
     size: 0.005
@@ -3192,12 +3310,15 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.036
+      ToTile: 0.67
     clipSize: 6
     battleType: 2
     invWidth: 2
     invHeight: 1
     armor: 60
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 4
   - type: STR_HC_AE_AMMO
     listOrder: 2610
     size: 0.005
@@ -3218,7 +3339,8 @@ items:
     power: 90
     damageType: 3
     damageAlter:
-      RadiusReduction: 15
+      FixRadius: 5
+      RadiusReduction: 15 #16.7%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
@@ -3227,16 +3349,17 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-    blastRadius: 5
     armor: 50
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 5
   - type: STR_AUTO_CANNON
     size: 0.03
     costBuy: 54000
     costSell: 40500
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_EARLY_TECH]
     weight: 19
-    bigSprite: 7
+    bigSprite: 445
     floorSprite: 7
     handSprite: 32
     fireSound: 12
@@ -3287,9 +3410,13 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.054
+      ToTile: 0.4
+      TileDamageMethod: 2
     clipSize: 24
     armor: 40
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 413
   - type: STR_AC_HE_AMMO
     size: 0.005
     costBuy: 3500
@@ -3302,15 +3429,17 @@ items:
     power: 30
     damageType: 3
     damageAlter:
-      RadiusReduction: 9
+      FixRadius: 2
+      RadiusReduction: 9 #30%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
     clipSize: 24
-    blastRadius: 2
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 414
   - type: STR_AC_I_AMMO
     size: 0.005
     costBuy: 2800
@@ -3322,12 +3451,15 @@ items:
     explosionSpeed: 4
     power: 30
     damageAlter:
+      FixRadius: 1
       ToHealth: 0.8
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 24
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 415
   - type: STR_AC_ALLOY_AMMO
     listOrder: 3005
     size: 0.005
@@ -3352,12 +3484,16 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.054
+      ToTile: 0.4
+      TileDamageMethod: 2
     clipSize: 24
     battleType: 2
     invWidth: 2
     invHeight: 1
     armor: 60
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 416
   - type: STR_AC_AE_AMMO
     listOrder: 3010
     size: 0.005
@@ -3379,7 +3515,8 @@ items:
     power: 55
     damageType: 3
     damageAlter:
-      RadiusReduction: 11
+      FixRadius: 3
+      RadiusReduction: 12 #21.8%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
@@ -3388,9 +3525,10 @@ items:
     battleType: 2
     invWidth: 2
     invHeight: 1
-    blastRadius: 3
     armor: 50
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 417
   - type: STR_GRENADE_LAUNCHER
     listOrder: 3050
     size: 0.02
@@ -3444,7 +3582,8 @@ items:
     power: 60
     damageType: 3
     damageAlter:
-      RadiusReduction: 12
+      FixRadius: 4
+      RadiusReduction: 12 #20%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
@@ -3453,9 +3592,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 1
-    blastRadius: 4
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 34
   - type: STR_GRENADE_ROUND_IN
     listOrder: 3060
     size: 0.0025
@@ -3471,6 +3611,7 @@ items:
     power: 60
     damageType: 2
     damageAlter:
+      FixRadius: 2
       ToHealth: 1.1
       ToMorale: 2.0
       IgnoreOverKill: false
@@ -3478,9 +3619,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 1
-    blastRadius: 3
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 35
   - type: STR_GRENADE_ROUND_SM
     listOrder: 3065
     size: 0.0025
@@ -3496,13 +3638,17 @@ items:
     explosionSpeed: -3
     power: 60
     damageType: 9
+    damageAlter:
+      FixRadius: 5
     clipSize: 1
+    isFireExtinguisher: true
     battleType: 2
     invWidth: 1
     invHeight: 1
-    blastRadius: 5
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 36
   - type: STR_GRENADE_ROUND_AE
     listOrder: 3070
     size: 0.0025
@@ -3521,7 +3667,8 @@ items:
     power: 110
     damageType: 3
     damageAlter:
-      RadiusReduction: 16
+      FixRadius: 6
+      RadiusReduction: 16 #14.6%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
@@ -3530,9 +3677,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 1
-    blastRadius: 5
     armor: 30
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 33
   - type: STR_GRENADE_ROUND_ST
     listOrder: 3075
     size: 0.0025
@@ -3547,15 +3695,17 @@ items:
     power: 110
     damageType: 6
     damageAlter:
+      FixRadius: 5
       RadiusReduction: 10
       ArmorEffectiveness: 0.3
     clipSize: 1
     battleType: 2
     invWidth: 1
     invHeight: 1
-    blastRadius: 5
     armor: 30
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 37
   - type: STR_ROCKET_LAUNCHER
     listOrder: 3100
     size: 0.03
@@ -3563,6 +3713,11 @@ items:
     costSell: 12000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_EARLY_TECH]
     weight: 10
+    bigSprite: 446
+    floorSprite: 15
+    handSprite: 72
+    bulletSprite: 0
+    fireSound: 52
     compatibleAmmo:
       - STR_EXPLOSIVE_ROCKET
       - STR_INCENDIARY_ROCKET
@@ -3600,15 +3755,20 @@ items:
     explosionSpeed: -3
     power: 100
     damageType: 9
-    blastRadius: 9
+    damageAlter:
+      FixRadius: 9
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 419
   - type: STR_LARGE_ROCKET
     listOrder: 3150
     size: 0.0075
     costBuy: 0
     categories: [STR_CAT_LAUNCHERS, STR_CAT_EARLY_TECH]
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 416
   - type: STR_EXPLOSIVE_ROCKET
     listOrder: 3110
     size: 0.0075
@@ -3623,6 +3783,7 @@ items:
     power: 100
     damageType: 3
     damageAlter:
+      FixRadius: 5
       RadiusReduction: 15.5
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -3632,9 +3793,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 5
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 416
   - type: STR_INCENDIARY_ROCKET
     listOrder: 3115
     size: 0.0075
@@ -3649,12 +3811,14 @@ items:
     power: 100
     damageType: 2
     damageAlter:
+      FixRadius: 5
       ToHealth: 1.5
       ToMorale: 2.0
       IgnoreOverKill: false
-    blastRadius: 5
     armor: 30
     attraction: 10
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 418
   - type: STR_ALIEN_ROCKET
     listOrder: 3120
     size: 0.0075
@@ -3674,6 +3838,7 @@ items:
     power: 180
     damageType: 3
     damageAlter:
+      FixRadius: 7
       RadiusReduction: 21
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -3683,9 +3848,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 7
     armor: 50
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 415
   - type: STR_FUSION_ROCKET
     listOrder: 3125
     size: 0.0075
@@ -3702,6 +3868,7 @@ items:
     power: 320
     damageType: 13
     damageAlter:
+      FixRadius: 5
       RadiusReduction: 31
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -3714,9 +3881,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 5
     armor: 60
     attraction: 20
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 417
   - type: STR_LASER_PISTOL
     listOrder: 3500
     size: 0.005
@@ -3789,6 +3957,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.125
+      TileDamageMethod: 2
     accuracyAuto: 56
     accuracySnap: 64
     accuracyAimed: 100
@@ -3875,6 +4044,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.125
+      TileDamageMethod: 2
     accuracyAuto: 67
     accuracySnap: 68
     accuracyAimed: 88
@@ -3924,6 +4094,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.06
+      ToTile: 0.67
     accuracyAuto: 53
     accuracySnap: 99
     accuracyAimed: 121
@@ -3973,6 +4144,8 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.09
+      ToTile: 0.4
+      TileDamageMethod: 2
     accuracyAuto: 74
     accuracySnap: 83
     accuracyAimed: 96
@@ -4165,6 +4338,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.125
+      TileDamageMethod: 2
     clipSize: 42
     battleType: 2
     armor: 60
@@ -4203,7 +4377,7 @@ items:
     experienceTrainingMode: 4
   - type: STR_PLASMA_RIFLE_TERRAN_CLIP
     listOrder: 3816
-    size: 0.0025
+    size: 0.002
     costSell: 12600
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
     weight: 3
@@ -4262,7 +4436,7 @@ items:
     experienceTrainingMode: 5
   - type: STR_PLASMA_MACHINEGUN_CLIP
     listOrder: 3821
-    size: 0.003
+    size: 0.0025
     costSell: 23200
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
     weight: 5
@@ -4279,6 +4453,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.125
+      TileDamageMethod: 2
     clipSize: 100
     battleType: 2
     armor: 60
@@ -4321,7 +4496,7 @@ items:
     experienceTrainingMode: 4
   - type: STR_HEAVY_PLASMA_TERRAN_CLIP
     listOrder: 3826
-    size: 0.0035
+    size: 0.0025
     costSell: 19200
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
     weight: 4
@@ -4338,6 +4513,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.06
+      ToTile: 0.67
     clipSize: 12
     battleType: 2
     armor: 60
@@ -4381,7 +4557,7 @@ items:
     experienceTrainingMode: 5
   - type: STR_PLASMA_ASSAULT_CANNON_CLIP
     listOrder: 3831
-    size: 0.004
+    size: 0.003
     costSell: 36200
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
     weight: 7
@@ -4398,6 +4574,8 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.09
+      ToTile: 0.4
+      TileDamageMethod: 2
     clipSize: 40
     battleType: 2
     armor: 60
@@ -4449,6 +4627,7 @@ items:
     power: 260
     damageType: 13
     damageAlter:
+      FixRadius: 4
       RadiusReduction: 28
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -4460,9 +4639,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 2
-    blastRadius: 4
     armor: 60
     attraction: 20
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 54
   - type: STR_BLASTER_HE_BOMB
     listOrder: 3910
     size: 0.005
@@ -4483,6 +4663,7 @@ items:
     power: 140
     damageType: 3
     damageAlter:
+      FixRadius: 6
       RadiusReduction: 18.5
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -4492,9 +4673,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 2
-    blastRadius: 6
     armor: 60
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 55
   - type: STR_BLASTER_I_BOMB
     listOrder: 3915
     size: 0.005
@@ -4515,6 +4697,7 @@ items:
     power: 140
     damageType: 2
     damageAlter:
+      FixRadius: 7
       ToHealth: 1.9
       ToMorale: 2.0
       IgnoreOverKill: false
@@ -4522,9 +4705,10 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 2
-    blastRadius: 7
     armor: 60
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 56
   - type: STR_BLASTER_STUN_BOMB
     listOrder: 3920
     size: 0.005
@@ -4539,15 +4723,17 @@ items:
     power: 140
     damageType: 6
     damageAlter:
+      FixRadius: 7
       RadiusReduction: 10
       ArmorEffectiveness: 0.2
     clipSize: 1
     battleType: 2
     invWidth: 1
     invHeight: 2
-    blastRadius: 7
     armor: 60
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 57
   - type: STR_SMALL_LAUNCHER_TERRAN
     listOrder: 3950
     size: 0.02
@@ -4593,14 +4779,16 @@ items:
     power: 90
     damageType: 6
     damageAlter:
+      FixRadius: 4
       RadiusReduction: 10
       ArmorEffectiveness: 0.3
     clipSize: 1
     battleType: 2
-    blastRadius: 4
     recoveryPoints: 1
     armor: 40
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 54
   - type: STR_HE_BOMB
     listOrder: 3960
     size: 0.0025
@@ -4621,6 +4809,7 @@ items:
     power: 90
     damageType: 3
     damageAlter:
+      FixRadius: 5
       RadiusReduction: 15
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -4628,9 +4817,10 @@ items:
       ToArmorPre: 0.1
     clipSize: 1
     battleType: 2
-    blastRadius: 5
     armor: 40
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 51
   - type: STR_SMOKE_BOMB
     listOrder: 3965
     size: 0.0025
@@ -4649,13 +4839,16 @@ items:
     bulletSprite: 22
     hitAnimation: 80
     explosionSpeed: -3
-    power: 40
+    power: 50
     damageType: 9
+    damageAlter:
+      FixRadius: 4
     clipSize: 1
     battleType: 2
-    blastRadius: 3
     armor: 40
     attraction: 15
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 53
   - type: STR_INCENDIARY_BOMB
     listOrder: 3970
     size: 0.0025
@@ -4676,345 +4869,518 @@ items:
     power: 90
     damageType: 2
     damageAlter:
+      FixRadius: 3
       ToHealth: 1.4
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
     battleType: 2
-    blastRadius: 3
     armor: 40
     attraction: 15
-  - type: STR_PLASMA_PISTOL
-    listOrder: 4100
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.005
-    costSell: 42000
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 6
-    bigSprite: 306
-    floorSprite: 330
-    hitSound: 19
-    hitAnimation: 39
-    accuracyAuto: 39
-    accuracySnap: 72
-    accuracyAimed: 102
-    tuAuto: 13
-    tuSnap: 19
-    tuAimed: 40
-    autoRange: 9
-    snapRange: 16
-    aimRange: 25
-    dropoff: 1
-    bulletSpeed: 4
-    confAuto:
-      shots: 1
-      name: STR_RAPID_FIRE
-      shortName: STR_RAPID_FIRE_SHORT
-    tuLoad: 10
-    recoveryPoints: 2
-    armor: 120
-    attraction: 20
-  - type: STR_PLASMA_PISTOL_CLIP
-    listOrder: 4105
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.003
-    costSell: 4600
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 2
-    bigSprite: 307
-    floorSprite: 328
-    handSprite: 1092
-    bulletSprite: 8
-    power: 81
-    damageType: 5
-    damageAlter:
-      ArmorEffectiveness: 1.0
-      IgnoreOverKill: false
-      ToArmor: 0
-      ToArmorPre: 0.1
-    clipSize: 18
-    recoveryPoints: 1
-    armor: 60
-    attraction: 20
-  - type: STR_PLASMA_RIFLE
-    listOrder: 4110
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.008
-    costSell: 63250
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 10
-    bigSprite: 308
-    floorSprite: 324
-    handSprite: 484
-    fireSound: 18
-    accuracyAuto: 56
-    accuracySnap: 81
-    accuracyAimed: 127
-    tuAuto: 40
-    tuSnap: 27
-    tuAimed: 69
+    tags: 
+      NEW_BIGOB_FOR_WEAPON: 52
+  - type: STR_POWER_SUIT_PISTOL
+    listOrder: 4200
+    size: 0.01
+    costSell: 2100000
+    categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
+    weight: 31
+    bigSprite: 362
+    floorSprite: 357
+    handSprite: 604
+    fireSound: 315
+    compatibleAmmo:
+      - STR_POWER_SUIT_PISTOL_CLIP
+    accuracyAuto: 45
+    accuracySnap: 74
+    accuracyAimed: 110
+    tuAuto: 31
+    tuSnap: 23
+    tuAimed: 45
     autoRange: 10
     snapRange: 18
-    aimRange: 40
+    aimRange: 30
     dropoff: 1
-    bulletSpeed: 4
+    bulletSpeed: 6
     autoShots: 2
-    tuLoad: 10
-    recoveryPoints: 3
-    armor: 120
-    attraction: 20
-  - type: STR_PLASMA_RIFLE_CLIP
-    listOrder: 4115
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.004
-    costSell: 6300
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 3
-    bigSprite: 309
-    floorSprite: 328
-    handSprite: 1092
-    bulletSprite: 8
+    tuLoad: 6
+    battleType: 1
+    invWidth: 2
+    invHeight: 2
+    armor: 150
+    attraction: 25
+    experienceTrainingMode: 14
+  - type: STR_POWER_SUIT_PISTOL_CLIP
+    listOrder: 4205
+    size: 0.0035
+    costSell: 340000
+    categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
+    weight: 5
+    bigSprite: 363
+    floorSprite: 358
+    handSprite: 612
+    bulletSprite: 36
     hitSound: 19
-    hitAnimation: 46
-    power: 90
+    hitAnimation: 56
+    power: 110
     damageType: 5
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    clipSize: 21
-    recoveryPoints: 1
-    armor: 60
-    attraction: 20
-  - type: STR_HEAVY_PLASMA
-    listOrder: 4120
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.025
-    costSell: 85800
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 21
-    bigSprite: 310
-    handSprite: 316
-    fireSound: 316
-    accuracyAuto: 49
-    accuracySnap: 90
-    accuracyAimed: 110
-    tuAuto: 29
-    tuSnap: 42
-    tuAimed: 77
-    autoRange: 8
-    snapRange: 16
-    aimRange: 32
-    dropoff: 1
-    bulletSpeed: 4
+    clipSize: 10
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 90
+    attraction: 25
+  - type: STR_POWER_SUIT_RIFLE
+    listOrder: 4220
+    size: 0.015
+    costSell: 3480000
+    categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
+    weight: 36
+    bigSprite: 364
+    floorSprite: 359
+    handSprite: 620
+    fireSound: 312
+    compatibleAmmo:
+      - STR_POWER_SUIT_RIFLE_CLIP
+    accuracyAuto: 30
+    accuracySnap: 60
+    accuracyAimed: 100
+    tuAuto: 24
+    tuSnap: 36
+    tuAimed: 58
+    autoRange: 1
+    snapRange: 5
+    aimRange: 15
+    dropoff: 2
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
       shortName: STR_RAPID_FIRE_SHORT
-    tuLoad: 15
+    tuLoad: 6
     battleType: 1
     twoHanded: true
-    blockBothHands: true
     invWidth: 2
     invHeight: 3
-    recoveryPoints: 4
-    armor: 120
-    attraction: 20
-  - type: STR_HEAVY_PLASMA_CLIP
-    listOrder: 4125
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.0035
-    costSell: 9600
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 4
-    bigSprite: 311
-    floorSprite: 328
-    handSprite: 1092
-    bulletSprite: 33
+    armor: 150
+    attraction: 25
+    experienceTrainingMode: 5
+  - type: STR_POWER_SUIT_RIFLE_CLIP
+    listOrder: 4225
+    size: 0.004
+    costSell: 434000
+    categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
+    weight: 7
+    bigSprite: 365
+    floorSprite: 360
+    handSprite: 628
     hitSound: 19
     hitAnimation: 46
-    power: 135
-    damageType: 15
+    shotgunPellets: 10
+    shotgunSpread: 60
+    shotgunBehavior: 1
+    shotgunChoke: 100
+    power: 33
+    damageType: 8
     damageAlter:
-      ArmorEffectiveness: 0.6
+      ArmorEffectiveness: 1.5
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.06
-    clipSize: 12
-    recoveryPoints: 1
-    armor: 60
-    attraction: 20
-  - type: STR_BLASTER_LAUNCHER
-    listOrder: 4140
-    requires:
-      - STR_ALIENS_ONLY
+      ToArmorPre: 0.5
+      ToTile: 1.6
+      TileDamageMethod: 2
+      RandomType: 1
+    clipSize: 6
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 90
+    attraction: 25
+  - type: STR_POWER_SUIT_HEAVY
+    listOrder: 4240
     size: 0.03
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    costSell: 72000
-    weight: 16
-    bigSprite: 385
-    floorSprite: 34
-    handSprite: 56
-    bulletSprite: 10
-    fireSound: 53
+    costSell: 4250000
+    categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
+    weight: 60
+    bigSprite: 356
+    floorSprite: 351
+    handSprite: 556
+    fireSound: 314
     compatibleAmmo:
-      - STR_BLASTER_BOMB
-    accuracyAimed: 120
-    tuAimed: 66
-    bulletSpeed: 3
-    confAimed:
-      name: STR_LAUNCH_MISSILE
-      shortName: STR_LAUNCH_MISSILE_SHORT
-    tuLoad: 10
+      - STR_POWER_SUIT_HEAVY_CLIP
+    accuracyAuto: 54
+    accuracySnap: 100
+    accuracyAimed: 121
+    tuAuto: 36
+    tuSnap: 53
+    tuAimed: 85
+    autoRange: 12
+    snapRange: 20
+    aimRange: 40
+    dropoff: 1
+    bulletSpeed: 8
+    confAuto:
+      shots: 1
+      name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
+    tuLoad: 6
     battleType: 1
     twoHanded: true
     blockBothHands: true
-    waypoints: 6
     invWidth: 2
     invHeight: 3
-    recoveryPoints: 5
-    armor: 120
-    attraction: 20
-  - type: STR_BLASTER_BOMB
-    listOrder: 4145
-    requires:
-      - STR_ALIENS_ONLY
+    armor: 150
+    attraction: 25
+    experienceTrainingMode: 4
+  - type: STR_POWER_SUIT_HEAVY_CLIP
+    listOrder: 4245
     size: 0.005
-    costSell: 85140
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH, STR_CAT_ALIEN_ARTIFACTS]
-    weight: 4
-    bigSprite: 36
-    floorSprite: 35
-    handSprite: 804
+    costSell: 556000
+    categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
+    weight: 6
+    bigSprite: 357
+    floorSprite: 352
+    handSprite: 564
+    bulletSprite: 47
+    hitSound: 303
+    hitAnimation: 86
+    power: 165
+    damageType: 14
+    damageAlter:
+      ArmorEffectiveness: 0.48
+      IgnoreOverKill: false
+      ToArmor: 0
+      ToArmorPre: 0.048
+      ToTile: 0.67
+    clipSize: 4
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 90
+    attraction: 25
+  - type: STR_POWER_SUIT_LAUNCHER
+    listOrder: 4260
+    size: 0.025
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 22
+    bigSprite: 358
+    floorSprite: 353
+    handSprite: 572
+    fireSound: 53
+    compatibleAmmo:
+      - STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
+      - STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
+      - STR_POWER_SUIT_LAUNCHER_F_BOMB_H
+      - STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
+      - STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
+      - STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
+      - STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
+      - STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
+      - STR_POWER_SUIT_LAUNCHER_SM_BOMB_L
+      - STR_POWER_SUIT_LAUNCHER_ST_BOMB_L
+    ammo:
+      0:
+        compatibleAmmo: [ STR_POWER_SUIT_LAUNCHER_AP_BOMB_H, STR_POWER_SUIT_LAUNCHER_EX_BOMB_H, STR_POWER_SUIT_LAUNCHER_F_BOMB_H, STR_POWER_SUIT_LAUNCHER_IN_BOMB_H, STR_POWER_SUIT_LAUNCHER_ST_BOMB_H ]
+        tuLoad: 6
+        tuUnload: 3
+      1:
+        compatibleAmmo: [ STR_POWER_SUIT_LAUNCHER_AP_BOMB_L, STR_POWER_SUIT_LAUNCHER_EX_BOMB_L, STR_POWER_SUIT_LAUNCHER_IN_BOMB_L, STR_POWER_SUIT_LAUNCHER_SM_BOMB_L, STR_POWER_SUIT_LAUNCHER_ST_BOMB_L ]
+        tuLoad: 8
+        tuUnload: 4
+    accuracyAuto: 60
+    accuracySnap: 125
+    accuracyAimed: 135
+    tuAuto: 28
+    tuSnap: 65
+    tuAimed: 75
+    autoRange: 15
+    snapRange: 30
+    aimRange: 40
+    dropoff: 2
+    bulletSpeed: 4
+    confAimed:
+      shots: 1
+      name: STR_LAUNCH_MISSILE
+      shortName: STR_LAUNCH_MISSILE_SHORT
+      ammoSlot: 0
+    confSnap:
+      shots: 1
+      name: STR_LAUNCH_BOMB_AIMED
+      shortName: STR_LAUNCH_BOMB_AIMED_SHORT
+      ammoSlot: 1
+    confAuto:
+      shots: 1
+      name: STR_LAUNCH_BOMB_SNAP
+      shortName: STR_LAUNCH_BOMB_SNAP_SHORT
+      ammoSlot: 1
+    tuLoad: 6
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 2
+    invHeight: 3
+    armor: 150
+    attraction: 25
+  - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
+    listOrder: 4265
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 11
+    bigSprite: 399
+    floorSprite: 381
+    handSprite: 764
+    bulletSprite: 18
+    hitSound: 317
+    hitAnimation: 26
+    power: 185
+    damageType: 11
+    damageAlter:
+      ArmorEffectiveness: 0.18
+      IgnoreOverKill: false
+      ToArmor: 0
+      ToArmorPre: 0.018
+      ToTile: 0.67
+    clipSize: 1
+    battleType: 2
+    waypoints: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 90
+    attraction: 20
+  - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
+    listOrder: 4266
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 8
+    bigSprite: 398
+    floorSprite: 380
+    handSprite: 756
+    bulletSprite: 45
+    power: 180
+    damageType: 3
+    damageAlter:
+      FixRadius: 7
+      RadiusReduction: 21
+      ArmorEffectiveness: 0.5
+      IgnoreOverKill: false
+      ToArmor: 0
+      ToArmorPre: 0.1
+    clipSize: 1
+    battleType: 2
+    waypoints: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 90
+    attraction: 20
+  - type: STR_POWER_SUIT_LAUNCHER_F_BOMB_H
+    listOrder: 4267
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 11
+    bigSprite: 401
+    floorSprite: 385
+    handSprite: 780
     bulletSprite: 10
-    explosionHitSound: 320
-    explosionSpeed: -2
-    power: 260
+    power: 320
     damageType: 13
     damageAlter:
-      RadiusReduction: 28
+      FixRadius: 5
+      RadiusReduction: 31
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
-      ToTile: 0.7
+      ToTile: 0.775
     clipSize: 1
     battleType: 2
+    waypoints: 7
     invWidth: 1
-    invHeight: 2
-    blastRadius: 4
-    recoveryPoints: 2
-    armor: 60
-    attraction: 20
-  - type: STR_SMALL_LAUNCHER
-    listOrder: 4150
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.02
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    costSell: 60000
-    weight: 10
-    bigSprite: 383
-    floorSprite: 36
-    handSprite: 500
-    bulletSprite: 9
-    fireSound: 53
-    compatibleAmmo:
-      - STR_STUN_BOMB
-    accuracySnap: 45
-    accuracyAimed: 100
-    tuSnap: 22
-    tuAimed: 54
-    snapRange: 12
-    aimRange: 25
-    bulletSpeed: 5
-    tuLoad: 5
-    battleType: 1
-    twoHanded: false
-    invWidth: 2
-    invHeight: 2
-    recoveryPoints: 4
-    armor: 120
-    attraction: 20
-  - type: STR_STUN_BOMB
-    listOrder: 4155
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.0025
-    costSell: 15200
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH, STR_CAT_ALIEN_ARTIFACTS]
-    weight: 2
-    bigSprite: 38
-    floorSprite: 37
-    handSprite: 844
-    bulletSprite: 44
+    invHeight: 3
+    armor: 90
+    attraction: 25
+  - type: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
+    listOrder: 4268
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 11
+    bigSprite: 402
+    floorSprite: 384
+    handSprite: 788
+    bulletSprite: 46
+    power: 180
+    damageType: 2
+    damageAlter:
+      FixRadius: 8
+      ToHealth: 2.3
+      ToMorale: 2.0
+      IgnoreOverKill: false
+    clipSize: 1
+    battleType: 2
+    waypoints: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 90
+    attraction: 15
+  - type: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
+    listOrder: 4270
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 11
+    bigSprite: 400
+    floorSprite: 382
+    handSprite: 772
+    bulletSprite: 10
     hitAnimation: 100
-    power: 90
+    power: 180
     damageType: 6
     damageAlter:
+      FixRadius: 9
       RadiusReduction: 10
       ArmorEffectiveness: 0.3
     clipSize: 1
     battleType: 2
-    blastRadius: 4
-    recoveryPoints: 1
-    armor: 40
+    waypoints: 7
+    invWidth: 1
+    invHeight: 3
+    armor: 90
     attraction: 20
-  - type: STR_ALIEN_GRENADE
-    listOrder: 4170
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.002
-    costSell: 5930
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 2
-    handSprite: 892
-    power: 125
+  - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
+    listOrder: 4275
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 13
+    bigSprite: 360
+    floorSprite: 355
+    handSprite: 588
+    bulletSprite: 16
+    hitSound: 319
+    hitAnimation: 26
+    power: 95
+    damageType: 11
+    damageAlter:
+      ArmorEffectiveness: 0.29
+      IgnoreOverKill: false
+      ToArmor: 0
+      ToArmorPre: 0.029
+      ToTile: 0.67
+    clipSize: 3
+    battleType: 2
+    waypoints: 5
+    invWidth: 1
+    invHeight: 3
+    armor: 90
+    attraction: 20
+  - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
+    listOrder: 4276
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 10
+    bigSprite: 359
+    floorSprite: 354
+    handSprite: 580
+    bulletSprite: 23
+    power: 110
     damageType: 3
     damageAlter:
-      RadiusReduction: 17
+      FixRadius: 5
+      RadiusReduction: 16
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    battleType: 4
-    blastRadius: 6
-    fuseType: 0
-    tuThrow: 25
-    tuPrime: 40
-    tuUnprime: 20
-    recoveryPoints: 1
-    armor: 50
+    clipSize: 3
+    battleType: 2
+    waypoints: 5
+    invWidth: 1
+    invHeight: 3
+    armor: 90
     attraction: 20
-  - type: STR_MIND_PROBE
-    listOrder: 4180
-    requires:
-      - STR_ALIENS_ONLY
-    size: 0.0125
-    costSell: 179000
-    categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 5
-    bigSprite: 29
-    floorSprite: 28
-    handSprite: 956
-    hitSound: 37
-    battleType: 8
-    invWidth: 2
-    invHeight: 2
-    tuUse: 18
-    recoveryPoints: 8
-    armor: 80
+  - type: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
+    listOrder: 4278
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 13
+    bigSprite: 367
+    floorSprite: 362
+    handSprite: 644
+    bulletSprite: 23
+    power: 110
+    damageType: 2
+    damageAlter:
+      FixRadius: 4
+      ToHealth: 1.6
+      ToMorale: 2.0
+      IgnoreOverKill: false
+    clipSize: 3
+    battleType: 2
+    waypoints: 5
+    invWidth: 1
+    invHeight: 3
+    armor: 90
     attraction: 15
+  - type: STR_POWER_SUIT_LAUNCHER_SM_BOMB_L
+    listOrder: 4279
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 10
+    bigSprite: 368
+    floorSprite: 361
+    handSprite: 652
+    bulletSprite: 22
+    hitAnimation: 80
+    explosionSpeed: -3
+    power: 50
+    damageType: 9
+    damageAlter:
+      FixRadius: 4
+    clipSize: 3
+    battleType: 2
+    waypoints: 5
+    invWidth: 1
+    invHeight: 3
+    armor: 90
+    attraction: 15
+  - type: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L
+    listOrder: 4280
+    size: 0.0075
+    costSell: 0
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
+    weight: 13
+    bigSprite: 361
+    floorSprite: 356
+    handSprite: 596
+    bulletSprite: 44
+    hitAnimation: 100
+    power: 110
+    damageType: 6
+    damageAlter:
+      FixRadius: 5
+      RadiusReduction: 10
+      ArmorEffectiveness: 0.3
+    clipSize: 3
+    battleType: 2
+    waypoints: 5
+    invWidth: 1
+    invHeight: 3
+    armor: 90
+    attraction: 20
   - type: STR_GRENADE
-    listOrder: 4200
+    listOrder: 4300
     size: 0.002
     costBuy: 300
     costSell: 240
@@ -5023,12 +5389,13 @@ items:
     power: 70
     damageType: 3
     damageAlter:
-      RadiusReduction: 13
+      FixRadius: 4
+      RadiusReduction: 13 #18.6%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 4
+    battleType: 4
     fuseType: 0
     tuThrow: 25
     tuPrime: 40
@@ -5037,7 +5404,7 @@ items:
     armor: 30
     attraction: 10
   - type: STR_SMOKE_GRENADE
-    listOrder: 4210
+    listOrder: 4310
     size: 0.002
     costBuy: 150
     costSell: 120
@@ -5048,7 +5415,10 @@ items:
     explosionSpeed: -3
     power: 70
     damageType: 9
-    blastRadius: 6
+    damageAlter:
+      FixRadius: 6
+    isFireExtinguisher: true
+    battleType: 4
     fuseType: 0
     tuThrow: 25
     tuPrime: 40
@@ -5056,7 +5426,7 @@ items:
     armor: 30
     attraction: 10
   - type: STR_PROXIMITY_GRENADE
-    listOrder: 4220
+    listOrder: 4320
     size: 0.002
     costBuy: 500
     costSell: 400
@@ -5066,12 +5436,13 @@ items:
     power: 70
     damageType: 3
     damageAlter:
+      FixRadius: 4
       RadiusReduction: 13
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 4
+    battleType: 4
     fuseType: -2
     tuThrow: 25
     tuPrime: 40
@@ -5079,7 +5450,7 @@ items:
     armor: 30
     attraction: 10
   - type: STR_INCENDIARY_GRENADE
-    listOrder: 4230
+    listOrder: 4330
     size: 0.002
     requiresBuy:
       - STR_OUTSOURCING
@@ -5095,11 +5466,12 @@ items:
     power: 70
     damageType: 2
     damageAlter:
+    damageAlter:
+      FixRadius: 3
       ToHealth: 1.2
       ToMorale: 2.0
       IgnoreOverKill: false
     battleType: 4
-    blastRadius: 3
     fuseType: 0
     tuThrow: 25
     tuPrime: 40
@@ -5107,7 +5479,7 @@ items:
     armor: 30
     attraction: 10
   - type: STR_HIGH_EXPLOSIVE
-    listOrder: 4240
+    listOrder: 4340
     size: 0.005
     categories: [STR_CAT_GRENADES, STR_CAT_EARLY_TECH]
     weight: 10
@@ -5116,12 +5488,13 @@ items:
     power: 140
     damageType: 3
     damageAlter:
+      FixRadius: 6
       RadiusReduction: 18.5
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 6
+    battleType: 4
     fuseType: -1
     tuThrow: 35
     tuPrime: 55
@@ -5129,7 +5502,7 @@ items:
     armor: 60
     attraction: 10
   - type: STR_AE_GRENADE
-    listOrder: 4300
+    listOrder: 4350
     size: 0.002
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
@@ -5145,13 +5518,13 @@ items:
     power: 125
     damageType: 3
     damageAlter:
-      RadiusReduction: 17
+      FixRadius: 6
+      RadiusReduction: 17 #13.6%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
     battleType: 4
-    blastRadius: 6
     fuseType: 0
     tuThrow: 25
     tuPrime: 40
@@ -5159,7 +5532,7 @@ items:
     armor: 50
     attraction: 15
   - type: STR_STUN_GRENADE
-    listOrder: 4310
+    listOrder: 4360
     size: 0.002
     costSell: 34700
     categories: [STR_CAT_GRENADES, STR_CAT_HIGH_TECH]
@@ -5171,10 +5544,10 @@ items:
     power: 125
     damageType: 6
     damageAlter:
+      FixRadius: 6
       RadiusReduction: 10
       ArmorEffectiveness: 0.3
     battleType: 4
-    blastRadius: 6
     fuseType: 0
     tuThrow: 25
     tuPrime: 40
@@ -5182,7 +5555,7 @@ items:
     armor: 50
     attraction: 15
   - type: STR_AE_PROXIMITY_GRENADE
-    listOrder: 4320
+    listOrder: 4370
     size: 0.002
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
@@ -5198,13 +5571,13 @@ items:
     power: 125
     damageType: 3
     damageAlter:
+      FixRadius: 6
       RadiusReduction: 17
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
     battleType: 5
-    blastRadius: 6
     fuseType: -2
     tuThrow: 25
     tuPrime: 40
@@ -5212,7 +5585,7 @@ items:
     armor: 50
     attraction: 35 #until I can increase the detection radius
   - type: STR_AE_HIGH_EXPLOSIVE
-    listOrder: 4340
+    listOrder: 4380
     size: 0.005
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
@@ -5231,6 +5604,7 @@ items:
     power: 250
     damageType: 3
     damageAlter:
+      FixRadius: 9
       RadiusReduction: 24
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -5239,7 +5613,6 @@ items:
     battleType: 4
     invWidth: 2
     invHeight: 1
-    blastRadius: 9
     fuseType: -1
     tuThrow: 35
     tuPrime: 55
@@ -5247,7 +5620,7 @@ items:
     armor: 100
     attraction: 15
   - type: STR_FUSION_HIGH_EXPLOSIVE
-    listOrder: 4345
+    listOrder: 4390
     size: 0.005
     costSell: 279000
     categories: [STR_CAT_GRENADES, STR_CAT_HIGH_TECH]
@@ -5260,6 +5633,7 @@ items:
     power: 460
     damageType: 13
     damageAlter:
+      FixRadius: 6
       RadiusReduction: 38
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
@@ -5270,7 +5644,6 @@ items:
     battleType: 4
     invWidth: 2
     invHeight: 1
-    blastRadius: 6
     fuseType: -1
     tuThrow: 35
     tuPrime: 55
@@ -5306,7 +5679,7 @@ items:
     armor: 90
     attraction: 10
   - type: STR_FIRST_AID_KIT
-    listOrder: 4420
+    listOrder: 4410
     size: 0.01
     costBuy: 620
     costSell: 465
@@ -5328,7 +5701,7 @@ items:
     armor: 50
     attraction: 10
   - type: STR_MEDI_KIT
-    listOrder: 4425
+    listOrder: 4415
     size: 0.004
     requiresBuy:
       - STR_OUTSOURCING
@@ -5354,7 +5727,7 @@ items:
     armor: 60
     attraction: 15
   - type: STR_MEDI_KIT_SUPER
-    listOrder: 4430
+    listOrder: 4420
     size: 0.01
     costSell: 649000
     categories: [STR_CAT_EQUIPMENT, STR_CAT_HIGH_TECH]
@@ -5381,7 +5754,7 @@ items:
     armor: 110
     attraction: 20
   - type: STR_MOTION_SCANNER
-    listOrder: 4500
+    listOrder: 4425
     size: 0.0025
     requiresBuy:
       - STR_OUTSOURCING
@@ -5397,7 +5770,7 @@ items:
     armor: 50
     attraction: 10
   - type: STR_MIND_PROBE_TERRAN
-    listOrder: 4550
+    listOrder: 4430
     size: 0.0125
     costSell: 179000
     categories: [STR_CAT_EQUIPMENT, STR_CAT_HIGH_TECH]
@@ -5413,8 +5786,8 @@ items:
     armor: 80
     attraction: 15
   - type: STR_FEAR_PROJECTOR
-    listOrder: 4600
-    size: 0.006
+    listOrder: 4450
+    size: 0.004
     weight: 6
     costSell: 310000
     categories: [STR_CAT_EQUIPMENT, STR_CAT_MID_TECH]
@@ -5441,7 +5814,7 @@ items:
     manaExperience: 100
     attraction: 15
   # - type: STR_FEAR_PROJECTOR
-    # listOrder: 4600
+    # listOrder: 4450
     # requires:
       # - STR_FEAR_PROJECTION
     # size: 0.006
@@ -5508,8 +5881,8 @@ items:
     # experienceTrainingMode: 26
     # manaExperience: 100
   - type: STR_PSI_AMP
-    listOrder: 4610
-    size: 0.009
+    listOrder: 4460
+    size: 0.008
     weight: 10
     costSell: 803000
     categories: [STR_CAT_EQUIPMENT, STR_CAT_HIGH_TECH]
@@ -5535,8 +5908,8 @@ items:
     manaExperience: 100
     attraction: 20
   - type: STR_PSIONIC_DISRUPTOR
-    listOrder: 4620
-    size: 0.015
+    listOrder: 4470
+    size: 0.02
     weight: 35
     costSell: 2860000
     categories: [STR_CAT_EQUIPMENT, STR_CAT_HIGH_TECH]
@@ -5590,552 +5963,345 @@ items:
     blockBothHands: true
     LOSRequired: false
     clipSize: -1
-  - type: STR_POWER_SUIT_PISTOL
-    listOrder: 6000
-    size: 0.01
-    costSell: 2100000
-    categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 31
-    bigSprite: 362
-    floorSprite: 357
-    handSprite: 604
-    fireSound: 315
-    compatibleAmmo:
-      - STR_POWER_SUIT_PISTOL_CLIP
-    accuracyAuto: 45
-    accuracySnap: 74
-    accuracyAimed: 110
-    tuAuto: 31
-    tuSnap: 23
-    tuAimed: 45
-    autoRange: 10
-    snapRange: 18
-    aimRange: 30
-    dropoff: 1
-    bulletSpeed: 6
-    autoShots: 2
-    tuLoad: 6
-    battleType: 1
-    invWidth: 2
-    invHeight: 2
-    armor: 150
-    attraction: 25
-    experienceTrainingMode: 14
-  - type: STR_POWER_SUIT_PISTOL_CLIP
-    listOrder: 6005
-    size: 0.003
-    costSell: 340000
-    categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 5
-    bigSprite: 363
-    floorSprite: 358
-    handSprite: 612
-    bulletSprite: 36
+  - type: STR_PLASMA_PISTOL
+    listOrder: 4800
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.005
+    costSell: 42000
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    weight: 6
+    bigSprite: 306
+    floorSprite: 330
     hitSound: 19
-    hitAnimation: 56
-    power: 110
+    hitAnimation: 39
+    accuracyAuto: 39
+    accuracySnap: 72
+    accuracyAimed: 102
+    tuAuto: 13
+    tuSnap: 19
+    tuAimed: 40
+    autoRange: 9
+    snapRange: 16
+    aimRange: 25
+    dropoff: 1
+    bulletSpeed: 4
+    confAuto:
+      shots: 1
+      name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
+    tuLoad: 10
+    recoveryPoints: 2
+    armor: 120
+    attraction: 20
+  - type: STR_PLASMA_PISTOL_CLIP
+    listOrder: 4805
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.001
+    costSell: 4600
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    weight: 2
+    bigSprite: 307
+    floorSprite: 328
+    handSprite: 1092
+    bulletSprite: 8
+    power: 81
     damageType: 5
     damageAlter:
       ArmorEffectiveness: 1.0
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    clipSize: 10
-    battleType: 2
-    invWidth: 1
-    invHeight: 2
-    armor: 90
-    attraction: 25
-  - type: STR_POWER_SUIT_RIFLE
-    listOrder: 6020
-    size: 0.015
-    costSell: 3480000
-    categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
-    weight: 36
-    bigSprite: 364
-    floorSprite: 359
-    handSprite: 620
-    fireSound: 312
-    compatibleAmmo:
-      - STR_POWER_SUIT_RIFLE_CLIP
-    accuracyAuto: 30
-    accuracySnap: 60
-    accuracyAimed: 100
-    tuAuto: 24
-    tuSnap: 36
-    tuAimed: 58
-    autoRange: 1
-    snapRange: 5
-    aimRange: 15
-    dropoff: 2
-    confAuto:
-      shots: 1
-      name: STR_RAPID_FIRE
-      shortName: STR_RAPID_FIRE_SHORT
-    tuLoad: 6
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    armor: 150
-    attraction: 25
-    experienceTrainingMode: 5
-  - type: STR_POWER_SUIT_RIFLE_CLIP
-    listOrder: 6025
-    size: 0.004
-    costSell: 434000
-    categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
-    weight: 7
-    bigSprite: 365
-    floorSprite: 360
-    handSprite: 628
-    hitSound: 19
-    hitAnimation: 46
-    shotgunPellets: 10
-    shotgunSpread: 60
-    shotgunBehavior: 1
-    shotgunChoke: 100
-    power: 33
-    damageType: 8
-    damageAlter:
-      ArmorEffectiveness: 1.5
-      IgnoreOverKill: false
-      ToArmor: 0
-      ToArmorPre: 0.5
-      ToTile: 1.6
-      TileDamageMethod: 2
-      RandomType: 1
-    clipSize: 6
-    battleType: 2
-    invWidth: 1
-    invHeight: 2
-    armor: 90
-    attraction: 25
-  - type: STR_POWER_SUIT_HEAVY
-    listOrder: 6040
-    size: 0.03
-    costSell: 4250000
-    categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
-    weight: 60
-    bigSprite: 356
-    floorSprite: 351
-    handSprite: 556
-    fireSound: 314
-    compatibleAmmo:
-      - STR_POWER_SUIT_HEAVY_CLIP
-    accuracyAuto: 54
-    accuracySnap: 100
-    accuracyAimed: 121
-    tuAuto: 36
-    tuSnap: 53
-    tuAimed: 85
-    autoRange: 12
-    snapRange: 20
+    clipSize: 18
+    recoveryPoints: 1
+    armor: 60
+    attraction: 20
+  - type: STR_PLASMA_RIFLE
+    listOrder: 4810
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.008
+    costSell: 63250
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    weight: 10
+    bigSprite: 308
+    floorSprite: 324
+    handSprite: 484
+    fireSound: 18
+    accuracyAuto: 56
+    accuracySnap: 81
+    accuracyAimed: 127
+    tuAuto: 40
+    tuSnap: 27
+    tuAimed: 69
+    autoRange: 10
+    snapRange: 18
     aimRange: 40
     dropoff: 1
-    bulletSpeed: 8
-    confAuto:
-      shots: 1
-      name: STR_RAPID_FIRE
-      shortName: STR_RAPID_FIRE_SHORT
-    tuLoad: 6
-    battleType: 1
-    twoHanded: true
-    blockBothHands: true
-    invWidth: 2
-    invHeight: 3
-    armor: 150
-    attraction: 25
-    experienceTrainingMode: 4
-  - type: STR_POWER_SUIT_HEAVY_CLIP
-    listOrder: 6045
-    size: 0.005
-    costSell: 556000
-    categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
-    weight: 6
-    bigSprite: 357
-    floorSprite: 352
-    handSprite: 564
-    bulletSprite: 47
-    hitSound: 303
-    hitAnimation: 86
-    power: 165
-    damageType: 14
-    damageAlter:
-      ArmorEffectiveness: 0.48
-      IgnoreOverKill: false
-      ToArmor: 0
-      ToArmorPre: 0.048
-    clipSize: 4
-    battleType: 2
-    invWidth: 2
-    invHeight: 1
-    armor: 90
-    attraction: 25
-  - type: STR_POWER_SUIT_LAUNCHER
-    listOrder: 6060
-    size: 0.025
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 22
-    bigSprite: 358
-    floorSprite: 353
-    handSprite: 572
-    fireSound: 53
-    compatibleAmmo:
-      - STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
-      - STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
-      - STR_POWER_SUIT_LAUNCHER_F_BOMB_H
-      - STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
-      - STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
-      - STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
-      - STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
-      - STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
-      - STR_POWER_SUIT_LAUNCHER_SM_BOMB_L
-      - STR_POWER_SUIT_LAUNCHER_ST_BOMB_L
-    ammo:
-      0:
-        compatibleAmmo: [ STR_POWER_SUIT_LAUNCHER_AP_BOMB_H, STR_POWER_SUIT_LAUNCHER_EX_BOMB_H, STR_POWER_SUIT_LAUNCHER_F_BOMB_H, STR_POWER_SUIT_LAUNCHER_IN_BOMB_H, STR_POWER_SUIT_LAUNCHER_ST_BOMB_H ]
-        tuLoad: 6
-        tuUnload: 3
-      1:
-        compatibleAmmo: [ STR_POWER_SUIT_LAUNCHER_AP_BOMB_L, STR_POWER_SUIT_LAUNCHER_EX_BOMB_L, STR_POWER_SUIT_LAUNCHER_IN_BOMB_L, STR_POWER_SUIT_LAUNCHER_SM_BOMB_L, STR_POWER_SUIT_LAUNCHER_ST_BOMB_L ]
-        tuLoad: 8
-        tuUnload: 4
-    accuracyAuto: 60
-    accuracySnap: 125
-    accuracyAimed: 135
-    tuAuto: 28
-    tuSnap: 65
-    tuAimed: 75
-    autoRange: 15
-    snapRange: 30
-    aimRange: 40
-    dropoff: 2
     bulletSpeed: 4
-    confAimed:
-      shots: 1
-      name: STR_LAUNCH_MISSILE
-      shortName: STR_LAUNCH_MISSILE_SHORT
-      ammoSlot: 0
-    confSnap:
-      shots: 1
-      name: STR_LAUNCH_BOMB_AIMED
-      shortName: STR_LAUNCH_BOMB_AIMED_SHORT
-      ammoSlot: 1
-    confAuto:
-      shots: 1
-      name: STR_LAUNCH_BOMB_SNAP
-      shortName: STR_LAUNCH_BOMB_SNAP_SHORT
-      ammoSlot: 1
-    tuLoad: 6
-    battleType: 1
-    twoHanded: true
-    blockBothHands: true
-    invWidth: 2
-    invHeight: 3
-    armor: 150
-    attraction: 25
-  - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
-    listOrder: 6065
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 11
-    bigSprite: 399
-    floorSprite: 381
-    handSprite: 764
-    bulletSprite: 18
-    hitSound: 317
-    hitAnimation: 26
-    power: 185
-    damageType: 11
-    damageAlter:
-      ArmorEffectiveness: 0.18
-      IgnoreOverKill: false
-      ToArmor: 0
-      ToArmorPre: 0.018
-      ToTile: 0.6
-    clipSize: 1
-    battleType: 2
-    waypoints: 7
-    invWidth: 1
-    invHeight: 3
-    armor: 90
+    autoShots: 2
+    tuLoad: 10
+    recoveryPoints: 3
+    armor: 120
     attraction: 20
-  - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
-    listOrder: 6066
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 8
-    bigSprite: 398
-    floorSprite: 380
-    handSprite: 756
-    bulletSprite: 45
-    power: 180
-    damageType: 3
+  - type: STR_PLASMA_RIFLE_CLIP
+    listOrder: 4815
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.002
+    costSell: 6300
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    weight: 3
+    bigSprite: 309
+    floorSprite: 328
+    handSprite: 1092
+    bulletSprite: 8
+    hitSound: 19
+    hitAnimation: 46
+    power: 90
+    damageType: 5
     damageAlter:
-      RadiusReduction: 21
-      ArmorEffectiveness: 0.5
+      ArmorEffectiveness: 1.0
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 7
-    clipSize: 1
-    battleType: 2
-    waypoints: 7
-    invWidth: 1
-    invHeight: 3
-    armor: 90
+    clipSize: 21
+    recoveryPoints: 1
+    armor: 60
     attraction: 20
-  - type: STR_POWER_SUIT_LAUNCHER_F_BOMB_H
-    listOrder: 6067
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 11
-    bigSprite: 401
-    floorSprite: 385
-    handSprite: 780
+  - type: STR_HEAVY_PLASMA
+    listOrder: 4820
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.025
+    costSell: 85800
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    weight: 21
+    bigSprite: 310
+    handSprite: 316
+    fireSound: 316
+    accuracyAuto: 49
+    accuracySnap: 90
+    accuracyAimed: 110
+    tuAuto: 29
+    tuSnap: 42
+    tuAimed: 77
+    autoRange: 8
+    snapRange: 16
+    aimRange: 32
+    dropoff: 1
+    bulletSpeed: 4
+    confAuto:
+      shots: 1
+      name: STR_RAPID_FIRE
+      shortName: STR_RAPID_FIRE_SHORT
+    tuLoad: 15
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 120
+    attraction: 20
+  - type: STR_HEAVY_PLASMA_CLIP
+    listOrder: 4825
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.0025
+    costSell: 9600
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    weight: 4
+    bigSprite: 311
+    floorSprite: 328
+    handSprite: 1092
+    bulletSprite: 33
+    hitSound: 19
+    hitAnimation: 46
+    power: 135
+    damageType: 15
+    damageAlter:
+      ArmorEffectiveness: 0.6
+      IgnoreOverKill: false
+      ToArmor: 0
+      ToArmorPre: 0.06
+      ToTile: 0.67
+    clipSize: 12
+    recoveryPoints: 1
+    armor: 60
+    attraction: 20
+  - type: STR_BLASTER_LAUNCHER
+    listOrder: 4840
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.03
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    costSell: 72000
+    weight: 16
+    bigSprite: 385
+    floorSprite: 34
+    handSprite: 56
     bulletSprite: 10
-    power: 320
+    fireSound: 53
+    compatibleAmmo:
+      - STR_BLASTER_BOMB
+    accuracyAimed: 120
+    tuAimed: 66
+    bulletSpeed: 3
+    confAimed:
+      name: STR_LAUNCH_MISSILE
+      shortName: STR_LAUNCH_MISSILE_SHORT
+    tuLoad: 10
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    waypoints: 6
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 120
+    attraction: 20
+  - type: STR_BLASTER_BOMB
+    listOrder: 4845
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.005
+    costSell: 85140
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH, STR_CAT_ALIEN_ARTIFACTS]
+    weight: 4
+    bigSprite: 36
+    floorSprite: 35
+    handSprite: 804
+    bulletSprite: 10
+    explosionHitSound: 320
+    explosionSpeed: -2
+    power: 260
     damageType: 13
     damageAlter:
-      RadiusReduction: 31
+      FixRadius: 4
+      RadiusReduction: 28
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
-      ToTile: 0.775
-    blastRadius: 5
+      ToTile: 0.7
     clipSize: 1
     battleType: 2
-    waypoints: 7
     invWidth: 1
-    invHeight: 3
-    armor: 90
-    attraction: 25
-  - type: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
-    listOrder: 6068
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 11
-    bigSprite: 402
-    floorSprite: 384
-    handSprite: 788
-    bulletSprite: 46
-    power: 180
-    damageType: 2
-    damageAlter:
-      ToHealth: 2.3
-      ToMorale: 2.0
-      IgnoreOverKill: false
-    blastRadius: 8
-    clipSize: 1
-    battleType: 2
-    waypoints: 7
-    invWidth: 1
-    invHeight: 3
-    armor: 90
-    attraction: 15
-  - type: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
-    listOrder: 6070
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 11
-    bigSprite: 400
-    floorSprite: 382
-    handSprite: 772
-    bulletSprite: 10
+    invHeight: 2
+    recoveryPoints: 2
+    armor: 60
+    attraction: 20
+  - type: STR_SMALL_LAUNCHER
+    listOrder: 4850
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.02
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    costSell: 60000
+    weight: 10
+    bigSprite: 383
+    floorSprite: 36
+    handSprite: 500
+    bulletSprite: 9
+    fireSound: 53
+    compatibleAmmo:
+      - STR_STUN_BOMB
+    accuracySnap: 45
+    accuracyAimed: 100
+    tuSnap: 22
+    tuAimed: 54
+    snapRange: 12
+    aimRange: 25
+    bulletSpeed: 5
+    tuLoad: 5
+    battleType: 1
+    twoHanded: false
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 4
+    armor: 120
+    attraction: 20
+  - type: STR_STUN_BOMB
+    listOrder: 4855
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.0025
+    costSell: 15200
+    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH, STR_CAT_ALIEN_ARTIFACTS]
+    weight: 2
+    bigSprite: 38
+    floorSprite: 37
+    handSprite: 844
+    bulletSprite: 44
     hitAnimation: 100
-    power: 180
+    power: 90
     damageType: 6
     damageAlter:
+      FixRadius: 4
       RadiusReduction: 10
       ArmorEffectiveness: 0.3
-    blastRadius: 9
     clipSize: 1
     battleType: 2
-    waypoints: 7
-    invWidth: 1
-    invHeight: 3
-    armor: 90
+    recoveryPoints: 1
+    armor: 40
     attraction: 20
-  - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
-    listOrder: 6075
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 13
-    bigSprite: 360
-    floorSprite: 355
-    handSprite: 588
-    bulletSprite: 16
-    hitSound: 319
-    hitAnimation: 26
-    power: 95
-    damageType: 11
-    damageAlter:
-      ArmorEffectiveness: 0.29
-      IgnoreOverKill: false
-      ToArmor: 0
-      ToArmorPre: 0.029
-    clipSize: 3
-    battleType: 2
-    waypoints: 5
-    invWidth: 1
-    invHeight: 3
-    armor: 90
-    attraction: 20
-  - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
-    listOrder: 6076
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 10
-    bigSprite: 359
-    floorSprite: 354
-    handSprite: 580
-    bulletSprite: 23
-    power: 110
+  - type: STR_ALIEN_GRENADE
+    listOrder: 4870
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.002
+    costSell: 5930
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    weight: 2
+    handSprite: 892
+    power: 125
     damageType: 3
     damageAlter:
-      RadiusReduction: 16
+      FixRadius: 6
+      RadiusReduction: 17 #13.6%
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 5
-    clipSize: 3
-    battleType: 2
-    waypoints: 5
-    invWidth: 1
-    invHeight: 3
-    armor: 90
+    battleType: 4
+    fuseType: 0
+    tuThrow: 25
+    tuPrime: 40
+    tuUnprime: 20
+    recoveryPoints: 1
+    armor: 50
     attraction: 20
-  - type: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
-    listOrder: 6078
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 13
-    bigSprite: 367
-    floorSprite: 362
-    handSprite: 644
-    bulletSprite: 23
-    power: 110
-    damageType: 2
-    damageAlter:
-      ToHealth: 1.6
-      ToMorale: 2.0
-      IgnoreOverKill: false
-    blastRadius: 4
-    clipSize: 3
-    battleType: 2
-    waypoints: 5
-    invWidth: 1
-    invHeight: 3
-    armor: 90
+  - type: STR_MIND_PROBE
+    listOrder: 4880
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.0125
+    costSell: 179000
+    categories: [STR_CAT_ALIEN_ARTIFACTS]
+    weight: 5
+    bigSprite: 29
+    floorSprite: 28
+    handSprite: 956
+    hitSound: 37
+    battleType: 8
+    invWidth: 2
+    invHeight: 2
+    tuUse: 18
+    recoveryPoints: 8
+    armor: 80
     attraction: 15
-  - type: STR_POWER_SUIT_LAUNCHER_SM_BOMB_L
-    listOrder: 6079
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 10
-    bigSprite: 368
-    floorSprite: 361
-    handSprite: 652
-    bulletSprite: 22
-    hitAnimation: 80
-    explosionSpeed: -3
-    power: 50
-    damageType: 9
-    blastRadius: 4
-    clipSize: 3
-    battleType: 2
-    waypoints: 5
-    invWidth: 1
-    invHeight: 3
-    armor: 90
-    attraction: 15
-  - type: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L
-    listOrder: 6080
-    size: 0.0075
-    costSell: 0
-    categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
-    weight: 13
-    bigSprite: 361
-    floorSprite: 356
-    handSprite: 596
-    bulletSprite: 44
-    hitAnimation: 100
-    power: 110
-    damageType: 6
-    damageAlter:
-      RadiusReduction: 10
-      ArmorEffectiveness: 0.3
-    blastRadius: 5
-    clipSize: 3
-    battleType: 2
-    waypoints: 5
-    invWidth: 1
-    invHeight: 3
-    armor: 90
-    attraction: 20
   - type: STR_ELERIUM_115
-    size: 0.0001
+    listOrder: 5000
+    size: 0.0002
     costSell: 10000
     categories: [STR_CAT_UFO_COMPONENTS, STR_CAT_SALVAGE]
     bigSprite: 412
     armor: 30
-  - type: STR_UFO_POWER_SOURCE
-    size: 0.25
-    costSell: 125000
-    categories: [STR_CAT_UFO_COMPONENTS]
-    specialType: 2
-    recoveryPoints: 6
-  - type: STR_UFO_NAVIGATION
-    size: 0.25
-    costSell: 80000
-    categories: [STR_CAT_UFO_COMPONENTS]
-    specialType: 3
-    recoveryPoints: 4
-  - type: STR_ALIEN_FOOD
-    size: 0.15
-    costSell: 5000
-    categories: [STR_CAT_UFO_COMPONENTS]
-    specialType: 5
-    recoveryPoints: 1
-  - type: STR_ALIEN_REPRODUCTION
-    size: 0.15
-    costSell: 58000
-    categories: [STR_CAT_UFO_COMPONENTS]
-    specialType: 6
-    recoveryPoints: 3
-  - type: STR_ALIEN_ENTERTAINMENT
-    size: 0.15
-    costSell: 12500
-    categories: [STR_CAT_UFO_COMPONENTS]
-    specialType: 7
-    recoveryPoints: 2
-  - type: STR_ALIEN_SURGERY
-    size: 0.15
-    costSell: 38000
-    categories: [STR_CAT_UFO_COMPONENTS]
-    specialType: 8
-    recoveryPoints: 4
-  - type: STR_EXAMINATION_ROOM
-    size: 0.15
-    costSell: 90000
-    categories: [STR_CAT_UFO_COMPONENTS]
-    specialType: 9
-    recoveryPoints: 10
   - type: STR_ALIEN_ALLOYS
+    listOrder: 5005
     size: 0.02
     requiresBuy:
       - STR_OUTSOURCING
@@ -6147,38 +6313,93 @@ items:
     recoveryDividers:
       STR_UFO: 5 #10
       STR_OTHER: 5 #25
-    recoveryPoints: 1
-  - type: STR_ALIEN_HABITAT
-    size: 0.02
-    costSell: 15000
-    categories: [STR_CAT_UFO_COMPONENTS]
-    specialType: 11
-    recoveryPoints: 3
+    recoveryPoints: 0
   - type: STR_SCOUT_POWER_UNIT
+    listOrder: 5010
     size: 0.1
     costSell: 75000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 63
     recoveryPoints: 8
+  - type: STR_UFO_POWER_SOURCE
+    listOrder: 5015
+    size: 0.25
+    costSell: 125000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 2
+    recoveryPoints: 6
+  - type: STR_UFO_NAVIGATION
+    listOrder: 5020
+    size: 0.25
+    costSell: 80000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 3
+    recoveryPoints: 4
+  - type: STR_ALIEN_FOOD
+    listOrder: 5025
+    size: 0.15
+    costSell: 5000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 5
+    recoveryPoints: 1
+  - type: STR_ALIEN_ENTERTAINMENT
+    listOrder: 5030
+    size: 0.15
+    costSell: 12500
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 7
+    recoveryPoints: 2
+  - type: STR_ALIEN_HABITAT
+    listOrder: 5035
+    size: 0.02
+    costSell: 15000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 11
+    recoveryPoints: 3
+  - type: STR_ALIEN_REPRODUCTION
+    listOrder: 5040
+    size: 0.15
+    costSell: 58000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 6
+    recoveryPoints: 3
+  - type: STR_ALIEN_SURGERY
+    listOrder: 5045
+    size: 0.15
+    costSell: 38000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 8
+    recoveryPoints: 4
+  - type: STR_EXAMINATION_ROOM
+    listOrder: 5050
+    size: 0.15
+    costSell: 90000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 9
+    recoveryPoints: 10
   - type: STR_UFO_PLASMA_EMITTER
+    listOrder: 5100
     size: 0.05
     costSell: 100000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 50
     recoveryPoints: 6
   - type: STR_UFO_PLASMA_ARRAY
+    listOrder: 5105
     size: 0.02
     costSell: 4000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 51
     recoveryPoints: 1
   - type: STR_UFO_SHIELD_EMITTER
+    listOrder: 5110
     size: 0.05
     costSell: 25000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 52
     recoveryPoints: 3
   - type: STR_ALIEN_FUEL_PODS
+    listOrder: 5115
     size: 0.15
     requiresBuy:
       - STR_ALIEN_FUEL_PODS
@@ -6190,22 +6411,27 @@ items:
     specialType: 15
     recoveryPoints: 1
   - type: STR_ALIEN_POWER_ARRAYS
+    listOrder: 5120
     size: 0.02
     costSell: 35000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_COMPUTER_ARRAYS
+    listOrder: 5125
     size: 0.01
     costSell: 17500
     categories: [STR_CAT_SALVAGE]
   - type: STR_PLASMA_EMITTER
+    listOrder: 5130
     size: 0.04
     costSell: 100000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_WEAPON_COMPONENTS
+    listOrder: 5135
     size: 0.002
     costSell: 800
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_EXPLOSIVE_UNITS
+    listOrder: 5140
     size: 0.0005
     requiresBuy:
       - STR_OUTSOURCING
@@ -6215,18 +6441,22 @@ items:
     costSell: 2500
     categories: [STR_CAT_SALVAGE]
   - type: STR_FUSION_CORE
+    listOrder: 5145
     size: 0.002
     costSell: 85000
     categories: [STR_CAT_SALVAGE]
   - type: STR_STUN_CORE
+    listOrder: 5150
     size: 0.001
     costSell: 15000
     categories: [STR_CAT_SALVAGE]
   - type: STR_HABITAT_FLORA
+    listOrder: 5155
     size: 0.0001
     costSell: 1000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_FEEDER
+    listOrder: 5160
     size: 0.001
     requiresBuy:
       - STR_OUTSOURCING
@@ -6236,6 +6466,7 @@ items:
     costSell: 2000
     categories: [STR_CAT_SALVAGE]
   - type: STR_PSIONIC_FEEDBACK_DEVICE
+    listOrder: 5165
     size: 0.0005
     requiresBuy:
       - STR_OUTSOURCING
@@ -6246,18 +6477,32 @@ items:
     costSell: 7500
     categories: [STR_CAT_SALVAGE]
   - type: STR_PSIONIC_WAVE_DECODER
+    listOrder: 5170
     size: 0.0005
     costSell: 10000
     categories: [STR_CAT_SALVAGE]
   - type: STR_PSIONIC_WAVE_EMITTER
+    listOrder: 5175
     size: 0.0005
     costSell: 15000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ANTI_GRAV_UNIT
+    listOrder: 5180
     size: 0.01
     costSell: 12000
     categories: [STR_CAT_SALVAGE]
+  - type: STR_MUTON_ARMOR_GRAFTS
+    listOrder: 5185
+    size: 0.005
+    costSell: 5000
+    categories: [STR_CAT_SALVAGE]
+  - type: STR_VENOM_GLAND
+    listOrder: 5190
+    size: 0.001
+    costSell: 12000
+    categories: [STR_CAT_SALVAGE]
   - type: STR_POWER_SKELETON
+    listOrder: 5195
     size: 0.03
     requiresBuy:
       - STR_OUTSOURCING_ARMOR
@@ -6269,14 +6514,17 @@ items:
     costSell: 15000
     categories: [STR_CAT_SALVAGE]
   - type: STR_CYBERNETIC_SKELETON_LIGHT
+    listOrder: 5200
     size: 0.1
     costSell: 80000
     categories: [STR_CAT_SALVAGE]
   - type: STR_CYBERNETIC_SKELETON_HEAVY
+    listOrder: 5205
     size: 0.2
     costSell: 120000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_LASER
+    listOrder: 5210
     size: 0.01
     requiresBuy:
       - STR_OUTSOURCING
@@ -6288,29 +6536,23 @@ items:
     costSell: 5000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_SURGICAL_INTERFACE
+    listOrder: 5215
     size: 0.05
     costSell: 10000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_GENETIC_IMPLANTER
+    listOrder: 5220
     size: 0.025
     costSell: 50000
-    categories: [STR_CAT_SALVAGE]
-  - type: STR_MUTON_ARMOR_GRAFTS
-    size: 0.005
-    costSell: 5000
-    categories: [STR_CAT_SALVAGE]
-  - type: STR_VENOM_GLAND
-    size: 0.001
-    costSell: 12000
     categories: [STR_CAT_SALVAGE]
   - type: STR_PLASMA_PISTOL_RED
     listOrder: 95100
     requires:
       - STR_ALIENS_ONLY
-    size: 0.01
+    size: 0.006
     costSell: 84000
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 5
+    weight: 7
     bigSprite: 369
     floorSprite: 329
     handSprite: 660
@@ -6341,7 +6583,7 @@ items:
     listOrder: 95105
     requires:
       - STR_ALIENS_ONLY
-    size: 0.003
+    size: 0.0015
     costSell: 4600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 2
@@ -6369,10 +6611,10 @@ items:
     listOrder: 95110
     requires:
       - STR_ALIENS_ONLY
-    size: 0.02
+    size: 0.01
     costSell: 126500
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 8
+    weight: 12
     bigSprite: 371
     floorSprite: 324
     handSprite: 668
@@ -6404,7 +6646,7 @@ items:
     listOrder: 95115
     requires:
       - STR_ALIENS_ONLY
-    size: 0.004
+    size: 0.002
     costSell: 6300
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 3
@@ -6432,10 +6674,10 @@ items:
     listOrder: 95120
     requires:
       - STR_ALIENS_ONLY
-    size: 0.05
+    size: 0.03
     costSell: 171600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 18
+    weight: 24
     bigSprite: 373
     floorSprite: 302
     handSprite: 676
@@ -6467,10 +6709,10 @@ items:
     listOrder: 95125
     requires:
       - STR_ALIENS_ONLY
-    size: 0.005
+    size: 0.0025
     costSell: 9600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 3
+    weight: 4
     bigSprite: 374
     floorSprite: 391
     handSprite: 1108
@@ -6484,6 +6726,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.06
+      ToTile: 0.67
     clipSize: 9
     battleType: 2
     recoveryPoints: 1
@@ -6526,10 +6769,10 @@ items:
     listOrder: 95135
     requires:
       - STR_ALIENS_ONLY
-    size: 0.01
+    size: 0.005
     costSell: 64450
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 4
+    weight: 5
     bigSprite: 376
     floorSprite: 391
     handSprite: 1108
@@ -6539,13 +6782,13 @@ items:
     power: 300
     damageType: 13
     damageAlter:
+      FixRadius: 5
       RadiusReduction: 30
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 5
     clipSize: 1
     battleType: 2
     invWidth: 1
@@ -6559,10 +6802,10 @@ items:
     listOrder: 95140
     requires:
       - STR_ALIENS_ONLY
-    size: 0.004
+    size: 0.0025
     costSell: 27800
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 2
+    weight: 3
     bigSprite: 388
     floorSprite: 370
     handSprite: 1116
@@ -6570,13 +6813,14 @@ items:
     power: 180
     damageType: 3
     damageAlter:
+      FixRadius: 7
       RadiusReduction: 20
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 7
     battleType: 4
+    fuseType: 0
     recoveryPoints: 2
     armor: 35
     attraction: 30
@@ -6586,7 +6830,7 @@ items:
     listOrder: 95200
     requires:
       - STR_ALIENS_ONLY
-    size: 0.01
+    size: 0.006
     costSell: 84000
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 3
@@ -6594,7 +6838,7 @@ items:
     listOrder: 95205
     requires:
       - STR_ALIENS_ONLY
-    size: 0.003
+    size: 0.0015
     costSell: 4600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 1
@@ -6602,7 +6846,7 @@ items:
     listOrder: 95210
     requires:
       - STR_ALIENS_ONLY
-    size: 0.02
+    size: 0.01
     costSell: 126500
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 4
@@ -6610,7 +6854,7 @@ items:
     listOrder: 95215
     requires:
       - STR_ALIENS_ONLY
-    size: 0.004
+    size: 0.002
     costSell: 6300
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 1
@@ -6618,7 +6862,7 @@ items:
     listOrder: 95220
     requires:
       - STR_ALIENS_ONLY
-    size: 0.05
+    size: 0.03
     costSell: 171600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 5
@@ -6626,7 +6870,7 @@ items:
     listOrder: 95225
     requires:
       - STR_ALIENS_ONLY
-    size: 0.005
+    size: 0.0025
     costSell: 9600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 1
@@ -6642,7 +6886,7 @@ items:
     listOrder: 95235
     requires:
       - STR_ALIENS_ONLY
-    size: 0.01
+    size: 0.005
     costSell: 64000
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 3
@@ -6650,7 +6894,7 @@ items:
     listOrder: 95240
     requires:
       - STR_ALIENS_ONLY
-    size: 0.004
+    size: 0.0025
     costSell: 28000
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 2
@@ -7039,10 +7283,10 @@ items:
     categories: [STR_CAT_ALIENS]
     power: 10
     damageAlter:
+      FixRadius: 3
       RandomType: 3
       RadiusReduction: 0
       ToTile: 25
-    blastRadius: 3
     battleType: 11
   - type: SNAKEMAN_COMMANDER_B_CORPSE_1
     floorSprite: 920
@@ -7101,13 +7345,13 @@ items:
     categories: [STR_CAT_ALIENS]
     power: 180
     damageAlter:
+      FixRadius: 7
       RandomType: 3
       RadiusReduction: 21
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    blastRadius: 7
     battleType: 11
   - type: CYBERDISC_CORPSE_1
     recoveryPoints: 36
@@ -7304,16 +7548,19 @@ items:
     size: 0.6
     costSell: 280000
     categories: [STR_CAT_ALIENS]
+    explosionHitSound: 320
     power: 260
+    damageType: 13
     damageAlter:
+      FixRadius: 4
       RandomType: 3
       RadiusReduction: 28
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
+      IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
       ToTile: 0.7
-    blastRadius: 4
     battleType: 11
   - type: CYBERDISC_C_CORPSE_1
     floorSprite: 903
@@ -7702,6 +7949,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.05
+      ToTile: 0.7
     accuracySnap: 75
     accuracyAimed: 125
     tuSnap: 40
@@ -7816,6 +8064,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.08
+      ToTile: 0.6
     accuracyAuto: 0
     accuracySnap: 54
     accuracyAimed: 90
@@ -7918,6 +8167,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.05
+      ToTile: 0.7
     accuracySnap: 75
     accuracyAimed: 125
     tuSnap: 40
@@ -8043,6 +8293,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.08
+      ToTile: 0.6
     accuracySnap: 60
     accuracyAimed: 100
     tuSnap: 45
@@ -8075,147 +8326,186 @@ items:
     recover: false
     flatRate: true
   - type: STR_SECTOID_COMMANDER
+    listOrder: 8000
     costSell: 195000
     categories: [STR_CAT_ALIENS]
   - type: STR_SECTOID_LEADER
+    listOrder: 8005
     costSell: 145000
     categories: [STR_CAT_ALIENS]
   - type: STR_SECTOID_ENGINEER
+    listOrder: 8010
     costSell: 90000
     categories: [STR_CAT_ALIENS]
   - type: STR_SECTOID_MEDIC
+    listOrder: 8015
     costSell: 75000
     categories: [STR_CAT_ALIENS]
   - type: STR_SECTOID_NAVIGATOR
+    listOrder: 8020
     costSell: 75000
     categories: [STR_CAT_ALIENS]
   - type: STR_SECTOID_SOLDIER
+    listOrder: 8025
     costSell: 30000
     categories: [STR_CAT_ALIENS]
   - type: STR_SECTOID_A_COMMANDER
+    listOrder: 8050
     costSell: 205000
     categories: [STR_CAT_ALIENS]
     recover: true
     liveAlien: true
   - type: STR_SECTOID_A_LEADER
+    listOrder: 8055
     costSell: 155000
     categories: [STR_CAT_ALIENS]
     recover: true
     liveAlien: true
   - type: STR_SECTOID_A_ENGINEER
+    listOrder: 8060
     costSell: 100000
     categories: [STR_CAT_ALIENS]
     recover: true
     liveAlien: true
   - type: STR_SECTOID_A_MEDIC
+    listOrder: 8065
     costSell: 85000
     categories: [STR_CAT_ALIENS]
     recover: true
     liveAlien: true
   - type: STR_SECTOID_A_NAVIGATOR
+    listOrder: 8070
     costSell: 85000
     categories: [STR_CAT_ALIENS]
     recover: true
     liveAlien: true
   - type: STR_SECTOID_A_SOLDIER
+    listOrder: 8075
     costSell: 40000
     categories: [STR_CAT_ALIENS]
     recover: true
     liveAlien: true
+  - type: STR_FLOATER_COMMANDER
+    listOrder: 8100
+    costSell: 177000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_FLOATER_LEADER
+    listOrder: 8105
+    costSell: 127000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_FLOATER_ENGINEER
+    listOrder: 8110
+    costSell: 102000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_FLOATER_MEDIC
+    listOrder: 8115
+    costSell: 87000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_FLOATER_NAVIGATOR
+    listOrder: 8120
+    costSell: 87000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_FLOATER_SOLDIER
+    listOrder: 8125
+    costSell: 42000
+    categories: [STR_CAT_ALIENS]
   - type: STR_SNAKEMAN_COMMANDER_B
+    listOrder: 8199
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 600000
     categories: [STR_CAT_ALIENS]
   - type: STR_SNAKEMAN_COMMANDER
+    listOrder: 8200
     costSell: 170000
     categories: [STR_CAT_ALIENS]
   - type: STR_SNAKEMAN_LEADER
+    listOrder: 8205
     costSell: 120000
     categories: [STR_CAT_ALIENS]
   - type: STR_SNAKEMAN_ENGINEER
+    listOrder: 8210
     costSell: 95000
     categories: [STR_CAT_ALIENS]
   - type: STR_SNAKEMAN_NAVIGATOR
+    listOrder: 8220
     costSell: 80000
     categories: [STR_CAT_ALIENS]
   - type: STR_SNAKEMAN_SOLDIER
+    listOrder: 8225
     costSell: 35000
     categories: [STR_CAT_ALIENS]
+  - type: STR_MUTON_ENGINEER
+    listOrder: 8310
+    costSell: 115000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_MUTON_NAVIGATOR
+    listOrder: 8320
+    costSell: 100000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_MUTON_SOLDIER
+    listOrder: 8325
+    costSell: 55000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_MUTON_SOLDIER_B
+    listOrder: 8326
+    costSell: 80000
+    categories: [STR_CAT_ALIENS]
+    recover: true
+    liveAlien: true
   - type: STR_ETHEREAL_COMMANDER
+    listOrder: 8400
     costSell: 200000
     categories: [STR_CAT_ALIENS]
   - type: STR_ETHEREAL_LEADER
+    listOrder: 8405
     costSell: 150000
     categories: [STR_CAT_ALIENS]
   - type: STR_ETHEREAL_NAVIGATOR
+    listOrder: 8410
     costSell: 145000
     categories: [STR_CAT_ALIENS]
     recover: true
     liveAlien: true
   - type: STR_ETHEREAL_SOLDIER_B
+    listOrder: 8420
     costSell: 80000
     categories: [STR_CAT_ALIENS]
     recover: true
     liveAlien: true
   - type: STR_ETHEREAL_SOLDIER
+    listOrder: 8425
     costSell: 65000
     categories: [STR_CAT_ALIENS]
-  - type: STR_MUTON_ENGINEER
-    costSell: 115000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_MUTON_NAVIGATOR
-    costSell: 100000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_MUTON_SOLDIER_B
-    costSell: 80000
-    categories: [STR_CAT_ALIENS]
-    recover: true
-    liveAlien: true
-  - type: STR_MUTON_SOLDIER
-    costSell: 55000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_FLOATER_COMMANDER
-    costSell: 177000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_FLOATER_LEADER
-    costSell: 127000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_FLOATER_ENGINEER
-    costSell: 102000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_FLOATER_MEDIC
-    costSell: 87000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_FLOATER_NAVIGATOR
-    costSell: 87000
-    categories: [STR_CAT_ALIENS]
-  - type: STR_FLOATER_SOLDIER
-    costSell: 42000
-    categories: [STR_CAT_ALIENS]
   - type: STR_CELATID_TERRORIST
+    listOrder: 8500
     costSell: 52000
     categories: [STR_CAT_ALIENS]
   - type: STR_SILACOID_TERRORIST
+    listOrder: 8505
     costSell: 42000
     categories: [STR_CAT_ALIENS]
   - type: STR_CHRYSSALID_TERRORIST
+    listOrder: 8510
     costSell: 40000
     categories: [STR_CAT_ALIENS]
   - type: STR_REAPER_TERRORIST
+    listOrder: 8515
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
     categories: [STR_CAT_ALIENS]
   - type: STR_SECTOPOD_TERRORIST
+    listOrder: 8520
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 300000
     categories: [STR_CAT_ALIENS]
   - type: STR_CYBERDISC_TERRORIST
+    listOrder: 8525
     size: 0.0
     recover: true
     liveAlien: true
@@ -8294,210 +8584,210 @@ items:
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 70
-    recoveryPoints: 1
+    recoveryPoints: 25
   - type: STR_DATA_CANISTER_CO
     listOrder: 99501
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 80
-    recoveryPoints: 1
+    recoveryPoints: 25
   - type: STR_DATA_CANISTER_PA
     listOrder: 99502
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 90
-    recoveryPoints: 1
+    recoveryPoints: 25
   - type: STR_DATA_CORE_MS
     listOrder: 99510
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 71
-    recoveryPoints: 1
+    recoveryPoints: 50
   - type: STR_DATA_CORE_LS
     listOrder: 99511
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 72
-    recoveryPoints: 1
+    recoveryPoints: 50
   - type: STR_DATA_CORE_CS
     listOrder: 99515
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 82
-    recoveryPoints: 1
+    recoveryPoints: 100
   - type: STR_DATA_CORE_AB
     listOrder: 99516
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 73
-    recoveryPoints: 1
+    recoveryPoints: 100
   - type: STR_DATA_CORE_HV
     listOrder: 99517
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 74
-    recoveryPoints: 1
+    recoveryPoints: 100
   - type: STR_DATA_CORE_TS
     listOrder: 99520
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 75
-    recoveryPoints: 1
+    recoveryPoints: 150
   - type: STR_DATA_CORE_SS
     listOrder: 99521
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 76
-    recoveryPoints: 1
+    recoveryPoints: 150
   - type: STR_DATA_CORE_BS
     listOrder: 99525
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 77
-    recoveryPoints: 1
+    recoveryPoints: 200
   - type: STR_DATA_CORE_MO
     listOrder: 99526
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 85
-    recoveryPoints: 1
+    recoveryPoints: 200
   - type: STR_DATA_CORE_LD
     listOrder: 99530
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 81
-    recoveryPoints: 1
+    recoveryPoints: 100
   - type: STR_DATA_CORE_MD
     listOrder: 99531
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 83
-    recoveryPoints: 1
+    recoveryPoints: 150
   - type: STR_DATA_CORE_HD
     listOrder: 99532
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 84
-    recoveryPoints: 1
+    recoveryPoints: 200
   - type: STR_DATA_CAPSULE_MS
     listOrder: 99540
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 91
-    recoveryPoints: 1
+    recoveryPoints: 25
   - type: STR_DATA_CAPSULE_LS
     listOrder: 99541
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 92
-    recoveryPoints: 1
+    recoveryPoints: 25
   - type: STR_DATA_CAPSULE_CS
     listOrder: 99545
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 102
-    recoveryPoints: 1
+    recoveryPoints: 50
   - type: STR_DATA_CAPSULE_AB
     listOrder: 99546
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 93
-    recoveryPoints: 1
+    recoveryPoints: 50
   - type: STR_DATA_CAPSULE_HV
     listOrder: 99547
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 94
-    recoveryPoints: 1
+    recoveryPoints: 50
   - type: STR_DATA_CAPSULE_TS
     listOrder: 99550
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 95
-    recoveryPoints: 1
+    recoveryPoints: 75
   - type: STR_DATA_CAPSULE_SS
     listOrder: 99551
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 96
-    recoveryPoints: 1
+    recoveryPoints: 75
   - type: STR_DATA_CAPSULE_BS
     listOrder: 99555
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 97
-    recoveryPoints: 1
+    recoveryPoints: 100
   - type: STR_DATA_CAPSULE_MO
     listOrder: 99556
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 105
-    recoveryPoints: 1
+    recoveryPoints: 100
   - type: STR_DATA_CAPSULE_LD
     listOrder: 99560
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 101
-    recoveryPoints: 1
+    recoveryPoints: 50
   - type: STR_DATA_CAPSULE_MD
     listOrder: 99561
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 103
-    recoveryPoints: 1
+    recoveryPoints: 75
   - type: STR_DATA_CAPSULE_HD
     listOrder: 99562
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 104
-    recoveryPoints: 1
+    recoveryPoints: 100
   - type: STR_DATA_CACHE_TS
     listOrder: 99570
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 60
-    recoveryPoints: 1
+    recoveryPoints: 100
   - type: STR_DATA_CACHE_AO
     listOrder: 99575
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 65
-    recoveryPoints: 1
+    recoveryPoints: 50
   - type: STR_DATA_CACHE_AB
     listOrder: 99576
     size: 0
     costSell: 0
     categories: [STR_CAT_DATA_MODULE]
     specialType: 66
-    recoveryPoints: 1
+    recoveryPoints: 200
   - type: STR_CAPACITORS
     listOrder: 99600
     size: 0
@@ -8556,16 +8846,16 @@ items:
   - type: STR_TRANSFORMERS
     listOrder: 99630
     size: 0
-    costSell: 0 #1000000
+    costSell: 0 #600000
     categories: [STR_CAT_FLAGSHIP_COMPONENT]
   - type: STR_INDUCTORS_SMALL
     listOrder: 99635
     size: 0
-    costSell: 0 #500000
+    costSell: 0 #300000
     categories: [STR_CAT_FLAGSHIP_COMPONENT]
   - type: STR_INDUCTORS_LARGE
     listOrder: 99636
     size: 0
-    costSell: 0 #1500000
+    costSell: 0 #1200000
     categories: [STR_CAT_FLAGSHIP_COMPONENT]
 # Fusion Damage: 10/7 - 25  |  Fusion Tile Damage: (power-100)/800 + 0.5

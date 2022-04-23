@@ -1037,16 +1037,16 @@ alienMissions:
       - ufo: STR_CARGO_SHIP
         interruptPercentage: 100
         count: 1
-        trajectory: P6
+        trajectory: P60
         timer: 60
       - ufo: STR_CARGO_SHIP
         count: 2
-        trajectory: P6
+        trajectory: P60
         timer: 60
       - ufo: STR_SMALL_SCOUT
         count: 1
         trajectory: P66
-        timer: 480
+        timer: 240
   - type: STR_ALIEN_TERROR
     points: 10 #2 landings, 3 UFOs
     objective: 3

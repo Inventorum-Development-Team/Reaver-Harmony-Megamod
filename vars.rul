@@ -41,8 +41,10 @@ stunningImprovesMorale: true
 minReactionAccuracy: 15
 extendedMeleeReactions: 2
 maxViewDistance: 30
-bughuntMinTurn: 25
+bughuntMinTurn: 5
 bughuntMaxEnemies: 2
+bughuntLowMorale: 40
+bughuntTimeUnitsLeft: 60
 shortRadarRange: 2400
 drawEnemyRadarCircles: 1
 showDogfightDistanceInKm: true

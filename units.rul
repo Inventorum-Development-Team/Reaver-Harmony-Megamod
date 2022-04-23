@@ -698,7 +698,7 @@ units:
       reactions: 32
       firing: 73
       throwing: 29
-      strength: 40
+      strength: 35
       psiStrength: 48
       psiSkill: 0
       melee: 76
@@ -716,7 +716,7 @@ units:
       reactions: 32
       firing: 73
       throwing: 29
-      strength: 40
+      strength: 35
       psiStrength: 48
       psiSkill: 0
       melee: 76
@@ -733,7 +733,7 @@ units:
       reactions: 32
       firing: 73
       throwing: 29
-      strength: 40
+      strength: 35
       psiStrength: 48
       psiSkill: 0
       melee: 76
@@ -751,7 +751,7 @@ units:
       reactions: 32
       firing: 73
       throwing: 29
-      strength: 40
+      strength: 35
       psiStrength: 48
       psiSkill: 0
       melee: 76
@@ -769,7 +769,7 @@ units:
       reactions: 28
       firing: 61
       throwing: 29
-      strength: 40
+      strength: 39
       psiStrength: 50
       psiSkill: 35
       melee: 76
@@ -789,7 +789,7 @@ units:
       reactions: 25
       firing: 48
       throwing: 29
-      strength: 40
+      strength: 42
       psiStrength: 52
       psiSkill: 65
       melee: 76
@@ -811,7 +811,7 @@ units:
       reactions: 32
       firing: 73
       throwing: 29
-      strength: 40
+      strength: 35
       psiStrength: 48
       psiSkill: 0
       melee: 76
@@ -833,7 +833,7 @@ units:
       reactions: 32
       firing: 73
       throwing: 29
-      strength: 40
+      strength: 35
       psiStrength: 48
       psiSkill: 0
       melee: 76
@@ -855,7 +855,7 @@ units:
       reactions: 32
       firing: 73
       throwing: 29
-      strength: 40
+      strength: 35
       psiStrength: 48
       psiSkill: 0
       melee: 76
@@ -877,7 +877,7 @@ units:
       reactions: 32
       firing: 73
       throwing: 29
-      strength: 40
+      strength: 35
       psiStrength: 48
       psiSkill: 0
       melee: 76
@@ -899,7 +899,7 @@ units:
       reactions: 28
       firing: 61
       throwing: 29
-      strength: 40
+      strength: 39
       psiStrength: 50
       psiSkill: 35
       melee: 76
@@ -923,7 +923,7 @@ units:
       reactions: 25
       firing: 48
       throwing: 29
-      strength: 40
+      strength: 42
       psiStrength: 52
       psiSkill: 65
       melee: 76
@@ -966,7 +966,7 @@ units:
       reactions: 22
       firing: 65
       throwing: 29
-      strength: 40
+      strength: 45
       psiStrength: 20
       psiSkill: 0
       melee: 70
@@ -985,7 +985,7 @@ units:
       reactions: 22
       firing: 65
       throwing: 29
-      strength: 40
+      strength: 45
       psiStrength: 22
       psiSkill: 0
       melee: 70
@@ -1004,7 +1004,7 @@ units:
       reactions: 22
       firing: 65
       throwing: 29
-      strength: 40
+      strength: 45
       psiStrength: 22
       melee: 70
     psiWeapon: FLOATER_PSI_WEAPON
@@ -1023,7 +1023,7 @@ units:
       reactions: 22
       firing: 65
       throwing: 29
-      strength: 40
+      strength: 45
       psiStrength: 22
       psiSkill: 0
       melee: 70
@@ -1042,7 +1042,7 @@ units:
       reactions: 19
       firing: 59
       throwing: 29
-      strength: 47
+      strength: 50
       psiStrength: 25
       psiSkill: 0
       melee: 70
@@ -1060,7 +1060,7 @@ units:
       reactions: 17
       firing: 53
       throwing: 29
-      strength: 48
+      strength: 54
       psiStrength: 28
       psiSkill: 0
       melee: 70
@@ -1154,7 +1154,7 @@ units:
       reactions: 17
       firing: 73
       throwing: 33
-      strength: 47
+      strength: 52
       psiStrength: 36
       psiSkill: 0
       melee: 85
@@ -1173,7 +1173,7 @@ units:
       reactions: 15
       firing: 67
       throwing: 33
-      strength: 47
+      strength: 56
       psiStrength: 38
       psiSkill: 0
       melee: 85
@@ -1408,7 +1408,7 @@ units:
       bravery: 70
       firing: 55
       throwing: 24
-      strength: 48
+      strength: 53
       psiStrength: 81
       psiSkill: 37
       melee: 85
@@ -1429,7 +1429,7 @@ units:
       bravery: 70
       firing: 48
       throwing: 22
-      strength: 48
+      strength: 58
       psiStrength: 90
       psiSkill: 45
       melee: 85
@@ -1522,7 +1522,7 @@ units:
       reactions: 40
       firing: 109
       throwing: 36
-      strength: 60
+      strength: 53
       psiStrength: 75
       psiSkill: 0
       melee: 76
@@ -1546,7 +1546,7 @@ units:
       reactions: 35
       firing: 92
       throwing: 36
-      strength: 60
+      strength: 58
       psiStrength: 80
       psiSkill: 35
       melee: 76
@@ -1571,7 +1571,7 @@ units:
       reactions: 31
       firing: 73
       throwing: 36
-      strength: 60
+      strength: 63
       psiStrength: 85
       psiSkill: 45
       melee: 76
@@ -1622,7 +1622,7 @@ units:
       reactions: 33
       firing: 81
       throwing: 36
-      strength: 50
+      strength: 63
       psiStrength: 56
       melee: 70
     armor: FLOATER_ARMOR_C
@@ -1644,7 +1644,7 @@ units:
       reactions: 28
       firing: 81
       throwing: 36
-      strength: 50
+      strength: 63
       psiStrength: 62
       psiSkill: 64
       melee: 70
@@ -1669,7 +1669,7 @@ units:
       reactions: 28
       firing: 98
       throwing: 36
-      strength: 50
+      strength: 63
       psiStrength: 68
       melee: 70
     armor: FLOATER_ARMOR_C
@@ -1718,7 +1718,7 @@ units:
       reactions: 35
       firing: 92
       throwing: 30
-      strength: 48
+      strength: 67
       psiStrength: 80
       psiSkill: 35
       melee: 85
@@ -1744,7 +1744,7 @@ units:
       reactions: 25
       firing: 78
       throwing: 26
-      strength: 48
+      strength: 74
       psiStrength: 90
       psiSkill: 40
       melee: 85
@@ -1770,7 +1770,7 @@ units:
       reactions: 18
       firing: 73
       throwing: 22
-      strength: 48
+      strength: 81
       psiStrength: 100
       psiSkill: 45
       melee: 85

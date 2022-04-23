@@ -52,6 +52,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
+    bughuntMinTurn: 5
   - type: STR_COVERT_OPS_SHIP
     data:
       - alienRank: 4
@@ -135,6 +136,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
+    bughuntMinTurn: 6
   - type: STR_PATROLLER
     data:
       - alienRank: 4
@@ -224,6 +226,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
+    bughuntMinTurn: 6
   - type: STR_MEDIUM_SCOUT
     data:
       - alienRank: 4
@@ -301,6 +304,7 @@ alienDeployments:
     width: 40
     length: 50
     height: 10
+    bughuntMinTurn: 8
   - type: STR_LARGE_SCOUT
     data:
       - alienRank: 2
@@ -408,6 +412,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    bughuntMinTurn: 12
   - type: STR_LIGHT_DESTROYER
     data:
       - alienRank: 4
@@ -527,6 +532,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    bughuntMinTurn: 10
   - type: STR_HARVESTER
     data:
       - alienRank: 1
@@ -717,6 +723,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    bughuntMinTurn: 15
   - type: STR_ABDUCTOR
     data:
       - alienRank: 1
@@ -907,6 +914,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    bughuntMinTurn: 15
   - type: STR_CARGO_SHIP
     data:
       - alienRank: 2
@@ -1055,6 +1063,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    bughuntMinTurn: 15
   - type: STR_MEDIUM_DESTROYER
     data:
       - alienRank: 1
@@ -1334,6 +1343,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    bughuntMinTurn: 15
   - type: STR_TERROR_SHIP
     data:
       - alienRank: 1
@@ -1600,6 +1610,7 @@ alienDeployments:
     width: 60
     length: 70
     height: 10
+    bughuntMinTurn: 20
   - type: STR_SUPPLY_SHIP
     data:
       - alienRank: 1
@@ -1790,6 +1801,7 @@ alienDeployments:
     width: 70
     length: 60
     height: 10
+    bughuntMinTurn: 20
   - type: STR_HEAVY_DESTROYER
     data:
       - alienRank: 1
@@ -2069,6 +2081,7 @@ alienDeployments:
     width: 70
     length: 70
     height: 10
+    bughuntMinTurn: 20
   - type: STR_BATTLESHIP
     data:
       - alienRank: 0
@@ -2109,8 +2122,6 @@ alienDeployments:
             - STR_BLASTER_BOMB
           -
             - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
@@ -2394,6 +2405,7 @@ alienDeployments:
     width: 70
     length: 70
     height: 10
+    bughuntMinTurn: 25
   - type: STR_MOTHERSHIP
     data:
       - alienRank: 0
@@ -2434,8 +2446,6 @@ alienDeployments:
             - STR_BLASTER_BOMB
           -
             - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
@@ -2714,6 +2724,7 @@ alienDeployments:
     width: 70
     length: 70
     height: 10
+    bughuntMinTurn: 25
   - type: STR_TERROR_MISSION
     data:
       - alienRank: 1
@@ -3000,6 +3011,7 @@ alienDeployments:
     objectiveComplete: [STR_ALIEN_TERROR_STOPPED, 250]
     objectiveFailed: [STR_ALIEN_TERROR_CONTINUES, -250]
     objectivePopup: STR_TERROR_BEACON_DESTROYED
+    bughuntMinTurn: 15
   - type: STR_ALIEN_BASE_ASSAULT
     data:
       - alienRank: 0
@@ -3046,8 +3058,6 @@ alienDeployments:
             - STR_BLASTER_BOMB
           -
             - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
@@ -3381,6 +3391,7 @@ alienDeployments:
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 1000]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 5
+    bughuntMinTurn: 25
   # - type: STR_ALIEN_BASE_ASSAULT_SECTOID
     # data:
       # - alienRank: 0
@@ -5577,6 +5588,7 @@ alienDeployments:
     objectiveComplete: [STR_ALIEN_OUTPOST_CONTROL_DESTROYED, 250]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 5
+    bughuntMinTurn: 15
   - type: STR_SNAKEMAN_OUTPOST_ASSAULT
     data:
       - alienRank: 0
@@ -5901,6 +5913,7 @@ alienDeployments:
     objectiveComplete: [STR_SNAKEMAN_OUTPOST_CONTROL_DESTROYED, 200]
     objectivePopup: STR_SNAKEMAN_QUEEN_KILLED
     points: 5
+    bughuntMinTurn: 15
   - type: STR_BASE_DEFENSE
     data:
       - alienRank: 0
@@ -5941,8 +5954,6 @@ alienDeployments:
             - STR_BLASTER_BOMB
           -
             - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
@@ -6234,6 +6245,7 @@ alienDeployments:
       palette: 0
       background: BACK01.SCR
       music: GMENBASE
+    bughuntMinTurn: 15
   - type: STR_MARS_CYDONIA_LANDING
     data:
       - alienRank: 0
@@ -6324,6 +6336,7 @@ alienDeployments:
     finalDestination: true
     loseCutscene: loseGame
     abortCutscene: loseGame
+    bughuntMinTurn: 40
     briefing:
       textOffset: -16
       palette: 6
@@ -6483,6 +6496,7 @@ alienDeployments:
     script: BOSSBATTLE
     objectiveType: 14
     objectivesRequired: 1
+    bughuntMinTurn: 40
   - type: STR_SMALL_SCOUT_ELITE
     data:
       - alienRank: 4
@@ -6500,6 +6514,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
+    bughuntMinTurn: 5
   - type: STR_COVERT_OPS_SHIP_ELITE
     data:
       - alienRank: 4
@@ -6529,6 +6544,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
+    bughuntMinTurn: 6
   - type: STR_PATROLLER_ELITE
     data:
       - alienRank: 4
@@ -6558,6 +6574,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
+    bughuntMinTurn: 6
   - type: STR_MEDIUM_SCOUT_ELITE
     data:
       - alienRank: 4
@@ -6585,6 +6602,7 @@ alienDeployments:
     width: 50
     length: 40
     height: 10
+    bughuntMinTurn: 8
   - type: STR_LARGE_SCOUT_ELITE
     data:
       - alienRank: 2
@@ -6622,6 +6640,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    bughuntMinTurn: 12
   - type: STR_LIGHT_DESTROYER_ELITE
     data:
       - alienRank: 4
@@ -6661,6 +6680,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    bughuntMinTurn: 10
   - type: STR_HARVESTER_ELITE
     data:
       - alienRank: 1
@@ -6721,6 +6741,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    bughuntMinTurn: 15
   - type: STR_ABDUCTOR_ELITE
     data:
       - alienRank: 1
@@ -6781,6 +6802,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    bughuntMinTurn: 15
   - type: STR_CARGO_SHIP_ELITE
     data:
       - alienRank: 2
@@ -6829,6 +6851,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    bughuntMinTurn: 15
   - type: STR_MEDIUM_DESTROYER_ELITE
     data:
       - alienRank: 1
@@ -6918,6 +6941,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    bughuntMinTurn: 15
   - type: STR_TERROR_SHIP_ELITE
     data:
       - alienRank: 1
@@ -7007,6 +7031,7 @@ alienDeployments:
     width: 70
     length: 60
     height: 10
+    bughuntMinTurn: 20
   - type: STR_SUPPLY_SHIP_ELITE
     data:
       - alienRank: 1
@@ -7067,6 +7092,7 @@ alienDeployments:
     width: 60
     length: 70
     height: 10
+    bughuntMinTurn: 20
   - type: STR_HEAVY_DESTROYER_ELITE
     data:
       - alienRank: 1
@@ -7156,6 +7182,7 @@ alienDeployments:
     width: 70
     length: 70
     height: 10
+    bughuntMinTurn: 20
   - type: STR_BATTLESHIP_ELITE
     data:
       - alienRank: 0
@@ -7166,8 +7193,6 @@ alienDeployments:
         itemSets:
           -
             - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
@@ -7261,6 +7286,7 @@ alienDeployments:
     width: 70
     length: 70
     height: 10
+    bughuntMinTurn: 25
   - type: STR_MOTHERSHIP_ELITE
     data:
       - alienRank: 0
@@ -7271,8 +7297,6 @@ alienDeployments:
         itemSets:
           -
             - STR_FUSION_LAUNCHER_RED
-            - STR_FUSION_LAUNCHER_RED_BOMB
-            - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
             - STR_FUSION_LAUNCHER_RED_BOMB
@@ -7361,3 +7385,4 @@ alienDeployments:
     width: 70
     length: 70
     height: 10
+    bughuntMinTurn: 225

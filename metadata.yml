@@ -44,7 +44,7 @@
 #       * Slightly tweaked resistances across the board.
 #       * Reduced how often aliens carry blaster launchers and increased how often they carry small launchers.
 #       * Made elite aliens show up a bit earlier in the event that you complete the research tree quickly.
-#       * Invasion now begins almost year earlier.
+#       * Invasion now begins almost a year earlier.
 #       * Improved several UFOPedia descriptions.
 #       * Unit on elite small scout now correctly carries red grenade.
 #       * Fixed bug with Medium Destroyer sometimes carrying derelict alien habitat units.
@@ -66,7 +66,7 @@
 #           - This means that stun bombs remain potent all the way out to the edge of the explosion.
 #       * If a base facility is destroyed during base defense, it will now convert to a destroyed version.
 #           - This will save on rebuild time more than anything else, plus it lets you see what happened.
-#           - Access Lift, Hangars, and Corridors are all indestructible.
+#           - Access Lift, Hangars, Corridors, and Empty Rooms are all indestructible.
 #       * Added a new Access Lift design.
 #       * Added north/south and east/west corridors.
 #       * Number of civilians on terror sites now tends to be closer to the average.
@@ -97,7 +97,7 @@
 #       * Added several new handob sprites.
 #       * Minor text, sprite, and UFOPedia changes.
 #  1.0.1:   Fixed crash at startup when running on OXCE 7.1.
-#  1.0.2:   Increased aircraft defenses on lower difficulties.
+#  1.0.2:   Increased aircraft and spacecraft defenses on lower difficulties.
 #       * Greatly increased armor values on all types of power armor.
 #           - Power armor on hard difficulty now has more armor than power armor on easy difficulty previously had.
 #           - Terrorist units have had their attacks buffed slightly to compensate for this change.
@@ -140,6 +140,46 @@
 #       * You can now tell upper ranks from lower ranks visually with some alien races.
 #       * Snakeman Queen mechanics greatly improved. (Still likely buggy!)
 #       * Various small bug fixes and balance tweaks.
+#  1.0.5:   Updated interception images for Covert Ops, Patroller, and Light Destroyer.
+#       * Reduced Harvester speed from 4000 to 3600 to make it easier to catch with tractor beams.
+#       * Reduced Medium Destroyer speed from 4500 to 4000 to better match its size.
+#       * Reduced Heavy Destroyer speed from 5400 to 5000 to better match its size.
+#       * Increased Battleship speed from 5200 to 5400 to make it once again the fastest UFO type.
+#       * Increased Mothership speed from 3700 to 3900 to better match its size.
+#       * Rebalanced destroyer hunt speeds.
+#       * Added new bigobs for security turrets.
+#       * Fixed bug in which tractor beams were not draining shields.
+#  1.0.6:   Cannons and launchers with multiple ammo types now show which ammo is loaded via the sprite.
+#       * Minor tweaks to various cannon or launcher sprites; new sprite for Blaster Launcher.
+#       * Heavy and rapid-fire weaponry now punch through terrain more easily than before.
+#       * Added defense system facility which is powered by Alien Explosive missiles.
+#       * Nerfed Exterminator speed a bit; buffed Interceptor, Interdictor, and Executioner speed significantly.
+#           - The Exterminator's maximum speed is 170 knots over the Executioner, down from 530 knots over.
+#           - Tier 1 top speed with 1 weapon on Skyraider is 50 knots under Interceptor, down from 150 knots over.
+#       * The fuel capacity and fuel efficiency of spacecraft (but not Flagships) have been reduced by 1/3rd.
+#           - The Heracles is now more fuel efficient than the Firestorm.
+#           - Power Sources and Subjugator Combos had their fuel capacity reduced by 1/3rd.
+#           - Combat Suite fuel capacity reduced by 5/9ths.
+#           - Recon Suite fuel capacity doubled, shields cut in half. Manufacturing recipe and sell value updated.
+#           **Note:** It is easy to extend spacecraft flight range with either engines or power sources.
+#       * Updated UFOPedia to reflect aircraft and spacecraft defense changes from 1.0.2.
+#       * Optimized interception image for Heavy Destroyer.
+#       * Fixed storage sizes of some items.
+#       * Alien Alloys no longer grant points when recovered.
+#       * Aliens recover from stun more quickly than before. This was supposed to have been implemented earlier.
+#       * Reduced time to salvage Power Source and Navigation. This also was supposed to be implemented earlier.
+#       * Snakeman Colony missions complete rapidly, as they were supposed to before.
+#       * Ethereal Navigator Corpse now yields 2 Psionic Wave Emitters.
+#       * Ethereal Garrison race now has fewer Mutons and more Ethereals.
+#       * Muton Garrison race now has fewer Ethereal Leaders, and will spawn Ethereal Taskmasters instead.
+#       * UFO dodge chance listed in UFOPedia now follows a better system; actual UFO dodge chance is not changed.
+#           - To estimate your odds of hitting: weapon hit chance + bonus hit - enemy evasion
+#               - Example: Starling (90%) vs Medium Scout (-26%) = 64, so you need ~36% bonus to guarantee a hit.
+#       * Minimum turns for bughunt mode varies by mission, with small missions allowing it to activate much earlier.
+#       * Item sorting in base stores improved.
+#       * Repaired various minor holes in UFO walls, 47 maps updated.
+#       * Several small updates to base defense terrain: less holes, more/better spawn nodes, better looking.
+#       * Several other tiny changes. Full details are available in the GitHub logs.
 #
 #
 # resource authors/sources:
@@ -224,13 +264,25 @@
 # The Reaver of Darkness(myself): all battlescape maps in this mod unless otherwise stated; new tiles added
 #		in LIGHTNIAR.MCD; red/blue laser pistol and heavy laser; blue plasma auto pistol and assault cannon;
 #		smoke, fusion, and alternate incendiary rockets; conventional ammo for blaster and small launchers;
+#       Human Small Launcher inspired by Chiko's work; Human Blaster Launcher inspired by The_Funktasm;
 #		additional graphics for the plasma rifle; alien explosive cannon ammo; sprites for Heracles and
-#		Stalker, Sectopod green laser graphic, Large Workshop sprite and map; tank color swaps; tank
+#		Amaranth, Sectopod green laser graphic, Large Workshop sprite and map; tank color swaps; tank
 #       auxiliary weapons (edits of wolwerin's sprites); power suit weapons (edits of xops' sprites); color
 #       swaps of several aliens; night lighting fix of terrain; rearranged map tiles for base defense; UFO
 #       components on top of UFO; new map blocks for Cydonia and Terror Beacon; edits to Luke's UFOs; short
 #       Harvester map variants; Battleship map variants; new UFO maps; Geoscape marks; paladin and assassin
-#       power suit variants; new tiles added in PLANEMOD.MCD;
+#       power suit variants; new tiles added in PLANEMOD.MCD; new UFO interception sprites; new base facility
+#       sprites unless otherwise stated; U_TROD.MCD and variants;
+#
+# All parts of this mod which are made by The Reaver of Darkness or by Inventorum Development Team are
+# licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To
+# view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to
+# Creative Commons, PO Box 1866, Mountain View, CA 94042, USA. Other assets may also carry their own licenses
+# or may not have any license at all. As a general rule of thumb, you may distribute, remix, adapt, and build
+# upon this work and most assets contained within, non-commercially, as long as you credit the authors of the
+# assets and license your new creations under the identical terms. Several assets in this work borrow or are
+# rearranged from the base game assets, which were originally the intellectual property of MicroProse, and
+# currently belong to Firaxis at the time of this release. These assets are licensed much more restrictively.
 #
 # Anything not credited here is not necessarily done by me, and may simply be uncredited. Please notify me
 # of any of these you find. If you know who to give credit to, please mention this as well. Best way to
@@ -238,7 +290,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 1.0.4
+version: 1.0.6
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

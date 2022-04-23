@@ -20,10 +20,10 @@ ufopaedia:
       height: 80
     rect_text:
       x: 5
-      y: 138
+      y: 134
       width: 210
       height: 65
-    text: STR_INTERCEPTOR_UFOPEDIA
+    text: STR_INTERCEPTOR_UFOPEDIA_EASY
   - id: STR_SKYRAIDER_EASY
     listOrder: 120
     type_id: 1
@@ -41,7 +41,7 @@ ufopaedia:
       y: 40
       width: 300
       height: 160
-    text: STR_SKYRAIDER_UFOPEDIA
+    text: STR_SKYRAIDER_UFOPEDIA_EASY
   - id: STR_MAMMOTH_EASY
     listOrder: 140
     type_id: 1
@@ -59,7 +59,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_MAMMOTH_UFOPEDIA
+    text: STR_MAMMOTH_UFOPEDIA_EASY
   - id: STR_INTERDICTOR_EASY
     listOrder: 110
     type_id: 1
@@ -75,10 +75,10 @@ ufopaedia:
       height: 80
     rect_text:
       x: 5
-      y: 138
+      y: 134
       width: 210
       height: 65
-    text: STR_INTERDICTOR_UFOPEDIA
+    text: STR_INTERDICTOR_UFOPEDIA_EASY
   - id: STR_STORMCHARGER_EASY
     listOrder: 130
     type_id: 1
@@ -97,7 +97,7 @@ ufopaedia:
       y: 40
       width: 300
       height: 160
-    text: STR_STORMCHARGER_UFOPEDIA
+    text: STR_STORMCHARGER_UFOPEDIA_EASY
   - id: STR_MASTODON_EASY
     listOrder: 150
     type_id: 1
@@ -116,7 +116,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_MASTODON_UFOPEDIA
+    text: STR_MASTODON_UFOPEDIA_EASY
   - id: STR_EXECUTIONER_EASY
     listOrder: 200
     type_id: 1
@@ -137,7 +137,7 @@ ufopaedia:
       y: 138
       width: 210
       height: 65
-    text: STR_EXECUTIONER_UFOPEDIA
+    text: STR_EXECUTIONER_UFOPEDIA_EASY
   - id: STR_EXTERMINATOR_EASY
     listOrder: 210
     type_id: 1
@@ -158,7 +158,7 @@ ufopaedia:
       y: 130
       width: 240
       height: 70
-    text: STR_EXTERMINATOR_UFOPEDIA
+    text: STR_EXTERMINATOR_UFOPEDIA_EASY
   - id: STR_FIRESTORM_EASY
     listOrder: 300
     type_id: 1
@@ -177,7 +177,7 @@ ufopaedia:
       y: 40
       width: 150
       height: 140
-    text: STR_FIRESTORM_UFOPEDIA
+    text: STR_FIRESTORM_UFOPEDIA_EASY
   - id: STR_LIGHTNING_EASY
     listOrder: 320
     type_id: 1
@@ -196,7 +196,7 @@ ufopaedia:
       y: 40
       width: 310
       height: 80
-    text: STR_LIGHTNING_UFOPEDIA
+    text: STR_LIGHTNING_UFOPEDIA_EASY
   - id: STR_INFERNO_EASY
     listOrder: 340
     type_id: 1
@@ -215,7 +215,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_INFERNO_UFOPEDIA
+    text: STR_INFERNO_UFOPEDIA_EASY
   - id: STR_TEMPEST_EASY
     listOrder: 360
     type_id: 1
@@ -233,8 +233,8 @@ ufopaedia:
       x: 165
       y: 5
       width: 150
-      height: 60
-    text: STR_TEMPEST_UFOPEDIA
+      height: 65
+    text: STR_TEMPEST_UFOPEDIA_EASY
   - id: STR_AMARANTH_EASY
     listOrder: 400
     type_id: 1
@@ -325,10 +325,10 @@ ufopaedia:
       height: 80
     rect_text:
       x: 5
-      y: 138
+      y: 134
       width: 210
       height: 65
-    text: STR_INTERCEPTOR_UFOPEDIA
+    text: STR_INTERCEPTOR_UFOPEDIA_MED
   - id: STR_SKYRAIDER
     listOrder: 120
     type_id: 1
@@ -346,7 +346,7 @@ ufopaedia:
       y: 40
       width: 300
       height: 160
-    text: STR_SKYRAIDER_UFOPEDIA
+    text: STR_SKYRAIDER_UFOPEDIA_MED
   - id: STR_MAMMOTH
     listOrder: 140
     type_id: 1
@@ -364,7 +364,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_MAMMOTH_UFOPEDIA
+    text: STR_MAMMOTH_UFOPEDIA_MED
   - id: STR_INTERDICTOR
     listOrder: 110
     type_id: 1
@@ -380,10 +380,10 @@ ufopaedia:
       height: 80
     rect_text:
       x: 5
-      y: 138
+      y: 134
       width: 210
       height: 65
-    text: STR_INTERDICTOR_UFOPEDIA
+    text: STR_INTERDICTOR_UFOPEDIA_MED
   - id: STR_STORMCHARGER
     listOrder: 130
     type_id: 1
@@ -402,7 +402,7 @@ ufopaedia:
       y: 40
       width: 300
       height: 160
-    text: STR_STORMCHARGER_UFOPEDIA
+    text: STR_STORMCHARGER_UFOPEDIA_MED
   - id: STR_MASTODON
     listOrder: 150
     type_id: 1
@@ -421,7 +421,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_MASTODON_UFOPEDIA
+    text: STR_MASTODON_UFOPEDIA_MED
   - id: STR_EXECUTIONER
     listOrder: 200
     type_id: 1
@@ -442,7 +442,7 @@ ufopaedia:
       y: 138
       width: 210
       height: 65
-    text: STR_EXECUTIONER_UFOPEDIA
+    text: STR_EXECUTIONER_UFOPEDIA_MED
   - id: STR_EXTERMINATOR
     listOrder: 210
     type_id: 1
@@ -463,7 +463,7 @@ ufopaedia:
       y: 130
       width: 240
       height: 70
-    text: STR_EXTERMINATOR_UFOPEDIA
+    text: STR_EXTERMINATOR_UFOPEDIA_MED
   - id: STR_FIRESTORM
     listOrder: 300
     type_id: 1
@@ -482,7 +482,7 @@ ufopaedia:
       y: 40
       width: 150
       height: 140
-    text: STR_FIRESTORM_UFOPEDIA
+    text: STR_FIRESTORM_UFOPEDIA_MED
   - id: STR_LIGHTNING
     listOrder: 320
     type_id: 1
@@ -501,7 +501,7 @@ ufopaedia:
       y: 40
       width: 310
       height: 80
-    text: STR_LIGHTNING_UFOPEDIA
+    text: STR_LIGHTNING_UFOPEDIA_MED
   - id: STR_INFERNO
     listOrder: 340
     type_id: 1
@@ -520,7 +520,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_INFERNO_UFOPEDIA
+    text: STR_INFERNO_UFOPEDIA_MED
   - id: STR_TEMPEST
     listOrder: 360
     type_id: 1
@@ -538,8 +538,8 @@ ufopaedia:
       x: 165
       y: 5
       width: 150
-      height: 60
-    text: STR_TEMPEST_UFOPEDIA
+      height: 65
+    text: STR_TEMPEST_UFOPEDIA_MED
   - id: STR_AMARANTH
     listOrder: 400
     type_id: 1
@@ -630,10 +630,10 @@ ufopaedia:
       height: 80
     rect_text:
       x: 5
-      y: 138
+      y: 134
       width: 210
       height: 65
-    text: STR_INTERCEPTOR_UFOPEDIA
+    text: STR_INTERCEPTOR_UFOPEDIA_HARD
   - id: STR_SKYRAIDER_HARD
     listOrder: 120
     type_id: 1
@@ -651,7 +651,7 @@ ufopaedia:
       y: 40
       width: 300
       height: 160
-    text: STR_SKYRAIDER_UFOPEDIA
+    text: STR_SKYRAIDER_UFOPEDIA_HARD
   - id: STR_MAMMOTH_HARD
     listOrder: 140
     type_id: 1
@@ -669,7 +669,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_MAMMOTH_UFOPEDIA
+    text: STR_MAMMOTH_UFOPEDIA_HARD
   - id: STR_INTERDICTOR_HARD
     listOrder: 110
     type_id: 1
@@ -685,10 +685,10 @@ ufopaedia:
       height: 80
     rect_text:
       x: 5
-      y: 138
+      y: 134
       width: 210
       height: 65
-    text: STR_INTERDICTOR_UFOPEDIA
+    text: STR_INTERDICTOR_UFOPEDIA_HARD
   - id: STR_STORMCHARGER_HARD
     listOrder: 130
     type_id: 1
@@ -707,7 +707,7 @@ ufopaedia:
       y: 40
       width: 300
       height: 160
-    text: STR_STORMCHARGER_UFOPEDIA
+    text: STR_STORMCHARGER_UFOPEDIA_HARD
   - id: STR_MASTODON_HARD
     listOrder: 150
     type_id: 1
@@ -726,7 +726,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_MASTODON_UFOPEDIA
+    text: STR_MASTODON_UFOPEDIA_HARD
   - id: STR_EXECUTIONER_HARD
     listOrder: 200
     type_id: 1
@@ -747,7 +747,7 @@ ufopaedia:
       y: 138
       width: 210
       height: 65
-    text: STR_EXECUTIONER_UFOPEDIA
+    text: STR_EXECUTIONER_UFOPEDIA_HARD
   - id: STR_EXTERMINATOR_HARD
     listOrder: 210
     type_id: 1
@@ -768,7 +768,7 @@ ufopaedia:
       y: 130
       width: 240
       height: 70
-    text: STR_EXTERMINATOR_UFOPEDIA
+    text: STR_EXTERMINATOR_UFOPEDIA_HARD
   - id: STR_FIRESTORM_HARD
     listOrder: 300
     type_id: 1
@@ -787,7 +787,7 @@ ufopaedia:
       y: 40
       width: 150
       height: 140
-    text: STR_FIRESTORM_UFOPEDIA
+    text: STR_FIRESTORM_UFOPEDIA_HARD
   - id: STR_LIGHTNING_HARD
     listOrder: 320
     type_id: 1
@@ -806,7 +806,7 @@ ufopaedia:
       y: 40
       width: 310
       height: 80
-    text: STR_LIGHTNING_UFOPEDIA
+    text: STR_LIGHTNING_UFOPEDIA_HARD
   - id: STR_INFERNO_HARD
     listOrder: 340
     type_id: 1
@@ -825,7 +825,7 @@ ufopaedia:
       y: 40
       width: 140
       height: 100
-    text: STR_INFERNO_UFOPEDIA
+    text: STR_INFERNO_UFOPEDIA_HARD
   - id: STR_TEMPEST_HARD
     listOrder: 360
     type_id: 1
@@ -843,8 +843,8 @@ ufopaedia:
       x: 165
       y: 5
       width: 150
-      height: 60
-    text: STR_TEMPEST_UFOPEDIA
+      height: 65
+    text: STR_TEMPEST_UFOPEDIA_HARD
   - id: STR_AMARANTH_HARD
     listOrder: 400
     type_id: 1
@@ -1144,7 +1144,7 @@ ufopaedia:
     image_id: VECTORING_THRUSTER
     text: STR_ALLOY_FUEL_TANKS_ENGINES_UFOPEDIA
   - id: STR_ALLOY_POWER_SOURCE
-    listOrder: 910
+    listOrder: 905
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1153,7 +1153,7 @@ ufopaedia:
     image_id: SHIELD_GENERATOR
     text: STR_ALLOY_POWER_SOURCE_UFOPEDIA
   - id: STR_ALLOY_PLATING
-    listOrder: 920
+    listOrder: 910
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1161,7 +1161,7 @@ ufopaedia:
     image_id: ALLOY_CRAFT_AIRFRAME
     text: STR_ALLOY_PLATING_UFOPEDIA
   - id: STR_MOD_TARGETING
-    listOrder: 930
+    listOrder: 915
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1169,63 +1169,8 @@ ufopaedia:
       - STR_UFO_NAVIGATION
     image_id: TARGETING_POD
     text: STR_MOD_TARGETING_UFOPEDIA
-  - id: STR_COMBO_PURSUER
-    listOrder: 950
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_UFO_NAVIGATION
-    image_id: AFTERBURNER
-    text: STR_COMBO_PURSUER_UFOPEDIA
-  - id: STR_COMBO_BRAWLER
-    listOrder: 955
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_UFO_NAVIGATION
-    image_id: FLARE_DISPENSER
-    text: STR_COMBO_BRAWLER_UFOPEDIA
-  - id: STR_COMBO_SENTINEL
-    listOrder: 960
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_UFO_NAVIGATION
-    image_id: IMPROVED_SPY_CAMERA
-    text: STR_COMBO_SENTINEL_UFOPEDIA
-  - id: STR_COMBO_PARAGON
-    listOrder: 965
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_UFO_NAVIGATION
-    image_id: SMART_COCKPIT
-    text: STR_COMBO_PARAGON_UFOPEDIA
-  - id: STR_COMBO_CHAMPION
-    listOrder: 970
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_UFO_NAVIGATION
-    image_id: SMART_COCKPIT
-    text: STR_COMBO_CHAMPION_UFOPEDIA
-  - id: STR_COMBO_SUBJUGATOR
-    listOrder: 975
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
-      - STR_UFO_SHIELD_EMITTER
-    image_id: ADVANCED_RADAR
-    text: STR_COMBO_SUBJUGATOR_UFOPEDIA
   - id: STR_BOOST_ENGINES
-    listOrder: 980
+    listOrder: 930
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1234,7 +1179,7 @@ ufopaedia:
     image_id: VECTORING_THRUSTER
     text: STR_BOOST_ENGINES_UFOPEDIA
   - id: STR_BOOST_POWER_SOURCE
-    listOrder: 982
+    listOrder: 935
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1243,7 +1188,7 @@ ufopaedia:
     image_id: SHIELD_GENERATOR
     text: STR_BOOST_POWER_SOURCE_UFOPEDIA
   - id: STR_BOOST_RADAR
-    listOrder: 983
+    listOrder: 940
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1252,7 +1197,7 @@ ufopaedia:
     image_id: ADVANCED_SENSOR
     text: STR_BOOST_RADAR_UFOPEDIA
   - id: STR_BOOST_PLATING
-    listOrder: 984
+    listOrder: 945
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1262,7 +1207,7 @@ ufopaedia:
     image_id: ALLOY_CRAFT_AIRFRAME
     text: STR_BOOST_PLATING_UFOPEDIA
   - id: STR_BOOST_PLATING_SHIELDS
-    listOrder: 985
+    listOrder: 950
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1272,7 +1217,7 @@ ufopaedia:
     image_id: ALLOY_CRAFT_ARMOR
     text: STR_BOOST_PLATING_SHIELDS_UFOPEDIA
   - id: STR_MOD_TARGETING_CRITICAL
-    listOrder: 931
+    listOrder: 955
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1281,8 +1226,63 @@ ufopaedia:
       - STR_ALIEN_MEDIC
     image_id: TARGETING_POD
     text: STR_MOD_TARGETING_CRITICAL_UFOPEDIA
+  - id: STR_COMBO_PURSUER
+    listOrder: 960
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    image_id: AFTERBURNER
+    text: STR_COMBO_PURSUER_UFOPEDIA
+  - id: STR_COMBO_BRAWLER
+    listOrder: 965
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    image_id: FLARE_DISPENSER
+    text: STR_COMBO_BRAWLER_UFOPEDIA
+  - id: STR_COMBO_SENTINEL
+    listOrder: 970
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    image_id: IMPROVED_SPY_CAMERA
+    text: STR_COMBO_SENTINEL_UFOPEDIA
+  - id: STR_COMBO_PARAGON
+    listOrder: 975
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    image_id: SMART_COCKPIT
+    text: STR_COMBO_PARAGON_UFOPEDIA
+  - id: STR_COMBO_CHAMPION
+    listOrder: 980
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
+    image_id: SMART_COCKPIT
+    text: STR_COMBO_CHAMPION_UFOPEDIA
+  - id: STR_COMBO_SUBJUGATOR
+    listOrder: 985
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_BASIC_SPACECRAFT
+      - STR_UFO_SHIELD_EMITTER
+    image_id: ADVANCED_RADAR
+    text: STR_COMBO_SUBJUGATOR_UFOPEDIA
   - id: STR_PACKAGE_PURSUER
-    listOrder: 951
+    listOrder: 961
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1292,7 +1292,7 @@ ufopaedia:
     image_id: AFTERBURNER
     text: STR_PACKAGE_PURSUER_UFOPEDIA
   - id: STR_PACKAGE_BRAWLER
-    listOrder: 956
+    listOrder: 966
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1302,7 +1302,7 @@ ufopaedia:
     image_id: FLARE_DISPENSER
     text: STR_PACKAGE_BRAWLER_UFOPEDIA
   - id: STR_PACKAGE_SENTINEL
-    listOrder: 961
+    listOrder: 971
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1313,7 +1313,7 @@ ufopaedia:
     image_id: IMPROVED_SPY_CAMERA
     text: STR_PACKAGE_SENTINEL_UFOPEDIA
   - id: STR_PACKAGE_PARAGON
-    listOrder: 966
+    listOrder: 976
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1322,7 +1322,7 @@ ufopaedia:
     image_id: SMART_COCKPIT
     text: STR_PACKAGE_PARAGON_UFOPEDIA
   - id: STR_PACKAGE_CHAMPION
-    listOrder: 971
+    listOrder: 981
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1331,7 +1331,7 @@ ufopaedia:
     image_id: SMART_COCKPIT
     text: STR_PACKAGE_CHAMPION_UFOPEDIA
   - id: STR_PACKAGE_SUBJUGATOR
-    listOrder: 976
+    listOrder: 986
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1469,7 +1469,7 @@ ufopaedia:
     section: STR_HEAVY_WEAPONS_PLATFORMS
     text: STR_LIGHT_ARMOR_UFOPEDIA
   - id: STR_HEAVY_ARMOR_UC_EASY
-    listOrder: 1105
+    listOrder: 1104
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1483,7 +1483,7 @@ ufopaedia:
       - STR_ARMOR_MEDIUM
     text: STR_HEAVY_ARMOR_UFOPEDIA
   - id: STR_HEAVY_ARMOR_UC_HARD
-    listOrder: 1105
+    listOrder: 1106
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1495,7 +1495,7 @@ ufopaedia:
     section: STR_HEAVY_WEAPONS_PLATFORMS
     text: STR_STEALTH_GEAR_UFOPEDIA
   - id: STR_PERSONAL_ARMOR_UC_EASY
-    listOrder: 1115
+    listOrder: 1114
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1511,7 +1511,7 @@ ufopaedia:
       - STR_PERSONAL_ARMOR
     text: STR_PERSONAL_ARMOR_UFOPEDIA
   - id: STR_PERSONAL_ARMOR_UC_HARD
-    listOrder: 1115
+    listOrder: 1116
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1519,7 +1519,7 @@ ufopaedia:
       - STR_PERSONAL_ARMOR
     text: STR_PERSONAL_ARMOR_UFOPEDIA
   - id: STR_PERSONAL_ARMOR_HEAVY_UC_EASY
-    listOrder: 1120
+    listOrder: 1119
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1535,7 +1535,7 @@ ufopaedia:
       - STR_PERSONAL_ARMOR
     text: STR_PERSONAL_ARMOR_HEAVY_UFOPEDIA
   - id: STR_PERSONAL_ARMOR_HEAVY_UC_HARD
-    listOrder: 1120
+    listOrder: 1121
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1543,7 +1543,7 @@ ufopaedia:
       - STR_PERSONAL_ARMOR
     text: STR_PERSONAL_ARMOR_HEAVY_UFOPEDIA
   - id: STR_NIGHT_OPS_ARMOR_UC_EASY
-    listOrder: 1125
+    listOrder: 1124
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1561,7 +1561,7 @@ ufopaedia:
       - STR_PERSONAL_ARMOR
     text: STR_NIGHT_OPS_ARMOR_UFOPEDIA
   - id: STR_NIGHT_OPS_ARMOR_UC_HARD
-    listOrder: 1125
+    listOrder: 1126
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1570,7 +1570,7 @@ ufopaedia:
       - STR_PERSONAL_ARMOR
     text: STR_NIGHT_OPS_ARMOR_UFOPEDIA
   - id: STR_PSIONIC_ALLOY_ARMOR_UC_EASY
-    listOrder: 1130
+    listOrder: 1129
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1594,7 +1594,7 @@ ufopaedia:
       - STR_ALIEN_ENTERTAINMENT
     text: STR_PSI_ALLOY_ARMOR_UFOPEDIA
   - id: STR_PSIONIC_ALLOY_ARMOR_UC_HARD
-    listOrder: 1130
+    listOrder: 1131
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1606,7 +1606,7 @@ ufopaedia:
       - STR_ALIEN_ENTERTAINMENT
     text: STR_PSI_ALLOY_ARMOR_UFOPEDIA
   - id: STR_POWER_SUIT_UC_EASY
-    listOrder: 1135
+    listOrder: 1134
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1622,7 +1622,7 @@ ufopaedia:
       - STR_POWER_SUIT
     text: STR_POWER_SUIT_UFOPEDIA
   - id: STR_POWER_SUIT_UC_HARD
-    listOrder: 1135
+    listOrder: 1136
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1630,7 +1630,7 @@ ufopaedia:
       - STR_POWER_SUIT
     text: STR_POWER_SUIT_UFOPEDIA
   - id: STR_FLYING_SUIT_UC_EASY
-    listOrder: 1140
+    listOrder: 1139
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1646,7 +1646,7 @@ ufopaedia:
       - STR_FLYING_SUIT
     text: STR_FLYING_SUIT_UFOPEDIA
   - id: STR_FLYING_SUIT_UC_HARD
-    listOrder: 1140
+    listOrder: 1141
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1654,7 +1654,7 @@ ufopaedia:
       - STR_FLYING_SUIT
     text: STR_FLYING_SUIT_UFOPEDIA
   - id: STR_PSI_DEFENSE_ARMOR_UC_EASY
-    listOrder: 1145
+    listOrder: 1144
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1672,7 +1672,7 @@ ufopaedia:
       - STR_POWER_SUIT
     text: STR_PSI_DEFENSE_ARMOR_UFOPEDIA
   - id: STR_PSI_DEFENSE_ARMOR_UC_HARD
-    listOrder: 1145
+    listOrder: 1146
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1681,7 +1681,7 @@ ufopaedia:
       - STR_POWER_SUIT
     text: STR_PSI_DEFENSE_ARMOR_UFOPEDIA
   - id: STR_PSI_ATTACK_ARMOR_UC_EASY
-    listOrder: 1150
+    listOrder: 1149
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1699,7 +1699,7 @@ ufopaedia:
       - STR_FLYING_SUIT
     text: STR_PSI_ATTACK_ARMOR_UFOPEDIA
   - id: STR_PSI_ATTACK_ARMOR_UC_HARD
-    listOrder: 1150
+    listOrder: 1151
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1708,7 +1708,7 @@ ufopaedia:
       - STR_FLYING_SUIT
     text: STR_PSI_ATTACK_ARMOR_UFOPEDIA
   - id: STR_PALADIN_ARMOR_UC_EASY
-    listOrder: 1155
+    listOrder: 1154
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1728,7 +1728,7 @@ ufopaedia:
       - STR_SECTOPOD_AUTOPSY
     text: STR_PALADIN_ARMOR_UFOPEDIA
   - id: STR_PALADIN_ARMOR_UC_HARD
-    listOrder: 1155
+    listOrder: 1156
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1738,7 +1738,7 @@ ufopaedia:
       - STR_SECTOPOD_AUTOPSY
     text: STR_PALADIN_ARMOR_UFOPEDIA
   - id: STR_ASSASSIN_ARMOR_UC_EASY
-    listOrder: 1160
+    listOrder: 1159
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -1758,7 +1758,7 @@ ufopaedia:
       - STR_CYBERDISC_AUTOPSY
     text: STR_ASSASSIN_ARMOR_UFOPEDIA
   - id: STR_ASSASSIN_ARMOR_UC_HARD
-    listOrder: 1160
+    listOrder: 1161
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
     requires:
@@ -2142,27 +2142,239 @@ ufopaedia:
       - STR_HEAVY_LASER_WEAPONS
       - STR_AUTOMATIC_LASER_WEAPONS
     text: STR_HEAVY_AUTO_LASER_UFOPEDIA
+  - id: STR_PLASMA_SHOTGUN
+    listOrder: 3890
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PLASMA_WEAPONS
+    text: STR_PLASMA_SHOTGUN_UFOPEDIA
+  - id: STR_PLASMA_SHOTGUN_CLIP
+    listOrder: 3891
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PLASMA_WEAPONS
+    text: STR_PLASMA_SHOTGUN_CLIP_UFOPEDIA
+  - id: STR_PLASMA_PISTOL_TERRAN
+    listOrder: 3900
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    text: STR_PLASMA_PISTOL_TERRAN_UFOPEDIA
+  - id: STR_PLASMA_PISTOL_TERRAN_CLIP
+    listOrder: 3901
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    text: STR_PLASMA_PISTOL_TERRAN_CLIP_UFOPEDIA
+  - id: STR_PLASMA_AUTO_PISTOL
+    listOrder: 3910
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    text: STR_PLASMA_AUTO_PISTOL_UFOPEDIA
+  - id: STR_PLASMA_AUTO_PISTOL_CLIP
+    listOrder: 3911
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_CLIP
+    text: STR_PLASMA_AUTO_PISTOL_CLIP_UFOPEDIA
+  - id: STR_PLASMA_RIFLE_TERRAN
+    listOrder: 3920
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    text: STR_PLASMA_RIFLE_TERRAN_UFOPEDIA
+  - id: STR_PLASMA_RIFLE_TERRAN_CLIP
+    listOrder: 3921
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    text: STR_PLASMA_RIFLE_TERRAN_CLIP_UFOPEDIA
+  - id: STR_PLASMA_MACHINEGUN
+    listOrder: 3930
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    text: STR_PLASMA_MACHINEGUN_UFOPEDIA
+  - id: STR_PLASMA_MACHINEGUN_CLIP
+    listOrder: 3931
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_PLASMA_RIFLE_CLIP
+    text: STR_PLASMA_MACHINEGUN_CLIP_UFOPEDIA
+  - id: STR_HEAVY_PLASMA_TERRAN
+    listOrder: 3940
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    text: STR_HEAVY_PLASMA_TERRAN_UFOPEDIA
+  - id: STR_HEAVY_PLASMA_TERRAN_CLIP
+    listOrder: 3941
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    text: STR_HEAVY_PLASMA_TERRAN_CLIP_UFOPEDIA
+  - id: STR_PLASMA_ASSAULT_CANNON
+    listOrder: 3950
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    text: STR_PLASMA_ASSAULT_CANNON_UFOPEDIA
+  - id: STR_PLASMA_ASSAULT_CANNON_CLIP
+    listOrder: 3951
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_HEAVY_PLASMA_CLIP
+    text: STR_PLASMA_ASSAULT_CANNON_CLIP_UFOPEDIA
+  - id: STR_AUTOMATIC_PLASMA_WEAPONS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BLASTER_LAUNCHER_TERRAN
+    listOrder: 3960
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_BLASTER_BOMB
+    text: STR_BLASTER_LAUNCHER_TERRAN_UFOPEDIA
+  - id: STR_BLASTER_BOMB_TERRAN
+    listOrder: 3962
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_BLASTER_BOMB
+    text: STR_BLASTER_BOMB_TERRAN_UFOPEDIA
+  - id: STR_BLASTER_HE_BOMB
+    listOrder: 3964
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    text: STR_BLASTER_HE_BOMB_UFOPEDIA
+  - id: STR_BLASTER_I_BOMB
+    listOrder: 3966
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    text: STR_BLASTER_I_BOMB_UFOPEDIA
+  - id: STR_BLASTER_STUN_BOMB
+    listOrder: 3968
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_STUN_BOMB
+    text: STR_BLASTER_STUN_BOMB_UFOPEDIA
+  - id: STR_SMALL_LAUNCHER_TERRAN
+    listOrder: 3980
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_STUN_BOMB
+    text: STR_SMALL_LAUNCHER_TERRAN_UFOPEDIA
+  - id: STR_STUN_BOMB_TERRAN
+    listOrder: 3982
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_STUN_BOMB
+    text: STR_STUN_BOMB_TERRAN_UFOPEDIA
+  - id: STR_HE_BOMB
+    listOrder: 3984
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    text: STR_HE_BOMB_UFOPEDIA
+  - id: STR_SMOKE_BOMB
+    listOrder: 3986
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    text: STR_SMOKE_BOMB_UFOPEDIA
+  - id: STR_INCENDIARY_BOMB
+    listOrder: 3988
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+    text: STR_INCENDIARY_BOMB_UFOPEDIA
+  - id: STR_GRENADE
+    listOrder: 4000
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GRENADE_UFOPEDIA
   - id: STR_INCENDIARY_GRENADE
     listOrder: 4010
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_INCENDIARY_GRENADE_UFOPEDIA
+  - id: STR_SMOKE_GRENADE
+    listOrder: 4020
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SMOKE_GRENADE_UFOPEDIA
+  - id: STR_PROXIMITY_GRENADE
+    listOrder: 4030
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PROXIMITY_GRENADE_UFOPEDIA
+  - id: STR_HIGH_EXPLOSIVE
+    listOrder: 4040
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HIGH_EXPLOSIVE_UFOPEDIA
   - id: STR_AE_GRENADE
-    listOrder: 4210
+    listOrder: 4050
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ALIEN_GRENADE_ARSENAL
     text: STR_AE_GRENADE_UFOPEDIA
+  - id: STR_STUN_GRENADE
+    listOrder: 4060
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_ALIEN_GRENADE_ARSENAL
+      - STR_STUN_BOMB
+    text: STR_STUN_GRENADE_UFOPEDIA
   - id: STR_AE_PROXIMITY_GRENADE
-    listOrder: 4220
+    listOrder: 4070
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ALIEN_GRENADE_ARSENAL
     text: STR_AE_PROXIMITY_GRENADE_UFOPEDIA
   - id: STR_AE_HIGH_EXPLOSIVE
-    listOrder: 4230
+    listOrder: 4080
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
@@ -2170,26 +2382,25 @@ ufopaedia:
       - STR_HEAVY_ALIEN_EXPLOSIVES
     text: STR_AE_HIGH_EXPLOSIVE_UFOPEDIA
   - id: STR_FUSION_HIGH_EXPLOSIVE
-    listOrder: 4240
+    listOrder: 4090
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ALIEN_GRENADE_ARSENAL
       - STR_HEAVY_FUSION_MISSILE
     text: STR_FUSION_HIGH_EXPLOSIVE_UFOPEDIA
-  - id: STR_STUN_GRENADE
-    listOrder: 4250
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_ALIEN_GRENADE_ARSENAL
-      - STR_STUN_BOMB
-    text: STR_STUN_GRENADE_UFOPEDIA
   - id: STR_FIRST_AID_KIT
     listOrder: 4390
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FIRST_AID_KIT_UFOPEDIA
+  - id: STR_MEDI_KIT
+    listOrder: 4400
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_MEDI_KIT
+    text: STR_MEDI_KIT_UFOPEDIA
   - id: STR_MEDI_KIT_SUPER
     listOrder: 4410
     type_id: 4
@@ -2197,6 +2408,13 @@ ufopaedia:
     requires:
       - STR_SUPER_SOLDIERS
     text: STR_MEDI_KIT_SUPER_UFOPEDIA
+  - id: STR_MOTION_SCANNER
+    listOrder: 4430
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_MOTION_SCANNER
+    text: STR_MOTION_SCANNER_UFOPEDIA
   - id: STR_MIND_PROBE
     listOrder: 4450
     type_id: 4
@@ -2235,190 +2453,6 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ELECTRO_FLARE_LARGE_UFOPEDIA
-  - id: STR_PLASMA_SHOTGUN
-    listOrder: 4690
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_PLASMA_WEAPONS
-    text: STR_PLASMA_SHOTGUN_UFOPEDIA
-  - id: STR_PLASMA_SHOTGUN_CLIP
-    listOrder: 4691
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_PLASMA_WEAPONS
-    text: STR_PLASMA_SHOTGUN_CLIP_UFOPEDIA
-  - id: STR_PLASMA_PISTOL_TERRAN
-    listOrder: 4700
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_PLASMA_WEAPONS
-      - STR_PLASMA_PISTOL_CLIP
-    text: STR_PLASMA_PISTOL_TERRAN_UFOPEDIA
-  - id: STR_PLASMA_PISTOL_TERRAN_CLIP
-    listOrder: 4701
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_PLASMA_WEAPONS
-      - STR_PLASMA_PISTOL_CLIP
-    text: STR_PLASMA_PISTOL_TERRAN_CLIP_UFOPEDIA
-  - id: STR_PLASMA_AUTO_PISTOL
-    listOrder: 4710
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_AUTOMATIC_PLASMA_WEAPONS
-      - STR_PLASMA_PISTOL_CLIP
-    text: STR_PLASMA_AUTO_PISTOL_UFOPEDIA
-  - id: STR_PLASMA_AUTO_PISTOL_CLIP
-    listOrder: 4711
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_AUTOMATIC_PLASMA_WEAPONS
-      - STR_PLASMA_PISTOL_CLIP
-    text: STR_PLASMA_AUTO_PISTOL_CLIP_UFOPEDIA
-  - id: STR_PLASMA_RIFLE_TERRAN
-    listOrder: 4720
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_PLASMA_WEAPONS
-      - STR_PLASMA_RIFLE_CLIP
-    text: STR_PLASMA_RIFLE_TERRAN_UFOPEDIA
-  - id: STR_PLASMA_RIFLE_TERRAN_CLIP
-    listOrder: 4721
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_PLASMA_WEAPONS
-      - STR_PLASMA_RIFLE_CLIP
-    text: STR_PLASMA_RIFLE_TERRAN_CLIP_UFOPEDIA
-  - id: STR_PLASMA_MACHINEGUN
-    listOrder: 4730
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_AUTOMATIC_PLASMA_WEAPONS
-      - STR_PLASMA_RIFLE_CLIP
-    text: STR_PLASMA_MACHINEGUN_UFOPEDIA
-  - id: STR_PLASMA_MACHINEGUN_CLIP
-    listOrder: 4731
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_AUTOMATIC_PLASMA_WEAPONS
-      - STR_PLASMA_RIFLE_CLIP
-    text: STR_PLASMA_MACHINEGUN_CLIP_UFOPEDIA
-  - id: STR_HEAVY_PLASMA_TERRAN
-    listOrder: 4740
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_PLASMA_WEAPONS
-      - STR_HEAVY_PLASMA_CLIP
-    text: STR_HEAVY_PLASMA_TERRAN_UFOPEDIA
-  - id: STR_HEAVY_PLASMA_TERRAN_CLIP
-    listOrder: 4741
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_PLASMA_WEAPONS
-      - STR_HEAVY_PLASMA_CLIP
-    text: STR_HEAVY_PLASMA_TERRAN_CLIP_UFOPEDIA
-  - id: STR_PLASMA_ASSAULT_CANNON
-    listOrder: 4750
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_AUTOMATIC_PLASMA_WEAPONS
-      - STR_HEAVY_PLASMA_CLIP
-    text: STR_PLASMA_ASSAULT_CANNON_UFOPEDIA
-  - id: STR_PLASMA_ASSAULT_CANNON_CLIP
-    listOrder: 4751
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_AUTOMATIC_PLASMA_WEAPONS
-      - STR_HEAVY_PLASMA_CLIP
-    text: STR_PLASMA_ASSAULT_CANNON_CLIP_UFOPEDIA
-  - id: STR_AUTOMATIC_PLASMA_WEAPONS
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_BLASTER_LAUNCHER_TERRAN
-    listOrder: 4800
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_BLASTER_BOMB
-    text: STR_BLASTER_LAUNCHER_TERRAN_UFOPEDIA
-  - id: STR_BLASTER_BOMB_TERRAN
-    listOrder: 4802
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_BLASTER_BOMB
-    text: STR_BLASTER_BOMB_TERRAN_UFOPEDIA
-  - id: STR_BLASTER_HE_BOMB
-    listOrder: 4804
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
-    text: STR_BLASTER_HE_BOMB_UFOPEDIA
-  - id: STR_BLASTER_I_BOMB
-    listOrder: 4806
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
-    text: STR_BLASTER_I_BOMB_UFOPEDIA
-  - id: STR_BLASTER_STUN_BOMB
-    listOrder: 4808
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
-      - STR_STUN_BOMB
-    text: STR_BLASTER_STUN_BOMB_UFOPEDIA
-  - id: STR_SMALL_LAUNCHER_TERRAN
-    listOrder: 4820
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_STUN_BOMB
-    text: STR_SMALL_LAUNCHER_TERRAN_UFOPEDIA
-  - id: STR_STUN_BOMB_TERRAN
-    listOrder: 4822
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_STUN_BOMB
-    text: STR_STUN_BOMB_TERRAN_UFOPEDIA
-  - id: STR_HE_BOMB
-    listOrder: 4824
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
-    text: STR_HE_BOMB_UFOPEDIA
-  - id: STR_SMOKE_BOMB
-    listOrder: 4826
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
-    text: STR_SMOKE_BOMB_UFOPEDIA
-  - id: STR_INCENDIARY_BOMB
-    listOrder: 4828
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
-    text: STR_INCENDIARY_BOMB_UFOPEDIA
   - id: STR_POWER_SUIT_PISTOL
     listOrder: 5000
     type_id: 4
@@ -2870,6 +2904,13 @@ ufopaedia:
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_MISSILE_DEFENSES_UFOPEDIA
+  - id: STR_MISSILE_DEFENSES_AE
+    listOrder: 7705
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+    text: STR_MISSILE_DEFENSES_AE_UFOPEDIA
   - id: STR_LASER_DEFENSES
     listOrder: 7710
     type_id: 6

@@ -10,7 +10,7 @@ crafts:
     avoidBonus: 28
     armor: 8
     powerBonus: 20
-    speedMax: 1600
+    speedMax: 1800
     accel: 3
     weapons: 2
     weaponTypes:
@@ -157,7 +157,7 @@ crafts:
     avoidBonus: 31
     armor: 8
     powerBonus: 20
-    speedMax: 2000
+    speedMax: 2200
     accel: 4
     weapons: 3
     weaponTypes:
@@ -320,7 +320,7 @@ crafts:
     avoidBonus: 29
     armor: 14
     powerBonus: 20
-    speedMax: 1800
+    speedMax: 2100
     accel: 3
     weapons: 3
     weaponTypes:
@@ -341,8 +341,8 @@ crafts:
     refuelRate: 110
     repairRate: 3
     shieldRechargedAtBase: 50
-    radarRange: 600
-    sightRange: 900
+    radarRange: 900
+    sightRange: 1200
     radarChance: 40
     transferTime: 144
     score: 200
@@ -355,7 +355,7 @@ crafts:
     avoidBonus: 11
     armor: 19
     powerBonus: 20
-    speedMax: 1430
+    speedMax: 1370
     accel: 2
     weapons: 4
     weaponTypes:
@@ -383,7 +383,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
-    radarChance: 40
+    radarChance: 60
     transferTime: 144
     score: 400
     battlescapeTerrainData:
@@ -399,7 +399,7 @@ crafts:
     listOrder: 199
     sprite: 4
     marker: 18
-    fuelMax: 60
+    fuelMax: 40
     damageMax: 400
     avoidBonus: 21
     armor: 8
@@ -422,7 +422,7 @@ crafts:
     vehicles: 2
     costSell: 5400000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 30
+    refuelRate: 20
     repairRate: 4
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -457,7 +457,7 @@ crafts:
     listOrder: 299
     sprite: 1
     marker: 19
-    fuelMax: 90
+    fuelMax: 60
     damageMax: 500
     avoidBonus: 15
     armor: 27
@@ -478,7 +478,7 @@ crafts:
     vehicles: 4
     costSell: 10200000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 30
+    refuelRate: 20
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -519,7 +519,7 @@ crafts:
     listOrder: 399
     sprite: 2
     marker: 20
-    fuelMax: 90
+    fuelMax: 60
     damageMax: 700
     avoidBonus: 17
     armor: 15
@@ -542,7 +542,7 @@ crafts:
     vehicles: 3
     costSell: 14300000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 15
+    refuelRate: 10
     repairRate: 5
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -579,9 +579,9 @@ crafts:
       - [6, 11, 1, 0]
   - type: STR_TEMPEST_EASY
     listOrder: 409
-    sprite: 825
+    sprite: 844
     marker: 21
-    fuelMax: 120
+    fuelMax: 80
     damageMax: 850
     avoidBonus: 6
     armor: 28
@@ -604,7 +604,7 @@ crafts:
     vehicles: 4
     costSell: 28900000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 15
+    refuelRate: 10
     repairRate: 4
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -983,7 +983,7 @@ crafts:
     damageMax: 80
     avoidBonus: 25
     armor: 4
-    speedMax: 1400
+    speedMax: 1600
     accel: 3
     weapons: 2
     weaponTypes:
@@ -1127,7 +1127,7 @@ crafts:
     damageMax: 120
     avoidBonus: 28
     armor: 4
-    speedMax: 1800
+    speedMax: 2000
     accel: 4
     weapons: 3
     weaponTypes:
@@ -1287,7 +1287,7 @@ crafts:
     damageMax: 150
     avoidBonus: 26
     armor: 10
-    speedMax: 1600
+    speedMax: 1900
     accel: 3
     weapons: 3
     weaponTypes:
@@ -1308,8 +1308,8 @@ crafts:
     refuelRate: 110
     repairRate: 3
     shieldRechargedAtBase: 50
-    radarRange: 600
-    sightRange: 900
+    radarRange: 900
+    sightRange: 1200
     radarChance: 40
     transferTime: 144
     score: 160
@@ -1321,7 +1321,7 @@ crafts:
     damageMax: 210
     avoidBonus: 8
     armor: 15
-    speedMax: 1230
+    speedMax: 1170
     accel: 2
     weapons: 4
     weaponTypes:
@@ -1349,7 +1349,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
-    radarChance: 40
+    radarChance: 60
     transferTime: 144
     score: 320
     battlescapeTerrainData:
@@ -1365,7 +1365,7 @@ crafts:
     listOrder: 200
     sprite: 4
     marker: 18
-    fuelMax: 60
+    fuelMax: 40
     damageMax: 300
     avoidBonus: 18
     armor: 4
@@ -1387,7 +1387,7 @@ crafts:
     vehicles: 2
     costSell: 5400000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 30
+    refuelRate: 20
     repairRate: 4
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -1422,7 +1422,7 @@ crafts:
     listOrder: 300
     sprite: 1
     marker: 19
-    fuelMax: 90
+    fuelMax: 60
     damageMax: 400
     avoidBonus: 12
     armor: 23
@@ -1442,7 +1442,7 @@ crafts:
     vehicles: 4
     costSell: 10200000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 30
+    refuelRate: 20
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -1483,7 +1483,7 @@ crafts:
     listOrder: 400
     sprite: 2
     marker: 20
-    fuelMax: 90
+    fuelMax: 60
     damageMax: 600
     avoidBonus: 14
     armor: 11
@@ -1505,7 +1505,7 @@ crafts:
     vehicles: 3
     costSell: 14300000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 15
+    refuelRate: 10
     repairRate: 5
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -1542,9 +1542,9 @@ crafts:
       - [6, 11, 1, 0]
   - type: STR_TEMPEST
     listOrder: 410
-    sprite: 825
+    sprite: 844
     marker: 21
-    fuelMax: 120
+    fuelMax: 80
     damageMax: 750
     avoidBonus: 3
     armor: 24
@@ -1566,7 +1566,7 @@ crafts:
     vehicles: 4
     costSell: 28900000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 15
+    refuelRate: 10
     repairRate: 4
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -1942,7 +1942,7 @@ crafts:
     avoidBonus: 22
     armor: 0
     powerBonus: -20
-    speedMax: 1200
+    speedMax: 1400
     accel: 3
     weapons: 2
     weaponTypes:
@@ -2089,7 +2089,7 @@ crafts:
     avoidBonus: 25
     armor: 0
     powerBonus: -20
-    speedMax: 1600
+    speedMax: 1800
     accel: 4
     weapons: 3
     weaponTypes:
@@ -2252,7 +2252,7 @@ crafts:
     avoidBonus: 23
     armor: 6
     powerBonus: -20
-    speedMax: 1400
+    speedMax: 1700
     accel: 3
     weapons: 3
     weaponTypes:
@@ -2273,8 +2273,8 @@ crafts:
     refuelRate: 110
     repairRate: 3
     shieldRechargedAtBase: 50
-    radarRange: 600
-    sightRange: 900
+    radarRange: 900
+    sightRange: 1200
     radarChance: 40
     transferTime: 144
     score: 120
@@ -2287,7 +2287,7 @@ crafts:
     avoidBonus: 5
     armor: 11
     powerBonus: -20
-    speedMax: 1030
+    speedMax: 970
     accel: 2
     weapons: 4
     weaponTypes:
@@ -2315,7 +2315,7 @@ crafts:
     shieldRechargedAtBase: 50
     radarRange: 600
     sightRange: 900
-    radarChance: 40
+    radarChance: 60
     transferTime: 144
     score: 240
     battlescapeTerrainData:
@@ -2331,7 +2331,7 @@ crafts:
     listOrder: 201
     sprite: 4
     marker: 18
-    fuelMax: 60
+    fuelMax: 40
     damageMax: 200
     avoidBonus: 15
     armor: 0
@@ -2354,7 +2354,7 @@ crafts:
     vehicles: 2
     costSell: 5400000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 30
+    refuelRate: 20
     repairRate: 4
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -2389,7 +2389,7 @@ crafts:
     listOrder: 301
     sprite: 1
     marker: 19
-    fuelMax: 90
+    fuelMax: 60
     damageMax: 300
     avoidBonus: 9
     armor: 19
@@ -2410,7 +2410,7 @@ crafts:
     vehicles: 4
     costSell: 10200000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 30
+    refuelRate: 20
     repairRate: 3
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -2451,7 +2451,7 @@ crafts:
     listOrder: 401
     sprite: 2
     marker: 20
-    fuelMax: 90
+    fuelMax: 60
     damageMax: 500
     avoidBonus: 11
     armor: 7
@@ -2474,7 +2474,7 @@ crafts:
     vehicles: 3
     costSell: 14300000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 15
+    refuelRate: 10
     repairRate: 5
     shieldRechargedAtBase: 50
     radarRange: 750
@@ -2511,9 +2511,9 @@ crafts:
       - [6, 11, 1, 0]
   - type: STR_TEMPEST_HARD
     listOrder: 411
-    sprite: 825
+    sprite: 844
     marker: 21
-    fuelMax: 120
+    fuelMax: 80
     damageMax: 650
     avoidBonus: 0
     armor: 20
@@ -2536,7 +2536,7 @@ crafts:
     vehicles: 4
     costSell: 28900000
     refuelItem: STR_SPACECRAFT_FUEL
-    refuelRate: 15
+    refuelRate: 10
     repairRate: 4
     shieldRechargedAtBase: 50
     radarRange: 750

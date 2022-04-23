@@ -1675,6 +1675,10 @@ armors:
       - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 3.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 28
     loftempsSet: [ 3 ]
   - &STR_SECTOID_ARMOR1
@@ -1709,6 +1713,10 @@ armors:
       - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 3.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 28
     loftempsSet: [ 3 ]
   - &STR_SECTOID_ARMOR2
@@ -1744,6 +1752,9 @@ armors:
       - 0.0 # 19
     overKill: 3.3
     recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
       mana:
         flatHundred: 0.13
     visibilityAtDark: 28
@@ -1809,6 +1820,10 @@ armors:
       - 0.8 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.25
     fearImmune: true
@@ -1848,6 +1863,10 @@ armors:
       - 0.96 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.1
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 19
     loftempsSet: [ 4 ]
   - type: FLOATER_ARMOR1
@@ -1883,6 +1902,10 @@ armors:
       - 0.96 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.1
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 19
     loftempsSet: [ 4 ]
   - type: FLOATER_ARMOR2
@@ -1918,6 +1941,10 @@ armors:
       - 0.96 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.1
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 19
     loftempsSet: [ 4 ]
   - type: REAPER_ARMOR
@@ -1948,6 +1975,10 @@ armors:
       - 0.84 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.4
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.35
     fearImmune: false
@@ -1986,6 +2017,10 @@ armors:
       - 0.64 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 22
     loftempsSet: [ 5 ]
   - type: SNAKEMAN_ARMOR1
@@ -2020,6 +2055,10 @@ armors:
       - 0.64 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 22
     loftempsSet: [ 5 ]
   - type: SNAKEMAN_ARMOR2
@@ -2054,6 +2093,10 @@ armors:
       - 0.64 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 22
     loftempsSet: [ 5 ]
   - type: CHRYSSALID_ARMOR
@@ -2084,6 +2127,10 @@ armors:
       - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.9
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 20
     camouflageAtDark: -3
     loftempsSet: [ 4 ]
@@ -2120,6 +2167,9 @@ armors:
       - 0.88 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.5
+    recovery:
+      stun:
+        stunCurrent: 1
     fearImmune: false
     bleedImmune: true
     painImmune: true
@@ -2157,6 +2207,10 @@ armors:
       - 0.48 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.9
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 25
     loftempsSet: [ 4 ]
   - type: MUTON_ARMOR1
@@ -2190,6 +2244,10 @@ armors:
       - 0.48 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.9
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 25
     loftempsSet: [ 4 ]
   - type: MUTON_ARMOR2
@@ -2223,6 +2281,10 @@ armors:
       - 0.48 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.9
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 25
     loftempsSet: [ 4 ]
   - type: SILACOID_ARMOR
@@ -2253,6 +2315,10 @@ armors:
       - 0.6 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.6
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     fearImmune: true
     visibilityAtDay: 16
     visibilityAtDark: 16
@@ -2288,6 +2354,10 @@ armors:
       - 0.625 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.0
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     fearImmune: true
     visibilityAtDay: 20
     visibilityAtDark: 20
@@ -2325,6 +2395,9 @@ armors:
       - 0.0 # 19
     overKill: 4.8
     recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
       mana:
         flatHundred: 0.13
     heatVision: 25
@@ -2361,6 +2434,9 @@ armors:
       - 0.0 # 19
     overKill: 4.8
     recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
       mana:
         flatHundred: 0.13
     heatVision: 25
@@ -2397,6 +2473,9 @@ armors:
       - 0.0 # 19
     overKill: 4.8
     recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
       mana:
         flatHundred: 0.13
     heatVision: 25
@@ -2430,6 +2509,10 @@ armors:
       - 0.6 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.9
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.4
     fearImmune: true
@@ -2473,6 +2556,10 @@ armors:
       - 0.32 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 255
+    recovery:
+      stun:
+        stunCurrent: 0.05
+        flatHundred: 0.01
     visibilityAtDark: 27
     loftempsSet: [ 92, 89, 90, 91 ]
     scripts:
@@ -2502,7 +2589,7 @@ armors:
       - 0.48 # 3 HIGH EXPLOSIVE
       - 0.24 # 4 LASER
       - 0.24 # 5 PLASMA
-      - 0.36 # 6 STUN
+      - 0.30 # 6 STUN
       - 0.36 # 7 MELEE
       - 0.384 # 8 ACID
       - 0.0 # 9 SMOKE
@@ -2517,6 +2604,10 @@ armors:
       - 0.288 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.6
+    recovery:
+      stun:
+        stunCurrent: 0.15
+        flatHundred: 0.03
     visibilityAtDark: 27
     loftempsSet: [ 4 ]
   - type: ETHEREAL_ARMOR_N
@@ -2553,6 +2644,9 @@ armors:
       - 0.0 # 19
     overKill: 4.8
     recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
       mana:
         flatHundred: 0.13
     heatVision: 25
@@ -2590,6 +2684,9 @@ armors:
       - 0.0 # 19
     overKill: 2.2
     recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
       mana:
         flatHundred: 0.13
     visibilityAtDark: 29
@@ -2628,6 +2725,12 @@ armors:
       - 0.96 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.7
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.7
     visibilityAtDark: 20
     loftempsSet: [ 4 ]
   - type: ETHEREAL_ARMOR_C
@@ -2664,6 +2767,9 @@ armors:
       - 0.0 # 19
     overKill: 3.2
     recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
       mana:
         flatHundred: 0.13
     heatVision: 25
@@ -2709,6 +2815,10 @@ armors:
       - 0.8 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.5
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.25
     fearImmune: true
@@ -2739,7 +2849,7 @@ armors:
       - 0.3 # 3 HIGH EXPLOSIVE
       - 0.4 # 4 LASER
       - 0.4 # 5 PLASMA
-      - 0.3 # 6 STUN
+      - 0.24 # 6 STUN
       - 0.5 # 7 MELEE
       - 0.6 # 8 ACID
       - 0.0 # 9 SMOKE
@@ -2754,6 +2864,10 @@ armors:
       - 0.52 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.9
+    recovery:
+      stun:
+        stunCurrent: 0.15
+        flatHundred: 0.03
     meleeDodge:
       flatHundred: -0.35
     fearImmune: false
@@ -2794,6 +2908,10 @@ armors:
       - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     visibilityAtDark: 21
     camouflageAtDark: -4
     loftempsSet: [ 4 ]
@@ -2831,6 +2949,10 @@ armors:
       - 0.6 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.1
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     fearImmune: true
     visibilityAtDay: 16
     visibilityAtDark: 16
@@ -2872,6 +2994,10 @@ armors:
       - 0.375 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.7
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     fearImmune: true
     visibilityAtDay: 24
     visibilityAtDark: 24
@@ -2916,6 +3042,10 @@ armors:
       - 0.6 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 1.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.4
     fearImmune: true
@@ -2956,6 +3086,9 @@ armors:
       - 0.88 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 0.4
+    recovery:
+      stun:
+        stunCurrent: 1
     fearImmune: false
     bleedImmune: true
     painImmune: true

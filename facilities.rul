@@ -5,7 +5,7 @@ facilities:
     spriteFacility: 17
     lift: true
     mind: true
-    mindPower: 3
+    mindPower: 1
     buildCost: 300000
     buildTime: 1
     monthlyCost: 8000
@@ -786,6 +786,39 @@ facilities:
       - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_MISSILE_DEFENSES_AE_DESTROYED
+      - STR_LASER_DEFENSES_DESTROYED
+      - STR_PLASMA_DEFENSES_DESTROYED
+      - STR_FUSION_BALL_DEFENSES_DESTROYED
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 2
+    destroyedFacility: STR_MISSILE_DEFENSES_DESTROYED
+  - type: STR_MISSILE_DEFENSES_AE
+    requires:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+    spriteShape: 2
+    spriteFacility: 593
+    buildCost: 150000
+    refundValue: 105000
+    buildTime: 15
+    monthlyCost: 5000
+    defense: 400 #1600
+    hitRatio: 85
+    fireSound: 5
+    hitSound: 10
+    ammoItem: STR_BASE_DEFENSE_AE_MISSILES
+    ammoNeeded: 1
+    mapName: XBASE_06
+    buildOverFacilities:
+      - STR_CORRIDOR
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_MISSILE_DEFENSES
+      - STR_MISSILE_DEFENSES_AE
+      - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_MISSILE_DEFENSES_AE_DESTROYED
       - STR_LASER_DEFENSES_DESTROYED
       - STR_PLASMA_DEFENSES_DESTROYED
       - STR_FUSION_BALL_DEFENSES_DESTROYED
@@ -813,8 +846,9 @@ facilities:
       - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_MISSILE_DEFENSES
-      - STR_PLASMA_DEFENSES
+      - STR_MISSILE_DEFENSES_AE
       - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_MISSILE_DEFENSES_AE_DESTROYED
       - STR_LASER_DEFENSES_DESTROYED
       - STR_PLASMA_DEFENSES_DESTROYED
       - STR_FUSION_BALL_DEFENSES_DESTROYED
@@ -848,8 +882,10 @@ facilities:
       - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_MISSILE_DEFENSES
+      - STR_MISSILE_DEFENSES_AE
       - STR_LASER_DEFENSES
       - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_MISSILE_DEFENSES_AE_DESTROYED
       - STR_LASER_DEFENSES_DESTROYED
       - STR_PLASMA_DEFENSES_DESTROYED
       - STR_FUSION_BALL_DEFENSES_DESTROYED
@@ -884,9 +920,11 @@ facilities:
       - STR_CORRIDOR_EW
       - STR_EMPTY_ROOM
       - STR_MISSILE_DEFENSES
+      - STR_MISSILE_DEFENSES_AE
       - STR_LASER_DEFENSES
       - STR_PLASMA_DEFENSES
       - STR_MISSILE_DEFENSES_DESTROYED
+      - STR_MISSILE_DEFENSES_AE_DESTROYED
       - STR_LASER_DEFENSES_DESTROYED
       - STR_PLASMA_DEFENSES_DESTROYED
       - STR_FUSION_BALL_DEFENSES_DESTROYED
@@ -973,7 +1011,7 @@ facilities:
       STR_ALIEN_COMPUTER_ARRAYS:
         build: 24
         refund: 24
-    mapName: XBASS_02
+    mapName: RBASE_60
     buildOverFacilities:
       - STR_CORRIDOR
       - STR_CORRIDOR_NS
@@ -1373,6 +1411,18 @@ facilities:
     spriteFacility: 765
     refundValue: 17500
     buildTime: 10
+    monthlyCost: 2000
+    mapName: RBASE_01
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_MISSILE_DEFENSES_AE_DESTROYED
+    requires:
+      - STR_ALIENS_ONLY
+    spriteShape: 2
+    spriteFacility: 781
+    refundValue: 25000
+    buildTime: 11
     monthlyCost: 2000
     mapName: RBASE_01
     leavesBehindOnSell:
