@@ -3089,9 +3089,9 @@ items:
     costSell: 0
     categories: [STR_CAT_RIFLES, STR_CAT_EARLY_TECH]
     weight: 17
-    bigSprite: 405
-    floorSprite: 319
-    handSprite: 444
+    bigSprite: 1800
+    floorSprite: 1800
+    handSprite: 1800
     bulletSprite: 12
     fireSound: 318
     hitSound: 319
@@ -3130,7 +3130,7 @@ items:
     attraction: 15
     experienceTrainingMode: 5 # The Battle Rifle is a limited edition item available only to closed alpha testers
   - type: STR_TERRAIN_DESTROYER
-    listOrder: 1
+    listOrder: 99999
     size: 0.01
     requiresBuy:
       - STR_ALIENS_ONLY
@@ -5764,6 +5764,8 @@ items:
     costSell: 39500
     categories: [STR_CAT_EQUIPMENT, STR_CAT_EARLY_TECH]
     weight: 3
+    bigSprite: 23
+    floorSprite: 23
     handSprite: 964
     tuUse: 10
     flatRate: false
@@ -7123,6 +7125,47 @@ items:
     size: 0.2
     costSell: 428000
     armor: 165
+  - type: STR_CORPSE_SPACESUIT
+    weight: 35
+    bigSprite: 274
+    floorSprite: 274
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 90
+    recover: false
+  - type: STR_CORPSE_ARMOR_SPACESUIT
+    weight: 40
+    bigSprite: 28
+    floorSprite: 273
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 130
+  - type: STR_CORPSE_ARMOR_ALLOY_SPACESUIT
+    weight: 48
+    bigSprite: 298
+    floorSprite: 272
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 150
+  - type: STR_CORPSE_NIGHT_OPS_ARMOR_SPACESUIT
+    weight: 42
+    bigSprite: 292
+    floorSprite: 271
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 140
+  - type: STR_CORPSE_PSIONIC_ALLOY_ARMOR_SPACESUIT
+    weight: 42
+    bigSprite: 290
+    floorSprite: 270
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 140
   - type: STR_SECTOID_CORPSE
     listOrder: 6300
     size: 0.15
@@ -8858,4 +8901,6 @@ items:
     size: 0
     costSell: 0 #1200000
     categories: [STR_CAT_FLAGSHIP_COMPONENT]
+  - type: STR_SPACESUIT
+    listOrder: 99900
 # Fusion Damage: 10/7 - 25  |  Fusion Tile Damage: (power-100)/800 + 0.5

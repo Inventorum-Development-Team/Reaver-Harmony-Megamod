@@ -518,7 +518,6 @@ manufacture:
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
       - STR_BASIC_SPACECRAFT
-      - STR_ALIEN_ENGINEER
     space: 5
     time: 600
     cost: 340000
@@ -530,7 +529,6 @@ manufacture:
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
       - STR_BASIC_SPACECRAFT
-      - STR_ALIEN_NAVIGATOR
     space: 5
     time: 800
     cost: 280000
@@ -553,9 +551,8 @@ manufacture:
     listOrder: 530
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_UFO_NAVIGATION
       - STR_BASIC_SPACECRAFT
-      - STR_ALIEN_MEDIC
     space: 5
     time: 700
     cost: 180000

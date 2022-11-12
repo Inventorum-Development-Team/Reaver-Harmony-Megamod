@@ -13,9 +13,9 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      56: Resources/TerranPlasmaWeapons/terranplasma_hit.gif
+      56: Resources/TerranPlasmaWeapons/terranplasma_hit.png
       66: Resources/SectopodLaser/SectopodLaserHit.gif
-      76: Resources/TerranPlasmaWeapons/plasmared_hit.gif
+      76: Resources/TerranPlasmaWeapons/plasmared_hit.png
       86: Resources/SectopodLaser/SectopodLaserRedHit.gif
       96: Resources/More Bullets/PSI_STUN.png
       106: Resources/More Bullets/CelatidHit.png
@@ -43,10 +43,10 @@ extraSprites:
     subX: 32
     subY: 48
     files:
-      300: Resources/TerranPlasmaWeapons/alienterranplasma.gif
-      312: Resources/AwesomeGuns.Laser/bigob1.gif
-      313: Resources/AwesomeGuns.Laser/bigob2alt.gif
-      314: Resources/AwesomeGuns.Laser/bigob3.gif
+      300: Resources/TerranPlasmaWeapons/alienterranplasma.png
+      312: Resources/AwesomeGuns.Laser/bigob1.png
+      313: Resources/AwesomeGuns.Laser/bigob2alt.png
+      314: Resources/AwesomeGuns.Laser/bigob3.png
       315: Resources/RedBlueLasers/RedBlueLasers_bigobs.gif
       318: Resources/XComFiles/Weapons_Compilation/MeleeWeapons/BigCombatKnife.gif
       319: Resources/XComFiles/Weapons_Compilation/EMace/bigobs_EleriumMace.gif
@@ -83,7 +83,7 @@ extraSprites:
       366: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherFusionBombs.gif
       367: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherIncendiaryBombs.gif
       368: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/LauncherSmokeBombs.gif
-      369: Resources/TerranPlasmaWeapons/alienterranplasma_red.gif
+      369: Resources/TerranPlasmaWeapons/alienterranplasma_red.png
       377: Resources/ReaversEquipment/FearProjector.gif
       378: Resources/ReaversEquipment/PsiAmp.gif
       379: Resources/ReaversEquipment/PsiDisruptor.gif
@@ -92,7 +92,7 @@ extraSprites:
       382: Resources/ReaversEquipment/AE_prox_bigob.gif
       383: Resources/ReaversLaunchers/alienterranlaunchers_big.png
       387: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_PUMP_ACTION_SHOTGUN_SHELLS_ALLOY.png
-      388: Resources/TerranPlasmaWeapons/redgrenade_bigob.gif
+      388: Resources/TerranPlasmaWeapons/redgrenade_bigob.png
       389: Resources/ReaversEquipment/Fusion_demo_bigob.gif
       390: Resources/ReaversEquipment/Stun_grenade_bigob.gif
       391: Resources/ReaversEquipment/Stun_charge_bigob.gif
@@ -133,10 +133,10 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      302: Resources/TerranPlasmaWeapons/heavyplasma_floorob.gif
-      303: Resources/AwesomeGuns.Laser/floorob1.gif
-      304: Resources/AwesomeGuns.Laser/floorob2.gif
-      305: Resources/AwesomeGuns.Laser/floorob3.gif
+      302: Resources/TerranPlasmaWeapons/heavyplasma_floorob.png
+      303: Resources/AwesomeGuns.Laser/floorob1.png
+      304: Resources/AwesomeGuns.Laser/floorob2.png
+      305: Resources/AwesomeGuns.Laser/floorob3.png
       306: Resources/XComFiles/Weapons_Compilation/MeleeWeapons/FloorCombatKnife.gif
       307: Resources/XComFiles/Weapons_Compilation/EMace/floorob_EleriumMace.gif
       308: Resources/ReaversLaunchers/ConventionalStun_floorobs.gif
@@ -147,9 +147,9 @@ extraSprites:
       319: Resources/AwesomeGuns/Floorob2.png
       320: Resources/AwesomeGuns/Floorob_CLIP2.png
       321: Resources/BluePlasmas/BluePlasmas_floorobs.gif
-      324: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifle_floorobs.gif
+      324: Resources/TerranPlasmaWeapons/PlasmaRifle_floorobs.png
       326: Resources/BluePlasmas/BluePlasmaClips_floorobs.gif
-      329: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaPistol_floorobs.gif
+      329: Resources/TerranPlasmaWeapons/PlasmaPistol_floorobs.png
       331: Resources/ReaversLaunchers/AlienFusionRockets_floorobs.gif
       334: Resources/ReaversLaunchers/AlienExplosiveCannon_floorobs.gif
       336: Resources/ReaversLaunchers/AlloyCannon_floorobs.gif
@@ -181,7 +181,7 @@ extraSprites:
       368: Resources/ReaversEquipment/AE_charge_floorob.gif
       369: Resources/ReaversEquipment/AE_prox_floorob.gif
       370: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/floorob_ShotgunShells_Alloy.png
-      370: Resources/TerranPlasmaWeapons/redgrenade_floorob.gif
+      370: Resources/TerranPlasmaWeapons/redgrenade_floorob.png
       371: Resources/ReaversEquipment/Fusion_demo_floorob.gif
       372: Resources/ReaversEquipment/Stun_grenade_floorob.gif
       373: Resources/ReaversEquipment/Stun_charge_floorob.gif
@@ -202,7 +202,7 @@ extraSprites:
       388: Resources/ReaversEquipment/floorob_ElectroFlareLarge.gif
       389: Resources/ReaversLaunchers/TerranStun_floorobs.gif
       390: Resources/ReaversLaunchers/BlasterAE_floorobs.png
-      391: Resources/TerranPlasmaWeapons/RedPlasmaClip_floorob.gif
+      391: Resources/TerranPlasmaWeapons/RedPlasmaClip_floorob.png
       392: Resources/AwesomeGuns/floorob_rifle_scope.gif
 # EQUIPMENT HANDOBS
   - type: HANDOB.PCK
@@ -211,13 +211,13 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      316: Resources/TerranPlasmaWeapons/heavyplasma2_handob.gif
+      316: Resources/TerranPlasmaWeapons/heavyplasma2_handob.png
       324: Resources/RedBlueLasers/RedBlueLaser1_handob.png
       332: Resources/RedBlueLasers/RedBlueLaser2_handob.png
       340: Resources/RedBlueLasers/RedBlueLaser3_handob.png
-      348: Resources/AwesomeGuns.Laser/handobs1.gif
-      356: Resources/AwesomeGuns.Laser/handobs2.gif
-      364: Resources/AwesomeGuns.Laser/handobs3.gif
+      348: Resources/AwesomeGuns.Laser/handobs1.png
+      356: Resources/AwesomeGuns.Laser/handobs2.png
+      364: Resources/AwesomeGuns.Laser/handobs3.png
       372: Resources/XComFiles/Weapons_Compilation/MeleeWeapons/HandOb_CombatKnife.png
       380: Resources/XComFiles/Weapons_Compilation/EMace/handob_EleriumMace.png
       388: Resources/XComFiles/Weapons_Compilation/PlasmaBlades/handob_PlasmaSword.png
@@ -228,8 +228,8 @@ extraSprites:
       452: Resources/AwesomeGuns/Handobs_CLIP2.png
       460: Resources/BluePlasmas/BluePlasmas_handob1.gif
       476: Resources/BluePlasmas/BluePlasmas_handob3.gif
-      484: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifle_handob.gif
-      492: Resources/BluePlasmas/ReaversTerranPlasma/PlasmaRifleTerran_handob.gif
+      484: Resources/TerranPlasmaWeapons/PlasmaRifle_handob.png
+      492: Resources/TerranPlasmaWeapons/PlasmaRifleTerran_handob.png
       500: Resources/ReaversLaunchers/OneHandSmallLauncher_handob.gif
       508: Resources/IncendiaryGrenade/HandOb_Incgrenade_alt.gif
       516: Resources/SuperStunLance/handob_stun_rod_1hand.png
@@ -250,10 +250,10 @@ extraSprites:
       636: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherFusionBombs.gif
       644: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherIncendiaryBombs.gif
       652: Resources/AwesomeGuns/ALIENS_CONVERTED_EDIT/Handobs/LauncherSmokeBombs.gif
-      660: Resources/TerranPlasmaWeapons/redplasmapistol_handob.gif
-      668: Resources/TerranPlasmaWeapons/redplasmarifle_handob.gif
-      676: Resources/TerranPlasmaWeapons/redheavyplasma_handob.gif
-      684: Resources/TerranPlasmaWeapons/redfusionlauncher_handob.gif
+      660: Resources/TerranPlasmaWeapons/redplasmapistol_handob.png
+      668: Resources/TerranPlasmaWeapons/redplasmarifle_handob.png
+      676: Resources/TerranPlasmaWeapons/redheavyplasma_handob.png
+      684: Resources/TerranPlasmaWeapons/redfusionlauncher_handob.png
       692: Resources/Advanced Medikit/HandOb_FieldMediPack.png
       700: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/handOb_ShotgunShells_Alloy.png
       708: Resources/AwesomeGuns/Weapons/Grenade_Launcher_Handobs.gif
@@ -306,7 +306,7 @@ extraSprites:
       1084: Resources/ReaversLaunchers/HandOb_FusionRocket.png
       1092: Resources/BluePlasmas/HandOb_PRifleClip.gif
       1100: Resources/BluePlasmas/HandOb_PHeavyClip.gif
-      1108: Resources/TerranPlasmaWeapons/HandOb_RedClip.gif
+      1108: Resources/TerranPlasmaWeapons/HandOb_RedClip.png
       1116: Resources/TerranPlasmaWeapons/HandOb_RedGrenade.png
       1124: Resources/AwesomeGuns/handob_rifle_scope.png
   - type: DETBORD2.PCK
@@ -1229,6 +1229,41 @@ extraSprites:
     subY: 40
     files:
       0: Resources/ReaversArmors/PsiArmor.png
+  - type: Spacesuit.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Space Suits/A7L_SPACESUIT_SPRITESHEET.png
+  - type: SpacesuitAlloyLight.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Space Suits/SpacesuitAlloyLight.png
+  - type: SpacesuitAlloyHeavy.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Space Suits/SpacesuitAlloyHeavy.png
+  - type: SpacesuitAlloyNightops.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Space Suits/SpacesuitAlloyNightops.png
+  - type: SpacesuitAlloyPsionic.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Space Suits/SpacesuitAlloyPsionic.png
   - type: MAN_4F0.SPK
     singleImage: true
     files:
@@ -1637,6 +1672,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/ReaversArmors/man_12m7.png
+  - type: MAN_5A7L.SPK
+    singleImage: true
+    files:
+      0: Resources/Space Suits/MAN_5A7L.png
   - type: BIGOBS.PCK
     files:
       299: Resources/armored_vest/bigobs_XCOM4_CORPSE.gif
@@ -1649,6 +1688,7 @@ extraSprites:
       292: Resources/ReaversArmors/bigobs_nightops_armor.png
       291: Resources/ReaversArmors/bigobs_corpse11.png
       290: Resources/ReaversArmors/bigobs_psi_armor.png
+      274: Resources/Space Suits/A7L_SPACESUIT_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
       299: Resources/armored_vest/floorob_XCOM4_CORPSE.gif
@@ -1661,6 +1701,11 @@ extraSprites:
       292: Resources/ReaversArmors/floorob_nightops_armor.png
       291: Resources/ReaversArmors/floorob_corpse11.png
       290: Resources/ReaversArmors/floorob_psi_armor.png
+      274: Resources/Space Suits/A7L_SPACESUIT_CORPSE_FLOOROB.png
+      273: Resources/Space Suits/SpacesuitAlloyLightFloorob.png
+      272: Resources/Space Suits/SpacesuitAlloyHeavyFloorob.png
+      271: Resources/Space Suits/SpacesuitAlloyNightopsFloorob.png
+      270: Resources/Space Suits/SpacesuitAlloyPsionicFloorob.png
 # TURRET GRAPHICS
   - type: DEFENSE_TURRET_AP.PCK
     width: 256
@@ -1696,11 +1741,20 @@ extraSprites:
       243: Resources/GuardianBattleAssaultTanks/bigob_turret_laser_rapid.png
       242: Resources/GuardianBattleAssaultTanks/bigob_turret_plasma_heavy.png
       241: Resources/GuardianBattleAssaultTanks/bigob_turret_plasma_rapid.png
+      1800: Resources/Meatstuff/Battle Rifle.png
   - type: FLOOROB.PCK
     files:
       249: Resources/40k/DEFENSE_TURRET_CORPSE_AP.png
       248: Resources/40k/DEFENSE_TURRET_CORPSE_LASER.png
       247: Resources/40k/DEFENSE_TURRET_CORPSE_PLASMA.png
+      1800: Resources/Meatstuff/Battle Rifle Floor.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      1800: Resources/Meatstuff/Battle Rifle Hands.png
 # ALIEN GRAPHICS
   - type: SECTOID.SPK
     singleImage: true

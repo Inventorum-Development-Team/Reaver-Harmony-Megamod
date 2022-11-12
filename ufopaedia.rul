@@ -4157,6 +4157,21 @@ ufopaedia:
     requires:
       - STR_PSIONIC_RESEARCH
     text: STR_PSIONIC_TECHNOLOGY_UFOPEDIA
+  - id: STR_MIND_SHIELD_UP
+    listOrder: 13320
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_MIND_PROBE
+      - STR_PSI_LAB
+    text: STR_MIND_SHIELD_UFOPEDIA
+  - id: STR_HYPER_WAVE_DECODER_UP
+    listOrder: 13350
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_HYPER_WAVE_DECODER_UP
+    text: STR_HYPER_WAVE_DECODER_UFOPEDIA
   - id: STR_HOVERTANKS_UP
     listOrder: 13400
     type_id: 8
@@ -4261,8 +4276,32 @@ ufopaedia:
       - STR_ALIEN_ENGINEER
       - STR_ALIEN_GRENADE
     text: STR_ALIEN_LAUNCHERS_UFOPEDIA
-  - id: STR_TRACTOR_BEAMS_UP
+  - id: STR_FUSION_MISSILE_UP
+    listOrder: 13565
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_BLASTER_BOMB
+    text: STR_FUSION_MISSILE_UFOPEDIA
+  - id: STR_FUSION_DEFENSE_UP
     listOrder: 13570
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_HEAVY_FUSION_MISSILE
+      - STR_PLASMA_WEAPONS
+    text: STR_FUSION_DEFENSE_UFOPEDIA
+  - id: STR_GRAV_SHIELD_UP
+    listOrder: 13580
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_UFO_CONSTRUCTION
+      - STR_UFO_SHIELD_EMITTER
+      - STR_ANTI_GRAVITY
+    text: STR_GRAV_SHIELD_UFOPEDIA
+  - id: STR_TRACTOR_BEAMS_UP
+    listOrder: 13585
     type_id: 8
     section: STR_UFO_COMPONENTS
     requires:

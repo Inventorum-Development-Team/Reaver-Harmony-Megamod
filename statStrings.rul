@@ -1,227 +1,199 @@
 # These statStrings are based on my four soldier classes, and are calibrated to soldier attributes in Reaver's Harmony.
-# b minor breacher
-# B Major Breacher
-# r minor ranger
-# R Major Ranger
-# s minor sniper
-# S Major Sniper
-# h minor heavy
-# H Major Heavy
-# ^ good psi potential/defense
-# * good psi power and defense
-# # great psi potential/defense (psi prodigy/psiborg only)
-# % great psi power and defense (psi prodigy/psiborg only)
-# ¢ excellent psi potential/defense (psi prodigy/psiborg only)
-# $ excellent psi power and defense (psi prodigy/psiborg only)
-# ! low bravery or psi strength
-# ` low reactions, movement, firing, or strength
-  # statStrings:
-# # psionic ¢$#%^*
-  # - string: "^"
-    # psiStrength: [50, 60]
-    # psiSkill: [~, 39]
-  # - string: "*"
-    # psiStrength: [50, 60]
-    # psiSkill: [40, ~]
-  # - string: "#"
-    # psiStrength: [61, 79]
-    # psiSkill: [~, 44]
-  # - string: "%"
-    # psiStrength: [61, 79]
-    # psiSkill: [45, ~]
-  # - string: "¢"
-    # psiStrength: [80, ~]
-    # psiSkill: [~, 49]
-  # - string: "$"
-    # psiStrength: [80, ~]
-    # psiSkill: [50, ~]
-# # cross classes
-  # - string: "Super"
-    # reactions: [70, ~]
-    # health: [60, ~]
-    # tu: [90, ~]
-    # stamina: [110, ~]
-    # firing: [100, ~]
-    # strength: [60, ~]
-  # - string: "Assassin"
-    # tu: [90, ~]
-    # strength: [60, ~]
-    # firing: [100, ~]
-    # stamina: [110, ~]
-    # health: [60, ~]
-  # - string: "Paladin" #1
-    # tu: [90, ~]
-    # strength: [60, ~]
-    # firing: [100, ~]
-  # - string: "Assassin" #2
-    # tu: [90, ~]
-    # strength: [60, ~]
-    # stamina: [110, ~]
-  # - string: "Paladin" #3
-    # tu: [90, ~]
-    # strength: [60, ~]
-    # reactions: [70, ~]
-  # - string: "Assassin" #4
-    # tu: [90, ~]
-    # strength: [60, ~]
-    # health: [60, ~]
-  # - string: "Paladin" #5
-    # tu: [90, ~]
-    # firing: [100, ~]
-    # stamina: [110, ~]
-  # - string: "Paladin" #6
-    # tu: [90, ~]
-    # firing: [100, ~]
-    # reactions: [70, ~]
-  # - string: "Paladin" #7
-    # tu: [90, ~]
-    # firing: [100, ~]
-    # health: [60, ~]
-  # - string: "Paladin" #8
-    # tu: [90, ~]
-    # stamina: [110, ~]
-    # reactions: [70, ~]
-  # - string: "Paladin" #9
-    # tu: [90, ~]
-    # stamina: [110, ~]
-    # health: [60, ~]
-  # - string: "Paladin" #10
-    # tu: [90, ~]
-    # reactions: [70, ~]
-    # health: [60, ~]
-  # - string: "Assassin" #11
-    # strength: [60, ~]
-    # firing: [100, ~]
-    # stamina: [110, ~]
-  # - string: "Assassin" #12
-    # strength: [60, ~]
-    # firing: [100, ~]
-    # reactions: [70, ~]
-  # - string: "Assassin" #13
-    # strength: [60, ~]
-    # firing: [100, ~]
-    # health: [60, ~]
-  # - string: "Assassin" #14
-    # strength: [60, ~]
-    # stamina: [110, ~]
-    # reactions: [70, ~]
-  # - string: "Assassin" #15
-    # strength: [60, ~]
-    # stamina: [110, ~]
-    # health: [60, ~]
-  # - string: "Assassin" #16
-    # strength: [60, ~]
-    # reactions: [70, ~]
-    # health: [60, ~]
-  # - string: "Paladin" #17
-    # firing: [100, ~]
-    # stamina: [110, ~]
-    # reactions: [70, ~]
-  # - string: "Assassin" #18
-    # firing: [100, ~]
-    # stamina: [110, ~]
-    # health: [60, ~]
-  # - string: "Paladin" #19
-    # firing: [100, ~]
-    # reactions: [70, ~]
-    # health: [60, ~]
-  # - string: "Assassin" #20
-    # stamina: [110, ~]
-    # reactions: [70, ~]
-    # health: [60, ~]
-# # primary classes
-  # - string: "Breacher"
-    # reactions: [70, ~]
-  # - string: "Ranger"
-    # tu: [90, ~]
-    # stamina: [80, ~]
-  # - string: "Sniper"
-    # firing: [100, ~]
-  # - string: "Heavy"
-    # strength: [60, ~]
-# # low breacher
-  # - string: "b"
-    # reactions: [41, 43]
-    # health: [35, ~]
-  # - string: "b"
-    # reactions: [44, 46]
-    # health: [30, ~]
-  # - string: "b"
-    # reactions: [47, 49]
-    # health: [25, ~]
-  # - string: "b"
-    # reactions: [50, 52]
-    # health: [~, 44]
-  # - string: "b"
-    # reactions: [53, 55]
-    # health: [~, 39]
-  # - string: "b"
-    # reactions: [56, 58]
-    # health: [~, 34]
-# # medium breacher
-  # - string: "B"
-    # reactions: [50, 52]
-    # health: [45, ~]
-  # - string: "B"
-    # reactions: [53, 55]
-    # health: [40, ~]
-  # - string: "B"
-    # reactions: [56, 58]
-    # health: [35, ~]
-  # - string: "B"
-    # reactions: [59, 69]
-# # low ranger
-  # - string: "r"
-    # tu: [70, ~]
-    # stamina: [59, 65]
-  # - string: "r"
-    # tu: [65, 79]
-    # stamina: [66, 72]
-  # - string: "r"
-    # tu: [60, 74]
-    # stamina: [73, 79]
-  # - string: "r"
-    # tu: [55, 69]
-    # stamina: [80, ~]
-# # medium ranger
-  # - string: "R"
-    # tu: [80, ~]
-    # stamina: [66, 72]
-  # - string: "R"
-    # tu: [75, ~]
-    # stamina: [73, 79]
-  # - string: "R"
-    # tu: [70, ~]
-    # stamina: [80, ~]
-# # low sniper
-  # - string: "s"
-    # firing: [60, 69]
-# # medium sniper
-  # - string: "S"
-    # firing: [70, 99]
-# # low heavy
-  # - string: "h"
-    # strength: [30, 39]
-# # medium heavy
-  # - string: "H"
-    # strength: [40, 59]
-# # penalties
-  # - string: "!"
-    # bravery: [~, 20]
-  # - string: "!"
-    # psiStrength: [~, 39]
-  # - string: "'"
-    # reactions: [~, 34]
-  # - string: "'"
-    # tu: [~, 59]
-    # stamina: [60, 69]
-  # - string: "'"
-    # tu: [60, 64]
-    # stamina: [~, 59]
-  # - string: "'"
-    # tu: [~, 59]
-    # stamina: [~, 59]
-  # - string: "'"
-    # firing: [~, 49]
-  # - string: "'"
-    # strength: [~, 24]
+# This is a tl;dr section, it will give you an overview of what characters mean
+# ! - Psionically vulnerable
+# ^/&/* - Good/Great/Excellent psionic potential (only psiborgs can exceed "good")
+# γ/β/α/ς - Psionic rank indicator (C, B, A, and S, from lowest to greatest)
+# ψ - Psionic Master (ς-Rank psion who's realized their excellent potential)
+# Raid - Raider (Breacher/Ranger)
+# Wrdn - Warden (Breacher/Sniper)
+# Strm - Stormer  (Breacher/Heavy)
+# Hntr - Hunter (Ranger/Sniper)
+# Tank - Tank (Ranger/Heavy)
+# Rckt - Rocketeer (Sniper/Heavy)
+# Vet - Veteran (Excelling in 3 classes, this soldier has been through hell and back!)
+# Ace - Ace (Excels in all 4 classes. Simply the best.)
+# b/B - Breacher (Reactions)
+# r/R - Ranger (TUs and Stamina)
+# s/S - Sniper (Firing)
+# h/H - Heavy (Strength)
+# k - Klutz (Low firing accuracy)
+# w - Weak (Low strength)
+# C - Coward (Low bravery)
+   statStrings:
+#Psi
+   - string: "!"
+     psiStrength: [~, 39]
+   - string: "^"
+     psiStrength: [50, 60]
+   - string: "&"
+     psiStrength: [61, 79]
+   - string: "*"
+     psiStrength: [80, ~]
+     psiSkill: [~, 54]
+   - string: "γ"
+     psiSkill: [~, 24]
+   - string: "β"
+     psiSkill: [25, 39]
+   - string: "α"
+     psiSkill: [40, 54]
+   - string: "ς"
+     psiStrength: [~, 79]
+     psiSkill: [55, ~]
+   - string: "ψ"
+     psiStrength: [80, ~]
+     psiSkill: [55, ~]
+#Elites
+   - string: "Raid" # Breacher / Ranger
+     reactions: [60, ~]
+     tu: [80, ~]
+     stamina: [85, ~]
+     firing: [~, 89]
+     strength: [~, 49]
+   - string: "Wrdn" # Breacher / Sniper
+     reactions: [60, ~]
+     tu: [~, 79]
+     firing: [90, ~]
+     strength: [~, 49]
+   - string: "Strm" # Breacher / Heavy
+     reactions: [60, ~]
+     tu: [~, 79]
+     firing: [~, 89]
+     strength: [50, ~]
+   - string: "Hntr" # Ranger / Sniper
+     reactions: [~, 59]
+     tu: [80, ~]
+     stamina: [85, ~]
+     firing: [90, ~]
+     strength: [~, 49]
+   - string: "Tank" # Ranger / Heavy
+     reactions: [~, 59]
+     tu: [80, ~]
+     stamina: [85, ~]
+     firing: [~, 89]
+     strength: [50, ~]
+   - string: "Rckt" # Sniper / Heavy
+     reactions: [~, 59]
+     tu: [~, 79]
+     firing: [90, ~]
+     strength: [50, ~]
+   - string: "Vet" # Breacher / Ranger / Sniper
+     reactions: [60, ~]
+     tu: [80, ~]
+     stamina: [85, ~]
+     firing: [90, ~]
+     strength: [~, 49]
+   - string: "Vet" # Breacher / Ranger / Heavy
+     reactions: [60, ~]
+     tu: [80, ~]
+     stamina: [85, ~]
+     firing: [~, 89]
+     strength: [50, ~]
+   - string: "Vet" # Breacher / Sniper / Heavy
+     reactions: [60, ~]
+     tu: [~, 79]
+     firing: [90, ~]
+     strength: [50, ~]
+   - string: "Vet" # Ranger / Sniper / Heavy
+     reactions: [~, 59]
+     tu: [80, ~]
+     stamina: [85, ~]
+     firing: [90, ~]
+     strength: [50, ~]
+   - string: "Ace" # Good at everything!
+     reactions: [60, 73]
+     tu: [80, 94]
+     stamina: [85, ~]
+     firing: [90, 104]
+     strength: [50, 69]
+   - string: "Ace" # Good at everything!
+     reactions: [60, 73]
+     tu: [95, ~]
+     stamina: [85, 119]
+     firing: [90, 104]
+     strength: [50, 69]
+   - string: "Ace+" # Superhuman in training!
+     reactions: [74, ~]
+     tu: [80, 94]
+     stamina: [85, ~]
+     firing: [90, 104]
+     strength: [50, 69]
+   - string: "Ace+" # Superhuman in training!
+     reactions: [60, 73]
+     tu: [95, ~]
+     stamina: [120, ~]
+     firing: [90, 104]
+     strength: [50, 69]
+   - string: "Ace+" # Superhuman in training!
+     reactions: [60, 73]
+     tu: [80, 94]
+     stamina: [85, ~]
+     firing: [105, ~]
+     strength: [50, 69]
+   - string: "Ace+" # Superhuman in training!
+     reactions: [60, 73]
+     tu: [80, 94]
+     stamina: [85, ~]
+     firing: [90, 104]
+     strength: [70, ~]
+   - string: "Super" # Superhuman in everything!
+     reactions: [74, ~]
+     tu: [95, ~]
+     stamina: [120, ~]
+     firing: [105, ~]
+     strength: [70, ~]
+#Reactions
+   - string: "b"
+     reactions: [43, 49]
+   - string: "B"
+     reactions: [50, 59]
+   - string: "B+"
+     reactions: [60, ~]
+     tu: [~, 79]
+     firing: [~, 89]
+     strength: [~, 49]
+#TUs + Stamina
+   - string: "r"
+     tu: [63, 68]
+     stamina: [65, ~]
+   - string: "r"
+     tu: [69, 79]
+     stamina: [65, 74]
+   - string: "R"
+     tu: [69, 79]
+     stamina: [75, ~]
+   - string: "R"
+     tu: [80, ~]
+     stamina: [65, 84]
+   - string: "R+"
+     reactions: [~, 59]
+     tu: [80, ~]
+     stamina: [85, ~]
+     firing: [~, 89]
+     strength: [~, 49]
+#Firing
+   - string: "k"
+     firing: [~, 47]
+   - string: "s"
+     firing: [60, 69]
+   - string: "S"
+     firing: [70, 89]
+   - string: "S+"
+     reactions: [~, 59]
+     tu: [~, 79]
+     firing: [90, ~]
+     strength: [~, 49]
+#Heavy
+   - string: "w"
+     strength: [~, 25]
+   - string: "h"
+     strength: [33, 39]
+   - string: "H"
+     strength: [40, 49]
+   - string: "H+"
+     reactions: [~, 59]
+     tu: [~, 79]
+     firing: [~, 89]
+     strength: [50, ~]
+#  Coward! Cur! 
+   - string: "C"
+     bravery: [~, 20]

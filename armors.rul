@@ -256,6 +256,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 60
+    personalLight: 21
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: TANK_ARMOR
     spriteSheet: BTANKS.PCK
@@ -295,6 +297,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 45
+    personalLight: 19
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: TANK_ARMOR_ASSAULT
     spriteSheet: ATANKS.PCK
@@ -334,6 +338,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 30
+    personalLight: 17
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: TANK_ARMOR_GUARDIAN_ALLOY
     spriteSheet: GATANKS.PCK
@@ -373,6 +379,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 60
+    personalLight: 21
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: TANK_ARMOR_BATTLE_ALLOY
     spriteSheet: BATANKS.PCK
@@ -412,6 +420,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 45
+    personalLight: 19
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: TANK_ARMOR_ASSAULT_ALLOY
     spriteSheet: AATANKS.PCK
@@ -451,6 +461,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 30
+    personalLight: 17
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: TANK_ARMOR_CERBERUS
     spriteSheet: NOTANKS.PCK
@@ -460,9 +472,9 @@ armors:
       - CorpseNightOpsTank_2
       - CorpseNightOpsTank_3
       - CorpseNightOpsTank_4
-    frontArmor: 103
+    frontArmor: 102
     sideArmor: 90
-    rearArmor: 77
+    rearArmor: 78
     underArmor: 70
     drawingRoutine: 2
     size: 2
@@ -490,10 +502,10 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
-    visibilityAtDark: 12
+    visibilityAtDark: 20
     camouflageAtDay: -2
     camouflageAtDark: -4
-    heatVision: 40
+    heatVision: 67
     personalLight: 0
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: TANK_ARMOR_VIGILANTE
@@ -504,9 +516,9 @@ armors:
       - CorpseNightOpsTank_2
       - CorpseNightOpsTank_3
       - CorpseNightOpsTank_4
-    frontArmor: 87
+    frontArmor: 88
     sideArmor: 70
-    rearArmor: 53
+    rearArmor: 52
     underArmor: 50
     drawingRoutine: 2
     size: 2
@@ -534,10 +546,10 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
-    visibilityAtDark: 12
-    camouflageAtDay: -2
-    camouflageAtDark: -4
-    heatVision: 40
+    visibilityAtDark: 15
+    camouflageAtDay: -5
+    camouflageAtDark: -10
+    heatVision: 53
     personalLight: 0
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: HOVERTANK_ARMOR_GUARDIAN
@@ -580,6 +592,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 60
+    personalLight: 21
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: HOVERTANK_ARMOR
     spriteSheet: BTANKS.PCK
@@ -621,6 +635,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 45
+    personalLight: 19
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: HOVERTANK_ARMOR_ASSAULT
     spriteSheet: ATANKS.PCK
@@ -662,6 +678,8 @@ armors:
     overKill: 2
     meleeDodge:
       flatHundred: -0.2
+    heatVision: 30
+    personalLight: 17
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: STR_LIGHT_ARMOR_UP
     spriteSheet: XCOM_0.PCK
@@ -788,8 +806,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
-    visibilityAtDark: 12
-    camouflageAtDark: -2
+    visibilityAtDark: 15
+    camouflageAtDark: -5
+    camouflageAtDay: -3
     personalLight: 0
     loftempsSet: [ 3 ]
   - type: STR_STEALTH_GEAR_UP
@@ -829,8 +848,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
-    visibilityAtDark: 12
-    camouflageAtDark: -2
+    visibilityAtDark: 15
+    camouflageAtDark: -5
+    camouflageAtDay: -3
     personalLight: 0
     loftempsSet: [ 4 ]
   - &STR_HEAVY_ARMOR_UC
@@ -851,9 +871,9 @@ armors:
       tu: -5
       bravery: 10
     frontArmor: 56
-    sideArmor: 45
-    rearArmor: 35
-    underArmor: 24
+    sideArmor: 48
+    rearArmor: 40
+    underArmor: 36
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
@@ -886,17 +906,17 @@ armors:
   - type: STR_HEAVY_ARMOR_UC_MEDIUM
     refNode: *STR_HEAVY_ARMOR_UC
     requires: STR_ARMOR_MEDIUM
-    frontArmor: 48
-    sideArmor: 38
-    rearArmor: 30
-    underArmor: 21
+    frontArmor: 52
+    sideArmor: 42
+    rearArmor: 32
+    underArmor: 28
   - type: STR_HEAVY_ARMOR_UC_HARD
     refNode: *STR_HEAVY_ARMOR_UC
     requires: STR_ARMOR_HARD
-    frontArmor: 40
-    sideArmor: 32
-    rearArmor: 25
-    underArmor: 18
+    frontArmor: 48
+    sideArmor: 36
+    rearArmor: 24
+    underArmor: 20
   - &STR_PERSONAL_ARMOR_UC
     type: STR_PERSONAL_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -1073,8 +1093,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
-    visibilityAtDark: 19
-    camouflageAtDark: -6
+    visibilityAtDark: 20
+    camouflageAtDark: -8
+    camouflageAtDay: -5
     heatVision: 40
     personalLight: 0
     loftempsSet: [ 4 ]
@@ -1085,8 +1106,9 @@ armors:
     sideArmor: 80
     rearArmor: 70
     underArmor: 70
-    visibilityAtDark: 17
-    camouflageAtDark: -5
+    visibilityAtDark: 18
+    camouflageAtDark: -7
+    camouflageAtDay: -4
   - type: STR_NIGHT_OPS_ARMOR_UC_HARD
     refNode: *STR_NIGHT_OPS_ARMOR_UC
     requires: STR_ARMOR_HARD
@@ -1094,8 +1116,9 @@ armors:
     sideArmor: 65
     rearArmor: 55
     underArmor: 55
-    visibilityAtDark: 15
-    camouflageAtDark: -4
+    visibilityAtDark: 16
+    camouflageAtDark: -6
+    camouflageAtDay: -3
   - &STR_PSIONIC_ALLOY_ARMOR_UC
     type: STR_PSIONIC_ALLOY_ARMOR_UC_EASY
     requires: STR_ARMOR_EASY
@@ -1551,7 +1574,8 @@ armors:
       mana:
         flatHundred: 0.15
     visibilityAtDark: 23
-    camouflageAtDark: -7
+    camouflageAtDark: -9
+    camouflageAtDay: -7
     heatVision: 30
     psiVision: 6
     personalLight: 0
@@ -1565,7 +1589,8 @@ armors:
     rearArmor: 105
     underArmor: 100
     visibilityAtDark: 20
-    camouflageAtDark: -5
+    camouflageAtDark: -8
+    camouflageAtDay: -5
     heatVision: 25
     psiVision: 5
   - type: STR_ASSASSIN_ARMOR_UC_HARD
@@ -1576,7 +1601,728 @@ armors:
     rearArmor: 75
     underArmor: 70
     visibilityAtDark: 17
-    camouflageAtDark: -3
+    camouflageAtDark: -7
+    camouflageAtDay: -3
+    heatVision: 20
+    psiVision: 4
+  - type: STR_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    spriteSheet: Spacesuit.PCK
+    spriteInv: MAN_5A7L
+    customArmorPreviewIndex: 0
+    corpseBattle:
+      - STR_CORPSE_SPACESUIT
+    storeItem: STR_SPACESUIT
+    stats:
+      tu: -10
+      strength: 20
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 1.0 # 2 INCENDIARY
+      - 1.0 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 1.0 # 6 STUN
+      - 1.2 # 7 MELEE
+      - 1.6 # 8 ACID
+      - 1.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 1.0 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 2
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    loftempsSet: [ 3 ]
+  - &STR_PERSONAL_ARMOR_SPACESUIT_UC
+    type: STR_PERSONAL_ARMOR_SPACESUIT_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: SpacesuitAlloyLight.PCK
+    spriteInv: MAN_1
+    customArmorPreviewIndex: 3
+    corpseBattle:
+      - STR_CORPSE_ARMOR_SPACESUIT
+    corpseGeo: STR_BROKEN_ARMOR
+    storeItem: STR_SPACESUIT
+    stats:
+      bravery: 10
+      strength: 20
+    frontArmor: 85
+    sideArmor: 75
+    rearArmor: 65
+    underArmor: 65
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.9 # 2 INCENDIARY
+      - 0.8 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.9 # 6 STUN
+      - 1.0 # 7 MELEE
+      - 1.3 # 8 ACID
+      - 1.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.8 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 2.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    loftempsSet: [ 4 ]
+  - type: STR_PERSONAL_ARMOR_SPACESUIT_UC_MEDIUM
+    refNode: *STR_PERSONAL_ARMOR_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 75
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 55
+  - type: STR_PERSONAL_ARMOR_SPACESUIT_UC_HARD
+    refNode: *STR_PERSONAL_ARMOR_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 65
+    sideArmor: 55
+    rearArmor: 45
+    underArmor: 45
+  - &STR_PERSONAL_ARMOR_HEAVY_SPACESUIT_UC
+    type: STR_PERSONAL_ARMOR_HEAVY_SPACESUIT_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: SpacesuitAlloyHeavy.PCK
+    spriteInv: MAN_5
+    customArmorPreviewIndex: 4
+    corpseBattle:
+      - STR_CORPSE_ARMOR_ALLOY_SPACESUIT
+    corpseGeo: STR_BROKEN_ARMOR_ALLOY
+    storeItem: STR_SPACESUIT
+    weight: 10
+    stats:
+      tu: -10
+      bravery: 20
+      strength: 20
+    frontArmor: 120
+    sideArmor: 105
+    rearArmor: 90
+    underArmor: 90
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.8 # 2 INCENDIARY
+      - 0.8 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.9 # 6 STUN
+      - 1.0 # 7 MELEE
+      - 1.3 # 8 ACID
+      - 1.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.8 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 2.4
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    loftempsSet: [ 4 ]
+  - type: STR_PERSONAL_ARMOR_HEAVY_SPACESUIT_UC_MEDIUM
+    refNode: *STR_PERSONAL_ARMOR_HEAVY_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 105
+    sideArmor: 90
+    rearArmor: 75
+    underArmor: 75
+  - type: STR_PERSONAL_ARMOR_HEAVY_SPACESUIT_UC_HARD
+    refNode: *STR_PERSONAL_ARMOR_HEAVY_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+  - &STR_NIGHT_OPS_ARMOR_SPACESUIT_UC
+    type: STR_NIGHT_OPS_ARMOR_SPACESUIT_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: SpacesuitAlloyNightops.PCK
+    spriteInv: MAN_10
+    customArmorPreviewIndex: 5
+    corpseBattle:
+      - STR_CORPSE_NIGHT_OPS_ARMOR_SPACESUIT
+    corpseGeo: STR_BROKEN_NIGHT_OPS_ARMOR
+    storeItem: STR_SPACESUIT
+    stats:
+      bravery: 10
+      strength: 20
+    frontArmor: 105
+    sideArmor: 95
+    rearArmor: 85
+    underArmor: 85
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.4 # 2 INCENDIARY
+      - 0.8 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.9 # 6 STUN
+      - 1.0 # 7 MELEE
+      - 1.3 # 8 ACID
+      - 1.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.8 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 2.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+    visibilityAtDark: 20
+    camouflageAtDark: -8
+    camouflageAtDay: -5
+    heatVision: 40
+    personalLight: 0
+    loftempsSet: [ 4 ]
+  - type: STR_NIGHT_OPS_ARMOR_SPACESUIT_UC_MEDIUM
+    refNode: *STR_NIGHT_OPS_ARMOR_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 90
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 70
+    visibilityAtDark: 18
+    camouflageAtDark: -7
+    camouflageAtDay: -4
+  - type: STR_NIGHT_OPS_ARMOR_SPACESUIT_UC_HARD
+    refNode: *STR_NIGHT_OPS_ARMOR_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 75
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 55
+    visibilityAtDark: 16
+    camouflageAtDark: -6
+    camouflageAtDay: -3
+  - &STR_PSIONIC_ALLOY_ARMOR_SPACESUIT_UC
+    type: STR_PSIONIC_ALLOY_ARMOR_SPACESUIT_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: SpacesuitAlloyPsionic.PCK
+    spriteInv: MAN_12
+    customArmorPreviewIndex: 6
+    corpseBattle:
+      - STR_CORPSE_PSIONIC_ALLOY_ARMOR_SPACESUIT
+    corpseGeo: STR_BROKEN_PSIONIC_ALLOY_ARMOR
+    storeItem: STR_SPACESUIT
+    stats:
+      bravery: 20
+      strength: 20
+      psiStrength: 20
+    frontArmor: 105
+    sideArmor: 95
+    rearArmor: 85
+    underArmor: 85
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.9 # 2 INCENDIARY
+      - 0.8 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.9 # 6 STUN
+      - 1.0 # 7 MELEE
+      - 1.3 # 8 ACID
+      - 1.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.8 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 2.3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.16
+    psiVision: 10
+    loftempsSet: [ 4 ]
+  - type: STR_PSIONIC_ALLOY_ARMOR_SPACESUIT_UC_MEDIUM
+    refNode: *STR_PSIONIC_ALLOY_ARMOR_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 90
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 70
+    psiVision: 9
+  - type: STR_PSIONIC_ALLOY_ARMOR_SPACESUIT_UC_HARD
+    refNode: *STR_PSIONIC_ALLOY_ARMOR_SPACESUIT_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 75
+    sideArmor: 65
+    rearArmor: 55
+    underArmor: 55
+    psiVision: 8
+  - &STR_POWER_SUIT_SPACE_UC
+    type: STR_POWER_SUIT_SPACE_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: DarkSuit.PCK
+    spriteInv: MAN_2_1
+    customArmorPreviewIndex: 7
+    corpseBattle:
+      - STR_CORPSE_DARK_SUIT
+    corpseGeo: STR_BROKEN_DARK_SUIT
+    storeItem: STR_SPACESUIT
+    weight: 30
+    stats:
+      tu: 10
+      stamina: 10
+      bravery: 20
+      strength: 130
+    frontArmor: 185
+    sideArmor: 155
+    rearArmor: 135
+    underArmor: 125
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.6 # 2 INCENDIARY
+      - 0.7 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.8 # 6 STUN
+      - 1.0 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.7 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    loftempsSet: [ 4 ]
+    forcedTorso: 1
+    overKill: 2.5
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+  - type: STR_POWER_SUIT_SPACE_UC_MEDIUM
+    refNode: *STR_POWER_SUIT_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 160
+    sideArmor: 130
+    rearArmor: 110
+    underArmor: 100
+  - type: STR_POWER_SUIT_SPACE_UC_HARD
+    refNode: *STR_POWER_SUIT_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 135
+    sideArmor: 105
+    rearArmor: 85
+    underArmor: 75
+  - &STR_FLYING_SUIT_SPACE_UC
+    type: STR_FLYING_SUIT_SPACE_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: XCOM_2.PCK
+    spriteInv: MAN_3
+    customArmorPreviewIndex: 8
+    corpseBattle:
+      - STR_CORPSE_SUIT
+    corpseGeo: STR_BROKEN_SUIT
+    storeItem: STR_SPACESUIT
+    weight: 25
+    stats:
+      tu: 10
+      firing: 10
+      bravery: 10
+      strength: 80
+    frontArmor: 170
+    sideArmor: 140
+    rearArmor: 120
+    underArmor: 110
+    movementType: 1
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.7 # 2 INCENDIARY
+      - 0.7 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.8 # 6 STUN
+      - 1.0 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.7 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    loftempsSet: [ 4 ]
+    forcedTorso: 2
+    overKill: 2.5
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.13
+  - type: STR_FLYING_SUIT_SPACE_UC_MEDIUM
+    refNode: *STR_FLYING_SUIT_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 145
+    sideArmor: 115
+    rearArmor: 95
+    underArmor: 85
+  - type: STR_FLYING_SUIT_SPACE_UC_HARD
+    refNode: *STR_FLYING_SUIT_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 120
+    sideArmor: 90
+    rearArmor: 70
+    underArmor: 60
+  - &STR_PSI_DEFENSE_ARMOR_SPACE_UC
+    type: STR_PSI_DEFENSE_ARMOR_SPACE_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: PsiArmor1.PCK
+    spriteInv: MAN_6
+    customArmorPreviewIndex: 9
+    corpseBattle:
+      - STR_CORPSE_SUIT_PSI1
+    corpseGeo: STR_BROKEN_SUIT_PSI1
+    storeItem: STR_SPACESUIT
+    weight: 30
+    stats:
+      bravery: 20
+      strength: 90
+      psiStrength: 30
+      psiSkill: -20
+    frontArmor: 215
+    sideArmor: 180
+    rearArmor: 155
+    underArmor: 145
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.5 # 2 INCENDIARY
+      - 0.7 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.7 # 6 STUN
+      - 1.0 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.7 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 2.5
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.09
+    loftempsSet: [ 4 ]
+    forcedTorso: 1
+  - type: STR_PSI_DEFENSE_ARMOR_SPACE_UC_MEDIUM
+    refNode: *STR_PSI_DEFENSE_ARMOR_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 190
+    sideArmor: 155
+    rearArmor: 130
+    underArmor: 120
+  - type: STR_PSI_DEFENSE_ARMOR_SPACE_UC_HARD
+    refNode: *STR_PSI_DEFENSE_ARMOR_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 165
+    sideArmor: 130
+    rearArmor: 105
+    underArmor: 95
+  - &STR_PSI_ATTACK_ARMOR_SPACE_UC
+    type: STR_PSI_ATTACK_ARMOR_SPACE_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: PsiArmor2.PCK
+    spriteInv: MAN_7
+    customArmorPreviewIndex: 10
+    corpseBattle:
+      - STR_CORPSE_SUIT_PSI2
+    corpseGeo: STR_BROKEN_SUIT_PSI2
+    storeItem: STR_SPACESUIT
+    weight: 25
+    stats:
+      bravery: 10
+      strength: 80
+      psiStrength: 0
+      psiSkill: 20
+    frontArmor: 190
+    sideArmor: 160
+    rearArmor: 140
+    underArmor: 130
+    movementType: 1
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.6 # 2 INCENDIARY
+      - 0.7 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.7 # 6 STUN
+      - 1.0 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.7 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 2.5
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.01
+      mana:
+        flatHundred: 0.17
+    psiVision: 12
+    loftempsSet: [ 4 ]
+    forcedTorso: 2
+  - type: STR_PSI_ATTACK_ARMOR_SPACE_UC_MEDIUM
+    refNode: *STR_PSI_ATTACK_ARMOR_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 165
+    sideArmor: 135
+    rearArmor: 115
+    underArmor: 105
+    psiVision: 10
+  - type: STR_PSI_ATTACK_ARMOR_SPACE_UC_HARD
+    refNode: *STR_PSI_ATTACK_ARMOR_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 140
+    sideArmor: 110
+    rearArmor: 90
+    underArmor: 80
+    psiVision: 8
+  - &STR_PALADIN_ARMOR_SPACE_UC
+    type: STR_PALADIN_ARMOR_SPACE_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: PaladinArmor.PCK
+    spriteInv: MAN_8
+    customArmorPreviewIndex: 11
+    corpseBattle:
+      - STR_CORPSE_PALADIN_ARMOR
+    corpseGeo: STR_BROKEN_PALADIN_ARMOR
+    storeItem: STR_SPACESUIT
+    weight: 40
+    stats:
+      tu: -20
+      health: 40
+      bravery: 30
+      strength: 180
+      melee: 20
+      psiStrength: 15
+      psiSkill: -5
+    frontArmor: 255
+    sideArmor: 220
+    rearArmor: 185
+    underArmor: 170
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 0.8 # 1 ARMOR PIERCING
+      - 0.4 # 2 INCENDIARY
+      - 0.6 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.8 # 6 STUN
+      - 0.7 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.5 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 0.7 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 2
+    recovery:
+      stun:
+        stunCurrent: 0.15
+        flatHundred: 0.03
+      mana:
+        flatHundred: 0.11
+    heatVision: 70
+    zombiImmune: true
+    loftempsSet: [ 4 ]
+    forcedTorso: 1
+  - type: STR_PALADIN_ARMOR_SPACE_UC_MEDIUM
+    refNode: *STR_PALADIN_ARMOR_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 225
+    sideArmor: 190
+    rearArmor: 155
+    underArmor: 140
+    heatVision: 60
+  - type: STR_PALADIN_ARMOR_SPACE_UC_HARD
+    refNode: *STR_PALADIN_ARMOR_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 195
+    sideArmor: 160
+    rearArmor: 125
+    underArmor: 110
+    heatVision: 50
+  - &STR_ASSASSIN_ARMOR_SPACE_UC
+    type: STR_ASSASSIN_ARMOR_SPACE_UC_EASY
+    requires: STR_ALIENS_ONLY
+    spriteSheet: AssassinArmor.PCK
+    spriteInv: MAN_9
+    customArmorPreviewIndex: 12
+    corpseBattle:
+      - STR_CORPSE_ASSASSIN_ARMOR
+    corpseGeo: STR_BROKEN_ASSASSIN_ARMOR
+    storeItem: STR_SPACESUIT
+    weight: 20
+    stats:
+      tu: 20
+      stamina: 40
+      bravery: 30
+      reactions: 30
+      firing: 20
+      throwing: 20
+      melee: 20
+      strength: 70
+      psiStrength: 7
+      psiSkill: 5
+    frontArmor: 160
+    sideArmor: 145
+    rearArmor: 135
+    underArmor: 130
+    movementType: 1
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 0.6 # 1 ARMOR PIERCING
+      - 0.7 # 2 INCENDIARY
+      - 0.8 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.5 # 6 STUN
+      - 1.2 # 7 MELEE
+      - 0.5 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 0.5 # 11 ARMOR PENETRATOR
+      - 1.0 # 12
+      - 0.7 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 0.7 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 1.0 # 19
+    overKill: 3
+    recovery:
+      stun:
+        stunCurrent: 0.10
+        flatHundred: 0.02
+      mana:
+        flatHundred: 0.15
+    visibilityAtDark: 23
+    camouflageAtDark: -9
+    camouflageAtDay: -7
+    heatVision: 30
+    psiVision: 6
+    personalLight: 0
+    loftempsSet: [ 4 ]
+    forcedTorso: 2
+  - type: STR_ASSASSIN_ARMOR_SPACE_UC_MEDIUM
+    refNode: *STR_ASSASSIN_ARMOR_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 130
+    sideArmor: 115
+    rearArmor: 105
+    underArmor: 100
+    visibilityAtDark: 20
+    camouflageAtDark: -8
+    camouflageAtDay: -5
+    heatVision: 25
+    psiVision: 5
+  - type: STR_ASSASSIN_ARMOR_SPACE_UC_HARD
+    refNode: *STR_ASSASSIN_ARMOR_SPACE_UC
+    requires: STR_ALIENS_ONLY
+    frontArmor: 100
+    sideArmor: 85
+    rearArmor: 75
+    underArmor: 70
+    visibilityAtDark: 17
+    camouflageAtDark: -7
+    camouflageAtDay: -3
     heatVision: 20
     psiVision: 4
   - type: CIVM_ARMOR
@@ -1679,7 +2425,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 28
+    visibilityAtDark: 22
     loftempsSet: [ 3 ]
   - &STR_SECTOID_ARMOR1
     type: SECTOID_ARMOR1
@@ -1717,7 +2463,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 28
+    visibilityAtDark: 22
     loftempsSet: [ 3 ]
   - &STR_SECTOID_ARMOR2
     type: SECTOID_ARMOR2
@@ -1757,7 +2503,7 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
-    visibilityAtDark: 28
+    visibilityAtDark: 22
     psiVision: 8
     loftempsSet: [ 3 ]
   - type: SECTOID_ARMORED0
@@ -1830,6 +2576,8 @@ armors:
     bleedImmune: true
     painImmune: true
     heatVision: 50
+    antiCamouflageAtDark: -4
+    antiCamouflageAtDay: -2
   - type: FLOATER_ARMOR0
     spriteSheet: FLOATER.PCK
     spriteInv: FLOATER
@@ -1867,7 +2615,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 19
+    visibilityAtDark: 15
     loftempsSet: [ 4 ]
   - type: FLOATER_ARMOR1
     spriteSheet: FLOATER1.PCK
@@ -1906,7 +2654,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 19
+    visibilityAtDark: 15
     loftempsSet: [ 4 ]
   - type: FLOATER_ARMOR2
     spriteSheet: FLOATER2.PCK
@@ -1945,7 +2693,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 19
+    visibilityAtDark: 15
     loftempsSet: [ 4 ]
   - type: REAPER_ARMOR
     spriteInv: REAPER
@@ -1984,7 +2732,7 @@ armors:
     fearImmune: false
     bleedImmune: false
     painImmune: false
-    visibilityAtDark: 24
+    visibilityAtDark: 21
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: SNAKEMAN_ARMOR0
     spriteSheet: SNAKEMAN.PCK
@@ -2021,7 +2769,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 22
+    visibilityAtDark: 17
     loftempsSet: [ 5 ]
   - type: SNAKEMAN_ARMOR1
     spriteSheet: SNAKEMAN1.PCK
@@ -2059,7 +2807,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 22
+    visibilityAtDark: 17
     loftempsSet: [ 5 ]
   - type: SNAKEMAN_ARMOR2
     spriteSheet: SNAKEMAN2.PCK
@@ -2097,7 +2845,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 22
+    visibilityAtDark: 17
     loftempsSet: [ 5 ]
   - type: CHRYSSALID_ARMOR
     spriteInv: CHRYSSALID
@@ -2211,7 +2959,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 25
+    visibilityAtDark: 21
     loftempsSet: [ 4 ]
   - type: MUTON_ARMOR1
     spriteSheet: MUTON.PCK
@@ -2248,7 +2996,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 25
+    visibilityAtDark: 21
     loftempsSet: [ 4 ]
   - type: MUTON_ARMOR2
     spriteSheet: MUTON.PCK
@@ -2285,7 +3033,7 @@ armors:
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
-    visibilityAtDark: 25
+    visibilityAtDark: 21
     loftempsSet: [ 4 ]
   - type: SILACOID_ARMOR
     spriteInv: SILACOID
@@ -2519,6 +3267,8 @@ armors:
     bleedImmune: true
     painImmune: true
     heatVision: 75
+    antiCamouflageAtDark: -6
+    antiCamouflageAtDay: -3
   - type: SNAKEMAN_ARMOR_B
     spriteInv: SNAKEMAN_COMMANDER_B
     spriteSheet: SNAKEMAN_COMMANDER_B.PCK
@@ -2669,7 +3419,7 @@ armors:
       - 1.1 # 4 LASER
       - 1.1 # 5 PLASMA
       - 0.6 # 6 STUN
-      - 1.4 # 7 MELEE
+      - 1.05 # 7 MELEE 75% GRAVITY FACTOR
       - 0.8 # 8 ACID
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
@@ -2711,7 +3461,7 @@ armors:
       - 0.8 # 4 LASER
       - 0.8 # 5 PLASMA
       - 1.0 # 6 STUN
-      - 1.0 # 7 MELEE
+      - 0.8 # 7 MELEE 80% GRAVITY FACTOR
       - 1.44 # 8 ACID
       - 0.0 # 9 SMOKE
       - 0.96 # 10 RAPID LASER
@@ -2752,7 +3502,7 @@ armors:
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
       - 0.9 # 6 STUN
-      - 1.0 # 7 MELEE
+      - 0.75 # 7 MELEE 75% GRAVITY FACTOR
       - 1.0 # 8 ACID
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
@@ -2801,7 +3551,7 @@ armors:
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
       - 0.6 # 6 STUN
-      - 1.0 # 7 MELEE
+      - 0.75 # 7 MELEE 75% GRAVITY FACTOR
       - 0.8 # 8 ACID
       - 0.0 # 9 SMOKE
       - 0.8 # 10 RAPID LASER
@@ -2825,6 +3575,8 @@ armors:
     bleedImmune: true
     painImmune: true
     heatVision: 50
+    antiCamouflageAtDark: -4
+    antiCamouflageAtDay: -2
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: REAPER_ARMOR_C
     spriteInv: REAPER_C
@@ -2850,7 +3602,7 @@ armors:
       - 0.4 # 4 LASER
       - 0.4 # 5 PLASMA
       - 0.24 # 6 STUN
-      - 0.5 # 7 MELEE
+      - 0.4 # 7 MELEE 80% GRAVITY FACTOR
       - 0.6 # 8 ACID
       - 0.0 # 9 SMOKE
       - 0.56 # 10 RAPID LASER
@@ -2894,7 +3646,7 @@ armors:
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
       - 0.8 # 6 STUN
-      - 1.0 # 7 MELEE
+      - 0.8 # 7 MELEE 80% GRAVITY FACTOR
       - 1.3 # 8 ACID
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
@@ -2935,7 +3687,7 @@ armors:
       - 0.9 # 4 LASER
       - 0.6 # 5 PLASMA
       - 0.8 # 6 STUN
-      - 1.2 # 7 MELEE
+      - 0.8 # 7 MELEE 75% GRAVITY FACTOR
       - 0.4 # 8 ACID
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
@@ -2980,7 +3732,7 @@ armors:
       - 0.3 # 4 LASER
       - 0.3 # 5 PLASMA
       - 0.75 # 6 STUN
-      - 0.75 # 7 MELEE
+      - 0.6 # 7 MELEE 80% GRAVITY FACTOR
       - 0.54 # 8 ACID
       - 0.0 # 9 SMOKE
       - 0.375 # 10 RAPID LASER
@@ -3028,7 +3780,7 @@ armors:
       - 2.0 # 4 LASER
       - 0.7 # 5 PLASMA
       - 0.7 # 6 STUN
-      - 0.8 # 7 MELEE
+      - 0.56 # 7 MELEE 70% GRAVITY FACTOR
       - 0.5 # 8 ACID
       - 0.0 # 9 SMOKE
       - 1.7 # 10 RAPID LASER
@@ -3052,6 +3804,8 @@ armors:
     bleedImmune: true
     painImmune: true
     heatVision: 75
+    antiCamouflageAtDark: -6
+    antiCamouflageAtDay: -3
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: ZOMBIE_ARMOR_C
     spriteSheet: ZOMBIE_C.PCK
@@ -3072,7 +3826,7 @@ armors:
       - 0.9 # 4 LASER
       - 0.72 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 1.0 # 7 MELEE
+      - 0.8 # 7 MELEE 80% GRAVITY FACTOR
       - 1.5 # 8 ACID
       - 0.0 # 9 SMOKE
       - 1.1 # 10 RAPID LASER

@@ -55,6 +55,7 @@ ufoTractorBeamSizeModifiers:
    - 100
    - 75
    - 50
+ufoGlancingHitThreshold: 1
 hunterKillerFastRetarget: false
 escortRange: 40
 escortsJoinFightAgainstHK: true

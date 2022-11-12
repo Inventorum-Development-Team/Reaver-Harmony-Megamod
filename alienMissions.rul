@@ -14,10 +14,10 @@ alienMissions:
       0:
         STR_SECTOID: 100
       2:
-        STR_SECTOID: 30
+        STR_SECTOID_SOME_ARMORED: 30
         STR_FLOATER: 70
       4:
-        STR_SECTOID_ARMORED: 100
+        STR_SECTOID_SOME_ARMORED: 100
       6:
         STR_SECTOID_ARMORED: 7
         STR_SNAKEMAN: 90
@@ -71,10 +71,10 @@ alienMissions:
       0:
         STR_SECTOID: 100
       2:
-        STR_SECTOID: 30
+        STR_SECTOID_SOME_ARMORED: 30
         STR_FLOATER: 70
       4:
-        STR_SECTOID_ARMORED: 100
+        STR_SECTOID_SOME_ARMORED: 100
       6:
         STR_SECTOID_ARMORED: 7
         STR_SNAKEMAN: 90
@@ -128,7 +128,7 @@ alienMissions:
       2:
         STR_FLOATER: 100
       4:
-        STR_SECTOID_ARMORED: 33
+        STR_SECTOID_SOME_ARMORED: 33
         STR_FLOATER: 67
       6:
         STR_SECTOID_ARMORED: 10
@@ -191,7 +191,7 @@ alienMissions:
       2:
         STR_FLOATER: 100
       4:
-        STR_SECTOID_ARMORED: 33
+        STR_SECTOID_SOME_ARMORED: 33
         STR_FLOATER: 67
       6:
         STR_SECTOID_ARMORED: 10
@@ -254,7 +254,7 @@ alienMissions:
       2:
         STR_FLOATER: 100
       4:
-        STR_SECTOID_ARMORED: 25
+        STR_SECTOID_SOME_ARMORED: 25
         STR_FLOATER: 75
       6:
         STR_SNAKEMAN: 100
@@ -315,7 +315,7 @@ alienMissions:
       2:
         STR_FLOATER: 100
       4:
-        STR_SECTOID_ARMORED: 25
+        STR_SECTOID_SOME_ARMORED: 25
         STR_FLOATER: 75
       6:
         STR_SNAKEMAN: 100

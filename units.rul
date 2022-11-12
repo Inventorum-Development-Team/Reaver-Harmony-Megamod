@@ -1614,6 +1614,7 @@ units:
     livingWeapon: true
     capturable: false
   - type: STR_FLOATER_NAVIGATOR_C
+    race: STR_FLOATER_C
     stats:
       tu: 58
       stamina: 68
@@ -1636,6 +1637,7 @@ units:
     aggression: 5
     capturable: false
   - type: STR_FLOATER_MEDIC_C
+    race: STR_FLOATER_C
     stats:
       tu: 58
       stamina: 68
@@ -1661,6 +1663,7 @@ units:
     aggression: 1
     capturable: false
   - type: STR_FLOATER_ENGINEER_C
+    race: STR_FLOATER_C
     stats:
       tu: 58
       stamina: 68

@@ -180,6 +180,34 @@
 #       * Repaired various minor holes in UFO walls, 47 maps updated.
 #       * Several small updates to base defense terrain: less holes, more/better spawn nodes, better looking.
 #       * Several other tiny changes. Full details are available in the GitHub logs.
+#  1.0.7:   Night operations armors have received a buff to their stealth and night vision.
+#           - The buff is strongest on the ones which were previously weak, and negligible on the top ones.
+#       * Tanks have had their light radius increased, and are now less blinded by smoke.
+#       * The night vision of some alien races has been reduced, but it is still a lot more than your soldiers.
+#           - Having longer night vision range than certain alien types is now more achievable than before.
+#       * Fixed a bug with proximity grenades acting like regular grenades.
+#       * Fixed bug in which security station facility was not properly being destroyed during base defense.
+#       * Doors on security stations no longer block turret fire.
+#       * You can now build two infirmaries in one base.
+#       * Updated Base Facility list order into a more sensible ordering.
+#       * New and improved stat strings are now active, thanks to Meatstuff!
+#       * Heavy Armor buffed on higher difficulties.
+#       * Reduced requirements for unlocking Hyper Wave Decoder research.
+#       * Sectoid Armor shows up more gradually, less abruptly.
+#       * Weapons now show their optimal range per shot type in the UFOPedia.
+#       * Laser Pulse Rifle sprite updated (again).
+#       * Added a scope to Plasma Rifle.
+#       * Tractor beams shield drain rate doubled.
+#       * The lifts which appear on some X-Com spacecraft will now block line of sight and line of fire.
+#       * Added several more entries to Research Project Information.
+#       * Slightly reduced battlescape size for mediums, larges, and Battleship.
+#       * Added space suits for non-power armor when going to Cydonia.
+#       * Cydonia has lower gravity, so your soldiers are now stronger on Cydonia.
+#       * Improved alien and civilian spawning on vanilla outdoor terrains.
+#       * Fixed bug with Snakeman Queen text.
+#       * Fixed sound bug at Snakeman Queen's lair.
+#       * Made a few tiny balance adjustments involving aircraft research and tanks.
+#       * Fixed other minor text, sound, and graphical bugs.
 #
 #
 # resource authors/sources:
@@ -227,6 +255,14 @@
 # ivandogovich: various handobs
 #       * https://openxcom.mod.io/improved-hand-objects
 #       * obtained via Improved Handobs
+# NeoWorm: interceptor map
+#       * https://openxcom.org/forum/index.php/topic,2732.msg82245.html#msg82245
+#       * NeoWorm mostly made it, with some help from Solarius Scorch
+# Meatstuff: statstrings, battle rifle sprite, and ideas
+#		* obtained via Discord
+# Finnik: astronaut suits
+#       * https://mod.io/g/openxcom/m/unexcom
+#       * obtained via UNEXCOM
 #
 # unknown sources:
 #       * first aid kit, obtained via Awesome Guns
@@ -262,11 +298,11 @@
 # 
 #
 # The Reaver of Darkness(myself): all battlescape maps in this mod unless otherwise stated; new tiles added
-#		in LIGHTNIAR.MCD; red/blue laser pistol and heavy laser; blue plasma auto pistol and assault cannon;
-#		smoke, fusion, and alternate incendiary rockets; conventional ammo for blaster and small launchers;
+#	    	in LIGHTNIAR.MCD; red/blue laser pistol and heavy laser; blue plasma auto pistol and assault cannon;
+#		    smoke, fusion, and alternate incendiary rockets; conventional ammo for blaster and small launchers;
 #       Human Small Launcher inspired by Chiko's work; Human Blaster Launcher inspired by The_Funktasm;
-#		additional graphics for the plasma rifle; alien explosive cannon ammo; sprites for Heracles and
-#		Amaranth, Sectopod green laser graphic, Large Workshop sprite and map; tank color swaps; tank
+#	    	additional graphics for the plasma rifle; alien explosive cannon ammo; sprites for Heracles and
+#		    Amaranth, Sectopod green laser graphic, Large Workshop sprite and map; tank color swaps; tank
 #       auxiliary weapons (edits of wolwerin's sprites); power suit weapons (edits of xops' sprites); color
 #       swaps of several aliens; night lighting fix of terrain; rearranged map tiles for base defense; UFO
 #       components on top of UFO; new map blocks for Cydonia and Terror Beacon; edits to Luke's UFOs; short
@@ -290,7 +326,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 1.0.6
+version: 1.0.7
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

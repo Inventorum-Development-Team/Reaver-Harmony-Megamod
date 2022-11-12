@@ -65,8 +65,8 @@ arcScripts:
   - type: battlerepSectoidA
     randomArcs:
       STR_SECTOID_A_BATTLEREP: 100
-    firstMonth: 5
-    lastMonth: 5
+    firstMonth: 4
+    lastMonth: 4
     executionOdds: 100
     maxArcs: 1
     minDifficulty: 0

@@ -13,7 +13,7 @@ missionScripts:
     lastMonth: 1
     missionWeights:
       0:
-        # STR_ALIEN_RETALIATION_LIGHT_DEFENDED: 100
+        # STR_ALIEN_RETALIATION_LIGHT_DEFENDED: 100 # only here for debugging purposes
         STR_ALIEN_RESEARCH: 50
         STR_ALIEN_ABDUCTION: 30
         STR_ALIEN_HARVEST: 20

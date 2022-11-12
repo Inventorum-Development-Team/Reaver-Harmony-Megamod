@@ -1397,6 +1397,11 @@ research:
     dependencies:
       - STR_MIND_PROBE
       - STR_PSI_LAB
+  - name: STR_HYPER_WAVE_DECODER_UP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIEN_NAVIGATOR
   - name: STR_HYPER_WAVE_DECODER
     listOrder: 1510
     cost: 670
@@ -1406,9 +1411,15 @@ research:
   - name: STR_HYPER_WAVE_DECODER_DEP1
     dependencies:
       - STR_MIND_PROBE
-      - STR_PSIONIC_ALIEN_CORPSE
     unlocks:
       - STR_HYPER_WAVE_DECODER
+      - STR_HYPER_WAVE_DECODER_UP
+  - name: STR_HYPER_WAVE_DECODER_DEP2
+    dependencies:
+      - STR_UFO_NAVIGATION
+    unlocks:
+      - STR_HYPER_WAVE_DECODER
+      - STR_HYPER_WAVE_DECODER_UP
   - name: STR_PSI_LAB
     listOrder: 1520
     cost: 480
