@@ -208,6 +208,8 @@
 #       * Fixed sound bug at Snakeman Queen's lair.
 #       * Made a few tiny balance adjustments involving aircraft research and tanks.
 #       * Fixed other minor text, sound, and graphical bugs.
+#  1.0.7.1: Proximity grenades should actually be fixed now!
+#       * Added some missing text in statstrings.rul.
 #
 #
 # resource authors/sources:
@@ -261,7 +263,7 @@
 # Meatstuff: statstrings, battle rifle sprite, and ideas
 #		* obtained via Discord
 # Finnik: astronaut suits
-#       * https://mod.io/g/openxcom/m/unexcom
+#       * https://openxcom.mod.io/unexcom
 #       * obtained via UNEXCOM
 #
 # unknown sources:
@@ -326,7 +328,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 1.0.7
+version: 1.0.7.1
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

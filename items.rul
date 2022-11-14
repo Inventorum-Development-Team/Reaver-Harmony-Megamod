@@ -5442,7 +5442,7 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    battleType: 4
+    battleType: 5
     fuseType: -2
     tuThrow: 25
     tuPrime: 40
