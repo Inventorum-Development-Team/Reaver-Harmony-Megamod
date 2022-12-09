@@ -1357,7 +1357,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ULTIMATE_CRAFT
-      - STR_FLAGSHIPS_UP
+      - STR_ALIEN_ENGINEER
       - STR_LASER_WEAPONS
       - STR_ALIEN_EXPLOSIVES
     image_id: SMART_COCKPIT
@@ -1368,7 +1368,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ULTIMATE_TRANSPORT_CRAFT
-      - STR_FLAGSHIPS_UP
+      - STR_ALIEN_NAVIGATOR
       - STR_HYPER_WAVE_DECODER
       - STR_MIND_SHIELD
     image_id: IMPROVED_SPY_CAMERA
@@ -3706,6 +3706,13 @@ ufopaedia:
     image_id: UP036.SPK
     text: STR_ALIEN_REPRODUCTION_UFOPEDIA
     text_width: 167
+  - id: STR_ALIEN_REPOSITORY
+    listOrder: 11090
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_ALIEN_REPOSITORY
+    text: STR_ALIEN_REPOSITORY_UFOPEDIA
   - id: STR_SMALL_SCOUT
     listOrder: 12000
     type_id: 9
@@ -4164,14 +4171,14 @@ ufopaedia:
     requires:
       - STR_MIND_PROBE
       - STR_PSI_LAB
-    text: STR_MIND_SHIELD_UFOPEDIA
+    text: STR_MIND_SHIELD_UFOPEDIA_UP
   - id: STR_HYPER_WAVE_DECODER_UP
     listOrder: 13350
     type_id: 8
     section: STR_UFO_COMPONENTS
     requires:
       - STR_HYPER_WAVE_DECODER_UP
-    text: STR_HYPER_WAVE_DECODER_UFOPEDIA
+    text: STR_HYPER_WAVE_DECODER_UFOPEDIA_UP
   - id: STR_HOVERTANKS_UP
     listOrder: 13400
     type_id: 8
@@ -4299,7 +4306,7 @@ ufopaedia:
       - STR_UFO_CONSTRUCTION
       - STR_UFO_SHIELD_EMITTER
       - STR_ANTI_GRAVITY
-    text: STR_GRAV_SHIELD_UFOPEDIA
+    text: STR_GRAV_SHIELD_UFOPEDIA_UP
   - id: STR_TRACTOR_BEAMS_UP
     listOrder: 13585
     type_id: 8

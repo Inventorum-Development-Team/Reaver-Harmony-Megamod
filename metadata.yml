@@ -210,6 +210,23 @@
 #       * Fixed other minor text, sound, and graphical bugs.
 #  1.0.7.1: Proximity grenades should actually be fixed now!
 #       * Added some missing text in statstrings.rul.
+#  1.0.8:   Buffed Calamity Launcher ammo.
+#         - Rebalanced Power Suit Weapon manufacture costs a bit.
+#         - Did full balance pass on Calamity Launcher ammo manufacturing, was supposed to be done before 1.0.
+#       * Gave the Combat Suite its +10% hit bonus back.
+#       * Increased Craft Light Plasma ammo max from 12 to 15.
+#       * Buffed AE Missile, Laser, and Plasma Base Defenses.
+#       * You can now only build one Grav Shield per base. (This prevents building useless excess!)
+#       * Shrunk several UFO components, most notably alloys, deuterium, and most forms of salvage.
+#       * New kind of salvage added: alien storage repositories. These are particularly abundant within outposts.
+#       * Snakeman Queen scavenge recipe added.
+#       * Race weights adjusted: Ethereals should be more common in the late game now.
+#       * Psi Adepts now screen better for bravery than Elites do.
+#       * Adjusted value of flagship diode components in order to increase the reward for dangerous interceptions.
+#       * Heavy Destroyers might be way more common during alien invasion campaign in the late game.
+#       * Fixed a bug in which terror sites were not always granting the terror site data cache.
+#       * Fixed bug in which Combat and Recon Suite UFOPedia reports would not reveal once you had access to them.
+#       * Fixed various minor bugs and balance issues.
 #
 #
 # resource authors/sources:

@@ -867,6 +867,17 @@ research:
       - STR_EXAMINATION_ROOM
       - STR_ETHEREAL_COMMANDER
       - STR_POWER_SUITS
+  - name: STR_PSIONIC_POWER_ARMOR_DEP
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PSI_AMP
+      - STR_EXAMINATION_ROOM
+      - STR_ETHEREAL_NAVIGATOR
+      - STR_POWER_SUITS
+    unlocks:
+      - STR_PSIONIC_POWER_ARMOR_UP
+      - STR_PSIONIC_POWER_ARMOR
   - name: STR_INTEGRATED_ARMOR_UP
     cost: 0
     points: 0
@@ -1588,7 +1599,7 @@ research:
       - STR_CYBERDISC_AUTOPSY
       - STR_CELATID_AUTOPSY
   - name: STR_ALIEN_LASER
-    listOrder: 1800
+    listOrder: 1760
     cost: 250
     points: 25
     needItem: true
@@ -1596,6 +1607,38 @@ research:
     unlocks:
       - STR_LASER_WEAPONS
       - STR_LASER_DEFENSE
+  - name: STR_REPOSITORY_YELLOW
+    listOrder: 1775
+    cost: 25
+    points: 0
+    needItem: true
+    destroyItem: false
+    lookup: STR_ALIEN_REPOSITORY
+  - name: STR_REPOSITORY_GREEN
+    listOrder: 1780
+    cost: 25
+    points: 0
+    needItem: true
+    destroyItem: false
+    lookup: STR_ALIEN_REPOSITORY
+  - name: STR_REPOSITORY_BLUE
+    listOrder: 1785
+    cost: 25
+    points: 0
+    needItem: true
+    destroyItem: false
+    lookup: STR_ALIEN_REPOSITORY
+  - name: STR_REPOSITORY_BRAIN
+    listOrder: 1790
+    cost: 25
+    points: 0
+    needItem: true
+    destroyItem: false
+    lookup: STR_ALIEN_REPOSITORY
+  - name: STR_ALIEN_REPOSITORY
+    listOrder: 1795
+    points: 25
+    needItem: true
   - name: STR_SECTOID_CORPSE
     listOrder: 1900
     cost: 50

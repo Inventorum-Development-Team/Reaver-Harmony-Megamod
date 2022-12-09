@@ -12,7 +12,7 @@
 # Rckt - Rocketeer (Sniper/Heavy)
 # Vet - Veteran (Excelling in 3 classes, this soldier has been through hell and back!)
 # Ace - Excels in all 4 classes
-# Ace+ - Excels in all 4 classes with some superhuman capabilities
+# Ace+ - Excels in all 4 classes with some attributes at or above the maximum human potential
 # Super - Excels in all 4 classes to a superhuman extent
 # b/B - Breacher (Reactions)
 # r/R - Ranger (TUs and Stamina)
@@ -102,46 +102,106 @@
      firing: [90, ~]
      strength: [50, ~]
    - string: "Ace" # Good at everything!
-     reactions: [60, 73]
-     tu: [80, 94]
+     reactions: [60, 69]
+     tu: [80, 89]
      stamina: [85, ~]
-     firing: [90, 104]
+     firing: [90, 99]
      strength: [50, 69]
    - string: "Ace" # Good at everything!
-     reactions: [60, 73]
-     tu: [95, ~]
+     reactions: [60, 69]
+     tu: [90, ~]
      stamina: [85, 119]
-     firing: [90, 104]
+     firing: [90, 99]
      strength: [50, 69]
-   - string: "Ace+" # Superhuman in training!
-     reactions: [74, ~]
-     tu: [80, 94]
+   - string: "Ace+" # Superhuman in training! 1x
+     reactions: [70, ~]
+     tu: [80, 89]
      stamina: [85, ~]
-     firing: [90, 104]
+     firing: [90, 99]
      strength: [50, 69]
-   - string: "Ace+" # Superhuman in training!
-     reactions: [60, 73]
-     tu: [95, ~]
+   - string: "Ace+" # Superhuman in training! 1x
+     reactions: [60, 69]
+     tu: [90, ~]
      stamina: [120, ~]
-     firing: [90, 104]
+     firing: [90, 99]
      strength: [50, 69]
-   - string: "Ace+" # Superhuman in training!
-     reactions: [60, 73]
-     tu: [80, 94]
+   - string: "Ace+" # Superhuman in training! 1x
+     reactions: [60, 69]
+     tu: [80, 89]
      stamina: [85, ~]
-     firing: [105, ~]
+     firing: [100, ~]
      strength: [50, 69]
-   - string: "Ace+" # Superhuman in training!
-     reactions: [60, 73]
-     tu: [80, 94]
+   - string: "Ace+" # Superhuman in training! 1x
+     reactions: [60, 69]
+     tu: [80, 89]
      stamina: [85, ~]
-     firing: [90, 104]
+     firing: [90, 99]
      strength: [70, ~]
-   - string: "Super" # Superhuman in everything!
-     reactions: [74, ~]
-     tu: [95, ~]
+   - string: "Ace+" # Superhuman in training! 2x
+     reactions: [70, ~]
+     tu: [90, ~]
+     stamina: [85, ~]
+     firing: [90, 99]
+     strength: [50, 69]
+   - string: "Ace+" # Superhuman in training! 2x
+     reactions: [70, ~]
+     tu: [80, 89]
+     stamina: [85, ~]
+     firing: [100, ~]
+     strength: [50, 69]
+   - string: "Ace+" # Superhuman in training! 2x
+     reactions: [70, ~]
+     tu: [80, 89]
+     stamina: [85, ~]
+     firing: [90, 99]
+     strength: [70, ~]
+   - string: "Ace+" # Superhuman in training! 2x
+     reactions: [60, 69]
+     tu: [90, ~]
+     stamina: [85, ~]
+     firing: [100, ~]
+     strength: [50, 69]
+   - string: "Ace+" # Superhuman in training! 2x
+     reactions: [60, 69]
+     tu: [90, ~]
+     stamina: [85, ~]
+     firing: [90, 99]
+     strength: [70, ~]
+   - string: "Ace+" # Superhuman in training! 2x
+     reactions: [60, 69]
+     tu: [80, 89]
+     stamina: [85, ~]
+     firing: [100, ~]
+     strength: [70, ~]
+   - string: "Ace+" # Superhuman in training! 3x
+     reactions: [60, 69]
+     tu: [90, ~]
+     stamina: [85, ~]
+     firing: [100, ~]
+     strength: [70, ~]
+   - string: "Ace+" # Superhuman in training! 3x
+     reactions: [70, ~]
+     tu: [80, 89]
      stamina: [120, ~]
-     firing: [105, ~]
+     firing: [100, ~]
+     strength: [70, ~]
+   - string: "Ace+" # Superhuman in training! 3x
+     reactions: [70, ~]
+     tu: [90, ~]
+     stamina: [85, ~]
+     firing: [90, 99]
+     strength: [70, ~]
+   - string: "Ace+" # Superhuman in training! 3x
+     reactions: [70, ~]
+     tu: [90, ~]
+     stamina: [85, ~]
+     firing: [100, ~]
+     strength: [50, 69]
+   - string: "Super" # Superhuman in everything!
+     reactions: [70, ~]
+     tu: [90, ~]
+     stamina: [120, ~]
+     firing: [100, ~]
      strength: [70, ~]
 #Reactions
    - string: "b"

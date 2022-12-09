@@ -393,7 +393,8 @@ missionScripts:
         STR_ALIEN_TERROR_ELITE: 100
     raceWeights:
       0:
-        STR_MIXED_INVASION_DESTROY: 100
+        STR_MIXED_INVASION_PSIONIC: 40
+        STR_MIXED_INVASION_DESTROY: 60
     regionWeights:
       0:
         STR_NORTH_AMERICA: 16
@@ -448,7 +449,8 @@ missionScripts:
         STR_ALIEN_BASE_ELITE: 25
     raceWeights:
       0:
-        STR_MIXED_INVASION_DESTROY: 100
+        STR_MIXED_INVASION_PSIONIC: 25
+        STR_MIXED_INVASION_DESTROY: 75
     regionWeights:
       0:
         STR_NORTH_AMERICA: 16
@@ -530,7 +532,8 @@ missionScripts:
         STR_ALIEN_BASE_ELITE: 50
     raceWeights:
       0:
-        STR_MIXED_INVASION_PSIONIC: 100
+        STR_MIXED_INVASION_PSIONIC: 75
+        STR_MIXED_INVASION_DESTROY: 25
     regionWeights:
       0:
         STR_NORTH_AMERICA: 16
@@ -585,7 +588,8 @@ missionScripts:
         STR_ALIEN_BASE_ELITE: 75
     raceWeights:
       0:
-        STR_MIXED_INVASION_DESTROY: 100
+        STR_MIXED_INVASION_PSIONIC: 25
+        STR_MIXED_INVASION_DESTROY: 75
     regionWeights:
       0:
         STR_NORTH_AMERICA: 16

@@ -59,7 +59,7 @@ armors:
     corpseBattle:
       - STR_CORPSE
     stats:
-      bravery: 20
+      bravery: 30
       psiStrength: 20
       mana: 10
     loftempsSet: [ 4 ]

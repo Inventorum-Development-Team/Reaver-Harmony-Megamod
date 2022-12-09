@@ -382,24 +382,29 @@ alienMissions:
       15:
         STR_MIXED_INFILTRATION: 100
       18:
-        STR_SECTOID_BASE: 40
-        STR_ETHEREAL_BASE: 10
-        STR_MIXED_INFILTRATION: 50
-      24:
+        STR_SECTOID_BASE: 35
+        STR_ETHEREAL_BASE: 15
+        STR_MIXED_INFILTRATION: 35
+        STR_MIXED_INVASION_PSIONIC: 15
+      22:
         STR_SECTOID_BASE: 10
         STR_ETHEREAL_BASE: 30
         STR_MIXED_INFILTRATION: 40
         STR_MIXED_INVASION_PSIONIC: 20
-      36:
+      26:
         STR_SECTOID_BASE: 20
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 25
         STR_MIXED_INVASION_PSIONIC: 50
-      48:
+      30:
         STR_SECTOID_BASE: 5
         STR_ETHEREAL_BASE: 5
-        STR_MIXED_INFILTRATION: 10
-        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INFILTRATION: 20
+        STR_MIXED_INVASION_PSIONIC: 70
+      36:
+        STR_SECTOID_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INVASION_PSIONIC: 90
     waves:
       - ufo: STR_COVERT_OPS_SHIP
         count: 1
@@ -472,31 +477,34 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID_BASE: 100
-      4:
-        STR_SECTOID_BASE: 100
       12:
         STR_ETHEREAL_BASE: 100
       15:
         STR_MIXED_INFILTRATION: 100
       18:
-        STR_SECTOID_BASE: 40
-        STR_ETHEREAL_BASE: 10
-        STR_MIXED_INFILTRATION: 50
-      24:
+        STR_SECTOID_BASE: 35
+        STR_ETHEREAL_BASE: 15
+        STR_MIXED_INFILTRATION: 35
+        STR_MIXED_INVASION_PSIONIC: 15
+      22:
         STR_SECTOID_BASE: 10
         STR_ETHEREAL_BASE: 30
         STR_MIXED_INFILTRATION: 40
         STR_MIXED_INVASION_PSIONIC: 20
-      36:
+      26:
         STR_SECTOID_BASE: 20
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 25
         STR_MIXED_INVASION_PSIONIC: 50
-      48:
+      30:
         STR_SECTOID_BASE: 5
         STR_ETHEREAL_BASE: 5
-        STR_MIXED_INFILTRATION: 10
-        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INFILTRATION: 20
+        STR_MIXED_INVASION_PSIONIC: 70
+      36:
+        STR_SECTOID_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INVASION_PSIONIC: 90
     waves:
       - ufo: STR_COVERT_OPS_SHIP
         count: 1
@@ -562,31 +570,34 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID_BASE: 100
-      4:
-        STR_SECTOID_BASE: 100
       12:
         STR_ETHEREAL_BASE: 100
       15:
         STR_MIXED_INFILTRATION: 100
       18:
-        STR_SECTOID_BASE: 40
-        STR_ETHEREAL_BASE: 10
-        STR_MIXED_INFILTRATION: 50
-      24:
+        STR_SECTOID_BASE: 35
+        STR_ETHEREAL_BASE: 15
+        STR_MIXED_INFILTRATION: 35
+        STR_MIXED_INVASION_PSIONIC: 15
+      22:
         STR_SECTOID_BASE: 10
         STR_ETHEREAL_BASE: 30
         STR_MIXED_INFILTRATION: 40
         STR_MIXED_INVASION_PSIONIC: 20
-      36:
+      26:
         STR_SECTOID_BASE: 20
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 25
         STR_MIXED_INVASION_PSIONIC: 50
-      48:
+      30:
         STR_SECTOID_BASE: 5
         STR_ETHEREAL_BASE: 5
-        STR_MIXED_INFILTRATION: 10
-        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INFILTRATION: 20
+        STR_MIXED_INVASION_PSIONIC: 70
+      36:
+        STR_SECTOID_BASE: 5
+        STR_ETHEREAL_BASE: 5
+        STR_MIXED_INVASION_PSIONIC: 90
     waves:
       - ufo: STR_COVERT_OPS_SHIP_ELITE
         count: 1
@@ -677,14 +688,14 @@ alienMissions:
         STR_ETHEREAL_BASE: 20
         STR_MIXED_INVASION_PSIONIC: 10
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      30:
         STR_SECTOID_BASE: 12
         STR_FLOATER_BASE: 13
         STR_MUTON_BASE: 13
         STR_ETHEREAL_BASE: 12
         STR_MIXED_INVASION_PSIONIC: 25
         STR_MIXED_INVASION_DESTROY: 25
-      48:
+      36:
         STR_SECTOID_BASE: 5
         STR_FLOATER_BASE: 5
         STR_MUTON_BASE: 5
@@ -770,14 +781,14 @@ alienMissions:
         STR_ETHEREAL_BASE: 20
         STR_MIXED_INVASION_PSIONIC: 10
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      30:
         STR_SECTOID_BASE: 12
         STR_FLOATER_BASE: 13
         STR_MUTON_BASE: 13
         STR_ETHEREAL_BASE: 12
         STR_MIXED_INVASION_PSIONIC: 25
         STR_MIXED_INVASION_DESTROY: 25
-      48:
+      36:
         STR_SECTOID_BASE: 5
         STR_FLOATER_BASE: 5
         STR_MUTON_BASE: 5
@@ -858,14 +869,14 @@ alienMissions:
         STR_ETHEREAL_BASE: 20
         STR_MIXED_INVASION_PSIONIC: 10
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      30:
         STR_SECTOID_BASE: 12
         STR_FLOATER_BASE: 13
         STR_MUTON_BASE: 13
         STR_ETHEREAL_BASE: 12
         STR_MIXED_INVASION_PSIONIC: 25
         STR_MIXED_INVASION_DESTROY: 25
-      48:
+      36:
         STR_SECTOID_BASE: 5
         STR_FLOATER_BASE: 5
         STR_MUTON_BASE: 5
@@ -928,11 +939,11 @@ alienMissions:
         STR_FLOATER_BASE: 40
         STR_MUTON_BASE: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON_BASE: 25
         STR_FLOATER_BASE: 25
         STR_MIXED_INVASION_DESTROY: 50
-      48:
+      36:
         STR_MUTON_BASE: 10
         STR_FLOATER_BASE: 10
         STR_MIXED_INVASION_DESTROY: 80
@@ -982,11 +993,11 @@ alienMissions:
         STR_FLOATER_BASE: 40
         STR_MUTON_BASE: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON_BASE: 25
         STR_FLOATER_BASE: 25
         STR_MIXED_INVASION_DESTROY: 50
-      48:
+      36:
         STR_MUTON_BASE: 10
         STR_FLOATER_BASE: 10
         STR_MIXED_INVASION_DESTROY: 80
@@ -1082,7 +1093,7 @@ alienMissions:
         STR_FLOATER: 8
         STR_MIXED_TERROR: 16
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_SECTOID_ARMORED: 6
         STR_SNAKEMAN: 12
         STR_ETHEREAL: 4
@@ -1090,7 +1101,7 @@ alienMissions:
         STR_FLOATER: 4
         STR_MIXED_TERROR: 18
         STR_MIXED_INVASION_DESTROY: 50
-      48:
+      36:
         STR_SECTOID_ARMORED: 3
         STR_SNAKEMAN: 6
         STR_ETHEREAL: 2
@@ -1149,7 +1160,7 @@ alienMissions:
         STR_FLOATER: 8
         STR_MIXED_TERROR: 16
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_SECTOID_ARMORED: 6
         STR_SNAKEMAN: 12
         STR_ETHEREAL: 4
@@ -1157,7 +1168,7 @@ alienMissions:
         STR_FLOATER: 4
         STR_MIXED_TERROR: 18
         STR_MIXED_INVASION_DESTROY: 50
-      48:
+      36:
         STR_SECTOID_ARMORED: 3
         STR_SNAKEMAN: 6
         STR_ETHEREAL: 2
@@ -1228,7 +1239,7 @@ alienMissions:
         STR_FLOATER: 8
         STR_MIXED_TERROR: 16
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_SECTOID_ARMORED: 6
         STR_SNAKEMAN: 12
         STR_ETHEREAL: 4
@@ -1236,7 +1247,7 @@ alienMissions:
         STR_FLOATER: 4
         STR_MIXED_TERROR: 18
         STR_MIXED_INVASION_DESTROY: 50
-      48:
+      36:
         STR_SECTOID_ARMORED: 3
         STR_SNAKEMAN: 6
         STR_ETHEREAL: 2
@@ -1302,12 +1313,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1377,12 +1388,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1452,12 +1463,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1486,7 +1497,7 @@ alienMissions:
         trajectory: P88
         timer: 4500
       - ufo: STR_MEDIUM_SCOUT_ELITE
-        count: 2
+        count: 3
         trajectory: P8
         timer: 60
       - ufo: STR_MEDIUM_DESTROYER_ELITE
@@ -1494,7 +1505,7 @@ alienMissions:
         trajectory: P88
         timer: 4500
       - ufo: STR_LARGE_SCOUT_ELITE
-        count: 1
+        count: 3
         trajectory: P8
         timer: 60
   - type: STR_ALIEN_RETALIATION_MEDIUM
@@ -1527,12 +1538,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1565,7 +1576,7 @@ alienMissions:
         trajectory: P8
         timer: 4500
       - ufo: STR_LARGE_SCOUT
-        count: 2
+        count: 1
         trajectory: P8
         timer: 60
   - type: STR_ALIEN_RETALIATION_MEDIUM_DEFENDED
@@ -1598,12 +1609,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1620,14 +1631,14 @@ alienMissions:
       24: 0
     waves:
       - ufo: STR_LIGHT_DESTROYER
-        count: 1
+        count: 2
         trajectory: P88
         timer: 60
       - ufo: STR_SMALL_SCOUT
-        count: 2
+        count: 1
         trajectory: P8
         timer: 60
-      - ufo: STR_MEDIUM_DESTROYER
+      - ufo: STR_LIGHT_DESTROYER
         count: 1
         trajectory: P88
         timer: 4500
@@ -1640,7 +1651,7 @@ alienMissions:
         trajectory: P88
         timer: 4500
       - ufo: STR_LARGE_SCOUT
-        count: 2
+        count: 1
         trajectory: P8
         timer: 60
   - type: STR_ALIEN_RETALIATION_MEDIUM_ELITE
@@ -1673,12 +1684,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1702,7 +1713,7 @@ alienMissions:
         count: 1
         trajectory: P8
         timer: 60
-      - ufo: STR_MEDIUM_DESTROYER_ELITE
+      - ufo: STR_LIGHT_DESTROYER_ELITE
         count: 1
         trajectory: P88
         timer: 4500
@@ -1710,7 +1721,7 @@ alienMissions:
         count: 2
         trajectory: P8
         timer: 60
-      - ufo: STR_LARGE_SCOUT_ELITE
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
         count: 1
         trajectory: P8
         timer: 4500
@@ -1752,12 +1763,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1777,16 +1788,16 @@ alienMissions:
         count: 1
         trajectory: P88
         timer: 60
-      - ufo: STR_SMALL_SCOUT
-        count: 2
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
         trajectory: P8
         timer: 60
-      - ufo: STR_MEDIUM_DESTROYER
+      - ufo: STR_LIGHT_DESTROYER
         count: 1
         trajectory: P88
         timer: 4500
       - ufo: STR_LARGE_SCOUT
-        count: 2
+        count: 1
         trajectory: P8
         timer: 60
       - ufo: STR_BATTLESHIP
@@ -1827,12 +1838,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1906,12 +1917,12 @@ alienMissions:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      36:
+      30:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      48:
+      36:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
@@ -1970,7 +1981,7 @@ alienMissions:
       21: 0
       24: 0
     waves:
-      - ufo: STR_SMALL_SCOUT_ELITE
+      - ufo: STR_LIGHT_DESTROYER_ELITE
         count: 1
         trajectory: P8
         timer: 3000
@@ -1978,7 +1989,7 @@ alienMissions:
         count: 2
         trajectory: P8
         timer: 60
-      - ufo: STR_MEDIUM_SCOUT_ELITE
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
         count: 1
         trajectory: P8
         timer: 3000
@@ -1986,7 +1997,7 @@ alienMissions:
         count: 2
         trajectory: P8
         timer: 60
-      - ufo: STR_LARGE_SCOUT_ELITE
+      - ufo: STR_HEAVY_DESTROYER_ELITE
         count: 1
         trajectory: P8
         timer: 3000

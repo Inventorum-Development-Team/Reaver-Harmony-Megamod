@@ -833,7 +833,7 @@ facilities:
     refundValue: 105000
     buildTime: 15
     monthlyCost: 5000
-    defense: 400 #1600
+    defense: 450 #1600
     hitRatio: 85
     fireSound: 5
     hitSound: 10
@@ -867,7 +867,7 @@ facilities:
     buildTime: 20
     monthlyCost: 30000
     defense: 300 #1200
-    hitRatio: 95
+    hitRatio: 100
     fireSound: 8
     hitSound: 10
     mapName: XBASE_09
@@ -897,8 +897,8 @@ facilities:
     refundValue: 720000
     buildTime: 24
     monthlyCost: 75000
-    defense: 720 #2400
-    hitRatio: 70
+    defense: 640 #2400
+    hitRatio: 90
     fireSound: 9
     hitSound: 10
     ammoItem: STR_BASE_DEFENSE_PLASMA
@@ -975,6 +975,7 @@ facilities:
     refundValue: 2385000
     buildTime: 38
     monthlyCost: 150000
+    maxAllowedPerBase: 1
     buildCostItems:
       STR_ALIEN_POWER_ARRAYS:
         build: 50

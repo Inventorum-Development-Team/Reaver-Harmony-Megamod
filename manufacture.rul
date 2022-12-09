@@ -1472,8 +1472,8 @@ manufacture:
       - STR_PLASMA_WEAPONS
       - STR_CELATID_AUTOPSY
     space: 0
-    time: 6700
-    cost: 980000
+    time: 6100
+    cost: 650000
     requiredItems:
       STR_ALIEN_ALLOYS: 3
       STR_ALIEN_POWER_ARRAYS: 6
@@ -1506,10 +1506,10 @@ manufacture:
     cost: 1150000
     requiredItems:
       STR_ALIEN_ALLOYS: 5
-      STR_ALIEN_LASER: 20
+      STR_ALIEN_LASER: 12
       STR_HEAVY_PLASMA_RED_DESTROYED: 8
       STR_ALIEN_WEAPON_COMPONENTS: 100
-  - name: STR_POWER_SUIT_HEAVY_CLIP #
+  - name: STR_POWER_SUIT_HEAVY_CLIP
     listOrder: 2325
     category: STR_WEAPON
     requires:
@@ -1517,14 +1517,14 @@ manufacture:
       - STR_HEAVY_PLASMA_RED_DESTROYED
       - STR_HEAVY_LASER_WEAPONS
     space: 0
-    time: 820
-    cost: 216000
+    time: 615
+    cost: 162000
     requiredItems:
-      STR_ELERIUM_115: 4
-      STR_HEAVY_PLASMA_RED_CLIP_DESTROYED: 4
+      STR_ELERIUM_115: 6
+      STR_HEAVY_PLASMA_RED_CLIP_DESTROYED: 3
       STR_ALIEN_LASER: 1
       STR_ALIEN_WEAPON_COMPONENTS: 25
-  - name: STR_POWER_SUIT_LAUNCHER #
+  - name: STR_POWER_SUIT_LAUNCHER
     listOrder: 2340
     category: STR_WEAPON
     requires:
@@ -1532,13 +1532,13 @@ manufacture:
       - STR_FUSION_LAUNCHER_RED_DESTROYED
       - STR_ALIEN_LAUNCHER
     space: 0
-    time: 4200
-    cost: 375000
+    time: 5400
+    cost: 450000
     requiredItems:
       STR_ALIEN_ALLOYS: 6
       STR_FUSION_LAUNCHER_RED_DESTROYED: 8
       STR_ALIEN_WEAPON_COMPONENTS: 80
-  - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H #
+  - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
     listOrder: 2345
     category: STR_WEAPON
     requires:
@@ -1551,38 +1551,31 @@ manufacture:
     cost: 150000
     requiredItems:
       STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
-  - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H #
+  - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
     listOrder: 2346
     category: STR_WEAPON
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
       - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_HEAVY_ALIEN_EXPLOSIVES
     space: 0
     time: 375
     cost: 125000
     requiredItems:
-      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
-      STR_ALIEN_GRENADE_RED_DESTROYED: 4
-      STR_ALIEN_EXPLOSIVE_UNITS: 5
-  - name: STR_POWER_SUIT_LAUNCHER_F_BOMB_H #
+      STR_ALIEN_GRENADE_RED_DESTROYED: 5
+  - name: STR_POWER_SUIT_LAUNCHER_F_BOMB_H
     listOrder: 2347
     category: STR_WEAPON
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
-      - STR_BLASTER_BOMB
     space: 0
     time: 450
     cost: 180000
     requiredItems:
-      STR_ELERIUM_115: 2
-      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 4
-      STR_FUSION_CORE: 1
-      STR_ALIEN_WEAPON_COMPONENTS: 5
-  - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H #
+      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 3
+  - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
     listOrder: 2348
     category: STR_WEAPON
     requires:
@@ -1594,7 +1587,8 @@ manufacture:
     cost: 140000
     requiredItems:
       STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
-  - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H #
+      STR_ALIEN_GRENADE_RED_DESTROYED: 1
+  - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
     listOrder: 2349
     category: STR_WEAPON
     requires:
@@ -1603,11 +1597,12 @@ manufacture:
       - STR_STUN_BOMB
     space: 0
     time: 425
-    cost: 75000
+    cost: 135000
     requiredItems:
       STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
-      STR_STUN_CORE: 3
-  - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L #
+      STR_ALIEN_GRENADE_RED_DESTROYED: 2
+      STR_STUN_CORE: 2
+  - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
     listOrder: 2350
     category: STR_WEAPON
     requires:
@@ -1617,62 +1612,60 @@ manufacture:
       - STR_ALLOY_WEAPONS
     space: 0
     time: 455
-    cost: 210000
-    requiredItems:
-      STR_ALIEN_WEAPON_COMPONENTS: 3
-  - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L #
+    cost: 310000
+  - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
     listOrder: 2351
     category: STR_WEAPON
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
       - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_ALIEN_EXPLOSIVES
     space: 0
-    time: 525
-    cost: 175000
+    time: 475
+    cost: 125000
     requiredItems:
-      STR_ALIEN_WEAPON_COMPONENTS: 3
       STR_ALIEN_GRENADE_RED_DESTROYED: 6
-      STR_ALIEN_EXPLOSIVE_UNITS: 9
-  - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L #
+  - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
     listOrder: 2352
     category: STR_WEAPON
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
     space: 0
     time: 530
     cost: 195000
     requiredItems:
-      STR_ALIEN_WEAPON_COMPONENTS: 3
-  - name: STR_POWER_SUIT_LAUNCHER_SM_BOMB_L #
+      STR_ALIEN_GRENADE_RED_DESTROYED: 3
+  - name: STR_POWER_SUIT_LAUNCHER_SM_BOMB_L
     listOrder: 2353
     category: STR_WEAPON
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
     space: 0
     time: 500
     cost: 140000
     requiredItems:
-      STR_ALIEN_WEAPON_COMPONENTS: 3
-  - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L #
+      STR_ALIEN_GRENADE_RED_DESTROYED: 3
+  - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L
     listOrder: 2354
     category: STR_WEAPON
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_STUN_BOMB
     space: 0
     time: 595
-    cost: 105000
+    cost: 210000
     requiredItems:
-      STR_ALIEN_WEAPON_COMPONENTS: 3
-      STR_STUN_CORE: 6
+      STR_ALIEN_GRENADE_RED_DESTROYED: 3
+      STR_STUN_CORE: 3
   - name: STR_INCENDIARY_GRENADE
     listOrder: 2480
     category: STR_GRENADE
@@ -1721,7 +1714,7 @@ manufacture:
     cost: 7200
     requiredItems:
       STR_STUN_CORE: 1
-  - name: STR_FUSION_HIGH_EXPLOSIVE #
+  - name: STR_FUSION_HIGH_EXPLOSIVE
     listOrder: 2520
     category: STR_GRENADE
     requires:
@@ -3022,6 +3015,65 @@ manufacture:
       STR_PSIONIC_FEEDBACK_DEVICE: 1
       STR_ALIEN_SURGICAL_INTERFACE: 1
       STR_ALIEN_GENETIC_IMPLANTER: 1
+  - name: STR_SALVAGE_REPOSITORY_YELLOW
+    listOrder: 4275
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_REPOSITORY
+    space: 5
+    time: 5
+    cost: 2000
+    requiredItems:
+      STR_REPOSITORY_YELLOW: 1
+    producedItems:
+      STR_ALIEN_POWER_ARRAYS: 4
+      STR_ANTI_GRAV_UNIT: 3
+      STR_ALIEN_LASER: 6
+      STR_ALIEN_SURGICAL_INTERFACE: 5
+  - name: STR_SALVAGE_REPOSITORY_GREEN
+    listOrder: 4275
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_REPOSITORY
+    space: 5
+    time: 5
+    cost: 2000
+    requiredItems:
+      STR_REPOSITORY_GREEN: 1
+    producedItems:
+      STR_ALIEN_WEAPON_COMPONENTS: 40
+      STR_ALIEN_EXPLOSIVE_UNITS: 16
+      STR_FUSION_CORE: 3
+      STR_STUN_CORE: 8
+  - name: STR_SALVAGE_REPOSITORY_BLUE
+    listOrder: 4275
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_REPOSITORY
+    space: 5
+    time: 5
+    cost: 2000
+    requiredItems:
+      STR_REPOSITORY_BLUE: 1
+    producedItems:
+      STR_ALIEN_COMPUTER_ARRAYS: 7
+      STR_ALIEN_FEEDER: 18
+      STR_PSIONIC_FEEDBACK_DEVICE: 5
+      STR_ALIEN_GENETIC_IMPLANTER: 4
+  - name: STR_SALVAGE_REPOSITORY_BRAIN
+    listOrder: 4275
+    category: STR_SALVAGE
+    requires:
+      - STR_ALIEN_REPOSITORY
+    space: 5
+    time: 5
+    cost: 2000
+    requiredItems:
+      STR_REPOSITORY_BRAIN: 1
+    producedItems:
+      STR_PSIONIC_FEEDBACK_DEVICE: 14
+      STR_PSIONIC_WAVE_DECODER: 10
+      STR_PSIONIC_WAVE_EMITTER: 6
   - name: STR_SALVAGE_PLASMA_PISTOL
     listOrder: 5200
     category: STR_SALVAGE_INEFFICIENT
@@ -3268,6 +3320,21 @@ manufacture:
     producedItems:
       STR_PSIONIC_FEEDBACK_DEVICE: 1
       STR_TROPHY_CORPSE_SNAKEMAN: 1
+  - name: STR_SALVAGE_SNAKEMAN_COMMANDER_B
+    listOrder: 4425
+    category: STR_DISSECTION
+    requires:
+      - STR_SNAKEMAN_AUTOPSY
+    space: 3
+    time: 50
+    cost: 0
+    requiredItems:
+      STR_SNAKEMAN_COMMANDER_B_CORPSE: 1
+    producedItems:
+      STR_ALIEN_COMPUTER_ARRAYS: 1
+      STR_PSIONIC_FEEDBACK_DEVICE: 6
+      STR_PSIONIC_WAVE_DECODER: 14
+      STR_TROPHY_CORPSE_SNAKEMAN_COMMANDER_B: 1
   - name: STR_SALVAGE_MUTON
     listOrder: 4430
     category: STR_DISSECTION
@@ -3821,7 +3888,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_HIGH_ENERGY: 3
+      STR_DIODES_HIGH_ENERGY: 1
     producedItems:
       STR_CAPACITORS: 2
   - name: STR_CAPACITORS_FROM_TRANSFORMERS
@@ -4001,7 +4068,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_LARGE: 2
+      STR_DIODES_LARGE: 1
     producedItems:
       STR_TRANSISTORS_LARGE: 1
   - name: STR_TRANSISTORS_VERY_LARGE_FROM_TRANSISTORS_LARGE
@@ -4037,7 +4104,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_VERY_LARGE: 2
+      STR_DIODES_VERY_LARGE: 1
     producedItems:
       STR_TRANSISTORS_VERY_LARGE: 1
   - name: STR_TRANSISTORS_VERY_LARGE_FROM_INDUCTORS_LARGE
@@ -4109,7 +4176,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_HIGH_ENERGY: 2
+      STR_DIODES_HIGH_ENERGY: 1
     producedItems:
       STR_TRANSISTORS_HIGH_ENERGY: 1
   - name: STR_DIODES_SMALL_FROM_CAPACITORS
@@ -4147,7 +4214,7 @@ manufacture:
     requiredItems:
       STR_DIODES_MEDIUM: 1
     producedItems:
-      STR_DIODES_SMALL: 1
+      STR_DIODES_SMALL: 2
   - name: STR_DIODES_SMALL_FROM_DIODES_HIGH_ENERGY
     listOrder: 9203
     category: STR_DIODES
@@ -4169,7 +4236,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_TRANSISTORS_MEDIUM: 1
+      STR_TRANSISTORS_MEDIUM: 2
     producedItems:
       STR_DIODES_MEDIUM: 1
   - name: STR_DIODES_MEDIUM_FROM_DIODES_SMALL
@@ -4181,7 +4248,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_SMALL: 2
+      STR_DIODES_SMALL: 3
     producedItems:
       STR_DIODES_MEDIUM: 1
   - name: STR_DIODES_MEDIUM_FROM_DIODES_LARGE
@@ -4195,7 +4262,7 @@ manufacture:
     requiredItems:
       STR_DIODES_LARGE: 1
     producedItems:
-      STR_DIODES_MEDIUM: 1
+      STR_DIODES_MEDIUM: 2
   - name: STR_DIODES_MEDIUM_FROM_DIODES_HIGH_ENERGY
     listOrder: 9213
     category: STR_DIODES
@@ -4217,7 +4284,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_TRANSISTORS_LARGE: 1
+      STR_TRANSISTORS_LARGE: 2
     producedItems:
       STR_DIODES_LARGE: 1
   - name: STR_DIODES_LARGE_FROM_DIODES_MEDIUM
@@ -4229,7 +4296,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_MEDIUM: 2
+      STR_DIODES_MEDIUM: 3
     producedItems:
       STR_DIODES_LARGE: 1
   - name: STR_DIODES_LARGE_FROM_DIODES_VERY_LARGE
@@ -4243,7 +4310,7 @@ manufacture:
     requiredItems:
       STR_DIODES_VERY_LARGE: 1
     producedItems:
-      STR_DIODES_LARGE: 1
+      STR_DIODES_LARGE: 2
   - name: STR_DIODES_LARGE_FROM_DIODES_HIGH_ENERGY
     listOrder: 9223
     category: STR_DIODES
@@ -4265,7 +4332,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_TRANSISTORS_VERY_LARGE: 1
+      STR_TRANSISTORS_VERY_LARGE: 2
     producedItems:
       STR_DIODES_VERY_LARGE: 1
   - name: STR_DIODES_VERY_LARGE_FROM_DIODES_LARGE
@@ -4277,7 +4344,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_LARGE: 2
+      STR_DIODES_LARGE: 3
     producedItems:
       STR_DIODES_VERY_LARGE: 1
   - name: STR_DIODES_VERY_LARGE_FROM_DIODES_HIGH_ENERGY
@@ -4289,7 +4356,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_HIGH_ENERGY: 5
+      STR_DIODES_HIGH_ENERGY: 7
     producedItems:
       STR_DIODES_VERY_LARGE: 1
   - name: STR_DIODES_VERY_LARGE_FROM_INDUCTORS_LARGE
@@ -4301,9 +4368,9 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_INDUCTORS_LARGE: 1
+      STR_INDUCTORS_LARGE: 2
     producedItems:
-      STR_DIODES_VERY_LARGE: 2
+      STR_DIODES_VERY_LARGE: 1
   - name: STR_DIODES_HIGH_ENERGY_FROM_TRANSISTORS_HIGH_ENERGY
     listOrder: 9240
     category: STR_DIODES
@@ -4313,7 +4380,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_TRANSISTORS_HIGH_ENERGY: 1
+      STR_TRANSISTORS_HIGH_ENERGY: 2
     producedItems:
       STR_DIODES_HIGH_ENERGY: 1
   - name: STR_DIODES_HIGH_ENERGY_FROM_DIODES_SMALL
@@ -4325,7 +4392,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_SMALL: 2
+      STR_DIODES_SMALL: 3
     producedItems:
       STR_DIODES_HIGH_ENERGY: 1
   - name: STR_DIODES_HIGH_ENERGY_FROM_DIODES_MEDIUM
@@ -4363,7 +4430,7 @@ manufacture:
     requiredItems:
       STR_DIODES_VERY_LARGE: 1
     producedItems:
-      STR_DIODES_HIGH_ENERGY: 3
+      STR_DIODES_HIGH_ENERGY: 4
   - name: STR_TRANSFORMERS_FROM_CAPACITORS
     listOrder: 9300
     category: STR_OTHER_COMPONENTS
@@ -4493,7 +4560,7 @@ manufacture:
     time: 100
     cost: 10000
     requiredItems:
-      STR_DIODES_VERY_LARGE: 3
+      STR_DIODES_VERY_LARGE: 1
     producedItems:
       STR_INDUCTORS_LARGE: 1
   - name: STR_INDUCTORS_LARGE_FROM_TRANSFORMERS

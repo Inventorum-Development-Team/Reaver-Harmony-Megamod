@@ -4938,7 +4938,7 @@ items:
   - type: STR_POWER_SUIT_RIFLE
     listOrder: 4220
     size: 0.015
-    costSell: 3480000
+    costSell: 3060000
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
     weight: 36
     bigSprite: 364
@@ -5003,7 +5003,7 @@ items:
   - type: STR_POWER_SUIT_HEAVY
     listOrder: 4240
     size: 0.03
-    costSell: 4250000
+    costSell: 5180000
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
     weight: 60
     bigSprite: 356
@@ -5039,7 +5039,7 @@ items:
   - type: STR_POWER_SUIT_HEAVY_CLIP
     listOrder: 4245
     size: 0.005
-    costSell: 556000
+    costSell: 495000
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
     weight: 6
     bigSprite: 357
@@ -5065,7 +5065,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER
     listOrder: 4260
     size: 0.025
-    costSell: 0
+    costSell: 2620000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 22
     bigSprite: 358
@@ -5129,7 +5129,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
     listOrder: 4265
     size: 0.0075
-    costSell: 0
+    costSell: 266000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 11
     bigSprite: 399
@@ -5138,7 +5138,7 @@ items:
     bulletSprite: 18
     hitSound: 317
     hitAnimation: 26
-    power: 185
+    power: 210
     damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.18
@@ -5156,18 +5156,18 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
     listOrder: 4266
     size: 0.0075
-    costSell: 0
+    costSell: 357000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 8
     bigSprite: 398
     floorSprite: 380
     handSprite: 756
     bulletSprite: 45
-    power: 180
+    power: 195
     damageType: 3
     damageAlter:
-      FixRadius: 7
-      RadiusReduction: 21
+      FixRadius: 8
+      RadiusReduction: 22
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
@@ -5182,24 +5182,24 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_F_BOMB_H
     listOrder: 4267
     size: 0.0075
-    costSell: 0
+    costSell: 497000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 11
     bigSprite: 401
     floorSprite: 385
     handSprite: 780
     bulletSprite: 10
-    power: 320
+    power: 350
     damageType: 13
     damageAlter:
-      FixRadius: 5
-      RadiusReduction: 31
+      FixRadius: 6
+      RadiusReduction: 34
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
       ToArmor: 0
       ToArmorPre: 0.1
-      ToTile: 0.775
+      ToTile: 0.8125
     clipSize: 1
     battleType: 2
     waypoints: 7
@@ -5210,18 +5210,18 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
     listOrder: 4268
     size: 0.0075
-    costSell: 0
+    costSell: 302000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 11
     bigSprite: 402
     floorSprite: 384
     handSprite: 788
     bulletSprite: 46
-    power: 180
+    power: 225
     damageType: 2
     damageAlter:
-      FixRadius: 8
-      ToHealth: 2.3
+      FixRadius: 10
+      ToHealth: 2.75
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
@@ -5234,7 +5234,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
     listOrder: 4270
     size: 0.0075
-    costSell: 0
+    costSell: 392000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 11
     bigSprite: 400
@@ -5242,10 +5242,10 @@ items:
     handSprite: 772
     bulletSprite: 10
     hitAnimation: 100
-    power: 180
+    power: 195
     damageType: 6
     damageAlter:
-      FixRadius: 9
+      FixRadius: 11
       RadiusReduction: 10
       ArmorEffectiveness: 0.3
     clipSize: 1
@@ -5258,7 +5258,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
     listOrder: 4275
     size: 0.0075
-    costSell: 0
+    costSell: 340000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 13
     bigSprite: 360
@@ -5267,7 +5267,7 @@ items:
     bulletSprite: 16
     hitSound: 319
     hitAnimation: 26
-    power: 95
+    power: 105
     damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.29
@@ -5277,7 +5277,6 @@ items:
       ToTile: 0.67
     clipSize: 3
     battleType: 2
-    waypoints: 5
     invWidth: 1
     invHeight: 3
     armor: 90
@@ -5285,25 +5284,24 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
     listOrder: 4276
     size: 0.0075
-    costSell: 0
+    costSell: 406000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 10
     bigSprite: 359
     floorSprite: 354
     handSprite: 580
     bulletSprite: 23
-    power: 110
+    power: 120
     damageType: 3
     damageAlter:
-      FixRadius: 5
-      RadiusReduction: 16
+      FixRadius: 6
+      RadiusReduction: 17
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
     clipSize: 3
     battleType: 2
-    waypoints: 5
     invWidth: 1
     invHeight: 3
     armor: 90
@@ -5311,23 +5309,22 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
     listOrder: 4278
     size: 0.0075
-    costSell: 0
+    costSell: 354000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 13
     bigSprite: 367
     floorSprite: 362
     handSprite: 644
     bulletSprite: 23
-    power: 110
+    power: 135
     damageType: 2
     damageAlter:
       FixRadius: 4
-      ToHealth: 1.6
+      ToHealth: 1.85
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 3
     battleType: 2
-    waypoints: 5
     invWidth: 1
     invHeight: 3
     armor: 90
@@ -5335,7 +5332,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_SM_BOMB_L
     listOrder: 4279
     size: 0.0075
-    costSell: 0
+    costSell: 297000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 10
     bigSprite: 368
@@ -5344,13 +5341,12 @@ items:
     bulletSprite: 22
     hitAnimation: 80
     explosionSpeed: -3
-    power: 50
+    power: 80
     damageType: 9
     damageAlter:
-      FixRadius: 4
+      FixRadius: 7
     clipSize: 3
     battleType: 2
-    waypoints: 5
     invWidth: 1
     invHeight: 3
     armor: 90
@@ -5358,7 +5354,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L
     listOrder: 4280
     size: 0.0075
-    costSell: 0
+    costSell: 449000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 13
     bigSprite: 361
@@ -5366,7 +5362,7 @@ items:
     handSprite: 596
     bulletSprite: 44
     hitAnimation: 100
-    power: 110
+    power: 120
     damageType: 6
     damageAlter:
       FixRadius: 5
@@ -5374,7 +5370,6 @@ items:
       ArmorEffectiveness: 0.3
     clipSize: 3
     battleType: 2
-    waypoints: 5
     invWidth: 1
     invHeight: 3
     armor: 90
@@ -5622,7 +5617,7 @@ items:
   - type: STR_FUSION_HIGH_EXPLOSIVE
     listOrder: 4390
     size: 0.005
-    costSell: 279000
+    costSell: 314000
     categories: [STR_CAT_GRENADES, STR_CAT_HIGH_TECH]
     weight: 10
     bigSprite: 389
@@ -6304,7 +6299,7 @@ items:
     armor: 30
   - type: STR_ALIEN_ALLOYS
     listOrder: 5005
-    size: 0.02
+    size: 0.01
     requiresBuy:
       - STR_OUTSOURCING
     costBuy: 11000
@@ -6368,14 +6363,14 @@ items:
   - type: STR_ALIEN_SURGERY
     listOrder: 5045
     size: 0.15
-    costSell: 38000
+    costSell: 83000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 8
     recoveryPoints: 4
   - type: STR_EXAMINATION_ROOM
     listOrder: 5050
     size: 0.15
-    costSell: 90000
+    costSell: 135000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 9
     recoveryPoints: 10
@@ -6402,7 +6397,7 @@ items:
     recoveryPoints: 3
   - type: STR_ALIEN_FUEL_PODS
     listOrder: 5115
-    size: 0.15
+    size: 0.1
     requiresBuy:
       - STR_ALIEN_FUEL_PODS
       - STR_UFO_CONSTRUCTION
@@ -6414,12 +6409,12 @@ items:
     recoveryPoints: 1
   - type: STR_ALIEN_POWER_ARRAYS
     listOrder: 5120
-    size: 0.02
+    size: 0.01
     costSell: 35000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_COMPUTER_ARRAYS
     listOrder: 5125
-    size: 0.01
+    size: 0.005
     costSell: 17500
     categories: [STR_CAT_SALVAGE]
   - type: STR_PLASMA_EMITTER
@@ -6429,7 +6424,7 @@ items:
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_WEAPON_COMPONENTS
     listOrder: 5135
-    size: 0.002
+    size: 0.0005
     costSell: 800
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_EXPLOSIVE_UNITS
@@ -6490,12 +6485,12 @@ items:
     categories: [STR_CAT_SALVAGE]
   - type: STR_ANTI_GRAV_UNIT
     listOrder: 5180
-    size: 0.01
+    size: 0.005
     costSell: 12000
     categories: [STR_CAT_SALVAGE]
   - type: STR_MUTON_ARMOR_GRAFTS
     listOrder: 5185
-    size: 0.005
+    size: 0.001
     costSell: 5000
     categories: [STR_CAT_SALVAGE]
   - type: STR_VENOM_GLAND
@@ -6505,7 +6500,7 @@ items:
     categories: [STR_CAT_SALVAGE]
   - type: STR_POWER_SKELETON
     listOrder: 5195
-    size: 0.03
+    size: 0.02
     requiresBuy:
       - STR_OUTSOURCING_ARMOR
       - STR_POWER_SUITS
@@ -6517,36 +6512,64 @@ items:
     categories: [STR_CAT_SALVAGE]
   - type: STR_CYBERNETIC_SKELETON_LIGHT
     listOrder: 5200
-    size: 0.1
+    size: 0.05
     costSell: 80000
     categories: [STR_CAT_SALVAGE]
   - type: STR_CYBERNETIC_SKELETON_HEAVY
     listOrder: 5205
-    size: 0.2
+    size: 0.1
     costSell: 120000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_LASER
     listOrder: 5210
-    size: 0.01
+    size: 0.005
     requiresBuy:
       - STR_OUTSOURCING
       - STR_ALIEN_LASER
       - STR_ALIEN_SURGERY
       - STR_SECTOPOD_AUTOPSY
-    costBuy: 16500
+    costBuy: 165000
     transferTime: 36
-    costSell: 5000
+    costSell: 50000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_SURGICAL_INTERFACE
     listOrder: 5215
-    size: 0.05
+    size: 0.025
     costSell: 10000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_GENETIC_IMPLANTER
     listOrder: 5220
-    size: 0.025
+    size: 0.015
     costSell: 50000
     categories: [STR_CAT_SALVAGE]
+  - type: STR_REPOSITORY_YELLOW
+    listOrder: 5275
+    size: 0.2
+    costSell: 516000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 16
+    recoveryPoints: 14
+  - type: STR_REPOSITORY_GREEN
+    listOrder: 5280
+    size: 0.2
+    costSell: 437000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 17
+    recoveryPoints: 17
+  - type: STR_REPOSITORY_BLUE
+    listOrder: 5285
+    size: 0.2
+    costSell: 486000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 18
+    recoveryPoints: 20
+  - type: STR_REPOSITORY_BRAIN
+    listOrder: 5290
+    size: 0.2
+    costSell: 285000
+    categories: [STR_CAT_UFO_COMPONENTS]
+    specialType: 19
+    recoveryPoints: 50
   - type: STR_PLASMA_PISTOL_RED
     listOrder: 95100
     requires:
@@ -6741,7 +6764,7 @@ items:
     requires:
       - STR_ALIENS_ONLY
     size: 0.06
-    costSell: 264000
+    costSell: 132000
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 18
     bigSprite: 375
@@ -6772,7 +6795,7 @@ items:
     requires:
       - STR_ALIENS_ONLY
     size: 0.005
-    costSell: 64450
+    costSell: 64000
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 5
     bigSprite: 376
@@ -6881,7 +6904,7 @@ items:
     requires:
       - STR_ALIENS_ONLY
     size: 0.06
-    costSell: 264000
+    costSell: 132000
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     recoveryPoints: 6
   - type: STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED
@@ -6955,7 +6978,7 @@ items:
     armor: 130
     recover: true
   - type: STR_BROKEN_ARMOR
-    size: 0.1
+    size: 0.085
     costSell: 20300
   - type: STR_PERSONAL_ARMOR_HEAVY
     listOrder: 10610
@@ -6981,7 +7004,7 @@ items:
     armor: 150
   - type: STR_NIGHT_OPS_ARMOR
     listOrder: 10620
-    size: 0.11
+    size: 0.105
     requiresBuy:
       - STR_OUTSOURCING_ARMOR
       - STR_PERSONAL_ARMOR
@@ -6998,12 +7021,12 @@ items:
     battleType: 11
     armor: 140
   - type: STR_BROKEN_NIGHT_OPS_ARMOR
-    size: 0.1
+    size: 0.088
     costSell: 34100
     armor: 140
   - type: STR_PSIONIC_ALLOY_ARMOR
     listOrder: 10630
-    size: 0.11
+    size: 0.105
     requiresBuy:
       - STR_OUTSOURCING_ARMOR
       - STR_PERSONAL_ARMOR
@@ -7023,7 +7046,7 @@ items:
     battleType: 11
     armor: 140
   - type: STR_BROKEN_PSIONIC_ALLOY_ARMOR
-    size: 0.1
+    size: 0.088
     costSell: 57000
     armor: 140
   - type: STR_POWER_SUIT
@@ -7050,11 +7073,11 @@ items:
     battleType: 11
     armor: 185
   - type: STR_BROKEN_SUIT
-    size: 0.2
+    size: 0.125
     costSell: 120000
     armor: 175
   - type: STR_BROKEN_DARK_SUIT
-    size: 0.2
+    size: 0.125
     costSell: 119000
     armor: 185
   - type: STR_PSI_DEFENSE_ARMOR
@@ -7084,11 +7107,11 @@ items:
     battleType: 11
     armor: 185
   - type: STR_BROKEN_SUIT_PSI1
-    size: 0.2
+    size: 0.125
     costSell: 213000
     armor: 195
   - type: STR_BROKEN_SUIT_PSI2
-    size: 0.2
+    size: 0.125
     costSell: 241000
     armor: 185
   - type: STR_PALADIN_ARMOR
@@ -7118,11 +7141,11 @@ items:
     battleType: 11
     armor: 165
   - type: STR_BROKEN_PALADIN_ARMOR
-    size: 0.2
+    size: 0.145
     costSell: 658000
     armor: 220
   - type: STR_BROKEN_ASSASSIN_ARMOR
-    size: 0.2
+    size: 0.105
     costSell: 428000
     armor: 165
   - type: STR_CORPSE_SPACESUIT
@@ -7681,6 +7704,11 @@ items:
     listOrder: 7410
     size: 0.25
     costSell: 15000
+    categories: [STR_CAT_ALIENS]
+  - type: STR_TROPHY_CORPSE_SNAKEMAN_COMMANDER_B
+    listOrder: 7411
+    size: 1.25
+    costSell: 110000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_MUTON
     listOrder: 7415

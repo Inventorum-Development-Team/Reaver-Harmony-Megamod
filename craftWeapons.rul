@@ -239,7 +239,7 @@ craftWeapons:
     reloadCautious: 54
     reloadStandard: 54
     reloadAggressive: 54
-    ammoMax: 12
+    ammoMax: 15
     rearmRate: 6
     launcher: STR_CRAFT_LIGHT_PLASMA
     clip: STR_CRAFT_LP_AMMO
@@ -714,6 +714,7 @@ craftWeapons:
       avoidBonus: 12
       armor: 15
       powerBonus: 30
+      hitBonus: 10
     launcher: STR_SUITE_COMBAT_UG
     weaponType: 32
     hidePediaInfo: true
