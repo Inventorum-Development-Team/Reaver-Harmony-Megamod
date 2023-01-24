@@ -867,13 +867,35 @@ research:
       - STR_EXAMINATION_ROOM
       - STR_ETHEREAL_COMMANDER
       - STR_POWER_SUITS
-  - name: STR_PSIONIC_POWER_ARMOR_DEP
+  - name: STR_PSIONIC_POWER_ARMOR_DEP1
     cost: 0
     points: 0
     dependencies:
       - STR_PSI_AMP
       - STR_EXAMINATION_ROOM
       - STR_ETHEREAL_NAVIGATOR
+      - STR_POWER_SUITS
+    unlocks:
+      - STR_PSIONIC_POWER_ARMOR_UP
+      - STR_PSIONIC_POWER_ARMOR
+  - name: STR_PSIONIC_POWER_ARMOR_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PSI_AMP
+      - STR_EXAMINATION_ROOM
+      - STR_ETHEREAL_LEADER
+      - STR_POWER_SUITS
+    unlocks:
+      - STR_PSIONIC_POWER_ARMOR_UP
+      - STR_PSIONIC_POWER_ARMOR
+  - name: STR_PSIONIC_POWER_ARMOR_DEP3
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_PSI_AMP
+      - STR_EXAMINATION_ROOM
+      - STR_SECTOID_COMMANDER
       - STR_POWER_SUITS
     unlocks:
       - STR_PSIONIC_POWER_ARMOR_UP
@@ -1600,7 +1622,7 @@ research:
       - STR_CELATID_AUTOPSY
   - name: STR_ALIEN_LASER
     listOrder: 1760
-    cost: 250
+    cost: 50
     points: 25
     needItem: true
     destroyItem: true

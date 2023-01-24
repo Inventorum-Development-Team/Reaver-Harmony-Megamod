@@ -169,7 +169,7 @@ units:
       health: 160
       bravery: 110
       reactions: 25
-      firing: 56
+      firing: 70
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -193,7 +193,7 @@ units:
       health: 120
       bravery: 110
       reactions: 40
-      firing: 70
+      firing: 80
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -217,7 +217,7 @@ units:
       health: 80
       bravery: 110
       reactions: 55
-      firing: 84
+      firing: 90
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -241,7 +241,7 @@ units:
       health: 160
       bravery: 110
       reactions: 25
-      firing: 56
+      firing: 70
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -265,7 +265,7 @@ units:
       health: 120
       bravery: 110
       reactions: 35
-      firing: 70
+      firing: 80
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -289,7 +289,7 @@ units:
       health: 80
       bravery: 110
       reactions: 45
-      firing: 84
+      firing: 90
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -313,7 +313,7 @@ units:
       health: 180
       bravery: 110
       reactions: 25
-      firing: 56
+      firing: 70
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -337,7 +337,7 @@ units:
       health: 135
       bravery: 110
       reactions: 35
-      firing: 70
+      firing: 80
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -361,7 +361,7 @@ units:
       health: 90
       bravery: 110
       reactions: 45
-      firing: 84
+      firing: 90
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -385,7 +385,7 @@ units:
       health: 180
       bravery: 110
       reactions: 25
-      firing: 56
+      firing: 70
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -409,7 +409,7 @@ units:
       health: 135
       bravery: 110
       reactions: 42
-      firing: 70
+      firing: 80
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -433,7 +433,7 @@ units:
       health: 90
       bravery: 110
       reactions: 59
-      firing: 84
+      firing: 90
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -457,7 +457,7 @@ units:
       health: 160
       bravery: 110
       reactions: 33
-      firing: 63
+      firing: 75
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -481,7 +481,7 @@ units:
       health: 110
       bravery: 110
       reactions: 51
-      firing: 77
+      firing: 85
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -505,7 +505,7 @@ units:
       health: 200
       bravery: 110
       reactions: 25
-      firing: 56
+      firing: 70
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -530,7 +530,7 @@ units:
       health: 150
       bravery: 110
       reactions: 44
-      firing: 70
+      firing: 80
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -555,7 +555,7 @@ units:
       health: 100
       bravery: 110
       reactions: 63
-      firing: 84
+      firing: 90
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -580,7 +580,7 @@ units:
       health: 200
       bravery: 110
       reactions: 25
-      firing: 56
+      firing: 70
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -605,7 +605,7 @@ units:
       health: 150
       bravery: 110
       reactions: 35
-      firing: 70
+      firing: 80
       throwing: 0
       strength: 60
       psiStrength: 100
@@ -630,7 +630,7 @@ units:
       health: 100
       bravery: 110
       reactions: 45
-      firing: 84
+      firing: 90
       throwing: 0
       strength: 60
       psiStrength: 100

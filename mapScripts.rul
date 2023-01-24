@@ -247,23 +247,23 @@ mapScripts:
       rects:
         - [2, 3, 1, 1]
       groups: 4
-    - type: digTunnel
-      direction: both
-      tunnelData:
-        level: 1
-        MCDReplacements:
-          - type: westWall
-            set: 1
-            entry: 53
-          - type: northWall
-            set: 1
-            entry: 52
-          - type: corner
-            set: 1
-            entry: 54
-          - type: floor
-            set: 1
-            entry: 55
+    # - type: digTunnel
+      # direction: both
+      # tunnelData:
+        # level: 1
+        # MCDReplacements:
+          # - type: westWall
+            # set: 1
+            # entry: 53
+          # - type: northWall
+            # set: 1
+            # entry: 52
+          # - type: corner
+            # set: 1
+            # entry: 54
+          # - type: floor
+            # set: 1
+            # entry: 55
     - type: fillArea
       rects:
         - [0, 0, 6, 1]

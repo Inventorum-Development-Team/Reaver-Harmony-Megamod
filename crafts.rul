@@ -517,7 +517,7 @@ crafts:
       - [12, 11, 1, 2]
   - type: STR_INFERNO_EASY
     listOrder: 399
-    sprite: 2
+    sprite: 869
     marker: 20
     fuelMax: 60
     damageMax: 700
@@ -744,7 +744,7 @@ crafts:
     avoidBonus: 11
     armor: 28
     powerBonus: 20
-    speedMax: 3900
+    speedMax: 4150
     accel: 7
     weapons: 4
     weaponTypes:
@@ -1481,7 +1481,7 @@ crafts:
       - [12, 11, 1, 2]
   - type: STR_INFERNO
     listOrder: 400
-    sprite: 2
+    sprite: 869
     marker: 20
     fuelMax: 60
     damageMax: 600
@@ -1704,7 +1704,7 @@ crafts:
     shieldBleedThrough: 100
     avoidBonus: 8
     armor: 24
-    speedMax: 3600
+    speedMax: 3850
     accel: 7
     weapons: 4
     weaponTypes:
@@ -2449,7 +2449,7 @@ crafts:
       - [12, 11, 1, 2]
   - type: STR_INFERNO_HARD
     listOrder: 401
-    sprite: 2
+    sprite: 869
     marker: 20
     fuelMax: 60
     damageMax: 500
@@ -2676,7 +2676,7 @@ crafts:
     avoidBonus: 5
     armor: 20
     powerBonus: -20
-    speedMax: 3300
+    speedMax: 3550
     accel: 7
     weapons: 4
     weaponTypes:

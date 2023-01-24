@@ -1352,7 +1352,7 @@ ufopaedia:
     image_id: ADVANCED_RADAR
     text: STR_SUITE_ASCENSION_UFOPEDIA
   - id: STR_SUITE_COMBAT
-    listOrder: 993
+    listOrder: 992
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1362,6 +1362,18 @@ ufopaedia:
       - STR_ALIEN_EXPLOSIVES
     image_id: SMART_COCKPIT
     text: STR_SUITE_COMBAT_UFOPEDIA
+  - id: STR_SUITE_AMBUSH
+    listOrder: 994
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ULTIMATE_CRAFT
+      - STR_ALIEN_ENGINEER
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_EXPLOSIVES
+      - STR_UFO_SHIELD_EMITTER
+    image_id: SMART_COCKPIT
+    text: STR_SUITE_AMBUSH_UFOPEDIA
   - id: STR_SUITE_RECON
     listOrder: 996
     type_id: 2
@@ -1370,7 +1382,7 @@ ufopaedia:
       - STR_ULTIMATE_TRANSPORT_CRAFT
       - STR_ALIEN_NAVIGATOR
       - STR_HYPER_WAVE_DECODER
-      - STR_MIND_SHIELD
+      - STR_UFO_SHIELD_EMITTER
     image_id: IMPROVED_SPY_CAMERA
     text: STR_SUITE_RECON_UFOPEDIA
   - id: STR_SOLDIER_UP

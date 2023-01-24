@@ -357,7 +357,7 @@ missionScripts:
     lastMonth: 9
     missionWeights:
       0:
-        STR_ALIEN_BASE: 100
+        STR_ALIEN_BASE_DEFENDED: 100
     raceWeights:
       0:
         STR_SNAKEMAN_BASE: 100
@@ -368,7 +368,7 @@ missionScripts:
     lastMonth: 12
     missionWeights:
       0:
-        STR_ALIEN_BASE: 100
+        STR_ALIEN_BASE_DEFENDED: 100
     raceWeights:
       0:
         STR_MUTON_BASE: 100
@@ -379,14 +379,14 @@ missionScripts:
     lastMonth: 15
     missionWeights:
       0:
-        STR_ALIEN_BASE_DEFENDED: 100
+        STR_ALIEN_BASE_ELITE: 100
     raceWeights:
       0:
         STR_ETHEREAL_BASE: 100
     useTable: false
     randomDelay: 102240 #Apr, May 2000 +10 days
   - type: invasionElitePhaseOne
-    firstMonth: 18 #27
+    firstMonth: 16 #27
     lastMonth: 60
     missionWeights:
       0:
@@ -414,7 +414,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseTwo
-    firstMonth: 24 #33
+    firstMonth: 18 #33
     lastMonth: 64
     missionWeights:
       0:
@@ -441,7 +441,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseThree
-    firstMonth: 27 #36
+    firstMonth: 20 #36
     lastMonth: 68
     missionWeights:
       0:
@@ -470,7 +470,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseFour
-    firstMonth: 30 #39
+    firstMonth: 22 #39
     lastMonth: 72
     missionWeights:
       0:
@@ -497,7 +497,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseFive
-    firstMonth: 33 #42
+    firstMonth: 24 #42
     lastMonth: 76
     missionWeights:
       0:
@@ -524,7 +524,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseSix
-    firstMonth: 36 #45
+    firstMonth: 26 #45
     lastMonth: 80
     missionWeights:
       0:
@@ -553,7 +553,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseSeven
-    firstMonth: 39 #48
+    firstMonth: 28 #48
     lastMonth: 84
     missionWeights:
       0:
@@ -580,7 +580,7 @@ missionScripts:
         STR_INDIAN_OCEAN: 0
     useTable: false
   - type: invasionElitePhaseEight
-    firstMonth: 42 #51
+    firstMonth: 30 #51
     lastMonth: 88
     missionWeights:
       0:
@@ -716,147 +716,146 @@ missionScripts:
     maxRuns: 1
     varName: rRCyI
 
-  - type: beginnerRetaliation
-    missionWeights:
-      0:
-        STR_ALIEN_RETALIATION_MEDIUM: 100
-      13:
-        STR_ALIEN_RETALIATION_MEDIUM: 50
-        STR_ALIEN_RETALIATION_HEAVY: 50
-      16:
-        STR_ALIEN_RETALIATION_HEAVY: 100
-      20:
-        STR_ALIEN_RETALIATION_HEAVY: 80
-        STR_ALIEN_RETALIATION_INVASION: 20
-      23:
-        STR_ALIEN_RETALIATION_HEAVY: 50
-        STR_ALIEN_RETALIATION_INVASION: 50
-      26:
-        STR_ALIEN_RETALIATION_HEAVY: 20
-        STR_ALIEN_RETALIATION_INVASION: 80
-      29:
-        STR_ALIEN_RETALIATION_INVASION: 100
-    firstMonth: 8
-    targetBaseOdds: 100
-    useTable: false
-    conditionals: [-1]
-    label: 2
-    startDelay: 15000
+  # - type: beginnerRetaliation
+    # missionWeights:
+      # 0:
+        # STR_ALIEN_RETALIATION_MEDIUM: 100
+      # 13:
+        # STR_ALIEN_RETALIATION_MEDIUM: 50
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+      # 16:
+        # STR_ALIEN_RETALIATION_HEAVY: 100
+      # 20:
+        # STR_ALIEN_RETALIATION_HEAVY: 80
+        # STR_ALIEN_RETALIATION_INVASION: 20
+      # 23:
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+        # STR_ALIEN_RETALIATION_INVASION: 50
+      # 26:
+        # STR_ALIEN_RETALIATION_HEAVY: 20
+        # STR_ALIEN_RETALIATION_INVASION: 80
+      # 29:
+        # STR_ALIEN_RETALIATION_INVASION: 100
+    # firstMonth: 8
+    # targetBaseOdds: 100
+    # useTable: false
+    # conditionals: [-1]
+    # label: 2
+    # startDelay: 15000
 
-  - type: experiencedRetaliation
-    minDifficulty: 1
-    missionWeights:
-      0:
-        STR_ALIEN_RETALIATION_MEDIUM: 100
-      12:
-        STR_ALIEN_RETALIATION_MEDIUM: 50
-        STR_ALIEN_RETALIATION_HEAVY: 50
-      15:
-        STR_ALIEN_RETALIATION_HEAVY: 100
-      20:
-        STR_ALIEN_RETALIATION_HEAVY: 80
-        STR_ALIEN_RETALIATION_INVASION: 20
-      23:
-        STR_ALIEN_RETALIATION_HEAVY: 50
-        STR_ALIEN_RETALIATION_INVASION: 50
-      26:
-        STR_ALIEN_RETALIATION_HEAVY: 20
-        STR_ALIEN_RETALIATION_INVASION: 80
-      29:
-        STR_ALIEN_RETALIATION_INVASION: 100
-    firstMonth: 8
-    targetBaseOdds: 100
-    useTable: false
-    conditionals: [-1, -2]
-    label: 3
-    startDelay: 15000
+  # - type: experiencedRetaliation
+    # minDifficulty: 1
+    # missionWeights:
+      # 0:
+        # STR_ALIEN_RETALIATION_MEDIUM: 100
+      # 12:
+        # STR_ALIEN_RETALIATION_MEDIUM: 50
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+      # 15:
+        # STR_ALIEN_RETALIATION_HEAVY: 100
+      # 20:
+        # STR_ALIEN_RETALIATION_HEAVY: 80
+        # STR_ALIEN_RETALIATION_INVASION: 20
+      # 23:
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+        # STR_ALIEN_RETALIATION_INVASION: 50
+      # 26:
+        # STR_ALIEN_RETALIATION_HEAVY: 20
+        # STR_ALIEN_RETALIATION_INVASION: 80
+      # 29:
+        # STR_ALIEN_RETALIATION_INVASION: 100
+    # firstMonth: 8
+    # targetBaseOdds: 100
+    # useTable: false
+    # conditionals: [-1, -2]
+    # label: 3
+    # startDelay: 15000
 
-  - type: veteranRetaliation
-    minDifficulty: 2
-    missionWeights:
-      0:
-        STR_ALIEN_RETALIATION_MEDIUM: 100
-      11:
-        STR_ALIEN_RETALIATION_MEDIUM: 50
-        STR_ALIEN_RETALIATION_HEAVY: 50
-      14:
-        STR_ALIEN_RETALIATION_HEAVY: 100
-      20:
-        STR_ALIEN_RETALIATION_HEAVY: 80
-        STR_ALIEN_RETALIATION_INVASION: 20
-      23:
-        STR_ALIEN_RETALIATION_HEAVY: 50
-        STR_ALIEN_RETALIATION_INVASION: 50
-      26:
-        STR_ALIEN_RETALIATION_HEAVY: 20
-        STR_ALIEN_RETALIATION_INVASION: 80
-      29:
-        STR_ALIEN_RETALIATION_INVASION: 100
-    firstMonth: 8
-    targetBaseOdds: 100
-    useTable: false
-    conditionals: [-1, -2, -3]
-    label: 4
-    startDelay: 15000
+  # - type: veteranRetaliation
+    # minDifficulty: 2
+    # missionWeights:
+      # 0:
+        # STR_ALIEN_RETALIATION_MEDIUM: 100
+      # 11:
+        # STR_ALIEN_RETALIATION_MEDIUM: 50
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+      # 14:
+        # STR_ALIEN_RETALIATION_HEAVY: 100
+      # 20:
+        # STR_ALIEN_RETALIATION_HEAVY: 80
+        # STR_ALIEN_RETALIATION_INVASION: 20
+      # 23:
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+        # STR_ALIEN_RETALIATION_INVASION: 50
+      # 26:
+        # STR_ALIEN_RETALIATION_HEAVY: 20
+        # STR_ALIEN_RETALIATION_INVASION: 80
+      # 29:
+        # STR_ALIEN_RETALIATION_INVASION: 100
+    # firstMonth: 8
+    # targetBaseOdds: 100
+    # useTable: false
+    # conditionals: [-1, -2, -3]
+    # label: 4
+    # startDelay: 15000
 
-  - type: geniusRetaliation
-    minDifficulty: 3
-    missionWeights:
-      0:
-        STR_ALIEN_RETALIATION_MEDIUM: 100
-      10:
-        STR_ALIEN_RETALIATION_MEDIUM: 50
-        STR_ALIEN_RETALIATION_HEAVY: 50
-      13:
-        STR_ALIEN_RETALIATION_HEAVY: 100
-      20:
-        STR_ALIEN_RETALIATION_HEAVY: 80
-        STR_ALIEN_RETALIATION_INVASION: 20
-      23:
-        STR_ALIEN_RETALIATION_HEAVY: 50
-        STR_ALIEN_RETALIATION_INVASION: 50
-      26:
-        STR_ALIEN_RETALIATION_HEAVY: 20
-        STR_ALIEN_RETALIATION_INVASION: 80
-      29:
-        STR_ALIEN_RETALIATION_INVASION: 100
-    firstMonth: 8
-    targetBaseOdds: 100
-    useTable: false
-    conditionals: [-1, -2, -3, -4]
-    label: 5
-    startDelay: 15000
+  # - type: geniusRetaliation
+    # minDifficulty: 3
+    # missionWeights:
+      # 0:
+        # STR_ALIEN_RETALIATION_MEDIUM: 100
+      # 10:
+        # STR_ALIEN_RETALIATION_MEDIUM: 50
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+      # 13:
+        # STR_ALIEN_RETALIATION_HEAVY: 100
+      # 20:
+        # STR_ALIEN_RETALIATION_HEAVY: 80
+        # STR_ALIEN_RETALIATION_INVASION: 20
+      # 23:
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+        # STR_ALIEN_RETALIATION_INVASION: 50
+      # 26:
+        # STR_ALIEN_RETALIATION_HEAVY: 20
+        # STR_ALIEN_RETALIATION_INVASION: 80
+      # 29:
+        # STR_ALIEN_RETALIATION_INVASION: 100
+    # firstMonth: 8
+    # targetBaseOdds: 100
+    # useTable: false
+    # conditionals: [-1, -2, -3, -4]
+    # label: 5
+    # startDelay: 15000
 
-  - type: superhumanRetaliation
-    minDifficulty: 4
-    missionWeights:
-      0:
-        STR_ALIEN_RETALIATION_MEDIUM: 100
-      9:
-        STR_ALIEN_RETALIATION_MEDIUM: 50
-        STR_ALIEN_RETALIATION_HEAVY: 50
-      12:
-        STR_ALIEN_RETALIATION_HEAVY: 100
-      20:
-        STR_ALIEN_RETALIATION_HEAVY: 80
-        STR_ALIEN_RETALIATION_INVASION: 20
-      23:
-        STR_ALIEN_RETALIATION_HEAVY: 50
-        STR_ALIEN_RETALIATION_INVASION: 50
-      26:
-        STR_ALIEN_RETALIATION_HEAVY: 20
-        STR_ALIEN_RETALIATION_INVASION: 80
-      29:
-        STR_ALIEN_RETALIATION_INVASION: 100
-    firstMonth: 8
-    targetBaseOdds: 100
-    useTable: false
-    conditionals: [-1, -2, -3, -4, -5]
-    startDelay: 15000
+  # - type: superhumanRetaliation
+    # minDifficulty: 4
+    # missionWeights:
+      # 0:
+        # STR_ALIEN_RETALIATION_MEDIUM: 100
+      # 9:
+        # STR_ALIEN_RETALIATION_MEDIUM: 50
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+      # 12:
+        # STR_ALIEN_RETALIATION_HEAVY: 100
+      # 20:
+        # STR_ALIEN_RETALIATION_HEAVY: 80
+        # STR_ALIEN_RETALIATION_INVASION: 20
+      # 23:
+        # STR_ALIEN_RETALIATION_HEAVY: 50
+        # STR_ALIEN_RETALIATION_INVASION: 50
+      # 26:
+        # STR_ALIEN_RETALIATION_HEAVY: 20
+        # STR_ALIEN_RETALIATION_INVASION: 80
+      # 29:
+        # STR_ALIEN_RETALIATION_INVASION: 100
+    # firstMonth: 8
+    # targetBaseOdds: 100
+    # useTable: false
+    # conditionals: [-1, -2, -3, -4, -5]
+    # startDelay: 15000
 # 1999: New alien types gradually introduced - you should be getting into tier 3 by the end of 1999
-# 2000: Ethereals, mixed races, some elites, increased mission spawns - you should be in tier 3 and getting into tier 4, and finishing up research or going to cydonia
-# 2001: Elite activity rises, all elites by the end of the year, increased mission spawns - research should be complete by now, you should go to cydonia soon
-# 2002: Only elites from now on, mission spawns rise rapidly throughout the year - it will be getting harder to survive
-# Alien activity peaks March 2003 - hard to survive
+# 2000: Ethereals, mixed races, elites, increased mission spawns - you should be in tier 3 and getting into tier 4, and finishing up research or going to cydonia
+# 2001: Elite activity rises, all elites by the end of the year, increased mission spawns - research should be complete by now, you should probably have gone to cydonia by now
+# 2002: Only elites from now on, mission spawns at maximum, hard to survive at this point
 # Alien activity begins to gradually decline January 2004
 # Last month alien missions spawn: August 2008

@@ -713,6 +713,9 @@ armors:
       - 1.0 # 19
     overKill: 2
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -757,6 +760,9 @@ armors:
       - 1.0 # 19
     overKill: 2
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -801,6 +807,9 @@ armors:
       - 1.0 # 19
     overKill: 2
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -843,6 +852,9 @@ armors:
       - 1.0 # 19
     overKill: 2
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -897,6 +909,9 @@ armors:
       - 1.0 # 19
     overKill: 2.1
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -960,6 +975,9 @@ armors:
       - 1.0 # 19
     overKill: 2.3
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1025,6 +1043,9 @@ armors:
       - 1.0 # 19
     overKill: 2.4
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1088,6 +1109,9 @@ armors:
       - 1.0 # 19
     overKill: 2.3
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1163,6 +1187,9 @@ armors:
       - 1.0 # 19
     overKill: 2.3
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1231,6 +1258,9 @@ armors:
     forcedTorso: 1
     overKill: 2.5
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1265,7 +1295,7 @@ armors:
       tu: 10
       firing: 10
       bravery: 10
-      strength: 40
+      strength: 55
     frontArmor: 170
     sideArmor: 140
     rearArmor: 120
@@ -1296,6 +1326,9 @@ armors:
     forcedTorso: 2
     overKill: 2.5
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1328,7 +1361,7 @@ armors:
     weight: 30
     stats:
       bravery: 20
-      strength: 50
+      strength: 70
       psiStrength: 30
       psiSkill: -20
     frontArmor: 215
@@ -1358,6 +1391,9 @@ armors:
       - 1.0 # 19
     overKill: 2.5
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1392,7 +1428,7 @@ armors:
     weight: 25
     stats:
       bravery: 10
-      strength: 40
+      strength: 55
       psiStrength: 0
       psiSkill: 20
     frontArmor: 190
@@ -1423,6 +1459,9 @@ armors:
       - 1.0 # 19
     overKill: 2.5
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1493,6 +1532,8 @@ armors:
       - 1.0 # 19
     overKill: 2
     recovery:
+      energy:
+        flatHundred: 0.37
       stun:
         stunCurrent: 0.15
         flatHundred: 0.03
@@ -1537,7 +1578,7 @@ armors:
       firing: 20
       throwing: 20
       melee: 20
-      strength: 30
+      strength: 45
       psiStrength: 7
       psiSkill: 5
     frontArmor: 160
@@ -1568,6 +1609,9 @@ armors:
       - 1.0 # 19
     overKill: 3
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.02
@@ -1643,6 +1687,9 @@ armors:
       - 1.0 # 19
     overKill: 2
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1689,6 +1736,9 @@ armors:
       - 1.0 # 19
     overKill: 2.3
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1751,6 +1801,9 @@ armors:
       - 1.0 # 19
     overKill: 2.4
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1811,6 +1864,9 @@ armors:
       - 1.0 # 19
     overKill: 2.3
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1883,6 +1939,9 @@ armors:
       - 1.0 # 19
     overKill: 2.3
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1951,6 +2010,9 @@ armors:
     forcedTorso: 1
     overKill: 2.5
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -1985,7 +2047,7 @@ armors:
       tu: 10
       firing: 10
       bravery: 10
-      strength: 80
+      strength: 100
     frontArmor: 170
     sideArmor: 140
     rearArmor: 120
@@ -2016,6 +2078,9 @@ armors:
     forcedTorso: 2
     overKill: 2.5
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -2048,7 +2113,7 @@ armors:
     weight: 30
     stats:
       bravery: 20
-      strength: 90
+      strength: 130
       psiStrength: 30
       psiSkill: -20
     frontArmor: 215
@@ -2078,6 +2143,9 @@ armors:
       - 1.0 # 19
     overKill: 2.5
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -2112,7 +2180,7 @@ armors:
     weight: 25
     stats:
       bravery: 10
-      strength: 80
+      strength: 100
       psiStrength: 0
       psiSkill: 20
     frontArmor: 190
@@ -2143,6 +2211,9 @@ armors:
       - 1.0 # 19
     overKill: 2.5
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.01
@@ -2213,6 +2284,9 @@ armors:
       - 1.0 # 19
     overKill: 2
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.15
         flatHundred: 0.03
@@ -2257,7 +2331,7 @@ armors:
       firing: 20
       throwing: 20
       melee: 20
-      strength: 70
+      strength: 85
       psiStrength: 7
       psiSkill: 5
     frontArmor: 160
@@ -2288,6 +2362,9 @@ armors:
       - 1.0 # 19
     overKill: 3
     recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
       stun:
         stunCurrent: 0.10
         flatHundred: 0.02
@@ -2426,7 +2503,7 @@ armors:
         stunCurrent: 0.10
         flatHundred: 0.01
     visibilityAtDark: 22
-    loftempsSet: [ 3 ]
+    loftempsSet: [ 4 ]
   - &STR_SECTOID_ARMOR1
     type: SECTOID_ARMOR1
     spriteSheet: SECTOID.PCK
@@ -2464,7 +2541,7 @@ armors:
         stunCurrent: 0.10
         flatHundred: 0.01
     visibilityAtDark: 22
-    loftempsSet: [ 3 ]
+    loftempsSet: [ 4 ]
   - &STR_SECTOID_ARMOR2
     type: SECTOID_ARMOR2
     spriteSheet: SECTOID.PCK
@@ -2505,7 +2582,7 @@ armors:
         flatHundred: 0.13
     visibilityAtDark: 22
     psiVision: 8
-    loftempsSet: [ 3 ]
+    loftempsSet: [ 4 ]
   - type: SECTOID_ARMORED0
     refNode: *STR_SECTOID_ARMOR0
     spriteSheet: SECTOID_A.PCK
@@ -3733,7 +3810,7 @@ armors:
       - 0.3 # 5 PLASMA
       - 0.75 # 6 STUN
       - 0.6 # 7 MELEE 80% GRAVITY FACTOR
-      - 0.54 # 8 ACID
+      - 0.75 # 8 ACID
       - 0.0 # 9 SMOKE
       - 0.375 # 10 RAPID LASER
       - 0.135 # 11 ARMOR PENETRATOR

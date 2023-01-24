@@ -626,6 +626,7 @@ extraSprites:
       49: Resources/ReaversArmada/Mod3_SuiteAscension_inticon.png
       50: Resources/ReaversArmada/Mod3_SuiteCombat_inticon.png
       51: Resources/ReaversArmada/Mod3_SuiteRecon_inticon.png
+      52: Resources/ReaversArmada/Mod3_SuiteAmbush_inticon.png
   - type: BASEBITS.PCK
     files:
       59: Resources/ReaversArmada/Pulse_Cannon_basebit.gif
@@ -657,6 +658,7 @@ extraSprites:
       92: Resources/ReaversArmada/Mod3_SuiteAscension_basebit.gif
       93: Resources/ReaversArmada/Mod3_SuiteCombat_basebit.gif
       94: Resources/ReaversArmada/Mod3_SuiteRecon_basebit.gif
+      95: Resources/ReaversArmada/Mod3_SuiteAmbush_basebit.gif
 # LargeFacilities
   - type: BASEBITS.PCK
     files:
@@ -849,16 +851,18 @@ extraSprites:
       841: Resources/XComFiles/Vessels/Inticon/Thunder_dogfight.png
       831: Resources/XComFiles/Vessels/Inticon/Tormentor_minimised.png
       842: Resources/XComFiles/Vessels/Inticon/Tormentor_dogfight.png
-      832: Resources/XComFiles/Vessels/Inticon/Dragonfly_Dark_minimised.png
-      843: Resources/XComFiles/Vessels/Inticon/Dragonfly_Dark_dogfight.png
+      832: Resources/ReaversArmada/Dragonfly_Divinity_minimised.png
+      843: Resources/ReaversArmada/Dragonfly_Divinity_dogfight.png
       844: Resources/XComFiles/Vessels/Inticon/Dropship_minimised.png
       855: Resources/XComFiles/Vessels/Inticon/Dropship_dogfight.png
       866: Resources/ReaversArmada/Heracles_minimised.gif
       867: Resources/ReaversArmada/Stalker_minimised.gif
       868: Resources/XComFiles/Vessels/Inticon/Sentinel_minimized.png
+      869: Resources/ReaversArmada/Inferno_minimised.png
       877: Resources/ReaversArmada/Heracles_dogfight.gif
       878: Resources/ReaversArmada/Stalker_dogfight.gif
       879: Resources/XComFiles/Vessels/Inticon/Sentinel_dogfight.png
+      880: Resources/ReaversArmada/Inferno_dogfight.png
   - type: BASEBITS.PCK
     files:
       855: Resources/ReaversArmada/Interceptor_base.png
@@ -871,11 +875,12 @@ extraSprites:
       862: Resources/ReaversArmada/Exterminator_base.png
       863: Resources/XComFiles/Vessels/Basebits/Thunder_base.png
       864: Resources/XComFiles/Vessels/Basebits/Tormentor_base.png
-      865: Resources/XComFiles/Vessels/Basebits/Dragonfly_Dark_base.png
+      865: Resources/ReaversArmada/Dragonfly_Divinity_base.png
       877: Resources/XComFiles/Vessels/Basebits/Dropship_base.png
       899: Resources/ReaversArmada/Heracles_base.gif
       900: Resources/ReaversArmada/Stalker_base.gif
       901: Resources/XComFiles/Vessels/Basebits/Sentinel_base.png
+      902: Resources/ReaversArmada/basebits_35_0.gif
   - type: AWACS_BIG
     singleImage: true
     width: 320

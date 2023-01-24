@@ -31,7 +31,7 @@ allowCountriesToCancelAlienPact: false
 chanceToStopRetaliation: 40
 lessAliensDuringBaseDefense: true
 buildTimeReductionScaling: 100
-customTrainingFactor: 30
+customTrainingFactor: 50
 noLOSAccuracyPenaltyGlobal: 75
 kneelBonusGlobal: 125
 oneHandedPenaltyGlobal: 60

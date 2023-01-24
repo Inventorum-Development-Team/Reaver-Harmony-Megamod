@@ -626,7 +626,7 @@ craftWeapons:
       accel: 2
       damageMax: 20
       avoidBonus: 6
-      powerBonus: 20
+      hitBonus: 20
     launcher: STR_PACKAGE_PURSUER_UG
     weaponType: 2
     hidePediaInfo: true
@@ -717,6 +717,19 @@ craftWeapons:
       hitBonus: 10
     launcher: STR_SUITE_COMBAT_UG
     weaponType: 32
+    hidePediaInfo: true
+  - type: STR_SUITE_AMBUSH
+    sprite: 47
+    stats:
+      speedMax: 1000
+      accel: 2
+      shieldCapacity: 120
+      shieldRechargeInGeoscape: 4
+      shieldBleedThrough: 100
+      powerBonus: 10
+      hitBonus: 30
+    launcher: STR_SUITE_AMBUSH_UG
+    weaponType: 3
     hidePediaInfo: true
   - type: STR_SUITE_RECON
     sprite: 46

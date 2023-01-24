@@ -729,7 +729,7 @@ alienMissions:
         count: 2
         trajectory: P3
         timer: 60
-      - ufo: STR_PATROLLER
+      - ufo: STR_LIGHT_DESTROYER
         count: 1
         trajectory: P79
         timer: 60
@@ -2022,7 +2022,7 @@ alienMissions:
     objective: 5
     raceWeights: {}
     waves:
-      - ufo: STR_CARGO_SHIP
+      - ufo: STR_CARGO_SHIP_ELITE
         count: 1
         trajectory: P91
         timer: 1440

@@ -649,6 +649,11 @@ items:
     size: 0.8
     costSell: 3220000
     categories: [STR_CAT_CRAFT_EQUIPMENT, STR_CAT_HIGH_TECH]
+  - type: STR_SUITE_AMBUSH_UG
+    listOrder: 1015
+    size: 0.8
+    costSell: 3520000
+    categories: [STR_CAT_CRAFT_EQUIPMENT, STR_CAT_HIGH_TECH]
   - type: STR_SUITE_RECON_UG
     listOrder: 1020
     size: 0.8
@@ -966,7 +971,7 @@ items:
       ToArmorPre: 0.052
       ToTile: 0.55
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 23
     snapRange: 8
     bulletSpeed: 3
     battleType: 1
@@ -991,7 +996,7 @@ items:
       ToArmorPre: 0.052
       ToTile: 0.55
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 23
     snapRange: 8
     bulletSpeed: 3
     battleType: 1
@@ -1016,7 +1021,7 @@ items:
       ToArmorPre: 0.052
       ToTile: 0.55
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 23
     snapRange: 8
     bulletSpeed: 3
     battleType: 1
@@ -1041,7 +1046,7 @@ items:
       ToArmorPre: 0.044
       ToTile: 0.64
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 21
     snapRange: 9
     bulletSpeed: 3
     battleType: 1
@@ -1066,7 +1071,7 @@ items:
       ToArmorPre: 0.044
       ToTile: 0.64
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 21
     snapRange: 9
     bulletSpeed: 3
     battleType: 1
@@ -1091,7 +1096,7 @@ items:
       ToArmorPre: 0.044
       ToTile: 0.64
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 21
     snapRange: 9
     bulletSpeed: 3
     battleType: 1
@@ -1116,7 +1121,7 @@ items:
       ToArmorPre: 0.036
       ToTile: 0.7
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 19
     snapRange: 10
     bulletSpeed: 3
     battleType: 1
@@ -1141,7 +1146,7 @@ items:
       ToArmorPre: 0.036
       ToTile: 0.7
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 19
     snapRange: 10
     bulletSpeed: 3
     battleType: 1
@@ -1166,7 +1171,7 @@ items:
       ToArmorPre: 0.036
       ToTile: 0.7
     accuracySnap: 75
-    tuSnap: 32
+    tuSnap: 19
     snapRange: 10
     bulletSpeed: 3
     battleType: 1
@@ -1357,7 +1362,7 @@ items:
     power: 25
     damageType: 9
     accuracyAuto: 10
-    accuracySnap: 30
+    accuracySnap: 50
     accuracyAimed: 100
     tuAuto: 40
     tuSnap: 12
@@ -1426,10 +1431,10 @@ items:
     compatibleAmmo:
       - STR_HWP_G_CANNON_SHELLS
     damageType: 1
-    accuracySnap: 60
-    accuracyAimed: 114
-    tuSnap: 29
-    tuAimed: 70
+    accuracySnap: 70
+    accuracyAimed: 120
+    tuSnap: 28
+    tuAimed: 62
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -1446,10 +1451,10 @@ items:
     costSell: 340000
     categories: [STR_CAT_HWP, STR_CAT_EARLY_TECH]
     customItemPreviewIndex: 7
-    accuracySnap: 60
-    accuracyAimed: 114
-    tuSnap: 29
-    tuAimed: 70
+    accuracySnap: 70
+    accuracyAimed: 120
+    tuSnap: 28
+    tuAimed: 62
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -1473,10 +1478,10 @@ items:
     compatibleAmmo:
       - STR_HWP_A_CANNON_SHELLS
     damageType: 1
-    accuracySnap: 60
-    accuracyAimed: 114
-    tuSnap: 29
-    tuAimed: 70
+    accuracySnap: 70
+    accuracyAimed: 120
+    tuSnap: 28
+    tuAimed: 62
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -1585,8 +1590,8 @@ items:
     fireSound: 52
     compatibleAmmo:
       - STR_HWP_G_ROCKETS
-    accuracySnap: 55
-    accuracyAimed: 115
+    accuracySnap: 60
+    accuracyAimed: 135
     tuSnap: 45
     tuAimed: 75
     snapRange: 15
@@ -1605,8 +1610,8 @@ items:
     customItemPreviewIndex: 8
     compatibleAmmo:
       - STR_HWP_ROCKETS
-    accuracySnap: 55
-    accuracyAimed: 115
+    accuracySnap: 60
+    accuracyAimed: 135
     tuSnap: 45
     tuAimed: 75
     snapRange: 15
@@ -1628,8 +1633,8 @@ items:
     fireSound: 52
     compatibleAmmo:
       - STR_HWP_A_ROCKETS
-    accuracySnap: 55
-    accuracyAimed: 115
+    accuracySnap: 60
+    accuracyAimed: 135
     tuSnap: 45
     tuAimed: 75
     snapRange: 15
@@ -1737,8 +1742,8 @@ items:
     fireSound: 52
     compatibleAmmo:
       - STR_HWP_G_AE_ROCKETS
-    accuracySnap: 55
-    accuracyAimed: 115
+    accuracySnap: 60
+    accuracyAimed: 135
     tuSnap: 38
     tuAimed: 63
     snapRange: 15
@@ -1767,8 +1772,8 @@ items:
     fireSound: 52
     compatibleAmmo:
       - STR_HWP_B_AE_ROCKETS
-    accuracySnap: 55
-    accuracyAimed: 115
+    accuracySnap: 60
+    accuracyAimed: 135
     tuSnap: 38
     tuAimed: 63
     snapRange: 15
@@ -1798,8 +1803,8 @@ items:
     fireSound: 52
     compatibleAmmo:
       - STR_HWP_A_AE_ROCKETS
-    accuracySnap: 55
-    accuracyAimed: 115
+    accuracySnap: 60
+    accuracyAimed: 135
     tuSnap: 38
     tuAimed: 63
     snapRange: 15
@@ -1928,10 +1933,10 @@ items:
       ToArmor: 0
       ToArmorPre: 0.09
       ToTile: 0.6
-    accuracySnap: 75
-    accuracyAimed: 130
-    tuSnap: 37
-    tuAimed: 82
+    accuracySnap: 85
+    accuracyAimed: 140
+    tuSnap: 36
+    tuAimed: 78
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -1966,10 +1971,10 @@ items:
       ToArmor: 0
       ToArmorPre: 0.065
       ToTile: 0.67
-    accuracySnap: 75
-    accuracyAimed: 130
-    tuSnap: 37
-    tuAimed: 82
+    accuracySnap: 85
+    accuracyAimed: 140
+    tuSnap: 36
+    tuAimed: 78
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2003,10 +2008,10 @@ items:
       ToArmor: 0
       ToArmorPre: 0.04
       ToTile: 0.75
-    accuracySnap: 75
-    accuracyAimed: 130
-    tuSnap: 37
-    tuAimed: 82
+    accuracySnap: 85
+    accuracyAimed: 140
+    tuSnap: 36
+    tuAimed: 78
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2036,7 +2041,7 @@ items:
       - STR_HWP_CERBERUS_FLASH_BOMBS_X5
     damageType: 2
     accuracyAuto: 10
-    accuracySnap: 40
+    accuracySnap: 50
     accuracyAimed: 100
     tuAuto: 40
     tuSnap: 12
@@ -2099,10 +2104,10 @@ items:
     compatibleAmmo:
       - STR_HWP_VIGILANTE_PENETRATOR_ROUNDS
     damageType: 1
-    accuracySnap: 60
-    accuracyAimed: 114
-    tuSnap: 29
-    tuAimed: 70
+    accuracySnap: 70
+    accuracyAimed: 120
+    tuSnap: 28
+    tuAimed: 62
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2155,10 +2160,10 @@ items:
     fireSound: 18
     compatibleAmmo:
       - STR_HWP_G_PLASMA
-    accuracySnap: 70
-    accuracyAimed: 122
-    tuSnap: 33
-    tuAimed: 76
+    accuracySnap: 75
+    accuracyAimed: 130
+    tuSnap: 31
+    tuAimed: 70
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2178,10 +2183,10 @@ items:
     fireSound: 316
     compatibleAmmo:
       - STR_HWP_PLASMA
-    accuracySnap: 70
-    accuracyAimed: 122
-    tuSnap: 33
-    tuAimed: 76
+    accuracySnap: 75
+    accuracyAimed: 130
+    tuSnap: 31
+    tuAimed: 70
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2201,10 +2206,10 @@ items:
     fireSound: 316
     compatibleAmmo:
       - STR_HWP_A_PLASMA
-    accuracySnap: 70
-    accuracyAimed: 122
-    tuSnap: 33
-    tuAimed: 76
+    accuracySnap: 75
+    accuracyAimed: 130
+    tuSnap: 31
+    tuAimed: 70
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2301,7 +2306,7 @@ items:
     fireSound: 53
     compatibleAmmo:
       - STR_HWP_G_FUSION_BOMB
-    accuracyAimed: 100
+    accuracyAimed: 110
     tuAimed: 66
     battleType: 1
     fixedWeapon: true
@@ -2315,7 +2320,7 @@ items:
     costSell: 3880000
     categories: [STR_CAT_HWP, STR_CAT_HIGH_TECH]
     customItemPreviewIndex: 12
-    accuracyAimed: 100
+    accuracyAimed: 110
     tuAimed: 66
   - type: STR_HOVERTANK_LAUNCHER_ASSAULT
     listOrder: 1690
@@ -2331,7 +2336,7 @@ items:
     fireSound: 53
     compatibleAmmo:
       - STR_HWP_A_FUSION_BOMB
-    accuracyAimed: 100
+    accuracyAimed: 110
     tuAimed: 66
     battleType: 1
     fixedWeapon: true
@@ -2591,7 +2596,7 @@ items:
     power: 30
     damageType: 6
     damageAlter:
-      RandomType: 1
+      RandomType: 0
       ArmorEffectiveness: 0.2
       ToHealth: 0.3
       RandomHealth: true
@@ -2629,7 +2634,7 @@ items:
     power: 60
     damageType: 6
     damageAlter:
-      RandomType: 1
+      RandomType: 0
       ArmorEffectiveness: 0.2
       ToHealth: 0.8
       RandomHealth: true
@@ -2999,15 +3004,15 @@ items:
     compatibleAmmo:
       - STR_SHOTGUN_CLIP
       - STR_SHOTGUN_ALLOY_CLIP
-    accuracyAuto: 28
-    accuracySnap: 56
-    accuracyAimed: 90
+    accuracyAuto: 42
+    accuracySnap: 84
+    accuracyAimed: 135
     tuAuto: 20
     tuSnap: 30
     tuAimed: 55
     autoRange: 5
     snapRange: 8
-    aimRange: 20
+    aimRange: 16
     dropoff: 2
     confAuto:
       shots: 1
@@ -5193,7 +5198,7 @@ items:
     damageType: 13
     damageAlter:
       FixRadius: 6
-      RadiusReduction: 34
+      RadiusReduction: 32
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       IgnoreSelfDestruct: true
@@ -5396,7 +5401,7 @@ items:
     tuPrime: 40
     tuUnprime: 20
 #    unprimeActionName: STR_UNPRIME_GRENADE
-    armor: 30
+    armor: 25
     attraction: 10
   - type: STR_SMOKE_GRENADE
     listOrder: 4310
@@ -5442,7 +5447,7 @@ items:
     tuThrow: 25
     tuPrime: 40
     tuUnprime: 20
-    armor: 30
+    armor: 25
     attraction: 10
   - type: STR_INCENDIARY_GRENADE
     listOrder: 4330
@@ -5471,7 +5476,7 @@ items:
     tuThrow: 25
     tuPrime: 40
     tuUnprime: 20
-    armor: 30
+    armor: 25
     attraction: 10
   - type: STR_HIGH_EXPLOSIVE
     listOrder: 4340
@@ -5494,7 +5499,7 @@ items:
     tuThrow: 35
     tuPrime: 55
     tuUnprime: 25
-    armor: 60
+    armor: 50
     attraction: 10
   - type: STR_AE_GRENADE
     listOrder: 4350
@@ -5524,7 +5529,7 @@ items:
     tuThrow: 25
     tuPrime: 40
     tuUnprime: 20
-    armor: 50
+    armor: 45
     attraction: 15
   - type: STR_STUN_GRENADE
     listOrder: 4360
@@ -5547,7 +5552,7 @@ items:
     tuThrow: 25
     tuPrime: 40
     tuUnprime: 20
-    armor: 50
+    armor: 45
     attraction: 15
   - type: STR_AE_PROXIMITY_GRENADE
     listOrder: 4370
@@ -5577,7 +5582,7 @@ items:
     tuThrow: 25
     tuPrime: 40
     tuUnprime: 20
-    armor: 50
+    armor: 45
     attraction: 35 #until I can increase the detection radius
   - type: STR_AE_HIGH_EXPLOSIVE
     listOrder: 4380
@@ -5612,7 +5617,7 @@ items:
     tuThrow: 35
     tuPrime: 55
     tuUnprime: 25
-    armor: 100
+    armor: 90
     attraction: 15
   - type: STR_FUSION_HIGH_EXPLOSIVE
     listOrder: 4390
@@ -5643,7 +5648,7 @@ items:
     tuThrow: 35
     tuPrime: 55
     tuUnprime: 25
-    armor: 125
+    armor: 140
     attraction: 20
   - type: STR_ELECTRO_FLARE
     listOrder: 4400
@@ -5937,6 +5942,7 @@ items:
     armor: 150
     manaExperience: 100
     attraction: 25
+    experienceTrainingMode: 27
 #Special Function segment
     psiAttackName: STR_PSI_ATTACK_STUN
     damageType: 5
@@ -5946,12 +5952,14 @@ items:
       psiStrength: 0.75
       psiSkill: 3
     damageAlter:
+      RandomType: 0
       ResistType: 6
       ArmorEffectiveness: 0
       ToArmor: 0
       ToArmorPre: 0
       ToHealth: 0
       ToStun: 1.0
+      RandomStun: false
       ToWound: 0
       RandomWound: false
 #Special Function segment end
@@ -7052,7 +7060,7 @@ items:
   - type: STR_POWER_SUIT
     listOrder: 10700
     size: 0.15
-    costSell: 595000
+    costSell: 560000
     categories: [STR_CAT_ARMOR, STR_CAT_HIGH_TECH]
   - type: STR_FLYING_SUIT
     listOrder: 10800
@@ -7078,17 +7086,17 @@ items:
     armor: 175
   - type: STR_BROKEN_DARK_SUIT
     size: 0.125
-    costSell: 119000
+    costSell: 112000
     armor: 185
   - type: STR_PSI_DEFENSE_ARMOR
     listOrder: 10810
     size: 0.15
-    costSell: 1065000
+    costSell: 1160000
     categories: [STR_CAT_ARMOR, STR_CAT_HIGH_TECH]
   - type: STR_PSI_ATTACK_ARMOR
     listOrder: 10820
     size: 0.15
-    costSell: 1205000
+    costSell: 1153000
     categories: [STR_CAT_ARMOR, STR_CAT_HIGH_TECH]
   - type: STR_CORPSE_SUIT_PSI1
     weight: 90
@@ -7108,21 +7116,21 @@ items:
     armor: 185
   - type: STR_BROKEN_SUIT_PSI1
     size: 0.125
-    costSell: 213000
+    costSell: 232000
     armor: 195
   - type: STR_BROKEN_SUIT_PSI2
     size: 0.125
-    costSell: 241000
+    costSell: 231000
     armor: 185
   - type: STR_PALADIN_ARMOR
     listOrder: 10850
     size: 0.175
-    costSell: 3290000
+    costSell: 3900000
     categories: [STR_CAT_ARMOR, STR_CAT_HIGH_TECH]
   - type: STR_ASSASSIN_ARMOR
     listOrder: 10860
     size: 0.125
-    costSell: 2140000
+    costSell: 2300000
     categories: [STR_CAT_ARMOR, STR_CAT_HIGH_TECH]
   - type: STR_CORPSE_PALADIN_ARMOR
     weight: 100
@@ -7142,11 +7150,11 @@ items:
     armor: 165
   - type: STR_BROKEN_PALADIN_ARMOR
     size: 0.145
-    costSell: 658000
+    costSell: 780000
     armor: 220
   - type: STR_BROKEN_ASSASSIN_ARMOR
     size: 0.105
-    costSell: 428000
+    costSell: 460000
     armor: 165
   - type: STR_CORPSE_SPACESUIT
     weight: 35
@@ -7692,62 +7700,62 @@ items:
     recover: false
   - type: STR_TROPHY_CORPSE_SECTOID
     listOrder: 7400
-    size: 0.15
+    size: 0
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_FLOATER
     listOrder: 7405
-    size: 0.25
+    size: 0
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_SNAKEMAN
     listOrder: 7410
-    size: 0.25
+    size: 0
     costSell: 15000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_SNAKEMAN_COMMANDER_B
     listOrder: 7411
-    size: 1.25
+    size: 0
     costSell: 110000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_MUTON
     listOrder: 7415
-    size: 0.25
+    size: 0
     costSell: 20000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_ETHEREAL
     listOrder: 7420
-    size: 0.2
+    size: 0
     costSell: 8000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_REAPER
     listOrder: 7425
-    size: 1.0
+    size: 0
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_CHRYSSALID
     listOrder: 7430
-    size: 0.22
+    size: 0
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_CELATID
     listOrder: 7440
-    size: 0.12
+    size: 0
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_SILACOID
     listOrder: 7435
-    size: 0.18
+    size: 0
     costSell: 10000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_CYBERDISC
     listOrder: 7445
-    size: 0.6
+    size: 0
     costSell: 50000
     categories: [STR_CAT_ALIENS]
   - type: STR_TROPHY_CORPSE_SECTOPOD
     listOrder: 7450
-    size: 1.1
+    size: 0
     costSell: 75000
     categories: [STR_CAT_ALIENS]
   - type: HOVERTANK_CORPSE_1

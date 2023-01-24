@@ -227,6 +227,36 @@
 #       * Fixed a bug in which terror sites were not always granting the terror site data cache.
 #       * Fixed bug in which Combat and Recon Suite UFOPedia reports would not reveal once you had access to them.
 #       * Fixed various minor bugs and balance issues.
+#  1.0.9:   Changed how energy regen works across the board. It is now based on current max TUs and health.
+#         - Untrained soldiers will have less energy regen than before, but it will improve greatly with training.
+#         - Paladin Armor now boosts soldier energy regeneration, just like the UFOPedia claims it does.
+#       * Boosted soldier inventory space in backpack (again!) and belt.
+#       * Reduced the amount of power skeletons needed to make power armors.
+#       * All power armors had their sell values updated to correct values.
+#       * Psionic Power Armor research is now significantly easier to unlock.
+#       * Invasion begins even sooner, hopefully before people finish the game this time!
+#       * Rebalanced (mostly reduced) the component cost for flagships.
+#       * Passive martial training now proceeds significantly faster.
+#       * Rebalanced tanks, mostly boosted main weapon accuracy but also adjusted some TU costs.
+#       * Added Ambush Suite equipment for large pylons.
+#       * Changed one of Recon Suite's research dependencies from Mind Shield to UFO Shield Emitter.
+#       * Changed Pursuer II Combo to provide 20% hit chance instead of 20% damage.
+#       * Boosted Heracles flagship's top speed by 250 knots.
+#       * Altered item sets for units in Snakeman Colony.
+#       * Cargo Ships supplying Snakeman Colonies will now be elite.
+#       * The entrance block in Snakeman Colonies is now more open and it is easier to get into the colony.
+#       * Reduced retaliation missions. (Again!)
+#       * Increased Sectoid hitbox width to the same as most other aliens.
+#         - This will made them unable to hide behind UFO Power Source but may cause some shots to appear to hit
+#            the air around the Sectoid.
+#       * Trophy corpses are now stored off-site and do not take up space in your stores.
+#       * Increased Shotgun accuracy (but not plasma or acid shotguns).
+#       * Increased elite celatid's weakness to acid.
+#       * Reduced grenade armor values a bit. Space your grenades apart a bit so they do not destroy each other.
+#       * Improved Inferno interception sprites.
+#       * Improved Divinity interception and baseview sprites.
+#       * Greatly reduced time to research Alien Laser item.
+#       * Psi Disruptor bugs fixed, hopefully!
 #
 #
 # resource authors/sources:
@@ -309,6 +339,21 @@
 #       uses: perform palette migrations into X-Com palettes
 #
 #
+# critical playtesters:
+# Hadriex -- https://www.youtube.com/playlist?list=PLSQLREUw9vwl0v77beBcxvn2lXK-3TqEn
+#         -- https://www.youtube.com/playlist?list=PLSQLREUw9vwkIN3BLCBEzXmkHq1syn-n9
+# Lord_Kane -- via discord
+# Dogbarian -- https://openxcom.org/forum/index.php/topic,9440.0.html
+# Kildarien "red king" Hyton -- via discord
+# Fegelein -- via discord
+# aslip96 -- via discord
+# Kael Schwabauer -- via discord
+# WaldoTheRanger -- https://openxcom.org/forum/index.php/topic,7938.0.html
+# Chuckebaby -- via forums
+# Meatstuff -- via discord
+# Dr. Granola -- via discord
+#
+#
 # other game ideas and help:
 # Meridian:
 #		for always being extremely patient and helpful no matter how difficult I have been
@@ -345,7 +390,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 1.0.7.1
+version: 1.0.9
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
