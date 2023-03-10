@@ -139,18 +139,12 @@ mapScripts:
       groups: 2
     - type: addBlock
       groups: 3
-    - type: addBlock
-      blocks: 1
-      executionChances: 20
-    - type: addBlock
-      blocks: 5
-      executionChances: 50
-    - type: addBlock
-      blocks: 11
-      executionChances: 50
     - type: fillArea
-      blocks: [2, 3, 6, 7, 8, 9, 10]
-      maxUses: [2, 2, 2, 2, 2, 2, 2]
+      blocks: [1, 2, 3, 5, 6, 7, 8, 9, 10, 11]
+      maxUses: [2, 3, 2, 3, 2, 2, 3, 1, 2, 3]
+    - type: fillArea
+      blocks: [2, 7, 8]
+      maxUses: [3, 14, 3]
     - type: digTunnel
       direction: both
       tunnelData:

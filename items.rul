@@ -4188,9 +4188,9 @@ items:
     fireSound: 18
     compatibleAmmo:
       - STR_PLASMA_SHOTGUN_CLIP
-    accuracyAuto: 25
-    accuracySnap: 48
-    accuracyAimed: 81
+    accuracyAuto: 35
+    accuracySnap: 68
+    accuracyAimed: 121
     tuAuto: 23
     tuSnap: 33
     tuAimed: 61
@@ -4977,7 +4977,7 @@ items:
   - type: STR_POWER_SUIT_RIFLE_CLIP
     listOrder: 4225
     size: 0.004
-    costSell: 434000
+    costSell: 435000
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
     weight: 7
     bigSprite: 365
@@ -5008,7 +5008,7 @@ items:
   - type: STR_POWER_SUIT_HEAVY
     listOrder: 4240
     size: 0.03
-    costSell: 5180000
+    costSell: 4640000
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
     weight: 60
     bigSprite: 356
@@ -5044,7 +5044,7 @@ items:
   - type: STR_POWER_SUIT_HEAVY_CLIP
     listOrder: 4245
     size: 0.005
-    costSell: 495000
+    costSell: 450000
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
     weight: 6
     bigSprite: 357
@@ -5729,7 +5729,7 @@ items:
   - type: STR_MEDI_KIT_SUPER
     listOrder: 4420
     size: 0.01
-    costSell: 649000
+    costSell: 609000
     categories: [STR_CAT_EQUIPMENT, STR_CAT_HIGH_TECH]
     weight: 10
     bigSprite: 353
@@ -6538,7 +6538,7 @@ items:
       - STR_SECTOPOD_AUTOPSY
     costBuy: 165000
     transferTime: 36
-    costSell: 50000
+    costSell: 25000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_SURGICAL_INTERFACE
     listOrder: 5215
@@ -6548,36 +6548,36 @@ items:
   - type: STR_ALIEN_GENETIC_IMPLANTER
     listOrder: 5220
     size: 0.015
-    costSell: 50000
+    costSell: 25000
     categories: [STR_CAT_SALVAGE]
   - type: STR_REPOSITORY_YELLOW
     listOrder: 5275
     size: 0.2
-    costSell: 516000
+    costSell: 241000 #516000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 16
-    recoveryPoints: 14
+    recoveryPoints: 2
   - type: STR_REPOSITORY_GREEN
     listOrder: 5280
     size: 0.2
-    costSell: 437000
+    costSell: 239000 #437000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 17
-    recoveryPoints: 17
+    recoveryPoints: 3
   - type: STR_REPOSITORY_BLUE
     listOrder: 5285
     size: 0.2
-    costSell: 486000
+    costSell: 194000 #486000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 18
-    recoveryPoints: 20
+    recoveryPoints: 4
   - type: STR_REPOSITORY_BRAIN
     listOrder: 5290
     size: 0.2
-    costSell: 285000
+    costSell: 267000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 19
-    recoveryPoints: 50
+    recoveryPoints: 25
   - type: STR_PLASMA_PISTOL_RED
     listOrder: 95100
     requires:

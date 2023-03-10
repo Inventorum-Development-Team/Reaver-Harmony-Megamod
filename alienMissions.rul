@@ -13,21 +13,31 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_SECTOID_SOME_ARMORED: 30
         STR_FLOATER: 70
-      4:
+      2:
         STR_SECTOID_SOME_ARMORED: 100
-      6:
+      4:
         STR_SECTOID_ARMORED: 7
         STR_SNAKEMAN: 90
         STR_FLOATER: 3
-      9:
+      6:
         STR_MIXED_RESEARCH: 100
-      12:
+      8:
         STR_SECTOID_ARMORED: 60
         STR_FLOATER: 10
         STR_SNAKEMAN: 30
+      10:
+        STR_SECTOID_ARMORED: 48
+        STR_FLOATER: 8
+        STR_SNAKEMAN: 24
+        STR_MIXED_RESEARCH: 20
+      12:
+        STR_SECTOID_ARMORED: 42
+        STR_FLOATER: 7
+        STR_SNAKEMAN: 21
+        STR_MIXED_RESEARCH: 30
       15:
         STR_SECTOID_ARMORED: 30
         STR_FLOATER: 5
@@ -70,21 +80,31 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_SECTOID_SOME_ARMORED: 30
         STR_FLOATER: 70
-      4:
+      2:
         STR_SECTOID_SOME_ARMORED: 100
-      6:
+      4:
         STR_SECTOID_ARMORED: 7
         STR_SNAKEMAN: 90
         STR_FLOATER: 3
-      9:
+      6:
         STR_MIXED_RESEARCH: 100
-      12:
+      8:
         STR_SECTOID_ARMORED: 60
         STR_FLOATER: 10
         STR_SNAKEMAN: 30
+      10:
+        STR_SECTOID_ARMORED: 48
+        STR_FLOATER: 8
+        STR_SNAKEMAN: 24
+        STR_MIXED_RESEARCH: 20
+      12:
+        STR_SECTOID_ARMORED: 42
+        STR_FLOATER: 7
+        STR_SNAKEMAN: 21
+        STR_MIXED_RESEARCH: 30
       15:
         STR_SECTOID_ARMORED: 30
         STR_FLOATER: 5
@@ -125,21 +145,31 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_SOME_ARMORED: 33
         STR_FLOATER: 67
-      6:
+      4:
         STR_SECTOID_ARMORED: 10
         STR_FLOATER: 20
         STR_SNAKEMAN: 70
-      9:
+      6:
         STR_MIXED_ABDUCTION: 100
-      12:
+      8:
         STR_SECTOID_ARMORED: 30
         STR_FLOATER: 60
         STR_SNAKEMAN: 10
+      10:
+        STR_SECTOID_ARMORED: 24
+        STR_FLOATER: 48
+        STR_SNAKEMAN: 8
+        STR_MIXED_ABDUCTION: 20
+      12:
+        STR_SECTOID_ARMORED: 21
+        STR_FLOATER: 42
+        STR_SNAKEMAN: 7
+        STR_MIXED_ABDUCTION: 30
       15:
         STR_SECTOID_ARMORED: 15
         STR_FLOATER: 30
@@ -188,21 +218,31 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_SOME_ARMORED: 33
         STR_FLOATER: 67
-      6:
+      4:
         STR_SECTOID_ARMORED: 10
         STR_FLOATER: 20
         STR_SNAKEMAN: 70
-      9:
+      6:
         STR_MIXED_ABDUCTION: 100
-      12:
+      8:
         STR_SECTOID_ARMORED: 30
         STR_FLOATER: 60
         STR_SNAKEMAN: 10
+      10:
+        STR_SECTOID_ARMORED: 24
+        STR_FLOATER: 48
+        STR_SNAKEMAN: 8
+        STR_MIXED_ABDUCTION: 20
+      12:
+        STR_SECTOID_ARMORED: 21
+        STR_FLOATER: 42
+        STR_SNAKEMAN: 7
+        STR_MIXED_ABDUCTION: 30
       15:
         STR_SECTOID_ARMORED: 15
         STR_FLOATER: 30
@@ -251,19 +291,29 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_SOME_ARMORED: 25
         STR_FLOATER: 75
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MIXED_HARVEST: 100
-      12:
+      8:
         STR_SECTOID_ARMORED: 10
         STR_FLOATER: 30
         STR_SNAKEMAN: 60
+      10:
+        STR_SECTOID_ARMORED: 8
+        STR_FLOATER: 24
+        STR_SNAKEMAN: 48
+        STR_MIXED_HARVEST: 20
+      12:
+        STR_SECTOID_ARMORED: 7
+        STR_FLOATER: 21
+        STR_SNAKEMAN: 42
+        STR_MIXED_HARVEST: 30
       15:
         STR_SECTOID_ARMORED: 5
         STR_FLOATER: 15
@@ -312,19 +362,29 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_SOME_ARMORED: 25
         STR_FLOATER: 75
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MIXED_HARVEST: 100
-      12:
+      8:
         STR_SECTOID_ARMORED: 10
         STR_FLOATER: 30
         STR_SNAKEMAN: 60
+      10:
+        STR_SECTOID_ARMORED: 8
+        STR_FLOATER: 24
+        STR_SNAKEMAN: 48
+        STR_MIXED_HARVEST: 20
+      12:
+        STR_SECTOID_ARMORED: 7
+        STR_FLOATER: 21
+        STR_SNAKEMAN: 42
+        STR_MIXED_HARVEST: 30
       15:
         STR_SECTOID_ARMORED: 5
         STR_FLOATER: 15
@@ -377,34 +437,32 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID_BASE: 100
-      12:
+      8:
         STR_ETHEREAL_BASE: 100
-      15:
+      10:
         STR_MIXED_INFILTRATION: 100
-      18:
+      12:
         STR_SECTOID_BASE: 35
         STR_ETHEREAL_BASE: 15
         STR_MIXED_INFILTRATION: 35
         STR_MIXED_INVASION_PSIONIC: 15
-      22:
+      14:
         STR_SECTOID_BASE: 10
         STR_ETHEREAL_BASE: 30
-        STR_MIXED_INFILTRATION: 40
-        STR_MIXED_INVASION_PSIONIC: 20
-      26:
+        STR_MIXED_INFILTRATION: 35
+        STR_MIXED_INVASION_PSIONIC: 25
+      16:
         STR_SECTOID_BASE: 20
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 25
         STR_MIXED_INVASION_PSIONIC: 50
-      30:
+      18:
         STR_SECTOID_BASE: 5
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 20
         STR_MIXED_INVASION_PSIONIC: 70
-      36:
-        STR_SECTOID_BASE: 5
-        STR_ETHEREAL_BASE: 5
-        STR_MIXED_INVASION_PSIONIC: 90
+      24:
+        STR_MIXED_INVASION_PSIONIC: 100
     waves:
       - ufo: STR_COVERT_OPS_SHIP
         count: 1
@@ -449,7 +507,7 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 120
-      - ufo: STR_PATROLLER
+      - ufo: STR_LIGHT_DESTROYER
         count: 1
         trajectory: P79
         timer: 60
@@ -477,34 +535,32 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID_BASE: 100
-      12:
+      8:
         STR_ETHEREAL_BASE: 100
-      15:
+      10:
         STR_MIXED_INFILTRATION: 100
-      18:
+      12:
         STR_SECTOID_BASE: 35
         STR_ETHEREAL_BASE: 15
         STR_MIXED_INFILTRATION: 35
         STR_MIXED_INVASION_PSIONIC: 15
-      22:
+      14:
         STR_SECTOID_BASE: 10
         STR_ETHEREAL_BASE: 30
-        STR_MIXED_INFILTRATION: 40
-        STR_MIXED_INVASION_PSIONIC: 20
-      26:
+        STR_MIXED_INFILTRATION: 35
+        STR_MIXED_INVASION_PSIONIC: 25
+      16:
         STR_SECTOID_BASE: 20
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 25
         STR_MIXED_INVASION_PSIONIC: 50
-      30:
+      18:
         STR_SECTOID_BASE: 5
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 20
         STR_MIXED_INVASION_PSIONIC: 70
-      36:
-        STR_SECTOID_BASE: 5
-        STR_ETHEREAL_BASE: 5
-        STR_MIXED_INVASION_PSIONIC: 90
+      24:
+        STR_MIXED_INVASION_PSIONIC: 100
     waves:
       - ufo: STR_COVERT_OPS_SHIP
         count: 1
@@ -570,34 +626,32 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID_BASE: 100
-      12:
+      8:
         STR_ETHEREAL_BASE: 100
-      15:
+      10:
         STR_MIXED_INFILTRATION: 100
-      18:
+      12:
         STR_SECTOID_BASE: 35
         STR_ETHEREAL_BASE: 15
         STR_MIXED_INFILTRATION: 35
         STR_MIXED_INVASION_PSIONIC: 15
-      22:
+      14:
         STR_SECTOID_BASE: 10
         STR_ETHEREAL_BASE: 30
-        STR_MIXED_INFILTRATION: 40
-        STR_MIXED_INVASION_PSIONIC: 20
-      26:
+        STR_MIXED_INFILTRATION: 35
+        STR_MIXED_INVASION_PSIONIC: 25
+      16:
         STR_SECTOID_BASE: 20
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 25
         STR_MIXED_INVASION_PSIONIC: 50
-      30:
+      18:
         STR_SECTOID_BASE: 5
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INFILTRATION: 20
         STR_MIXED_INVASION_PSIONIC: 70
-      36:
-        STR_SECTOID_BASE: 5
-        STR_ETHEREAL_BASE: 5
-        STR_MIXED_INVASION_PSIONIC: 90
+      24:
+        STR_MIXED_INVASION_PSIONIC: 100
     waves:
       - ufo: STR_COVERT_OPS_SHIP_ELITE
         count: 1
@@ -664,44 +718,35 @@ alienMissions:
         STR_SECTOID_BASE: 100
       2:
         STR_FLOATER_BASE: 100
-      5:
-        STR_SECTOID_BASE: 100
-      6:
+      4:
         STR_SNAKEMAN_BASE: 100
-      9:
+      6:
         STR_MUTON_BASE: 100
-      12:
+      8:
         STR_ETHEREAL_BASE: 100
-      15:
-        STR_SECTOID_BASE: 100
-      17:
-        STR_FLOATER_BASE: 100
+      10:
+        STR_SECTOID_BASE: 26
+        STR_FLOATER_BASE: 26
+        STR_SNAKEMAN_BASE: 16
+        STR_MUTON_BASE: 16
+        STR_ETHEREAL_BASE: 16
+      12:
+        STR_SECTOID_BASE: 15
+        STR_FLOATER_BASE: 15
+        STR_MUTON_BASE: 15
+        STR_ETHEREAL_BASE: 15
+        STR_MIXED_INVASION_PSIONIC: 20
+        STR_MIXED_INVASION_DESTROY: 20
       18:
-        STR_SECTOID_BASE: 25
-        STR_FLOATER_BASE: 25
-        STR_MUTON_BASE: 25
-        STR_ETHEREAL_BASE: 25
-      24:
-        STR_SECTOID_BASE: 20
-        STR_FLOATER_BASE: 20
-        STR_MUTON_BASE: 20
-        STR_ETHEREAL_BASE: 20
-        STR_MIXED_INVASION_PSIONIC: 10
-        STR_MIXED_INVASION_DESTROY: 10
-      30:
-        STR_SECTOID_BASE: 12
-        STR_FLOATER_BASE: 13
-        STR_MUTON_BASE: 13
-        STR_ETHEREAL_BASE: 12
-        STR_MIXED_INVASION_PSIONIC: 25
-        STR_MIXED_INVASION_DESTROY: 25
-      36:
         STR_SECTOID_BASE: 5
         STR_FLOATER_BASE: 5
         STR_MUTON_BASE: 5
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 40
+      24:
+        STR_MIXED_INVASION_PSIONIC: 50
+        STR_MIXED_INVASION_DESTROY: 50
     waves:
       - ufo: STR_MEDIUM_SCOUT
         count: 1
@@ -757,44 +802,35 @@ alienMissions:
         STR_SECTOID_BASE: 100
       2:
         STR_FLOATER_BASE: 100
-      5:
-        STR_SECTOID_BASE: 100
-      6:
+      4:
         STR_SNAKEMAN_BASE: 100
-      9:
+      6:
         STR_MUTON_BASE: 100
-      12:
+      8:
         STR_ETHEREAL_BASE: 100
-      15:
-        STR_SECTOID_BASE: 100
-      17:
-        STR_FLOATER_BASE: 100
+      10:
+        STR_SECTOID_BASE: 26
+        STR_FLOATER_BASE: 26
+        STR_SNAKEMAN_BASE: 16
+        STR_MUTON_BASE: 16
+        STR_ETHEREAL_BASE: 16
+      12:
+        STR_SECTOID_BASE: 15
+        STR_FLOATER_BASE: 15
+        STR_MUTON_BASE: 15
+        STR_ETHEREAL_BASE: 15
+        STR_MIXED_INVASION_PSIONIC: 20
+        STR_MIXED_INVASION_DESTROY: 20
       18:
-        STR_SECTOID_BASE: 25
-        STR_FLOATER_BASE: 25
-        STR_MUTON_BASE: 25
-        STR_ETHEREAL_BASE: 25
-      24:
-        STR_SECTOID_BASE: 20
-        STR_FLOATER_BASE: 20
-        STR_MUTON_BASE: 20
-        STR_ETHEREAL_BASE: 20
-        STR_MIXED_INVASION_PSIONIC: 10
-        STR_MIXED_INVASION_DESTROY: 10
-      30:
-        STR_SECTOID_BASE: 12
-        STR_FLOATER_BASE: 13
-        STR_MUTON_BASE: 13
-        STR_ETHEREAL_BASE: 12
-        STR_MIXED_INVASION_PSIONIC: 25
-        STR_MIXED_INVASION_DESTROY: 25
-      36:
         STR_SECTOID_BASE: 5
         STR_FLOATER_BASE: 5
         STR_MUTON_BASE: 5
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 40
+      24:
+        STR_MIXED_INVASION_PSIONIC: 50
+        STR_MIXED_INVASION_DESTROY: 50
     waves:
       - ufo: STR_MEDIUM_SCOUT
         count: 1
@@ -845,44 +881,35 @@ alienMissions:
         STR_SECTOID_BASE: 100
       2:
         STR_FLOATER_BASE: 100
-      5:
-        STR_SECTOID_BASE: 100
-      6:
+      4:
         STR_SNAKEMAN_BASE: 100
-      9:
+      6:
         STR_MUTON_BASE: 100
-      12:
+      8:
         STR_ETHEREAL_BASE: 100
-      15:
-        STR_SECTOID_BASE: 100
-      17:
-        STR_FLOATER_BASE: 100
+      10:
+        STR_SECTOID_BASE: 26
+        STR_FLOATER_BASE: 26
+        STR_SNAKEMAN_BASE: 16
+        STR_MUTON_BASE: 16
+        STR_ETHEREAL_BASE: 16
+      12:
+        STR_SECTOID_BASE: 15
+        STR_FLOATER_BASE: 15
+        STR_MUTON_BASE: 15
+        STR_ETHEREAL_BASE: 15
+        STR_MIXED_INVASION_PSIONIC: 20
+        STR_MIXED_INVASION_DESTROY: 20
       18:
-        STR_SECTOID_BASE: 25
-        STR_FLOATER_BASE: 25
-        STR_MUTON_BASE: 25
-        STR_ETHEREAL_BASE: 25
-      24:
-        STR_SECTOID_BASE: 20
-        STR_FLOATER_BASE: 20
-        STR_MUTON_BASE: 20
-        STR_ETHEREAL_BASE: 20
-        STR_MIXED_INVASION_PSIONIC: 10
-        STR_MIXED_INVASION_DESTROY: 10
-      30:
-        STR_SECTOID_BASE: 12
-        STR_FLOATER_BASE: 13
-        STR_MUTON_BASE: 13
-        STR_ETHEREAL_BASE: 12
-        STR_MIXED_INVASION_PSIONIC: 25
-        STR_MIXED_INVASION_DESTROY: 25
-      36:
         STR_SECTOID_BASE: 5
         STR_FLOATER_BASE: 5
         STR_MUTON_BASE: 5
         STR_ETHEREAL_BASE: 5
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 40
+      24:
+        STR_MIXED_INVASION_PSIONIC: 50
+        STR_MIXED_INVASION_DESTROY: 50
     waves:
       - ufo: STR_MEDIUM_SCOUT_ELITE
         count: 1
@@ -935,18 +962,20 @@ alienMissions:
       12:
         STR_FLOATER_BASE: 50
         STR_MUTON_BASE: 50
-      24:
+      14:
         STR_FLOATER_BASE: 40
         STR_MUTON_BASE: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON_BASE: 25
         STR_FLOATER_BASE: 25
         STR_MIXED_INVASION_DESTROY: 50
-      36:
+      18:
         STR_MUTON_BASE: 10
         STR_FLOATER_BASE: 10
         STR_MIXED_INVASION_DESTROY: 80
+      24:
+        STR_MIXED_INVASION_DESTROY: 100
     waves:
       - ufo: STR_MEDIUM_SCOUT
         count: 1
@@ -989,18 +1018,20 @@ alienMissions:
       12:
         STR_FLOATER_BASE: 50
         STR_MUTON_BASE: 50
-      24:
+      14:
         STR_FLOATER_BASE: 40
         STR_MUTON_BASE: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON_BASE: 25
         STR_FLOATER_BASE: 25
         STR_MIXED_INVASION_DESTROY: 50
-      36:
+      18:
         STR_MUTON_BASE: 10
         STR_FLOATER_BASE: 10
         STR_MIXED_INVASION_DESTROY: 80
+      24:
+        STR_MIXED_INVASION_DESTROY: 100
     waves:
       - ufo: STR_MEDIUM_SCOUT_ELITE
         count: 1
@@ -1066,26 +1097,26 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      7:
         STR_MUTON: 100
-      12:
+      9:
         STR_ETHEREAL: 100
-      15:
+      11:
         STR_MIXED_TERROR: 100
-      18:
+      13:
         STR_SECTOID_ARMORED: 20
         STR_SNAKEMAN: 20
         STR_ETHEREAL: 20
         STR_MUTON: 20
         STR_FLOATER: 20
-      24:
+      14:
         STR_SECTOID_ARMORED: 12
         STR_SNAKEMAN: 24
         STR_ETHEREAL: 8
@@ -1093,7 +1124,7 @@ alienMissions:
         STR_FLOATER: 8
         STR_MIXED_TERROR: 16
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_SECTOID_ARMORED: 6
         STR_SNAKEMAN: 12
         STR_ETHEREAL: 4
@@ -1101,7 +1132,7 @@ alienMissions:
         STR_FLOATER: 4
         STR_MIXED_TERROR: 18
         STR_MIXED_INVASION_DESTROY: 50
-      36:
+      18:
         STR_SECTOID_ARMORED: 3
         STR_SNAKEMAN: 6
         STR_ETHEREAL: 2
@@ -1109,6 +1140,8 @@ alienMissions:
         STR_FLOATER: 2
         STR_MIXED_TERROR: 9
         STR_MIXED_INVASION_DESTROY: 75
+      24:
+        STR_MIXED_INVASION_DESTROY: 100
     waves:
       - ufo: STR_TERROR_SHIP
         interruptPercentage: 67
@@ -1133,26 +1166,26 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      7:
         STR_MUTON: 100
-      12:
+      9:
         STR_ETHEREAL: 100
-      15:
+      11:
         STR_MIXED_TERROR: 100
-      18:
+      13:
         STR_SECTOID_ARMORED: 20
         STR_SNAKEMAN: 20
         STR_ETHEREAL: 20
         STR_MUTON: 20
         STR_FLOATER: 20
-      24:
+      14:
         STR_SECTOID_ARMORED: 12
         STR_SNAKEMAN: 24
         STR_ETHEREAL: 8
@@ -1160,7 +1193,7 @@ alienMissions:
         STR_FLOATER: 8
         STR_MIXED_TERROR: 16
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_SECTOID_ARMORED: 6
         STR_SNAKEMAN: 12
         STR_ETHEREAL: 4
@@ -1168,7 +1201,7 @@ alienMissions:
         STR_FLOATER: 4
         STR_MIXED_TERROR: 18
         STR_MIXED_INVASION_DESTROY: 50
-      36:
+      18:
         STR_SECTOID_ARMORED: 3
         STR_SNAKEMAN: 6
         STR_ETHEREAL: 2
@@ -1176,6 +1209,8 @@ alienMissions:
         STR_FLOATER: 2
         STR_MIXED_TERROR: 9
         STR_MIXED_INVASION_DESTROY: 75
+      24:
+        STR_MIXED_INVASION_DESTROY: 100
     waves:
       - ufo: STR_TERROR_SHIP
         interruptPercentage: 67
@@ -1212,26 +1247,26 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      7:
         STR_MUTON: 100
-      12:
+      9:
         STR_ETHEREAL: 100
-      15:
+      11:
         STR_MIXED_TERROR: 100
-      18:
+      13:
         STR_SECTOID_ARMORED: 20
         STR_SNAKEMAN: 20
         STR_ETHEREAL: 20
         STR_MUTON: 20
         STR_FLOATER: 20
-      24:
+      14:
         STR_SECTOID_ARMORED: 12
         STR_SNAKEMAN: 24
         STR_ETHEREAL: 8
@@ -1239,7 +1274,7 @@ alienMissions:
         STR_FLOATER: 8
         STR_MIXED_TERROR: 16
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_SECTOID_ARMORED: 6
         STR_SNAKEMAN: 12
         STR_ETHEREAL: 4
@@ -1247,7 +1282,7 @@ alienMissions:
         STR_FLOATER: 4
         STR_MIXED_TERROR: 18
         STR_MIXED_INVASION_DESTROY: 50
-      36:
+      18:
         STR_SECTOID_ARMORED: 3
         STR_SNAKEMAN: 6
         STR_ETHEREAL: 2
@@ -1255,6 +1290,8 @@ alienMissions:
         STR_FLOATER: 2
         STR_MIXED_TERROR: 9
         STR_MIXED_INVASION_DESTROY: 75
+      24:
+        STR_MIXED_INVASION_DESTROY: 100
     waves:
       - ufo: STR_TERROR_SHIP_ELITE
         interruptPercentage: 67
@@ -1290,49 +1327,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 100
-      3: 80
+      2: 80
+      4: 0
       6: 0
-      9: 0
+      8: 0
+      10: 0
       12: 0
-      15: 0
-      18: 0
-      21: 0
-      24: 0
+      14: 0
+      16: 0
     waves:
       - ufo: STR_SMALL_SCOUT
         count: 1
@@ -1365,49 +1402,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 0
-      3: 0
-      6: 20
-      9: 60
-      12: 10
-      15: 10
-      18: 0
-      21: 0
-      24: 0
+      2: 0
+      4: 20
+      6: 60
+      8: 10
+      10: 10
+      12: 0
+      14: 0
+      16: 0
     waves:
       - ufo: STR_LIGHT_DESTROYER
         count: 1
@@ -1440,49 +1477,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 0
-      3: 0
+      2: 0
+      4: 0
       6: 0
-      9: 0
-      12: 0
-      15: 0
-      18: 20
-      21: 20
-      24: 20
+      8: 0
+      10: 0
+      12: 20
+      14: 20
+      16: 20
     waves:
       - ufo: STR_LIGHT_DESTROYER_ELITE
         count: 1
@@ -1515,49 +1552,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 0
-      3: 20
-      6: 80
-      9: 10
+      2: 20
+      4: 80
+      6: 10
+      8: 0
+      10: 0
       12: 0
-      15: 0
-      18: 0
-      21: 0
-      24: 0
+      14: 0
+      16: 0
     waves:
       - ufo: STR_SMALL_SCOUT
         count: 1
@@ -1586,49 +1623,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 0
-      3: 0
+      2: 0
+      4: 0
       6: 0
-      9: 0
-      12: 10
-      15: 80
-      18: 15
-      21: 0
-      24: 0
+      8: 10
+      10: 80
+      12: 15
+      14: 0
+      16: 0
     waves:
       - ufo: STR_LIGHT_DESTROYER
         count: 2
@@ -1661,49 +1698,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 0
-      3: 0
+      2: 0
+      4: 0
       6: 0
-      9: 0
-      12: 0
-      15: 0
-      18: 15
-      21: 30
-      24: 30
+      8: 0
+      10: 0
+      12: 15
+      14: 30
+      16: 30
     waves:
       - ufo: STR_SMALL_SCOUT_ELITE
         count: 1
@@ -1740,49 +1777,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 0
-      3: 0
-      6: 0
-      9: 30
-      12: 80
-      15: 10
-      18: 0
-      21: 0
-      24: 0
+      2: 0
+      4: 0
+      6: 30
+      8: 80
+      10: 10
+      12: 0
+      14: 0
+      16: 0
     waves:
       - ufo: STR_LIGHT_DESTROYER
         count: 1
@@ -1815,49 +1852,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 0
-      3: 0
+      2: 0
+      4: 0
       6: 0
-      9: 0
-      12: 0
-      15: 0
-      18: 50
-      21: 25
-      24: 0
+      8: 0
+      10: 0
+      12: 50
+      14: 25
+      16: 0
     waves:
       - ufo: STR_LIGHT_DESTROYER
         count: 1
@@ -1894,49 +1931,49 @@ alienMissions:
     raceWeights:
       0:
         STR_SECTOID: 100
-      2:
+      1:
         STR_FLOATER: 100
-      4:
+      2:
         STR_SECTOID_ARMORED: 50
         STR_FLOATER: 50
-      6:
+      4:
         STR_SNAKEMAN: 100
-      9:
+      6:
         STR_MUTON: 100
-      12:
+      8:
         STR_ETHEREAL: 100
-      15:
+      10:
         STR_MIXED_RETALIATION: 100
-      18:
+      12:
         STR_ETHEREAL: 25
         STR_MIXED_RETALIATION: 75
-      21:
-        STR_MUTON: 50
-        STR_MIXED_RETALIATION: 50
-      24:
+      14:
         STR_MUTON: 40
         STR_MIXED_RETALIATION: 40
         STR_MIXED_INVASION_DESTROY: 20
-      30:
+      16:
         STR_MUTON: 25
         STR_MIXED_RETALIATION: 25
         STR_MIXED_INVASION_PSIONIC: 40
         STR_MIXED_INVASION_DESTROY: 10
-      36:
+      18:
         STR_MUTON: 5
         STR_MIXED_RETALIATION: 20
         STR_MIXED_INVASION_PSIONIC: 60
         STR_MIXED_INVASION_DESTROY: 15
+      24:
+        STR_MIXED_INVASION_PSIONIC: 80
+        STR_MIXED_INVASION_DESTROY: 20
     missionWeights:
       0: 0
-      3: 0
+      2: 0
+      4: 0
       6: 0
-      9: 0
+      8: 0
+      10: 0
       12: 0
-      15: 0
-      18: 0
-      21: 25
-      24: 50
+      14: 25
+      16: 50
     waves:
       - ufo: STR_SMALL_SCOUT_ELITE
         count: 1

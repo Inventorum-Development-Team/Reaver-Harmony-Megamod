@@ -25,36 +25,54 @@ missionScripts:
     startDelay: 10000
   - type: recurringTerror
     firstMonth: 0
+    lastMonth: 56
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-      12:
+      4:
         STR_ALIEN_TERROR: 80
         STR_ALIEN_TERROR_DEFENDED: 20
-      13:
+      6:
         STR_ALIEN_TERROR: 60
         STR_ALIEN_TERROR_DEFENDED: 40
-      14:
+      8:
         STR_ALIEN_TERROR: 40
         STR_ALIEN_TERROR_DEFENDED: 60
-      15:
+      10:
         STR_ALIEN_TERROR: 20
         STR_ALIEN_TERROR_DEFENDED: 80
-      16:
+      12:
         STR_ALIEN_TERROR_DEFENDED: 100
-      24:
+      14:
         STR_ALIEN_TERROR_DEFENDED: 75
         STR_ALIEN_TERROR_ELITE: 25
-      32:
+      16:
         STR_ALIEN_TERROR_DEFENDED: 50
         STR_ALIEN_TERROR_ELITE: 50
-      40:
+      18:
         STR_ALIEN_TERROR_DEFENDED: 25
         STR_ALIEN_TERROR_ELITE: 75
-      48:
+      24:
         STR_ALIEN_TERROR_ELITE: 100
     useTable: false
     startDelay: 0
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 16
+        STR_ARCTIC: 0
+        STR_ANTARCTICA: 0
+        STR_SOUTH_AMERICA: 12
+        STR_EUROPE: 19
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 8
+        STR_CENTRAL_ASIA: 14
+        STR_SOUTH_EAST_ASIA: 13
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 8
+        STR_PACIFIC: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_INDIAN_OCEAN: 0
   - type: abduct
     firstMonth: 2
     lastMonth: 3
@@ -197,41 +215,27 @@ missionScripts:
     lastMonth: 98
     missionWeights:
       0:
-        STR_ALIEN_RESEARCH: 33
-        STR_ALIEN_ABDUCTION: 30
-        STR_ALIEN_HARVEST: 37
+        STR_ALIEN_RESEARCH_ELITE: 33
+        STR_ALIEN_ABDUCTION_ELITE: 30
+        STR_ALIEN_HARVEST_ELITE: 37
     useTable: false
   - type: Incursion4
     firstMonth: 15
     lastMonth: 23
     missionWeights:
       0:
-        STR_ALIEN_INFILTRATION_DEFENDED: 50
-        STR_ALIEN_OUTPOST: 50
+        STR_ALIEN_INFILTRATION_ELITE: 50
+        STR_ALIEN_OUTPOST_ELITE: 50
       18:
-        STR_ALIEN_INFILTRATION_DEFENDED: 50
-        STR_ALIEN_OUTPOST: 30
-        STR_ALIEN_BASE_DEFENDED: 20
+        STR_ALIEN_INFILTRATION_ELITE: 50
+        STR_ALIEN_OUTPOST_ELITE: 30
+        STR_ALIEN_BASE_ELITE: 20
     useTable: false
   - type: recurringInfiltration
     firstMonth: 24
     lastMonth: 92
     missionWeights:
       0:
-        STR_ALIEN_INFILTRATION_DEFENDED: 100
-      24:
-        STR_ALIEN_INFILTRATION_DEFENDED: 80
-        STR_ALIEN_INFILTRATION_ELITE: 20
-      27:
-        STR_ALIEN_INFILTRATION_DEFENDED: 60
-        STR_ALIEN_INFILTRATION_ELITE: 40
-      30:
-        STR_ALIEN_INFILTRATION_DEFENDED: 40
-        STR_ALIEN_INFILTRATION_ELITE: 60
-      33:
-        STR_ALIEN_INFILTRATION_DEFENDED: 20
-        STR_ALIEN_INFILTRATION_ELITE: 80
-      36:
         STR_ALIEN_INFILTRATION_ELITE: 100
     useTable: false
   - type: recurringColonization
@@ -239,29 +243,6 @@ missionScripts:
     lastMonth: 106
     missionWeights:
       0:
-        STR_ALIEN_OUTPOST: 80
-        STR_ALIEN_BASE_DEFENDED: 20
-      24:
-        STR_ALIEN_OUTPOST: 64
-        STR_ALIEN_OUTPOST_ELITE: 16
-        STR_ALIEN_BASE_DEFENDED: 16
-        STR_ALIEN_BASE_ELITE: 4
-      27:
-        STR_ALIEN_OUTPOST: 48
-        STR_ALIEN_OUTPOST_ELITE: 32
-        STR_ALIEN_BASE_DEFENDED: 12
-        STR_ALIEN_BASE_ELITE: 8
-      30:
-        STR_ALIEN_OUTPOST: 32
-        STR_ALIEN_OUTPOST_ELITE: 48
-        STR_ALIEN_BASE_DEFENDED: 8
-        STR_ALIEN_BASE_ELITE: 12
-      33:
-        STR_ALIEN_OUTPOST: 16
-        STR_ALIEN_OUTPOST_ELITE: 64
-        STR_ALIEN_BASE_DEFENDED: 4
-        STR_ALIEN_BASE_ELITE: 16
-      36:
         STR_ALIEN_OUTPOST_ELITE: 100
         STR_ALIEN_BASE_ELITE: 20
     useTable: false
@@ -298,8 +279,8 @@ missionScripts:
     useTable: false
     randomDelay: 100000
   - type: snakemanOutpost
-    firstMonth: 7
-    lastMonth: 7
+    firstMonth: 5
+    lastMonth: 5
     missionWeights:
       0:
         STR_ALIEN_OUTPOST: 100
@@ -309,8 +290,8 @@ missionScripts:
     useTable: false
     randomDelay: 100000
   - type: mutonOutpost
-    firstMonth: 10
-    lastMonth: 10
+    firstMonth: 7
+    lastMonth: 7
     missionWeights:
       0:
         STR_ALIEN_OUTPOST: 100
@@ -320,8 +301,8 @@ missionScripts:
     useTable: false
     randomDelay: 100000
   - type: etherealOutpost
-    firstMonth: 13
-    lastMonth: 13
+    firstMonth: 9
+    lastMonth: 9
     missionWeights:
       0:
         STR_ALIEN_OUTPOST: 100
@@ -331,8 +312,8 @@ missionScripts:
     useTable: false
     randomDelay: 100000
   - type: sectoidBase
-    firstMonth: 3
-    lastMonth: 3
+    firstMonth: 1
+    lastMonth: 1
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
@@ -342,8 +323,8 @@ missionScripts:
     useTable: false
     randomDelay: 102240 #Apr, May +10 days
   - type: floaterBase
-    firstMonth: 6
-    lastMonth: 6
+    firstMonth: 4
+    lastMonth: 4
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
@@ -353,8 +334,8 @@ missionScripts:
     useTable: false
     randomDelay: 102240 #Jul, Aug +10 days
   - type: snakemanBase
-    firstMonth: 9
-    lastMonth: 9
+    firstMonth: 7
+    lastMonth: 7
     missionWeights:
       0:
         STR_ALIEN_BASE_DEFENDED: 100
@@ -364,8 +345,8 @@ missionScripts:
     useTable: false
     randomDelay: 102240 #Oct, Nov +10 days
   - type: mutonBase
-    firstMonth: 12
-    lastMonth: 12
+    firstMonth: 10
+    lastMonth: 10
     missionWeights:
       0:
         STR_ALIEN_BASE_DEFENDED: 100
@@ -375,8 +356,8 @@ missionScripts:
     useTable: false
     randomDelay: 100800 #Jan, Feb 2000 +10 days
   - type: etherealBase
-    firstMonth: 15
-    lastMonth: 15
+    firstMonth: 12
+    lastMonth: 12
     missionWeights:
       0:
         STR_ALIEN_BASE_ELITE: 100

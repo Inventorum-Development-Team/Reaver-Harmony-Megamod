@@ -257,7 +257,25 @@
 #       * Improved Divinity interception and baseview sprites.
 #       * Greatly reduced time to research Alien Laser item.
 #       * Psi Disruptor bugs fixed, hopefully!
-#
+#  1.1.0:   MAJOR PATCH: 'Harder Better Faster Stronger'
+#           Primary focus: Speeds up the progression curve, so the aliens ramp up in difficulty much faster.
+#           - New alien types appear sooner.
+#           - Elite alien forces appear sooner.
+#           - Aliens' destroyers defend critical missions sooner.
+#           - Alien equipment progression happens faster.
+#           - Elite alien weapons appear sooner.
+#           - There are now much fewer non-elite alien forces in the late game.
+#     *** ==> It will be easier to access fourth-tier technology before Cydonia, finally!
+#           CAUTION: Installing this patch in an existing save may cause the aliens to suddenly jump forward in
+#             progression, and one race might fail to build a base. This should not cause any bugs or crashes.
+#       * Repositories now yield a bit less items, a lot less money, and WAY less points!
+#       * Very Small UFOs now contain fewer aliens on lower difficulties.
+#       * Increased Plasma Shotgun accuracy similar to shotgun change in 1.0.9.
+#       * Patched some holes in the Mastodon and the Mothership maps. Abductor maps also tweaked slightly.
+#       * Fixed bug with Flagship manufacturing costs on difficulties other than Superhuman (Very Hard).
+#       * Fixed Snakeman Queen dissection appearing too early.
+#       * A few other minor gameplay tweaks.
+#       * Minor tweaks to UFOPedia and other in-game text.
 #
 # resource authors/sources:
 # Chiko: alien and terran plasma variants
@@ -297,12 +315,12 @@
 #		* obtained via Hardmode Expansion
 #       * further edited within Hardmode Expansion
 # Arathanor, Starvingpoet: smoke and stun explosions
-#       * https://openxcom.mod.io/extra-explosions
+#       * https://mod.io/g/openxcom/m/extra-explosions
 #		* obtained via Extra Explosions
 # Inventorum Development Team/efrenespartano: air equipment sprites + rampage missile sprite
 #       * obtained via https://github.com/Inventorum-Development-Team/IDT_UNEXCOM/tree/master/Resources
 # ivandogovich: various handobs
-#       * https://openxcom.mod.io/improved-hand-objects
+#       * https://mod.io/g/openxcom/m/improved-hand-objects
 #       * obtained via Improved Handobs
 # NeoWorm: interceptor map
 #       * https://openxcom.org/forum/index.php/topic,2732.msg82245.html#msg82245
@@ -310,7 +328,7 @@
 # Meatstuff: statstrings, battle rifle sprite, and ideas
 #		* obtained via Discord
 # Finnik: astronaut suits
-#       * https://openxcom.mod.io/unexcom
+#       * https://mod.io/g/openxcom/m/unexcom
 #       * obtained via UNEXCOM
 #
 # unknown sources:
@@ -390,7 +408,7 @@
 # OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
 
 name: "ReaverXcom Harmony"
-version: 1.0.9
+version: 1.1.0
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

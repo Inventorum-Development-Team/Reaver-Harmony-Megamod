@@ -1723,7 +1723,7 @@ units:
       throwing: 30
       strength: 67
       psiStrength: 80
-      psiSkill: 35
+      psiSkill: 30
       melee: 85
       mana: 30
     psiWeapon: ETHEREAL_PSI_WEAPON
@@ -1775,7 +1775,7 @@ units:
       throwing: 22
       strength: 81
       psiStrength: 100
-      psiSkill: 45
+      psiSkill: 50
       melee: 85
       mana: 65
     psiWeapon: ETHEREAL_PSI_WEAPON

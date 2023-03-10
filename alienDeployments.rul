@@ -98,9 +98,9 @@ alienDeployments:
             - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
-        lowQty: 1
-        highQty: 1
-        dQty: 1
+        lowQty: 0
+        highQty: 2
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets:
           -
@@ -182,9 +182,9 @@ alienDeployments:
             - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
-        lowQty: 1
-        highQty: 1
-        dQty: 0
+        lowQty: 0
+        highQty: 2
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets:
           -
@@ -6426,9 +6426,9 @@ alienDeployments:
             - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
-        lowQty: 1
-        highQty: 1
-        dQty: 1
+        lowQty: 0
+        highQty: 2
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets:
           -
@@ -6456,9 +6456,9 @@ alienDeployments:
             - STR_HEAVY_PLASMA_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
-        lowQty: 1
-        highQty: 1
-        dQty: 0
+        lowQty: 0
+        highQty: 2
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets:
           -
