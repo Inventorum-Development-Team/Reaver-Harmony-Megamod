@@ -10,6 +10,27 @@ manufacture:
   - delete: STR_MIND_PROBE
   - delete: STR_UFO_POWER_SOURCE
   - delete: STR_UFO_NAVIGATION
+  - name: STR_BASE_DEFENSE_AE_MISSILES
+    listOrder: 2
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+    space: 3
+    time: 381
+    cost: 31250
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ALIEN_EXPLOSIVE_UNITS: 8
+  - name: STR_BASE_DEFENSE_PLASMA
+    listOrder: 4
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_PLASMA_DEFENSE
+    space: 0
+    time: 200
+    cost: 125000
+    requiredItems:
+      STR_ELERIUM_115: 5
   - name: STR_ALLOY_CANNON
     listOrder: 40
     category: STR_CRAFT_WEAPON
@@ -22,7 +43,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
   - name: STR_ALLOY_CANNON_ROUNDS_X25
     listOrder: 45
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_ALLOY_WEAPONS
     space: 0
@@ -39,7 +60,7 @@ manufacture:
     cost: 32000
   - name: STR_SHRIKE_MISSILES
     listOrder: 55
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
@@ -54,17 +75,15 @@ manufacture:
     category: STR_CRAFT_WEAPON
     requires:
       - STR_ALIEN_EXPLOSIVES
-      - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
     space: 4
     time: 450
     cost: 48000
   - name: STR_SCORPION_MISSILES
     listOrder: 65
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_ALIEN_EXPLOSIVES
-      - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
     space: 1
     time: 100
@@ -76,7 +95,6 @@ manufacture:
     listOrder: 70
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_ALIEN_EXPLOSIVES
       - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
     space: 3
@@ -84,9 +102,8 @@ manufacture:
     cost: 57000
   - name: STR_TORRENT_MISSILES
     listOrder: 75
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
-      - STR_ALIEN_EXPLOSIVES
       - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
     space: 2
@@ -95,6 +112,25 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 2
       STR_ALIEN_EXPLOSIVE_UNITS: 5
+  - name: STR_RAMPAGE_LAUNCHER
+    listOrder: 80
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_RAMPAGE
+    space: 6
+    time: 600
+    cost: 70000
+  - name: STR_RAMPAGE_MISSILES
+    listOrder: 85
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_RAMPAGE
+    space: 4
+    time: 360
+    cost: 63000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ALIEN_EXPLOSIVE_UNITS: 12
   - name: STR_FUSION_BALL_LAUNCHER
     listOrder: 100
     category: STR_CRAFT_WEAPON
@@ -107,7 +143,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 2
   - name: STR_FUSION_BALL
     listOrder: 110
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_FUSION_MISSILE
     space: 1
@@ -128,7 +164,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
   - name: STR_HEAVY_FUSION_BALL
     listOrder: 130
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_HEAVY_FUSION_MISSILE
     space: 2
@@ -154,13 +190,73 @@ manufacture:
     time: 600
     cost: 450000
   - name: STR_LASER_CANNON
-    listOrder: 200
+    listOrder: 195
     category: STR_CRAFT_WEAPON
     requires:
       - STR_HEAVY_LASER_WEAPONS
     space: 4
     time: 900
     cost: 640000
+  - name: STR_TITAN_LASER_CANNON
+    listOrder: 200
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_TITAN_LASER
+    space: 6
+    time: 1500
+    cost: 1400000
+  - name: STR_CRAFT_LIGHT_LASER_ALT
+    listOrder: 202
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 2
+    time: 200
+    cost: 43000
+    requiredItems:
+      STR_ALIEN_LASER: 3
+    producedItems:
+      STR_CRAFT_LIGHT_LASER: 1
+  - name: STR_PULSE_CANNON_ALT
+    listOrder: 204
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_AUTOMATIC_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 3
+    time: 300
+    cost: 99000
+    requiredItems:
+      STR_ALIEN_LASER: 8
+    producedItems:
+      STR_PULSE_CANNON: 1
+  - name: STR_LASER_CANNON_ALT
+    listOrder: 206
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 4
+    time: 450
+    cost: 113500
+    requiredItems:
+      STR_ALIEN_LASER: 12
+    producedItems:
+      STR_LASER_CANNON: 1
+  - name: STR_TITAN_LASER_CANNON_ALT
+    listOrder: 208
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_TITAN_LASER
+      - STR_ALIEN_LASER
+    space: 6
+    time: 750
+    cost: 252500
+    requiredItems:
+      STR_ALIEN_LASER: 26
+    producedItems:
+      STR_TITAN_LASER_CANNON: 1
   - name: STR_CRAFT_LIGHT_PLASMA
     listOrder: 260
     category: STR_CRAFT_WEAPON
@@ -175,7 +271,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 75
   - name: STR_CRAFT_LP_AMMO_X3
     listOrder: 265
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_UFO_PLASMA_EMITTER
     space: 0
@@ -200,7 +296,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 90
   - name: STR_PLASMA_AC_AMMO_X10
     listOrder: 285
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_UFO_PLASMA_EMITTER
       - STR_AUTOMATIC_PLASMA_WEAPONS
@@ -226,7 +322,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 150
   - name: STR_PLASMA_BEAM_AMMO_X2
     listOrder: 305
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_UFO_PLASMA_EMITTER
       - STR_HEAVY_PLASMA_WEAPONS
@@ -253,7 +349,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 400
   - name: STR_DEVASTATOR_PLASMA_AMMO_X2
     listOrder: 325
-    category: STR_CRAFT_AMMUNITION
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_UFO_PLASMA_EMITTER
       - STR_HEAVY_PLASMA_WEAPONS
@@ -265,30 +361,9 @@ manufacture:
       STR_ELERIUM_115: 1
     producedItems:
       STR_DEVASTATOR_PLASMA_AMMO: 2
-  - name: STR_BASE_DEFENSE_AE_MISSILES
-    listOrder: 335
-    category: STR_AMMUNITION
-    requires:
-      - STR_HEAVY_ALIEN_EXPLOSIVES
-    space: 3
-    time: 350
-    cost: 31250
-    requiredItems:
-      STR_ALIEN_ALLOYS: 3
-      STR_ALIEN_EXPLOSIVE_UNITS: 8
-  - name: STR_BASE_DEFENSE_PLASMA
-    listOrder: 340
-    category: STR_AMMUNITION
-    requires:
-      - STR_PLASMA_DEFENSE
-    space: 0
-    time: 200
-    cost: 125000
-    requiredItems:
-      STR_ELERIUM_115: 5
   - name: STR_LIGHT_TRACTOR_BEAM
-    listOrder: 350
-    category: STR_CRAFT_EQUIPMENT
+    listOrder: 370
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_TRACTOR_BEAMS
     space: 2
@@ -299,8 +374,8 @@ manufacture:
       STR_UFO_SHIELD_EMITTER: 3
       STR_ALIEN_WEAPON_COMPONENTS: 4
   - name: STR_MEDIUM_TRACTOR_BEAM
-    listOrder: 355
-    category: STR_CRAFT_EQUIPMENT
+    listOrder: 372
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_TRACTOR_BEAMS
       - STR_ALIEN_ENGINEER
@@ -312,8 +387,8 @@ manufacture:
       STR_UFO_SHIELD_EMITTER: 9
       STR_ALIEN_WEAPON_COMPONENTS: 20
   - name: STR_HEAVY_TRACTOR_BEAM
-    listOrder: 360
-    category: STR_CRAFT_EQUIPMENT
+    listOrder: 374
+    category: STR_CRAFT_WEAPON
     requires:
       - STR_TRACTOR_BEAMS
       - STR_ALIEN_ENGINEER
@@ -325,6 +400,19 @@ manufacture:
       STR_ALIEN_ALLOYS: 9
       STR_UFO_SHIELD_EMITTER: 27
       STR_ALIEN_WEAPON_COMPONENTS: 100
+  - name: STR_SPACECRAFT_FUEL
+    listOrder: 399
+    category: STR_CRAFT_EQUIPMENT
+    requires:
+      - STR_UFO_CONSTRUCTION
+    space: 0
+    time: 20
+    cost: 10000
+    requiredItems:
+      STR_ELERIUM_115: 2
+      STR_ALIEN_FUEL_PODS: 1
+    producedItems:
+      STR_SPACECRAFT_FUEL: 2
   - name: STR_ALLOY_FUEL_TANKS_UG
     listOrder: 400
     category: STR_CRAFT_EQUIPMENT
@@ -645,7 +733,6 @@ manufacture:
       - STR_ULTIMATE_CRAFT
       - STR_ALIEN_ENGINEER
       - STR_LASER_WEAPONS
-      - STR_ALIEN_EXPLOSIVES
     space: 20
     time: 2030
     cost: 1320000
@@ -660,8 +747,8 @@ manufacture:
     requires:
       - STR_ULTIMATE_CRAFT
       - STR_ALIEN_ENGINEER
-      - STR_LASER_WEAPONS
       - STR_ALIEN_EXPLOSIVES
+      - STR_UFO_SHIELD_EMITTER
     space: 20
     time: 1970
     cost: 1250000
@@ -723,7 +810,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
   - name: STR_HWP_G_AE_ROCKETS
     listOrder: 701
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
@@ -735,7 +822,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 1
   - name: STR_HWP_B_AE_ROCKETS
     listOrder: 706
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
@@ -746,7 +833,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 2
   - name: STR_HWP_A_AE_ROCKETS
     listOrder: 711
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
@@ -837,7 +924,7 @@ manufacture:
       STR_ANTI_GRAV_UNIT: 6
   - name: STR_HWP_G_PLASMA_X20
     listOrder: 731
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_PLASMA_WEAPONS
       - STR_HOVERTANKS
@@ -851,7 +938,7 @@ manufacture:
       STR_HWP_G_PLASMA: 20
   - name: STR_HWP_PLASMA_X10
     listOrder: 736
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_PLASMA_WEAPONS
       - STR_HOVERTANKS
@@ -864,7 +951,7 @@ manufacture:
       STR_HWP_PLASMA: 10
   - name: STR_HWP_A_PLASMA_X5
     listOrder: 741
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_HOVERTANKS
@@ -919,7 +1006,7 @@ manufacture:
       STR_ANTI_GRAV_UNIT: 6
   - name: STR_HWP_G_FUSION_BOMB
     listOrder: 746
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_FUSION_MISSILE
       - STR_HOVERTANKS
@@ -933,7 +1020,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 1
   - name: STR_HWP_FUSION_BOMB
     listOrder: 751
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_FUSION_MISSILE
       - STR_HOVERTANKS
@@ -946,7 +1033,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 2
   - name: STR_HWP_A_FUSION_BOMB
     listOrder: 756
-    category: STR_HWP_AMMUNITION
+    category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_HEAVY_FUSION_MISSILE
       - STR_HOVERTANKS
@@ -960,13 +1047,13 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 3
   - name: STR_SUPER_STUN_LANCE
     listOrder: 820
-    category: STR_MELEE_WEAPONS
+    category: STR_TROOP_WEAPONS
     space: 0
     time: 600
     cost: 25000
   - name: STR_POWER_KNIFE
     listOrder: 825
-    category: STR_MELEE_WEAPONS
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWERED_MELEE_WEAPONS_UP
     space: 0
@@ -976,7 +1063,7 @@ manufacture:
       STR_ELERIUM_115: 1
   - name: STR_POWER_BATON
     listOrder: 830
-    category: STR_MELEE_WEAPONS
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWERED_MELEE_WEAPONS
     space: 0
@@ -986,7 +1073,7 @@ manufacture:
       STR_ELERIUM_115: 2
   - name: STR_POWER_SWORD
     listOrder: 835
-    category: STR_MELEE_WEAPONS
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWERED_MELEE_WEAPONS
     space: 0
@@ -996,7 +1083,7 @@ manufacture:
       STR_ELERIUM_115: 2
   - name: STR_PISTOL_ALLOY_CLIP
     listOrder: 840
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALLOY_WEAPONS
     space: 0
@@ -1004,7 +1091,7 @@ manufacture:
     cost: 400
   - name: STR_AUTO_PISTOL_ALLOY_CLIP
     listOrder: 845
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALLOY_WEAPONS
     space: 0
@@ -1012,7 +1099,7 @@ manufacture:
     cost: 800
   - name: STR_RIFLE_ALLOY_CLIP
     listOrder: 850
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALLOY_WEAPONS
     space: 0
@@ -1020,7 +1107,7 @@ manufacture:
     cost: 1100
   - name: STR_MACHINEGUN_ALLOY_CLIP
     listOrder: 855
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALLOY_WEAPONS
     space: 0
@@ -1028,7 +1115,7 @@ manufacture:
     cost: 2200
   - name: STR_SHOTGUN_ALLOY_CLIP
     listOrder: 856
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALLOY_WEAPONS
     space: 0
@@ -1036,7 +1123,7 @@ manufacture:
     cost: 1200
   - name: STR_HC_ALLOY_AMMO
     listOrder: 860
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALLOY_WEAPONS
     space: 0
@@ -1044,7 +1131,7 @@ manufacture:
     cost: 1700
   - name: STR_AC_ALLOY_AMMO
     listOrder: 862
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALLOY_WEAPONS
     space: 0
@@ -1052,7 +1139,7 @@ manufacture:
     cost: 3000
   - name: STR_HC_AE_AMMO
     listOrder: 865
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALIEN_EXPLOSIVES
     space: 0
@@ -1062,7 +1149,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 6
   - name: STR_AC_AE_AMMO
     listOrder: 867
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_ALIEN_EXPLOSIVES
     space: 0
@@ -1072,9 +1159,9 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 8
   - name: STR_GRENADE_ROUND_AE
     listOrder: 875
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
-      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_GRENADE_ARSENAL
     space: 0
     time: 75
     cost: 1200
@@ -1082,7 +1169,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 3
   - name: STR_GRENADE_ROUND_ST
     listOrder: 880
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_STUN_BOMB
     space: 0
@@ -1092,7 +1179,7 @@ manufacture:
       STR_STUN_CORE: 1
   - name: STR_ALIEN_ROCKET 
     listOrder: 890
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_HEAVY_ALIEN_EXPLOSIVES
     space: 0
@@ -1102,7 +1189,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 5
   - name: STR_FUSION_ROCKET
     listOrder: 895
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_BLASTER_BOMB
     space: 0
@@ -1112,6 +1199,7 @@ manufacture:
       STR_FUSION_CORE: 1
   - name: STR_LASER_PISTOL
     listOrder: 900
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_LASER_WEAPONS
     space: 0
@@ -1119,7 +1207,7 @@ manufacture:
     cost: 8000
   - name: STR_LASER_AUTO_PISTOL
     listOrder: 910
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_AUTOMATIC_LASER_WEAPONS
     space: 0
@@ -1127,6 +1215,7 @@ manufacture:
     cost: 11500
   - name: STR_LASER_RIFLE
     listOrder: 1000
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_LASER_WEAPONS
     space: 0
@@ -1134,7 +1223,7 @@ manufacture:
     cost: 19500
   - name: STR_LASER_PULSE_RIFLE
     listOrder: 1010
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_AUTOMATIC_LASER_WEAPONS
     space: 0
@@ -1142,6 +1231,7 @@ manufacture:
     cost: 25800
   - name: STR_HEAVY_LASER
     listOrder: 1100
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
     space: 0
@@ -1149,13 +1239,92 @@ manufacture:
     cost: 31200
   - name: STR_HEAVY_AUTO_LASER
     listOrder: 1110
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_HEAVY_LASER_WEAPONS
       - STR_AUTOMATIC_LASER_WEAPONS
     space: 0
     time: 1200
     cost: 41200
+  - name: STR_LASER_PISTOL_ALT
+    listOrder: 1150
+    category: STR_TROOP_WEAPONS
+    requires:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 0
+    time: 750
+    cost: 9500
+    requiredItems:
+      STR_ALIEN_LASER: 1
+    producedItems:
+      STR_LASER_PISTOL: 4
+  - name: STR_LASER_AUTO_PISTOL_ALT
+    listOrder: 1152
+    category: STR_TROOP_WEAPONS
+    requires:
+      - STR_AUTOMATIC_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 0
+    time: 750
+    cost: 12000
+    requiredItems:
+      STR_ALIEN_LASER: 1
+    producedItems:
+      STR_LASER_AUTO_PISTOL: 3
+  - name: STR_LASER_RIFLE_ALT
+    listOrder: 1154
+    category: STR_TROOP_WEAPONS
+    requires:
+      - STR_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 0
+    time: 525
+    cost: 9750
+    requiredItems:
+      STR_ALIEN_LASER: 1
+    producedItems:
+      STR_LASER_RIFLE: 2
+  - name: STR_LASER_PULSE_RIFLE_ALT
+    listOrder: 1156
+    category: STR_TROOP_WEAPONS
+    requires:
+      - STR_AUTOMATIC_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 0
+    time: 1125
+    cost: 21150
+    requiredItems:
+      STR_ALIEN_LASER: 2
+    producedItems:
+      STR_LASER_PULSE_RIFLE: 3
+  - name: STR_HEAVY_LASER_ALT
+    listOrder: 1158
+    category: STR_TROOP_WEAPONS
+    requires:
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 0
+    time: 2200
+    cost: 41250
+    requiredItems:
+      STR_ALIEN_LASER: 4
+    producedItems:
+      STR_HEAVY_LASER: 5
+  - name: STR_HEAVY_AUTO_LASER_ALT
+    listOrder: 1160
+    category: STR_TROOP_WEAPONS
+    requires:
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_AUTOMATIC_LASER_WEAPONS
+      - STR_ALIEN_LASER
+    space: 0
+    time: 600
+    cost: 14200
+    requiredItems:
+      STR_ALIEN_LASER: 1
+    producedItems:
+      STR_HEAVY_AUTO_LASER: 1
   - name: STR_PLASMA_PISTOL
     listOrder: 0
     requires:
@@ -1182,7 +1351,7 @@ manufacture:
       - STR_ALIENS_ONLY
   - name: STR_PLASMA_SHOTGUN
     listOrder: 1480
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_PLASMA_WEAPONS
     space: 0
@@ -1193,7 +1362,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 60
   - name: STR_PLASMA_SHOTGUN_CLIP
     listOrder: 1490
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_PLASMA_WEAPONS
     space: 0
@@ -1201,7 +1370,7 @@ manufacture:
     cost: 19400
   - name: STR_PLASMA_PISTOL_TERRAN
     listOrder: 1500
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_PLASMA_WEAPONS
       - STR_PLASMA_PISTOL_CLIP
@@ -1212,7 +1381,7 @@ manufacture:
       STR_PLASMA_PISTOL: 1
   - name: STR_PLASMA_PISTOL_TERRAN_CLIP
     listOrder: 1510
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_PLASMA_WEAPONS
       - STR_PLASMA_PISTOL_CLIP
@@ -1223,7 +1392,7 @@ manufacture:
       STR_PLASMA_PISTOL_CLIP: 1
   - name: STR_PLASMA_AUTO_PISTOL
     listOrder: 1600
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_AUTOMATIC_PLASMA_WEAPONS
       - STR_PLASMA_PISTOL_CLIP
@@ -1235,7 +1404,7 @@ manufacture:
       STR_PLASMA_PISTOL: 2
   - name: STR_PLASMA_AUTO_PISTOL_CLIP
     listOrder: 1610
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_AUTOMATIC_PLASMA_WEAPONS
       - STR_PLASMA_PISTOL_CLIP
@@ -1246,7 +1415,7 @@ manufacture:
       STR_PLASMA_PISTOL_CLIP: 2
   - name: STR_PLASMA_RIFLE_TERRAN
     listOrder: 1700
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_PLASMA_WEAPONS
       - STR_PLASMA_RIFLE_CLIP
@@ -1257,7 +1426,7 @@ manufacture:
       STR_PLASMA_RIFLE: 1
   - name: STR_PLASMA_RIFLE_TERRAN_CLIP
     listOrder: 1710
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_PLASMA_WEAPONS
       - STR_PLASMA_RIFLE_CLIP
@@ -1268,7 +1437,7 @@ manufacture:
       STR_PLASMA_RIFLE_CLIP: 1
   - name: STR_PLASMA_MACHINEGUN
     listOrder: 1800
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_AUTOMATIC_PLASMA_WEAPONS
       - STR_PLASMA_RIFLE_CLIP
@@ -1280,7 +1449,7 @@ manufacture:
       STR_PLASMA_RIFLE: 2
   - name: STR_PLASMA_MACHINEGUN_CLIP
     listOrder: 1810
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_AUTOMATIC_PLASMA_WEAPONS
       - STR_PLASMA_RIFLE_CLIP
@@ -1291,7 +1460,7 @@ manufacture:
       STR_PLASMA_RIFLE_CLIP: 2
   - name: STR_HEAVY_PLASMA_TERRAN
     listOrder: 1900
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_PLASMA_WEAPONS
       - STR_HEAVY_PLASMA_CLIP
@@ -1302,7 +1471,7 @@ manufacture:
       STR_HEAVY_PLASMA: 1
   - name: STR_HEAVY_PLASMA_TERRAN_CLIP
     listOrder: 1910
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_PLASMA_WEAPONS
       - STR_HEAVY_PLASMA_CLIP
@@ -1313,7 +1482,7 @@ manufacture:
       STR_HEAVY_PLASMA_CLIP: 1
   - name: STR_PLASMA_ASSAULT_CANNON
     listOrder: 2000
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_AUTOMATIC_PLASMA_WEAPONS
       - STR_HEAVY_PLASMA_CLIP
@@ -1325,7 +1494,7 @@ manufacture:
       STR_HEAVY_PLASMA: 2
   - name: STR_PLASMA_ASSAULT_CANNON_CLIP
     listOrder: 2010
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_AUTOMATIC_PLASMA_WEAPONS
       - STR_HEAVY_PLASMA_CLIP
@@ -1336,7 +1505,7 @@ manufacture:
       STR_HEAVY_PLASMA_CLIP: 2
   - name: STR_BLASTER_LAUNCHER_TERRAN
     listOrder: 2105
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_BLASTER_BOMB
     space: 0
@@ -1346,7 +1515,7 @@ manufacture:
       STR_BLASTER_LAUNCHER: 1
   - name: STR_BLASTER_BOMB_TERRAN
     listOrder: 2110
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_BLASTER_BOMB
     space: 0
@@ -1358,7 +1527,7 @@ manufacture:
       STR_BLASTER_BOMB_TERRAN: 1
   - name: STR_BLASTER_HE_BOMB
     listOrder: 2120
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_BLASTER_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
@@ -1371,7 +1540,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 5
   - name: STR_BLASTER_I_BOMB
     listOrder: 2130
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_BLASTER_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
@@ -1382,7 +1551,7 @@ manufacture:
       STR_ELERIUM_115: 1
   - name: STR_BLASTER_STUN_BOMB
     listOrder: 2140
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_BLASTER_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
@@ -1395,7 +1564,7 @@ manufacture:
       STR_STUN_CORE: 2
   - name: STR_SMALL_LAUNCHER_TERRAN
     listOrder: 2155
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_STUN_BOMB
     space: 0
@@ -1405,7 +1574,7 @@ manufacture:
       STR_SMALL_LAUNCHER: 1
   - name: STR_STUN_BOMB_TERRAN
     listOrder: 2160
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_STUN_BOMB
     space: 0
@@ -1417,7 +1586,7 @@ manufacture:
       STR_STUN_BOMB_TERRAN: 1
   - name: STR_HE_BOMB
     listOrder: 2170
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_SMALL_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
@@ -1430,7 +1599,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 1
   - name: STR_SMOKE_BOMB
     listOrder: 2180
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_SMALL_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
@@ -1441,7 +1610,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 1
   - name: STR_INCENDIARY_BOMB
     listOrder: 2190
-    category: STR_AMMUNITION
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_SMALL_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
@@ -1452,7 +1621,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 1
   - name: STR_POWER_SUIT_PISTOL
     listOrder: 2300
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_PLASMA_PISTOL_RED_DESTROYED
@@ -1467,7 +1636,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 40
   - name: STR_POWER_SUIT_PISTOL_CLIP
     listOrder: 2305
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_PLASMA_PISTOL_RED_DESTROYED
@@ -1481,7 +1650,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 6
   - name: STR_POWER_SUIT_RIFLE
     listOrder: 2310
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_PLASMA_RIFLE_RED_DESTROYED
@@ -1497,7 +1666,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 60
   - name: STR_POWER_SUIT_RIFLE_CLIP
     listOrder: 2315
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_PLASMA_RIFLE_RED_DESTROYED
@@ -1512,7 +1681,7 @@ manufacture:
       STR_VENOM_GLAND: 4
   - name: STR_POWER_SUIT_HEAVY
     listOrder: 2320
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_HEAVY_PLASMA_RED_DESTROYED
@@ -1527,7 +1696,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 100
   - name: STR_POWER_SUIT_HEAVY_CLIP
     listOrder: 2325
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_HEAVY_PLASMA_RED_DESTROYED
@@ -1542,7 +1711,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 25
   - name: STR_POWER_SUIT_LAUNCHER
     listOrder: 2340
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1556,7 +1725,7 @@ manufacture:
       STR_ALIEN_WEAPON_COMPONENTS: 80
   - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
     listOrder: 2345
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1569,7 +1738,7 @@ manufacture:
       STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
   - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
     listOrder: 2346
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1582,7 +1751,7 @@ manufacture:
       STR_ALIEN_GRENADE_RED_DESTROYED: 5
   - name: STR_POWER_SUIT_LAUNCHER_F_BOMB_H
     listOrder: 2347
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1593,7 +1762,7 @@ manufacture:
       STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 3
   - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
     listOrder: 2348
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1606,7 +1775,7 @@ manufacture:
       STR_ALIEN_GRENADE_RED_DESTROYED: 1
   - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
     listOrder: 2349
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1620,7 +1789,7 @@ manufacture:
       STR_STUN_CORE: 2
   - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
     listOrder: 2350
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1631,7 +1800,7 @@ manufacture:
     cost: 310000
   - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
     listOrder: 2351
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1644,7 +1813,7 @@ manufacture:
       STR_ALIEN_GRENADE_RED_DESTROYED: 6
   - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
     listOrder: 2352
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1657,7 +1826,7 @@ manufacture:
       STR_ALIEN_GRENADE_RED_DESTROYED: 3
   - name: STR_POWER_SUIT_LAUNCHER_SM_BOMB_L
     listOrder: 2353
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1670,7 +1839,7 @@ manufacture:
       STR_ALIEN_GRENADE_RED_DESTROYED: 3
   - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L
     listOrder: 2354
-    category: STR_WEAPON
+    category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
@@ -1684,15 +1853,15 @@ manufacture:
       STR_STUN_CORE: 3
   - name: STR_INCENDIARY_GRENADE
     listOrder: 2480
-    category: STR_GRENADE
+    category: STR_TROOP_EQUIPMENT
     space: 0
     time: 20
     cost: 100
   - name: STR_AE_GRENADE
     listOrder: 2500
-    category: STR_GRENADE
+    category: STR_TROOP_EQUIPMENT
     requires:
-      - STR_ALIEN_GRENADE_ARSENAL
+      - STR_ALIEN_GRENADE
     space: 0
     time: 40
     cost: 750
@@ -1700,7 +1869,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 3
   - name: STR_AE_PROXIMITY_GRENADE
     listOrder: 2505
-    category: STR_GRENADE
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_ALIEN_GRENADE_ARSENAL
     space: 0
@@ -1710,7 +1879,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 3
   - name: STR_AE_HIGH_EXPLOSIVE
     listOrder: 2510
-    category: STR_GRENADE
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_ALIEN_GRENADE_ARSENAL
       - STR_HEAVY_ALIEN_EXPLOSIVES
@@ -1721,7 +1890,7 @@ manufacture:
       STR_ALIEN_EXPLOSIVE_UNITS: 8
   - name: STR_STUN_GRENADE
     listOrder: 2515
-    category: STR_GRENADE
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_ALIEN_GRENADE_ARSENAL
       - STR_STUN_BOMB
@@ -1732,7 +1901,7 @@ manufacture:
       STR_STUN_CORE: 1
   - name: STR_FUSION_HIGH_EXPLOSIVE
     listOrder: 2520
-    category: STR_GRENADE
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_ALIEN_GRENADE_ARSENAL
       - STR_HEAVY_FUSION_MISSILE
@@ -1743,7 +1912,7 @@ manufacture:
       STR_FUSION_CORE: 2
   - name: STR_MOTION_SCANNER
     listOrder: 2540
-    category: STR_EQUIPMENT
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_MOTION_SCANNER
     space: 0
@@ -1751,7 +1920,7 @@ manufacture:
     cost: 34000
   - name: STR_MEDI_KIT
     listOrder: 2550
-    category: STR_EQUIPMENT
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_MEDI_KIT
     space: 0
@@ -1759,7 +1928,7 @@ manufacture:
     cost: 28000
   - name: STR_MEDI_KIT_SUPER
     listOrder: 2555
-    category: STR_EQUIPMENT
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_SUPER_SOLDIERS
     space: 0
@@ -1770,7 +1939,7 @@ manufacture:
       STR_ALIEN_COMPUTER_ARRAYS: 1
   - name: STR_MIND_PROBE_TERRAN
     listOrder: 2560
-    category: STR_EQUIPMENT
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_MIND_PROBE
     space: 0
@@ -1784,7 +1953,7 @@ manufacture:
       STR_MIND_PROBE_TERRAN: 1
   - name: STR_FEAR_PROJECTOR
     listOrder: 2585
-    category: STR_EQUIPMENT
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_FEAR_PROJECTION
     space: 0
@@ -1794,7 +1963,7 @@ manufacture:
       STR_PSIONIC_FEEDBACK_DEVICE: 8
   - name: STR_PSI_AMP
     listOrder: 2590
-    category: STR_EQUIPMENT
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PSI_AMP
     space: 0
@@ -1805,7 +1974,7 @@ manufacture:
       STR_PSIONIC_WAVE_EMITTER: 4
   - name: STR_PSIONIC_DISRUPTOR
     listOrder: 2595
-    category: STR_EQUIPMENT
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PSIONIC_DISRUPTOR
     space: 0
@@ -1817,13 +1986,13 @@ manufacture:
       STR_PSIONIC_WAVE_DECODER: 30
   - name: STR_HEAVY_ARMOR
     listOrder: 2680
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     space: 1
     time: 240
     cost: 10000
   - name: STR_PERSONAL_ARMOR_L
     listOrder: 2700
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PERSONAL_ARMOR
     space: 2
@@ -1835,7 +2004,7 @@ manufacture:
       STR_PERSONAL_ARMOR_L: 1
   - name: STR_PERSONAL_ARMOR_HEAVY
     listOrder: 2710
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PERSONAL_ARMOR
     space: 2
@@ -1845,7 +2014,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 10
   - name: STR_POWER_SUIT
     listOrder: 2800
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_POWER_SUIT
     space: 3
@@ -1857,7 +2026,7 @@ manufacture:
       STR_ALIEN_POWER_ARRAYS: 3
   - name: STR_FLYING_SUIT
     listOrder: 2900
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_FLYING_SUIT
     space: 3
@@ -1870,7 +2039,7 @@ manufacture:
       STR_ANTI_GRAV_UNIT: 1
   - name: STR_PSI_DEFENSE_ARMOR
     listOrder: 2910
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PSIONIC_POWER_ARMOR
       - STR_POWER_SUIT
@@ -1885,7 +2054,7 @@ manufacture:
       STR_PSIONIC_WAVE_DECODER: 6
   - name: STR_PSI_ATTACK_ARMOR
     listOrder: 2915
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PSIONIC_POWER_ARMOR
       - STR_FLYING_SUIT
@@ -1901,7 +2070,7 @@ manufacture:
       STR_ANTI_GRAV_UNIT: 1
   - name: STR_PALADIN_ARMOR
     listOrder: 2930
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_INTEGRATED_ARMOR
       - STR_POWER_SUIT
@@ -1918,7 +2087,7 @@ manufacture:
       STR_CYBERNETIC_SKELETON_HEAVY: 2
   - name: STR_ASSASSIN_ARMOR
     listOrder: 2935
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_INTEGRATED_ARMOR
       - STR_FLYING_SUIT
@@ -1941,17 +2110,17 @@ manufacture:
       - STR_ALIEN_ALLOYS
     space: 0
     time: 50
-    cost: 7500
+    cost: 9000
     producedItems:
       STR_ALIEN_ALLOYS: 1
   - name: STR_ALIEN_EXPLOSIVES_INEFFICIENT
     listOrder: 5010
     category: STR_INEFFICIENT
     requires:
-      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_GRENADE
     space: 0
     time: 60
-    cost: 4400
+    cost: 3200
     producedItems:
       STR_ALIEN_EXPLOSIVE_UNITS: 1
   - name: STR_ALIEN_FEEDER_INEFFICIENT
@@ -1964,6 +2133,19 @@ manufacture:
     cost: 1500
     producedItems:
       STR_ALIEN_FEEDER: 1
+  - name: STR_ALIEN_LASER_INEFFICIENT
+    listOrder: 5030
+    category: STR_INEFFICIENT
+    requires:
+      - STR_ALIEN_LASER
+      - STR_POWER_SUIT_WEAPONS
+      - STR_HEAVY_PLASMA_RED_DESTROYED
+      - STR_HEAVY_LASER_WEAPONS
+    space: 0
+    time: 250
+    cost: 50000
+    producedItems:
+      STR_ALIEN_LASER: 1
   - name: STR_REPACKAGE_INTERCEPTOR_EASY
     listOrder: 3180
     category: STR_REPACKAGE_CRAFT
@@ -2663,19 +2845,6 @@ manufacture:
       STR_TRANSFORMERS: 8
       STR_INDUCTORS_SMALL: 8
       STR_INDUCTORS_LARGE: 2
-  - name: STR_SPACECRAFT_FUEL
-    listOrder: 3398
-    category: STR_CRAFT_EQUIPMENT
-    requires:
-      - STR_UFO_CONSTRUCTION
-    space: 0
-    time: 20
-    cost: 10000
-    requiredItems:
-      STR_ELERIUM_115: 2
-      STR_ALIEN_FUEL_PODS: 1
-    producedItems:
-      STR_SPACECRAFT_FUEL: 2
 # System for armor repair:
 # 100% of space
 # 30% of time
@@ -2685,7 +2854,7 @@ manufacture:
 # Broken Armor Value: 30% of original
   - name: STR_REPAIR_PERSONAL_ARMOR
     listOrder: 3900
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PERSONAL_ARMOR
     space: 2
@@ -2698,7 +2867,7 @@ manufacture:
       STR_PERSONAL_ARMOR_L: 1
   - name: STR_REPAIR_PERSONAL_ARMOR_HEAVY
     listOrder: 3910
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PERSONAL_ARMOR
     space: 2
@@ -2711,7 +2880,7 @@ manufacture:
       STR_PERSONAL_ARMOR_HEAVY: 1
   - name: STR_REPAIR_NIGHT_OPS_ARMOR
     listOrder: 3920
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_OUTSOURCING_ARMOR
       - STR_PERSONAL_ARMOR
@@ -2726,7 +2895,7 @@ manufacture:
       STR_NIGHT_OPS_ARMOR: 1
   - name: STR_REPAIR_PSIONIC_ALLOY_ARMOR
     listOrder: 3930
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_OUTSOURCING_ARMOR
       - STR_PERSONAL_ARMOR
@@ -2744,7 +2913,7 @@ manufacture:
       STR_PSIONIC_ALLOY_ARMOR: 1
   - name: STR_REPAIR_POWER_SUIT
     listOrder: 3940
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_POWER_SUIT
     space: 3
@@ -2758,7 +2927,7 @@ manufacture:
       STR_POWER_SUIT: 1
   - name: STR_REPAIR_FLYING_SUIT
     listOrder: 3950
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_FLYING_SUIT
     space: 3
@@ -2772,7 +2941,7 @@ manufacture:
       STR_FLYING_SUIT: 1
   - name: STR_REPAIR_PSI_DEFENSE_ARMOR
     listOrder: 3960
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PSIONIC_POWER_ARMOR
       - STR_POWER_SUIT
@@ -2790,7 +2959,7 @@ manufacture:
       STR_PSI_DEFENSE_ARMOR: 1
   - name: STR_REPAIR_PSI_ATTACK_ARMOR
     listOrder: 3970
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_PSIONIC_POWER_ARMOR
       - STR_FLYING_SUIT
@@ -2808,7 +2977,7 @@ manufacture:
       STR_PSI_ATTACK_ARMOR: 1
   - name: STR_REPAIR_PALADIN_ARMOR
     listOrder: 3980
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_INTEGRATED_ARMOR
       - STR_POWER_SUIT
@@ -2828,7 +2997,7 @@ manufacture:
       STR_PALADIN_ARMOR: 1
   - name: STR_REPAIR_ASSASSIN_ARMOR
     listOrder: 3990
-    category: STR_CAT_ARMOR
+    category: STR_TROOP_EQUIPMENT
     requires:
       - STR_INTEGRATED_ARMOR
       - STR_FLYING_SUIT
@@ -2989,7 +3158,7 @@ manufacture:
     requires:
       - STR_ALIEN_SURGERY
     space: 6
-    time: 8
+    time: 15
     cost: 0
     requiredItems:
       STR_ALIEN_SURGERY: 1
@@ -3003,7 +3172,7 @@ manufacture:
     requires:
       - STR_EXAMINATION_ROOM
     space: 5
-    time: 10
+    time: 20
     cost: 0
     requiredItems:
       STR_EXAMINATION_ROOM: 1

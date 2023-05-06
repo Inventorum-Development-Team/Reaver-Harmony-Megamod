@@ -135,7 +135,8 @@ missionScripts:
         STR_ALIEN_RESEARCH: 12
         STR_ALIEN_ABDUCTION: 4
         STR_ALIEN_HARVEST: 24
-        STR_ALIEN_INFILTRATION: 50
+        STR_ALIEN_INFILTRATION: 25
+        STR_ALIEN_INFILTRATION_DEFENDED: 25
         STR_ALIEN_OUTPOST: 10
     # regionWeights:
       # 0:
@@ -192,8 +193,9 @@ missionScripts:
         STR_ALIEN_RETALIATION_LIGHT_DEFENDED: 6
         STR_ALIEN_RETALIATION_MEDIUM_DEFENDED: 34
         STR_ALIEN_RETALIATION_HEAVY: 20
-        STR_ALIEN_INFILTRATION: 21
-        STR_ALIEN_OUTPOST: 7
+        STR_ALIEN_INFILTRATION_DEFENDED: 15
+        STR_ALIEN_OUTPOST: 5
+        STR_ALIEN_OUTPOST_ELITE: 2
     useTable: false
   - type: infiltration/incursion3
     firstMonth: 12
@@ -207,8 +209,8 @@ missionScripts:
         STR_ALIEN_RETALIATION_MEDIUM_DEFENDED: 3
         STR_ALIEN_RETALIATION_MEDIUM_ELITE: 3
         STR_ALIEN_RETALIATION_HEAVY_DEFENDED: 10
-        STR_ALIEN_INFILTRATION: 17
-        STR_ALIEN_INFILTRATION_DEFENDED: 33
+        STR_ALIEN_INFILTRATION_DEFENDED: 17
+        STR_ALIEN_INFILTRATION_ELITE: 33
     useTable: false
   - type: recurringRecon
     firstMonth: 15
@@ -283,7 +285,8 @@ missionScripts:
     lastMonth: 5
     missionWeights:
       0:
-        STR_ALIEN_OUTPOST: 100
+        STR_ALIEN_OUTPOST: 80
+        STR_ALIEN_OUTPOST_ELITE: 20
     raceWeights:
       0:
         STR_SNAKEMAN_BASE: 100
@@ -294,7 +297,8 @@ missionScripts:
     lastMonth: 7
     missionWeights:
       0:
-        STR_ALIEN_OUTPOST: 100
+        STR_ALIEN_OUTPOST: 60
+        STR_ALIEN_OUTPOST_ELITE: 40
     raceWeights:
       0:
         STR_MUTON_BASE: 100
@@ -305,7 +309,8 @@ missionScripts:
     lastMonth: 9
     missionWeights:
       0:
-        STR_ALIEN_OUTPOST: 100
+        STR_ALIEN_OUTPOST: 40
+        STR_ALIEN_OUTPOST_ELITE: 60
     raceWeights:
       0:
         STR_ETHEREAL_BASE: 100
@@ -321,7 +326,7 @@ missionScripts:
       0:
         STR_SECTOID_BASE: 100
     useTable: false
-    randomDelay: 102240 #Apr, May +10 days
+    randomDelay: 102240 #Mar/Apr< Apr, May +10 days
   - type: floaterBase
     firstMonth: 4
     lastMonth: 4
@@ -332,18 +337,19 @@ missionScripts:
       0:
         STR_FLOATER_BASE: 100
     useTable: false
-    randomDelay: 102240 #Jul, Aug +10 days
+    randomDelay: 102240 #Jun/Jul< Jul, Aug +10 days
   - type: snakemanBase
     firstMonth: 7
     lastMonth: 7
     missionWeights:
       0:
-        STR_ALIEN_BASE_DEFENDED: 100
+        STR_ALIEN_BASE: 50
+        STR_ALIEN_BASE_DEFENDED: 50
     raceWeights:
       0:
         STR_SNAKEMAN_BASE: 100
     useTable: false
-    randomDelay: 102240 #Oct, Nov +10 days
+    randomDelay: 102240 #Sep/Oct< Oct, Nov +10 days
   - type: mutonBase
     firstMonth: 10
     lastMonth: 10
@@ -354,7 +360,7 @@ missionScripts:
       0:
         STR_MUTON_BASE: 100
     useTable: false
-    randomDelay: 100800 #Jan, Feb 2000 +10 days
+    randomDelay: 100800 #Dec/Jan< Jan, Feb 2000 +10 days
   - type: etherealBase
     firstMonth: 12
     lastMonth: 12
@@ -365,7 +371,7 @@ missionScripts:
       0:
         STR_ETHEREAL_BASE: 100
     useTable: false
-    randomDelay: 102240 #Apr, May 2000 +10 days
+    randomDelay: 102240 #Feb/Mar< Apr, May 2000 +10 days
   - type: invasionElitePhaseOne
     firstMonth: 16 #27
     lastMonth: 60

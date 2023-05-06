@@ -10,11 +10,11 @@ ufos:
     armor: 1
     speedMax: 2200
     accel: 12
-    power: 0
-    hitBonus: 0
-    range: 0
+    power: 0 #18
+    hitBonus: 0 #20
+    range: 0 #29
     score: 50
-    reload: 66 #50
+    reload: 42 #26
     breakOffTime: 360
     hunterKillerPercentage: 0
     huntMode: 1
@@ -91,10 +91,10 @@ ufos:
     speedMax: 2500
     accel: 10
     power: 34
-    hitBonus: 30
+    hitBonus: 20
     range: 34
     score: 100
-    reload: 60 #44
+    reload: 44 #28
     breakOffTime: 420
     hunterKillerPercentage: 100
     huntMode: 1
@@ -141,7 +141,7 @@ ufos:
     hitBonus: 30
     range: 27
     score: 100
-    reload: 56 #40
+    reload: 28 #12
     breakOffTime: 400
     hunterKillerPercentage: 0
     huntMode: 1
@@ -269,7 +269,7 @@ ufos:
     hitBonus: 20
     range: 40
     score: 175
-    reload: 68 #52
+    reload: 56 #40
     breakOffTime: 500
     hunterKillerPercentage: 100
     huntMode: 1
@@ -332,7 +332,7 @@ ufos:
     hitBonus: 30
     range: 32
     score: 250
-    reload: 60 #44
+    reload: 40 #24
     breakOffTime: 475
     hunterKillerPercentage: 0
     huntMode: 1
@@ -475,7 +475,7 @@ ufos:
     hitBonus: 30
     range: 36
     score: 275
-    reload: 52 #36
+    reload: 32 #16
     breakOffTime: 500
     hunterKillerPercentage: 5
     huntMode: 1
@@ -546,7 +546,7 @@ ufos:
     hitBonus: 20
     range: 41
     score: 375
-    reload: 62 #46
+    reload: 58 #42
     breakOffTime: 600
     hunterKillerPercentage: 100
     huntMode: 1
@@ -665,7 +665,7 @@ ufos:
     hitBonus: 30
     range: 44
     score: 450
-    reload: 48 #32
+    reload: 36 #20
     breakOffTime: 600
     hunterKillerPercentage: 0
     huntMode: 1
@@ -864,11 +864,11 @@ ufos:
     armor: 1
     speedMax: 3200
     accel: 12
-    power: 28
+    power: 58
     hitBonus: 29
-    range: 37
+    range: 43
     score: 100
-    reload: 74 #58
+    reload: 48 #32
     breakOffTime: 460
     hunterKillerPercentage: 0
     huntMode: 1
@@ -900,11 +900,11 @@ ufos:
     armor: 1
     speedMax: 3800
     accel: 11
-    power: 48
+    power: 78
     hitBonus: 18
     range: 48
     score: 125
-    reload: 104 #88
+    reload: 100 #84
     breakOffTime: 480
     hunterKillerPercentage: 0
     huntMode: 1
@@ -950,11 +950,11 @@ ufos:
     armor: 1
     speedMax: 3500
     accel: 11
-    power: 42
-    hitBonus: 40
+    power: 64
+    hitBonus: 29
     range: 45
     score: 150
-    reload: 79 #63
+    reload: 50 #34
     breakOffTime: 520
     hunterKillerPercentage: 100
     huntMode: 1
@@ -1000,11 +1000,11 @@ ufos:
     armor: 1
     speedMax: 3400
     accel: 9
-    power: 34
+    power: 48
     hitBonus: 40
     range: 42
     score: 175
-    reload: 60 #44
+    reload: 32 #16
     breakOffTime: 500
     hunterKillerPercentage: 10
     huntMode: 1
@@ -1058,11 +1058,11 @@ ufos:
     armor: 1
     speedMax: 3700
     accel: 9
-    power: 95
+    power: 135
     hitBonus: 7
     range: 51
     score: 200
-    reload: 118 #102
+    reload: 116 #100
     breakOffTime: 550
     hunterKillerPercentage: 40
     huntMode: 1
@@ -1131,11 +1131,11 @@ ufos:
     armor: 1
     speedMax: 4000
     accel: 9
-    power: 94
+    power: 105
     hitBonus: 29
     range: 49
     score: 250
-    reload: 76 #60
+    reload: 62 #46
     breakOffTime: 600
     hunterKillerPercentage: 100
     huntMode: 1
@@ -1194,11 +1194,11 @@ ufos:
     armor: 1
     speedMax: 3600
     accel: 6
-    power: 70
+    power: 76
     hitBonus: 40
     range: 45
     score: 350
-    reload: 64 #48
+    reload: 44 #28
     breakOffTime: 575
     hunterKillerPercentage: 0
     huntMode: 1
@@ -1268,11 +1268,11 @@ ufos:
     armor: 1
     speedMax: 5300
     accel: 8
-    power: 220
+    power: 235
     hitBonus: 7
     range: 55
     score: 400
-    reload: 136 #120
+    reload: 132 #116
     breakOffTime: 650
     hunterKillerPercentage: 30
     huntMode: 1
@@ -1337,11 +1337,11 @@ ufos:
     armor: 1
     speedMax: 4600
     accel: 8
-    power: 62
+    power: 70
     hitBonus: 40
     range: 46
     score: 375
-    reload: 56 #40
+    reload: 36 #20
     breakOffTime: 600
     hunterKillerPercentage: 15
     huntMode: 1
@@ -1408,11 +1408,11 @@ ufos:
     armor: 1
     speedMax: 5000
     accel: 8
-    power: 181
+    power: 175
     hitBonus: 29
     range: 50
     score: 475
-    reload: 72 #56
+    reload: 64 #48
     breakOffTime: 700
     hunterKillerPercentage: 100
     huntMode: 1
@@ -1531,7 +1531,7 @@ ufos:
     hitBonus: 40
     range: 53
     score: 600
-    reload: 52 #36
+    reload: 40 #24
     breakOffTime: 700
     hunterKillerPercentage: 0
     huntMode: 1
@@ -1578,11 +1578,11 @@ ufos:
     armor: 1
     speedMax: 6000
     accel: 6
-    power: 294
+    power: 265
     hitBonus: 29
     range: 52
     score: 750
-    reload: 68 #52
+    reload: 66 #50
     breakOffTime: 850
     hunterKillerPercentage: 100
     huntMode: 1
@@ -1635,11 +1635,11 @@ ufos:
     armor: 1
     speedMax: 6400
     accel: 6
-    power: 255
+    power: 230
     hitBonus: 29
     range: 64
     score: 950
-    reload: 74 #58
+    reload: 72 #56
     breakOffTime: 1000
     hunterKillerPercentage: 0
     huntMode: 1
@@ -1686,11 +1686,11 @@ ufos:
     armor: 1
     speedMax: 4900
     accel: 5
-    power: 300
+    power: 280
     hitBonus: 18
     range: 58
     score: 1050
-    reload: 104 #88
+    reload: 100 #84
     breakOffTime: 850
     hunterKillerPercentage: 0
     huntMode: 1

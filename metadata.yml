@@ -10,6 +10,16 @@
 #   REAVER'S X-COM: HARMONY
 #================================
 #
+# REAVER'S CONTACT INFO
+#
+# Anything not credited here is not necessarily done by me, and may simply be uncredited. Please notify me
+# of any of these you find. If you know who to give credit to, please mention this as well. Best way to
+# contact me is currently via Discord, I am thereaverofdarkness#2362. I can also be contacted via the
+# OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
+#
+# PLEASE NOTE: Send a message to me and don't just add me as a friend! I get a lot of bot friend requests
+#   and so I tend to simply ignore them.
+#
 # changelog:
 #  0.9.0:   Public release into open beta.
 #  0.9.1:   Several validation fixes using VSCode. Special thanks to pedroterzero.
@@ -276,6 +286,56 @@
 #       * Fixed Snakeman Queen dissection appearing too early.
 #       * A few other minor gameplay tweaks.
 #       * Minor tweaks to UFOPedia and other in-game text.
+#  1.1.1:   Distinctive Launchers, Combat Psionics, Brawler UFOs, General Improvements
+#       * Increased Grenade Launcher's accuracy and decreased its TU cost to fire.
+#       * Increased Rocket Launcher's accuracy and decreased snap shot TU cost.
+#       * Greatly decreased Small Launcher's aimed shot TU cost, plus other adjustments.
+#       * Incendiary weapons now reduce the target's time units in addition to morale.
+#       * Rebalanced psionic energy costs.
+#         - Fear Projector panic costs much less TU but more PSE.
+#         - Psi Amp panic costs a bit more TU and PSE than Fear Projector.
+#         - Psi Amp mind control TU cost unchanged, PSE cost drastically increased.
+#         - Fear Projector and Psi Amp weight reduced.
+#         - Psi Disruptor has low panic, medium stun, and high mind control PSE costs.
+#         - All Psi Disruptor TU costs reduced significantly.
+#           - Psi Disruptor is for sustained psi siege while the others are for quick bursts/mixed tactics.
+#           - Psi Equipment attack info now displayed in the respective UFOPedia Reports.
+#       * Attack rate of Medium Scout, Cargo Ship, Harvester, and Supply Ship greatly increased.
+#           - Attack rate of Patroller and Light Destroyer significantly increased.
+#       * Did a full rework of Elite UFO attack speed and damage--overall power should be similar to before.
+#           - Weaker elites are considerably buffed while the strongest elites are slightly nerfed.
+#           - Elite UFOs show up more commonly and in a broader variety, after they start showing up.
+#       * Retaliation missions are made even less frequent and annoying.
+#       * Ambush Suite speed increased by 200 knots, and 10% damage bonus removed.
+#       * Increased Heavy Fusion Ball accuracy.
+#       * Increased Plasma Rifles and decreased Heavy Plasmas in the early game.
+#       * Reduced weight of all melee weapons.
+#       * Added new Combat Shotgun and AP slugs available only via outsourcing.
+#       * Tweaked basic and plasma shotgun accuracy and range values.
+#       * Power Suit Pistol has been reworked into an autofiring marksman weapon.
+#       * AE Grenade Round now unlocks with Alien Grenade Arsenal instead of Alien Explosives.
+#       * AE Grenade no longer requires Alien Grenade Arsenal research.
+#       * Alien Explosives research is now called Alien Explosive Ammo for clarity.
+#       * Alien Explosives manufacturing recipe is now unlocked as soon as you research Alien Grenade.
+#       * Rebalanced the costs of inefficient manufacturing projects.
+#       * Manufacture categories improved.
+#       * New manufacturing recipes added enabling production of tier 2 large craft weapons.
+#       * New manufacturing recipes added which make use of alien lasers.
+#       * New inefficient recipe for Alien Laser//buy and build now require Heavy Power Suit Weapon tech.
+#       * Reduced how frequently green repositories appear on operations vessels.
+#       * Reduced TU costs for moving items between Shoulders, Belt, Legs, and Hands.
+#       * Fixed bug with Terror Site in which destroying beacon did not give credit.
+#         - New bug introduced in which aborting mission after destroying beacon saves all remaining civilians.
+#       * Crashed UFOs cause less damage to surrounding terrain. Landed UFOs are less explosive.
+#       * North-South and East-West corridors now properly block movement in other directions.
+#       * Hopefully the hole in the Mastodon and Stormcharger are fixed (properly!)
+#       * Fixed a minor map bug.
+#       * Increased Sectopod Plasma and Stun resistance.
+#       * Flagship research divided into three portions in order to show progress more clearly.
+#       * Research time for data cores and capsules cut in half.
+#       * Titan Laser and Rampage Missile UFOPedia reports updated.
+#       * Added several UFOPedia reports for UFO and salvage components.
+#       * Some UFOPedia text tweaks.
 #
 # resource authors/sources:
 # Chiko: alien and terran plasma variants
@@ -343,6 +403,10 @@
 # DaiShiva: MapView
 #		* http://openxcommods.weebly.com/mapview.html
 #		uses: edit battlescape maps
+#   note: start with MapView 2!
+# KevL: MapView 2
+#		* https://openxcom.org/forum/index.php/topic,1321.msg149739.html#msg149739
+#		uses: edit battlescape maps
 # Bomb Bloke//Humax: XCOMExtractor
 #		* http://www.openxcom.com/mod/xcom-image-extractor
 #		uses: convert .PCK images into .gif format
@@ -401,14 +465,11 @@
 # assets and license your new creations under the identical terms. Several assets in this work borrow or are
 # rearranged from the base game assets, which were originally the intellectual property of MicroProse, and
 # currently belong to Firaxis at the time of this release. These assets are licensed much more restrictively.
-#
 # Anything not credited here is not necessarily done by me, and may simply be uncredited. Please notify me
-# of any of these you find. If you know who to give credit to, please mention this as well. Best way to
-# contact me is currently via Discord, I am thereaverofdarkness#2362. I can also be contacted via the
-# OpenXcom forums as The Reaver of Darkness, or (weakest method) the mod portal as thereaverofdarkness.
+# of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.0
+version: 1.1.1
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

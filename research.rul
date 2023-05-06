@@ -320,8 +320,9 @@ research:
     points: 120
     dependencies:
       - STR_FEAR_PROJECTION
-      - STR_MIND_PROBE
-      - STR_ALIEN_ENTERTAINMENT
+      - STR_PSIONIC_TECHNOLOGY
+      - STR_PSIONIC_ALIEN
+      - STR_PSIONIC_ALIEN_CORPSE
   - name: STR_PSIONIC_DISRUPTOR
     listOrder: 170
     cost: 1800
@@ -416,6 +417,52 @@ research:
     dependencies:
       - STR_HEAVY_LASER_WEAPONS
       - STR_AUTOMATIC_LASER_WEAPONS
+  - name: STR_TITAN_LASER
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_TITAN_LASER_DEP1
+      - STR_TITAN_LASER_DEP2
+  - name: STR_TITAN_LASER_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_OUTSOURCING_AIR
+      - STR_ADVANCED_LASER_WEAPONS
+      - STR_LARGE_PYLON_MOUNT
+  - name: STR_TITAN_LASER_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_AUTOMATIC_LASER_WEAPONS
+      - STR_HEAVY_LASER_WEAPONS
+      - STR_LASER_DEFENSE
+      - STR_ALIEN_LASER
+      - STR_REPOSITORY_YELLOW
+      - STR_LARGE_PYLON_MOUNT
+  - name: STR_RAMPAGE
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_RAMPAGE_DEP1
+      - STR_RAMPAGE_DEP2
+  - name: STR_RAMPAGE_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_OUTSOURCING_AIR
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_LARGE_PYLON_MOUNT
+  - name: STR_RAMPAGE_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIEN_EXPLOSIVES
+      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_ALIEN_ALLOYS
+      - STR_ALIEN_GRENADE_ARSENAL
+      - STR_REPOSITORY_GREEN
+      - STR_LARGE_PYLON_MOUNT
   - name: STR_PLASMA_PRELIMINARY
     cost: 0
     points: 0
@@ -1063,14 +1110,136 @@ research:
     dependencies:
       - STR_FLAGSHIPS
   - name: STR_FLAGSHIPS
-    listOrder: 1300
     cost: 9000
     points: 1800
+    dependencies:
+      - STR_ALIENS_ONLY
+    unlocks:
+      - STR_ADVANCED_SPACECRAFT
+  - name: STR_FLAGSHIPS_DEP1
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEP2
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEP3
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEP4
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEP5
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEP6
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEP7
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEP8
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEP9
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEPA
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEPB
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEPC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEPD
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEPE
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_DEPF
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_FLAGSHIPS_NEW_A
+    listOrder: 1305
+    cost: 3000
+    points: 600
+    dependencies:
+      - STR_FLAGSHIPS_DEP0_NEW
+      - STR_FLAGSHIPS_DEP1_NEW
+      - STR_FLAGSHIPS_DEP2_NEW
+      - STR_FLAGSHIPS_DEP3_NEW
+      - STR_FLAGSHIPS_DEP4_NEW
+      - STR_FLAGSHIPS_DEP5_NEW
+      - STR_FLAGSHIPS_DEP6_NEW
+      - STR_FLAGSHIPS_DEP7_NEW
+      - STR_FLAGSHIPS_DEP8_NEW
+      - STR_FLAGSHIPS_DEP9_NEW
+      - STR_FLAGSHIPS_DEPA_NEW
+      - STR_FLAGSHIPS_DEPB_NEW
+      - STR_FLAGSHIPS_DEPC_NEW
+      - STR_FLAGSHIPS_DEPD_NEW
+      - STR_FLAGSHIPS_DEPE_NEW
+      - STR_FLAGSHIPS_DEPF_NEW
+    unlocks:
+      - STR_ADVANCED_SPACECRAFT
+      - STR_FLAGSHIPS_NEW_B
+  - name: STR_FLAGSHIPS_NEW_B
+    listOrder: 1306
+    cost: 3000
+    points: 600
+    dependencies:
+      - STR_FLAGSHIPS_NEW_A
+    unlocks:
+      - STR_FLAGSHIPS_NEW_C
+  - name: STR_FLAGSHIPS_NEW_C
+    listOrder: 1307
+    cost: 3000
+    points: 600
+    dependencies:
+      - STR_FLAGSHIPS_NEW_B
+    getOneFree:
+      - STR_FLAGSHIPS
+  - name: STR_FLAGSHIPS_DEP0_NEW
+    cost: 0
+    points: 0
     dependencies:
       - STR_NEW_FIGHTER_CRAFT
       - STR_NEW_FIGHTER_TRANSPORTER
       - STR_SMALL_SCOUT
       - STR_COVERT_OPS_SHIP
+      - STR_PATROLLER
       - STR_MEDIUM_SCOUT
       - STR_LARGE_SCOUT
       - STR_LIGHT_DESTROYER
@@ -1091,11 +1260,13 @@ research:
       - STR_ALIEN_TERROR
       - STR_ALIEN_RETALIATION
       - STR_ALIEN_SUPPLY
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_ADVANCED_SPACECRAFT
-  - name: STR_FLAGSHIPS_DEP1
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_UP
+  - name: STR_FLAGSHIPS_DEP1_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1111,12 +1282,13 @@ research:
       - STR_ALIEN_INFILTRATION
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEP2
+  - name: STR_FLAGSHIPS_DEP2_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1130,12 +1302,13 @@ research:
       - STR_ALIEN_RETALIATION
       - STR_ALIEN_SUPPLY
       - STR_PSIONIC_POWER_ARMOR
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEP3
+  - name: STR_FLAGSHIPS_DEP3_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1149,42 +1322,46 @@ research:
       - STR_FUSION_DEFENSE
       - STR_POWER_SUIT
       - STR_FLYING_SUIT
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEP4
+  - name: STR_FLAGSHIPS_DEP4_NEW
     cost: 0
     points: 0
     dependencies:
       - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_PATROLLER
       - STR_LIGHT_DESTROYER
       - STR_MEDIUM_DESTROYER
       - STR_HEAVY_DESTROYER
       - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_PSIONIC_POWER_ARMOR
-      - STR_MIND_SHIELD
       - STR_PSIONIC_DISRUPTOR
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEP5
+  - name: STR_FLAGSHIPS_DEP5_NEW
     cost: 0
     points: 0
     dependencies:
       - STR_NEW_FIGHTER_CRAFT
       - STR_ALIEN_INVASION_PSIONIC
       - STR_ALIEN_INVASION_DESTROY
+      - STR_ALIEN_HOME_DEFENSE
       - STR_POWER_SUIT_WEAPONS
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEP6
+  - name: STR_FLAGSHIPS_DEP6_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1193,25 +1370,28 @@ research:
       - STR_ALIEN_HOME_INVASION
       - STR_SNAKEMAN_INVASION
       - STR_INTEGRATED_ARMOR
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEP7
+  - name: STR_FLAGSHIPS_DEP7_NEW
     cost: 0
     points: 0
     dependencies:
       - STR_NEW_FIGHTER_TRANSPORTER
       - STR_ALIEN_INVASION
       - STR_ALIEN_HOME_INVASION
+      - STR_ALIEN_HOME_DEFENSE
       - STR_POWER_SUIT_WEAPONS
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEP8
+  - name: STR_FLAGSHIPS_DEP8_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1220,12 +1400,13 @@ research:
       - STR_ALIEN_INVASION_DESTROY
       - STR_SNAKEMAN_INVASION
       - STR_INTEGRATED_ARMOR
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEP9
+  - name: STR_FLAGSHIPS_DEP9_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1236,12 +1417,13 @@ research:
       - STR_HEAVY_DESTROYER_ELITE
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_AUTOMATIC_PLASMA_WEAPONS
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEPA
+  - name: STR_FLAGSHIPS_DEPA_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1252,12 +1434,13 @@ research:
       - STR_BATTLESHIP_ELITE
       - STR_MOTHERSHIP_ELITE
       - STR_PSIONIC_POWER_ARMOR
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEPB
+  - name: STR_FLAGSHIPS_DEPB_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1267,12 +1450,13 @@ research:
       - STR_ABDUCTOR_ELITE
       - STR_HARVESTER_ELITE
       - STR_FUSION_MISSILE
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEPC
+  - name: STR_FLAGSHIPS_DEPC_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1290,12 +1474,13 @@ research:
       - STR_MEDI_KIT
       - STR_MOTION_SCANNER
       - STR_MIND_PROBE
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEPD
+  - name: STR_FLAGSHIPS_DEPD_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1328,12 +1513,13 @@ research:
       - STR_SILACOID_AUTOPSY
       - STR_SECTOPOD
       - STR_SECTOPOD_AUTOPSY
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEPE
+  - name: STR_FLAGSHIPS_DEPE_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1357,9 +1543,9 @@ research:
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
-  - name: STR_FLAGSHIPS_DEPF
+  - name: STR_FLAGSHIPS_DEPF_NEW
     cost: 0
     points: 0
     dependencies:
@@ -1367,6 +1553,7 @@ research:
       - STR_ULTIMATE_TRANSPORT_CRAFT
       - STR_SMALL_SCOUT_ELITE
       - STR_COVERT_OPS_SHIP_ELITE
+      - STR_PATROLLER_ELITE
       - STR_MEDIUM_SCOUT_ELITE
       - STR_LARGE_SCOUT_ELITE
       - STR_LIGHT_DESTROYER_ELITE
@@ -1379,10 +1566,11 @@ research:
       - STR_HEAVY_DESTROYER_ELITE
       - STR_BATTLESHIP_ELITE
       - STR_MOTHERSHIP_ELITE
+      - STR_UFO_SHIELD_EMITTER
       - STR_MIND_SHIELD
       - STR_HYPER_WAVE_DECODER
     unlocks:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
       - STR_FLAGSHIPS_UP
   - name: STR_UFO_CONSTRUCTION
     listOrder: 1399
@@ -1734,6 +1922,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_CONTAINING_ALIENS
+      - STR_PSIONIC_ALIEN_CORPSE
     lookup: STR_SNAKEMAN_COMMANDER_B_AUTOPSY
   - name: STR_MUTON_CORPSE
     listOrder: 1930
@@ -3010,6 +3199,7 @@ research:
       - STR_LEADER_PLUS
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_ORIGINS_UP
+      - STR_PSIONIC_ALIEN
     getOneFree:
       - STR_SNAKEMAN
       - STR_CHRYSSALID
@@ -3444,196 +3634,196 @@ research:
       - STR_ETHEREAL_NAVIGATOR
   - name: STR_DATA_CANISTER_SS
     listOrder: 2749
-    cost: 90
+    cost: 45
     points: 9
     needItem: true
     destroyItem: false
     lookup: STR_SMALL_SCOUT
   - name: STR_DATA_CANISTER_CO
     listOrder: 2750
-    cost: 90
+    cost: 45
     points: 9
     needItem: true
     destroyItem: false
     lookup: STR_COVERT_OPS_SHIP
   - name: STR_DATA_CANISTER_PA
     listOrder: 2751
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
     lookup: STR_PATROLLER
   - name: STR_DATA_CORE_MS
     listOrder: 2752
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
     lookup: STR_MEDIUM_SCOUT
   - name: STR_DATA_CORE_LS
     listOrder: 2753
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
     lookup: STR_LARGE_SCOUT
   - name: STR_DATA_CORE_CS
     listOrder: 2754
-    cost: 120
+    cost: 60
     points: 12
     needItem: true
     destroyItem: false
     lookup: STR_CARGO_SHIP
   - name: STR_DATA_CORE_AB
     listOrder: 2755
-    cost: 120
+    cost: 60
     points: 12
     needItem: true
     destroyItem: false
     lookup: STR_ABDUCTOR
   - name: STR_DATA_CORE_HV
     listOrder: 2756
-    cost: 120
+    cost: 60
     points: 12
     needItem: true
     destroyItem: false
     lookup: STR_HARVESTER
   - name: STR_DATA_CORE_TS
     listOrder: 2757
-    cost: 150
+    cost: 75
     points: 15
     needItem: true
     destroyItem: false
     lookup: STR_TERROR_SHIP
   - name: STR_DATA_CORE_SS
     listOrder: 2758
-    cost: 150
+    cost: 75
     points: 15
     needItem: true
     destroyItem: false
     lookup: STR_SUPPLY_SHIP
   - name: STR_DATA_CORE_BS
     listOrder: 2759
-    cost: 200
+    cost: 100
     points: 20
     needItem: true
     destroyItem: false
     lookup: STR_BATTLESHIP
   - name: STR_DATA_CORE_MO
     listOrder: 2760
-    cost: 200
+    cost: 100
     points: 20
     needItem: true
     destroyItem: false
     lookup: STR_MOTHERSHIP
   - name: STR_DATA_CORE_LD
     listOrder: 2761
-    cost: 120
+    cost: 60
     points: 12
     needItem: true
     destroyItem: false
     lookup: STR_LIGHT_DESTROYER
   - name: STR_DATA_CORE_MD
     listOrder: 2762
-    cost: 140
+    cost: 70
     points: 10
     needItem: true
     destroyItem: false
     lookup: STR_MEDIUM_DESTROYER
   - name: STR_DATA_CORE_HD
     listOrder: 2763
-    cost: 180
+    cost: 90
     points: 18
     needItem: true
     destroyItem: false
     lookup: STR_HEAVY_DESTROYER
   - name: STR_DATA_CAPSULE_MS
     listOrder: 2764
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_LS
     listOrder: 2765
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_CS
     listOrder: 2766
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_AB
     listOrder: 2767
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_HV
     listOrder: 2768
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_TS
     listOrder: 2769
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_SS
     listOrder: 2770
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_BS
     listOrder: 2771
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_MO
     listOrder: 2772
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_LD
     listOrder: 2773
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_MD
     listOrder: 2774
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CAPSULE_HD
     listOrder: 2775
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CACHE_TS
     listOrder: 2776
-    cost: 100
+    cost: 50
     points: 10
     needItem: true
     destroyItem: false
   - name: STR_DATA_CACHE_AO
     listOrder: 2777
-    cost: 80
+    cost: 40
     points: 8
     needItem: true
     destroyItem: false
   - name: STR_DATA_CACHE_AB
     listOrder: 2778
-    cost: 140
+    cost: 70
     points: 14
     needItem: true
     destroyItem: false
@@ -3803,20 +3993,19 @@ research:
     cost: 0
     points: 0
     dependencies:
-      - STR_OUTSOURCING_AIR
-      - STR_HEAVY_ALIEN_EXPLOSIVES
+      - STR_RAMPAGE
   - name: STR_LARGE_AIR_EQUIPMENT_DEP1
     cost: 0
     points: 0
     dependencies:
-      - STR_OUTSOURCING_AIR
-      - STR_ADVANCED_LASER_WEAPONS
+      - STR_TITAN_LASER
     unlocks:
       - STR_LARGE_AIR_EQUIPMENT
   - name: STR_LARGE_AIR_EQUIPMENT_DEP2
     cost: 0
     points: 0
     dependencies:
+      - STR_UFO_PLASMA_EMITTER
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_AUTOMATIC_PLASMA_WEAPONS
     unlocks:

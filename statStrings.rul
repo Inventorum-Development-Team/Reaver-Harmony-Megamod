@@ -31,19 +31,19 @@
      psiStrength: [61, 79]
    - string: "*"
      psiStrength: [80, ~]
-     psiSkill: [~, 54]
+     psiSkill: [~, 59]
    - string: "γ"
-     psiSkill: [~, 24]
+     psiSkill: [~, 29]
    - string: "β"
-     psiSkill: [25, 39]
+     psiSkill: [30, 44]
    - string: "α"
-     psiSkill: [40, 54]
+     psiSkill: [45, 59]
    - string: "ς"
      psiStrength: [~, 79]
-     psiSkill: [55, ~]
+     psiSkill: [60, ~]
    - string: "ψ"
      psiStrength: [80, ~]
-     psiSkill: [55, ~]
+     psiSkill: [60, ~]
 #Elites
    - string: "Raid" # Breacher / Ranger
      reactions: [60, ~]

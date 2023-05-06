@@ -194,12 +194,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
@@ -209,6 +203,12 @@ alienDeployments:
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -314,9 +314,9 @@ alienDeployments:
         percentageOutsideUfo: 35
         itemSets:
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -463,11 +463,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
@@ -475,6 +470,11 @@ alienDeployments:
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -584,9 +584,9 @@ alienDeployments:
         percentageOutsideUfo: 30
         itemSets:
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -775,9 +775,9 @@ alienDeployments:
         percentageOutsideUfo: 30
         itemSets:
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -924,9 +924,9 @@ alienDeployments:
         percentageOutsideUfo: 30
         itemSets:
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -1232,11 +1232,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
@@ -1244,6 +1239,11 @@ alienDeployments:
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -1414,6 +1414,7 @@ alienDeployments:
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
             - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
           -
             - STR_FUSION_LAUNCHER_RED
             - STR_FUSION_LAUNCHER_RED_BOMB
@@ -1499,11 +1500,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
@@ -1511,6 +1507,11 @@ alienDeployments:
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -1662,9 +1663,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -1970,11 +1971,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
@@ -1982,6 +1978,11 @@ alienDeployments:
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -2294,11 +2295,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
@@ -2306,6 +2302,11 @@ alienDeployments:
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -2501,9 +2502,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -2776,9 +2777,9 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -2881,11 +2882,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
@@ -2893,6 +2889,11 @@ alienDeployments:
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -3007,7 +3008,9 @@ alienDeployments:
     markerIcon: 5
     duration: [15, 21]
     despawnPenalty: 1000
-    objectiveType: 90
+    objectiveType: 60
+    allowObjectiveRecovery: true
+    objectivesRequired: 1
     objectiveComplete: [STR_ALIEN_TERROR_STOPPED, 250]
     objectiveFailed: [STR_ALIEN_TERROR_CONTINUES, -250]
     objectivePopup: STR_TERROR_BEACON_DESTROYED
@@ -3257,12 +3260,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
@@ -3272,6 +3269,12 @@ alienDeployments:
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
@@ -3392,1886 +3395,386 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 5
     bughuntMinTurn: 25
-  # - type: STR_ALIEN_BASE_ASSAULT_SECTOID
-    # data:
-      # - alienRank: 0
-        # lowQty: 1
-        # highQty: 3
-        # dQty: 0
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 1
-        # lowQty: 3
-        # highQty: 7
-        # dQty: 2
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-      # - alienRank: 2
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 3
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 4
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_MIND_PROBE
-      # - alienRank: 5
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 6
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP 
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 7
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP  
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE 
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE_RED
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-    # width: 60
-    # length: 60
-    # height: 3
-    # terrains:
-      # - UBASE
-    # shade: 12
-    # race: STR_SECTOID_BASE
-    # script: ALIENBASE
-    # briefing:
-      # textOffset: -16
-      # background: BACK01.SCR
-      # showTarget: false
-    # objectiveType: 30
-    # markerName: STR_ALIEN_BASE
-    # markerIcon: 7
-    # genMission:
-      # STR_ALIEN_SUPPLY: 100
-    # genMissionFreq: 8
-    # alienBase: true    # this is only to tell new battle mode what to do with this deployment
-    # objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 1000]
-    # objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    # points: 5
-  # - type: STR_ALIEN_BASE_ASSAULT_FLOATER
-    # data:
-      # - alienRank: 0
-        # lowQty: 1
-        # highQty: 3
-        # dQty: 0
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 1
-        # lowQty: 3
-        # highQty: 7
-        # dQty: 2
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-      # - alienRank: 2
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 3
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 4
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_MIND_PROBE
-      # - alienRank: 5
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 6
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP 
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 7
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP  
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE 
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE_RED
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-    # width: 60
-    # length: 60
-    # height: 3
-    # terrains:
-      # - UBASE
-    # shade: 12
-    # race: STR_FLOATER_BASE
-    # script: ALIENBASE
-    # briefing:
-      # textOffset: -16
-      # background: BACK01.SCR
-      # showTarget: false
-    # objectiveType: 30
-    # markerName: STR_ALIEN_BASE
-    # markerIcon: 7
-    # genMission:
-      # STR_ALIEN_SUPPLY: 100
-    # genMissionFreq: 8
-    # alienBase: true    # this is only to tell new battle mode what to do with this deployment
-    # objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 1000]
-    # objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    # points: 5
-  # - type: STR_ALIEN_BASE_ASSAULT_SNAKEMAN
-    # data:
-      # - alienRank: 0
-        # lowQty: 1
-        # highQty: 3
-        # dQty: 0
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 1
-        # lowQty: 3
-        # highQty: 7
-        # dQty: 2
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-      # - alienRank: 2
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 3
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 4
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_MIND_PROBE
-      # - alienRank: 5
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 6
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP 
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 7
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP  
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE 
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE_RED
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-    # width: 60
-    # length: 60
-    # height: 3
-    # terrains:
-      # - UBASE
-    # shade: 12
-    # race: STR_SNAKEMAN_BASE
-    # script: ALIENBASE
-    # briefing:
-      # textOffset: -16
-      # background: BACK01.SCR
-      # showTarget: false
-    # objectiveType: 30
-    # markerName: STR_ALIEN_BASE
-    # markerIcon: 7
-    # genMission:
-      # STR_ALIEN_SUPPLY: 100
-    # genMissionFreq: 8
-    # alienBase: true    # this is only to tell new battle mode what to do with this deployment
-    # objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 1000]
-    # objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    # points: 5
-  # - type: STR_ALIEN_BASE_ASSAULT_MUTON
-    # data:
-      # - alienRank: 0
-        # lowQty: 1
-        # highQty: 3
-        # dQty: 0
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 1
-        # lowQty: 3
-        # highQty: 7
-        # dQty: 2
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-      # - alienRank: 2
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 3
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 4
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_MIND_PROBE
-      # - alienRank: 5
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 6
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP 
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 7
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP  
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE 
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE_RED
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-    # width: 60
-    # length: 60
-    # height: 3
-    # terrains:
-      # - UBASE
-    # shade: 12
-    # race: STR_MUTON_BASE
-    # script: ALIENBASE
-    # briefing:
-      # textOffset: -16
-      # background: BACK01.SCR
-      # showTarget: false
-    # objectiveType: 30
-    # markerName: STR_ALIEN_BASE
-    # markerIcon: 7
-    # genMission:
-      # STR_ALIEN_SUPPLY: 100
-    # genMissionFreq: 8
-    # alienBase: true    # this is only to tell new battle mode what to do with this deployment
-    # objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 1000]
-    # objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    # points: 5
-  # - type: STR_ALIEN_BASE_ASSAULT_ETHEREAL
-    # data:
-      # - alienRank: 0
-        # lowQty: 1
-        # highQty: 3
-        # dQty: 0
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 1
-        # lowQty: 3
-        # highQty: 7
-        # dQty: 2
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP
-      # - alienRank: 2
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_BLASTER_LAUNCHER
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-            # - STR_BLASTER_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 3
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_SMALL_LAUNCHER
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-            # - STR_STUN_BOMB
-          # -
-            # - STR_FUSION_LAUNCHER_RED
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-            # - STR_FUSION_LAUNCHER_RED_BOMB
-      # - alienRank: 4
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_MIND_PROBE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_MIND_PROBE
-      # - alienRank: 5
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA_RED
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_HEAVY_PLASMA_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 6
-        # lowQty: 2
-        # highQty: 4
-        # dQty: 1
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL_RED
-            # - STR_PLASMA_PISTOL_RED_CLIP
-            # - STR_PLASMA_PISTOL_RED_CLIP 
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-      # - alienRank: 7
-        # lowQty: 4
-        # highQty: 9
-        # dQty: 3
-        # percentageOutsideUfo: 0
-        # itemSets:
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_HEAVY_PLASMA
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_HEAVY_PLASMA_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_PISTOL
-            # - STR_PLASMA_PISTOL_CLIP
-            # - STR_PLASMA_PISTOL_CLIP  
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE 
-          # -
-            # - STR_PLASMA_RIFLE
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_PLASMA_RIFLE_CLIP
-            # - STR_ALIEN_GRENADE
-            # - STR_ALIEN_GRENADE
-          # -
-            # - STR_PLASMA_RIFLE_RED
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_PLASMA_RIFLE_RED_CLIP
-            # - STR_ALIEN_GRENADE_RED
-            # - STR_ALIEN_GRENADE_RED
-    # width: 60
-    # length: 60
-    # height: 3
-    # terrains:
-      # - UBASE
-    # shade: 12
-    # race: STR_ETHEREAL_BASE
-    # script: ALIENBASE
-    # briefing:
-      # textOffset: -16
-      # background: BACK01.SCR
-      # showTarget: false
-    # objectiveType: 30
-    # markerName: STR_ALIEN_BASE
-    # markerIcon: 7
-    # genMission:
-      # STR_ALIEN_SUPPLY: 100
-    # genMissionFreq: 8
-    # alienBase: true    # this is only to tell new battle mode what to do with this deployment
-    # objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 1000]
-    # objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    # points: 5
+  - type: STR_ALIEN_BASE_ASSAULT_ELITE
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_FUSION_LAUNCHER_RED
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+      - alienRank: 1
+        lowQty: 3
+        highQty: 7
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_FUSION_LAUNCHER_RED
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_FUSION_LAUNCHER_RED
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_MIND_PROBE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 9
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA_RED
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_HEAVY_PLASMA_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
+      - alienRank: 6
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
+      - alienRank: 7
+        lowQty: 4
+        highQty: 9
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP  
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE 
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
+    width: 60
+    length: 60
+    height: 3
+    terrains:
+      - UBASE
+    shade: 12
+    script: ALIENBASE
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 30
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_SUPPLY_ELITE: 100
+    genMissionFreq: 8
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 1000]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 5
+    bughuntMinTurn: 25
   - type: STR_ALIEN_OUTPOST_ASSAULT
     data:
       - alienRank: 1
@@ -5327,12 +3830,11 @@ alienDeployments:
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
           -
-            - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
-            - STR_BLASTER_BOMB
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
           -
             - STR_BLASTER_LAUNCHER
-            - STR_BLASTER_BOMB
             - STR_BLASTER_BOMB
             - STR_BLASTER_BOMB
           -
@@ -5589,6 +4091,322 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 5
     bughuntMinTurn: 15
+  - type: STR_ALIEN_OUTPOST_ASSAULT_ELITE
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_FUSION_LAUNCHER_RED
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_FUSION_LAUNCHER_RED
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+            - STR_FUSION_LAUNCHER_RED_BOMB
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_PISTOL_RED
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_PLASMA_PISTOL_RED_CLIP
+            - STR_MIND_PROBE
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
+      - alienRank: 6
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP  
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE 
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE_RED
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_PLASMA_RIFLE_RED_CLIP
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
+    width: 30
+    length: 30
+    height: 2
+    terrains:
+      - UPOST
+    shade: 12
+    script: ALIENOUTPOST
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 30
+    markerName: STR_ALIEN_OUTPOST
+    markerIcon: 9
+    genMission:
+      STR_ALIEN_SUPPLY_OUTPOST_ELITE: 100
+    genMissionFreq: 8
+    alienBase: true
+    objectiveComplete: [STR_ALIEN_OUTPOST_CONTROL_DESTROYED, 250]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 5
+    bughuntMinTurn: 15
   - type: STR_SNAKEMAN_OUTPOST_ASSAULT
     data:
       - alienRank: 0
@@ -5801,7 +4619,7 @@ alienDeployments:
     markerName: STR_ALIEN_OUTPOST
     markerIcon: 9
     genMission:
-      STR_ALIEN_SUPPLY_OUTPOST: 100
+      STR_ALIEN_SUPPLY_OUTPOST_ELITE: 100
     genMissionFreq: 4
     alienBase: true
     objectiveComplete: [STR_SNAKEMAN_OUTPOST_CONTROL_DESTROYED, 200]
@@ -6021,11 +4839,6 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
@@ -6033,6 +4846,11 @@ alienDeployments:
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -

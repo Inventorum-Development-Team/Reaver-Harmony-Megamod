@@ -111,9 +111,10 @@ items:
     listOrder: 191
     size: 0.06
     costBuy: 10000
+    transferTime: 48
     costSell: 7500
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
-    transferTime: 48
+    clipSize: 1
   - type: STR_SHRIKE_LAUNCHER
     listOrder: 195
     size: 0.06
@@ -146,9 +147,10 @@ items:
     listOrder: 201
     size: 0.06
     costBuy: 7200
+    transferTime: 48
     costSell: 5760
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
-    transferTime: 48
+    clipSize: 1
   - type: STR_SCORPION_LAUNCHER
     listOrder: 205
     size: 0.09
@@ -181,9 +183,10 @@ items:
     listOrder: 301
     size: 0.18
     costBuy: 24000
+    transferTime: 48
     costSell: 19200
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_EARLY_TECH]
-    transferTime: 48
+    clipSize: 1
   - type: STR_TORRENT_LAUNCHER
     listOrder: 305
     size: 0.072
@@ -229,9 +232,8 @@ items:
     size: 0.15
     requiresBuy:
       - STR_OUTSOURCING_AIR
-      - STR_ALIEN_EXPLOSIVES
       - STR_HEAVY_ALIEN_EXPLOSIVES
-      - STR_LARGE_AIR_EQUIPMENT
+      - STR_LARGE_PYLON_MOUNT
     costBuy: 101200
     transferTime: 96
     costSell: 92000
@@ -241,9 +243,8 @@ items:
     size: 0.2
     requiresBuy:
       - STR_OUTSOURCING_AIR
-      - STR_ALIEN_EXPLOSIVES
       - STR_HEAVY_ALIEN_EXPLOSIVES
-      - STR_LARGE_AIR_EQUIPMENT
+      - STR_LARGE_PYLON_MOUNT
     costBuy: 176000
     transferTime: 96
     costSell: 160000
@@ -285,9 +286,10 @@ items:
     requiresBuy:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_LASER_WEAPONS
-    costBuy: 1622500
+      - STR_LARGE_PYLON_MOUNT
+    costBuy: 1611500
     transferTime: 96
-    costSell: 1475000
+    costSell: 1465000
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
   - type: STR_CRAFT_LIGHT_PLASMA
     listOrder: 480
@@ -2078,7 +2080,9 @@ items:
     damageType: 2
     damageAlter:
       FixRadius: 1
+      ToTime: 1.0
       ToHealth: 0.75
+      ResistType: 12
       ToMorale: 2.0
     bulletSpeed: 2
     clipSize: 5
@@ -2433,7 +2437,7 @@ items:
     costBuy: 100
     costSell: 75
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_EARLY_TECH]
-    weight: 3
+    weight: 1
     bigSprite: 318
     floorSprite: 306
     handSprite: 372
@@ -2473,7 +2477,7 @@ items:
     transferTime: 36
     costSell: 43000
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_MID_TECH]
-    weight: 3
+    weight: 2
     bigSprite: 349
     floorSprite: 345
     handSprite: 396
@@ -2513,7 +2517,7 @@ items:
     transferTime: 36
     costSell: 93000
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_MID_TECH]
-    weight: 5
+    weight: 4
     bigSprite: 319
     floorSprite: 307
     handSprite: 380
@@ -2552,7 +2556,7 @@ items:
     transferTime: 36
     costSell: 139000
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_MID_TECH]
-    weight: 6
+    weight: 5
     bigSprite: 348
     floorSprite: 344
     handSprite: 388
@@ -2588,7 +2592,7 @@ items:
     costBuy: 1260
     costSell: 945
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_EARLY_TECH]
-    weight: 6
+    weight: 4
     handSprite: 516
     meleeHitSound: 311
     meleeAnimation: 4
@@ -2624,7 +2628,7 @@ items:
     transferTime: 36
     costSell: 37150
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_EARLY_TECH]
-    weight: 15
+    weight: 10
     bigSprite: 350
     floorSprite: 346
     handSprite: 524
@@ -3004,15 +3008,16 @@ items:
     compatibleAmmo:
       - STR_SHOTGUN_CLIP
       - STR_SHOTGUN_ALLOY_CLIP
+      - STR_SHOTGUN_ALLOY_SLUGS
     accuracyAuto: 42
-    accuracySnap: 84
-    accuracyAimed: 135
+    accuracySnap: 80
+    accuracyAimed: 110
     tuAuto: 20
     tuSnap: 30
     tuAimed: 55
-    autoRange: 5
-    snapRange: 8
-    aimRange: 16
+    autoRange: 6
+    snapRange: 11
+    aimRange: 20
     dropoff: 2
     confAuto:
       shots: 1
@@ -3025,7 +3030,47 @@ items:
     invHeight: 3
     armor: 80
     attraction: 10
-    experienceTrainingMode: 6
+    experienceTrainingMode: 4
+  - type: STR_SHOTGUN_OUT
+    listOrder: 2232
+    size: 0.009
+    requiresBuy:
+      - STR_OUTSOURCING_GWEAPONS
+      - STR_ALLOY_WEAPONS
+    costBuy: 31680
+    costSell: 28800
+    categories: [STR_CAT_RIFLES, STR_CAT_MID_TECH]
+    weight: 8
+    bigSprite: 447
+    floorSprite: 1800
+    handSprite: 1800
+    fireSound: 313
+    compatibleAmmo:
+      - STR_SHOTGUN_CLIP
+      - STR_SHOTGUN_ALLOY_CLIP
+      - STR_SHOTGUN_ALLOY_SLUGS
+    accuracyAuto: 40
+    accuracySnap: 70
+    accuracyAimed: 95
+    tuAuto: 44
+    tuSnap: 19
+    tuAimed: 61
+    autoRange: 8
+    snapRange: 9
+    aimRange: 14
+    dropoff: 3
+    confAimed:
+      shots: 2
+    autoShots: 4
+    sprayWaypoints: 2
+    tuLoad: 2
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 80
+    attraction: 15
+    experienceTrainingMode: 5
   - type: STR_SHOTGUN_CLIP
     listOrder: 2235
     size: 0.0025
@@ -3067,7 +3112,7 @@ items:
     categories: [STR_CAT_RIFLES, STR_CAT_MID_TECH]
     weight: 3
     bigSprite: 387
-    floorSprite: 370
+    floorSprite: 395
     handSprite: 700
     hitSound: 22
     hitAnimation: 26
@@ -3088,6 +3133,36 @@ items:
     battleType: 2
     armor: 60
     attraction: 15
+  - type: STR_SHOTGUN_ALLOY_SLUGS
+    listOrder: 2242
+    size: 0.0025
+    requiresBuy:
+      - STR_OUTSOURCING_GWEAPONS
+      - STR_ALLOY_WEAPONS
+    costBuy: 3410
+    transferTime: 36
+    costSell: 3100
+    categories: [STR_CAT_RIFLES, STR_CAT_MID_TECH]
+    weight: 3
+    bigSprite: 448
+    floorSprite: 395
+    handSprite: 700
+    bulletSprite: 16
+    hitSound: 13
+    hitAnimation: 26
+    power: 66
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.7
+      IgnoreOverKill: false
+      ToArmor: 0
+      ToArmorPre: 0.07
+      ToTile: 0.4
+    bulletSpeed: 36
+    clipSize: 8
+    battleType: 2
+    armor: 60
+    attraction: 18
   - type: STR_BATTLE_RIFLE
     listOrder: 2250
     size: 0.01
@@ -3281,9 +3356,12 @@ items:
     bulletSprite: 18
     explosionSpeed: -1
     power: 50
+    damageType: 2
     damageAlter:
       FixRadius: 2
+      ToTime: 1.0
       ToHealth: 1.0
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 6
@@ -3411,10 +3489,10 @@ items:
     power: 33
     damageType: 1
     damageAlter:
-      ArmorEffectiveness: 0.54
+      ArmorEffectiveness: 0.6
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.054
+      ToArmorPre: 0.06
       ToTile: 0.4
       TileDamageMethod: 2
     clipSize: 24
@@ -3455,9 +3533,12 @@ items:
     bulletSprite: 16
     explosionSpeed: 4
     power: 30
+    damageType: 2
     damageAlter:
       FixRadius: 1
+      ToTime: 0.5
       ToHealth: 0.8
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 24
@@ -3485,10 +3566,10 @@ items:
     power: 44
     damageType: 1
     damageAlter:
-      ArmorEffectiveness: 0.54
+      ArmorEffectiveness: 0.6
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.054
+      ToArmorPre: 0.06
       ToTile: 0.4
       TileDamageMethod: 2
     clipSize: 24
@@ -3551,13 +3632,13 @@ items:
       - STR_GRENADE_ROUND_SM
       - STR_GRENADE_ROUND_AE
       - STR_GRENADE_ROUND_ST
-    accuracySnap: 47
-    accuracyAimed: 81
+    accuracySnap: 65
+    accuracyAimed: 112
     accuracyMultiplier:
       firing: 0.5
       throwing: 0.5
-    tuSnap: 36
-    tuAimed: 64
+    tuSnap: 31
+    tuAimed: 55
     snapRange: 12
     aimRange: 24
     maxRange: 40
@@ -3572,7 +3653,7 @@ items:
     invHeight: 3
     armor: 80
     attraction: 10
-    experienceTrainingMode: 11
+    experienceTrainingMode: 10
   - type: STR_GRENADE_ROUND_HE
     listOrder: 3055
     size: 0.0025
@@ -3617,7 +3698,9 @@ items:
     damageType: 2
     damageAlter:
       FixRadius: 2
+      ToTime: 1.0
       ToHealth: 1.1
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
@@ -3730,12 +3813,12 @@ items:
       - STR_ALIEN_ROCKET
       - STR_FUSION_ROCKET
       - STR_LARGE_ROCKET
-    accuracySnap: 55
-    accuracyAimed: 115
-    tuSnap: 40
+    accuracySnap: 65
+    accuracyAimed: 145
+    tuSnap: 31
     tuAimed: 70
     snapRange: 12
-    aimRange: 30
+    aimRange: 25
     dropoff: 1
     tuLoad: 15
     battleType: 1
@@ -3817,7 +3900,9 @@ items:
     damageType: 2
     damageAlter:
       FixRadius: 5
+      ToTime: 1.0
       ToHealth: 1.5
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     armor: 30
@@ -4145,10 +4230,10 @@ items:
     power: 66
     damageType: 4
     damageAlter:
-      ArmorEffectiveness: 0.9
+      ArmorEffectiveness: 1.0
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.09
+      ToArmorPre: 0.1
       ToTile: 0.4
       TileDamageMethod: 2
     accuracyAuto: 74
@@ -4188,16 +4273,16 @@ items:
     fireSound: 18
     compatibleAmmo:
       - STR_PLASMA_SHOTGUN_CLIP
-    accuracyAuto: 35
+    accuracyAuto: 36
     accuracySnap: 68
-    accuracyAimed: 121
+    accuracyAimed: 100
     tuAuto: 23
     tuSnap: 33
     tuAimed: 61
-    autoRange: 3
-    snapRange: 6
-    aimRange: 18
-    dropoff: 2
+    autoRange: 1
+    snapRange: 7
+    aimRange: 12
+    dropoff: 1
     confAuto:
       shots: 1
       name: STR_RAPID_FIRE
@@ -4209,7 +4294,7 @@ items:
     invHeight: 3
     armor: 120
     attraction: 20
-    experienceTrainingMode: 6
+    experienceTrainingMode: 4
   - type: STR_PLASMA_SHOTGUN_CLIP
     listOrder: 3801
     size: 0.0025
@@ -4575,10 +4660,10 @@ items:
     power: 99
     damageType: 5
     damageAlter:
-      ArmorEffectiveness: 0.9
+      ArmorEffectiveness: 1.0
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.09
+      ToArmorPre: 0.1
       ToTile: 0.4
       TileDamageMethod: 2
     clipSize: 40
@@ -4703,7 +4788,9 @@ items:
     damageType: 2
     damageAlter:
       FixRadius: 7
+      ToTime: 1.0
       ToHealth: 1.9
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
@@ -4755,14 +4842,15 @@ items:
       - STR_HE_BOMB
       - STR_SMOKE_BOMB
       - STR_INCENDIARY_BOMB
-    accuracySnap: 45
-    accuracyAimed: 100
+    accuracySnap: 55
+    accuracyAimed: 95
     tuSnap: 22
-    tuAimed: 54
-    snapRange: 12
-    aimRange: 25
+    tuAimed: 38
+    snapRange: 10
+    aimRange: 18
+    dropoff: 2
     bulletSpeed: 5
-    tuLoad: 5
+    tuLoad: 3
     battleType: 1
     twoHanded: false
     invWidth: 2
@@ -4875,7 +4963,9 @@ items:
     damageType: 2
     damageAlter:
       FixRadius: 3
+      ToTime: 1.0
       ToHealth: 1.4
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
@@ -4889,25 +4979,27 @@ items:
     size: 0.01
     costSell: 2100000
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 31
+    weight: 29
     bigSprite: 362
     floorSprite: 357
     handSprite: 604
     fireSound: 315
     compatibleAmmo:
       - STR_POWER_SUIT_PISTOL_CLIP
-    accuracyAuto: 45
-    accuracySnap: 74
-    accuracyAimed: 110
+    accuracyAuto: 55
+    accuracySnap: 75
+    accuracyAimed: 90
     tuAuto: 31
-    tuSnap: 23
-    tuAimed: 45
-    autoRange: 10
-    snapRange: 18
-    aimRange: 30
+    tuSnap: 15
+    tuAimed: 46
+    autoRange: 12
+    snapRange: 16
+    aimRange: 25
     dropoff: 1
-    bulletSpeed: 6
-    autoShots: 2
+    bulletSpeed: 10
+    confAimed:
+      shots: 2
+    autoShots: 3
     tuLoad: 6
     battleType: 1
     invWidth: 2
@@ -4927,14 +5019,14 @@ items:
     bulletSprite: 36
     hitSound: 19
     hitAnimation: 56
-    power: 110
-    damageType: 5
+    power: 80
+    damageType: 15
     damageAlter:
-      ArmorEffectiveness: 1.0
+      ArmorEffectiveness: 0.6
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    clipSize: 10
+    clipSize: 15
     battleType: 2
     invWidth: 1
     invHeight: 2
@@ -4973,7 +5065,7 @@ items:
     invHeight: 3
     armor: 150
     attraction: 25
-    experienceTrainingMode: 5
+    experienceTrainingMode: 4
   - type: STR_POWER_SUIT_RIFLE_CLIP
     listOrder: 4225
     size: 0.004
@@ -5226,7 +5318,9 @@ items:
     damageType: 2
     damageAlter:
       FixRadius: 10
+      ToTime: 1.0
       ToHealth: 2.75
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 1
@@ -5252,7 +5346,7 @@ items:
     damageAlter:
       FixRadius: 11
       RadiusReduction: 10
-      ArmorEffectiveness: 0.3
+      ArmorEffectiveness: 0.2
     clipSize: 1
     battleType: 2
     waypoints: 7
@@ -5325,7 +5419,9 @@ items:
     damageType: 2
     damageAlter:
       FixRadius: 4
+      ToTime: 1.0
       ToHealth: 1.85
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     clipSize: 3
@@ -5466,9 +5562,10 @@ items:
     power: 70
     damageType: 2
     damageAlter:
-    damageAlter:
       FixRadius: 3
+      ToTime: 0.5
       ToHealth: 1.2
+      ResistType: 12
       ToMorale: 2.0
       IgnoreOverKill: false
     battleType: 4
@@ -5700,6 +5797,7 @@ items:
     medikitTargetSelf: false
     armor: 50
     attraction: 10
+    experienceTrainingMode: 19
   - type: STR_MEDI_KIT
     listOrder: 4415
     size: 0.004
@@ -5726,6 +5824,7 @@ items:
     medikitTargetSelf: false
     armor: 60
     attraction: 15
+    experienceTrainingMode: 19
   - type: STR_MEDI_KIT_SUPER
     listOrder: 4420
     size: 0.01
@@ -5751,8 +5850,9 @@ items:
     tuUse: 12
     flatRate: false
     medikitTargetSelf: true
-    armor: 110
+    armor: 90
     attraction: 20
+    experienceTrainingMode: 19
   - type: STR_MOTION_SCANNER
     listOrder: 4425
     size: 0.0025
@@ -5790,7 +5890,7 @@ items:
   - type: STR_FEAR_PROJECTOR
     listOrder: 4450
     size: 0.004
-    weight: 6
+    weight: 4
     costSell: 310000
     categories: [STR_CAT_EQUIPMENT, STR_CAT_MID_TECH]
     bigSprite: 377
@@ -5802,8 +5902,8 @@ items:
     invWidth: 1
     invHeight: 2
     costPanic:
-      time: 18
-      mana: 4
+      time: 10
+      mana: 6
     costMindControl:
       time: 0
     accuracyPanic: 10
@@ -5885,7 +5985,7 @@ items:
   - type: STR_PSI_AMP
     listOrder: 4460
     size: 0.008
-    weight: 10
+    weight: 6
     costSell: 803000
     categories: [STR_CAT_EQUIPMENT, STR_CAT_HIGH_TECH]
     bigSprite: 378
@@ -5896,17 +5996,17 @@ items:
     accuracyPanic: 10
     accuracyMindControl: -10
     costPanic:
-      time: 20
-      mana: 6
+      time: 12
+      mana: 8
     costMindControl:
       time: 30
-      mana: 12
+      mana: 40
     tuUse: 25
     flatRate: true
     twoHanded: true #used only for handobs offset
     oneHandedPenalty: 100
     LOSRequired: false
-    armor: 130
+    armor: 100
     manaExperience: 100
     attraction: 20
   - type: STR_PSIONIC_DISRUPTOR
@@ -5925,24 +6025,24 @@ items:
     invWidth: 2
     invHeight: 3
     costPanic:
-      time: 30
-      mana: 9
+      time: 19
+      mana: 3
     costMindControl:
-      time: 65
-      mana: 26
+      time: 57
+      mana: 27
     costUse:
-      time: 45
-      mana: 16
+      time: 38
+      mana: 12
     flatUse:
       time: false
       mana: true
-    accuracyPanic: 30
+    accuracyPanic: 25
     accuracyMindControl: 10
     accuracyUse: 20
-    armor: 150
+    armor: 110
     manaExperience: 100
     attraction: 25
-    experienceTrainingMode: 27
+    experienceTrainingMode: 26
 #Special Function segment
     psiAttackName: STR_PSI_ATTACK_STUN
     damageType: 5
@@ -6197,7 +6297,7 @@ items:
     invWidth: 1
     invHeight: 2
     recoveryPoints: 2
-    armor: 60
+    armor: 70
     attraction: 20
   - type: STR_SMALL_LAUNCHER
     listOrder: 4850
@@ -6214,14 +6314,15 @@ items:
     fireSound: 53
     compatibleAmmo:
       - STR_STUN_BOMB
-    accuracySnap: 45
-    accuracyAimed: 100
+    accuracySnap: 55
+    accuracyAimed: 95
     tuSnap: 22
-    tuAimed: 54
-    snapRange: 12
-    aimRange: 25
+    tuAimed: 38
+    snapRange: 10
+    aimRange: 18
+    dropoff: 2
     bulletSpeed: 5
-    tuLoad: 5
+    tuLoad: 3
     battleType: 1
     twoHanded: false
     invWidth: 2
@@ -6251,7 +6352,7 @@ items:
     clipSize: 1
     battleType: 2
     recoveryPoints: 1
-    armor: 40
+    armor: 50
     attraction: 20
   - type: STR_ALIEN_GRENADE
     listOrder: 4870
@@ -6534,10 +6635,11 @@ items:
     requiresBuy:
       - STR_OUTSOURCING
       - STR_ALIEN_LASER
-      - STR_ALIEN_SURGERY
-      - STR_SECTOPOD_AUTOPSY
-    costBuy: 165000
-    transferTime: 36
+      - STR_POWER_SUIT_WEAPONS
+      - STR_HEAVY_PLASMA_RED_DESTROYED
+      - STR_HEAVY_LASER_WEAPONS
+    costBuy: 65000
+    transferTime: 48
     costSell: 25000
     categories: [STR_CAT_SALVAGE]
   - type: STR_ALIEN_SURGICAL_INTERFACE
@@ -6776,7 +6878,7 @@ items:
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 18
     bigSprite: 375
-    floorSprite: 302
+    floorSprite: 393
     handSprite: 684
     fireSound: 53
     compatibleAmmo:
@@ -6807,7 +6909,7 @@ items:
     categories: [STR_CAT_ALIEN_ARTIFACTS]
     weight: 5
     bigSprite: 376
-    floorSprite: 391
+    floorSprite: 394
     handSprite: 1108
     bulletSprite: 41
     explosionHitSound: 320
@@ -6854,6 +6956,9 @@ items:
       ToArmorPre: 0.1
     battleType: 4
     fuseType: 0
+    tuThrow: 25
+    tuPrime: 40
+    tuUnprime: 20
     recoveryPoints: 2
     armor: 35
     attraction: 30

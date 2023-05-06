@@ -530,7 +530,7 @@ alienMissions:
     retaliationOdds: 8
     objective: 1    
     endlessInfiltration: false
-    siteType: STR_ALIEN_OUTPOST_ASSAULT
+    siteType: STR_ALIEN_OUTPOST_ASSAULT_ELITE
     spawnZone: 4
     raceWeights:
       0:
@@ -570,16 +570,16 @@ alienMissions:
         count: 1
         trajectory: P79
         timer: 60
-      - ufo: STR_COVERT_OPS_SHIP
+      - ufo: STR_COVERT_OPS_SHIP_ELITE
         interruptPercentage: 10
         count: 1
         trajectory: P78
         timer: 2760
-      - ufo: STR_LIGHT_DESTROYER
+      - ufo: STR_LIGHT_DESTROYER_ELITE
         count: 1
         trajectory: P79
         timer: 60
-      - ufo: STR_ABDUCTOR
+      - ufo: STR_ABDUCTOR_ELITE
         interruptPercentage: 15
         count: 1
         trajectory: P7
@@ -607,7 +607,7 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 120
-      - ufo: STR_MEDIUM_DESTROYER
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
         interruptPercentage: 0
         count: 1
         trajectory: P78
@@ -621,7 +621,7 @@ alienMissions:
     retaliationOdds: 8
     objective: 1    
     endlessInfiltration: false
-    siteType: STR_ALIEN_OUTPOST_ASSAULT
+    siteType: STR_ALIEN_OUTPOST_ASSAULT_ELITE
     spawnZone: 4
     raceWeights:
       0:
@@ -795,7 +795,7 @@ alienMissions:
     points: 40 #8 landings, 9 UFOs
     retaliationOdds: 10
     objective: 2
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_ALIEN_BASE_ASSAULT_ELITE
     spawnZone: 4
     raceWeights:
       0:
@@ -832,19 +832,19 @@ alienMissions:
         STR_MIXED_INVASION_PSIONIC: 50
         STR_MIXED_INVASION_DESTROY: 50
     waves:
-      - ufo: STR_MEDIUM_SCOUT
+      - ufo: STR_MEDIUM_SCOUT_ELITE
         count: 1
         trajectory: P1
         timer: 13500
-      - ufo: STR_LIGHT_DESTROYER
+      - ufo: STR_LIGHT_DESTROYER_ELITE
         count: 1
         trajectory: P79
         timer: 60
-      - ufo: STR_LARGE_SCOUT
+      - ufo: STR_LARGE_SCOUT_ELITE
         count: 1
         trajectory: P5
         timer: 15000
-      - ufo: STR_MEDIUM_DESTROYER
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
         count: 1
         trajectory: P75
         timer: 60
@@ -862,11 +862,11 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 120
-      - ufo: STR_LARGE_SCOUT
+      - ufo: STR_LARGE_SCOUT_ELITE
         count: 1
         trajectory: P2
         timer: 180
-      - ufo: STR_SMALL_SCOUT
+      - ufo: STR_SMALL_SCOUT_ELITE
         count: 1
         trajectory: P66
         timer: 720
@@ -874,7 +874,7 @@ alienMissions:
     points: 30 #10 landings, 9 UFOs
     retaliationOdds: 10
     objective: 2
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_ALIEN_BASE_ASSAULT_ELITE
     spawnZone: 4
     raceWeights:
       0:
@@ -1006,7 +1006,7 @@ alienMissions:
     points: 10 #8 landings, 6 UFOs
     retaliationOdds: 6
     objective: 2
-    siteType: STR_ALIEN_OUTPOST_ASSAULT
+    siteType: STR_ALIEN_OUTPOST_ASSAULT_ELITE
     spawnZone: 4
     raceWeights:
       0:
@@ -1041,7 +1041,7 @@ alienMissions:
         count: 1
         trajectory: P5
         timer: 13500
-      - ufo: STR_LARGE_SCOUT
+      - ufo: STR_LARGE_SCOUT_ELITE
         count: 1
         trajectory: P5
         timer: 15000
@@ -1068,24 +1068,24 @@ alienMissions:
       0:
         STR_SNAKEMAN_OUTPOST: 100
     waves:
-      - ufo: STR_MEDIUM_SCOUT
+      - ufo: STR_MEDIUM_SCOUT_ELITE
         count: 1
         trajectory: P60
         timer: 14400
-      - ufo: STR_LARGE_SCOUT
+      - ufo: STR_LARGE_SCOUT_ELITE
         count: 1
         trajectory: P1
         timer: 3000
-      - ufo: STR_CARGO_SHIP
+      - ufo: STR_CARGO_SHIP_ELITE
         interruptPercentage: 100
         count: 1
         trajectory: P60
         timer: 60
-      - ufo: STR_CARGO_SHIP
+      - ufo: STR_CARGO_SHIP_ELITE
         count: 2
         trajectory: P60
         timer: 60
-      - ufo: STR_SMALL_SCOUT
+      - ufo: STR_SMALL_SCOUT_ELITE
         count: 1
         trajectory: P66
         timer: 240
@@ -1363,7 +1363,7 @@ alienMissions:
     missionWeights:
       0: 100
       2: 80
-      4: 0
+      4: 20
       6: 0
       8: 0
       10: 0
@@ -1372,25 +1372,10 @@ alienMissions:
       16: 0
     waves:
       - ufo: STR_SMALL_SCOUT
+        interruptPercentage: 100
         count: 1
         trajectory: P8
         timer: 600
-      - ufo: STR_SMALL_SCOUT
-        count: 1
-        trajectory: P8
-        timer: 4500
-      - ufo: STR_SMALL_SCOUT
-        count: 1
-        trajectory: P8
-        timer: 60
-      - ufo: STR_MEDIUM_SCOUT
-        count: 1
-        trajectory: P8
-        timer: 4500
-      - ufo: STR_MEDIUM_SCOUT
-        count: 1
-        trajectory: P8
-        timer: 60
       - ufo: STR_LARGE_SCOUT
         count: 1
         trajectory: P8
@@ -1438,36 +1423,29 @@ alienMissions:
     missionWeights:
       0: 0
       2: 0
-      4: 20
+      4: 0
       6: 60
-      8: 10
-      10: 10
+      8: 40
+      10: 30
       12: 0
       14: 0
       16: 0
     waves:
       - ufo: STR_LIGHT_DESTROYER
+        interruptPercentage: 100
         count: 1
         trajectory: P88
-        timer: 60
+        timer: 600
       - ufo: STR_SMALL_SCOUT
-        count: 2
-        trajectory: P8
-        timer: 60
-      - ufo: STR_LIGHT_DESTROYER
         count: 1
-        trajectory: P88
-        timer: 4500
-      - ufo: STR_MEDIUM_SCOUT
-        count: 2
         trajectory: P8
         timer: 60
       - ufo: STR_MEDIUM_DESTROYER
         count: 1
         trajectory: P88
         timer: 4500
-      - ufo: STR_LARGE_SCOUT
-        count: 2
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
         trajectory: P8
         timer: 60
   - type: STR_ALIEN_RETALIATION_LIGHT_ELITE
@@ -1517,24 +1495,17 @@ alienMissions:
       6: 0
       8: 0
       10: 0
-      12: 20
-      14: 20
-      16: 20
+      12: 50
+      14: 50
+      16: 50
     waves:
       - ufo: STR_LIGHT_DESTROYER_ELITE
+        interruptPercentage: 100
         count: 1
         trajectory: P88
-        timer: 60
+        timer: 600
       - ufo: STR_SMALL_SCOUT_ELITE
-        count: 3
-        trajectory: P8
-        timer: 60
-      - ufo: STR_LIGHT_DESTROYER_ELITE
         count: 1
-        trajectory: P88
-        timer: 4500
-      - ufo: STR_MEDIUM_SCOUT_ELITE
-        count: 3
         trajectory: P8
         timer: 60
       - ufo: STR_MEDIUM_DESTROYER_ELITE
@@ -1542,7 +1513,7 @@ alienMissions:
         trajectory: P88
         timer: 4500
       - ufo: STR_LARGE_SCOUT_ELITE
-        count: 3
+        count: 1
         trajectory: P8
         timer: 60
   - type: STR_ALIEN_RETALIATION_MEDIUM
@@ -1596,26 +1567,23 @@ alienMissions:
       14: 0
       16: 0
     waves:
-      - ufo: STR_SMALL_SCOUT
+      - ufo: STR_MEDIUM_SCOUT
         count: 1
         trajectory: P8
         timer: 600
       - ufo: STR_MEDIUM_SCOUT
+        interruptPercentage: 100
         count: 1
         trajectory: P8
-        timer: 4500
+        timer: 3000
       - ufo: STR_MEDIUM_SCOUT
         count: 1
         trajectory: P8
         timer: 60
-      - ufo: STR_LARGE_SCOUT
+      - ufo: STR_MEDIUM_SCOUT
         count: 1
         trajectory: P8
-        timer: 4500
-      - ufo: STR_LARGE_SCOUT
-        count: 1
-        trajectory: P8
-        timer: 60
+        timer: 3000
   - type: STR_ALIEN_RETALIATION_MEDIUM_DEFENDED
     points: 0
     objective: 4
@@ -1661,33 +1629,34 @@ alienMissions:
       2: 0
       4: 0
       6: 0
-      8: 10
-      10: 80
+      8: 20
+      10: 60
       12: 15
       14: 0
       16: 0
     waves:
       - ufo: STR_LIGHT_DESTROYER
-        count: 2
+        count: 1
         trajectory: P88
-        timer: 60
-      - ufo: STR_SMALL_SCOUT
+        timer: 600
+      - ufo: STR_MEDIUM_SCOUT
         count: 1
         trajectory: P8
         timer: 60
-      - ufo: STR_LIGHT_DESTROYER
+      - ufo: STR_MEDIUM_DESTROYER
+        interruptPercentage: 100
         count: 1
         trajectory: P88
-        timer: 4500
-      - ufo: STR_MEDIUM_SCOUT
-        count: 2
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
         trajectory: P8
         timer: 60
       - ufo: STR_MEDIUM_DESTROYER
         count: 1
         trajectory: P88
-        timer: 4500
-      - ufo: STR_LARGE_SCOUT
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT_ELITE
         count: 1
         trajectory: P8
         timer: 60
@@ -1742,31 +1711,28 @@ alienMissions:
       14: 30
       16: 30
     waves:
-      - ufo: STR_SMALL_SCOUT_ELITE
-        count: 1
-        trajectory: P8
-        timer: 60
-      - ufo: STR_LIGHT_DESTROYER_ELITE
-        count: 1
-        trajectory: P8
-        timer: 60
       - ufo: STR_LIGHT_DESTROYER_ELITE
         count: 1
         trajectory: P88
-        timer: 4500
+        timer: 600
       - ufo: STR_MEDIUM_SCOUT_ELITE
-        count: 2
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        interruptPercentage: 100
+        count: 1
+        trajectory: P88
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT_ELITE
+        count: 1
         trajectory: P8
         timer: 60
       - ufo: STR_MEDIUM_DESTROYER_ELITE
         count: 1
-        trajectory: P8
-        timer: 4500
-      - ufo: STR_LARGE_SCOUT_ELITE
-        count: 2
-        trajectory: P8
-        timer: 60
-      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        trajectory: P88
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT_ELITE
         count: 1
         trajectory: P8
         timer: 60
@@ -1815,7 +1781,7 @@ alienMissions:
       2: 0
       4: 0
       6: 30
-      8: 80
+      8: 40
       10: 10
       12: 0
       14: 0
@@ -1824,24 +1790,42 @@ alienMissions:
       - ufo: STR_LIGHT_DESTROYER
         count: 1
         trajectory: P88
-        timer: 60
-      - ufo: STR_MEDIUM_SCOUT
+        timer: 600
+      - ufo: STR_LARGE_SCOUT
         count: 1
         trajectory: P8
         timer: 60
       - ufo: STR_LIGHT_DESTROYER
         count: 1
         trajectory: P88
-        timer: 4500
+        timer: 1500
       - ufo: STR_LARGE_SCOUT
         count: 1
         trajectory: P8
         timer: 60
-      - ufo: STR_BATTLESHIP
+      - ufo: STR_MEDIUM_DESTROYER
+        interruptPercentage: 75
+        count: 1
+        trajectory: P88
+        timer: 1500
+      - ufo: STR_LARGE_SCOUT
         count: 1
         trajectory: P8
-        timer: 4500
-      - ufo: STR_BATTLESHIP
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER
+        interruptPercentage: 100
+        count: 1
+        trajectory: P88
+        timer: 1500
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_HEAVY_DESTROYER
+        count: 1
+        trajectory: P8
+        timer: 1500
+      - ufo: STR_TERROR_SHIP
         count: 1
         trajectory: P8
         timer: 60
@@ -1892,36 +1876,50 @@ alienMissions:
       6: 0
       8: 0
       10: 0
-      12: 50
-      14: 25
+      12: 20
+      14: 10
       16: 0
     waves:
-      - ufo: STR_LIGHT_DESTROYER
+      - ufo: STR_MEDIUM_DESTROYER
         count: 1
         trajectory: P88
         timer: 600
-      - ufo: STR_LIGHT_DESTROYER
-        count: 2
-        trajectory: P88
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P8
         timer: 60
       - ufo: STR_MEDIUM_DESTROYER
         count: 1
-        trajectory: P8
-        timer: 4500
-      - ufo: STR_BATTLESHIP
-        count: 1
         trajectory: P88
-        timer: 60
-      - ufo: STR_MEDIUM_DESTROYER
+        timer: 1500
+      - ufo: STR_LARGE_SCOUT_ELITE
         count: 1
         trajectory: P8
-        timer: 120
+        timer: 60
       - ufo: STR_HEAVY_DESTROYER
         count: 1
         trajectory: P88
-        timer: 4500
-      - ufo: STR_BATTLESHIP
-        count: 2
+        timer: 1500
+      - ufo: STR_LARGE_SCOUT
+        interruptPercentage: 75
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_HEAVY_DESTROYER
+        count: 1
+        trajectory: P88
+        timer: 1500
+      - ufo: STR_LARGE_SCOUT_ELITE
+        interruptPercentage: 100
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_HEAVY_DESTROYER
+        count: 1
+        trajectory: P8
+        timer: 1500
+      - ufo: STR_TERROR_SHIP_ELITE
+        count: 1
         trajectory: P8
         timer: 60
   - type: STR_ALIEN_RETALIATION_HEAVY_ELITE
@@ -1972,31 +1970,49 @@ alienMissions:
       8: 0
       10: 0
       12: 0
-      14: 25
-      16: 50
+      14: 10
+      16: 20
     waves:
-      - ufo: STR_SMALL_SCOUT_ELITE
-        count: 1
-        trajectory: P8
-        timer: 600
       - ufo: STR_LIGHT_DESTROYER_ELITE
-        count: 2
-        trajectory: P8
-        timer: 60
-      - ufo: STR_MEDIUM_SCOUT_ELITE
         count: 1
-        trajectory: P8
-        timer: 4500
-      - ufo: STR_MEDIUM_DESTROYER_ELITE
-        count: 2
-        trajectory: P8
-        timer: 60
+        trajectory: P88
+        timer: 600
       - ufo: STR_LARGE_SCOUT_ELITE
         count: 1
         trajectory: P8
-        timer: 4500
-      - ufo: STR_BATTLESHIP_ELITE
-        count: 2
+        timer: 60
+      - ufo: STR_LIGHT_DESTROYER_ELITE
+        count: 1
+        trajectory: P88
+        timer: 1500
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        interruptPercentage: 75
+        count: 1
+        trajectory: P88
+        timer: 1500
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_MEDIUM_DESTROYER_ELITE
+        interruptPercentage: 100
+        count: 1
+        trajectory: P88
+        timer: 1500
+      - ufo: STR_LARGE_SCOUT_ELITE
+        count: 1
+        trajectory: P8
+        timer: 60
+      - ufo: STR_HEAVY_DESTROYER_ELITE
+        count: 1
+        trajectory: P8
+        timer: 1500
+      - ufo: STR_TERROR_SHIP_ELITE
+        count: 1
         trajectory: P8
         timer: 60
   - type: STR_ALIEN_RETALIATION_INVASION
@@ -2023,7 +2039,7 @@ alienMissions:
         trajectory: P8
         timer: 3000
       - ufo: STR_SMALL_SCOUT_ELITE
-        count: 2
+        count: 1
         trajectory: P8
         timer: 60
       - ufo: STR_MEDIUM_DESTROYER_ELITE
@@ -2031,7 +2047,7 @@ alienMissions:
         trajectory: P8
         timer: 3000
       - ufo: STR_MEDIUM_SCOUT_ELITE
-        count: 2
+        count: 1
         trajectory: P8
         timer: 60
       - ufo: STR_HEAVY_DESTROYER_ELITE
@@ -2039,7 +2055,7 @@ alienMissions:
         trajectory: P8
         timer: 3000
       - ufo: STR_LARGE_SCOUT_ELITE
-        count: 2
+        count: 1
         trajectory: P8
         timer: 60
   - type: STR_ALIEN_SUPPLY
@@ -2053,7 +2069,29 @@ alienMissions:
         trajectory: P9
         timer: 1440
         objective: true
+  - type: STR_ALIEN_SUPPLY_ELITE
+    points: 80
+    retaliationOdds: 16
+    objective: 5
+    raceWeights: {}
+    waves:
+      - ufo: STR_SUPPLY_SHIP_ELITE
+        count: 1
+        trajectory: P9
+        timer: 1440
+        objective: true
   - type: STR_ALIEN_SUPPLY_OUTPOST
+    points: 20
+    retaliationOdds: 4
+    objective: 5
+    raceWeights: {}
+    waves:
+      - ufo: STR_CARGO_SHIP
+        count: 1
+        trajectory: P91
+        timer: 1440
+        objective: true
+  - type: STR_ALIEN_SUPPLY_OUTPOST_ELITE
     points: 20
     retaliationOdds: 4
     objective: 5

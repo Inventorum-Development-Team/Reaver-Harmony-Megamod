@@ -137,16 +137,26 @@ armors:
     underArmor: 30
     size: 1
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.6
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 0.8
-      - 1.0
-      - 0.0
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.5 # 2 FIRE
+      - 1.0 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.0 # 6 STUN
+      - 0.8 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 0.75 # 12 INCENDIARY
+      - 1.0 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 0.0 # 19
     overKill: 2
     zombiImmune: true
     bleedImmune: true
@@ -168,16 +178,26 @@ armors:
     underArmor: 45
     size: 1
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.6
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 0.8
-      - 1.0
-      - 0.0
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.5 # 2 FIRE
+      - 1.0 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.0 # 6 STUN
+      - 0.8 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 0.75 # 12 INCENDIARY
+      - 1.0 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 0.0 # 19
     overKill: 2
     zombiImmune: true
     bleedImmune: true
@@ -199,16 +219,26 @@ armors:
     underArmor: 60
     size: 1
     damageModifier:
-      - 1.0
-      - 1.0
-      - 0.6
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 0.8
-      - 1.0
-      - 0.0
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.5 # 2 FIRE
+      - 1.0 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.0 # 6 STUN
+      - 0.8 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+      - 1.0 # 10 RAPID LASER
+      - 1.0 # 11 ARMOR PENETRATOR
+      - 0.75 # 12 INCENDIARY
+      - 1.0 # 13 FUSION
+      - 1.0 # 14 PENETRATOR LASER
+      - 1.0 # 15 PENETRATOR PLASMA
+      - 1.0 # 16
+      - 1.0 # 17 BALLISTIC
+      - 1.0 # 18 RAPID PLASMA
+      - 0.0 # 19
     overKill: 2
     zombiImmune: true
     bleedImmune: true
@@ -235,7 +265,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.3 # 2 INCENDIARY
+      - 0.2 # 2 FIRE
       - 0.5 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -245,7 +275,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.4 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -276,7 +306,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.4 # 2 INCENDIARY
+      - 0.3 # 2 FIRE
       - 0.55 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -286,7 +316,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -317,7 +347,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.4 # 2 FIRE
       - 0.6 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -327,7 +357,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.6 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -358,7 +388,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.3 # 2 INCENDIARY
+      - 0.2 # 2 FIRE
       - 0.5 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -368,7 +398,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.4 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -399,7 +429,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.4 # 2 INCENDIARY
+      - 0.3 # 2 FIRE
       - 0.55 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -409,7 +439,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -440,7 +470,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.4 # 2 FIRE
       - 0.6 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -450,7 +480,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.6 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -481,7 +511,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.2 # 2 INCENDIARY
+      - 0.1 # 2 FIRE
       - 0.525 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -491,7 +521,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.3 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -525,7 +555,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.35 # 2 INCENDIARY
+      - 0.25 # 2 FIRE
       - 0.575 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -535,7 +565,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.45 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -571,7 +601,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.3 # 2 INCENDIARY
+      - 0.2 # 2 FIRE
       - 0.5 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -581,7 +611,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.4 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -614,7 +644,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.4 # 2 INCENDIARY
+      - 0.3 # 2 FIRE
       - 0.55 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -624,7 +654,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -657,7 +687,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.4 # 2 FIRE
       - 0.6 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -667,7 +697,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.6 # 12 INCENDIARY
       - 0.6 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -693,7 +723,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -703,7 +733,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -740,7 +770,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -750,7 +780,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -787,7 +817,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -797,7 +827,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -818,6 +848,7 @@ armors:
     visibilityAtDark: 15
     camouflageAtDark: -5
     camouflageAtDay: -3
+    heatVision: 50
     personalLight: 0
     loftempsSet: [ 3 ]
   - type: STR_STEALTH_GEAR_UP
@@ -832,7 +863,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -842,7 +873,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -863,6 +894,7 @@ armors:
     visibilityAtDark: 15
     camouflageAtDark: -5
     camouflageAtDay: -3
+    heatVision: 50
     personalLight: 0
     loftempsSet: [ 4 ]
   - &STR_HEAVY_ARMOR_UC
@@ -889,7 +921,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -899,7 +931,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -955,7 +987,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.9 # 2 INCENDIARY
+      - 0.8 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -965,7 +997,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1023,7 +1055,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.8 # 2 INCENDIARY
+      - 0.6 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1033,7 +1065,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.8 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1089,7 +1121,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.4 # 2 INCENDIARY
+      - 0.25 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1099,7 +1131,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1120,7 +1152,7 @@ armors:
     visibilityAtDark: 20
     camouflageAtDark: -8
     camouflageAtDay: -5
-    heatVision: 40
+    heatVision: 50
     personalLight: 0
     loftempsSet: [ 4 ]
   - type: STR_NIGHT_OPS_ARMOR_UC_MEDIUM
@@ -1167,7 +1199,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.9 # 2 INCENDIARY
+      - 0.7 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1177,7 +1209,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.9 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1236,7 +1268,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.6 # 2 INCENDIARY
+      - 0.4 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1246,7 +1278,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.7 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1304,7 +1336,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.7 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1314,7 +1346,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.8 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1371,7 +1403,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.3 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1381,7 +1413,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.6 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1439,7 +1471,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.6 # 2 INCENDIARY
+      - 0.4 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1449,7 +1481,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.7 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1512,7 +1544,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.8 # 1 ARMOR PIERCING
-      - 0.4 # 2 INCENDIARY
+      - 0.2 # 2 FIRE
       - 0.6 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1522,7 +1554,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 0.9 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.5 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1589,7 +1621,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.6 # 1 ARMOR PIERCING
-      - 0.7 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1599,7 +1631,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 0.5 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.8 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1620,7 +1652,7 @@ armors:
     visibilityAtDark: 23
     camouflageAtDark: -9
     camouflageAtDay: -7
-    heatVision: 30
+    heatVision: 50
     psiVision: 6
     personalLight: 0
     loftempsSet: [ 4 ]
@@ -1667,7 +1699,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1677,7 +1709,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1716,7 +1748,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.9 # 2 INCENDIARY
+      - 0.8 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1726,7 +1758,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1781,7 +1813,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.8 # 2 INCENDIARY
+      - 0.6 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1791,7 +1823,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.8 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1844,7 +1876,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.4 # 2 INCENDIARY
+      - 0.25 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1854,7 +1886,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1875,7 +1907,7 @@ armors:
     visibilityAtDark: 20
     camouflageAtDark: -8
     camouflageAtDay: -5
-    heatVision: 40
+    heatVision: 50
     personalLight: 0
     loftempsSet: [ 4 ]
   - type: STR_NIGHT_OPS_ARMOR_SPACESUIT_UC_MEDIUM
@@ -1919,7 +1951,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.9 # 2 INCENDIARY
+      - 0.7 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1929,7 +1961,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.9 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -1988,7 +2020,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.6 # 2 INCENDIARY
+      - 0.4 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -1998,7 +2030,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.7 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -2056,7 +2088,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.7 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2066,7 +2098,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.8 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -2123,7 +2155,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.3 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2133,7 +2165,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.6 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -2191,7 +2223,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.6 # 2 INCENDIARY
+      - 0.4 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2201,7 +2233,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.7 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -2264,7 +2296,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.8 # 1 ARMOR PIERCING
-      - 0.4 # 2 INCENDIARY
+      - 0.2 # 2 FIRE
       - 0.6 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2274,7 +2306,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 0.9 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.5 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -2342,7 +2374,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.6 # 1 ARMOR PIERCING
-      - 0.7 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2352,7 +2384,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 0.5 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 0.8 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -2373,7 +2405,7 @@ armors:
     visibilityAtDark: 23
     camouflageAtDark: -9
     camouflageAtDay: -7
-    heatVision: 30
+    heatVision: 50
     psiVision: 6
     personalLight: 0
     loftempsSet: [ 4 ]
@@ -2414,7 +2446,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2424,7 +2456,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -2446,7 +2478,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2456,7 +2488,7 @@ armors:
       - 1.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 1.0 # 14 PENETRATOR LASER
       - 1.0 # 15 PENETRATOR PLASMA
@@ -2479,7 +2511,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.1 # 1 ARMOR PIERCING
-      - 0.7 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.1 # 4 LASER
       - 1.1 # 5 PLASMA
@@ -2489,7 +2521,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.1 # 11 ARMOR PENETRATOR
-      - 0.7 # 12
+      - 0.75 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -2517,7 +2549,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.1 # 1 ARMOR PIERCING
-      - 0.63 # 2 INCENDIARY
+      - 0.43 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.1 # 4 LASER
       - 1.1 # 5 PLASMA
@@ -2527,7 +2559,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.1 # 11 ARMOR PENETRATOR
-      - 0.63 # 12
+      - 0.68 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -2555,7 +2587,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.1 # 1 ARMOR PIERCING
-      - 0.56 # 2 INCENDIARY
+      - 0.36 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.1 # 4 LASER
       - 1.1 # 5 PLASMA
@@ -2565,7 +2597,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.1 # 11 ARMOR PENETRATOR
-      - 0.56 # 12
+      - 0.61 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -2624,7 +2656,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.2 # 2 INCENDIARY
+      - 0.15 # 2 FIRE
       - 0.5 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2634,7 +2666,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.8 # 10 RAPID LASER
       - 1.2 # 11 ARMOR PENETRATOR
-      - 0.2 # 12
+      - 0.25 # 12 INCENDIARY
       - 0.5 # 13 FUSION
       - 1.2 # 14 PENETRATOR LASER
       - 1.2 # 15 PENETRATOR PLASMA
@@ -2669,7 +2701,7 @@ armors:
     damageModifier:
       - 0.8 # 0 NONE
       - 0.8 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 0.8 # 4 LASER
       - 0.8 # 5 PLASMA
@@ -2679,7 +2711,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.96 # 10 RAPID LASER
       - 0.64 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 0.64 # 14 PENETRATOR LASER
       - 0.64 # 15 PENETRATOR PLASMA
@@ -2708,7 +2740,7 @@ armors:
     damageModifier:
       - 0.8 # 0 NONE
       - 0.8 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 0.8 # 4 LASER
       - 0.8 # 5 PLASMA
@@ -2718,7 +2750,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.96 # 10 RAPID LASER
       - 0.64 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 0.64 # 14 PENETRATOR LASER
       - 0.64 # 15 PENETRATOR PLASMA
@@ -2747,7 +2779,7 @@ armors:
     damageModifier:
       - 0.8 # 0 NONE
       - 0.8 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 0.8 # 4 LASER
       - 0.8 # 5 PLASMA
@@ -2757,7 +2789,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.96 # 10 RAPID LASER
       - 0.64 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 0.64 # 14 PENETRATOR LASER
       - 0.64 # 15 PENETRATOR PLASMA
@@ -2781,7 +2813,7 @@ armors:
     damageModifier:
       - 0.7 # 0 NONE
       - 0.7 # 1 ARMOR PIERCING
-      - 0.945 # 2 INCENDIARY
+      - 1.155 # 2 FIRE
       - 0.525 # 3 HIGH EXPLOSIVE
       - 0.7 # 4 LASER
       - 0.7 # 5 PLASMA
@@ -2791,7 +2823,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.84 # 10 RAPID LASER
       - 0.56 # 11 ARMOR PENETRATOR
-      - 0.945 # 12
+      - 0.735 # 12 INCENDIARY
       - 0.525 # 13 FUSION
       - 0.56 # 14 PENETRATOR LASER
       - 0.56 # 15 PENETRATOR PLASMA
@@ -2823,7 +2855,7 @@ armors:
     damageModifier:
       - 0.7 # 0 NONE
       - 0.42 # 1 ARMOR PIERCING
-      - 0.42 # 2 INCENDIARY
+      - 0.14 # 2 FIRE
       - 0.665 # 3 HIGH EXPLOSIVE
       - 0.56 # 4 LASER
       - 0.56 # 5 PLASMA
@@ -2833,7 +2865,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.64 # 10 RAPID LASER
       - 0.36 # 11 ARMOR PENETRATOR
-      - 0.42 # 12
+      - 0.42 # 12 INCENDIARY
       - 0.665 # 13 FUSION
       - 0.48 # 14 PENETRATOR LASER
       - 0.48 # 15 PENETRATOR PLASMA
@@ -2861,7 +2893,7 @@ armors:
     damageModifier:
       - 0.7 # 0 NONE
       - 0.42 # 1 ARMOR PIERCING
-      - 0.42 # 2 INCENDIARY
+      - 0.14 # 2 FIRE
       - 0.658 # 3 HIGH EXPLOSIVE
       - 0.56 # 4 LASER
       - 0.56 # 5 PLASMA
@@ -2871,7 +2903,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.64 # 10 RAPID LASER
       - 0.36 # 11 ARMOR PENETRATOR
-      - 0.42 # 12
+      - 0.42 # 12 INCENDIARY
       - 0.658 # 13 FUSION
       - 0.48 # 14 PENETRATOR LASER
       - 0.48 # 15 PENETRATOR PLASMA
@@ -2899,7 +2931,7 @@ armors:
     damageModifier:
       - 0.7 # 0 NONE
       - 0.42 # 1 ARMOR PIERCING
-      - 0.42 # 2 INCENDIARY
+      - 0.14 # 2 FIRE
       - 0.651 # 3 HIGH EXPLOSIVE
       - 0.56 # 4 LASER
       - 0.56 # 5 PLASMA
@@ -2909,7 +2941,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.64 # 10 RAPID LASER
       - 0.36 # 11 ARMOR PENETRATOR
-      - 0.42 # 12
+      - 0.42 # 12 INCENDIARY
       - 0.651 # 13 FUSION
       - 0.48 # 14 PENETRATOR LASER
       - 0.48 # 15 PENETRATOR PLASMA
@@ -2933,7 +2965,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 1.4 # 2 INCENDIARY
+      - 1.4 # 2 FIRE
       - 1.08 # 3 HIGH EXPLOSIVE 0.72*1.6
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -2943,7 +2975,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.1 # 11 ARMOR PENETRATOR
-      - 1.2 # 12
+      - 1.4 # 12 INCENDIARY
       - 1.08 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -2973,7 +3005,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.8 # 1 ARMOR PIERCING
-      - 1.75 # 2 INCENDIARY
+      - 1.75 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 0.9 # 4 LASER
       - 0.72 # 5 PLASMA
@@ -2983,7 +3015,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.1 # 10 RAPID LASER
       - 0.8 # 11 ARMOR PENETRATOR
-      - 1.75 # 12
+      - 1.75 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.2 # 14 PENETRATOR LASER
       - 0.96 # 15 PENETRATOR PLASMA
@@ -3013,7 +3045,7 @@ armors:
     damageModifier:
       - 0.6 # 0 NONE
       - 0.25 # 1 ARMOR PIERCING
-      - 0.6 # 2 INCENDIARY
+      - 0.48 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 0.4 # 4 LASER
       - 0.4 # 5 PLASMA
@@ -3023,7 +3055,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.52 # 10 RAPID LASER
       - 0.2 # 11 ARMOR PENETRATOR
-      - 0.6 # 12
+      - 0.72 # 12 INCENDIARY
       - 0.58 # 13 FUSION
       - 0.32 # 14 PENETRATOR LASER
       - 0.32 # 15 PENETRATOR PLASMA
@@ -3050,7 +3082,7 @@ armors:
     damageModifier:
       - 0.6 # 0 NONE
       - 0.25 # 1 ARMOR PIERCING
-      - 0.6 # 2 INCENDIARY
+      - 0.48 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 0.4 # 4 LASER
       - 0.4 # 5 PLASMA
@@ -3060,7 +3092,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.52 # 10 RAPID LASER
       - 0.2 # 11 ARMOR PENETRATOR
-      - 0.6 # 12
+      - 0.72 # 12 INCENDIARY
       - 0.58 # 13 FUSION
       - 0.32 # 14 PENETRATOR LASER
       - 0.32 # 15 PENETRATOR PLASMA
@@ -3087,7 +3119,7 @@ armors:
     damageModifier:
       - 0.6 # 0 NONE
       - 0.25 # 1 ARMOR PIERCING
-      - 0.6 # 2 INCENDIARY
+      - 0.48 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 0.4 # 4 LASER
       - 0.4 # 5 PLASMA
@@ -3097,7 +3129,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.52 # 10 RAPID LASER
       - 0.2 # 11 ARMOR PENETRATOR
-      - 0.6 # 12
+      - 0.72 # 12 INCENDIARY
       - 0.58 # 13 FUSION
       - 0.32 # 14 PENETRATOR LASER
       - 0.32 # 15 PENETRATOR PLASMA
@@ -3121,7 +3153,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.9 # 1 ARMOR PIERCING
-      - 0.0 # 2 INCENDIARY
+      - 0.0 # 2 FIRE
       - 1.3 # 3 HIGH EXPLOSIVE
       - 0.9 # 4 LASER
       - 0.6 # 5 PLASMA
@@ -3131,7 +3163,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 0.9 # 11 ARMOR PENETRATOR
-      - 0.0 # 12
+      - 0.25 # 12 INCENDIARY
       - 1.3 # 13 FUSION
       - 0.9 # 14 PENETRATOR LASER
       - 0.6 # 15 PENETRATOR PLASMA
@@ -3160,7 +3192,7 @@ armors:
     damageModifier:
       - 0.5 # 0 NONE
       - 0.3 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 0.5 # 4 LASER
       - 0.5 # 5 PLASMA
@@ -3170,7 +3202,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.625 # 10 RAPID LASER
       - 0.225 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 0.375 # 14 PENETRATOR LASER
       - 0.375 # 15 PENETRATOR PLASMA
@@ -3200,7 +3232,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.9 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.65 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -3210,7 +3242,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 0.5 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.65 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -3239,7 +3271,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.9 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.65 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -3249,7 +3281,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 0.5 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.65 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -3278,7 +3310,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.9 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.65 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -3288,7 +3320,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 0.5 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.65 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -3315,21 +3347,21 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.2 # 2 INCENDIARY
+      - 0.1 # 2 FIRE
       - 0.4 # 3 HIGH EXPLOSIVE
       - 1.75 # 4 LASER
-      - 0.7 # 5 PLASMA
-      - 0.8 # 6 STUN
+      - 0.6 # 5 PLASMA
+      - 0.6 # 6 STUN
       - 0.8 # 7 MELEE
       - 0.6 # 8 ACID
       - 0.0 # 9 SMOKE
       - 1.5 # 10 RAPID LASER
       - 1.2 # 11 ARMOR PENETRATOR
-      - 0.2 # 12
+      - 0.25 # 12 INCENDIARY
       - 0.5 # 13 FUSION
       - 2.0 # 14 PENETRATOR LASER
       - 0.8 # 15 PENETRATOR PLASMA
-      - 0.8 # 16
+      - 0.6 # 16
       - 0.8 # 17 BALLISTIC
       - 0.6 # 18 RAPID PLASMA
       - 0.0 # 19
@@ -3364,7 +3396,7 @@ armors:
     damageModifier:
       - 0.4 # 0 NONE
       - 0.28 # 1 ARMOR PIERCING
-      - 0.24 # 2 INCENDIARY
+      - 0.24 # 2 FIRE
       - 0.144 # 3 HIGH EXPLOSIVE
       - 0.4 # 4 LASER
       - 0.4 # 5 PLASMA
@@ -3374,7 +3406,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.32 # 10 RAPID LASER
       - 0.336 # 11 ARMOR PENETRATOR
-      - 0.24 # 12
+      - 0.24 # 12 INCENDIARY
       - 0.24 # 13 FUSION
       - 0.48 # 14 PENETRATOR LASER
       - 0.48 # 15 PENETRATOR PLASMA
@@ -3412,7 +3444,7 @@ armors:
     damageModifier:
       - 0.36 # 0 NONE
       - 0.15 # 1 ARMOR PIERCING
-      - 0.36 # 2 INCENDIARY
+      - 0.288 # 2 FIRE
       - 0.48 # 3 HIGH EXPLOSIVE
       - 0.24 # 4 LASER
       - 0.24 # 5 PLASMA
@@ -3422,7 +3454,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.312 # 10 RAPID LASER
       - 0.12 # 11 ARMOR PENETRATOR
-      - 0.36 # 12
+      - 0.432 # 12 INCENDIARY
       - 0.348 # 13 FUSION
       - 0.192 # 14 PENETRATOR LASER
       - 0.192 # 15 PENETRATOR PLASMA
@@ -3451,7 +3483,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 0.9 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.5 # 2 FIRE
       - 0.65 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -3461,7 +3493,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.0 # 11 ARMOR PENETRATOR
-      - 0.5 # 12
+      - 0.5 # 12 INCENDIARY
       - 0.65 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -3491,7 +3523,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.1 # 1 ARMOR PIERCING
-      - 0.5 # 2 INCENDIARY
+      - 0.3 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.1 # 4 LASER
       - 1.1 # 5 PLASMA
@@ -3501,7 +3533,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.1 # 11 ARMOR PENETRATOR
-      - 0.5 # 12
+      - 0.55 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -3533,7 +3565,7 @@ armors:
     damageModifier:
       - 0.8 # 0 NONE
       - 0.8 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 0.8 # 4 LASER
       - 0.8 # 5 PLASMA
@@ -3543,7 +3575,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.96 # 10 RAPID LASER
       - 0.64 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
       - 0.64 # 14 PENETRATOR LASER
       - 0.64 # 15 PENETRATOR PLASMA
@@ -3574,7 +3606,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.2 # 1 ARMOR PIERCING
-      - 0.75 # 2 INCENDIARY
+      - 0.75 # 2 FIRE
       - 0.7 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -3584,7 +3616,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
       - 1.4 # 11 ARMOR PENETRATOR
-      - 0.75 # 12
+      - 0.75 # 12 INCENDIARY
       - 0.7 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -3623,7 +3655,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.45 # 1 ARMOR PIERCING
-      - 0.25 # 2 INCENDIARY
+      - 0.2 # 2 FIRE
       - 0.4 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -3633,7 +3665,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.8 # 10 RAPID LASER
       - 1.75 # 11 ARMOR PENETRATOR
-      - 0.25 # 12
+      - 0.3 # 12 INCENDIARY
       - 0.4 # 13 FUSION
       - 1.33 # 14 PENETRATOR LASER
       - 1.33 # 15 PENETRATOR PLASMA
@@ -3674,7 +3706,7 @@ armors:
     damageModifier:
       - 0.4 # 0 NONE
       - 0.4 # 1 ARMOR PIERCING
-      - 0.54 # 2 INCENDIARY
+      - 0.42 # 2 FIRE
       - 0.3 # 3 HIGH EXPLOSIVE
       - 0.4 # 4 LASER
       - 0.4 # 5 PLASMA
@@ -3684,7 +3716,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.56 # 10 RAPID LASER
       - 0.32 # 11 ARMOR PENETRATOR
-      - 0.54 # 12
+      - 0.66 # 12 INCENDIARY
       - 0.3 # 13 FUSION
       - 0.32 # 14 PENETRATOR LASER
       - 0.32 # 15 PENETRATOR PLASMA
@@ -3718,7 +3750,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.4 # 1 ARMOR PIERCING
-      - 1.4 # 2 INCENDIARY
+      - 1.2 # 2 FIRE
       - 1.3 # 3 HIGH EXPLOSIVE 0.65*2.0
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -3728,7 +3760,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.54 # 11 ARMOR PENETRATOR
-      - 1.4 # 12
+      - 1.6 # 12 INCENDIARY
       - 1.3 # 13 FUSION
       - 1.1 # 14 PENETRATOR LASER
       - 1.1 # 15 PENETRATOR PLASMA
@@ -3759,7 +3791,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.5 # 1 ARMOR PIERCING
-      - 0.0 # 2 INCENDIARY
+      - 0.0 # 2 FIRE
       - 1.7 # 3 HIGH EXPLOSIVE
       - 0.9 # 4 LASER
       - 0.6 # 5 PLASMA
@@ -3769,7 +3801,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.9 # 10 RAPID LASER
       - 1.5 # 11 ARMOR PENETRATOR
-      - 0.0 # 12
+      - 0.25 # 12 INCENDIARY
       - 1.7 # 13 FUSION
       - 0.9 # 14 PENETRATOR LASER
       - 0.6 # 15 PENETRATOR PLASMA
@@ -3804,7 +3836,7 @@ armors:
     damageModifier:
       - 0.5 # 0 NONE
       - 0.18 # 1 ARMOR PIERCING
-      - 1.0 # 2 INCENDIARY
+      - 1.0 # 2 FIRE
       - 1.5 # 3 HIGH EXPLOSIVE
       - 0.3 # 4 LASER
       - 0.3 # 5 PLASMA
@@ -3814,7 +3846,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 0.375 # 10 RAPID LASER
       - 0.135 # 11 ARMOR PENETRATOR
-      - 1.0 # 12
+      - 1.0 # 12 INCENDIARY
       - 1.5 # 13 FUSION
       - 0.225 # 14 PENETRATOR LASER
       - 0.225 # 15 PENETRATOR PLASMA
@@ -3852,17 +3884,17 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.2 # 1 ARMOR PIERCING
-      - 0.3 # 2 INCENDIARY
+      - 0.15 # 2 FIRE
       - 0.4 # 3 HIGH EXPLOSIVE
       - 2.0 # 4 LASER
-      - 0.7 # 5 PLASMA
+      - 0.6 # 5 PLASMA
       - 0.7 # 6 STUN
       - 0.56 # 7 MELEE 70% GRAVITY FACTOR
       - 0.5 # 8 ACID
       - 0.0 # 9 SMOKE
       - 1.7 # 10 RAPID LASER
       - 1.5 # 11 ARMOR PENETRATOR
-      - 0.3 # 12
+      - 0.375 # 12 INCENDIARY
       - 0.5 # 13 FUSION
       - 2.3 # 14 PENETRATOR LASER
       - 0.8 # 15 PENETRATOR PLASMA
@@ -3898,7 +3930,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 2.0 # 2 INCENDIARY
+      - 2.0 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 0.9 # 4 LASER
       - 0.72 # 5 PLASMA
@@ -3908,7 +3940,7 @@ armors:
       - 0.0 # 9 SMOKE
       - 1.1 # 10 RAPID LASER
       - 1.3 # 11 ARMOR PENETRATOR
-      - 2.0 # 12
+      - 2.0 # 12 INCENDIARY
       - 0.8 # 13 FUSION
       - 1.2 # 14 PENETRATOR LASER
       - 0.96 # 15 PENETRATOR PLASMA

@@ -4,42 +4,42 @@ invs:
     y: 152
     type: 2
     costs:
-      STR_BACK_PACK: 20
-      STR_BELT: 12
+      STR_BACK_PACK: 18
+      STR_BELT: 9
       STR_LEFT_HAND: 6
-      STR_LEFT_LEG: 10
-      STR_LEFT_SHOULDER: 12
+      STR_LEFT_LEG: 7
+      STR_LEFT_SHOULDER: 10
       STR_RIGHT_HAND: 6
-      STR_RIGHT_LEG: 10
-      STR_RIGHT_SHOULDER: 12
+      STR_RIGHT_LEG: 7
+      STR_RIGHT_SHOULDER: 10
   - id: STR_RIGHT_HAND
     x: 0
     y: 59
     type: 1
     costs:
       STR_BACK_PACK: 14
-      STR_BELT: 8
+      STR_BELT: 4
       STR_GROUND: 2
-      STR_LEFT_HAND: 4
-      STR_LEFT_LEG: 10
-      STR_LEFT_SHOULDER: 8
-      STR_RIGHT_LEG: 8
-      STR_RIGHT_SHOULDER: 10
+      STR_LEFT_HAND: 2
+      STR_LEFT_LEG: 7
+      STR_LEFT_SHOULDER: 4
+      STR_RIGHT_LEG: 5
+      STR_RIGHT_SHOULDER: 6
   - id: STR_LEFT_HAND
     x: 128
     y: 59
     type: 1
     costs:
       STR_BACK_PACK: 14
-      STR_BELT: 8
+      STR_BELT: 4
       STR_GROUND: 2
-      STR_LEFT_LEG: 8
-      STR_LEFT_SHOULDER: 10
-      STR_RIGHT_HAND: 4
-      STR_RIGHT_LEG: 10
-      STR_RIGHT_SHOULDER: 8
+      STR_LEFT_LEG: 5
+      STR_LEFT_SHOULDER: 6
+      STR_RIGHT_HAND: 2
+      STR_RIGHT_LEG: 7
+      STR_RIGHT_SHOULDER: 4
   - id: STR_BELT
-    x: 178
+    x: 176
     y: 104
     slots:
       - [0, 0]
@@ -54,13 +54,13 @@ invs:
       - [5, 1]
     costs:
       STR_BACK_PACK: 16
-      STR_GROUND: 6
-      STR_LEFT_HAND: 4
-      STR_LEFT_LEG: 10
-      STR_LEFT_SHOULDER: 12
-      STR_RIGHT_HAND: 4
-      STR_RIGHT_LEG: 10
-      STR_RIGHT_SHOULDER: 12
+      STR_GROUND: 4
+      STR_LEFT_HAND: 3
+      STR_LEFT_LEG: 7
+      STR_LEFT_SHOULDER: 6
+      STR_RIGHT_HAND: 3
+      STR_RIGHT_LEG: 7
+      STR_RIGHT_SHOULDER: 6
   - id: STR_RIGHT_LEG
     x: 2
     y: 116
@@ -69,13 +69,13 @@ invs:
       - [2, 1]
     costs:
       STR_BACK_PACK: 18
-      STR_BELT: 10
-      STR_GROUND: 6
+      STR_BELT: 7
+      STR_GROUND: 5
       STR_LEFT_HAND: 6
-      STR_LEFT_LEG: 10
-      STR_LEFT_SHOULDER: 10
+      STR_LEFT_LEG: 8
+      STR_LEFT_SHOULDER: 8
       STR_RIGHT_HAND: 4
-      STR_RIGHT_SHOULDER: 10
+      STR_RIGHT_SHOULDER: 8
   - id: STR_LEFT_LEG
     x: 110
     y: 116
@@ -84,13 +84,13 @@ invs:
       - [0, 1]
     costs:
       STR_BACK_PACK: 18
-      STR_BELT: 10
-      STR_GROUND: 6
+      STR_BELT: 7
+      STR_GROUND: 5
       STR_LEFT_HAND: 4
-      STR_LEFT_SHOULDER: 10
+      STR_LEFT_SHOULDER: 8
       STR_RIGHT_HAND: 6
-      STR_RIGHT_LEG: 10
-      STR_RIGHT_SHOULDER: 10
+      STR_RIGHT_LEG: 8
+      STR_RIGHT_SHOULDER: 8
   - id: STR_RIGHT_SHOULDER
     x: 16
     y: 33
@@ -99,13 +99,13 @@ invs:
       - [1, 0]
     costs:
       STR_BACK_PACK: 16
-      STR_BELT: 10
+      STR_BELT: 6
       STR_GROUND: 4
       STR_LEFT_HAND: 3
-      STR_LEFT_LEG: 12
+      STR_LEFT_LEG: 8
       STR_LEFT_SHOULDER: 8
       STR_RIGHT_HAND: 5
-      STR_RIGHT_LEG: 12
+      STR_RIGHT_LEG: 8
   - id: STR_LEFT_SHOULDER
     x: 112
     y: 33
@@ -114,12 +114,12 @@ invs:
       - [1, 0]
     costs:
       STR_BACK_PACK: 16
-      STR_BELT: 10
+      STR_BELT: 6
       STR_GROUND: 4
       STR_LEFT_HAND: 5
-      STR_LEFT_LEG: 12
+      STR_LEFT_LEG: 8
       STR_RIGHT_HAND: 3
-      STR_RIGHT_LEG: 12
+      STR_RIGHT_LEG: 8
       STR_RIGHT_SHOULDER: 8
   - id: STR_BACK_PACK
     x: 178
@@ -143,10 +143,10 @@ invs:
       - [3, 3]
     costs:
       STR_BELT: 12
-      STR_GROUND: 10
-      STR_LEFT_HAND: 8
-      STR_LEFT_LEG: 16
-      STR_LEFT_SHOULDER: 14
-      STR_RIGHT_HAND: 8
-      STR_RIGHT_LEG: 16
-      STR_RIGHT_SHOULDER: 14
+      STR_GROUND: 11
+      STR_LEFT_HAND: 10
+      STR_LEFT_LEG: 14
+      STR_LEFT_SHOULDER: 12
+      STR_RIGHT_HAND: 10
+      STR_RIGHT_LEG: 14
+      STR_RIGHT_SHOULDER: 12

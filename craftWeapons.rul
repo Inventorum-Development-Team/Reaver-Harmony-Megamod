@@ -316,7 +316,7 @@ craftWeapons:
     damage: 4500
     shieldDamageModifier: 10
     range: 62
-    accuracy: 100
+    accuracy: 175
     reloadCautious: 256
     reloadStandard: 192
     reloadAggressive: 128
@@ -721,12 +721,11 @@ craftWeapons:
   - type: STR_SUITE_AMBUSH
     sprite: 47
     stats:
-      speedMax: 1000
+      speedMax: 1200
       accel: 2
       shieldCapacity: 120
       shieldRechargeInGeoscape: 4
       shieldBleedThrough: 100
-      powerBonus: 10
       hitBonus: 30
     launcher: STR_SUITE_AMBUSH_UG
     weaponType: 3

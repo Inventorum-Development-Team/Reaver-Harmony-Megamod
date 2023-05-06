@@ -993,10 +993,7 @@ ufopaedia:
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_OUTSOURCING_AIR
-      - STR_ALIEN_EXPLOSIVES
-      - STR_HEAVY_ALIEN_EXPLOSIVES
-      - STR_LARGE_AIR_EQUIPMENT
+      - STR_RAMPAGE
     image_id: KONDOR_FUSION_SUPER_HEAVY_MISSILE
     text: STR_RAMPAGE_UFOPEDIA
   - id: STR_CRAFT_LIGHT_LASER_UC
@@ -1028,8 +1025,7 @@ ufopaedia:
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_OUTSOURCING_AIR
-      - STR_ADVANCED_LASER_WEAPONS
+      - STR_TITAN_LASER
     image_id: LaserArrayUfopedia
     text: STR_TITAN_LASER_CANNON_UFOPEDIA
   - id: STR_CRAFT_LIGHT_PLASMA_UC
@@ -1359,7 +1355,6 @@ ufopaedia:
       - STR_ULTIMATE_CRAFT
       - STR_ALIEN_ENGINEER
       - STR_LASER_WEAPONS
-      - STR_ALIEN_EXPLOSIVES
     image_id: SMART_COCKPIT
     text: STR_SUITE_COMBAT_UFOPEDIA
   - id: STR_SUITE_AMBUSH
@@ -1369,7 +1364,6 @@ ufopaedia:
     requires:
       - STR_ULTIMATE_CRAFT
       - STR_ALIEN_ENGINEER
-      - STR_LASER_WEAPONS
       - STR_ALIEN_EXPLOSIVES
       - STR_UFO_SHIELD_EMITTER
     image_id: SMART_COCKPIT
@@ -2034,6 +2028,14 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SHOTGUN_UFOPEDIA
+  - id: STR_SHOTGUN_OUT
+    listOrder: 2352
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_OUTSOURCING_GWEAPONS
+      - STR_ALLOY_WEAPONS
+    text: STR_SHOTGUN_OUT_UFOPEDIA
   - id: STR_SHOTGUN_CLIP
     listOrder: 2355
     type_id: 4
@@ -2043,6 +2045,13 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
     requires:
+      - STR_ALLOY_WEAPONS
+  - id: STR_SHOTGUN_ALLOY_SLUGS
+    listOrder: 2362
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    requires:
+      - STR_OUTSOURCING_GWEAPONS
       - STR_ALLOY_WEAPONS
   - id: STR_HC_ALLOY_AMMO
     listOrder: 2705
@@ -2094,7 +2103,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_ALIEN_EXPLOSIVES
+      - STR_ALIEN_GRENADE_ARSENAL
     text: STR_GRENADE_ROUND_AE_UFOPEDIA
   - id: STR_GRENADE_ROUND_ST
     listOrder: 3175
@@ -2427,11 +2436,11 @@ ufopaedia:
     requires:
       - STR_MOTION_SCANNER
     text: STR_MOTION_SCANNER_UFOPEDIA
-  - id: STR_MIND_PROBE
+  - id: STR_MIND_PROBE_TERRAN
     listOrder: 4450
     type_id: 4
-    section: STR_ALIEN_ARTIFACTS
-    text: STR_MIND_PROBE_UFOPEDIA
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MIND_PROBE_TERRAN_UFOPEDIA
     requires:
       - STR_MIND_PROBE
   - id: STR_FEAR_PROJECTOR
@@ -2633,6 +2642,13 @@ ufopaedia:
       - STR_FUSION_LAUNCHER_RED_DESTROYED
       - STR_STUN_BOMB
     text: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L_UFOPEDIA
+  - id: STR_MIND_PROBE
+    listOrder: 5995
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_MIND_PROBE_UFOPEDIA
+    requires:
+      - STR_MIND_PROBE
   - id: STR_PLASMA_PISTOL
     listOrder: 6000
     type_id: 4
@@ -3718,6 +3734,139 @@ ufopaedia:
     image_id: UP036.SPK
     text: STR_ALIEN_REPRODUCTION_UFOPEDIA
     text_width: 167
+  - id: STR_UFO_PLASMA_ARRAY
+    listOrder: 11100
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_UFO_PLASMA_ARRAY
+    text: STR_UFO_PLASMA_ARRAY_UFOPEDIA
+  - id: STR_UFO_PLASMA_EMITTER
+    listOrder: 11105
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_UFO_PLASMA_EMITTER
+    text: STR_UFO_PLASMA_EMITTER_UFOPEDIA
+  - id: STR_UFO_SHIELD_EMITTER
+    listOrder: 11110
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_UFO_SHIELD_EMITTER
+    text: STR_UFO_SHIELD_EMITTER_UFOPEDIA
+  - id: STR_ALIEN_POWER_ARRAYS
+    listOrder: 11115
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_ALIEN_POWER_ARRAYS
+    text: STR_ALIEN_POWER_ARRAYS_UFOPEDIA
+  - id: STR_ALIEN_COMPUTER_ARRAYS
+    listOrder: 11120
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_UFO_NAVIGATION
+    text: STR_ALIEN_COMPUTER_ARRAYS_UFOPEDIA
+  - id: STR_ALIEN_WEAPON_COMPONENTS
+    listOrder: 11125
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_PLASMA_PRELIMINARY
+    text: STR_ALIEN_WEAPON_COMPONENTS_UFOPEDIA
+  - id: STR_ALIEN_EXPLOSIVE_UNITS
+    listOrder: 11130
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_ALIEN_GRENADE
+    text: STR_ALIEN_EXPLOSIVE_UNITS_UFOPEDIA
+  - id: STR_PSIONIC_FEEDBACK_DEVICE
+    listOrder: 11135
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_CONTAINING_ALIENS
+    text: STR_PSIONIC_FEEDBACK_DEVICE_UFOPEDIA
+  - id: STR_PSIONIC_WAVE_DECODER
+    listOrder: 11140
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_MIND_PROBE
+    text: STR_PSIONIC_WAVE_DECODER_UFOPEDIA
+  - id: STR_PSIONIC_WAVE_EMITTER
+    listOrder: 11145
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_PSIONIC_ALIEN_CORPSE
+    text: STR_PSIONIC_WAVE_EMITTER_UFOPEDIA
+  - id: STR_ANTI_GRAV_UNIT
+    listOrder: 11150
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_ANTI_GRAVITY
+    text: STR_ANTI_GRAV_UNIT_UFOPEDIA
+  - id: STR_POWER_SKELETON
+    listOrder: 11155
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_SECTOID_ARMOR
+    text: STR_POWER_SKELETON_UFOPEDIA
+  - id: STR_CYBERNETIC_SKELETON_LIGHT
+    listOrder: 11160
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_CYBERDISC_CORPSE
+    text: STR_CYBERNETIC_SKELETON_LIGHT_UFOPEDIA
+  - id: STR_CYBERNETIC_SKELETON_HEAVY
+    listOrder: 11165
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_SECTOPOD_CORPSE
+    text: STR_CYBERNETIC_SKELETON_HEAVY_UFOPEDIA
+  - id: STR_ALIEN_LASER
+    listOrder: 11170
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_ALIEN_LASER
+    text: STR_ALIEN_LASER_UFOPEDIA
+  - id: STR_ALIEN_SURGICAL_INTERFACE
+    listOrder: 11175
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_ALIEN_SURGERY
+    text: STR_ALIEN_SURGICAL_INTERFACE_UFOPEDIA
+  - id: STR_ALIEN_GENETIC_IMPLANTER
+    listOrder: 11180
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_EXAMINATION_ROOM
+    text: STR_ALIEN_GENETIC_IMPLANTER_UFOPEDIA
+  - id: STR_MUTON_ARMOR_GRAFTS
+    listOrder: 11185
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_MUTON_CORPSE
+    text: STR_MUTON_ARMOR_GRAFTS_UFOPEDIA
+  - id: STR_VENOM_GLAND
+    listOrder: 11190
+    type_id: 8
+    section: STR_UFOS
+    requires:
+      - STR_CELATID_CORPSE
+    text: STR_VENOM_GLAND_UFOPEDIA
   - id: STR_ALIEN_REPOSITORY
     listOrder: 11090
     type_id: 8

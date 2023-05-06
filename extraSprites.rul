@@ -126,6 +126,8 @@ extraSprites:
       440: Resources/ReaversLaunchers/LoadedBlasterLaunchers.png
       445: Resources/ReaversLaunchers/AutoCannon.png
       446: Resources/ReaversLaunchers/RocketLauncher.png
+      447: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_COMBAT_SHOTGUN.gif
+      448: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/bigobs_PUMP_ACTION_SHOTGUN_SLUGS_ALLOY.png
 # EQUIPMENT FLOOROBS
   - type: FLOOROB.PCK
     width: 128
@@ -180,7 +182,6 @@ extraSprites:
 #      367: Resources/ReaversEquipment/PsiDisruptor.gif
       368: Resources/ReaversEquipment/AE_charge_floorob.gif
       369: Resources/ReaversEquipment/AE_prox_floorob.gif
-      370: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/floorob_ShotgunShells_Alloy.png
       370: Resources/TerranPlasmaWeapons/redgrenade_floorob.png
       371: Resources/ReaversEquipment/Fusion_demo_floorob.gif
       372: Resources/ReaversEquipment/Stun_grenade_floorob.gif
@@ -204,6 +205,9 @@ extraSprites:
       390: Resources/ReaversLaunchers/BlasterAE_floorobs.png
       391: Resources/TerranPlasmaWeapons/RedPlasmaClip_floorob.png
       392: Resources/AwesomeGuns/floorob_rifle_scope.gif
+      393: Resources/TerranPlasmaWeapons/redfusionlauncher_floorob.png
+      394: Resources/TerranPlasmaWeapons/RedFusionAmmo_floorob.png
+      395: Resources/XComFiles/Weapons_Compilation/ClassicWeapons/floorob_ShotgunShells_Alloy.png
 # EQUIPMENT HANDOBS
   - type: HANDOB.PCK
     width: 256
@@ -752,14 +756,14 @@ extraSprites:
       577: Resources/LargeFacilities/SAlienCont3.png
       578: Resources/LargeFacilities/SAlienCont4.png
       579: Resources/LargeFacilities/BiologicalAlterations.png
-      580: Resources/XenoOperations/Basebits/LargeMindP1.png
-      581: Resources/XenoOperations/Basebits/LargeMindP2.png
-      582: Resources/XenoOperations/Basebits/LargeMindP3.png
-      583: Resources/XenoOperations/Basebits/LargeMindP4.png
-      584: Resources/XenoOperations/Basebits/LargeMindPC1.png
-      585: Resources/XenoOperations/Basebits/LargeMindPC2.png
-      586: Resources/XenoOperations/Basebits/LargeMindPC3.png
-      587: Resources/XenoOperations/Basebits/LargeMindPC4.png
+      580: Resources/LargeFacilities/LargeMindP1.png
+      581: Resources/LargeFacilities/LargeMindP2.png
+      582: Resources/LargeFacilities/LargeMindP3.png
+      583: Resources/LargeFacilities/LargeMindP4.png
+      584: Resources/LargeFacilities/LargeMindPC1.png
+      585: Resources/LargeFacilities/LargeMindPC2.png
+      586: Resources/LargeFacilities/LargeMindPC3.png
+      587: Resources/LargeFacilities/LargeMindPC4.png
       588: Resources/LargeFacilities/rbasebits_24_ns.gif
       589: Resources/LargeFacilities/rbasebits_24_ew.gif
       591: Resources/LargeFacilities/blank.gif

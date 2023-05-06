@@ -744,7 +744,7 @@ crafts:
     avoidBonus: 11
     armor: 28
     powerBonus: 20
-    speedMax: 4150
+    speedMax: 4200
     accel: 7
     weapons: 4
     weaponTypes:
@@ -1704,7 +1704,7 @@ crafts:
     shieldBleedThrough: 100
     avoidBonus: 8
     armor: 24
-    speedMax: 3850
+    speedMax: 3900
     accel: 7
     weapons: 4
     weaponTypes:
@@ -2676,7 +2676,7 @@ crafts:
     avoidBonus: 5
     armor: 20
     powerBonus: -20
-    speedMax: 3550
+    speedMax: 3600
     accel: 7
     weapons: 4
     weaponTypes:
