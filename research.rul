@@ -430,6 +430,8 @@ research:
       - STR_OUTSOURCING_AIR
       - STR_ADVANCED_LASER_WEAPONS
       - STR_LARGE_PYLON_MOUNT
+    unlocks:
+      - STR_TITAN_LASER
   - name: STR_TITAN_LASER_DEP2
     cost: 0
     points: 0
@@ -440,6 +442,8 @@ research:
       - STR_ALIEN_LASER
       - STR_REPOSITORY_YELLOW
       - STR_LARGE_PYLON_MOUNT
+    unlocks:
+      - STR_TITAN_LASER
   - name: STR_RAMPAGE
     cost: 0
     points: 0
@@ -453,6 +457,8 @@ research:
       - STR_OUTSOURCING_AIR
       - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_LARGE_PYLON_MOUNT
+    unlocks:
+      - STR_RAMPAGE
   - name: STR_RAMPAGE_DEP2
     cost: 0
     points: 0
@@ -463,6 +469,8 @@ research:
       - STR_ALIEN_GRENADE_ARSENAL
       - STR_REPOSITORY_GREEN
       - STR_LARGE_PYLON_MOUNT
+    unlocks:
+      - STR_RAMPAGE
   - name: STR_PLASMA_PRELIMINARY
     cost: 0
     points: 0
@@ -1223,6 +1231,13 @@ research:
       - STR_FLAGSHIPS_NEW_A
     unlocks:
       - STR_FLAGSHIPS_NEW_C
+    lookup: STR_FLAGSHIPS_II_UP
+  - name: STR_FLAGSHIPS_II_UP
+    listOrder: 1306
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_FLAGSHIPS_NEW_B
   - name: STR_FLAGSHIPS_NEW_C
     listOrder: 1307
     cost: 3000
@@ -3462,8 +3477,6 @@ research:
       - STR_SNAKEMAN_COMMANDER_B_CORPSE
       - STR_CYDONIA_OR_BUST
   - name: STR_LEADER_PLUS
-    requires:
-      - STR_ALIEN_ORIGINS
     dependencies:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -3474,8 +3487,6 @@ research:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
   - name: STR_COMMANDER_PLUS
-    requires:
-      - STR_THE_MARTIAN_SOLUTION
     dependencies:
       - STR_SECTOID_COMMANDER
       - STR_SNAKEMAN_COMMANDER
@@ -3629,6 +3640,7 @@ research:
     points: 610
     unlockFinalMission: true
     dependencies:
+      - STR_THE_MARTIAN_SOLUTION
       - STR_COMMANDER_PLUS
       - STR_BASIC_SPACECRAFT
       - STR_ETHEREAL_NAVIGATOR
@@ -4103,3 +4115,161 @@ research:
       - STR_AIR_OUT
       - STR_HWP_OUT
       - STR_EQP_OUT
+  - name: STR_CAPACITORS
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_TRANSISTORS_SMALL
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_TRANSISTORS_MEDIUM
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_TRANSISTORS_LARGE
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_TRANSISTORS_VERY_LARGE
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_TRANSISTORS_HIGH_ENERGY
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_DIODES_SMALL
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_DIODES_MEDIUM
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_DIODES_LARGE
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_DIODES_VERY_LARGE
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_DIODES_HIGH_ENERGY
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_TRANSFORMERS
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_INDUCTORS_SMALL
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_INDUCTORS_LARGE
+    cost: 0
+    points: 0
+    needItem: true
+    destroyItem: false
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_FLAGSHIPS_NEW_A
+      - STR_FLAGSHIPS_NEW_B
+      - STR_FLAGSHIPS_NEW_C
+      - STR_FLAGSHIPS_TO_X
+  - name: STR_FLAGSHIPS_TO_X
+    cost: 0
+    points: 0
+    needItem: true

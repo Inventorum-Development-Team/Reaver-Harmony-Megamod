@@ -469,12 +469,11 @@ manufacture:
     listOrder: 425
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ALIENS_ONLY
-      # - STR_ADVANCED_AIR_EQUIPMENT
-      # - STR_ALIEN_POWER_ARRAYS
-      # - STR_UFO_SHIELD_EMITTER
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_ALIEN_POWER_ARRAYS
+      - STR_UFO_SHIELD_EMITTER
     space: 5
-    time: 600
+    time: 200
     cost: 120000
     requiredItems:
       STR_ALIEN_POWER_ARRAYS: 2
@@ -630,10 +629,11 @@ manufacture:
       - STR_BASIC_SPACECRAFT
       - STR_UFO_SHIELD_EMITTER
     space: 5
-    time: 900
+    time: 400
     cost: 340000
     requiredItems:
-      STR_ALIEN_POWER_ARRAYS: 4
+      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_POWER_ARRAYS: 2
       STR_UFO_SHIELD_EMITTER: 4
   - name: STR_MOD_TARGETING_CRITICAL_UG
     listOrder: 530
@@ -1646,7 +1646,7 @@ manufacture:
     cost: 35000
     requiredItems:
       STR_ELERIUM_115: 12
-      STR_PLASMA_PISTOL_RED_CLIP_DESTROYED: 4
+      STR_PLASMA_PISTOL_RED_CLIP_DESTROYED: 2
       STR_ALIEN_WEAPON_COMPONENTS: 6
   - name: STR_POWER_SUIT_RIFLE
     listOrder: 2310
@@ -1654,7 +1654,6 @@ manufacture:
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_PLASMA_RIFLE_RED_DESTROYED
-      - STR_PLASMA_WEAPONS
       - STR_CELATID_AUTOPSY
     space: 0
     time: 6100
@@ -1670,14 +1669,13 @@ manufacture:
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_PLASMA_RIFLE_RED_DESTROYED
-      - STR_PLASMA_WEAPONS
       - STR_CELATID_AUTOPSY
     space: 0
     time: 600
     cost: 98000
     requiredItems:
       STR_ELERIUM_115: 9
-      STR_PLASMA_RIFLE_RED_CLIP_DESTROYED: 4
+      STR_PLASMA_RIFLE_RED_CLIP_DESTROYED: 2
       STR_VENOM_GLAND: 4
   - name: STR_POWER_SUIT_HEAVY
     listOrder: 2320
@@ -1706,7 +1704,7 @@ manufacture:
     cost: 162000
     requiredItems:
       STR_ELERIUM_115: 6
-      STR_HEAVY_PLASMA_RED_CLIP_DESTROYED: 3
+      STR_HEAVY_PLASMA_RED_CLIP_DESTROYED: 2
       STR_ALIEN_LASER: 1
       STR_ALIEN_WEAPON_COMPONENTS: 25
   - name: STR_POWER_SUIT_LAUNCHER
@@ -1733,7 +1731,7 @@ manufacture:
       - STR_ALLOY_WEAPONS
     space: 0
     time: 325
-    cost: 150000
+    cost: 160000
     requiredItems:
       STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
   - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
@@ -1742,24 +1740,28 @@ manufacture:
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_ALIEN_LAUNCHER
       - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_HEAVY_ALIEN_EXPLOSIVES
     space: 0
     time: 375
-    cost: 125000
+    cost: 150000
     requiredItems:
-      STR_ALIEN_GRENADE_RED_DESTROYED: 5
+      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
+      STR_ALIEN_EXPLOSIVE_UNITS: 5
   - name: STR_POWER_SUIT_LAUNCHER_F_BOMB_H
     listOrder: 2347
     category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_BLASTER_BOMB
     space: 0
     time: 450
     cost: 180000
     requiredItems:
-      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 3
+      STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
+      STR_FUSION_CORE: 1
   - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
     listOrder: 2348
     category: STR_TROOP_WEAPONS
@@ -1772,7 +1774,6 @@ manufacture:
     cost: 140000
     requiredItems:
       STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
-      STR_ALIEN_GRENADE_RED_DESTROYED: 1
   - name: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
     listOrder: 2349
     category: STR_TROOP_WEAPONS
@@ -1785,7 +1786,6 @@ manufacture:
     cost: 135000
     requiredItems:
       STR_FUSION_LAUNCHER_RED_BOMB_DESTROYED: 1
-      STR_ALIEN_GRENADE_RED_DESTROYED: 2
       STR_STUN_CORE: 2
   - name: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
     listOrder: 2350
@@ -1797,27 +1797,30 @@ manufacture:
       - STR_ALLOY_WEAPONS
     space: 0
     time: 455
-    cost: 310000
+    cost: 210000
+    requiredItems:
+      STR_ALIEN_GRENADE_RED_DESTROYED: 3
   - name: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
     listOrder: 2351
     category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
+      - STR_ALIEN_LAUNCHER
       - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_ALIEN_EXPLOSIVES
     space: 0
     time: 475
-    cost: 125000
+    cost: 200000
     requiredItems:
-      STR_ALIEN_GRENADE_RED_DESTROYED: 6
+      STR_ALIEN_GRENADE_RED_DESTROYED: 3
+      STR_ALIEN_EXPLOSIVE_UNITS: 6
   - name: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
     listOrder: 2352
     category: STR_TROOP_WEAPONS
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
-      - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
     space: 0
     time: 530
@@ -1830,7 +1833,6 @@ manufacture:
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
-      - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
     space: 0
     time: 500
@@ -1843,7 +1845,6 @@ manufacture:
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
-      - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_STUN_BOMB
     space: 0
     time: 595
@@ -2544,57 +2545,43 @@ manufacture:
       - STR_FLAGSHIPS
     space: 36
     time: 24000
-    cost: 4800000
+    cost: 5800000
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 22
-      STR_ALIEN_COMPUTER_ARRAYS: 75
+      STR_ALIEN_COMPUTER_ARRAYS: 65
       STR_UFO_SHIELD_EMITTER: 5
-      STR_CAPACITORS: 20
-      STR_TRANSISTORS_SMALL: 14
-      STR_TRANSISTORS_MEDIUM: 8
-      STR_TRANSISTORS_LARGE: 3
-      STR_TRANSISTORS_VERY_LARGE: 2
-      STR_DIODES_SMALL: 12
-      STR_DIODES_MEDIUM: 6
-      STR_DIODES_HIGH_ENERGY: 12
-      STR_TRANSFORMERS: 5
-      STR_INDUCTORS_SMALL: 10
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 58
+      STR_TRANSISTORS_X: 63
+      STR_DIODES_X: 98
+      STR_TRANSFORMERS_X: 5
+      STR_INDUCTORS_X: 28
   - name: STR_HERACLES_EASY
     listOrder: 3245
     category: STR_CRAFT
     requires:
       - STR_CRAFT_EASY
       - STR_FLAGSHIPS
-    space: 60
+    space: 50
     time: 60000
-    cost: 14400000
+    cost: 12400000
     requiredItems:
-      STR_ALIEN_ALLOYS: 400
+      STR_ALIEN_ALLOYS: 350
       STR_ALIEN_POWER_ARRAYS: 60
-      STR_ALIEN_COMPUTER_ARRAYS: 24
+      STR_ALIEN_COMPUTER_ARRAYS: 32
       STR_UFO_SHIELD_EMITTER: 8
-      STR_CAPACITORS: 8
-      STR_TRANSISTORS_SMALL: 12
-      STR_TRANSISTORS_MEDIUM: 10
-      STR_TRANSISTORS_LARGE: 8
-      STR_TRANSISTORS_VERY_LARGE: 3
-      STR_TRANSISTORS_HIGH_ENERGY: 12
-      STR_DIODES_SMALL: 7
-      STR_DIODES_MEDIUM: 4
-      STR_DIODES_LARGE: 2
-      STR_DIODES_HIGH_ENERGY: 6
-      STR_TRANSFORMERS: 8
-      STR_INDUCTORS_SMALL: 12
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 27
+      STR_TRANSISTORS_X: 104
+      STR_DIODES_X: 39
+      STR_TRANSFORMERS_X: 15
+      STR_INDUCTORS_X: 36
   - name: STR_STARBLAZER_EASY
     listOrder: 3250
     category: STR_CRAFT
     requires:
       - STR_CRAFT_EASY
       - STR_FLAGSHIPS
-    space: 28
+    space: 38
     time: 36000
     cost: 7200000
     requiredItems:
@@ -2602,15 +2589,11 @@ manufacture:
       STR_ALIEN_POWER_ARRAYS: 52
       STR_ALIEN_COMPUTER_ARRAYS: 40
       STR_UFO_SHIELD_EMITTER: 7
-      STR_CAPACITORS: 4
-      STR_TRANSISTORS_SMALL: 6
-      STR_DIODES_SMALL: 14
-      STR_DIODES_MEDIUM: 10
-      STR_DIODES_LARGE: 12
-      STR_DIODES_VERY_LARGE: 2
-      STR_DIODES_HIGH_ENERGY: 36
-      STR_TRANSFORMERS: 3
-      STR_INDUCTORS_SMALL: 4
+      STR_CAPACITORS_X: 70
+      STR_TRANSISTORS_X: 22
+      STR_DIODES_X: 313
+      STR_TRANSFORMERS_X: 21
+      STR_INDUCTORS_X: 10
   - name: STR_DIVINITY_EASY
     listOrder: 3255
     category: STR_CRAFT
@@ -2625,20 +2608,11 @@ manufacture:
       STR_ALIEN_POWER_ARRAYS: 36
       STR_ALIEN_COMPUTER_ARRAYS: 56
       STR_UFO_SHIELD_EMITTER: 6
-      STR_CAPACITORS: 12
-      STR_TRANSISTORS_SMALL: 8
-      STR_TRANSISTORS_MEDIUM: 6
-      STR_TRANSISTORS_LARGE: 4
-      STR_TRANSISTORS_VERY_LARGE: 2
-      STR_TRANSISTORS_HIGH_ENERGY: 18
-      STR_DIODES_SMALL: 12
-      STR_DIODES_MEDIUM: 6
-      STR_DIODES_LARGE: 2
-      STR_DIODES_VERY_LARGE: 1
-      STR_DIODES_HIGH_ENERGY: 18
-      STR_TRANSFORMERS: 8
-      STR_INDUCTORS_SMALL: 8
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 72
+      STR_TRANSISTORS_X: 88
+      STR_DIODES_X: 165
+      STR_TRANSFORMERS_X: 22
+      STR_INDUCTORS_X: 32
   - name: STR_AMARANTH
     listOrder: 3240
     category: STR_CRAFT
@@ -2647,57 +2621,43 @@ manufacture:
       - STR_FLAGSHIPS
     space: 36
     time: 24000
-    cost: 4800000
+    cost: 5800000
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 22
-      STR_ALIEN_COMPUTER_ARRAYS: 75
+      STR_ALIEN_COMPUTER_ARRAYS: 65
       STR_UFO_SHIELD_EMITTER: 5
-      STR_CAPACITORS: 20
-      STR_TRANSISTORS_SMALL: 14
-      STR_TRANSISTORS_MEDIUM: 8
-      STR_TRANSISTORS_LARGE: 3
-      STR_TRANSISTORS_VERY_LARGE: 2
-      STR_DIODES_SMALL: 12
-      STR_DIODES_MEDIUM: 6
-      STR_DIODES_HIGH_ENERGY: 12
-      STR_TRANSFORMERS: 5
-      STR_INDUCTORS_SMALL: 10
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 58
+      STR_TRANSISTORS_X: 63
+      STR_DIODES_X: 98
+      STR_TRANSFORMERS_X: 5
+      STR_INDUCTORS_X: 28
   - name: STR_HERACLES
     listOrder: 3245
     category: STR_CRAFT
     requires:
       - STR_CRAFT_MEDIUM
       - STR_FLAGSHIPS
-    space: 60
+    space: 50
     time: 60000
-    cost: 14400000
+    cost: 12400000
     requiredItems:
-      STR_ALIEN_ALLOYS: 400
+      STR_ALIEN_ALLOYS: 350
       STR_ALIEN_POWER_ARRAYS: 60
-      STR_ALIEN_COMPUTER_ARRAYS: 24
+      STR_ALIEN_COMPUTER_ARRAYS: 32
       STR_UFO_SHIELD_EMITTER: 8
-      STR_CAPACITORS: 8
-      STR_TRANSISTORS_SMALL: 12
-      STR_TRANSISTORS_MEDIUM: 10
-      STR_TRANSISTORS_LARGE: 8
-      STR_TRANSISTORS_VERY_LARGE: 3
-      STR_TRANSISTORS_HIGH_ENERGY: 12
-      STR_DIODES_SMALL: 7
-      STR_DIODES_MEDIUM: 4
-      STR_DIODES_LARGE: 2
-      STR_DIODES_HIGH_ENERGY: 6
-      STR_TRANSFORMERS: 8
-      STR_INDUCTORS_SMALL: 12
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 27
+      STR_TRANSISTORS_X: 104
+      STR_DIODES_X: 39
+      STR_TRANSFORMERS_X: 15
+      STR_INDUCTORS_X: 36
   - name: STR_STARBLAZER
     listOrder: 3250
     category: STR_CRAFT
     requires:
       - STR_CRAFT_MEDIUM
       - STR_FLAGSHIPS
-    space: 28
+    space: 38
     time: 36000
     cost: 7200000
     requiredItems:
@@ -2705,15 +2665,11 @@ manufacture:
       STR_ALIEN_POWER_ARRAYS: 52
       STR_ALIEN_COMPUTER_ARRAYS: 40
       STR_UFO_SHIELD_EMITTER: 7
-      STR_CAPACITORS: 4
-      STR_TRANSISTORS_SMALL: 6
-      STR_DIODES_SMALL: 14
-      STR_DIODES_MEDIUM: 10
-      STR_DIODES_LARGE: 12
-      STR_DIODES_VERY_LARGE: 2
-      STR_DIODES_HIGH_ENERGY: 36
-      STR_TRANSFORMERS: 3
-      STR_INDUCTORS_SMALL: 4
+      STR_CAPACITORS_X: 70
+      STR_TRANSISTORS_X: 22
+      STR_DIODES_X: 313
+      STR_TRANSFORMERS_X: 21
+      STR_INDUCTORS_X: 10
   - name: STR_DIVINITY
     listOrder: 3255
     category: STR_CRAFT
@@ -2728,20 +2684,11 @@ manufacture:
       STR_ALIEN_POWER_ARRAYS: 36
       STR_ALIEN_COMPUTER_ARRAYS: 56
       STR_UFO_SHIELD_EMITTER: 6
-      STR_CAPACITORS: 12
-      STR_TRANSISTORS_SMALL: 8
-      STR_TRANSISTORS_MEDIUM: 6
-      STR_TRANSISTORS_LARGE: 4
-      STR_TRANSISTORS_VERY_LARGE: 2
-      STR_TRANSISTORS_HIGH_ENERGY: 18
-      STR_DIODES_SMALL: 12
-      STR_DIODES_MEDIUM: 6
-      STR_DIODES_LARGE: 2
-      STR_DIODES_VERY_LARGE: 1
-      STR_DIODES_HIGH_ENERGY: 18
-      STR_TRANSFORMERS: 8
-      STR_INDUCTORS_SMALL: 8
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 72
+      STR_TRANSISTORS_X: 88
+      STR_DIODES_X: 165
+      STR_TRANSFORMERS_X: 22
+      STR_INDUCTORS_X: 32
   - name: STR_AMARANTH_HARD
     listOrder: 3240
     category: STR_CRAFT
@@ -2750,57 +2697,43 @@ manufacture:
       - STR_FLAGSHIPS
     space: 36
     time: 24000
-    cost: 4800000
+    cost: 5800000
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 22
-      STR_ALIEN_COMPUTER_ARRAYS: 75
+      STR_ALIEN_COMPUTER_ARRAYS: 65
       STR_UFO_SHIELD_EMITTER: 5
-      STR_CAPACITORS: 20
-      STR_TRANSISTORS_SMALL: 14
-      STR_TRANSISTORS_MEDIUM: 8
-      STR_TRANSISTORS_LARGE: 3
-      STR_TRANSISTORS_VERY_LARGE: 2
-      STR_DIODES_SMALL: 12
-      STR_DIODES_MEDIUM: 6
-      STR_DIODES_HIGH_ENERGY: 12
-      STR_TRANSFORMERS: 5
-      STR_INDUCTORS_SMALL: 10
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 58
+      STR_TRANSISTORS_X: 63
+      STR_DIODES_X: 98
+      STR_TRANSFORMERS_X: 5
+      STR_INDUCTORS_X: 28
   - name: STR_HERACLES_HARD
     listOrder: 3245
     category: STR_CRAFT
     requires:
       - STR_CRAFT_HARD
       - STR_FLAGSHIPS
-    space: 60
+    space: 50
     time: 60000
-    cost: 14400000
+    cost: 12400000
     requiredItems:
-      STR_ALIEN_ALLOYS: 400
+      STR_ALIEN_ALLOYS: 350
       STR_ALIEN_POWER_ARRAYS: 60
-      STR_ALIEN_COMPUTER_ARRAYS: 24
+      STR_ALIEN_COMPUTER_ARRAYS: 32
       STR_UFO_SHIELD_EMITTER: 8
-      STR_CAPACITORS: 8
-      STR_TRANSISTORS_SMALL: 12
-      STR_TRANSISTORS_MEDIUM: 10
-      STR_TRANSISTORS_LARGE: 8
-      STR_TRANSISTORS_VERY_LARGE: 3
-      STR_TRANSISTORS_HIGH_ENERGY: 12
-      STR_DIODES_SMALL: 7
-      STR_DIODES_MEDIUM: 4
-      STR_DIODES_LARGE: 2
-      STR_DIODES_HIGH_ENERGY: 6
-      STR_TRANSFORMERS: 8
-      STR_INDUCTORS_SMALL: 12
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 27
+      STR_TRANSISTORS_X: 104
+      STR_DIODES_X: 39
+      STR_TRANSFORMERS_X: 15
+      STR_INDUCTORS_X: 36
   - name: STR_STARBLAZER_HARD
     listOrder: 3250
     category: STR_CRAFT
     requires:
       - STR_CRAFT_HARD
       - STR_FLAGSHIPS
-    space: 28
+    space: 38
     time: 36000
     cost: 7200000
     requiredItems:
@@ -2808,15 +2741,11 @@ manufacture:
       STR_ALIEN_POWER_ARRAYS: 52
       STR_ALIEN_COMPUTER_ARRAYS: 40
       STR_UFO_SHIELD_EMITTER: 7
-      STR_CAPACITORS: 4
-      STR_TRANSISTORS_SMALL: 6
-      STR_DIODES_SMALL: 14
-      STR_DIODES_MEDIUM: 10
-      STR_DIODES_LARGE: 12
-      STR_DIODES_VERY_LARGE: 2
-      STR_DIODES_HIGH_ENERGY: 36
-      STR_TRANSFORMERS: 3
-      STR_INDUCTORS_SMALL: 4
+      STR_CAPACITORS_X: 70
+      STR_TRANSISTORS_X: 22
+      STR_DIODES_X: 313
+      STR_TRANSFORMERS_X: 21
+      STR_INDUCTORS_X: 10
   - name: STR_DIVINITY_HARD
     listOrder: 3255
     category: STR_CRAFT
@@ -2831,20 +2760,11 @@ manufacture:
       STR_ALIEN_POWER_ARRAYS: 36
       STR_ALIEN_COMPUTER_ARRAYS: 56
       STR_UFO_SHIELD_EMITTER: 6
-      STR_CAPACITORS: 12
-      STR_TRANSISTORS_SMALL: 8
-      STR_TRANSISTORS_MEDIUM: 6
-      STR_TRANSISTORS_LARGE: 4
-      STR_TRANSISTORS_VERY_LARGE: 2
-      STR_TRANSISTORS_HIGH_ENERGY: 18
-      STR_DIODES_SMALL: 12
-      STR_DIODES_MEDIUM: 6
-      STR_DIODES_LARGE: 2
-      STR_DIODES_VERY_LARGE: 1
-      STR_DIODES_HIGH_ENERGY: 18
-      STR_TRANSFORMERS: 8
-      STR_INDUCTORS_SMALL: 8
-      STR_INDUCTORS_LARGE: 2
+      STR_CAPACITORS_X: 72
+      STR_TRANSISTORS_X: 88
+      STR_DIODES_X: 165
+      STR_TRANSFORMERS_X: 22
+      STR_INDUCTORS_X: 32
 # System for armor repair:
 # 100% of space
 # 30% of time
@@ -3667,367 +3587,791 @@ manufacture:
     listOrder: 9000
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CANISTER_SS: 1
     producedItems:
-      STR_CAPACITORS: 1
+      STR_CAPACITORS_X: 1
   - name: STR_SALVAGE_DATA_CANISTER_CO
     listOrder: 9001
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CANISTER_CO: 1
     producedItems:
-      STR_CAPACITORS: 1
+      STR_CAPACITORS_X: 2
   - name: STR_SALVAGE_DATA_CANISTER_PA
     listOrder: 9002
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CANISTER_PA: 1
     producedItems:
-      STR_CAPACITORS: 1
+      STR_CAPACITORS_X: 3
   - name: STR_SALVAGE_DATA_CORE_MS
     listOrder: 9010
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_MS: 1
     producedItems:
-      STR_TRANSISTORS_SMALL: 1
+      STR_TRANSISTORS_X: 1
   - name: STR_SALVAGE_DATA_CORE_LS
     listOrder: 9011
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_LS: 1
     producedItems:
-      STR_TRANSISTORS_SMALL: 1
+      STR_TRANSISTORS_X: 2
   - name: STR_SALVAGE_DATA_CORE_CS
     listOrder: 9012
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_CS: 1
     producedItems:
-      STR_TRANSISTORS_MEDIUM: 1
+      STR_TRANSISTORS_X: 3
   - name: STR_SALVAGE_DATA_CORE_AB
     listOrder: 9013
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_AB: 1
     producedItems:
-      STR_TRANSISTORS_MEDIUM: 1
+      STR_TRANSISTORS_X: 3
   - name: STR_SALVAGE_DATA_CORE_HV
     listOrder: 9014
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_HV: 1
     producedItems:
-      STR_TRANSISTORS_MEDIUM: 1
+      STR_TRANSISTORS_X: 3
   - name: STR_SALVAGE_DATA_CORE_TS
     listOrder: 9015
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_TS: 1
     producedItems:
-      STR_TRANSISTORS_LARGE: 1
+      STR_TRANSISTORS_X: 4
+      STR_TRANSFORMERS_X: 1
   - name: STR_SALVAGE_DATA_CORE_SS
     listOrder: 9016
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_SS: 1
     producedItems:
-      STR_TRANSISTORS_LARGE: 1
+      STR_TRANSISTORS_X: 4
+      STR_TRANSFORMERS_X: 1
   - name: STR_SALVAGE_DATA_CORE_BS
     listOrder: 9017
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_BS: 1
     producedItems:
-      STR_TRANSISTORS_VERY_LARGE: 1
+      STR_TRANSISTORS_X: 4
+      STR_TRANSFORMERS_X: 3
   - name: STR_SALVAGE_DATA_CORE_MO
     listOrder: 9018
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_MO: 1
     producedItems:
-      STR_TRANSISTORS_VERY_LARGE: 1
+      STR_TRANSISTORS_X: 6
+      STR_TRANSFORMERS_X: 2
   - name: STR_SALVAGE_DATA_CORE_LD
     listOrder: 9020
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_LD: 1
     producedItems:
-      STR_TRANSISTORS_HIGH_ENERGY: 1
+      STR_TRANSISTORS_X: 2
+      STR_CAPACITORS_X: 1
   - name: STR_SALVAGE_DATA_CORE_MD
     listOrder: 9021
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_MD: 1
     producedItems:
-      STR_TRANSISTORS_HIGH_ENERGY: 2
+      STR_TRANSISTORS_X: 4
+      STR_CAPACITORS_X: 2
   - name: STR_SALVAGE_DATA_CORE_HD
     listOrder: 9022
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CORE_HD: 1
     producedItems:
-      STR_TRANSISTORS_HIGH_ENERGY: 4
+      STR_TRANSISTORS_X: 6
+      STR_CAPACITORS_X: 3
+      STR_TRANSFORMERS_X: 1
   - name: STR_SALVAGE_DATA_CAPSULE_MS
     listOrder: 9030
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_MS: 1
     producedItems:
-      STR_DIODES_SMALL: 1
+      STR_DIODES_X: 2
   - name: STR_SALVAGE_DATA_CAPSULE_LS
     listOrder: 9031
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_LS: 1
     producedItems:
-      STR_DIODES_SMALL: 1
+      STR_DIODES_X: 3
   - name: STR_SALVAGE_DATA_CAPSULE_CS
     listOrder: 9032
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_CS: 1
     producedItems:
-      STR_DIODES_MEDIUM: 1
+      STR_DIODES_X: 5
   - name: STR_SALVAGE_DATA_CAPSULE_AB
     listOrder: 9033
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_AB: 1
     producedItems:
-      STR_DIODES_MEDIUM: 1
+      STR_DIODES_X: 6
   - name: STR_SALVAGE_DATA_CAPSULE_HV
     listOrder: 9034
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_HV: 1
     producedItems:
-      STR_DIODES_MEDIUM: 1
+      STR_DIODES_X: 5
   - name: STR_SALVAGE_DATA_CAPSULE_TS
     listOrder: 9035
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_TS: 1
     producedItems:
-      STR_DIODES_LARGE: 1
+      STR_DIODES_X: 8
+      STR_TRANSFORMERS_X: 1
   - name: STR_SALVAGE_DATA_CAPSULE_SS
     listOrder: 9036
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_SS: 1
     producedItems:
-      STR_DIODES_LARGE: 1
+      STR_DIODES_X: 9
+      STR_TRANSFORMERS_X: 1
   - name: STR_SALVAGE_DATA_CAPSULE_BS
     listOrder: 9037
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_BS: 1
     producedItems:
-      STR_DIODES_VERY_LARGE: 1
+      STR_DIODES_X: 17
+      STR_TRANSFORMERS_X: 3
   - name: STR_SALVAGE_DATA_CAPSULE_MO
     listOrder: 9038
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_MO: 1
     producedItems:
-      STR_DIODES_VERY_LARGE: 1
+      STR_DIODES_X: 26
+      STR_TRANSFORMERS_X: 2
   - name: STR_SALVAGE_DATA_CAPSULE_LD
     listOrder: 9040
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_LD: 1
     producedItems:
-      STR_DIODES_HIGH_ENERGY: 1
+      STR_DIODES_X: 4
+      STR_CAPACITORS_X: 2
   - name: STR_SALVAGE_DATA_CAPSULE_MD
     listOrder: 9041
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_MD: 1
     producedItems:
-      STR_DIODES_HIGH_ENERGY: 2
+      STR_DIODES_X: 8
+      STR_CAPACITORS_X: 4
   - name: STR_SALVAGE_DATA_CAPSULE_HD
     listOrder: 9042
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CAPSULE_HD: 1
     producedItems:
-      STR_DIODES_HIGH_ENERGY: 4
+      STR_DIODES_X: 13
+      STR_CAPACITORS_X: 6
+      STR_TRANSFORMERS_X: 2
   - name: STR_SALVAGE_DATA_CACHE_TS
     listOrder: 9050
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CACHE_TS: 1
     producedItems:
-      STR_TRANSFORMERS: 1
+      STR_INDUCTORS_X: 2
   - name: STR_SALVAGE_DATA_CACHE_AO
     listOrder: 9055
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CACHE_AO: 1
     producedItems:
-      STR_INDUCTORS_SMALL: 1
+      STR_INDUCTORS_X: 1
   - name: STR_SALVAGE_DATA_CACHE_AB
     listOrder: 9056
     category: STR_DATA_TO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_A
     space: 0
     time: 25
     cost: 1000
     requiredItems:
       STR_DATA_CACHE_AB: 1
     producedItems:
+      STR_INDUCTORS_X: 4
+  - name: STR_CAPACITORS_X_FROM_TRANSISTORS_X
+    listOrder: 9100
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_X: 1
+    producedItems:
+      STR_CAPACITORS_X: 2
+  - name: STR_CAPACITORS_X_FROM_DIODES_X
+    listOrder: 9101
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_X: 1
+    producedItems:
+      STR_CAPACITORS_X: 1
+  - name: STR_CAPACITORS_X_FROM_TRANSFORMERS_X
+    listOrder: 9102
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSFORMERS_X: 1
+    producedItems:
+      STR_CAPACITORS_X: 2
+  - name: STR_CAPACITORS_X_FROM_INDUCTORS_X
+    listOrder: 9103
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_X: 1
+    producedItems:
+      STR_CAPACITORS_X: 4
+  - name: STR_TRANSISTORS_X_FROM_CAPACITORS_X
+    listOrder: 9105
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS_X: 3
+    producedItems:
+      STR_TRANSISTORS_X: 1
+  - name: STR_TRANSISTORS_X_FROM_DIODES_X
+    listOrder: 9106
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_X: 2
+    producedItems:
+      STR_TRANSISTORS_X: 1
+  - name: STR_TRANSISTORS_X_FROM_TRANSFORMERS_X
+    listOrder: 9107
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSFORMERS_X: 1
+    producedItems:
+      STR_TRANSISTORS_X: 1
+  - name: STR_TRANSISTORS_X_FROM_INDUCTORS_X
+    listOrder: 9108
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_X: 1
+    producedItems:
+      STR_TRANSISTORS_X: 2
+  - name: STR_DIODES_X_FROM_CAPACITORS_X
+    listOrder: 9110
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS_X: 2
+    producedItems:
+      STR_DIODES_X: 1
+  - name: STR_DIODES_X_FROM_TRANSISTORS_X
+    listOrder: 9111
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_TRANSISTORS_X: 2
+    producedItems:
+      STR_DIODES_X: 3
+  - name: STR_DIODES_X_FROM_TRANSFORMERS_X
+    listOrder: 9112
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_TRANSFORMERS_X: 2
+    producedItems:
+      STR_DIODES_X: 3
+  - name: STR_DIODES_X_FROM_INDUCTORS_X
+    listOrder: 9113
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_INDUCTORS_X: 1
+    producedItems:
+      STR_DIODES_X: 3
+  - name: STR_TRANSFORMERS_X_FROM_CAPACITORS_X
+    listOrder: 9115
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS_X: 4
+    producedItems:
+      STR_TRANSFORMERS_X: 1
+  - name: STR_TRANSFORMERS_X_FROM_TRANSISTORS_X
+    listOrder: 9116
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_TRANSISTORS_X: 3
+    producedItems:
+      STR_TRANSFORMERS_X: 2
+  - name: STR_TRANSFORMERS_X_FROM_DIODES_X
+    listOrder: 9117
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_DIODES_X: 5
+    producedItems:
+      STR_TRANSFORMERS_X: 2
+  - name: STR_TRANSFORMERS_X_FROM_INDUCTORS_X
+    listOrder: 9118
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_INDUCTORS_X: 2
+    producedItems:
+      STR_TRANSFORMERS_X: 3
+  - name: STR_INDUCTORS_X_FROM_CAPACITORS_X
+    listOrder: 9120
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_CAPACITORS_X: 8
+    producedItems:
+      STR_INDUCTORS_X: 1
+  - name: STR_INDUCTORS_X_FROM_TRANSISTORS_X
+    listOrder: 9121
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_TRANSISTORS_X: 3
+    producedItems:
+      STR_INDUCTORS_X: 1
+  - name: STR_INDUCTORS_X_FROM_DIODES_X
+    listOrder: 9122
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_DIODES_X: 5
+    producedItems:
+      STR_INDUCTORS_X: 1
+  - name: STR_INDUCTORS_X_FROM_TRANSFORMERS_X
+    listOrder: 9123
+    category: STR_SWAP_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS
+    space: 0
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_TRANSFORMERS_X: 3
+    producedItems:
+      STR_INDUCTORS_X: 2
+  - name: STR_CAPACITORS_X_FROM_CAPACITORS
+    listOrder: 9380
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_CAPACITORS: 1
+    producedItems:
+      STR_CAPACITORS_X: 2
+  - name: STR_TRANSISTORS_X_FROM_TRANSISTORS_SMALL
+    listOrder: 9381
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_TRANSISTORS_SMALL: 1
+    producedItems:
+      STR_TRANSISTORS_X: 2
+  - name: STR_TRANSISTORS_X_FROM_TRANSISTORS_MEDIUM
+    listOrder: 9382
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_TRANSISTORS_MEDIUM: 1
+    producedItems:
+      STR_TRANSISTORS_X: 3
+  - name: STR_TRANSISTORS_X_FROM_TRANSISTORS_LARGE
+    listOrder: 9383
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_TRANSISTORS_LARGE: 1
+    producedItems:
+      STR_TRANSISTORS_X: 5
+  - name: STR_TRANSISTORS_X_FROM_TRANSISTORS_VERY_LARGE
+    listOrder: 9384
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_TRANSISTORS_VERY_LARGE: 1
+    producedItems:
+      STR_TRANSISTORS_X: 8
+  - name: STR_TRANSISTORS_X_FROM_TRANSISTORS_HIGH_ENERGY
+    listOrder: 9385
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_TRANSISTORS_HIGH_ENERGY: 1
+    producedItems:
+      STR_TRANSISTORS_X: 2
+  - name: STR_DIODES_X_FROM_DIODES_SMALL
+    listOrder: 9386
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_DIODES_SMALL: 1
+    producedItems:
+      STR_DIODES_X: 2
+  - name: STR_DIODES_X_FROM_DIODES_MEDIUM
+    listOrder: 9387
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_DIODES_MEDIUM: 1
+    producedItems:
+      STR_DIODES_X: 5
+  - name: STR_DIODES_X_FROM_DIODES_LARGE
+    listOrder: 9388
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_DIODES_LARGE: 1
+    producedItems:
+      STR_DIODES_X: 10
+  - name: STR_DIODES_X_FROM_DIODES_VERY_LARGE
+    listOrder: 9389
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_DIODES_VERY_LARGE: 1
+    producedItems:
+      STR_DIODES_X: 20
+  - name: STR_DIODES_X_FROM_DIODES_HIGH_ENERGY
+    listOrder: 9390
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_DIODES_HIGH_ENERGY: 1
+    producedItems:
+      STR_DIODES_X: 5
+  - name: STR_TRANSFORMERS_X_FROM_TRANSFORMERS
+    listOrder: 9380
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_TRANSFORMERS: 1
+    producedItems:
+      STR_TRANSFORMERS_X: 4
+  - name: STR_INDUCTORS_X_FROM_INDUCTORS_SMALL
+    listOrder: 9381
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
+      STR_INDUCTORS_SMALL: 1
+    producedItems:
+      STR_INDUCTORS_X: 1
+  - name: STR_INDUCTORS_X_FROM_INDUCTORS_LARGE
+    listOrder: 9382
+    category: STR_OLD_COMPONENTS
+    requires:
+      - STR_FLAGSHIPS_TO_X
+    space: 0
+    time: 1
+    cost: 0
+    requiredItems:
       STR_INDUCTORS_LARGE: 1
+    producedItems:
+      STR_INDUCTORS_X: 4
   - name: STR_CAPACITORS_FROM_TRANSISTORS_SMALL
     listOrder: 9090
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4039,7 +4383,7 @@ manufacture:
     listOrder: 9091
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4051,7 +4395,7 @@ manufacture:
     listOrder: 9092
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4063,7 +4407,7 @@ manufacture:
     listOrder: 9093
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4075,7 +4419,7 @@ manufacture:
     listOrder: 9094
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4087,7 +4431,7 @@ manufacture:
     listOrder: 9095
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4099,7 +4443,7 @@ manufacture:
     listOrder: 9096
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4111,7 +4455,7 @@ manufacture:
     listOrder: 9100
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4123,7 +4467,7 @@ manufacture:
     listOrder: 9101
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4135,7 +4479,7 @@ manufacture:
     listOrder: 9102
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4147,7 +4491,7 @@ manufacture:
     listOrder: 9103
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4159,7 +4503,7 @@ manufacture:
     listOrder: 9110
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4171,7 +4515,7 @@ manufacture:
     listOrder: 9111
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4183,7 +4527,7 @@ manufacture:
     listOrder: 9112
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4195,7 +4539,7 @@ manufacture:
     listOrder: 9113
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4207,7 +4551,7 @@ manufacture:
     listOrder: 9120
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4219,7 +4563,7 @@ manufacture:
     listOrder: 9121
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4231,7 +4575,7 @@ manufacture:
     listOrder: 9122
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4243,7 +4587,7 @@ manufacture:
     listOrder: 9123
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4255,7 +4599,7 @@ manufacture:
     listOrder: 9130
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4267,7 +4611,7 @@ manufacture:
     listOrder: 9131
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4279,7 +4623,7 @@ manufacture:
     listOrder: 9132
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4291,7 +4635,7 @@ manufacture:
     listOrder: 9133
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4303,7 +4647,7 @@ manufacture:
     listOrder: 9140
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4315,7 +4659,7 @@ manufacture:
     listOrder: 9141
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4327,7 +4671,7 @@ manufacture:
     listOrder: 9142
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4339,7 +4683,7 @@ manufacture:
     listOrder: 9143
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4351,7 +4695,7 @@ manufacture:
     listOrder: 9144
     category: STR_TRANSISTORS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4363,7 +4707,7 @@ manufacture:
     listOrder: 9200
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4375,7 +4719,7 @@ manufacture:
     listOrder: 9201
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4387,7 +4731,7 @@ manufacture:
     listOrder: 9202
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4399,7 +4743,7 @@ manufacture:
     listOrder: 9203
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4411,7 +4755,7 @@ manufacture:
     listOrder: 9210
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4423,7 +4767,7 @@ manufacture:
     listOrder: 9211
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4435,7 +4779,7 @@ manufacture:
     listOrder: 9212
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4447,7 +4791,7 @@ manufacture:
     listOrder: 9213
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4459,7 +4803,7 @@ manufacture:
     listOrder: 9220
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4471,7 +4815,7 @@ manufacture:
     listOrder: 9221
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4483,7 +4827,7 @@ manufacture:
     listOrder: 9222
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4495,7 +4839,7 @@ manufacture:
     listOrder: 9223
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4507,7 +4851,7 @@ manufacture:
     listOrder: 9230
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4519,7 +4863,7 @@ manufacture:
     listOrder: 9231
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4531,7 +4875,7 @@ manufacture:
     listOrder: 9232
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4543,7 +4887,7 @@ manufacture:
     listOrder: 9233
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4555,7 +4899,7 @@ manufacture:
     listOrder: 9240
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4567,7 +4911,7 @@ manufacture:
     listOrder: 9241
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4579,7 +4923,7 @@ manufacture:
     listOrder: 9242
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4591,7 +4935,7 @@ manufacture:
     listOrder: 9243
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4603,7 +4947,7 @@ manufacture:
     listOrder: 9244
     category: STR_DIODES
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4615,7 +4959,7 @@ manufacture:
     listOrder: 9300
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4627,7 +4971,7 @@ manufacture:
     listOrder: 9301
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4639,7 +4983,7 @@ manufacture:
     listOrder: 9302
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4651,7 +4995,7 @@ manufacture:
     listOrder: 9310
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4663,7 +5007,7 @@ manufacture:
     listOrder: 9311
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4675,7 +5019,7 @@ manufacture:
     listOrder: 9312
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4687,7 +5031,7 @@ manufacture:
     listOrder: 9313
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4699,7 +5043,7 @@ manufacture:
     listOrder: 9314
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4711,7 +5055,7 @@ manufacture:
     listOrder: 9320
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4723,7 +5067,7 @@ manufacture:
     listOrder: 9321
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4735,7 +5079,7 @@ manufacture:
     listOrder: 9322
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4747,7 +5091,7 @@ manufacture:
     listOrder: 9323
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000
@@ -4759,7 +5103,7 @@ manufacture:
     listOrder: 9324
     category: STR_OTHER_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_ALIENS_ONLY
     space: 0
     time: 100
     cost: 10000

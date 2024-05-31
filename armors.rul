@@ -747,7 +747,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -794,7 +794,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -841,7 +841,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -887,7 +887,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -945,7 +945,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1011,7 +1011,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1079,7 +1079,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1145,7 +1145,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1223,7 +1223,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.16
@@ -1294,7 +1294,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1362,7 +1362,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1427,7 +1427,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.09
@@ -1495,7 +1495,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.17
@@ -1567,7 +1567,7 @@ armors:
       energy:
         flatHundred: 0.37
       stun:
-        stunCurrent: 0.15
+        stunCurrent: 0.10
         flatHundred: 0.03
       mana:
         flatHundred: 0.11
@@ -1645,7 +1645,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.02
       mana:
         flatHundred: 0.15
@@ -1723,7 +1723,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1772,7 +1772,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1837,7 +1837,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1900,7 +1900,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -1975,7 +1975,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.16
@@ -2046,7 +2046,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -2114,7 +2114,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -2179,7 +2179,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.09
@@ -2247,7 +2247,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.17
@@ -2320,7 +2320,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.15
+        stunCurrent: 0.10
         flatHundred: 0.03
       mana:
         flatHundred: 0.11
@@ -2398,7 +2398,7 @@ armors:
         tu: 0.15
         health: 0.25
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.02
       mana:
         flatHundred: 0.15
@@ -2445,7 +2445,7 @@ armors:
     drawingRoutine: 4
     damageModifier:
       - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
+      - 0.9 # 1 ARMOR PIERCING
       - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
@@ -2454,18 +2454,25 @@ armors:
       - 1.2 # 7 MELEE
       - 1.6 # 8 ACID
       - 1.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.1 # 10 RAPID LASER
+      - 0.8 # 11 ARMOR PENETRATOR
       - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
       - 1.0 # 16
       - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 1.1 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
-    loftempsSet: [ 3 ]
+    recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
+      stun:
+        stunCurrent: 0.05
+        flatHundred: 0.01
+    loftempsSet: [ 4 ]
   - type: CIVF_ARMOR
     spriteSheet: CIVF.PCK
     corpseBattle:
@@ -2477,7 +2484,7 @@ armors:
     drawingRoutine: 4
     damageModifier:
       - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
+      - 0.9 # 1 ARMOR PIERCING
       - 1.0 # 2 FIRE
       - 1.0 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
@@ -2486,18 +2493,25 @@ armors:
       - 1.2 # 7 MELEE
       - 1.6 # 8 ACID
       - 1.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
+      - 1.1 # 10 RAPID LASER
+      - 0.8 # 11 ARMOR PENETRATOR
       - 1.0 # 12 INCENDIARY
       - 1.0 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
       - 1.0 # 16
       - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 1.1 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
-    loftempsSet: [ 3 ]
+    recovery:
+      energy:
+        tu: 0.15
+        health: 0.25
+      stun:
+        stunCurrent: 0.05
+        flatHundred: 0.01
+    loftempsSet: [ 4 ]
   - &STR_SECTOID_ARMOR0
     type: SECTOID_ARMOR0
     spriteSheet: SECTOID.PCK
@@ -2532,7 +2546,7 @@ armors:
     overKill: 3.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.03
         flatHundred: 0.01
     visibilityAtDark: 22
     loftempsSet: [ 4 ]
@@ -2570,7 +2584,7 @@ armors:
     overKill: 3.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.03
         flatHundred: 0.01
     visibilityAtDark: 22
     loftempsSet: [ 4 ]
@@ -2608,7 +2622,7 @@ armors:
     overKill: 3.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.03
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -2677,7 +2691,7 @@ armors:
     overKill: 2.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.25
@@ -2722,7 +2736,7 @@ armors:
     overKill: 1.1
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     visibilityAtDark: 15
     loftempsSet: [ 4 ]
@@ -2761,7 +2775,7 @@ armors:
     overKill: 1.1
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     visibilityAtDark: 15
     loftempsSet: [ 4 ]
@@ -2800,7 +2814,7 @@ armors:
     overKill: 1.1
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     visibilityAtDark: 15
     loftempsSet: [ 4 ]
@@ -2834,8 +2848,8 @@ armors:
     overKill: 1.4
     recovery:
       stun:
-        stunCurrent: 0.10
-        flatHundred: 0.01
+        stunCurrent: 0.07
+        flatHundred: 0.02
     meleeDodge:
       flatHundred: -0.35
     fearImmune: false
@@ -2876,7 +2890,7 @@ armors:
     overKill: 1.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.04
         flatHundred: 0.01
     visibilityAtDark: 17
     loftempsSet: [ 5 ]
@@ -2914,7 +2928,7 @@ armors:
     overKill: 1.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.04
         flatHundred: 0.01
     visibilityAtDark: 17
     loftempsSet: [ 5 ]
@@ -2952,7 +2966,7 @@ armors:
     overKill: 1.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.04
         flatHundred: 0.01
     visibilityAtDark: 17
     loftempsSet: [ 5 ]
@@ -2986,7 +3000,7 @@ armors:
     overKill: 1.9
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     visibilityAtDark: 20
     camouflageAtDark: -3
@@ -3066,7 +3080,7 @@ armors:
     overKill: 0.9
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     visibilityAtDark: 21
     loftempsSet: [ 4 ]
@@ -3103,7 +3117,7 @@ armors:
     overKill: 0.9
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     visibilityAtDark: 21
     loftempsSet: [ 4 ]
@@ -3140,7 +3154,7 @@ armors:
     overKill: 0.9
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     visibilityAtDark: 21
     loftempsSet: [ 4 ]
@@ -3174,7 +3188,7 @@ armors:
     overKill: 1.6
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     fearImmune: true
     visibilityAtDay: 16
@@ -3213,7 +3227,7 @@ armors:
     overKill: 1.0
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     fearImmune: true
     visibilityAtDay: 20
@@ -3253,7 +3267,7 @@ armors:
     overKill: 4.8
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -3292,7 +3306,7 @@ armors:
     overKill: 4.8
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -3331,7 +3345,7 @@ armors:
     overKill: 4.8
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -3368,7 +3382,7 @@ armors:
     overKill: 1.9
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.4
@@ -3417,7 +3431,7 @@ armors:
     overKill: 255
     recovery:
       stun:
-        stunCurrent: 0.05
+        stunCurrent: 0.03
         flatHundred: 0.01
     visibilityAtDark: 27
     loftempsSet: [ 92, 89, 90, 91 ]
@@ -3465,7 +3479,7 @@ armors:
     overKill: 0.6
     recovery:
       stun:
-        stunCurrent: 0.15
+        stunCurrent: 0.10
         flatHundred: 0.03
     visibilityAtDark: 27
     loftempsSet: [ 4 ]
@@ -3504,7 +3518,7 @@ armors:
     overKill: 4.8
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -3544,7 +3558,7 @@ armors:
     overKill: 2.2
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.03
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -3586,7 +3600,7 @@ armors:
     overKill: 0.7
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
       mana:
         flatHundred: 0.7
@@ -3627,7 +3641,7 @@ armors:
     overKill: 3.2
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
@@ -3676,7 +3690,7 @@ armors:
     overKill: 1.5
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.25
@@ -3727,7 +3741,7 @@ armors:
     overKill: 0.9
     recovery:
       stun:
-        stunCurrent: 0.15
+        stunCurrent: 0.10
         flatHundred: 0.03
     meleeDodge:
       flatHundred: -0.35
@@ -3771,7 +3785,7 @@ armors:
     overKill: 1.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     visibilityAtDark: 21
     camouflageAtDark: -4
@@ -3812,7 +3826,7 @@ armors:
     overKill: 1.1
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     fearImmune: true
     visibilityAtDay: 16
@@ -3826,10 +3840,10 @@ armors:
     allowInv: false
     corpseBattle:
       - STR_CELATID_C_CORPSE
-    frontArmor: 12
-    sideArmor: 12
-    rearArmor: 12
-    underArmor: 12
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
     drawingRoutine: 9
     constantAnimation: true
     movementType: 1
@@ -3857,7 +3871,7 @@ armors:
     overKill: 0.7
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.05
         flatHundred: 0.01
     fearImmune: true
     visibilityAtDay: 24
@@ -3905,7 +3919,7 @@ armors:
     overKill: 1.3
     recovery:
       stun:
-        stunCurrent: 0.10
+        stunCurrent: 0.02
         flatHundred: 0.01
     meleeDodge:
       flatHundred: -0.4

@@ -56,9 +56,9 @@ alienDeployments:
   - type: STR_COVERT_OPS_SHIP
     data:
       - alienRank: 4
-        lowQty: 1
-        highQty: 1
-        dQty: 1
+        lowQty: 0
+        highQty: 2
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -99,8 +99,8 @@ alienDeployments:
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 0
-        highQty: 2
-        dQty: 0
+        highQty: 0
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets:
           -
@@ -5130,15 +5130,15 @@ alienDeployments:
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 4
         lowQty: 7
         highQty: 11
@@ -5148,15 +5148,15 @@ alienDeployments:
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 5
         lowQty: 8
         highQty: 10
@@ -5166,18 +5166,18 @@ alienDeployments:
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
           -
             - STR_HEAVY_PLASMA_RED
             - STR_HEAVY_PLASMA_RED_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE_RED
+            - STR_ALIEN_GRENADE_RED
       - alienRank: 6
         lowQty: 2
         highQty: 4

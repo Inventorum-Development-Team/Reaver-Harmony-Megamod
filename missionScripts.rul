@@ -372,6 +372,12 @@ missionScripts:
         STR_ETHEREAL_BASE: 100
     useTable: false
     randomDelay: 102240 #Feb/Mar< Apr, May 2000 +10 days
+  - type: invasionPreliminary
+    firstMonth: 10
+    lastMonth: 15
+    missionWeights:
+      0:
+        STR_ALIEN_INVASION: 100
   - type: invasionElitePhaseOne
     firstMonth: 16 #27
     lastMonth: 60

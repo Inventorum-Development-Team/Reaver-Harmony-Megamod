@@ -679,7 +679,7 @@ crafts:
     maxItems: 1200
     vehicles: 2
     craftInventoryTile: [6, 6, 1]
-    costSell: 56300000
+    costSell: 56000000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 90
     repairRate: 6
@@ -744,7 +744,7 @@ crafts:
     avoidBonus: 11
     armor: 28
     powerBonus: 20
-    speedMax: 4200
+    speedMax: 4100
     accel: 7
     weapons: 4
     weaponTypes:
@@ -761,7 +761,7 @@ crafts:
     maxItems: 1920
     vehicles: 8
     craftInventoryTile: [10, 9, 0]
-    costSell: 94400000
+    costSell: 81800000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 30
     repairRate: 7
@@ -844,7 +844,7 @@ crafts:
     soldiers: 26
     maxItems: 1560
     vehicles: 6
-    costSell: 43300000
+    costSell: 74200000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 60
     repairRate: 8
@@ -922,7 +922,7 @@ crafts:
     soldiers: 28
     maxItems: 1400
     vehicles: 5
-    costSell: 66300000
+    costSell: 85400000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 45
     repairRate: 7
@@ -1640,7 +1640,7 @@ crafts:
     maxItems: 1200
     vehicles: 2
     craftInventoryTile: [6, 6, 1]
-    costSell: 56300000
+    costSell: 56000000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 90
     repairRate: 6
@@ -1704,7 +1704,7 @@ crafts:
     shieldBleedThrough: 100
     avoidBonus: 8
     armor: 24
-    speedMax: 3900
+    speedMax: 3800
     accel: 7
     weapons: 4
     weaponTypes:
@@ -1721,7 +1721,7 @@ crafts:
     maxItems: 1920
     vehicles: 8
     craftInventoryTile: [10, 9, 0]
-    costSell: 94400000
+    costSell: 81800000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 30
     repairRate: 7
@@ -1803,7 +1803,7 @@ crafts:
     soldiers: 26
     maxItems: 1560
     vehicles: 6
-    costSell: 43300000
+    costSell: 74200000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 60
     repairRate: 8
@@ -1880,7 +1880,7 @@ crafts:
     soldiers: 28
     maxItems: 1400
     vehicles: 5
-    costSell: 66300000
+    costSell: 85400000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 45
     repairRate: 7
@@ -2611,7 +2611,7 @@ crafts:
     maxItems: 1200
     vehicles: 2
     craftInventoryTile: [6, 6, 1]
-    costSell: 56300000
+    costSell: 56000000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 90
     repairRate: 6
@@ -2676,7 +2676,7 @@ crafts:
     avoidBonus: 5
     armor: 20
     powerBonus: -20
-    speedMax: 3600
+    speedMax: 3500
     accel: 7
     weapons: 4
     weaponTypes:
@@ -2693,7 +2693,7 @@ crafts:
     maxItems: 1920
     vehicles: 8
     craftInventoryTile: [10, 9, 0]
-    costSell: 94400000
+    costSell: 81800000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 30
     repairRate: 7
@@ -2776,7 +2776,7 @@ crafts:
     soldiers: 26
     maxItems: 1560
     vehicles: 6
-    costSell: 43300000
+    costSell: 74200000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 60
     repairRate: 8
@@ -2854,7 +2854,7 @@ crafts:
     soldiers: 28
     maxItems: 1400
     vehicles: 5
-    costSell: 66300000
+    costSell: 85400000
     refuelItem: STR_SPACECRAFT_FUEL
     refuelRate: 45
     repairRate: 7

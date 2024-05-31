@@ -1215,8 +1215,8 @@ units:
             - SNAKEMAN_B_WEAPON_PLASMA_TURRET
   - type: STR_CHRYSSALID_TERRORIST
     stats:
-      tu: 79
-      stamina: 84
+      tu: 88
+      stamina: 92
       health: 30
       bravery: 90
       reactions: 32
@@ -1311,8 +1311,8 @@ units:
     aggression: 3
   - type: STR_SILACOID_TERRORIST
     stats:
-      tu: 46
-      stamina: 48
+      tu: 57
+      stamina: 57
       health: 46
       bravery: 110
       reactions: 25
@@ -1337,7 +1337,7 @@ units:
       bravery: 110
       reactions: 35
       firing: 82
-      throwing: 45
+      throwing: 60
       strength: 70
       psiStrength: 80
       psiSkill: 0
@@ -1792,8 +1792,8 @@ units:
     race: STR_CHRYSSALID_C
     rank: STR_LIVE_TERRORIST
     stats:
-      tu: 79
-      stamina: 84
+      tu: 88
+      stamina: 92
       health: 30
       bravery: 90
       reactions: 36
@@ -1818,8 +1818,8 @@ units:
     race: STR_SILACOID_C
     rank: STR_LIVE_TERRORIST
     stats:
-      tu: 54
-      stamina: 50
+      tu: 66
+      stamina: 60
       health: 68
       bravery: 110
       reactions: 28
@@ -1845,13 +1845,13 @@ units:
     race: STR_CELATID_C
     rank: STR_LIVE_TERRORIST
     stats:
-      tu: 30
+      tu: 45
       stamina: 45
       health: 90
       bravery: 110
       reactions: 21
       firing: 102
-      throwing: 56
+      throwing: 75
       strength: 70
       psiStrength: 88
       psiSkill: 0

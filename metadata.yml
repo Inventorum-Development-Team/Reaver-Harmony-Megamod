@@ -336,6 +336,32 @@
 #       * Titan Laser and Rampage Missile UFOPedia reports updated.
 #       * Added several UFOPedia reports for UFO and salvage components.
 #       * Some UFOPedia text tweaks.
+#   1.1.1.1:  Flagship cost tweaks.
+#       * Some small adjustments to Flagship manufacturing costs.
+#       * Flagship sell value updated (leftover change from 1.0.8)
+#       * Fixed bug in which Titan Laser and Rampage Missiles did not properly unlock.
+#   1.1.2:  Simplified Flagship Production, Several Bug Fixes
+#       * Scourge Acid Blaster no longer requires Plasma Weapons.
+#       * AE Grenade and Scorpion Missiles now show up in UFOPedia when researched.
+#       * Added text strings for elite base and outpost briefing.
+#       * Added text string for manufacturing Alien Laser.
+#       * Medical stimulants now recovery psi energy rather than mana.
+#       * All Catastrophe and Cataclysm ammunition now correctly requires the Calamity Launcher
+#       * Buffed the shield values on craft equipment, and added T2 shields.
+#       * Small fix to Tempest UFOPedia report.
+#       * Small buff to Power Baton.
+#       * Moderate buff to Celatids.
+#       * Tiny buff to Chryssalids and Silacoids.
+#       * Stun does not wear off as fast anymore. It still wears off faster than in vanilla.
+#       * Buffed Power Suit Pistol, Shotgun, and Heavy.
+#       * Cost to make Power Suit weapon ammo rebalanced and made more accessible.
+#       * Statstrings are now disabled by default. To enable them, open statstrings.rul, highlight the entire
+#           document, and then block-uncomment. In Notepad++, the option is in Edit > Comment/Uncomment.
+#       * Leader and Commander research progress is now valid if done before Martian Solution/Cydonia or Bust.
+#       * Nerfed stimulants and painkillers.
+#       * Removed armor from elite Celatid.
+#       * Aliens at Cydonia now correctly carry advanced grenades.
+#       * Reduced explosion speed of Autocannon.
 #
 # resource authors/sources:
 # Chiko: alien and terran plasma variants
@@ -469,7 +495,7 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.1
+version: 1.1.2
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

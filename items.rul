@@ -491,7 +491,7 @@ items:
   - type: STR_ALLOY_PLATING_SHIELDS_UG
     listOrder: 830
     size: 0.2
-    costSell: 324000
+    costSell: 308000
     categories: [STR_CAT_CRAFT_EQUIPMENT, STR_CAT_MID_TECH]
   - type: STR_MOD_TARGETING_UG
     listOrder: 830
@@ -597,7 +597,7 @@ items:
   - type: STR_BOOST_PLATING_SHIELDS_UG
     listOrder: 930
     size: 0.2
-    costSell: 756000
+    costSell: 645000
     categories: [STR_CAT_CRAFT_EQUIPMENT, STR_CAT_HIGH_TECH]
   - type: STR_MOD_TARGETING_CRITICAL_UG
     listOrder: 940
@@ -2526,8 +2526,8 @@ items:
     power: 90
     damageType: 7
     damageBonus:
-      strength: 0.1
-      melee: 0.1
+      strength: 0.2
+      melee: 0.2
     damageAlter:
       IgnoreOverKill: true
       ToArmor: 0
@@ -3508,7 +3508,7 @@ items:
     weight: 9
     handSprite: 988
     bulletSprite: 17
-    explosionSpeed: 6
+    explosionSpeed: 4
     power: 30
     damageType: 3
     damageAlter:
@@ -3597,7 +3597,7 @@ items:
     bulletSprite: 17
     hitSound: 0
     hitAnimation: 0
-    explosionSpeed: 6
+    explosionSpeed: 4
     power: 55
     damageType: 3
     damageAlter:
@@ -5010,7 +5010,7 @@ items:
   - type: STR_POWER_SUIT_PISTOL_CLIP
     listOrder: 4205
     size: 0.0035
-    costSell: 340000
+    costSell: 326000
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
     weight: 5
     bigSprite: 363
@@ -5019,13 +5019,13 @@ items:
     bulletSprite: 36
     hitSound: 19
     hitAnimation: 56
-    power: 80
+    power: 110
     damageType: 15
     damageAlter:
-      ArmorEffectiveness: 0.6
+      ArmorEffectiveness: 0.8
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.1
+      ToArmorPre: 0.12
     clipSize: 15
     battleType: 2
     invWidth: 1
@@ -5069,7 +5069,7 @@ items:
   - type: STR_POWER_SUIT_RIFLE_CLIP
     listOrder: 4225
     size: 0.004
-    costSell: 435000
+    costSell: 416000
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
     weight: 7
     bigSprite: 365
@@ -5081,7 +5081,7 @@ items:
     shotgunSpread: 60
     shotgunBehavior: 1
     shotgunChoke: 100
-    power: 33
+    power: 44
     damageType: 8
     damageAlter:
       ArmorEffectiveness: 1.5
@@ -5136,7 +5136,7 @@ items:
   - type: STR_POWER_SUIT_HEAVY_CLIP
     listOrder: 4245
     size: 0.005
-    costSell: 450000
+    costSell: 436000
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
     weight: 6
     bigSprite: 357
@@ -5145,14 +5145,14 @@ items:
     bulletSprite: 47
     hitSound: 303
     hitAnimation: 86
-    power: 165
+    power: 180
     damageType: 14
     damageAlter:
-      ArmorEffectiveness: 0.48
+      ArmorEffectiveness: 0.4
       IgnoreOverKill: false
       ToArmor: 0
-      ToArmorPre: 0.048
-      ToTile: 0.67
+      ToArmorPre: 0.04
+      ToTile: 0.72
     clipSize: 4
     battleType: 2
     invWidth: 2
@@ -5226,7 +5226,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_H
     listOrder: 4265
     size: 0.0075
-    costSell: 266000
+    costSell: 277000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 11
     bigSprite: 399
@@ -5253,7 +5253,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H
     listOrder: 4266
     size: 0.0075
-    costSell: 357000
+    costSell: 292000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 8
     bigSprite: 398
@@ -5279,7 +5279,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_F_BOMB_H
     listOrder: 4267
     size: 0.0075
-    costSell: 497000
+    costSell: 430000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 11
     bigSprite: 401
@@ -5307,7 +5307,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_IN_BOMB_H
     listOrder: 4268
     size: 0.0075
-    costSell: 302000
+    costSell: 260000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 11
     bigSprite: 402
@@ -5333,7 +5333,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_ST_BOMB_H
     listOrder: 4270
     size: 0.0075
-    costSell: 392000
+    costSell: 308000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 11
     bigSprite: 400
@@ -5357,7 +5357,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_AP_BOMB_L
     listOrder: 4275
     size: 0.0075
-    costSell: 340000
+    costSell: 366000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 13
     bigSprite: 360
@@ -5383,7 +5383,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L
     listOrder: 4276
     size: 0.0075
-    costSell: 406000
+    costSell: 384000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 10
     bigSprite: 359
@@ -5408,7 +5408,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_IN_BOMB_L
     listOrder: 4278
     size: 0.0075
-    costSell: 354000
+    costSell: 355000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 13
     bigSprite: 367
@@ -5433,7 +5433,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_SM_BOMB_L
     listOrder: 4279
     size: 0.0075
-    costSell: 297000
+    costSell: 298000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 10
     bigSprite: 368
@@ -5455,7 +5455,7 @@ items:
   - type: STR_POWER_SUIT_LAUNCHER_ST_BOMB_L
     listOrder: 4280
     size: 0.0075
-    costSell: 449000
+    costSell: 450000
     categories: [STR_CAT_LAUNCHERS, STR_CAT_HIGH_TECH]
     weight: 13
     bigSprite: 361
@@ -5814,11 +5814,11 @@ items:
     stimulant: 10
     woundRecovery: 1
     healthRecovery: 3
-    stunRecovery: 15
-    energyRecovery: 15
-    manaRecovery: 6
+    stunRecovery: 10
+    energyRecovery: 10
+    manaRecovery: 4
     painKillerRecovery: 0.5
-    moraleRecovery: 10
+    moraleRecovery: 5
     tuUse: 12
     flatRate: true
     medikitTargetSelf: false
@@ -5842,11 +5842,11 @@ items:
     stimulant: 20
     woundRecovery: 1
     healthRecovery: 6
-    stunRecovery: 25
-    energyRecovery: 25
-    manaRecovery: 9
+    stunRecovery: 15
+    energyRecovery: 15
+    manaRecovery: 6
     painKillerRecovery: 0.75
-    moraleRecovery: 15
+    moraleRecovery: 10
     tuUse: 12
     flatRate: false
     medikitTargetSelf: true
@@ -8212,12 +8212,12 @@ items:
       ToArmor: 0
       ToArmorPre: 0.5
     accuracySnap: 75
-    accuracyAimed: 110
+    accuracyAimed: 125
     accuracyMultiplier:
       firing: 0.5
       throwing: 0.5
-    tuSnap: 30
-    tuAimed: 60
+    tuSnap: 22
+    tuAimed: 48
     snapRange: 12
     aimRange: 25
     dropoff: 2
@@ -8423,15 +8423,15 @@ items:
       ToArmor: 0
       ToArmorPre: 1.0
     accuracySnap: 75
-    accuracyAimed: 110
+    accuracyAimed: 125
     accuracyMultiplier:
       firing: 0.5
       throwing: 0.5
-    tuSnap: 40
-    tuAimed: 80
+    tuSnap: 22
+    tuAimed: 48
     snapRange: 12
     aimRange: 25
-    dropoff: 3
+    dropoff: 2
     bulletSpeed: 2
     battleType: 1
     fixedWeapon: true
@@ -8972,6 +8972,31 @@ items:
     categories: [STR_CAT_DATA_MODULE]
     specialType: 66
     recoveryPoints: 200
+  - type: STR_CAPACITORS_X
+    listOrder: 99500
+    size: 0
+    costSell: 0 #50000
+    categories: [STR_CAT_FLAGSHIP_COMPONENT]
+  - type: STR_TRANSISTORS_X
+    listOrder: 99510
+    size: 0
+    costSell: 0 #125000
+    categories: [STR_CAT_FLAGSHIP_COMPONENT]
+  - type: STR_DIODES_X
+    listOrder: 99520
+    size: 0
+    costSell: 0 #75000
+    categories: [STR_CAT_FLAGSHIP_COMPONENT]
+  - type: STR_TRANSFORMERS_X
+    listOrder: 99530
+    size: 0
+    costSell: 0 #150000
+    categories: [STR_CAT_FLAGSHIP_COMPONENT]
+  - type: STR_INDUCTORS_X
+    listOrder: 99540
+    size: 0
+    costSell: 0 #300000
+    categories: [STR_CAT_FLAGSHIP_COMPONENT]
   - type: STR_CAPACITORS
     listOrder: 99600
     size: 0
@@ -9010,22 +9035,22 @@ items:
   - type: STR_DIODES_MEDIUM
     listOrder: 99621
     size: 0
-    costSell: 0 #250000
+    costSell: 0 #400000
     categories: [STR_CAT_FLAGSHIP_COMPONENT]
   - type: STR_DIODES_LARGE
     listOrder: 99622
     size: 0
-    costSell: 0 #400000
+    costSell: 0 #800000
     categories: [STR_CAT_FLAGSHIP_COMPONENT]
   - type: STR_DIODES_VERY_LARGE
     listOrder: 99623
     size: 0
-    costSell: 0 #650000
+    costSell: 0 #1600000
     categories: [STR_CAT_FLAGSHIP_COMPONENT]
   - type: STR_DIODES_HIGH_ENERGY
     listOrder: 99625
     size: 0
-    costSell: 0 #200000
+    costSell: 0 #400000
     categories: [STR_CAT_FLAGSHIP_COMPONENT]
   - type: STR_TRANSFORMERS
     listOrder: 99630

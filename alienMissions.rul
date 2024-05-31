@@ -707,6 +707,28 @@ alienMissions:
         count: 1
         trajectory: P66
         timer: 480
+  - type: STR_ALIEN_INVASION
+    points: 60
+    retaliationOdds: 25
+    raceWeights:
+      0:
+        STR_MIXED_INVASION_PSIONIC: 25
+        STR_MIXED_INVASION_DESTROY: 75
+    waves:
+      - ufo: STR_SMALL_SCOUT_ELITE
+        interruptPercentage: 75
+        count: 1
+        trajectory: P66
+        timer: 3000
+      - ufo: STR_COVERT_OPS_SHIP_ELITE
+        interruptPercentage: 75
+        count: 1
+        trajectory: P0
+        timer: 4500
+      - ufo: STR_PATROLLER_ELITE
+        count: 1
+        trajectory: P79
+        timer: 4500
   - type: STR_ALIEN_BASE
     points: 30 #11 landings, 11 UFOs
     retaliationOdds: 10

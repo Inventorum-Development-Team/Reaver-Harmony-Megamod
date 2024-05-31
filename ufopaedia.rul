@@ -241,7 +241,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_EASY
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: UP005.SPK
     rect_stats:
       x: 160
@@ -260,7 +260,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_EASY
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: UP003.SPK
     rect_stats:
       x: 160
@@ -279,7 +279,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_EASY
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: SENTINEL_BIG
     rect_stats:
       x: 5
@@ -298,7 +298,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_EASY
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: DRAGONFLY_BIG
     rect_stats:
       x: 5
@@ -535,10 +535,10 @@ ufopaedia:
       width: 160
       height: 80
     rect_text:
-      x: 165
+      x: 160
       y: 5
-      width: 150
-      height: 65
+      width: 160
+      height: 80
     text: STR_TEMPEST_UFOPEDIA_MED
   - id: STR_AMARANTH
     listOrder: 400
@@ -546,7 +546,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_MEDIUM
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: UP005.SPK
     rect_stats:
       x: 160
@@ -565,7 +565,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_MEDIUM
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: UP003.SPK
     rect_stats:
       x: 160
@@ -584,7 +584,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_MEDIUM
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: SENTINEL_BIG
     rect_stats:
       x: 5
@@ -603,7 +603,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_MEDIUM
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: DRAGONFLY_BIG
     rect_stats:
       x: 5
@@ -851,7 +851,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_HARD
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: UP005.SPK
     rect_stats:
       x: 160
@@ -870,7 +870,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_HARD
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: UP003.SPK
     rect_stats:
       x: 160
@@ -889,7 +889,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_HARD
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: SENTINEL_BIG
     rect_stats:
       x: 5
@@ -908,7 +908,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_CRAFT_HARD
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_NEW_B
     image_id: DRAGONFLY_BIG
     rect_stats:
       x: 5
@@ -962,7 +962,6 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ALIEN_EXPLOSIVES
-      - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
     image_id: Barracuda_UFOPEDIAImage
     text: STR_SCORPION_UFOPEDIA
@@ -1156,8 +1155,18 @@ ufopaedia:
       - STR_ADVANCED_AIR_EQUIPMENT
     image_id: ALLOY_CRAFT_AIRFRAME
     text: STR_ALLOY_PLATING_UFOPEDIA
-  - id: STR_MOD_TARGETING
+  - id: STR_ALLOY_PLATING_SHIELDS
     listOrder: 915
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_ALIEN_POWER_ARRAYS
+      - STR_UFO_SHIELD_EMITTER
+    image_id: ALLOY_CRAFT_ARMOR
+    text: STR_ALLOY_PLATING_SHIELDS_UFOPEDIA
+  - id: STR_MOD_TARGETING
+    listOrder: 920
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -2377,7 +2386,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_ALIEN_GRENADE_ARSENAL
+      - STR_ALIEN_GRENADE
     text: STR_AE_GRENADE_UFOPEDIA
   - id: STR_STUN_GRENADE
     listOrder: 4060
@@ -2499,7 +2508,6 @@ ufopaedia:
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_PLASMA_RIFLE_RED_DESTROYED
-      - STR_PLASMA_WEAPONS
       - STR_CELATID_AUTOPSY
     pages:
       - title: STR_POWER_SUIT_RIFLE
@@ -2563,9 +2571,9 @@ ufopaedia:
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALIEN_LAUNCHER
       - STR_ALIEN_GRENADE_RED_DESTROYED
-      - STR_ALIEN_EXPLOSIVES
+      - STR_HEAVY_ALIEN_EXPLOSIVES
     text: STR_POWER_SUIT_LAUNCHER_EX_BOMB_H_UFOPEDIA
   - id: STR_POWER_SUIT_LAUNCHER_F_BOMB_H
     listOrder: 5056
@@ -2611,7 +2619,7 @@ ufopaedia:
     requires:
       - STR_POWER_SUIT_WEAPONS
       - STR_FUSION_LAUNCHER_RED_DESTROYED
-      - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALIEN_LAUNCHER
       - STR_ALIEN_GRENADE_RED_DESTROYED
       - STR_ALIEN_EXPLOSIVES
     text: STR_POWER_SUIT_LAUNCHER_EX_BOMB_L_UFOPEDIA
@@ -4303,7 +4311,7 @@ ufopaedia:
     type_id: 8
     section: STR_UFO_COMPONENTS
     requires:
-      - STR_FLAGSHIPS
+      - STR_FLAGSHIPS_II_UP
     pages:
       - title: STR_FLAGSHIPS_II_UP
         text: STR_FLAGSHIPS_II_UFOPEDIA_1

@@ -486,6 +486,15 @@ craftWeapons:
     launcher: STR_ALLOY_PLATING_EVASION_UG
     weaponType: 1
     hidePediaInfo: true
+  - type: STR_ALLOY_PLATING_SHIELDS
+    sprite: 42
+    stats:
+      shieldCapacity: 50
+      shieldRechargeInGeoscape: 2
+      shieldBleedThrough: 100
+    launcher: STR_ALLOY_PLATING_SHIELDS_UG
+    weaponType: 1
+    hidePediaInfo: true
   - type: STR_MOD_TARGETING
     sprite: 36
     stats:
@@ -552,7 +561,7 @@ craftWeapons:
     stats:
       fuelMax: 20
       speedMax: 200
-      shieldCapacity: 40
+      shieldCapacity: 50
       shieldRechargeInGeoscape: 2
       shieldBleedThrough: 100
       hitBonus: 20
@@ -605,7 +614,7 @@ craftWeapons:
   - type: STR_BOOST_PLATING_SHIELDS
     sprite: 42
     stats:
-      shieldCapacity: 60
+      shieldCapacity: 75
       shieldRechargeInGeoscape: 2
       shieldBleedThrough: 100
     launcher: STR_BOOST_PLATING_SHIELDS_UG
@@ -680,7 +689,7 @@ craftWeapons:
       fuelMax: 40
       speedMax: 300
       accel: 1
-      shieldCapacity: 60
+      shieldCapacity: 75
       shieldRechargeInGeoscape: 2
       shieldBleedThrough: 100
       hitBonus: 10
@@ -723,7 +732,7 @@ craftWeapons:
     stats:
       speedMax: 1200
       accel: 2
-      shieldCapacity: 120
+      shieldCapacity: 150
       shieldRechargeInGeoscape: 4
       shieldBleedThrough: 100
       hitBonus: 30
@@ -734,7 +743,7 @@ craftWeapons:
     sprite: 46
     stats:
       fuelMax: 360
-      shieldCapacity: 60
+      shieldCapacity: 75
       shieldRechargeInGeoscape: 3
       shieldBleedThrough: 100
       radarRange: 450
