@@ -362,6 +362,7 @@
 #       * Removed armor from elite Celatid.
 #       * Aliens at Cydonia now correctly carry advanced grenades.
 #       * Reduced explosion speed of Autocannon.
+#   1.1.2.1   Updated alienRaces.rul due to an OXCE change.
 #
 # resource authors/sources:
 # Chiko: alien and terran plasma variants
@@ -495,7 +496,7 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.2
+version: 1.1.2.1
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
