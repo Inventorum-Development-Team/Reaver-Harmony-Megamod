@@ -363,6 +363,9 @@
 #       * Aliens at Cydonia now correctly carry advanced grenades.
 #       * Reduced explosion speed of Autocannon.
 #   1.1.2.1   Updated alienRaces.rul due to an OXCE change.
+#   1.1.2.2   Apparently Statstrings did not get properly disabled by default.
+#       * Statstrings are now disabled by default. To enable them, open statstrings.rul, highlight the entire
+#           document, and then block-uncomment. In Notepad++, the option is in Edit > Comment/Uncomment.
 #
 # resource authors/sources:
 # Chiko: alien and terran plasma variants
@@ -496,7 +499,7 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.2.1
+version: 1.1.2.2
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
