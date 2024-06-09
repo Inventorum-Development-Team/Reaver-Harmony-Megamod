@@ -1,7 +1,7 @@
 Reaver's X-Com Harmony - Cheat Sheet
 
 This document was designed to assist me in developing the game. The information contained herein may be
-high spoilerific or the information may be out of date.
+highly spoilerific or the information may be out of date.
 
 
 
@@ -140,6 +140,41 @@ Small Launcher
 MINIMUM POWER
 
 
+
+BALLISTIC, ARMOR PIERCING, AND ARMOR PENETRATOR
+APPROXIMATE DEPTH OF ARMOR PENETRATION
+Power	ArmEff	ArmPen	Weapon, Ammo
+15	0.9	16.667	Shotgun
+20	0.9	22.222	Shotgun, alloy
+14	0.75	18.667	Guardian Machinegun
+18	0.7	25.714	Battle Machinegun
+24	0.65	36.923	Assault Machinegun
+18	0.75	24.000	Machinegun
+21	0.75	28.000	Auto Pistol
+24	0.75	32.000	Machinegun, alloy
+28	0.75	37.333	Auto Pistol, alloy
+25	0.72	34.722	Rapid Defense AP Turret
+27	0.6	45.000	Pistol
+30	0.6	50.000	Rifle
+33	0.6	55.000	Autocannon, AP
+36	0.6	60.000	Pistol, alloy
+40	0.6	66.667	Rifle, alloy
+44	0.6	73.333	Autocannon, Alloy
+36	0.54	66.667	Guardian Main Cannon
+32	0.52	61.538	Guardian Auxiliary Cannon
+48	0.52	92.308	Guardian Auxiliary Cannon II
+40	0.42	95.238	Heavy Defense AP Turret
+45	0.36	125.00	Heavy Cannon, AP
+60	0.36	166.67	Heavy Cannon, Alloy
+40	0.44	90.909	Battle Auxiliary Cannon
+48	0.324	148.15	Battle Main Cannon
+60	0.44	136.36	Battle Auxiliary Cannon II
+48	0.36	133.33	Assault Auxiliary Cannon
+72	0.36	200.00	Assault Auxiliary Cannon II
+64	0.2	320.00	Assault Main Cannon
+100	0.2	500.00	Vigilante Main Cannon
+105	0.29	362.07	Catastrophe AP Bomb
+210	0.18	1166.7	Cataclysm AP Missile
 
 
 

@@ -366,6 +366,19 @@
 #   1.1.2.2   Apparently Statstrings did not get properly disabled by default.
 #       * Statstrings are now disabled by default. To enable them, open statstrings.rul, highlight the entire
 #           document, and then block-uncomment. In Notepad++, the option is in Edit > Comment/Uncomment.
+#   1.1.3   Greatly increased Mind Probe sell value.
+#       * Fixed bug in which AE Grenade unlocked sooner that it was supposed to.
+#       * Reduced Alien Alloys production cost slightly.
+#       * Fixed bug with Covert Ops Ship having too few passengers.
+#       * Increased manufacture cost of AE tank rockets.
+#       * Finally sealed the gaping hole in Mammoth and Mastodon. FPSLook is finally working on Windows 10!
+#       * Removed floating terrain from desert.
+#       * Removed hidden rock from inside mountain which may have been blocking alien from escaping.
+#       * The windowed door in URBAN.MCD now can be shot through.
+#       * Buffed aimed shots across the board (and some snap shots).
+#       * Renamed Ethereal Navigator to Ethereal Liaison because people didn't seem to realize it was important.
+#       * Knives can now cut terrain potentially, just not very well.
+#       * Slightly buffed Power Knife. Reduced manufacture time of Power Baton and Power Sword.
 #
 # resource authors/sources:
 # Chiko: alien and terran plasma variants
@@ -499,7 +512,7 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.2.2
+version: 1.1.3
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 

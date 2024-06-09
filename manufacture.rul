@@ -808,7 +808,7 @@ manufacture:
     cost: 630000
     requiredItems:
       STR_ALIEN_ALLOYS: 4
-  - name: STR_HWP_G_AE_ROCKETS
+  - name: STR_HWP_G_AE_ROCKETS_X2
     listOrder: 701
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -816,10 +816,13 @@ manufacture:
       - STR_ALIEN_ALLOYS
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     space: 0
-    time: 20
+    time: 160
     cost: 8000
     requiredItems:
-      STR_ALIEN_EXPLOSIVE_UNITS: 1
+      STR_ALIEN_ALLOYS: 1
+      STR_ALIEN_EXPLOSIVE_UNITS: 2
+    producedItems:
+      STR_HWP_G_AE_ROCKETS: 2
   - name: STR_HWP_B_AE_ROCKETS
     listOrder: 706
     category: STR_HEAVY_WEAPONS_PLATFORM
@@ -827,9 +830,10 @@ manufacture:
       - STR_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
     space: 0
-    time: 40
-    cost: 16000
+    time: 160
+    cost: 8000
     requiredItems:
+      STR_ALIEN_ALLOYS: 1
       STR_ALIEN_EXPLOSIVE_UNITS: 2
   - name: STR_HWP_A_AE_ROCKETS
     listOrder: 711
@@ -839,9 +843,10 @@ manufacture:
       - STR_ALIEN_ALLOYS
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     space: 0
-    time: 80
-    cost: 32000
+    time: 320
+    cost: 16000
     requiredItems:
+      STR_ALIEN_ALLOYS: 2
       STR_ALIEN_EXPLOSIVE_UNITS: 4
   - name: STR_TANK_LASER_GUARDIAN
     listOrder: 715
@@ -1067,7 +1072,7 @@ manufacture:
     requires:
       - STR_POWERED_MELEE_WEAPONS
     space: 0
-    time: 800
+    time: 700
     cost: 18000
     requiredItems:
       STR_ELERIUM_115: 2
@@ -1077,7 +1082,7 @@ manufacture:
     requires:
       - STR_POWERED_MELEE_WEAPONS
     space: 0
-    time: 1200
+    time: 1000
     cost: 45000
     requiredItems:
       STR_ELERIUM_115: 2
@@ -1862,7 +1867,7 @@ manufacture:
     listOrder: 2500
     category: STR_TROOP_EQUIPMENT
     requires:
-      - STR_ALIEN_GRENADE
+      - STR_ALIEN_GRENADE_ARSENAL
     space: 0
     time: 40
     cost: 750
@@ -2111,7 +2116,7 @@ manufacture:
       - STR_ALIEN_ALLOYS
     space: 0
     time: 50
-    cost: 9000
+    cost: 8500
     producedItems:
       STR_ALIEN_ALLOYS: 1
   - name: STR_ALIEN_EXPLOSIVES_INEFFICIENT

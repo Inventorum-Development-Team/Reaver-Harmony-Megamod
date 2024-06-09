@@ -56,8 +56,8 @@ alienDeployments:
   - type: STR_COVERT_OPS_SHIP
     data:
       - alienRank: 4
-        lowQty: 0
-        highQty: 2
+        lowQty: 1
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:

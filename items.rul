@@ -972,7 +972,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.052
       ToTile: 0.55
-    accuracySnap: 75
+    accuracySnap: 65
     tuSnap: 23
     snapRange: 8
     bulletSpeed: 3
@@ -997,7 +997,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.052
       ToTile: 0.55
-    accuracySnap: 75
+    accuracySnap: 65
     tuSnap: 23
     snapRange: 8
     bulletSpeed: 3
@@ -1022,7 +1022,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.052
       ToTile: 0.55
-    accuracySnap: 75
+    accuracySnap: 65
     tuSnap: 23
     snapRange: 8
     bulletSpeed: 3
@@ -1047,7 +1047,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.044
       ToTile: 0.64
-    accuracySnap: 75
+    accuracySnap: 60
     tuSnap: 21
     snapRange: 9
     bulletSpeed: 3
@@ -1072,7 +1072,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.044
       ToTile: 0.64
-    accuracySnap: 75
+    accuracySnap: 60
     tuSnap: 21
     snapRange: 9
     bulletSpeed: 3
@@ -1097,7 +1097,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.044
       ToTile: 0.64
-    accuracySnap: 75
+    accuracySnap: 60
     tuSnap: 21
     snapRange: 9
     bulletSpeed: 3
@@ -1122,7 +1122,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.036
       ToTile: 0.7
-    accuracySnap: 75
+    accuracySnap: 55
     tuSnap: 19
     snapRange: 10
     bulletSpeed: 3
@@ -1147,7 +1147,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.036
       ToTile: 0.7
-    accuracySnap: 75
+    accuracySnap: 55
     tuSnap: 19
     snapRange: 10
     bulletSpeed: 3
@@ -1172,7 +1172,7 @@ items:
       ToArmor: 0
       ToArmorPre: 0.036
       ToTile: 0.7
-    accuracySnap: 75
+    accuracySnap: 55
     tuSnap: 19
     snapRange: 10
     bulletSpeed: 3
@@ -1824,9 +1824,9 @@ items:
       - STR_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
       - STR_GUARDIAN_AND_ASSAULT_TANKS
-    costBuy: 14410
+    costBuy: 17600
     transferTime: 72
-    costSell: 13100
+    costSell: 16000
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
     weight: 1
     bigSprite: -1
@@ -1852,9 +1852,9 @@ items:
       - STR_OUTSOURCING_TANKS
       - STR_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
-    costBuy: 28820
+    costBuy: 35200
     transferTime: 72
-    costSell: 26200
+    costSell: 32000
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
     weight: 1
     bigSprite: -1
@@ -1882,9 +1882,9 @@ items:
       - STR_HEAVY_ALIEN_EXPLOSIVES
       - STR_ALIEN_ALLOYS
       - STR_GUARDIAN_AND_ASSAULT_TANKS
-    costBuy: 57750
+    costBuy: 70400
     transferTime: 72
-    costSell: 52500
+    costSell: 64000
     categories: [STR_CAT_HWP, STR_CAT_MID_TECH]
     weight: 1
     bigSprite: -1
@@ -2454,7 +2454,7 @@ items:
       IgnoreOverKill: true
       ToArmor: 0
       ToArmorPre: 0.02
-      ToTile: 0
+      ToTile: 0.2
     accuracyMelee: 100
     tuMelee: 8
     flatRate: true
@@ -2488,13 +2488,13 @@ items:
     hidePower: false
     damageType: 7
     damageBonus:
-      reactions: 1.0
+      reactions: 1.1
       melee: 0.3
     damageAlter:
       IgnoreOverKill: true
       ToArmor: 0
       ToArmorPre: 0.1
-      ToTile: 0
+      ToTile: 0.2
     accuracyMelee: 90
     tuMelee: 7
     flatRate: true
@@ -2513,9 +2513,9 @@ items:
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
       - STR_POWERED_MELEE_WEAPONS
-    costBuy: 102300
+    costBuy: 97350
     transferTime: 36
-    costSell: 93000
+    costSell: 88500
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_MID_TECH]
     weight: 4
     bigSprite: 319
@@ -2552,9 +2552,9 @@ items:
     requiresBuy:
       - STR_OUTSOURCING_EQUIPMENT
       - STR_POWERED_MELEE_WEAPONS
-    costBuy: 152900
+    costBuy: 143000
     transferTime: 36
-    costSell: 139000
+    costSell: 130000
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_MID_TECH]
     weight: 5
     bigSprite: 348
@@ -2678,10 +2678,10 @@ items:
     accuracyAimed: 92
     tuAuto: 11
     tuSnap: 16
-    tuAimed: 36
+    tuAimed: 32
     autoRange: 9
     snapRange: 16
-    aimRange: 25
+    aimRange: 30
     dropoff: 1
     bulletSpeed: 6
     confAuto:
@@ -2759,11 +2759,13 @@ items:
     accuracyAimed: 79
     tuAuto: 13
     tuSnap: 7
-    tuAimed: 19
+    tuAimed: 21
     autoRange: 11
     snapRange: 15
     aimRange: 22
     bulletSpeed: 18
+    confAimed:
+      shots: 2
     tuLoad: 10
     battleType: 1
     invWidth: 1
@@ -2843,7 +2845,7 @@ items:
     accuracyAimed: 115
     tuAuto: 35
     tuSnap: 24
-    tuAimed: 63
+    tuAimed: 55
     autoRange: 10
     snapRange: 18
     aimRange: 40
@@ -2929,7 +2931,7 @@ items:
     confSnap:
       shots: 2
     confAimed:
-      shots: 2
+      shots: 3
     autoShots: 5
     sprayWaypoints: 2
     tuLoad: 10
@@ -3053,14 +3055,16 @@ items:
     accuracySnap: 70
     accuracyAimed: 95
     tuAuto: 44
-    tuSnap: 19
-    tuAimed: 61
+    tuSnap: 34
+    tuAimed: 68
     autoRange: 8
     snapRange: 9
     aimRange: 14
     dropoff: 3
-    confAimed:
+    confSnap:
       shots: 2
+    confAimed:
+      shots: 3
     autoShots: 4
     sprayWaypoints: 2
     tuLoad: 2
@@ -3187,10 +3191,10 @@ items:
       TileDamageMethod: 1
     accuracyAuto: 53
     accuracySnap: 53
-    accuracyAimed: 67
+    accuracyAimed: 69
     tuAuto: 23
     tuSnap: 15
-    tuAimed: 29
+    tuAimed: 32
     autoRange: 12
     snapRange: 17
     aimRange: 30
@@ -3198,7 +3202,7 @@ items:
     confSnap:
       shots: 2
     confAimed:
-      shots: 2
+      shots: 3
     autoShots: 5
     sprayWaypoints: 2
     clipSize: -1
@@ -3279,7 +3283,7 @@ items:
       - STR_HC_AE_AMMO
     accuracyAuto: 44
     accuracySnap: 81
-    accuracyAimed: 100
+    accuracyAimed: 110
     tuAuto: 26
     tuSnap: 38
     tuAimed: 69
@@ -3453,8 +3457,8 @@ items:
       - STR_AC_ALLOY_AMMO
       - STR_AC_AE_AMMO
     accuracyAuto: 58
-    accuracySnap: 68
-    accuracyAimed: 74
+    accuracySnap: 71
+    accuracyAimed: 87
     tuAuto: 57
     tuSnap: 24
     tuAimed: 65
@@ -3816,7 +3820,7 @@ items:
     accuracySnap: 65
     accuracyAimed: 145
     tuSnap: 31
-    tuAimed: 70
+    tuAimed: 68
     snapRange: 12
     aimRange: 25
     dropoff: 1
@@ -4005,10 +4009,10 @@ items:
     accuracyAimed: 111
     tuAuto: 16
     tuSnap: 23
-    tuAimed: 44
+    tuAimed: 38
     autoRange: 9
     snapRange: 16
-    aimRange: 25
+    aimRange: 30
     dropoff: 1
     bulletSpeed: 5
     confAuto:
@@ -4058,6 +4062,8 @@ items:
     snapRange: 15
     aimRange: 22
     bulletSpeed: 15
+    confAimed:
+      shots: 2
     clipSize: -1
     battleType: 1
     invWidth: 1
@@ -4095,7 +4101,7 @@ items:
     accuracyAimed: 140
     tuAuto: 45
     tuSnap: 30
-    tuAimed: 76
+    tuAimed: 68
     autoRange: 10
     snapRange: 18
     aimRange: 40
@@ -4148,7 +4154,7 @@ items:
     confSnap:
       shots: 2
     confAimed:
-      shots: 2
+      shots: 3
     autoShots: 5
     sprayWaypoints: 2
     clipSize: -1
@@ -4187,7 +4193,7 @@ items:
       ToTile: 0.67
     accuracyAuto: 53
     accuracySnap: 99
-    accuracyAimed: 121
+    accuracyAimed: 133
     tuAuto: 32
     tuSnap: 47
     tuAimed: 86
@@ -4237,11 +4243,11 @@ items:
       ToTile: 0.4
       TileDamageMethod: 2
     accuracyAuto: 74
-    accuracySnap: 83
-    accuracyAimed: 96
-    tuAuto: 78
+    accuracySnap: 89
+    accuracyAimed: 109
+    tuAuto: 74
     tuSnap: 33
-    tuAimed: 83
+    tuAimed: 80
     autoRange: 10
     snapRange: 15
     aimRange: 24
@@ -4278,10 +4284,10 @@ items:
     accuracyAimed: 100
     tuAuto: 23
     tuSnap: 33
-    tuAimed: 61
+    tuAimed: 46
     autoRange: 1
     snapRange: 7
-    aimRange: 12
+    aimRange: 14
     dropoff: 1
     confAuto:
       shots: 1
@@ -4340,10 +4346,10 @@ items:
     accuracyAimed: 102
     tuAuto: 13
     tuSnap: 19
-    tuAimed: 40
+    tuAimed: 35
     autoRange: 9
     snapRange: 16
-    aimRange: 25
+    aimRange: 30
     dropoff: 1
     bulletSpeed: 4
     confAuto:
@@ -4397,11 +4403,13 @@ items:
     accuracyAimed: 88
     tuAuto: 15
     tuSnap: 8
-    tuAimed: 23
+    tuAimed: 24
     autoRange: 11
     snapRange: 15
     aimRange: 22
     bulletSpeed: 12
+    confAimed:
+      shots: 2
     tuLoad: 10
     battleType: 1
     invWidth: 1
@@ -4450,7 +4458,7 @@ items:
     accuracyAimed: 127
     tuAuto: 40
     tuSnap: 27
-    tuAimed: 69
+    tuAimed: 61
     autoRange: 10
     snapRange: 18
     aimRange: 40
@@ -4513,7 +4521,7 @@ items:
     confSnap:
       shots: 2
     confAimed:
-      shots: 2
+      shots: 3
     autoShots: 5
     sprayWaypoints: 2
     tuLoad: 10
@@ -4562,7 +4570,7 @@ items:
       - STR_HEAVY_PLASMA_TERRAN_CLIP
     accuracyAuto: 49
     accuracySnap: 90
-    accuracyAimed: 110
+    accuracyAimed: 121
     tuAuto: 29
     tuSnap: 42
     tuAimed: 77
@@ -4621,11 +4629,11 @@ items:
     compatibleAmmo:
       - STR_PLASMA_ASSAULT_CANNON_CLIP
     accuracyAuto: 70
-    accuracySnap: 75
-    accuracyAimed: 85
-    tuAuto: 67
+    accuracySnap: 84
+    accuracyAimed: 102
+    tuAuto: 65
     tuSnap: 28
-    tuAimed: 70
+    tuAimed: 72
     autoRange: 10
     snapRange: 15
     aimRange: 24
@@ -5111,7 +5119,7 @@ items:
       - STR_POWER_SUIT_HEAVY_CLIP
     accuracyAuto: 54
     accuracySnap: 100
-    accuracyAimed: 121
+    accuracyAimed: 135
     tuAuto: 36
     tuSnap: 53
     tuAimed: 85
@@ -5874,7 +5882,7 @@ items:
   - type: STR_MIND_PROBE_TERRAN
     listOrder: 4430
     size: 0.0125
-    costSell: 179000
+    costSell: 431500
     categories: [STR_CAT_EQUIPMENT, STR_CAT_HIGH_TECH]
     weight: 5
     bigSprite: 29
@@ -6085,10 +6093,10 @@ items:
     accuracyAimed: 102
     tuAuto: 13
     tuSnap: 19
-    tuAimed: 40
+    tuAimed: 35
     autoRange: 9
     snapRange: 16
-    aimRange: 25
+    aimRange: 30
     dropoff: 1
     bulletSpeed: 4
     confAuto:
@@ -6139,7 +6147,7 @@ items:
     accuracyAimed: 127
     tuAuto: 40
     tuSnap: 27
-    tuAimed: 69
+    tuAimed: 61
     autoRange: 10
     snapRange: 18
     aimRange: 40
@@ -6188,7 +6196,7 @@ items:
     fireSound: 316
     accuracyAuto: 49
     accuracySnap: 90
-    accuracyAimed: 110
+    accuracyAimed: 121
     tuAuto: 29
     tuSnap: 42
     tuAimed: 77
