@@ -1512,7 +1512,8 @@ manufacture:
     listOrder: 2105
     category: STR_TROOP_WEAPONS
     requires:
-      - STR_BLASTER_BOMB
+      - STR_BLASTER_LAUNCHER
+      - STR_ALIEN_ENGINEER
     space: 0
     time: 1000
     cost: 54000
@@ -1571,7 +1572,8 @@ manufacture:
     listOrder: 2155
     category: STR_TROOP_WEAPONS
     requires:
-      - STR_STUN_BOMB
+      - STR_SMALL_LAUNCHER
+      - STR_ALIEN_ENGINEER
     space: 0
     time: 800
     cost: 47500
@@ -1681,7 +1683,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 9
       STR_PLASMA_RIFLE_RED_CLIP_DESTROYED: 2
-      STR_VENOM_GLAND: 4
+      STR_VENOM_GLAND: 2
   - name: STR_POWER_SUIT_HEAVY
     listOrder: 2320
     category: STR_TROOP_WEAPONS
@@ -4201,7 +4203,7 @@ manufacture:
     time: 200
     cost: 20000
     requiredItems:
-      STR_TRANSFORMERS_X: 3
+      STR_TRANSFORMERS_X: 5
     producedItems:
       STR_INDUCTORS_X: 2
   - name: STR_CAPACITORS_X_FROM_CAPACITORS

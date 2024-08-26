@@ -2290,7 +2290,8 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_BLASTER_BOMB
+      - STR_BLASTER_LAUNCHER
+      - STR_ALIEN_ENGINEER
     text: STR_BLASTER_LAUNCHER_TERRAN_UFOPEDIA
   - id: STR_BLASTER_BOMB_TERRAN
     listOrder: 3962
@@ -2304,13 +2305,16 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
+      - STR_BLASTER_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALIEN_GRENADE
     text: STR_BLASTER_HE_BOMB_UFOPEDIA
   - id: STR_BLASTER_I_BOMB
     listOrder: 3966
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
+      - STR_BLASTER_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
     text: STR_BLASTER_I_BOMB_UFOPEDIA
   - id: STR_BLASTER_STUN_BOMB
@@ -2318,6 +2322,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
+      - STR_BLASTER_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
       - STR_STUN_BOMB
     text: STR_BLASTER_STUN_BOMB_UFOPEDIA
@@ -2326,7 +2331,8 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
-      - STR_STUN_BOMB
+      - STR_SMALL_LAUNCHER
+      - STR_ALIEN_ENGINEER
     text: STR_SMALL_LAUNCHER_TERRAN_UFOPEDIA
   - id: STR_STUN_BOMB_TERRAN
     listOrder: 3982
@@ -2340,13 +2346,16 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
+      - STR_SMALL_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
+      - STR_ALIEN_GRENADE
     text: STR_HE_BOMB_UFOPEDIA
   - id: STR_SMOKE_BOMB
     listOrder: 3986
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
+      - STR_SMALL_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
     text: STR_SMOKE_BOMB_UFOPEDIA
   - id: STR_INCENDIARY_BOMB
@@ -2354,6 +2363,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     requires:
+      - STR_SMALL_LAUNCHER
       - STR_LAUNCHER_CONVENTIONAL_BOMBS
     text: STR_INCENDIARY_BOMB_UFOPEDIA
   - id: STR_GRENADE

@@ -5233,8 +5233,8 @@ alienDeployments:
     data:
       - alienRank: 4
         lowQty: 1
-        highQty: 1
-        dQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -5245,8 +5245,8 @@ alienDeployments:
             - STR_MIND_PROBE
       - alienRank: 5
         lowQty: 0
-        highQty: 2
-        dQty: 0
+        highQty: 0
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets:
           -

@@ -2494,7 +2494,7 @@ items:
       IgnoreOverKill: true
       ToArmor: 0
       ToArmorPre: 0.1
-      ToTile: 0.2
+      ToTile: 0.3
     accuracyMelee: 90
     tuMelee: 7
     flatRate: true
@@ -3919,9 +3919,9 @@ items:
     requiresBuy:
       - STR_OUTSOURCING_GWEAPONS
       - STR_HEAVY_ALIEN_EXPLOSIVES
-    costBuy: 40480
+    costBuy: 36520
     transferTime: 36
-    costSell: 36800
+    costSell: 33200
     categories: [STR_CAT_LAUNCHERS, STR_CAT_MID_TECH]
     weight: 6
     bigSprite: 16
@@ -5923,73 +5923,6 @@ items:
     armor: 90
     manaExperience: 100
     attraction: 15
-  # - type: STR_FEAR_PROJECTOR
-    # listOrder: 4450
-    # requires:
-      # - STR_FEAR_PROJECTION
-    # size: 0.006
-    # weight: 6
-    # costSell: 332500
-    # categories: [STR_CAT_EQUIPMENT, STR_CAT_MID_TECH]
-    # bigSprite: 377
-    # floorSprite: 32
-    # handSprite: 88
-    # bulletSprite: 5
-    # fireSound: -1
-    # hitSound: 324
-    # hitAnimation: 126
-    # power: 0
-    # damageType: 10
-    # damageBonus:
-      # psi: 0.06
-      # psiStrength: 0.0
-      # psiSkill: 0.0
-    # damageAlter:
-      # ArmorEffectiveness: 0
-      # ToArmor: 0
-      # ToArmorPre: 0
-      # ToHealth: 0
-      # ToStun: 0
-      # ToWound: 0
-      # ToTime: 0.15
-      # ToMorale: 1.0
-      # ToMana: 0.1
-      # ToTile: 0.0
-      # RandomWound: false
-    # accuracyAuto: 0
-    # accuracySnap: 0
-    # accuracyAimed: 100
-    # accuracyMultiplier:
-      # firing: 0.0
-      # psi: 0.0
-      # psiStrength: 1.5
-      # psiSkill: 0.5
-    # tuAuto: 0
-    # tuSnap: 0
-    # tuAimed: 20
-    # costAimed:
-      # time: 18
-      # mana: 4
-    # flatAimed:
-      # time: false
-      # mana: true
-    # aimRange: 30
-    # maxRange: 30
-    # dropoff: 999
-    # bulletSpeed: 999
-    # confAimed:
-      # name: STR_PANIC_UNIT
-    # clipSize: -1
-    # battleType: 1
-    # invWidth: 1
-    # invHeight: 2
-    # twoHanded: true #used only for handobs offset
-    # oneHandedPenalty: 100
-    # LOSRequired: true
-    # armor: 90
-    # attraction: 20
-    # experienceTrainingMode: 26
-    # manaExperience: 100
   - type: STR_PSI_AMP
     listOrder: 4460
     size: 0.008
@@ -6001,7 +5934,7 @@ items:
     handSprite: 88
     hitSound: 324
     hitMissSound: 36
-    accuracyPanic: 10
+    accuracyPanic: 15
     accuracyMindControl: -10
     costPanic:
       time: 12

@@ -1012,6 +1012,12 @@ extraSprites:
     height: 81
     files:
       0: Resources/ReaversUFOs/Patroller.png
+  - type: MediumScout
+    singleImage: true
+    width: 160
+    height: 81
+    files:
+      0: Resources/ReaversUFOs/MediumScout.png
   - type: LightDestroyer
     singleImage: true
     width: 160

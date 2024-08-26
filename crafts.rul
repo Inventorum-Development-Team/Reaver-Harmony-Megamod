@@ -163,11 +163,11 @@ crafts:
     weaponTypes:
       - [1, 2, 11, 21]
       - [1, 2, 11, 21]
-      - [1, 11]
+      - [1, 2, 11, 21]
     weaponStrings:
       - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_MEDIUM
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
     requires:
       - STR_CRAFT_EASY
       - STR_OUTSOURCING_AIR
@@ -197,12 +197,12 @@ crafts:
     weapons: 4
     weaponTypes:
       - [1, 2, 11, 21]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 11]
       - [1, 11]
     weaponStrings:
       - STR_AIR_WEAPON_MEDIUM
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
     soldiers: 12
@@ -258,11 +258,11 @@ crafts:
     accel: 2
     weapons: 3
     weaponTypes:
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 11]
       - [1, 11]
     weaponStrings:
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
     soldiers: 18
@@ -325,11 +325,11 @@ crafts:
     weapons: 3
     weaponTypes:
       - [1, 11]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 2, 3, 11, 21, 31]
     weaponStrings:
       - STR_AIR_WEAPON_SMALL
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_LARGE
     requires:
       - STR_CRAFT_EASY
@@ -361,12 +361,12 @@ crafts:
     weaponTypes:
       - [1, 11]
       - [1, 11]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 2, 3, 11, 21, 31]
     weaponStrings:
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_LARGE
     requires:
       - STR_CRAFT_EASY
@@ -1133,11 +1133,11 @@ crafts:
     weaponTypes:
       - [1, 2, 11, 21]
       - [1, 2, 11, 21]
-      - [1, 11]
+      - [1, 2, 11, 21]
     weaponStrings:
       - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_MEDIUM
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
     requires:
       - STR_CRAFT_MEDIUM
       - STR_OUTSOURCING_AIR
@@ -1166,12 +1166,12 @@ crafts:
     weapons: 4
     weaponTypes:
       - [1, 2, 11, 21]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 11]
       - [1, 11]
     weaponStrings:
       - STR_AIR_WEAPON_MEDIUM
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
     soldiers: 12
@@ -1226,11 +1226,11 @@ crafts:
     accel: 2
     weapons: 3
     weaponTypes:
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 11]
       - [1, 11]
     weaponStrings:
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
     soldiers: 18
@@ -1292,11 +1292,11 @@ crafts:
     weapons: 3
     weaponTypes:
       - [1, 11]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 2, 3, 11, 21, 31]
     weaponStrings:
       - STR_AIR_WEAPON_SMALL
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_LARGE
     requires:
       - STR_CRAFT_MEDIUM
@@ -1327,12 +1327,12 @@ crafts:
     weaponTypes:
       - [1, 11]
       - [1, 11]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 2, 3, 11, 21, 31]
     weaponStrings:
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_LARGE
     requires:
       - STR_CRAFT_MEDIUM
@@ -2095,11 +2095,11 @@ crafts:
     weaponTypes:
       - [1, 2, 11, 21]
       - [1, 2, 11, 21]
-      - [1, 11]
+      - [1, 2, 11, 21]
     weaponStrings:
       - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_MEDIUM
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
     requires:
       - STR_CRAFT_HARD
       - STR_OUTSOURCING_AIR
@@ -2129,12 +2129,12 @@ crafts:
     weapons: 4
     weaponTypes:
       - [1, 2, 11, 21]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 11]
       - [1, 11]
     weaponStrings:
       - STR_AIR_WEAPON_MEDIUM
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
     soldiers: 12
@@ -2190,11 +2190,11 @@ crafts:
     accel: 2
     weapons: 3
     weaponTypes:
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 11]
       - [1, 11]
     weaponStrings:
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
     soldiers: 18
@@ -2257,11 +2257,11 @@ crafts:
     weapons: 3
     weaponTypes:
       - [1, 11]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 2, 3, 11, 21, 31]
     weaponStrings:
       - STR_AIR_WEAPON_SMALL
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_LARGE
     requires:
       - STR_CRAFT_HARD
@@ -2293,12 +2293,12 @@ crafts:
     weaponTypes:
       - [1, 11]
       - [1, 11]
-      - [1, 11]
+      - [1, 2, 11, 21]
       - [1, 2, 3, 11, 21, 31]
     weaponStrings:
       - STR_AIR_WEAPON_SMALL
       - STR_AIR_WEAPON_SMALL
-      - STR_AIR_WEAPON_SMALL
+      - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_LARGE
     requires:
       - STR_CRAFT_HARD

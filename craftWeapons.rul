@@ -140,7 +140,7 @@ craftWeapons:
     sound: 309
     damage: 250
     shieldDamageModifier: 10
-    range: 51
+    range: 52
     accuracy: 90
     reloadCautious: 256
     reloadStandard: 192

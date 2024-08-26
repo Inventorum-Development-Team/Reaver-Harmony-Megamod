@@ -681,8 +681,9 @@ research:
     cost: 300
     points: 60
     dependencies:
-      - STR_STUN_BOMB
-      - STR_BLASTER_BOMB
+      - STR_SMALL_LAUNCHER
+      - STR_BLASTER_LAUNCHER
+      - STR_ALIEN_ENGINEER
   - name: STR_FUSION_MISSILE
     listOrder: 3060
     cost: 900
@@ -1026,7 +1027,6 @@ research:
       - STR_MEDI_KIT
       - STR_EXAMINATION_ROOM
       - STR_ALIEN_ABDUCTION
-      - STR_ALIEN_MEDIC
   - name: STR_GUARDIAN_AND_ASSAULT_TANKS
     listOrder: 1100
     cost: 200
@@ -2441,6 +2441,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_ALIEN_MEDIC
+      - STR_SUPER_SOLDIERS
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_ORIGINS_UP
     getOneFree:
@@ -2490,6 +2491,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_ALIEN_MEDIC
+      - STR_SUPER_SOLDIERS
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_ORIGINS_UP
     getOneFree:
@@ -2539,6 +2541,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_ALIEN_MEDIC
+      - STR_SUPER_SOLDIERS
       - STR_ALIEN_ORIGINS
       - STR_ALIEN_ORIGINS_UP
     getOneFree:
@@ -3009,6 +3012,10 @@ research:
       - STR_ALIEN_TERROR
       - STR_ALIEN_RETALIATION
       - STR_ALIEN_SUPPLY
+      - STR_SILACOID
+      - STR_SILACOID_CORPSE
+      - STR_CELATID
+      - STR_CELATID_CORPSE
       - STR_SECTOPOD
       - STR_SECTOPOD_CORPSE
     getOneFreeProtected:
@@ -3051,12 +3058,10 @@ research:
     getOneFreeProtected:
       STR_NON_ELITE_ALIENS:
         - STR_MUTON_SOLDIER_B
-    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
         - STR_CYBERDISC_C
         - STR_REAPER_C
         - STR_SECTOPOD_C
-    getOneFreeProtected:
       STR_NON_ELITE_UFOS:
         - STR_MEDIUM_DESTROYER_ELITE
         - STR_TERROR_SHIP_ELITE
@@ -3099,12 +3104,10 @@ research:
     getOneFreeProtected:
       STR_NON_ELITE_ALIENS:
         - STR_MUTON_SOLDIER_B
-    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
         - STR_CYBERDISC_C
         - STR_REAPER_C
         - STR_SECTOPOD_C
-    getOneFreeProtected:
       STR_NON_ELITE_UFOS:
         - STR_MEDIUM_DESTROYER_ELITE
         - STR_TERROR_SHIP_ELITE
@@ -3145,12 +3148,10 @@ research:
     getOneFreeProtected:
       STR_NON_ELITE_ALIENS:
         - STR_MUTON_SOLDIER_B
-    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
         - STR_CYBERDISC_C
         - STR_REAPER_C
         - STR_SECTOPOD_C
-    getOneFreeProtected:
       STR_NON_ELITE_UFOS:
         - STR_MEDIUM_DESTROYER_ELITE
         - STR_TERROR_SHIP_ELITE
@@ -3191,12 +3192,10 @@ research:
     getOneFreeProtected:
       STR_NON_ELITE_ALIENS:
         - STR_MUTON_SOLDIER_B
-    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
         - STR_CYBERDISC_C
         - STR_REAPER_C
         - STR_SECTOPOD_C
-    getOneFreeProtected:
       STR_NON_ELITE_UFOS:
         - STR_MEDIUM_DESTROYER_ELITE
         - STR_TERROR_SHIP_ELITE
@@ -3261,12 +3260,10 @@ research:
     getOneFreeProtected:
       STR_NON_ELITE_ALIENS:
         - STR_MUTON_SOLDIER_B
-    getOneFreeProtected:
       STR_CYDONIA_ELITE_ALIENS:
         - STR_CYBERDISC_C
         - STR_REAPER_C
         - STR_SECTOPOD_C
-    getOneFreeProtected:
       STR_NON_ELITE_UFOS:
         - STR_MEDIUM_DESTROYER_ELITE
         - STR_TERROR_SHIP_ELITE
@@ -3389,6 +3386,7 @@ research:
       - STR_FLOATER_MEDIC
     unlocks:
       - STR_STUN_UP
+      - STR_SUPER_SOLDIERS
   - name: STR_ALIEN_ENGINEER
     dependencies:
       - STR_SECTOID_ENGINEER
@@ -3535,22 +3533,14 @@ research:
   - name: STR_ALIEN_HOME_INVASION
     points: 200
     needItem: true
-  - name: STR_ALIEN_HOME_DEFENSE_DEP
-    cost: 0
-    points: 0
-    requires:
-      - STR_CYDONIA_OR_BUST
-      - STR_ALIEN_INVASION
-      - STR_ALIEN_HOME_INVASION
-    unlocks:
-      - STR_ALIEN_HOME_DEFENSE
-    needItem: true
   - name: STR_ALIEN_HOME_DEFENSE
     listOrder: 2690
     cost: 1500
     points: 300
     dependencies:
-      - STR_ALIEN_HOME_DEFENSE_DEP
+      - STR_CYDONIA_OR_BUST
+      - STR_ALIEN_INVASION
+      - STR_ALIEN_HOME_INVASION
   - name: STR_SNAKEMAN_INVASION
     points: 150
     needItem: true

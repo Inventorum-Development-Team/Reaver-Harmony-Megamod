@@ -128,7 +128,7 @@ ufos:
           length: 10
   - type: STR_MEDIUM_SCOUT
     size: STR_SMALL
-    sprite: 1
+    modSprite: MediumScout
     marker: 31
     markerLand: 36
     markerCrash: 41
@@ -822,7 +822,7 @@ ufos:
     accel: 5
     power: 240
     hitBonus: 10
-    range: 52
+    range: 51
     score: 800
     reload: 92 #76
     breakOffTime: 750
@@ -1688,7 +1688,7 @@ ufos:
     accel: 5
     power: 280
     hitBonus: 18
-    range: 58
+    range: 57
     score: 1050
     reload: 100 #84
     breakOffTime: 850

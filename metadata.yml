@@ -379,6 +379,30 @@
 #       * Renamed Ethereal Navigator to Ethereal Liaison because people didn't seem to realize it was important.
 #       * Knives can now cut terrain potentially, just not very well.
 #       * Slightly buffed Power Knife. Reduced manufacture time of Power Baton and Power Sword.
+#   1.1.4   Super Sleek, Super Trim, Super Streamlined **ТЕПЕРЬ НА РУССКОМ!!**
+#       * Many thanks to bugbearbox for building a Russian translation for Harmony!
+#       * Buffed tier 2 aircraft slot layouts.
+#       * Super Soldiers research made easier to obtain and harder to miss.
+#       * Reduced AE Rocket sell value/buy cost.
+#       * Increased Psi Amp's Panic Unit force value from 60 to 65.
+#       * Capitalized ships (but not in the way you might think).
+#       * Fixed up some parity between manufacturing and UFOPedia involving alien launchers.
+#           - You can now use alien launchers earlier by researching Launcher Conventional Bombs.
+#       * Small bug fix on alien Commander research.
+#       * Reduced venom gland cost of the thing that costs venom glands.
+#       * Improved information available in Tractor Beam UFOPedia reports.
+#       * Fixed a bug potentially preventing unlocking a research called 'What We Can Expect to Meet on Cydonia'.
+#       * Made destroyed dirt and grass tiles destructible.
+#       * Fixed number of soldiers and navigators on Elite Covert Ops Ship and Elite Patroller.
+#       * Reduced Mothership range by 1, increased Rage missiles range by 1.
+#           - Rage missiles now outrange Mothership and Elite Large Scout.
+#       * Small text fix on Vigilante UFOPedia Report.
+#       * Updated UFO refire times in UFOPedia based on their Stats for Nerds calculated values for Superhuman.
+#       * Finally enabled the old sprite which fixes one single pixel on the Medium Scout.
+#       * Fixed small flaw in component swap recipes.
+#       * Improved heavy plasma and variants handobs.
+#       * Added a proper sprite for the Large Alien Containment facility.
+#
 #
 # resource authors/sources:
 # Chiko: alien and terran plasma variants
@@ -464,6 +488,11 @@
 #       uses: perform palette migrations into X-Com palettes
 #
 #
+# localization authors/sources:
+# bugbearbox: Russian language file ru.yml
+#		* obtained via Discord
+#
+#
 # critical playtesters:
 # Hadriex -- https://www.youtube.com/playlist?list=PLSQLREUw9vwl0v77beBcxvn2lXK-3TqEn
 #         -- https://www.youtube.com/playlist?list=PLSQLREUw9vwkIN3BLCBEzXmkHq1syn-n9
@@ -512,7 +541,7 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.3
+version: 1.1.4
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
