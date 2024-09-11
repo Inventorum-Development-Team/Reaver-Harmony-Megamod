@@ -890,6 +890,11 @@ STR_SKELETON_HEAVY_TO_POWER_INEFFICIENT: "Ineficiente: Energía de esqueleto pes
   STR_SHOTGUN_ALLOY_SLUGS: "Shotgun AP Slugs"
   STR_HC_ALLOY_AMMO: "HC-Alloy Ammo"
   STR_AC_ALLOY_AMMO: "AC-Alloy Ammo"
+  
+# Ends efrenespartano  
+#############  
+# Begins  NecroDiego
+  
   STR_HC_AE_AMMO: "HC-AE Ammo"
   STR_AC_AE_AMMO: "AC-AE Ammo"
   STR_GRENADE_LAUNCHER: "Grenade Launcher"
