@@ -1,3 +1,4 @@
 {
-    "oxcYamlHelper.validateCategories": "always"
+    "oxcYamlHelper.validateCategories": "always",
+    "oxcYamlHelper.rulesetDocumentationSettings": 0
 }
