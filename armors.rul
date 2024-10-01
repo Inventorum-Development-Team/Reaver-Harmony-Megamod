@@ -1298,6 +1298,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
+    visibilityAtDark: 12
+    heatVision: 40
+    personalLight: 18
   - type: STR_POWER_SUIT_UC_MEDIUM
     refNode: *STR_POWER_SUIT_UC
     requires: STR_ARMOR_MEDIUM
@@ -1366,6 +1369,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
+    visibilityAtDark: 15
+    heatVision: 25
+    personalLight: 15
   - type: STR_FLYING_SUIT_UC_MEDIUM
     refNode: *STR_FLYING_SUIT_UC
     requires: STR_ARMOR_MEDIUM
@@ -1431,6 +1437,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.09
+    visibilityAtDark: 12
+    heatVision: 40
+    personalLight: 18
     loftempsSet: [ 4 ]
     forcedTorso: 1
   - type: STR_PSI_DEFENSE_ARMOR_UC_MEDIUM
@@ -1499,6 +1508,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.17
+    visibilityAtDark: 15
+    heatVision: 25
+    personalLight: 15
     psiVision: 12
     loftempsSet: [ 4 ]
     forcedTorso: 2
@@ -1571,7 +1583,9 @@ armors:
         flatHundred: 0.03
       mana:
         flatHundred: 0.11
+    visibilityAtDark: 12
     heatVision: 70
+    personalLight: 12
     zombiImmune: true
     loftempsSet: [ 4 ]
     forcedTorso: 1
@@ -2050,6 +2064,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
+    visibilityAtDark: 12
+    heatVision: 40
+    personalLight: 18
   - type: STR_POWER_SUIT_SPACE_UC_MEDIUM
     refNode: *STR_POWER_SUIT_SPACE_UC
     requires: STR_ALIENS_ONLY
@@ -2118,6 +2135,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.13
+    visibilityAtDark: 15
+    heatVision: 25
+    personalLight: 15
   - type: STR_FLYING_SUIT_SPACE_UC_MEDIUM
     refNode: *STR_FLYING_SUIT_SPACE_UC
     requires: STR_ALIENS_ONLY
@@ -2183,6 +2203,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.09
+    visibilityAtDark: 12
+    heatVision: 40
+    personalLight: 18
     loftempsSet: [ 4 ]
     forcedTorso: 1
   - type: STR_PSI_DEFENSE_ARMOR_SPACE_UC_MEDIUM
@@ -2251,6 +2274,9 @@ armors:
         flatHundred: 0.01
       mana:
         flatHundred: 0.17
+    visibilityAtDark: 15
+    heatVision: 25
+    personalLight: 15
     psiVision: 12
     loftempsSet: [ 4 ]
     forcedTorso: 2
@@ -2324,7 +2350,9 @@ armors:
         flatHundred: 0.03
       mana:
         flatHundred: 0.11
+    visibilityAtDark: 12
     heatVision: 70
+    personalLight: 12
     zombiImmune: true
     loftempsSet: [ 4 ]
     forcedTorso: 1

@@ -387,14 +387,29 @@ crafts:
     transferTime: 144
     score: 400
     battlescapeTerrainData:
-      name: MAMMOTH
+      name: EXTERMINATOR
       mapDataSets:
         - BLANKS
         - PLANEMOD
       mapBlocks:
-        - name: MAMMOTH
+        - name: EXTERMINATOR
           width: 20
           length: 20
+    deployment:
+      - [10, 8, 1, 2]
+      - [11, 8, 1, 2]
+      - [10, 9, 1, 2]
+      - [11, 9, 1, 2]
+      - [8, 8, 1, 2]
+      - [9, 8, 1, 2]
+      - [8, 9, 1, 6]
+      - [9, 9, 1, 6]
+      - [9, 12, 1, 4]
+      - [10, 12, 1, 4]
+      - [9, 13, 1, 4]
+      - [10, 13, 1, 4]
+      - [9, 14, 1, 6]
+      - [10, 14, 1, 2]
   - type: STR_FIRESTORM_EASY
     listOrder: 199
     sprite: 4
@@ -1353,12 +1368,12 @@ crafts:
     transferTime: 144
     score: 320
     battlescapeTerrainData:
-      name: MAMMOTH
+      name: EXTERMINATOR
       mapDataSets:
         - BLANKS
         - PLANEMOD
       mapBlocks:
-        - name: MAMMOTH
+        - name: EXTERMINATOR
           width: 20
           length: 20
   - type: STR_FIRESTORM
@@ -2319,12 +2334,12 @@ crafts:
     transferTime: 144
     score: 240
     battlescapeTerrainData:
-      name: MAMMOTH
+      name: EXTERMINATOR
       mapDataSets:
         - BLANKS
         - PLANEMOD
       mapBlocks:
-        - name: MAMMOTH
+        - name: EXTERMINATOR
           width: 20
           length: 20
   - type: STR_FIRESTORM_HARD

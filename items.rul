@@ -2592,7 +2592,7 @@ items:
     costBuy: 1260
     costSell: 945
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_EARLY_TECH]
-    weight: 4
+    weight: 3
     handSprite: 516
     meleeHitSound: 311
     meleeAnimation: 4
@@ -2628,7 +2628,7 @@ items:
     transferTime: 36
     costSell: 37150
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_EARLY_TECH]
-    weight: 10
+    weight: 8
     bigSprite: 350
     floorSprite: 346
     handSprite: 524
@@ -2665,7 +2665,7 @@ items:
     costBuy: 3200
     costSell: 2400
     categories: [STR_CAT_PISTOLS, STR_CAT_EARLY_TECH]
-    weight: 5
+    weight: 3
     bigSprite: 351
     floorSprite: 3
     handSprite: 96
@@ -2697,7 +2697,7 @@ items:
     costBuy: 280
     costSell: 210
     categories: [STR_CAT_PISTOLS, STR_CAT_EARLY_TECH]
-    weight: 2
+    weight: 1
     handSprite: 436
     bulletSprite: 2
     hitSound: 22
@@ -2722,7 +2722,7 @@ items:
     transferTime: 36
     costSell: 900
     categories: [STR_CAT_PISTOLS, STR_CAT_MID_TECH]
-    weight: 2
+    weight: 1
     bigSprite: 344
     floorSprite: 340
     handSprite: 436
@@ -2746,7 +2746,7 @@ items:
     costBuy: 4000
     costSell: 3000
     categories: [STR_CAT_PISTOLS, STR_CAT_EARLY_TECH]
-    weight: 6
+    weight: 4
     bigSprite: 326
     floorSprite: 317
     handSprite: 428
@@ -2779,7 +2779,7 @@ items:
     costBuy: 560
     costSell: 420
     categories: [STR_CAT_PISTOLS, STR_CAT_EARLY_TECH]
-    weight: 3
+    weight: 2
     bigSprite: 327
     floorSprite: 318
     handSprite: 436
@@ -2808,7 +2808,7 @@ items:
     transferTime: 36
     costSell: 1800
     categories: [STR_CAT_PISTOLS, STR_CAT_MID_TECH]
-    weight: 3
+    weight: 2
     bigSprite: 345
     floorSprite: 341
     handSprite: 436
@@ -2861,7 +2861,7 @@ items:
     costBuy: 800
     costSell: 600
     categories: [STR_CAT_RIFLES, STR_CAT_EARLY_TECH]
-    weight: 3
+    weight: 2
     handSprite: 452
     bulletSprite: 2
     hitSound: 22
@@ -2886,7 +2886,7 @@ items:
     transferTime: 36
     costSell: 2400
     categories: [STR_CAT_RIFLES, STR_CAT_MID_TECH]
-    weight: 3
+    weight: 2
     bigSprite: 346
     floorSprite: 342
     handSprite: 452
@@ -2948,7 +2948,7 @@ items:
     costBuy: 1600
     costSell: 1200
     categories: [STR_CAT_RIFLES, STR_CAT_EARLY_TECH]
-    weight: 5
+    weight: 4
     bigSprite: 329
     floorSprite: 320
     handSprite: 452
@@ -2977,7 +2977,7 @@ items:
     transferTime: 36
     costSell: 4800
     categories: [STR_CAT_RIFLES, STR_CAT_MID_TECH]
-    weight: 5
+    weight: 4
     bigSprite: 347
     floorSprite: 343
     handSprite: 452
@@ -3989,7 +3989,7 @@ items:
     transferTime: 36
     costSell: 20000
     categories: [STR_CAT_PISTOLS, STR_CAT_MID_TECH]
-    weight: 9
+    weight: 5
     bigSprite: 315
     floorSprite: 314
     handSprite: 324
@@ -4036,7 +4036,7 @@ items:
     transferTime: 36
     costSell: 28000
     categories: [STR_CAT_PISTOLS, STR_CAT_MID_TECH]
-    weight: 12
+    weight: 8
     bigSprite: 312
     floorSprite: 303
     handSprite: 348
@@ -4081,7 +4081,7 @@ items:
     transferTime: 36
     costSell: 36900
     categories: [STR_CAT_RIFLES, STR_CAT_MID_TECH]
-    weight: 14
+    weight: 12
     bigSprite: 316
     floorSprite: 315
     handSprite: 332
@@ -4125,7 +4125,7 @@ items:
     transferTime: 36
     costSell: 51000
     categories: [STR_CAT_RIFLES, STR_CAT_MID_TECH]
-    weight: 19
+    weight: 18
     bigSprite: 313
     floorSprite: 304
     handSprite: 356
@@ -4306,7 +4306,7 @@ items:
     size: 0.0025
     costSell: 25100
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
-    weight: 4
+    weight: 2
     bigSprite: 407
     floorSprite: 326
     handSprite: 1100
@@ -4334,7 +4334,7 @@ items:
     size: 0.005
     costSell: 126000
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 6
+    weight: 4
     bigSprite: 300
     floorSprite: 329
     handSprite: 104
@@ -4368,7 +4368,7 @@ items:
     size: 0.0015
     costSell: 9200
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 2
+    weight: 1
     bigSprite: 301
     floorSprite: 327
     handSprite: 1092
@@ -4391,7 +4391,7 @@ items:
     size: 0.006
     costSell: 234800
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 7
+    weight: 5
     bigSprite: 332
     floorSprite: 323
     handSprite: 476
@@ -4422,7 +4422,7 @@ items:
     size: 0.002
     costSell: 17000
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 4
+    weight: 2
     bigSprite: 335
     floorSprite: 326
     handSprite: 1100
@@ -4478,7 +4478,7 @@ items:
     size: 0.002
     costSell: 12600
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
-    weight: 3
+    weight: 1
     bigSprite: 303
     floorSprite: 327
     handSprite: 1092
@@ -4537,7 +4537,7 @@ items:
     size: 0.0025
     costSell: 23200
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
-    weight: 5
+    weight: 2
     bigSprite: 334
     floorSprite: 326
     handSprite: 1100
@@ -4597,7 +4597,7 @@ items:
     size: 0.0025
     costSell: 19200
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
-    weight: 4
+    weight: 2
     bigSprite: 305
     floorSprite: 327
     handSprite: 1092
@@ -4658,7 +4658,7 @@ items:
     size: 0.003
     costSell: 36200
     categories: [STR_CAT_HEAVY_WEAPONS, STR_CAT_HIGH_TECH]
-    weight: 7
+    weight: 3
     bigSprite: 333
     floorSprite: 326
     handSprite: 1100
@@ -4987,7 +4987,7 @@ items:
     size: 0.01
     costSell: 2100000
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 29
+    weight: 22
     bigSprite: 362
     floorSprite: 357
     handSprite: 604
@@ -5020,7 +5020,7 @@ items:
     size: 0.0035
     costSell: 326000
     categories: [STR_CAT_PISTOLS, STR_CAT_HIGH_TECH]
-    weight: 5
+    weight: 4
     bigSprite: 363
     floorSprite: 358
     handSprite: 612
@@ -6016,7 +6016,7 @@ items:
     size: 0.005
     costSell: 42000
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 6
+    weight: 4
     bigSprite: 306
     floorSprite: 330
     hitSound: 19
@@ -6047,7 +6047,7 @@ items:
     size: 0.001
     costSell: 4600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 2
+    weight: 1
     bigSprite: 307
     floorSprite: 328
     handSprite: 1092
@@ -6098,7 +6098,7 @@ items:
     size: 0.002
     costSell: 6300
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 3
+    weight: 1
     bigSprite: 309
     floorSprite: 328
     handSprite: 1092
@@ -6158,7 +6158,7 @@ items:
     size: 0.0025
     costSell: 9600
     categories: [STR_CAT_ALIEN_ARTIFACTS]
-    weight: 4
+    weight: 2
     bigSprite: 311
     floorSprite: 328
     handSprite: 1092

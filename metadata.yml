@@ -402,6 +402,14 @@
 #       * Fixed small flaw in component swap recipes.
 #       * Improved heavy plasma and variants handobs.
 #       * Added a proper sprite for the Large Alien Containment facility.
+#   1.1.5   Flashy - Unit Hit Script!
+#       * Added damage on hit script from The X-Com Files.
+#         - When hit, units flash to indicate effect: White-only armor damage, Red-health damage, Black-stun
+#       * Updated UFOPedia to reflect aircraft changes from 1.1.4.
+#       * Power and flying armors now have minor night and heat vision.
+#       * Reduced the weight of stun rods, pistols, and various ammo clips.
+#       * Added side doors to Mammoth battlescape map.
+#       * Made multiple small fixes to one of the Battleship maps.
 #
 #
 # resource authors/sources:
@@ -454,9 +462,12 @@
 #       * NeoWorm mostly made it, with some help from Solarius Scorch
 # Meatstuff: statstrings, battle rifle sprite, and ideas
 #		* obtained via Discord
-# Finnik: astronaut suits
+# Dr. Hans Woofington: astronaut suits
 #       * https://mod.io/g/openxcom/m/unexcom
 #       * obtained via UNEXCOM
+# 8mono: unit display damage on hit script
+#       * https://mod.io/g/openxcom/m/the-x-com-files
+#       * obtained via The X-Com Files
 #
 # unknown sources:
 #       * first aid kit, obtained via Awesome Guns
@@ -541,7 +552,7 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.4
+version: 1.1.5
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
