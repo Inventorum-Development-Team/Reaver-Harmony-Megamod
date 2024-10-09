@@ -557,4 +557,7 @@ description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
 master: xcom1
+isMaster: true
+loadResources:
+  - UFO
 reservedSpace: 2
