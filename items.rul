@@ -100,6 +100,25 @@ items:
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
     transferTime: 36
     clipSize: 25
+  - type: STR_AUTOMATKANON
+    listOrder: 120
+    size: 0.3
+    requiresBuy:
+      - STR_OUTSOURCING_AIR
+    costBuy: 137500
+    costSell: 125000
+    categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
+    transferTime: 72
+  - type: STR_AUTOMATKANON_ROUNDS_X20
+    listOrder: 121
+    size: 0.03
+    requiresBuy:
+      - STR_OUTSOURCING_AIR
+    costBuy: 12650
+    costSell: 11500
+    categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_MID_TECH]
+    transferTime: 36
+    clipSize: 20
   - type: STR_STARLING_LAUNCHER
     listOrder: 190
     size: 0.05
@@ -300,7 +319,7 @@ items:
   - type: STR_CRAFT_LP_AMMO
     listOrder: 481
     size: 0.005
-    costSell: 28000
+    costSell: 9800
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
     clipSize: 1
@@ -313,7 +332,7 @@ items:
   - type: STR_PLASMA_AC_AMMO
     listOrder: 491
     size: 0.0025
-    costSell: 5000
+    costSell: 5800
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
     clipSize: 1
@@ -326,7 +345,7 @@ items:
   - type: STR_PLASMA_BEAM_AMMO
     listOrder: 501
     size: 0.01
-    costSell: 34600
+    costSell: 34100
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
     clipSize: 1
@@ -339,7 +358,7 @@ items:
   - type: STR_DEVASTATOR_PLASMA_AMMO
     listOrder: 511
     size: 0.008
-    costSell: 26500
+    costSell: 23200
     categories: [STR_CAT_CRAFT_WEAPONS, STR_CAT_HIGH_TECH]
     transferTime: 48
     clipSize: 1
@@ -2592,18 +2611,20 @@ items:
     costBuy: 1260
     costSell: 945
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_EARLY_TECH]
-    weight: 3
+    weight: 2
     handSprite: 516
     meleeHitSound: 311
     meleeAnimation: 4
     meleeSound: 307
     power: 30
-    damageType: 6
+    damageType: 16
     damageAlter:
       RandomType: 0
-      ArmorEffectiveness: 0.2
-      ToHealth: 0.3
+      ArmorEffectiveness: 0
+      ToHealth: 0.2
       RandomHealth: true
+      ToStun: 1.0
+      RandomStun: false
       IgnoreOverKill: false
     damageBonus:
       IgnoreOverKill: true
@@ -2628,7 +2649,7 @@ items:
     transferTime: 36
     costSell: 37150
     categories: [STR_CAT_MELEE_WEAPONS, STR_CAT_EARLY_TECH]
-    weight: 8
+    weight: 4
     bigSprite: 350
     floorSprite: 346
     handSprite: 524
@@ -2636,12 +2657,14 @@ items:
     meleeAnimation: 4
     meleeSound: 307
     power: 60
-    damageType: 6
+    damageType: 16
     damageAlter:
       RandomType: 0
-      ArmorEffectiveness: 0.2
-      ToHealth: 0.8
+      ArmorEffectiveness: 0
+      ToHealth: 0.6
       RandomHealth: true
+      ToStun: 1.0
+      RandomStun: false
       IgnoreOverKill: false
     damageBonus:
       IgnoreOverKill: true
@@ -5077,7 +5100,7 @@ items:
   - type: STR_POWER_SUIT_RIFLE_CLIP
     listOrder: 4225
     size: 0.004
-    costSell: 416000
+    costSell: 396000
     categories: [STR_CAT_RIFLES, STR_CAT_HIGH_TECH]
     weight: 7
     bigSprite: 365
@@ -6345,6 +6368,7 @@ items:
     size: 0.0002
     costSell: 10000
     categories: [STR_CAT_UFO_COMPONENTS, STR_CAT_SALVAGE]
+    weight: 1
     bigSprite: 412
     armor: 30
   - type: STR_ALIEN_ALLOYS
@@ -6451,9 +6475,9 @@ items:
     requiresBuy:
       - STR_ALIEN_FUEL_PODS
       - STR_UFO_CONSTRUCTION
-    costBuy: 30000
+    costBuy: 45000
     transferTime: 36
-    costSell: 10000
+    costSell: 15000
     categories: [STR_CAT_UFO_COMPONENTS]
     specialType: 15
     recoveryPoints: 1

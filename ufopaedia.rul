@@ -935,6 +935,14 @@ ufopaedia:
       - STR_ALLOY_WEAPONS
     image_id: UP008.SPK
     text: STR_ALLOY_CANNON_UFOPEDIA
+  - id: STR_AUTOMATKANON_UC
+    listOrder: 515
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_OUTSOURCING_AIR
+    image_id: UP008.SPK
+    text: STR_AUTOMATKANON_UFOPEDIA
   - id: STR_STARLING
     listOrder: 520
     type_id: 2
@@ -3132,6 +3140,16 @@ ufopaedia:
     requires:
       - STR_SECTOID_CORPSE
     text_width: 158
+  - id: STR_SECTOID_A
+    listOrder: 7805
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID
+      - STR_SECTOID_ARMOR
+    image_id: SECTOID_A_RESEARCH.SPK
+    text: STR_SECTOID_A_UFOPEDIA
+    text_width: 158
   - id: STR_FLOATER
     listOrder: 8000
     type_id: 7
@@ -3366,6 +3384,147 @@ ufopaedia:
     image_id: SNAKEMAN_COMMANDER_B_AUTOPSY.SPK
     text: STR_SNAKEMAN_COMMANDER_B_AUTOPSY_UFOPEDIA
     text_width: 158
+  - id: STR_SECTOID_DETAILS
+    listOrder: 10000
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID
+      - STR_SECTOID_CORPSE
+    image_id: UP024.SPK
+    text: STR_SECTOID_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_SECTOID_A_DETAILS
+    listOrder: 10005
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID
+      - STR_SECTOID_CORPSE
+      - STR_SECTOID_ARMOR
+    image_id: SECTOID_A_RESEARCH.SPK
+    text: STR_SECTOID_A_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_FLOATER_DETAILS
+    listOrder: 10010
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_FLOATER
+      - STR_FLOATER_CORPSE
+    image_id: UP018.SPK
+    text: STR_FLOATER_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_SNAKEMAN_DETAILS
+    listOrder: 10020
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SNAKEMAN
+      - STR_SNAKEMAN_CORPSE
+    image_id: UP030.SPK
+    text: STR_SNAKEMAN_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_SNAKEMAN_B_DETAILS
+    listOrder: 10025
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SNAKEMAN_COMMANDER_B
+      - STR_SNAKEMAN_COMMANDER_B_CORPSE
+    image_id: SNAKEMAN_COMMANDER_B_RESEARCH.SPK
+    text: STR_SNAKEMAN_B_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_MUTON_DETAILS
+    listOrder: 10030
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUTON
+      - STR_MUTON_CORPSE
+    image_id: UP020.SPK
+    text: STR_MUTON_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_MUTON_B_DETAILS
+    listOrder: 10035
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUTON_SOLDIER_B
+      - STR_MUTON_B_CORPSE
+    image_id: MUTON_SOLDIER_B_RESEARCH.SPK
+    text: STR_MUTON_B_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_ETHEREAL_DETAILS
+    listOrder: 10040
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ETHEREAL
+      - STR_ETHEREAL_CORPSE
+    image_id: UP016.SPK
+    text: STR_ETHEREAL_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_CYBERDISC_DETAILS
+    listOrder: 10050
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CYBERDISC
+      - STR_CYBERDISC_CORPSE
+    image_id: UP041.SPK
+    text: STR_CYBERDISC_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_REAPER_DETAILS
+    listOrder: 10060
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_REAPER
+      - STR_REAPER_CORPSE
+    image_id: UP022.SPK
+    text: STR_REAPER_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_CHRYSSALID_DETAILS
+    listOrder: 10070
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHRYSSALID
+      - STR_CHRYSSALID_CORPSE
+    image_id: UP014.SPK
+    text: STR_CHRYSSALID_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_CELATID_DETAILS
+    listOrder: 10080
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CELATID
+      - STR_CELATID_CORPSE
+    image_id: UP012.SPK
+    text: STR_CELATID_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_SILACOID_DETAILS
+    listOrder: 10085
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SILACOID
+      - STR_SILACOID_CORPSE
+    image_id: UP028.SPK
+    text: STR_SILACOID_DETAILS_UFOPEDIA
+    text_width: 300
+  - id: STR_SECTOPOD_DETAILS
+    listOrder: 10090
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOPOD
+      - STR_SECTOPOD_CORPSE
+    image_id: UP026.SPK
+    text: STR_SECTOPOD_DETAILS_UFOPEDIA
+    text_width: 300
   - id: STR_ALIEN_SOLDIER
     listOrder: 10100
     type_id: 8

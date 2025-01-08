@@ -883,7 +883,7 @@ extraSprites:
       877: Resources/XComFiles/Vessels/Basebits/Dropship_base.png
       899: Resources/ReaversArmada/Heracles_base.gif
       900: Resources/ReaversArmada/Stalker_base.gif
-      901: Resources/XComFiles/Vessels/Basebits/Sentinel_base.png
+      901: Resources/ReaversArmada/Sentinel_Starblazer_base.png
       902: Resources/ReaversArmada/basebits_35_0.gif
   - type: AWACS_BIG
     singleImage: true

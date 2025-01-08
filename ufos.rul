@@ -765,7 +765,7 @@ ufos:
     shieldCapacity: 420 # 16 Shield Emitters
     shieldRechargeInGeoscape: 2 #20
     shieldBleedThrough: 100
-    avoidBonus: 20
+    avoidBonus: 10
     armor: 1
     speedMax: 5400
     accel: 6
@@ -1631,7 +1631,7 @@ ufos:
     shieldCapacity: 648 # 22 Shield Emitters
     shieldRechargeInGeoscape: 3 #25
     shieldBleedThrough: 100
-    avoidBonus: 45
+    avoidBonus: 35
     armor: 1
     speedMax: 6400
     accel: 6
@@ -1682,7 +1682,7 @@ ufos:
     shieldCapacity: 1050 # 35 Shield Emitters
     shieldRechargeInGeoscape: 3 #30
     shieldBleedThrough: 100
-    avoidBonus: 30
+    avoidBonus: 20
     armor: 1
     speedMax: 4900
     accel: 5

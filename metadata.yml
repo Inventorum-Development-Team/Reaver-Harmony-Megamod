@@ -404,12 +404,49 @@
 #       * Added a proper sprite for the Large Alien Containment facility.
 #   1.1.5   Flashy - Unit Hit Script!
 #       * Added damage on hit script from The X-Com Files.
-#         - When hit, units flash to indicate effect: White-only armor damage, Red-health damage, Black-stun
+#         - When hit, units flash to indicate effect: White-only armor damage, Red-health damage, Black-stun.
 #       * Updated UFOPedia to reflect aircraft changes from 1.1.4.
 #       * Power and flying armors now have minor night and heat vision.
 #       * Reduced the weight of stun rods, pistols, and various ammo clips.
 #       * Added side doors to Mammoth battlescape map.
 #       * Made multiple small fixes to one of the Battleship maps.
+#   1.1.6   Fire Burns, Incendiary Melts, Electric Shocks, and Missiles Felt
+#       * Reduced most fire damage across the board by 40%; incendiary unchanged.
+#       * Changed Stun Rod and Super Stun Lance damage type to Electric Shock.
+#           - They are now better at stunning your own soldiers who are wearing strong armor.
+#       * Greatly reduced Stun Rod and Super Stun Lance weight.
+#       * Super Stun Lance is now less likely to kill a target rather than stunning it.
+#           - Reduced ToHealth from 0.8 to 0.6
+#           - Beware, it is still very dangerous!
+#       * Greatly buffed all Alien Explosive craft missiles. (AE Defense System is unaffected.)
+#       * Buffed Rage Missiles considerably.
+#       * Buffed Craft Light Plasma and Plasma Beam slightly.
+#           - Reduced Elerium cost of Craft Light Plasma and Devastator Plasma ammos.
+#       * Reduced Sentinel I Combo's radar range bonus by 75 knots.
+#       * Alien Fuel Pods now carry 50% more fuel. (Explosion power is unaffected.)
+#       * Upgraded Elerium Pod bigobs sprite quality. Reduced Elerium Pod weight.
+#       * You can now see an alien's attributes in UFOPedia once you have researched it both alive and dead.
+#       * Reduced armor heat vision overall;
+#           - Flying Suit and Psi Attack Armor no longer have any heat vision.
+#           - Power Suit and Psi Defense Armor have less heat vision.
+#           - Integrated Armors now get the full (easy) heat vision bonus in all difficulty settings.
+#       * Reworked and overall increased night vision strength of night ops armor types.
+#           - Difficulty now makes a much smaller difference in night vision; Superhuman buffed the most.
+#           - Suit type makes very little difference now; later types are mostly just upgrading the armor.
+#           - Beginner/Experienced with night ops armor can see about as well as the aliens at night.
+#           - Superhuman/night ops can see better than some aliens, especially with personal lights turned off.
+#           - Payoff for good use of strategic lighting still just as strong, just less mission critical.
+#       * Added Automatkanon outsource exclusive medium air weapon to provide a stronger cannon variant.
+#           - Low accuracy, high potential damage rate, more effective against larger targets.
+#       * Increased max ammo for Alloy Cannon from 200 to 250.
+#       * Reduced evasion of Battleship, Elite Battleship, and Elite Mothership.
+#       * 
+#       * 
+#       * Made an enlarged baseview image for Starblazer.
+#       * 
+#       * 
+#       * Improved labeling of scripts in extended.rul
+#       * Updated some notes in alienMissions.rul
 #
 #
 # resource authors/sources:
@@ -537,7 +574,7 @@
 #       components on top of UFO; new map blocks for Cydonia and Terror Beacon; edits to Luke's UFOs; short
 #       Harvester map variants; Battleship map variants; new UFO maps; Geoscape marks; paladin and assassin
 #       power suit variants; new tiles added in PLANEMOD.MCD; new UFO interception sprites; new base facility
-#       sprites unless otherwise stated; U_TROD.MCD and variants;
+#       sprites unless otherwise stated; U_TROD.MCD and variants; enlarged variant of Sentinel;
 #
 # All parts of this mod which are made by The Reaver of Darkness or by Inventorum Development Team are
 # licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To
@@ -552,12 +589,9 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.5
+version: 1.1.6
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
 master: xcom1
-isMaster: true
-loadResources:
-  - UFO
 reservedSpace: 2

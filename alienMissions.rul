@@ -1112,7 +1112,7 @@ alienMissions:
         trajectory: P66
         timer: 240
   - type: STR_ALIEN_TERROR
-    points: 10 #2 landings, 3 UFOs
+    points: 10 #0 landings, 3 UFOs
     objective: 3
     spawnZone: 3
     despawnEvenIfTargeted: true
@@ -1181,7 +1181,7 @@ alienMissions:
         timer: 9000
         objective: true
   - type: STR_ALIEN_TERROR_DEFENDED
-    points: 10 #2 landings, 6 UFOs
+    points: 10 #1 landing, 6 UFOs
     objective: 3
     spawnZone: 3
     despawnEvenIfTargeted: true
@@ -1262,7 +1262,7 @@ alienMissions:
         trajectory: P79
         timer: 60
   - type: STR_ALIEN_TERROR_ELITE
-    points: 10 #2 landings, 3 UFOs
+    points: 10 #1 landing, 3 UFOs
     objective: 3
     spawnZone: 3
     despawnEvenIfTargeted: true

@@ -275,12 +275,12 @@ manufacture:
     requires:
       - STR_UFO_PLASMA_EMITTER
     space: 0
-    time: 75
-    cost: 60000
+    time: 125
+    cost: 22500
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_CRAFT_LP_AMMO: 3
+      STR_CRAFT_LP_AMMO: 5
   - name: STR_PLASMA_AUTOCANNON
     listOrder: 280
     category: STR_CRAFT_WEAPON
@@ -302,7 +302,7 @@ manufacture:
       - STR_AUTOMATIC_PLASMA_WEAPONS
     space: 0
     time: 50
-    cost: 27000
+    cost: 35000
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
@@ -328,7 +328,7 @@ manufacture:
       - STR_HEAVY_PLASMA_WEAPONS
     space: 0
     time: 80
-    cost: 45000
+    cost: 44000
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
@@ -355,12 +355,12 @@ manufacture:
       - STR_HEAVY_PLASMA_WEAPONS
       - STR_AUTOMATIC_PLASMA_WEAPONS
     space: 0
-    time: 60
-    cost: 30000
+    time: 90
+    cost: 45000
     requiredItems:
       STR_ELERIUM_115: 1
     producedItems:
-      STR_DEVASTATOR_PLASMA_AMMO: 2
+      STR_DEVASTATOR_PLASMA_AMMO: 3
   - name: STR_LIGHT_TRACTOR_BEAM
     listOrder: 370
     category: STR_CRAFT_WEAPON
@@ -406,13 +406,13 @@ manufacture:
     requires:
       - STR_UFO_CONSTRUCTION
     space: 0
-    time: 20
-    cost: 10000
+    time: 30
+    cost: 15000
     requiredItems:
-      STR_ELERIUM_115: 2
+      STR_ELERIUM_115: 3
       STR_ALIEN_FUEL_PODS: 1
     producedItems:
-      STR_SPACECRAFT_FUEL: 2
+      STR_SPACECRAFT_FUEL: 3
   - name: STR_ALLOY_FUEL_TANKS_UG
     listOrder: 400
     category: STR_CRAFT_EQUIPMENT
@@ -1683,7 +1683,7 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 9
       STR_PLASMA_RIFLE_RED_CLIP_DESTROYED: 2
-      STR_VENOM_GLAND: 2
+      STR_VENOM_GLAND: 1
   - name: STR_POWER_SUIT_HEAVY
     listOrder: 2320
     category: STR_TROOP_WEAPONS

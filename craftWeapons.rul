@@ -77,17 +77,34 @@ craftWeapons:
     reloadCautious: 5
     reloadStandard: 5
     reloadAggressive: 5
-    ammoMax: 200
+    ammoMax: 250
     rearmRate: 50
     launcher: STR_ALLOY_CANNON
     clip: STR_ALLOY_CANNON_ROUNDS_X25
     projectileType: 2
     projectileSpeed: 9
     weaponType: 1
+  - type: STR_AUTOMATKANON_UC
+    sprite: 2
+    sound: 4
+    damage: 44
+    shieldDamageModifier: 10
+    range: 14
+    accuracy: 48
+    reloadCautious: 6
+    reloadStandard: 6
+    reloadAggressive: 6
+    ammoMax: 280
+    rearmRate: 40
+    launcher: STR_AUTOMATKANON
+    clip: STR_AUTOMATKANON_ROUNDS_X20
+    projectileType: 2
+    projectileSpeed: 10
+    weaponType: 1
   - type: STR_SHRIKE
     sprite: 0
     sound: 301
-    damage: 70
+    damage: 100
     shieldDamageModifier: 10
     range: 37
     accuracy: 95
@@ -104,7 +121,7 @@ craftWeapons:
   - type: STR_SCORPION
     sprite: 0
     sound: 301
-    damage: 80
+    damage: 120
     shieldDamageModifier: 10
     range: 32
     accuracy: 105
@@ -121,13 +138,13 @@ craftWeapons:
   - type: STR_TORRENT
     sprite: 1
     sound: 303
-    damage: 135
+    damage: 180
     shieldDamageModifier: 10
     range: 60
     accuracy: 80
-    reloadCautious: 128
-    reloadStandard: 96
-    reloadAggressive: 64
+    reloadCautious: 120
+    reloadStandard: 90
+    reloadAggressive: 60
     ammoMax: 5
     rearmRate: 2
     launcher: STR_TORRENT_LAUNCHER
@@ -138,13 +155,13 @@ craftWeapons:
   - type: STR_RAGE
     sprite: 1
     sound: 309
-    damage: 250
+    damage: 350
     shieldDamageModifier: 10
     range: 52
     accuracy: 90
-    reloadCautious: 256
-    reloadStandard: 192
-    reloadAggressive: 128
+    reloadCautious: 224
+    reloadStandard: 168
+    reloadAggressive: 112
     ammoMax: 3
     rearmRate: 1
     launcher: STR_RAGE_LAUNCHER
@@ -155,13 +172,13 @@ craftWeapons:
   - type: STR_RAMPAGE
     sprite: 1
     sound: 309
-    damage: 310
+    damage: 420
     shieldDamageModifier: 10
     range: 48
     accuracy: 95
-    reloadCautious: 192
-    reloadStandard: 144
-    reloadAggressive: 96
+    reloadCautious: 88
+    reloadStandard: 66
+    reloadAggressive: 44
     ammoMax: 6
     rearmRate: 1
     launcher: STR_RAMPAGE_LAUNCHER
@@ -232,13 +249,13 @@ craftWeapons:
   - type: STR_CRAFT_LIGHT_PLASMA_UC
     sprite: 12
     sound: 308
-    damage: 115
+    damage: 125
     shieldDamageModifier: 10
     range: 36
     accuracy: 71
-    reloadCautious: 54
-    reloadStandard: 54
-    reloadAggressive: 54
+    reloadCautious: 48
+    reloadStandard: 48
+    reloadAggressive: 48
     ammoMax: 15
     rearmRate: 6
     launcher: STR_CRAFT_LIGHT_PLASMA
@@ -264,13 +281,13 @@ craftWeapons:
   - type: STR_PLASMA_BEAM_UC
     sprite: 5
     sound: 308
-    damage: 240
+    damage: 270
     shieldDamageModifier: 10
     range: 47
     accuracy: 63
-    reloadCautious: 72
-    reloadStandard: 72
-    reloadAggressive: 72
+    reloadCautious: 81
+    reloadStandard: 81
+    reloadAggressive: 81
     ammoMax: 12
     rearmRate: 4
     launcher: STR_PLASMA_BEAM
@@ -414,9 +431,9 @@ craftWeapons:
   - type: STR_UPGRADE_RADAR_SMALL
     sprite: 26
     stats:
-      radarRange: 300
-      radarChance: 9
-      sightRange: 300
+      radarRange: 900 #300
+      radarChance: 27 #9
+      sightRange: 900 #300
     launcher: STR_UPGRADE_RADAR_SMALL_UG
     weaponType: 1
     hidePediaInfo: true
@@ -529,9 +546,9 @@ craftWeapons:
     sprite: 39
     stats:
       fuelMax: 600
-      radarRange: 450
+      radarRange: 375
       radarChance: 12
-      sightRange: 450
+      sightRange: 375
     launcher: STR_COMBO_SENTINEL_UG
     weaponType: 21
     hidePediaInfo: true

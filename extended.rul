@@ -1,20 +1,12 @@
+# HYPER WAVE EQUIPMENT - Enables ability for craft to use hyper wave detection
+# DAMAGE INDICATOR - When hit, units flash a color based on the net effect of the hit
+# ZOMBIFICATION ARMOR - Global fix to Transformation attacks like Chryssalid zombification
+    # Requires at least 1 hit point of damage before zombification triggers
+    # This applies to *every* weapon that zombifies.  It *has* to get through armor to work.
+# AMMO INDICATOR - Allows weapons with multiple ammo types to change their sprite based on which ammo type they have inserted
 extended:
-  tags:
-    BattleUnit:
-      LAST_HIT_FRAME: int
-      # 1: only armor damaged, 2: hp damaged
-      LAST_HIT_TYPE: int
-      LAST_HIT_POWER: int
   scripts:
-    # hitUnit required to find side hit
-    # Otherwise we cannot get the armor value delta
-    hitUnit:
-    - offset: 20
-      code: |
-        var int unit_id;
-        unit.getId unit_id;
-        return power part side;
-    detectUfoFromCraft:
+    detectUfoFromCraft: # HYPER WAVE EQUIPMENT
       - offset: -1 # runs before local scripts
         code: |
           var int temp;
@@ -26,10 +18,13 @@ extended:
             return 3 detection_chance; # decoder visual
           end;
           return 1 detection_chance; # normal visual
-    damageUnit:
-    # Global fix to Transformation attacks like Chryssalid zombification
-    # Requires at least 1 hit point of damage before zombification triggers
-    # This applies to *every* weapon that zombifies.  It *has* to get through armor to work.
+    hitUnit: # DAMAGE INDICATOR - hitUnit required to find side hit, otherwise we cannot get the armor value delta
+    - offset: 20
+      code: |
+        var int unit_id;
+        unit.getId unit_id;
+        return power part side;
+    damageUnit: # ZOMBIFICATION ARMOR
       - offset: 4
         code: |
           if gt to_transform 0;
@@ -38,7 +33,7 @@ extended:
             end;
           end;
           return;
-      - offset: 99
+      - offset: 99 # ZOMBIFICATION ARMOR
         code: |
           set to_transform 100;
           unit.getHealth y;
@@ -47,7 +42,7 @@ extended:
           mul to_transform -1;
           add to_transform 100;
           return;
-      - offset: 99 # near last script to run
+      - offset: 99 # ZOMBIFICATION ARMOR
         code: |
           var int percent;
           var ptr RuleItem rule;
@@ -60,7 +55,7 @@ extended:
             set to_health temp; #damage that will be done to unit, other scripts can alter this after
           end;
           return;
-      - offset: 20
+      - offset: 20 # DAMAGE INDICATOR
         code: |
           var int temp;
           var int unit_id;
@@ -126,7 +121,7 @@ extended:
           end;
           return;
     recolorUnitSprite:
-      - offset: 20
+      - offset: 20 # DAMAGE INDICATOR
         code: |
           var int temp;
           var int hittype;
@@ -180,7 +175,7 @@ extended:
           
           return new_pixel;
     selectItemSprite:
-      - offset: 1
+      - offset: 1 # AMMO INDICATOR
         code: |
           var ptr BattleItem ammoItem;
           var ptr RuleItem weaponRuleset;
@@ -206,11 +201,16 @@ extended:
 
           return sprite_index;
   tags: # Tags and tag definitions must be in the same file.
-    RuleItem:
+    BattleUnit: # DAMAGE INDICATOR
+      LAST_HIT_FRAME: int
+      LAST_HIT_TYPE: int
+      LAST_HIT_POWER: int
+    RuleItem: # AMMO INDICATOR
       MODNAME_GUN_HP_CUT: int
       ALLOW_AMMO_TO_RESPRITE: int
       NEW_BIGOB_FOR_WEAPON: int
 items:
+# AMMO INDICATOR
   - type: STR_HEAVY_CANNON
     tags:
       ALLOW_AMMO_TO_RESPRITE: 1
