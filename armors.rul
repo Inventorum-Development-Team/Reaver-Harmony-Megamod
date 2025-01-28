@@ -1638,7 +1638,7 @@ armors:
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
       - 0.5 # 6 STUN
-      - 1.2 # 7 MELEE
+      - 0.8 # 7 MELEE
       - 0.5 # 8 ACID
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER
@@ -2401,7 +2401,7 @@ armors:
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
       - 0.5 # 6 STUN
-      - 1.2 # 7 MELEE
+      - 0.8 # 7 MELEE
       - 0.5 # 8 ACID
       - 0.0 # 9 SMOKE
       - 1.0 # 10 RAPID LASER

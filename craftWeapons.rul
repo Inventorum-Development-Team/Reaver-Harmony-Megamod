@@ -431,9 +431,9 @@ craftWeapons:
   - type: STR_UPGRADE_RADAR_SMALL
     sprite: 26
     stats:
-      radarRange: 900 #300
-      radarChance: 27 #9
-      sightRange: 900 #300
+      radarRange: 300
+      radarChance: 9
+      sightRange: 300
     launcher: STR_UPGRADE_RADAR_SMALL_UG
     weaponType: 1
     hidePediaInfo: true

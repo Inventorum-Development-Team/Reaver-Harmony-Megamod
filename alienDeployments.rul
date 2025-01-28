@@ -52,7 +52,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
-    bughuntMinTurn: 5
+    bughuntMinTurn: 7
   - type: STR_COVERT_OPS_SHIP
     data:
       - alienRank: 4
@@ -136,7 +136,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
-    bughuntMinTurn: 6
+    bughuntMinTurn: 10
   - type: STR_PATROLLER
     data:
       - alienRank: 4
@@ -226,7 +226,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
-    bughuntMinTurn: 6
+    bughuntMinTurn: 10
   - type: STR_MEDIUM_SCOUT
     data:
       - alienRank: 4
@@ -266,9 +266,9 @@ alienDeployments:
             - STR_PLASMA_PISTOL_RED_CLIP
             - STR_MIND_PROBE
       - alienRank: 5
-        lowQty: 2
-        highQty: 4
-        dQty: 0
+        lowQty: 1
+        highQty: 3
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -304,7 +304,7 @@ alienDeployments:
     width: 40
     length: 50
     height: 10
-    bughuntMinTurn: 8
+    bughuntMinTurn: 12
   - type: STR_LARGE_SCOUT
     data:
       - alienRank: 2
@@ -412,7 +412,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-    bughuntMinTurn: 12
+    bughuntMinTurn: 13
   - type: STR_LIGHT_DESTROYER
     data:
       - alienRank: 4
@@ -532,7 +532,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-    bughuntMinTurn: 10
+    bughuntMinTurn: 12
   - type: STR_HARVESTER
     data:
       - alienRank: 1
@@ -723,7 +723,7 @@ alienDeployments:
     width: 60
     length: 50
     height: 10
-    bughuntMinTurn: 15
+    bughuntMinTurn: 16
   - type: STR_ABDUCTOR
     data:
       - alienRank: 1
@@ -914,7 +914,7 @@ alienDeployments:
     width: 50
     length: 60
     height: 10
-    bughuntMinTurn: 15
+    bughuntMinTurn: 16
   - type: STR_CARGO_SHIP
     data:
       - alienRank: 2
@@ -1063,7 +1063,7 @@ alienDeployments:
     width: 60
     length: 50
     height: 10
-    bughuntMinTurn: 15
+    bughuntMinTurn: 16
   - type: STR_MEDIUM_DESTROYER
     data:
       - alienRank: 1
@@ -1343,7 +1343,7 @@ alienDeployments:
     width: 50
     length: 60
     height: 10
-    bughuntMinTurn: 15
+    bughuntMinTurn: 16
   - type: STR_TERROR_SHIP
     data:
       - alienRank: 1
@@ -2725,7 +2725,7 @@ alienDeployments:
     width: 70
     length: 70
     height: 10
-    bughuntMinTurn: 25
+    bughuntMinTurn: 30
   - type: STR_TERROR_MISSION
     data:
       - alienRank: 1
@@ -5228,7 +5228,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
-    bughuntMinTurn: 5
+    bughuntMinTurn: 7
   - type: STR_COVERT_OPS_SHIP_ELITE
     data:
       - alienRank: 4
@@ -5258,7 +5258,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
-    bughuntMinTurn: 6
+    bughuntMinTurn: 10
   - type: STR_PATROLLER_ELITE
     data:
       - alienRank: 4
@@ -5288,7 +5288,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
-    bughuntMinTurn: 6
+    bughuntMinTurn: 10
   - type: STR_MEDIUM_SCOUT_ELITE
     data:
       - alienRank: 4
@@ -5316,7 +5316,7 @@ alienDeployments:
     width: 50
     length: 40
     height: 10
-    bughuntMinTurn: 8
+    bughuntMinTurn: 12
   - type: STR_LARGE_SCOUT_ELITE
     data:
       - alienRank: 2
@@ -5354,7 +5354,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-    bughuntMinTurn: 12
+    bughuntMinTurn: 13
   - type: STR_LIGHT_DESTROYER_ELITE
     data:
       - alienRank: 4
@@ -5394,7 +5394,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-    bughuntMinTurn: 10
+    bughuntMinTurn: 12
   - type: STR_HARVESTER_ELITE
     data:
       - alienRank: 1
@@ -5455,7 +5455,7 @@ alienDeployments:
     width: 50
     length: 60
     height: 10
-    bughuntMinTurn: 15
+    bughuntMinTurn: 16
   - type: STR_ABDUCTOR_ELITE
     data:
       - alienRank: 1
@@ -5516,7 +5516,7 @@ alienDeployments:
     width: 60
     length: 50
     height: 10
-    bughuntMinTurn: 15
+    bughuntMinTurn: 16
   - type: STR_CARGO_SHIP_ELITE
     data:
       - alienRank: 2
@@ -5565,7 +5565,7 @@ alienDeployments:
     width: 50
     length: 60
     height: 10
-    bughuntMinTurn: 15
+    bughuntMinTurn: 16
   - type: STR_MEDIUM_DESTROYER_ELITE
     data:
       - alienRank: 1
@@ -5655,7 +5655,7 @@ alienDeployments:
     width: 60
     length: 50
     height: 10
-    bughuntMinTurn: 15
+    bughuntMinTurn: 16
   - type: STR_TERROR_SHIP_ELITE
     data:
       - alienRank: 1
@@ -6099,4 +6099,4 @@ alienDeployments:
     width: 70
     length: 70
     height: 10
-    bughuntMinTurn: 225
+    bughuntMinTurn: 30

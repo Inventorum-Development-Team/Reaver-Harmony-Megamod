@@ -87,7 +87,7 @@ itemCategories:
   - type: STR_CAT_SALVAGE
   - type: STR_CAT_DATA_MODULE
   - type: STR_CAT_FLAGSHIP_COMPONENT
-difficultyDemigod: true
+difficultyDemigod: false
 difficultyCoefficient: [0, 2, 4, 6, 8]
 difficultyBasedRetaliationDelay: [2, 1, 0, 0, 0]
 aimAndArmorMultipliers: [0.6, 0.9, 1.0, 1.3, 1.4]

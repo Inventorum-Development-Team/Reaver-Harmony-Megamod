@@ -436,17 +436,31 @@
 #           - Beginner/Experienced with night ops armor can see about as well as the aliens at night.
 #           - Superhuman/night ops can see better than some aliens, especially with personal lights turned off.
 #           - Payoff for good use of strategic lighting still just as strong, just less mission critical.
+#       * Assassin Armor melee resistance changed from 1.2 to 0.8.
 #       * Added Automatkanon outsource exclusive medium air weapon to provide a stronger cannon variant.
 #           - Low accuracy, high potential damage rate, more effective against larger targets.
 #       * Increased max ammo for Alloy Cannon from 200 to 250.
 #       * Reduced evasion of Battleship, Elite Battleship, and Elite Mothership.
-#       * 
-#       * 
+#       * Increased Lightning speed by 300 knots, from 1100 less than Firestorm to 800 less.
+#       * Reduced psionic potency of Snakeman Garrison race.
+#       * Adjusted BugHuntMin turns, mostly increasing them for smaller UFOs.
+#       * Ended DifficultyDemigod. I finally discovered this is the cause of all delta rolls hitting max.
+#           - This includes on Superhuman difficulty. It is now off on all five difficulties.
+#           - There are more than enough spawn points on Harmony maps to enable enemies to always spawn.
+#           - Maps from mods outside Harmony may not have enough spawn points.
+#               - Community Map Pack maps seem to consistently have enough spawn points.
+#           - DifficultyDemigod does not do anything to increase the difficulty of the game.
+#       * Medium Scout soldier count -1/+d1.
 #       * Made an enlarged baseview image for Starblazer.
-#       * 
-#       * 
-#       * Improved labeling of scripts in extended.rul
-#       * Updated some notes in alienMissions.rul
+#       * Assassin armor no longer weak to melee (what was I thinking).
+#       * Extended craft deployment lists to enable more troop positioning options in Geoscape.
+#           - Flagships not extended yet.
+#       * Fixed minor floor glitch in Terror Ship.
+#       * Fixed inoperable lifts in Battleship.
+#       * Fixed minor spawn node bug in Alien Outpost.
+#       * UFOPedia bug fix: req. for Battle Hovertank w/ Plasma report.
+#       * Improved labeling of scripts in extended.rul.
+#       * Updated some notes in alienMissions.rul.
 #
 #
 # resource authors/sources:
