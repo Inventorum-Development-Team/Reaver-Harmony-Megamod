@@ -174,8 +174,8 @@ mapScripts:
       size: 2
       executions: 3
     - type: fillArea
-      groups: [0, 1]
-      freqs: [3, 2]
+      groups: [0, 1, 6]
+      freqs: [7, 2, 1]
     - type: digTunnel
       direction: both
       tunnelData:

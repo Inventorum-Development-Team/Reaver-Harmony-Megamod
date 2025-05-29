@@ -1998,6 +1998,7 @@ manufacture:
     space: 1
     time: 240
     cost: 10000
+    refund: true
   - name: STR_PERSONAL_ARMOR_L
     listOrder: 2700
     category: STR_TROOP_EQUIPMENT
@@ -2006,6 +2007,7 @@ manufacture:
     space: 2
     time: 800
     cost: 33000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 4
     producedItems:
@@ -2018,6 +2020,7 @@ manufacture:
     space: 2
     time: 1400
     cost: 57000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 10
   - name: STR_POWER_SUIT
@@ -2028,6 +2031,7 @@ manufacture:
     space: 3
     time: 1500
     cost: 175000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 12
       STR_POWER_SKELETON: 1
@@ -2040,6 +2044,7 @@ manufacture:
     space: 3
     time: 2100
     cost: 250000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 9
       STR_POWER_SKELETON: 1
@@ -2054,6 +2059,7 @@ manufacture:
     space: 3
     time: 2400
     cost: 360000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 15
       STR_POWER_SKELETON: 2
@@ -2069,6 +2075,7 @@ manufacture:
     space: 3
     time: 3000
     cost: 440000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 12
       STR_POWER_SKELETON: 2
@@ -2086,6 +2093,7 @@ manufacture:
     space: 4
     time: 7500
     cost: 1600000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 15
       STR_ALIEN_POWER_ARRAYS: 12
@@ -2103,6 +2111,7 @@ manufacture:
     space: 4
     time: 6500
     cost: 900000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 6
       STR_ALIEN_COMPUTER_ARRAYS: 12
@@ -2163,6 +2172,7 @@ manufacture:
     space: 0
     time: 500
     cost: 0
+    refund: true
     requiredItems:
       STR_INTERCEPTOR_EASY: 1
     producedItems:
@@ -2176,6 +2186,7 @@ manufacture:
     space: 0
     time: 600
     cost: 0
+    refund: true
     requiredItems:
       STR_SKYRAIDER_EASY: 1
     producedItems:
@@ -2189,6 +2200,7 @@ manufacture:
     space: 0
     time: 800
     cost: 0
+    refund: true
     requiredItems:
       STR_MAMMOTH_EASY: 1
     producedItems:
@@ -2202,6 +2214,7 @@ manufacture:
     space: 0
     time: 500
     cost: 0
+    refund: true
     requiredItems:
       STR_INTERCEPTOR: 1
     producedItems:
@@ -2215,6 +2228,7 @@ manufacture:
     space: 0
     time: 600
     cost: 0
+    refund: true
     requiredItems:
       STR_SKYRAIDER: 1
     producedItems:
@@ -2228,6 +2242,7 @@ manufacture:
     space: 0
     time: 800
     cost: 0
+    refund: true
     requiredItems:
       STR_MAMMOTH: 1
     producedItems:
@@ -2241,6 +2256,7 @@ manufacture:
     space: 0
     time: 500
     cost: 0
+    refund: true
     requiredItems:
       STR_INTERCEPTOR_HARD: 1
     producedItems:
@@ -2254,6 +2270,7 @@ manufacture:
     space: 0
     time: 600
     cost: 0
+    refund: true
     requiredItems:
       STR_SKYRAIDER_HARD: 1
     producedItems:
@@ -2267,6 +2284,7 @@ manufacture:
     space: 0
     time: 800
     cost: 0
+    refund: true
     requiredItems:
       STR_MAMMOTH_HARD: 1
     producedItems:
@@ -2280,6 +2298,7 @@ manufacture:
     space: 12
     time: 4500
     cost: 450000
+    refund: true
     requiredItems:
       STR_PACKAGED_INTERCEPTOR: 1
       STR_ALIEN_ALLOYS: 16
@@ -2293,6 +2312,7 @@ manufacture:
     space: 18
     time: 5400
     cost: 550000
+    refund: true
     requiredItems:
       STR_PACKAGED_SKYRAIDER: 1
       STR_ALIEN_ALLOYS: 18
@@ -2306,6 +2326,7 @@ manufacture:
     space: 20
     time: 7200
     cost: 800000
+    refund: true
     requiredItems:
       STR_PACKAGED_MAMMOTH: 1
       STR_ALIEN_ALLOYS: 24
@@ -2319,6 +2340,7 @@ manufacture:
     space: 12
     time: 4500
     cost: 450000
+    refund: true
     requiredItems:
       STR_PACKAGED_INTERCEPTOR: 1
       STR_ALIEN_ALLOYS: 16
@@ -2332,6 +2354,7 @@ manufacture:
     space: 18
     time: 5400
     cost: 550000
+    refund: true
     requiredItems:
       STR_PACKAGED_SKYRAIDER: 1
       STR_ALIEN_ALLOYS: 18
@@ -2345,6 +2368,7 @@ manufacture:
     space: 20
     time: 7200
     cost: 800000
+    refund: true
     requiredItems:
       STR_PACKAGED_MAMMOTH: 1
       STR_ALIEN_ALLOYS: 24
@@ -2358,6 +2382,7 @@ manufacture:
     space: 12
     time: 4500
     cost: 450000
+    refund: true
     requiredItems:
       STR_PACKAGED_INTERCEPTOR: 1
       STR_ALIEN_ALLOYS: 16
@@ -2371,6 +2396,7 @@ manufacture:
     space: 18
     time: 5400
     cost: 550000
+    refund: true
     requiredItems:
       STR_PACKAGED_SKYRAIDER: 1
       STR_ALIEN_ALLOYS: 18
@@ -2384,6 +2410,7 @@ manufacture:
     space: 20
     time: 7200
     cost: 800000
+    refund: true
     requiredItems:
       STR_PACKAGED_MAMMOTH: 1
       STR_ALIEN_ALLOYS: 24
@@ -2397,6 +2424,7 @@ manufacture:
     space: 30
     time: 14000
     cost: 1800000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 60
       STR_ALIEN_POWER_ARRAYS: 10
@@ -2410,6 +2438,7 @@ manufacture:
     space: 55
     time: 18000
     cost: 4200000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 150
       STR_ALIEN_POWER_ARRAYS: 15
@@ -2423,6 +2452,7 @@ manufacture:
     space: 40
     time: 26000
     cost: 5600000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 110
       STR_ALIEN_POWER_ARRAYS: 40
@@ -2436,6 +2466,7 @@ manufacture:
     space: 65
     time: 38000
     cost: 12400000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 45
@@ -2449,6 +2480,7 @@ manufacture:
     space: 30
     time: 14000
     cost: 1800000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 60
       STR_ALIEN_POWER_ARRAYS: 10
@@ -2462,6 +2494,7 @@ manufacture:
     space: 55
     time: 18000
     cost: 4200000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 150
       STR_ALIEN_POWER_ARRAYS: 15
@@ -2475,6 +2508,7 @@ manufacture:
     space: 40
     time: 26000
     cost: 5600000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 110
       STR_ALIEN_POWER_ARRAYS: 40
@@ -2488,6 +2522,7 @@ manufacture:
     space: 65
     time: 38000
     cost: 12400000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 45
@@ -2501,6 +2536,7 @@ manufacture:
     space: 30
     time: 14000
     cost: 1800000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 60
       STR_ALIEN_POWER_ARRAYS: 10
@@ -2514,6 +2550,7 @@ manufacture:
     space: 55
     time: 18000
     cost: 4200000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 150
       STR_ALIEN_POWER_ARRAYS: 15
@@ -2527,6 +2564,7 @@ manufacture:
     space: 40
     time: 26000
     cost: 5600000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 110
       STR_ALIEN_POWER_ARRAYS: 40
@@ -2540,6 +2578,7 @@ manufacture:
     space: 65
     time: 38000
     cost: 12400000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 45
@@ -2553,6 +2592,7 @@ manufacture:
     space: 36
     time: 24000
     cost: 5800000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 22
@@ -2572,6 +2612,7 @@ manufacture:
     space: 50
     time: 60000
     cost: 12400000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 350
       STR_ALIEN_POWER_ARRAYS: 60
@@ -2591,6 +2632,7 @@ manufacture:
     space: 38
     time: 36000
     cost: 7200000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 200
       STR_ALIEN_POWER_ARRAYS: 52
@@ -2610,6 +2652,7 @@ manufacture:
     space: 44
     time: 45000
     cost: 9000000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 280
       STR_ALIEN_POWER_ARRAYS: 36
@@ -2629,6 +2672,7 @@ manufacture:
     space: 36
     time: 24000
     cost: 5800000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 22
@@ -2648,6 +2692,7 @@ manufacture:
     space: 50
     time: 60000
     cost: 12400000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 350
       STR_ALIEN_POWER_ARRAYS: 60
@@ -2667,6 +2712,7 @@ manufacture:
     space: 38
     time: 36000
     cost: 7200000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 200
       STR_ALIEN_POWER_ARRAYS: 52
@@ -2686,6 +2732,7 @@ manufacture:
     space: 44
     time: 45000
     cost: 9000000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 280
       STR_ALIEN_POWER_ARRAYS: 36
@@ -2705,6 +2752,7 @@ manufacture:
     space: 36
     time: 24000
     cost: 5800000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 180
       STR_ALIEN_POWER_ARRAYS: 22
@@ -2724,6 +2772,7 @@ manufacture:
     space: 50
     time: 60000
     cost: 12400000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 350
       STR_ALIEN_POWER_ARRAYS: 60
@@ -2743,6 +2792,7 @@ manufacture:
     space: 38
     time: 36000
     cost: 7200000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 200
       STR_ALIEN_POWER_ARRAYS: 52
@@ -2762,6 +2812,7 @@ manufacture:
     space: 44
     time: 45000
     cost: 9000000
+    refund: true
     requiredItems:
       STR_ALIEN_ALLOYS: 280
       STR_ALIEN_POWER_ARRAYS: 36
@@ -2787,6 +2838,7 @@ manufacture:
     space: 2
     time: 240
     cost: 13200
+    refund: true
     requiredItems:
       STR_BROKEN_ARMOR: 1
       STR_ALIEN_ALLOYS: 2
@@ -2800,6 +2852,7 @@ manufacture:
     space: 2
     time: 420
     cost: 22800
+    refund: true
     requiredItems:
       STR_BROKEN_ARMOR_ALLOY: 1
       STR_ALIEN_ALLOYS: 3
@@ -2814,6 +2867,7 @@ manufacture:
     space: 2
     time: 500
     cost: 21000
+    refund: true
     requiredItems:
       STR_BROKEN_NIGHT_OPS_ARMOR: 1
       STR_ALIEN_ALLOYS: 1
@@ -2832,6 +2886,7 @@ manufacture:
     space: 2
     time: 600
     cost: 26500
+    refund: true
     requiredItems:
       STR_BROKEN_PSIONIC_ALLOY_ARMOR: 1
       STR_ALIEN_ALLOYS: 1
@@ -2846,6 +2901,7 @@ manufacture:
     space: 3
     time: 450
     cost: 64000
+    refund: true
     requiredItems:
       STR_BROKEN_DARK_SUIT: 1
       STR_ALIEN_ALLOYS: 8
@@ -2860,6 +2916,7 @@ manufacture:
     space: 3
     time: 630
     cost: 90000
+    refund: true
     requiredItems:
       STR_BROKEN_SUIT: 1
       STR_ALIEN_ALLOYS: 6
@@ -2875,6 +2932,7 @@ manufacture:
     space: 3
     time: 720
     cost: 144000
+    refund: true
     requiredItems:
       STR_BROKEN_SUIT_PSI1: 1
       STR_ALIEN_ALLOYS: 5
@@ -2893,6 +2951,7 @@ manufacture:
     space: 3
     time: 900
     cost: 176000
+    refund: true
     requiredItems:
       STR_BROKEN_SUIT_PSI2: 1
       STR_ALIEN_ALLOYS: 4
@@ -2912,6 +2971,7 @@ manufacture:
     space: 4
     time: 2250
     cost: 560000
+    refund: true
     requiredItems:
       STR_BROKEN_PALADIN_ARMOR: 1
       STR_ALIEN_ALLOYS: 5
@@ -2932,6 +2992,7 @@ manufacture:
     space: 4
     time: 1950
     cost: 320000
+    refund: true
     requiredItems:
       STR_BROKEN_ASSASSIN_ARMOR: 1
       STR_ALIEN_ALLOYS: 4

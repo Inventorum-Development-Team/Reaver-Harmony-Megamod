@@ -4,7 +4,7 @@ units:
     stats:
       tu: 25
       stamina: 10
-      health: 50
+      health: 75
       bravery: 110
       reactions: 40
       firing: 80
@@ -17,8 +17,8 @@ units:
     standHeight: 12
     kneelHeight: 12
     floatHeight: 0
-    value: 2
-    moraleLossWhenKilled: 10
+    value: 5
+    moraleLossWhenKilled: 20
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
@@ -31,7 +31,7 @@ units:
     stats:
       tu: 25
       stamina: 10
-      health: 50
+      health: 75
       bravery: 110
       reactions: 40
       firing: 80
@@ -44,8 +44,8 @@ units:
     standHeight: 12
     kneelHeight: 12
     floatHeight: 0
-    value: 2
-    moraleLossWhenKilled: 10
+    value: 5
+    moraleLossWhenKilled: 20
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
@@ -58,7 +58,7 @@ units:
     stats:
       tu: 25
       stamina: 10
-      health: 70
+      health: 105
       bravery: 110
       reactions: 40
       firing: 80
@@ -71,8 +71,8 @@ units:
     standHeight: 12
     kneelHeight: 12
     floatHeight: 0
-    value: 3
-    moraleLossWhenKilled: 10
+    value: 8
+    moraleLossWhenKilled: 20
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
@@ -85,7 +85,7 @@ units:
     stats:
       tu: 25
       stamina: 10
-      health: 70
+      health: 100
       bravery: 110
       reactions: 40
       firing: 80
@@ -98,8 +98,8 @@ units:
     standHeight: 12
     kneelHeight: 12
     floatHeight: 0
-    value: 3
-    moraleLossWhenKilled: 10
+    value: 8
+    moraleLossWhenKilled: 20
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
@@ -112,7 +112,7 @@ units:
     stats:
       tu: 25
       stamina: 10
-      health: 90
+      health: 135
       bravery: 110
       reactions: 40
       firing: 80
@@ -125,8 +125,8 @@ units:
     standHeight: 12
     kneelHeight: 12
     floatHeight: 0
-    value: 4
-    moraleLossWhenKilled: 10
+    value: 10
+    moraleLossWhenKilled: 20
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true
@@ -139,7 +139,7 @@ units:
     stats:
       tu: 25
       stamina: 10
-      health: 90
+      health: 125
       bravery: 110
       reactions: 40
       firing: 80
@@ -152,8 +152,8 @@ units:
     standHeight: 12
     kneelHeight: 12
     floatHeight: 0
-    value: 4
-    moraleLossWhenKilled: 10
+    value: 10
+    moraleLossWhenKilled: 20
     deathSound: 23
     energyRecovery: 10
     livingWeapon: true

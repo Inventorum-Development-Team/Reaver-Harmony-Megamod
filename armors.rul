@@ -137,27 +137,27 @@ armors:
     underArmor: 30
     size: 1
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.3 # 2 FIRE
-      - 1.0 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.27 # 2 FIRE
+      - 0.9 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.8 # 7 MELEE
-      - 1.0 # 8 ACID
+      - 0.72 # 7 MELEE
+      - 0.9 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.75 # 12 INCENDIARY
-      - 1.0 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.99 # 10 RAPID LASER
+      - 0.81 # 11 ARMOR PENETRATOR
+      - 0.675 # 12 INCENDIARY
+      - 0.9 # 13 FUSION
+      - 0.81 # 14 PENETRATOR LASER
+      - 0.81 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.99 # 17 BALLISTIC
+      - 0.99 # 18 RAPID PLASMA
       - 0.0 # 19
-    overKill: 2
+    overKill: 1.8
     zombiImmune: true
     bleedImmune: true
     painImmune: true
@@ -172,33 +172,33 @@ armors:
     corpseGeo: STR_DEFENSE_LASER_TURRET_CORPSE
     corpseBattle:
       - STR_DEFENSE_LASER_TURRET_CORPSE
-    frontArmor: 60
-    sideArmor: 60
-    rearArmor: 60
-    underArmor: 45
+    frontArmor: 65
+    sideArmor: 65
+    rearArmor: 65
+    underArmor: 50
     size: 1
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.3 # 2 FIRE
-      - 1.0 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.27 # 2 FIRE
+      - 0.9 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.8 # 7 MELEE
-      - 1.0 # 8 ACID
+      - 0.72 # 7 MELEE
+      - 0.9 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.75 # 12 INCENDIARY
-      - 1.0 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.99 # 10 RAPID LASER
+      - 0.81 # 11 ARMOR PENETRATOR
+      - 0.675 # 12 INCENDIARY
+      - 0.9 # 13 FUSION
+      - 0.81 # 14 PENETRATOR LASER
+      - 0.81 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.99 # 17 BALLISTIC
+      - 0.99 # 18 RAPID PLASMA
       - 0.0 # 19
-    overKill: 2
+    overKill: 1.8
     zombiImmune: true
     bleedImmune: true
     painImmune: true
@@ -213,33 +213,33 @@ armors:
     corpseGeo: STR_DEFENSE_PLASMA_TURRET_CORPSE
     corpseBattle:
       - STR_DEFENSE_PLASMA_TURRET_CORPSE
-    frontArmor: 80
-    sideArmor: 80
-    rearArmor: 80
-    underArmor: 60
+    frontArmor: 90
+    sideArmor: 90
+    rearArmor: 90
+    underArmor: 70
     size: 1
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.3 # 2 FIRE
-      - 1.0 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.27 # 2 FIRE
+      - 0.9 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.8 # 7 MELEE
-      - 1.0 # 8 ACID
+      - 0.72 # 7 MELEE
+      - 0.9 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.75 # 12 INCENDIARY
-      - 1.0 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.99 # 10 RAPID LASER
+      - 0.81 # 11 ARMOR PENETRATOR
+      - 0.675 # 12 INCENDIARY
+      - 0.9 # 13 FUSION
+      - 0.81 # 14 PENETRATOR LASER
+      - 0.81 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.99 # 17 BALLISTIC
+      - 0.99 # 18 RAPID PLASMA
       - 0.0 # 19
-    overKill: 2
+    overKill: 1.8
     zombiImmune: true
     bleedImmune: true
     painImmune: true
@@ -263,25 +263,25 @@ armors:
     drawingRoutine: 2
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.12 # 2 FIRE
-      - 0.5 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.108 # 2 FIRE
+      - 0.45 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.4 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.36 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -304,25 +304,25 @@ armors:
     drawingRoutine: 2
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.18 # 2 FIRE
-      - 0.55 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.162 # 2 FIRE
+      - 0.495 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.5 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.45 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -345,25 +345,25 @@ armors:
     drawingRoutine: 2
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.24 # 2 FIRE
-      - 0.6 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.216 # 2 FIRE
+      - 0.54 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.6 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.54 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -427,25 +427,25 @@ armors:
     drawingRoutine: 2
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.18 # 2 FIRE
-      - 0.55 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.162 # 2 FIRE
+      - 0.495 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.5 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.45 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -468,25 +468,25 @@ armors:
     drawingRoutine: 2
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.24 # 2 FIRE
-      - 0.6 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.216 # 2 FIRE
+      - 0.54 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.6 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.54 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -509,25 +509,25 @@ armors:
     drawingRoutine: 2
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.06 # 2 FIRE
-      - 0.525 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.054 # 2 FIRE
+      - 0.4725 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.3 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.27 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -535,7 +535,7 @@ armors:
     visibilityAtDark: 20
     camouflageAtDay: -2
     camouflageAtDark: -4
-    heatVision: 67
+    heatVision: 80
     personalLight: 0
     loftempsSet: [ 92, 89, 90, 91 ]
   - type: TANK_ARMOR_VIGILANTE
@@ -553,25 +553,25 @@ armors:
     drawingRoutine: 2
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.15 # 2 FIRE
-      - 0.575 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.135 # 2 FIRE
+      - 0.5175 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.45 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.405 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -642,25 +642,25 @@ armors:
     movementType: 1
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.18 # 2 FIRE
-      - 0.55 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.162 # 2 FIRE
+      - 0.495 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.5 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.45 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -685,25 +685,25 @@ armors:
     movementType: 1
     size: 2
     damageModifier:
-      - 1.0 # 0 NONE
-      - 1.0 # 1 ARMOR PIERCING
-      - 0.24 # 2 FIRE
-      - 0.6 # 3 HIGH EXPLOSIVE
-      - 1.0 # 4 LASER
-      - 1.0 # 5 PLASMA
+      - 0.9 # 0 NONE
+      - 0.9 # 1 ARMOR PIERCING
+      - 0.216 # 2 FIRE
+      - 0.54 # 3 HIGH EXPLOSIVE
+      - 0.9 # 4 LASER
+      - 0.9 # 5 PLASMA
       - 0.0 # 6 STUN
-      - 0.9 # 7 MELEE
-      - 0.4 # 8 ACID
+      - 0.81 # 7 MELEE
+      - 0.36 # 8 ACID
       - 0.0 # 9 SMOKE
-      - 1.0 # 10 RAPID LASER
-      - 1.0 # 11 ARMOR PENETRATOR
-      - 0.6 # 12 INCENDIARY
-      - 0.6 # 13 FUSION
-      - 1.0 # 14 PENETRATOR LASER
-      - 1.0 # 15 PENETRATOR PLASMA
-      - 1.0 # 16 ELECTRIC SHOCK
-      - 1.0 # 17 BALLISTIC
-      - 1.0 # 18 RAPID PLASMA
+      - 0.9 # 10 RAPID LASER
+      - 0.9 # 11 ARMOR PENETRATOR
+      - 0.54 # 12 INCENDIARY
+      - 0.54 # 13 FUSION
+      - 0.9 # 14 PENETRATOR LASER
+      - 0.9 # 15 PENETRATOR PLASMA
+      - 0.9 # 16 ELECTRIC SHOCK
+      - 0.9 # 17 BALLISTIC
+      - 0.9 # 18 RAPID PLASMA
       - 0.0 # 19
     overKill: 2
     meleeDodge:
@@ -1055,7 +1055,7 @@ armors:
     damageModifier:
       - 1.0 # 0 NONE
       - 1.0 # 1 ARMOR PIERCING
-      - 0.6 # 2 FIRE
+      - 0.36 # 2 FIRE
       - 0.8 # 3 HIGH EXPLOSIVE
       - 1.0 # 4 LASER
       - 1.0 # 5 PLASMA
@@ -3053,7 +3053,7 @@ armors:
       - 0.8 # 13 FUSION
       - 1.2 # 14 PENETRATOR LASER
       - 0.96 # 15 PENETRATOR PLASMA
-      - 0.0 # 16 ELECTRIC SHOCK
+      - 1.5 # 16 ELECTRIC SHOCK
       - 0.8 # 17 BALLISTIC
       - 0.88 # 18 RAPID PLASMA
       - 0.0 # 19

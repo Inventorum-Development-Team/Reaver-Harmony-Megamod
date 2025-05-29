@@ -461,6 +461,46 @@
 #       * UFOPedia bug fix: req. for Battle Hovertank w/ Plasma report.
 #       * Improved labeling of scripts in extended.rul.
 #       * Updated some notes in alienMissions.rul.
+#   1.1.7   Balance pass, buffing the weak stuff
+#       * Added UFOPedia reports on alien armor and resistances, unlocked by researching their autopsy.
+#       * Gave flagships a free +10% hit bonus.
+#       * Amaranth flagship now has full deployment list for customizing troop layouts.
+#       * Increased Interceptor and Interdictor damage capacity by 20.
+#       * Increased Mammoth damage capacity by 30.
+#       * Increased craft Cannon accuracy from 40 to 44.
+#       * Reduced Mothership avoidance from 0 to -5.
+#       * Gave tanks a 10% global damage reduction.
+#       * Greatly reduced TU cost to fire tank cannons (launchers unaffected).
+#       * Significantly reduced TU cost to fire tank auxiliary weapons.
+#       * Tank autofiring auxiliary weapons now use the snap shot slot to enable auxiliary reaction fire.
+#       * Greatly increased Cerberus tank's heat vision.
+#       * Increased Rifle/Laser Rifle/Plasma Rifle accuracy by 10% and reduced their aimed shot TU cost by 20%.
+#       * Increased Rifle/Laser Rifle/Plasma Rifle auto and snap range by 4 tiles.
+#       * Increased Heavy Cannon/Heavy Laser/Heavy Plasma auto and snap range by 4 tiles.
+#       * Returned Super Stun Lance overkilling. (That means it can vaporize units and leave no corpse.)
+#       * Removed Zombie immunity to electric shock. A Super Stun Lance may kill the chryssalid inside.
+#       * Radius damage reduction of Demolition Charge reduced by 0.5 per tile.
+#       * 
+#       * Large UFOs made less likely to not provide alien containment.
+#       * Sectoid Research Team and similar races renamed to Alien *** Mix to avoid confusion.
+#       * Security Station build cost greatly increased; turrets and walls now much stronger.
+#       * Medical facilities American Red Cross logo changed to Rod of Asclepius.
+#       * Hangar now has proper under construction sprite.
+#       * Tanks less likely to spawn in Large Living Quarters when sufficient General Stores available.
+#       * Reduced build time of Barracks from 14 days to 12 days. Large Barracks unchanged.
+#       * Reduced several facility removal times; now small take 2 and large take 3 days, generally.
+#       * Access Lift no longer spawns a tank inside it when the base is not overcrowded.
+#       * Touched up a few spawn nodes in base defense.
+#       * 
+#       * Added 1 Psi Wave Decoder to Salvage UFO Navigation to reduce odds of having a lack of source.
+#         - Concluded it needs no cost rebalance as the previous direct salvage to sales profit was too low.
+#       * Large Scout Engineers now carry blaster launchers in later game, in keeping with UFOPedia hint text.
+#       * Added battleType to psi amp.
+#       * Fixed fire weakness bug on Heavy Alloy Armor.
+#       * 
+#       * Fixed UFOPedia text bug with rocket tanks.
+#       * 
+#       * 
 #
 #
 # resource authors/sources:

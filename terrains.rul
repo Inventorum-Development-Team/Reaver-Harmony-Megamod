@@ -239,6 +239,52 @@ terrains:
         width: 10
         length: 10
         groups: 5
+      - name: UBASE_20
+        width: 20
+        length: 20
+        groups: 3
+      - name: UBASE_21
+        width: 20
+        length: 20
+      - name: UBASE_22
+        width: 20
+        length: 20
+      - name: UBASE_23
+        width: 20
+        length: 20
+        items:
+          STR_ELERIUM_115:
+            - [1, 11, 1]
+            - [3, 15, 1]
+            - [1, 17, 1]
+            - [5, 9, 1]
+      - name: UBASE_24
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [1, 2]
+      - name: UBASE_25
+        width: 10
+        length: 10
+      - name: UBASE_26
+        width: 10
+        length: 10
+      - name: UBASE_27
+        width: 10
+        length: 10
+        groups: 6
+      - name: UBASE_28
+        width: 10
+        length: 10
+      - name: UBASE_29
+        width: 10
+        length: 10
+      - name: UBASE_30
+        width: 10
+        length: 10
+      - name: UBASE_31
+        width: 10
+        length: 10
   - name: UPOST
     mapDataSets:
       - BLANKS

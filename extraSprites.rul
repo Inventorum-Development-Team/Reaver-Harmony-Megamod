@@ -769,6 +769,14 @@ extraSprites:
       591: Resources/LargeFacilities/blank.gif
       592: Resources/LargeFacilities/blank.gif
       593: Resources/LargeFacilities/basebits_23R.png
+      594: Resources/LargeFacilities/basebits_09_0.gif
+      595: Resources/LargeFacilities/basebits_10_0.gif
+      596: Resources/LargeFacilities/basebits_11_0.gif
+      597: Resources/LargeFacilities/basebits_12_0.gif
+      598: Resources/LargeFacilities/bhangar_0.png
+      599: Resources/LargeFacilities/bhangar_1.png
+      600: Resources/LargeFacilities/bhangar_2.png
+      601: Resources/LargeFacilities/bhangar_3.png
 #
       720: Resources/DestroyedFacilities/destroyed_GS2_1R.png
       721: Resources/DestroyedFacilities/destroyed_GS2_2.png
@@ -1815,7 +1823,7 @@ extraSprites:
   - type: FLOATER.SPK
     singleImage: true
     files:
-      0: Resources/Elite Aliens/inventory_FLOATER.gif
+      0: Resources/Elite Aliens/inventory_FLOATER.png
   - type: FLOATER1.SPK
     singleImage: true
     files:
@@ -1841,7 +1849,7 @@ extraSprites:
   - type: SNAKEMAN.SPK
     singleImage: true
     files:
-      0: Resources/Elite Aliens/inventory_SNAKEMAN.gif
+      0: Resources/Elite Aliens/inventory_SNAKEMAN.png
   - type: SNAKEMAN1.SPK
     singleImage: true
     files:
@@ -1879,7 +1887,7 @@ extraSprites:
   - type: REAPER.SPK
     singleImage: true
     files:
-      0: Resources/Elite Aliens/inventory_REAPER.gif
+      0: Resources/Elite Aliens/inventory_REAPER.png
   - type: CHRYSSALID.SPK
     singleImage: true
     files:
@@ -1948,7 +1956,7 @@ extraSprites:
   - type: SNAKEMAN_COMMANDER_B.SPK
     singleImage: true
     files:
-      0: Resources/Elite Aliens/Snakeman_Commander_Inventory.png
+      0: Resources/Elite Aliens/Snakeman_CommanderB_Inventory.png
   - type: SNAKEMAN_COMMANDER_B_RESEARCH.SPK
     singleImage: true
     files:

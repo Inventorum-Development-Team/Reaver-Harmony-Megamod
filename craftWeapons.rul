@@ -5,7 +5,7 @@ craftWeapons:
     damage: 20
     shieldDamageModifier: 10
     range: 10
-    accuracy: 40
+    accuracy: 44
     reloadCautious: 6
     reloadStandard: 6
     reloadAggressive: 6

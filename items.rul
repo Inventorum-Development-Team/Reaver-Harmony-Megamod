@@ -729,11 +729,11 @@ items:
     hitAnimation: 1
   - type: STR_TURRET_WEAPON_AP_H
     bigSprite: 246
-    bulletSprite: 16
+    bulletSprite: 18
     fireSound: 12
     hitSound: 13
     hitAnimation: 26
-    power: 40
+    power: 50
     damageType: 11
     damageAlter:
       ArmorEffectiveness: 0.42
@@ -758,7 +758,7 @@ items:
     fireSound: 4
     hitSound: 22
     hitAnimation: -1
-    power: 25
+    power: 30
     damageType: 17
     damageAlter:
       ArmorEffectiveness: 0.72
@@ -787,7 +787,7 @@ items:
     fireSound: 314
     hitSound: 303
     hitAnimation: 36
-    power: 80
+    power: 100
     damageType: 14
     damageAlter:
       ArmorEffectiveness: 0.69
@@ -812,7 +812,7 @@ items:
     fireSound: 11
     hitSound: 19
     hitAnimation: -1
-    power: 50
+    power: 60
     damageType: 10
     damageAlter:
       ArmorEffectiveness: 1.2
@@ -842,7 +842,7 @@ items:
     fireSound: 316
     hitSound: 19
     hitAnimation: 56
-    power: 120
+    power: 150
     damageType: 15
     damageAlter:
       ArmorEffectiveness: 0.69
@@ -868,7 +868,7 @@ items:
     fireSound: 18
     hitSound: 19
     hitAnimation: -1
-    power: 75
+    power: 90
     damageType: 18
     damageAlter:
       ArmorEffectiveness: 1.2
@@ -905,12 +905,14 @@ items:
       ToArmor: 0
       ToArmorPre: 0.075
       TileDamageMethod: 2
-    accuracyAuto: 50
-    tuAuto: 40
-    autoRange: 6
+    accuracySnap: 50
+    tuSnap: 31
+    snapRange: 6
     dropoff: 2
     bulletSpeed: 18
-    autoShots: 5
+    confSnap:
+      shots: 5
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -934,12 +936,14 @@ items:
       ToArmorPre: 0.07
       ToTile: 0.44
       TileDamageMethod: 2
-    accuracyAuto: 50
-    tuAuto: 40
-    autoRange: 7
+    accuracySnap: 50
+    tuSnap: 31
+    snapRange: 7
     dropoff: 2
     bulletSpeed: 18
-    autoShots: 5
+    confSnap:
+      shots: 5
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -963,12 +967,14 @@ items:
       ToArmorPre: 0.065
       ToTile: 0.4
       TileDamageMethod: 2
-    accuracyAuto: 50
-    tuAuto: 40
-    autoRange: 8
+    accuracySnap: 50
+    tuSnap: 31
+    snapRange: 8
     dropoff: 2
     bulletSpeed: 18
-    autoShots: 5
+    confSnap:
+      shots: 5
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -992,7 +998,7 @@ items:
       ToArmorPre: 0.052
       ToTile: 0.55
     accuracySnap: 65
-    tuSnap: 23
+    tuSnap: 18
     snapRange: 8
     bulletSpeed: 3
     battleType: 1
@@ -1017,7 +1023,7 @@ items:
       ToArmorPre: 0.052
       ToTile: 0.55
     accuracySnap: 65
-    tuSnap: 23
+    tuSnap: 18
     snapRange: 8
     bulletSpeed: 3
     battleType: 1
@@ -1042,7 +1048,7 @@ items:
       ToArmorPre: 0.052
       ToTile: 0.55
     accuracySnap: 65
-    tuSnap: 23
+    tuSnap: 18
     snapRange: 8
     bulletSpeed: 3
     battleType: 1
@@ -1067,7 +1073,7 @@ items:
       ToArmorPre: 0.044
       ToTile: 0.64
     accuracySnap: 60
-    tuSnap: 21
+    tuSnap: 17
     snapRange: 9
     bulletSpeed: 3
     battleType: 1
@@ -1092,7 +1098,7 @@ items:
       ToArmorPre: 0.044
       ToTile: 0.64
     accuracySnap: 60
-    tuSnap: 21
+    tuSnap: 17
     snapRange: 9
     bulletSpeed: 3
     battleType: 1
@@ -1117,7 +1123,7 @@ items:
       ToArmorPre: 0.044
       ToTile: 0.64
     accuracySnap: 60
-    tuSnap: 21
+    tuSnap: 17
     snapRange: 9
     bulletSpeed: 3
     battleType: 1
@@ -1142,7 +1148,7 @@ items:
       ToArmorPre: 0.036
       ToTile: 0.7
     accuracySnap: 55
-    tuSnap: 19
+    tuSnap: 16
     snapRange: 10
     bulletSpeed: 3
     battleType: 1
@@ -1167,7 +1173,7 @@ items:
       ToArmorPre: 0.036
       ToTile: 0.7
     accuracySnap: 55
-    tuSnap: 19
+    tuSnap: 16
     snapRange: 10
     bulletSpeed: 3
     battleType: 1
@@ -1192,7 +1198,7 @@ items:
       ToArmorPre: 0.036
       ToTile: 0.7
     accuracySnap: 55
-    tuSnap: 19
+    tuSnap: 16
     snapRange: 10
     bulletSpeed: 3
     battleType: 1
@@ -1216,12 +1222,14 @@ items:
       ToArmor: 0
       ToArmorPre: 0.125
       TileDamageMethod: 2
-    accuracyAuto: 65
-    tuAuto: 40
-    autoRange: 7
+    accuracySnap: 65
+    tuSnap: 31
+    snapRange: 7
     dropoff: 2
     bulletSpeed: 15
-    autoShots: 4
+    confSnap:
+      shots: 4
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -1244,12 +1252,14 @@ items:
       ToArmor: 0
       ToArmorPre: 0.125
       TileDamageMethod: 2
-    accuracyAuto: 65
-    tuAuto: 40
-    autoRange: 7
+    accuracySnap: 65
+    tuSnap: 31
+    snapRange: 7
     dropoff: 2
     bulletSpeed: 15
-    autoShots: 4
+    confSnap:
+      shots: 4
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -1273,12 +1283,14 @@ items:
       ToArmorPre: 0.115
       ToTile: 0.44
       TileDamageMethod: 2
-    accuracyAuto: 65
-    tuAuto: 40
-    autoRange: 8
+    accuracySnap: 65
+    tuSnap: 31
+    snapRange: 8
     dropoff: 2
     bulletSpeed: 15
-    autoShots: 4
+    confSnap:
+      shots: 4
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -1302,12 +1314,14 @@ items:
       ToArmorPre: 0.115
       ToTile: 0.44
       TileDamageMethod: 2
-    accuracyAuto: 65
-    tuAuto: 40
-    autoRange: 8
+    accuracySnap: 65
+    tuSnap: 31
+    snapRange: 8
     dropoff: 2
     bulletSpeed: 15
-    autoShots: 4
+    confSnap:
+      shots: 4
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -1331,12 +1345,14 @@ items:
       ToArmorPre: 0.105
       ToTile: 0.4
       TileDamageMethod: 2
-    accuracyAuto: 65
-    tuAuto: 40
-    autoRange: 9
+    accuracySnap: 65
+    tuSnap: 31
+    snapRange: 9
     dropoff: 2
     bulletSpeed: 15
-    autoShots: 4
+    confSnap:
+      shots: 4
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -1360,12 +1376,14 @@ items:
       ToArmorPre: 0.105
       ToTile: 0.4
       TileDamageMethod: 2
-    accuracyAuto: 65
-    tuAuto: 40
-    autoRange: 9
+    accuracySnap: 65
+    tuSnap: 31
+    snapRange: 9
     dropoff: 2
     bulletSpeed: 15
-    autoShots: 4
+    confSnap:
+      shots: 4
+      name: STR_AUTO_SHOT
     sprayWaypoints: 2
     battleType: 1
     fixedWeapon: true
@@ -1420,7 +1438,7 @@ items:
       TileDamageMethod: 2
       RandomType: 1
     accuracySnap: 50
-    tuSnap: 30
+    tuSnap: 24
     snapRange: 10
     dropoff: 1
     shotgunPellets: 10
@@ -1454,8 +1472,8 @@ items:
     damageType: 1
     accuracySnap: 70
     accuracyAimed: 120
-    tuSnap: 28
-    tuAimed: 62
+    tuSnap: 19
+    tuAimed: 35
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -1474,8 +1492,8 @@ items:
     customItemPreviewIndex: 7
     accuracySnap: 70
     accuracyAimed: 120
-    tuSnap: 28
-    tuAimed: 62
+    tuSnap: 19
+    tuAimed: 35
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -1501,8 +1519,8 @@ items:
     damageType: 1
     accuracySnap: 70
     accuracyAimed: 120
-    tuSnap: 28
-    tuAimed: 62
+    tuSnap: 19
+    tuAimed: 35
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -1956,8 +1974,8 @@ items:
       ToTile: 0.6
     accuracySnap: 85
     accuracyAimed: 140
-    tuSnap: 36
-    tuAimed: 78
+    tuSnap: 24
+    tuAimed: 44
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -1994,8 +2012,8 @@ items:
       ToTile: 0.67
     accuracySnap: 85
     accuracyAimed: 140
-    tuSnap: 36
-    tuAimed: 78
+    tuSnap: 24
+    tuAimed: 44
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2031,8 +2049,8 @@ items:
       ToTile: 0.75
     accuracySnap: 85
     accuracyAimed: 140
-    tuSnap: 36
-    tuAimed: 78
+    tuSnap: 24
+    tuAimed: 44
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2129,8 +2147,8 @@ items:
     damageType: 1
     accuracySnap: 70
     accuracyAimed: 120
-    tuSnap: 28
-    tuAimed: 62
+    tuSnap: 19
+    tuAimed: 35
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2184,9 +2202,9 @@ items:
     compatibleAmmo:
       - STR_HWP_G_PLASMA
     accuracySnap: 75
-    accuracyAimed: 130
-    tuSnap: 31
-    tuAimed: 70
+    accuracyAimed: 127
+    tuSnap: 21
+    tuAimed: 38
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2207,9 +2225,9 @@ items:
     compatibleAmmo:
       - STR_HWP_PLASMA
     accuracySnap: 75
-    accuracyAimed: 130
-    tuSnap: 31
-    tuAimed: 70
+    accuracyAimed: 127
+    tuSnap: 21
+    tuAimed: 38
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2230,9 +2248,9 @@ items:
     compatibleAmmo:
       - STR_HWP_A_PLASMA
     accuracySnap: 75
-    accuracyAimed: 130
-    tuSnap: 31
-    tuAimed: 70
+    accuracyAimed: 127
+    tuSnap: 21
+    tuAimed: 38
     snapRange: 15
     aimRange: 30
     dropoff: 1
@@ -2625,9 +2643,9 @@ items:
       RandomHealth: true
       ToStun: 1.0
       RandomStun: false
-      IgnoreOverKill: false
-    damageBonus:
+      ToWound: 0
       IgnoreOverKill: true
+    damageBonus:
       melee: 0.3
       ToTile: 0
     accuracyMelee: 150
@@ -2665,9 +2683,9 @@ items:
       RandomHealth: true
       ToStun: 1.0
       RandomStun: false
+      ToWound: 0
       IgnoreOverKill: false
     damageBonus:
-      IgnoreOverKill: true
       melee: 1.2
       ToTile: 0
     accuracyMelee: 130
@@ -2863,14 +2881,14 @@ items:
     compatibleAmmo:
       - STR_RIFLE_CLIP
       - STR_RIFLE_ALLOY_CLIP
-    accuracyAuto: 49
-    accuracySnap: 70
-    accuracyAimed: 115
+    accuracyAuto: 54
+    accuracySnap: 77
+    accuracyAimed: 126
     tuAuto: 35
     tuSnap: 24
-    tuAimed: 55
-    autoRange: 10
-    snapRange: 18
+    tuAimed: 44
+    autoRange: 14
+    snapRange: 22
     aimRange: 40
     dropoff: 1
     bulletSpeed: 6
@@ -3310,8 +3328,8 @@ items:
     tuAuto: 26
     tuSnap: 38
     tuAimed: 69
-    autoRange: 8
-    snapRange: 16
+    autoRange: 12
+    snapRange: 20
     aimRange: 32
     dropoff: 1
     bulletSpeed: 3
@@ -4119,14 +4137,14 @@ items:
       IgnoreOverKill: false
       ToArmor: 0
       ToArmorPre: 0.1
-    accuracyAuto: 63
-    accuracySnap: 93
-    accuracyAimed: 140
+    accuracyAuto: 69
+    accuracySnap: 102
+    accuracyAimed: 154
     tuAuto: 45
     tuSnap: 30
-    tuAimed: 68
-    autoRange: 10
-    snapRange: 18
+    tuAimed: 54
+    autoRange: 14
+    snapRange: 22
     aimRange: 40
     dropoff: 1
     bulletSpeed: 5
@@ -4220,8 +4238,8 @@ items:
     tuAuto: 32
     tuSnap: 47
     tuAimed: 86
-    autoRange: 8
-    snapRange: 16
+    autoRange: 12
+    snapRange: 20
     aimRange: 32
     dropoff: 1
     bulletSpeed: 5
@@ -4476,14 +4494,14 @@ items:
     fireSound: 18
     compatibleAmmo:
       - STR_PLASMA_RIFLE_TERRAN_CLIP
-    accuracyAuto: 56
-    accuracySnap: 81
-    accuracyAimed: 127
+    accuracyAuto: 62
+    accuracySnap: 89
+    accuracyAimed: 140
     tuAuto: 40
     tuSnap: 27
-    tuAimed: 61
-    autoRange: 10
-    snapRange: 18
+    tuAimed: 49
+    autoRange: 14
+    snapRange: 22
     aimRange: 40
     dropoff: 1
     bulletSpeed: 4
@@ -4597,8 +4615,8 @@ items:
     tuAuto: 29
     tuSnap: 42
     tuAimed: 77
-    autoRange: 8
-    snapRange: 16
+    autoRange: 12
+    snapRange: 20
     aimRange: 32
     dropoff: 1
     bulletSpeed: 4
@@ -5617,7 +5635,7 @@ items:
     damageType: 3
     damageAlter:
       FixRadius: 6
-      RadiusReduction: 18.5
+      RadiusReduction: 18
       ArmorEffectiveness: 0.5
       IgnoreOverKill: false
       ToArmor: 0
@@ -5957,6 +5975,7 @@ items:
     handSprite: 88
     hitSound: 324
     hitMissSound: 36
+    battleType: 9
     accuracyPanic: 15
     accuracyMindControl: -10
     costPanic:
@@ -6098,14 +6117,14 @@ items:
     floorSprite: 324
     handSprite: 484
     fireSound: 18
-    accuracyAuto: 56
-    accuracySnap: 81
-    accuracyAimed: 127
+    accuracyAuto: 62
+    accuracySnap: 89
+    accuracyAimed: 140
     tuAuto: 40
     tuSnap: 27
-    tuAimed: 61
-    autoRange: 10
-    snapRange: 18
+    tuAimed: 49
+    autoRange: 14
+    snapRange: 22
     aimRange: 40
     dropoff: 1
     bulletSpeed: 4
@@ -6156,8 +6175,8 @@ items:
     tuAuto: 29
     tuSnap: 42
     tuAimed: 77
-    autoRange: 8
-    snapRange: 16
+    autoRange: 12
+    snapRange: 20
     aimRange: 32
     dropoff: 1
     bulletSpeed: 4

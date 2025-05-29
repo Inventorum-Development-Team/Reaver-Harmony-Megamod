@@ -60,9 +60,9 @@ facilities:
     listOrder: 150
     spriteShape: 1
     spriteFacility: 550
-    buildCost: 150000
-    buildTime: 9
-    monthlyCost: 12000
+    buildCost: 600000
+    buildTime: 11
+    monthlyCost: 24000
     mapName: RBASE_02
     buildOverFacilities:
       - STR_CORRIDOR
@@ -72,10 +72,10 @@ facilities:
       - STR_SECURITY_ROOM_AP_DESTROYED
       - STR_SECURITY_ROOM_LASER_DESTROYED
       - STR_SECURITY_ROOM_PLASMA_DESTROYED
-    refundValue: 100000
+    refundValue: 400000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 1
+    removalTime: 2
     destroyedFacility: STR_SECURITY_ROOM_AP_DESTROYED
   - type: STR_SECURITY_ROOM_LASER
     listOrder: 160
@@ -83,13 +83,13 @@ facilities:
       - STR_LASER_DEFENSE
     spriteShape: 1
     spriteFacility: 552
-    buildCost: 300000
-    buildTime: 10
-    monthlyCost: 18000
+    buildCost: 1200000
+    buildTime: 12
+    monthlyCost: 36000
     buildCostItems:
       STR_ALIEN_ALLOYS:
-        build: 24
-        refund: 24
+        build: 48
+        refund: 48
     mapName: RBASE_03
     buildOverFacilities:
       - STR_CORRIDOR
@@ -100,10 +100,10 @@ facilities:
       - STR_SECURITY_ROOM_AP_DESTROYED
       - STR_SECURITY_ROOM_LASER_DESTROYED
       - STR_SECURITY_ROOM_PLASMA_DESTROYED
-    refundValue: 200000
+    refundValue: 800000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 1
+    removalTime: 2
     destroyedFacility: STR_SECURITY_ROOM_LASER_DESTROYED
   - type: STR_SECURITY_ROOM_PLASMA
     listOrder: 170
@@ -111,19 +111,19 @@ facilities:
       - STR_PLASMA_DEFENSE
     spriteShape: 1
     spriteFacility: 553
-    buildCost: 900000
-    buildTime: 12
-    monthlyCost: 30000
+    buildCost: 3600000
+    buildTime: 14
+    monthlyCost: 60000
     buildCostItems:
       STR_ALIEN_ALLOYS:
-        build: 28
-        refund: 28
+        build: 56
+        refund: 56
       STR_ELERIUM_115:
-        build: 12
-        refund: 9
+        build: 16
+        refund: 12
       STR_ALIEN_WEAPON_COMPONENTS:
-        build: 40
-        refund: 30
+        build: 48
+        refund: 36
     mapName: RBASE_04
     buildOverFacilities:
       - STR_CORRIDOR
@@ -135,7 +135,7 @@ facilities:
       - STR_SECURITY_ROOM_AP_DESTROYED
       - STR_SECURITY_ROOM_LASER_DESTROYED
       - STR_SECURITY_ROOM_PLASMA_DESTROYED
-    refundValue: 600000
+    refundValue: 2400000
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
     removalTime: 2
@@ -260,7 +260,7 @@ facilities:
       - STR_LABORATORY_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
+    removalTime: 2
     destroyedFacility: STR_LABORATORY_DESTROYED
   - type: STR_LABORATORY_LARGE
     listOrder: 310
@@ -285,7 +285,7 @@ facilities:
       - STR_LABORATORY_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 4
+    removalTime: 3
     destroyedFacility: STR_LABORATORY_LARGE_DESTROYED
   - type: STR_WORKSHOP
     listOrder: 400
@@ -306,7 +306,7 @@ facilities:
       - STR_WORKSHOP_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
+    removalTime: 2
     destroyedFacility: STR_WORKSHOP_DESTROYED
   - type: STR_WORKSHOP_LARGE
     listOrder: 410
@@ -331,7 +331,7 @@ facilities:
       - STR_WORKSHOP_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 4
+    removalTime: 3
     destroyedFacility: STR_WORKSHOP_LARGE_DESTROYED
   - type: STR_SMALL_RADAR_SYSTEM
     listOrder: 500
@@ -422,7 +422,7 @@ facilities:
       - STR_HYPER_WAVE_DECODER_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
+    removalTime: 2
     destroyedFacility: STR_HYPER_WAVE_DECODER_DESTROYED
   - type: STR_HYPER_WAVE_DECODER_LARGE
     listOrder: 710
@@ -466,7 +466,7 @@ facilities:
       - STR_HYPER_WAVE_DECODER_LARGE_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 4
+    removalTime: 3
     destroyedFacility: STR_HYPER_WAVE_DECODER_LARGE_DESTROYED
   - type: STR_GENERAL_STORES
     listOrder: 800
@@ -551,7 +551,7 @@ facilities:
     size: 1
     buildCost: 225000
     refundValue: 165000
-    buildTime: 14
+    buildTime: 12 # This is less than 2/3rds of Large Barracks time because it is simpler facility with faster build time being one of its perks.
     monthlyCost: 10000
     personnel: 5
     storage: 8
@@ -724,7 +724,7 @@ facilities:
       - STR_BIOLOGICAL_ALTERATIONS_CENTER_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
+    removalTime: 2
     destroyedFacility: STR_BIOLOGICAL_ALTERATIONS_CENTER_DESTROYED
   - type: STR_ALIEN_CONTAINMENT
     listOrder: 900
@@ -885,7 +885,7 @@ facilities:
       - STR_FUSION_BALL_DEFENSES_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
+    removalTime: 2
     destroyedFacility: STR_LASER_DEFENSES_DESTROYED
   - type: STR_PLASMA_DEFENSES
     listOrder: 1200
@@ -923,7 +923,7 @@ facilities:
       - STR_FUSION_BALL_DEFENSES_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
+    removalTime: 2
     destroyedFacility: STR_PLASMA_DEFENSES_DESTROYED
   - type: STR_FUSION_BALL_DEFENSES
     listOrder: 1300
@@ -963,7 +963,7 @@ facilities:
       - STR_FUSION_BALL_DEFENSES_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 4
+    removalTime: 2
     destroyedFacility: STR_FUSION_BALL_DEFENSES_DESTROYED
   - type: STR_GRAV_SHIELD
     listOrder: 1400
@@ -995,7 +995,7 @@ facilities:
       - STR_GRAV_SHIELD_DESTROYED
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 4
+    removalTime: 2
     destroyedFacility: STR_GRAV_SHIELD_DESTROYED
   - type: STR_MIND_SHIELD
     listOrder: 1500
@@ -1091,8 +1091,8 @@ facilities:
     destroyedFacility: STR_PSIONIC_LABORATORY_DESTROYED
   - type: STR_HANGAR
     listOrder: 1700
-    spriteShape: 9
-    spriteFacility: 9
+    spriteShape: 594
+    spriteFacility: 594
     size: 2
     buildCost: 300000
     refundValue: 200000
@@ -1108,7 +1108,7 @@ facilities:
       - STR_EMPTY_ROOM
     leavesBehindOnSell:
       - STR_EMPTY_ROOM
-    removalTime: 3
+    removalTime: 1
     destroyedFacility: STR_HANGAR
   - type: STR_SECURITY_ROOM_AP_DESTROYED
     requires:

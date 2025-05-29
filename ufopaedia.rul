@@ -3394,6 +3394,12 @@ ufopaedia:
     image_id: UP024.SPK
     text: STR_SECTOID_DETAILS_UFOPEDIA
     text_width: 300
+  - id: SECTOID_ARMOR0
+    listOrder: 10001
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID_CORPSE
   - id: STR_SECTOID_A_DETAILS
     listOrder: 10005
     type_id: 7
@@ -3405,6 +3411,13 @@ ufopaedia:
     image_id: SECTOID_A_RESEARCH.SPK
     text: STR_SECTOID_A_DETAILS_UFOPEDIA
     text_width: 300
+  - id: SECTOID_ARMORED0
+    listOrder: 10006
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID_CORPSE
+      - STR_SECTOID_ARMOR
   - id: STR_FLOATER_DETAILS
     listOrder: 10010
     type_id: 7
@@ -3415,6 +3428,12 @@ ufopaedia:
     image_id: UP018.SPK
     text: STR_FLOATER_DETAILS_UFOPEDIA
     text_width: 300
+  - id: FLOATER_ARMOR0
+    listOrder: 10011
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_FLOATER_CORPSE
   - id: STR_SNAKEMAN_DETAILS
     listOrder: 10020
     type_id: 7
@@ -3425,6 +3444,12 @@ ufopaedia:
     image_id: UP030.SPK
     text: STR_SNAKEMAN_DETAILS_UFOPEDIA
     text_width: 300
+  - id: SNAKEMAN_ARMOR0
+    listOrder: 10021
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SNAKEMAN_CORPSE
   - id: STR_SNAKEMAN_B_DETAILS
     listOrder: 10025
     type_id: 7
@@ -3435,6 +3460,12 @@ ufopaedia:
     image_id: SNAKEMAN_COMMANDER_B_RESEARCH.SPK
     text: STR_SNAKEMAN_B_DETAILS_UFOPEDIA
     text_width: 300
+  - id: SNAKEMAN_ARMOR_B
+    listOrder: 10026
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SNAKEMAN_COMMANDER_B_CORPSE
   - id: STR_MUTON_DETAILS
     listOrder: 10030
     type_id: 7
@@ -3445,6 +3476,12 @@ ufopaedia:
     image_id: UP020.SPK
     text: STR_MUTON_DETAILS_UFOPEDIA
     text_width: 300
+  - id: MUTON_ARMOR0
+    listOrder: 10031
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUTON_CORPSE
   - id: STR_MUTON_B_DETAILS
     listOrder: 10035
     type_id: 7
@@ -3455,6 +3492,12 @@ ufopaedia:
     image_id: MUTON_SOLDIER_B_RESEARCH.SPK
     text: STR_MUTON_B_DETAILS_UFOPEDIA
     text_width: 300
+  - id: MUTON_ARMOR_B
+    listOrder: 10036
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MUTON_B_CORPSE
   - id: STR_ETHEREAL_DETAILS
     listOrder: 10040
     type_id: 7
@@ -3465,6 +3508,12 @@ ufopaedia:
     image_id: UP016.SPK
     text: STR_ETHEREAL_DETAILS_UFOPEDIA
     text_width: 300
+  - id: ETHEREAL_ARMOR1
+    listOrder: 10041
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_ETHEREAL_CORPSE
   - id: STR_CYBERDISC_DETAILS
     listOrder: 10050
     type_id: 7
@@ -3475,6 +3524,12 @@ ufopaedia:
     image_id: UP041.SPK
     text: STR_CYBERDISC_DETAILS_UFOPEDIA
     text_width: 300
+  - id: CYBERDISC_ARMOR
+    listOrder: 10051
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CYBERDISC_CORPSE
   - id: STR_REAPER_DETAILS
     listOrder: 10060
     type_id: 7
@@ -3485,6 +3540,12 @@ ufopaedia:
     image_id: UP022.SPK
     text: STR_REAPER_DETAILS_UFOPEDIA
     text_width: 300
+  - id: REAPER_ARMOR
+    listOrder: 10061
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_REAPER_CORPSE
   - id: STR_CHRYSSALID_DETAILS
     listOrder: 10070
     type_id: 7
@@ -3495,6 +3556,12 @@ ufopaedia:
     image_id: UP014.SPK
     text: STR_CHRYSSALID_DETAILS_UFOPEDIA
     text_width: 300
+  - id: CHRYSSALID_ARMOR
+    listOrder: 10071
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CHRYSSALID_CORPSE
   - id: STR_CELATID_DETAILS
     listOrder: 10080
     type_id: 7
@@ -3505,6 +3572,12 @@ ufopaedia:
     image_id: UP012.SPK
     text: STR_CELATID_DETAILS_UFOPEDIA
     text_width: 300
+  - id: CELATID_ARMOR
+    listOrder: 10081
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CELATID_CORPSE
   - id: STR_SILACOID_DETAILS
     listOrder: 10085
     type_id: 7
@@ -3515,6 +3588,12 @@ ufopaedia:
     image_id: UP028.SPK
     text: STR_SILACOID_DETAILS_UFOPEDIA
     text_width: 300
+  - id: SILACOID_ARMOR
+    listOrder: 10086
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SILACOID_CORPSE
   - id: STR_SECTOPOD_DETAILS
     listOrder: 10090
     type_id: 7
@@ -3525,6 +3604,12 @@ ufopaedia:
     image_id: UP026.SPK
     text: STR_SECTOPOD_DETAILS_UFOPEDIA
     text_width: 300
+  - id: SECTOPOD_ARMOR
+    listOrder: 10091
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOPOD_CORPSE
   - id: STR_ALIEN_SOLDIER
     listOrder: 10100
     type_id: 8
