@@ -462,6 +462,7 @@
 #       * Improved labeling of scripts in extended.rul.
 #       * Updated some notes in alienMissions.rul.
 #   1.1.7   Balance pass, buffing the weak stuff
+#       * Elite Mutons are now red, on the basis of a chat we had in the Harmony Feedback discord channel.
 #       * Added UFOPedia reports on alien armor and resistances, unlocked by researching their autopsy.
 #       * Gave flagships a free +10% hit bonus.
 #       * Amaranth flagship now has full deployment list for customizing troop layouts.
@@ -474,33 +475,33 @@
 #       * Significantly reduced TU cost to fire tank auxiliary weapons.
 #       * Tank autofiring auxiliary weapons now use the snap shot slot to enable auxiliary reaction fire.
 #       * Greatly increased Cerberus tank's heat vision.
+#       * Fixed bug in which stun rod and super stun lance were applying fatal wounds.
 #       * Increased Rifle/Laser Rifle/Plasma Rifle accuracy by 10% and reduced their aimed shot TU cost by 20%.
 #       * Increased Rifle/Laser Rifle/Plasma Rifle auto and snap range by 4 tiles.
 #       * Increased Heavy Cannon/Heavy Laser/Heavy Plasma auto and snap range by 4 tiles.
 #       * Returned Super Stun Lance overkilling. (That means it can vaporize units and leave no corpse.)
 #       * Removed Zombie immunity to electric shock. A Super Stun Lance may kill the chryssalid inside.
 #       * Radius damage reduction of Demolition Charge reduced by 0.5 per tile.
-#       * 
 #       * Large UFOs made less likely to not provide alien containment.
 #       * Sectoid Research Team and similar races renamed to Alien *** Mix to avoid confusion.
 #       * Security Station build cost greatly increased; turrets and walls now much stronger.
 #       * Medical facilities American Red Cross logo changed to Rod of Asclepius.
 #       * Hangar now has proper under construction sprite.
+#       * Alien bases now have a wider variety of facilities along with increased presence of repositories.
 #       * Tanks less likely to spawn in Large Living Quarters when sufficient General Stores available.
 #       * Reduced build time of Barracks from 14 days to 12 days. Large Barracks unchanged.
 #       * Reduced several facility removal times; now small take 2 and large take 3 days, generally.
 #       * Access Lift no longer spawns a tank inside it when the base is not overcrowded.
 #       * Touched up a few spawn nodes in base defense.
-#       * 
+#       * Several manufacturing projects now offer a refund when cancelling.
 #       * Added 1 Psi Wave Decoder to Salvage UFO Navigation to reduce odds of having a lack of source.
 #         - Concluded it needs no cost rebalance as the previous direct salvage to sales profit was too low.
 #       * Large Scout Engineers now carry blaster launchers in later game, in keeping with UFOPedia hint text.
 #       * Added battleType to psi amp.
 #       * Fixed fire weakness bug on Heavy Alloy Armor.
-#       * 
 #       * Fixed UFOPedia text bug with rocket tanks.
-#       * 
-#       * 
+#       * UFOPedia text improvements with Alien Grenade, Celatid Autopsy, Alien Laser, Laser Weapons.
+#   1.1.7.1 Corrected version number.
 #
 #
 # resource authors/sources:
@@ -643,7 +644,7 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.6
+version: 1.1.7.1
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
