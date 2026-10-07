@@ -502,48 +502,53 @@
 #       * Fixed UFOPedia text bug with rocket tanks.
 #       * UFOPedia text improvements with Alien Grenade, Celatid Autopsy, Alien Laser, Laser Weapons.
 #   1.1.7.1 Corrected version number.
+#   1.1.7.2 -
+#       * Separated craft equipment UFOPedia reports to make the items clickable.
+#       * Added Cydonia alien reports to Ethereal Liaison interrogation (previously only available via medics).
+#       * Changed Snakeman Colony objective notification to say "NEUTRALIZED" instead of "KILLED".
+#       * 
 #
 #
 # resource authors/sources:
 # Chiko: alien and terran plasma variants
-#		* https://openxcom.org/forum/index.php/topic,383.0.html
-#		* available via Chiko's Alternate Xcom
+#       * https://openxcom.org/forum/index.php/topic,383.0.html
+#       * available via Chiko's Alternate Xcom
 # Shadow: variations on Chiko's designs and blue plasma bullet sprite
-#		* https://openxcom.org/forum/index.php/topic,1710.0.html
-#		* obtained via Terran Plasma Weapons
+#       * https://openxcom.org/forum/index.php/topic,1710.0.html
+#       * obtained via Terran Plasma Weapons
 # CanadianBeaver: auto-pistol, submachinegun, automatic lasers, and a few other items
-#		* https://openxcom.org/forum/index.php?topic=4823.0
-#		* obtained via Awesome Guns
-#		* additional credits on mod page
+#       * https://openxcom.org/forum/index.php?topic=4823.0
+#       * obtained via Awesome Guns
+#       * additional credits on mod page
 # Dioxine: large general stores and living quarters sprites, large and small living quarters maps
-#		* https://openxcom.org/forum/index.php?topic=2806.0
-#		* obtained via Improved Living Quarters + Large Stores
+#       * https://openxcom.org/forum/index.php?topic=2806.0
+#       * obtained via Improved Living Quarters + Large Stores
 # Ryskeliini: heavy armor design
-#		* https://openxcom.org/forum/index.php?topic=1281.0
-#		* available via Combat Armor (Warboy1982)
+#       * https://openxcom.org/forum/index.php?topic=1281.0
+#       * available via Combat Armor (Warboy1982)
 # Robin: variation of Ryskeliini's sprites
-#		* http://www.openxcom.com/mod/armored-vest
-#		* obtained via Armored Vest
+#       * http://www.openxcom.com/mod/armored-vest
+#       * obtained via Armored Vest
 # XOps: corridor and large laboratory, radar, and hyper wave decoder sprites
-#		* http://www.openxcom.com/mod/armored-vest
-#		* obtained via Xeno Operations
+#       * http://www.openxcom.com/mod/armored-vest
+#       * obtained via Xeno Operations
 # The_Funktasm: terran launcher variants
-#		* https://openxcom.org/forum/index.php/topic,4983.0.html
-#		* obtained via The_Funktasm's Crap-U-Copia
+#       * https://openxcom.org/forum/index.php/topic,4983.0.html
+#       * obtained via The_Funktasm's Crap-U-Copia
 # wolwerin: heavy klin sprite (edited for tank auxiliary weapons)
-#		* obtained via I.D.T Discord channel
+#       * obtained via I.D.T Discord channel
 # bulletdesigner: Tarantula turret sprite (used for security turrets)
-#		* obtained via 40k
-#		* 40k\Resources\Tarantula\LBOLTERDR18.png
+#       * obtained via 40k
+#       * 40k\Resources\Tarantula\LBOLTERDR18.png
 # ohartenstein23: unit spawn egg script
-#		* obtained via 40k
+#       * obtained via 40k
 # Harald_Gray: original mechtoid
 #       * https://openxcom.org/forum/index.php?topic=2746.0
-#		* obtained via Hardmode Expansion
+#       * obtained via Hardmode Expansion
 #       * further edited within Hardmode Expansion
 # Arathanor, Starvingpoet: smoke and stun explosions
 #       * https://mod.io/g/openxcom/m/extra-explosions
-#		* obtained via Extra Explosions
+#       * obtained via Extra Explosions
 # Inventorum Development Team/efrenespartano: air equipment sprites + rampage missile sprite
 #       * obtained via https://github.com/Inventorum-Development-Team/IDT_UNEXCOM/tree/master/Resources
 # ivandogovich: various handobs
@@ -553,7 +558,7 @@
 #       * https://openxcom.org/forum/index.php/topic,2732.msg82245.html#msg82245
 #       * NeoWorm mostly made it, with some help from Solarius Scorch
 # Meatstuff: statstrings, battle rifle sprite, and ideas
-#		* obtained via Discord
+#       * obtained via Discord
 # Dr. Hans Woofington: astronaut suits
 #       * https://mod.io/g/openxcom/m/unexcom
 #       * obtained via UNEXCOM
@@ -568,23 +573,23 @@
 #
 # tool authors/sources:
 # Volutar: MCDEdit
-#		* https://ufopaedia.org/index.php/MCDEdit
+#       * https://ufopaedia.org/index.php/MCDEdit
 #		uses: edit MCD tileset pieces and images
 # DaiShiva: MapView
-#		* http://openxcommods.weebly.com/mapview.html
+#       * http://openxcommods.weebly.com/mapview.html
 #		uses: edit battlescape maps
 #   note: start with MapView 2!
 # KevL: MapView 2
-#		* https://openxcom.org/forum/index.php/topic,1321.msg149739.html#msg149739
+#       * https://openxcom.org/forum/index.php/topic,1321.msg149739.html#msg149739
 #		uses: edit battlescape maps
 # Bomb Bloke//Humax: XCOMExtractor
-#		* http://www.openxcom.com/mod/xcom-image-extractor
+#       * http://www.openxcom.com/mod/xcom-image-extractor
 #		uses: convert .PCK images into .gif format
 # Mark Tyler: mtPaint
-#		* http://mtpaint.sourceforge.net/
+#       * http://mtpaint.sourceforge.net/
 #		uses: pixel editor which preserves palettes
 # Falko: SpriteConverter and PaletteConverter tools
-#		* https://falkooxc2.pythonanywhere.com/
+#       * https://falkooxc2.pythonanywhere.com/
 #		uses: make spritesheets, fix palettes, perform palette swaps
 # The GIMP Development Team: GNU Image Manipulation Program
 #       * https://www.gimp.org/
@@ -593,7 +598,7 @@
 #
 # localization authors/sources:
 # bugbearbox: Russian language file ru.yml
-#		* obtained via Discord
+#       * obtained via Discord
 #
 #
 # critical playtesters:

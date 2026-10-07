@@ -1078,8 +1078,8 @@ research:
     cost: 0
     points: 0
     dependencies:
-      - STR_ULTIMATE_CRAFT
-      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_NEW_FIGHTER_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
   - name: STR_NEW_FIGHTER_CRAFT
     listOrder: 1250
     cost: 750
@@ -2432,6 +2432,16 @@ research:
         - STR_ALIEN_TERROR
         - STR_ALIEN_RETALIATION
         - STR_ALIEN_SUPPLY
+      STR_CYDONIA_ELITE_ALIENS:
+        - STR_SECTOID_C
+        - STR_FLOATER_C
+        - STR_CYBERDISC_C
+        - STR_REAPER_C
+        - STR_ETHEREAL_C
+        - STR_CHRYSSALID_C
+        - STR_SILACOID_C
+        - STR_CELATID_C
+        - STR_SECTOPOD_C
   - name: STR_SECTOID_MEDIC
     listOrder: 2200
     cost: 200

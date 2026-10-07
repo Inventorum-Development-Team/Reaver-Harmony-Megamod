@@ -1,4 +1,4 @@
-ru: # note: STR_CELATID_AUTOPSY_UFOPEDIA text runs off the screen. Might need some redundant info trimmed out. (delete this when fixed)
+ru: # note: STR_CELATID_AUTOPSY_UFOPEDIA text runs off the screen. Might need some redundant info trimmed out. There are changes to craft equipment UFOPedia entries which break language parity. (delete this when fixed)
 # v1.1.6 перевод и адаптация bugbearbox | Обновление v1.1.7 от The Reaver of Darkness
   STR_1_BEGINNER: "1> Новичок (Очень просто)"
   STR_2_EXPERIENCED: "2> Опытный (Просто)"
@@ -258,7 +258,7 @@ ru: # note: STR_CELATID_AUTOPSY_UFOPEDIA text runs off the screen. Might need so
   STR_SNAKEMAN_OUTPOST_STILL_INTACT: "Колония змеелюдей все еще действует"
   STR_SNAKEMAN_OUTPOST_DESTROYED: "Колония змеелюдей уничтожена"
   STR_SNAKEMAN_OUTPOST_CONTROL_DESTROYED: "КОРОЛЕВА ЗМЕЕЛЮДЕЙ УБИТА"
-  STR_SNAKEMAN_QUEEN_KILLED: "{SMALLLINE}КОРОЛЕВА ЗМЕЕЛЮДЕЙ УБИТА{NEWLINE}На точке выхода можно «Покинуть поле боя»."
+  STR_SNAKEMAN_QUEEN_KILLED: "{SMALLLINE}КОРОЛЕВА ЗМЕЕЛЮДЕЙ НЕЙТРАЛИЗОВАНА{NEWLINE}На точке выхода можно «Покинуть поле боя»."
   STR_SNAKEMAN_OUTPOST_RECOVERY: "Сводка: Колония змеелюдей"
   STR_SNAKEMAN_OUTPOST_ASSAULT: "ШТУРМ КОЛОНИИ ЗМЕЕЛЮДЕЙ"
   STR_SNAKEMAN_OUTPOST_ASSAULT_BRIEFING: "Оперативники X-Com проникли в колонию змеелюдей. Королева змеелюдей должна быть убита, чтобы вывести колонию из строя. Миссия завершится когда все враги будут уничтожены или когда ваш отряд вернется в зеленую зону выхода (нажмите на кнопку «Покинуть поле боя», чтобы эвакуироваться)."

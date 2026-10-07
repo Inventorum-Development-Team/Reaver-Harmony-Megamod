@@ -437,7 +437,6 @@ manufacture:
     listOrder: 410
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
       - STR_BASIC_SPACECRAFT
     space: 5
     time: 1100
@@ -469,7 +468,6 @@ manufacture:
     listOrder: 425
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
       - STR_ALIEN_POWER_ARRAYS
       - STR_UFO_SHIELD_EMITTER
     space: 5
@@ -553,7 +551,6 @@ manufacture:
     listOrder: 475
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
       - STR_BASIC_SPACECRAFT
       - STR_UFO_SHIELD_EMITTER
     space: 10
@@ -569,7 +566,7 @@ manufacture:
     category: STR_CRAFT_EQUIPMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_UFO_CONSTRUCTION
     space: 5
     time: 800
     cost: 520000
@@ -579,8 +576,7 @@ manufacture:
     listOrder: 505
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_ADVANCED_SPACECRAFT
     space: 5
     time: 1400
     cost: 400000
@@ -604,7 +600,7 @@ manufacture:
     category: STR_CRAFT_EQUIPMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_UFO_CONSTRUCTION
     space: 5
     time: 600
     cost: 340000
@@ -615,7 +611,7 @@ manufacture:
     category: STR_CRAFT_EQUIPMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_UFO_CONSTRUCTION
     space: 5
     time: 800
     cost: 280000
@@ -625,8 +621,7 @@ manufacture:
     listOrder: 525
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_UFO_CONSTRUCTION
       - STR_UFO_SHIELD_EMITTER
     space: 5
     time: 400
@@ -639,8 +634,9 @@ manufacture:
     listOrder: 530
     category: STR_CRAFT_EQUIPMENT
     requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
       - STR_UFO_NAVIGATION
-      - STR_BASIC_SPACECRAFT
+      - STR_ALIEN_MEDIC
     space: 5
     time: 700
     cost: 180000
@@ -652,7 +648,6 @@ manufacture:
     requires:
       - STR_NEW_FIGHTER_CRAFT
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_ALIEN_NAVIGATOR
     space: 10
     time: 1240
     cost: 730000
@@ -665,7 +660,6 @@ manufacture:
     requires:
       - STR_NEW_FIGHTER_TRANSPORTER
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_ALIEN_ENGINEER
     space: 10
     time: 1040
     cost: 520000
@@ -691,8 +685,9 @@ manufacture:
     listOrder: 565
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ULTIMATE_CRAFT
+      - STR_UFO_CONSTRUCTION
       - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_ALIEN_ENGINEER
     space: 10
     time: 1240
     cost: 610000
@@ -703,8 +698,9 @@ manufacture:
     listOrder: 570
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_UFO_CONSTRUCTION
       - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_ALIEN_NAVIGATOR
     space: 10
     time: 1120
     cost: 610000
@@ -716,7 +712,6 @@ manufacture:
     category: STR_CRAFT_EQUIPMENT
     requires:
       - STR_ADVANCED_SPACECRAFT
-      - STR_ADVANCED_AIR_EQUIPMENT
       - STR_UFO_SHIELD_EMITTER
     space: 10
     time: 1560
@@ -730,7 +725,7 @@ manufacture:
     listOrder: 600
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ULTIMATE_CRAFT
+      - STR_NEW_FIGHTER_CRAFT
       - STR_ALIEN_ENGINEER
       - STR_LASER_WEAPONS
     space: 20
@@ -745,7 +740,7 @@ manufacture:
     listOrder: 605
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ULTIMATE_CRAFT
+      - STR_NEW_FIGHTER_CRAFT
       - STR_ALIEN_ENGINEER
       - STR_ALIEN_EXPLOSIVES
       - STR_UFO_SHIELD_EMITTER
@@ -761,7 +756,7 @@ manufacture:
     listOrder: 610
     category: STR_CRAFT_EQUIPMENT
     requires:
-      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
       - STR_ALIEN_NAVIGATOR
       - STR_HYPER_WAVE_DECODER
       - STR_UFO_SHIELD_EMITTER

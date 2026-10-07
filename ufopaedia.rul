@@ -1114,67 +1114,105 @@ ufopaedia:
       - STR_LARGE_PYLON_MOUNT
     image_id: VOSTOK_PLASMA_CANNON_R
     text: STR_HEAVY_TRACTOR_BEAM_UFOPEDIA
-  - id: STR_UPGRADE_FUEL_TANKS
+  - id: STR_UPGRADE_FUEL_TANKS_SMALL
     listOrder: 800
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: FUEL_TANK
-    text: STR_UPGRADE_FUEL_TANKS_UFOPEDIA
-  - id: STR_UPGRADE_ENGINES
+    text: STR_UPGRADE_FUEL_TANKS_SMALL_UFOPEDIA
+  - id: STR_UPGRADE_FUEL_TANKS_MEDIUM
+    listOrder: 805
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: FUEL_TANK
+    text: STR_UPGRADE_FUEL_TANKS_MEDIUM_UFOPEDIA
+  - id: STR_UPGRADE_ENGINES_SMALL
     listOrder: 810
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: VECTORING_THRUSTER
-    text: STR_UPGRADE_ENGINES_UFOPEDIA
-  - id: STR_UPGRADE_RADAR
+    text: STR_UPGRADE_ENGINES_SMALL_UFOPEDIA
+  - id: STR_UPGRADE_ENGINES_MEDIUM
+    listOrder: 815
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: VECTORING_THRUSTER
+    text: STR_UPGRADE_ENGINES_MEDIUM_UFOPEDIA
+  - id: STR_UPGRADE_RADAR_SMALL
     listOrder: 820
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: ADVANCED_SENSOR
-    text: STR_UPGRADE_RADAR_UFOPEDIA
-  - id: STR_UPGRADE_PLATING
+    text: STR_UPGRADE_RADAR_SMALL_UFOPEDIA
+  - id: STR_UPGRADE_RADAR_MEDIUM
+    listOrder: 825
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: ADVANCED_SENSOR
+    text: STR_UPGRADE_RADAR_MEDIUM_UFOPEDIA
+  - id: STR_UPGRADE_PLATING_SMALL
     listOrder: 830
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: ALLOY_CRAFT_AIRFRAME
-    text: STR_UPGRADE_PLATING_UFOPEDIA
-  - id: STR_ALLOY_FUEL_TANKS_ENGINES
-    listOrder: 900
+    text: STR_UPGRADE_PLATING_SMALL_UFOPEDIA
+  - id: STR_UPGRADE_PLATING_MEDIUM
+    listOrder: 835
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: ALLOY_CRAFT_AIRFRAME
+    text: STR_UPGRADE_PLATING_MEDIUM_UFOPEDIA
+  - id: STR_ALLOY_FUEL_TANKS
+    listOrder: 850
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ADVANCED_AIR_EQUIPMENT
+    image_id: FUEL_TANK
+    text: STR_ALLOY_FUEL_TANKS_UFOPEDIA
+  - id: STR_ALLOY_ENGINES
+    listOrder: 855
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
     image_id: VECTORING_THRUSTER
-    text: STR_ALLOY_FUEL_TANKS_ENGINES_UFOPEDIA
+    text: STR_ALLOY_ENGINES_UFOPEDIA
   - id: STR_ALLOY_POWER_SOURCE
-    listOrder: 905
+    listOrder: 860
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
       - STR_BASIC_SPACECRAFT
     image_id: SHIELD_GENERATOR
     text: STR_ALLOY_POWER_SOURCE_UFOPEDIA
-  - id: STR_ALLOY_PLATING
-    listOrder: 910
+  - id: STR_ALLOY_PLATING_ARMOR
+    listOrder: 865
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
     image_id: ALLOY_CRAFT_AIRFRAME
-    text: STR_ALLOY_PLATING_UFOPEDIA
-  - id: STR_ALLOY_PLATING_SHIELDS
-    listOrder: 915
+    text: STR_ALLOY_PLATING_ARMOR_UFOPEDIA
+  - id: STR_ALLOY_PLATING_EVASION
+    listOrder: 870
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
+    image_id: ALLOY_CRAFT_AIRFRAME
+    text: STR_ALLOY_PLATING_EVASION_UFOPEDIA
+  - id: STR_ALLOY_PLATING_SHIELDS
+    listOrder: 875
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
       - STR_ALIEN_POWER_ARRAYS
       - STR_UFO_SHIELD_EMITTER
     image_id: ALLOY_CRAFT_ARMOR
     text: STR_ALLOY_PLATING_SHIELDS_UFOPEDIA
   - id: STR_MOD_TARGETING
-    listOrder: 920
+    listOrder: 880
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1183,25 +1221,24 @@ ufopaedia:
     image_id: TARGETING_POD
     text: STR_MOD_TARGETING_UFOPEDIA
   - id: STR_BOOST_ENGINES
-    listOrder: 930
+    listOrder: 900
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_UFO_CONSTRUCTION
     image_id: VECTORING_THRUSTER
     text: STR_BOOST_ENGINES_UFOPEDIA
   - id: STR_BOOST_POWER_SOURCE
-    listOrder: 935
+    listOrder: 905
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_ADVANCED_SPACECRAFT
     image_id: SHIELD_GENERATOR
     text: STR_BOOST_POWER_SOURCE_UFOPEDIA
   - id: STR_BOOST_RADAR
-    listOrder: 940
+    listOrder: 910
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1209,38 +1246,45 @@ ufopaedia:
       - STR_HYPER_WAVE_DECODER
     image_id: ADVANCED_SENSOR
     text: STR_BOOST_RADAR_UFOPEDIA
-  - id: STR_BOOST_PLATING
-    listOrder: 945
+  - id: STR_BOOST_PLATING_ARMOR
+    listOrder: 915
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
-      - STR_ALIEN_PLATING_SPECIALIST
+      - STR_UFO_CONSTRUCTION
     image_id: ALLOY_CRAFT_AIRFRAME
-    text: STR_BOOST_PLATING_UFOPEDIA
-  - id: STR_BOOST_PLATING_SHIELDS
-    listOrder: 950
+    text: STR_BOOST_PLATING_ARMOR_UFOPEDIA
+  - id: STR_BOOST_PLATING_EVASION
+    listOrder: 920
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_UFO_CONSTRUCTION
+    image_id: ALLOY_CRAFT_AIRFRAME
+    text: STR_BOOST_PLATING_EVASION_UFOPEDIA
+  - id: STR_BOOST_PLATING_SHIELDS
+    listOrder: 925
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_UFO_CONSTRUCTION
       - STR_UFO_SHIELD_EMITTER
     image_id: ALLOY_CRAFT_ARMOR
     text: STR_BOOST_PLATING_SHIELDS_UFOPEDIA
   - id: STR_MOD_TARGETING_CRITICAL
-    listOrder: 955
+    listOrder: 930
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_BASIC_SPACECRAFT
+      - STR_UFO_NAVIGATION
       - STR_ALIEN_MEDIC
     image_id: TARGETING_POD
     text: STR_MOD_TARGETING_CRITICAL_UFOPEDIA
   - id: STR_COMBO_PURSUER
-    listOrder: 960
+    listOrder: 940
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1249,7 +1293,7 @@ ufopaedia:
     image_id: AFTERBURNER
     text: STR_COMBO_PURSUER_UFOPEDIA
   - id: STR_COMBO_BRAWLER
-    listOrder: 965
+    listOrder: 945
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1258,7 +1302,7 @@ ufopaedia:
     image_id: FLARE_DISPENSER
     text: STR_COMBO_BRAWLER_UFOPEDIA
   - id: STR_COMBO_SENTINEL
-    listOrder: 970
+    listOrder: 950
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1267,7 +1311,7 @@ ufopaedia:
     image_id: IMPROVED_SPY_CAMERA
     text: STR_COMBO_SENTINEL_UFOPEDIA
   - id: STR_COMBO_PARAGON
-    listOrder: 975
+    listOrder: 955
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1276,7 +1320,7 @@ ufopaedia:
     image_id: SMART_COCKPIT
     text: STR_COMBO_PARAGON_UFOPEDIA
   - id: STR_COMBO_CHAMPION
-    listOrder: 980
+    listOrder: 960
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1285,37 +1329,34 @@ ufopaedia:
     image_id: SMART_COCKPIT
     text: STR_COMBO_CHAMPION_UFOPEDIA
   - id: STR_COMBO_SUBJUGATOR
-    listOrder: 985
+    listOrder: 965
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ADVANCED_AIR_EQUIPMENT
       - STR_BASIC_SPACECRAFT
       - STR_UFO_SHIELD_EMITTER
     image_id: ADVANCED_RADAR
     text: STR_COMBO_SUBJUGATOR_UFOPEDIA
   - id: STR_PACKAGE_PURSUER
-    listOrder: 961
+    listOrder: 941
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_NEW_FIGHTER_CRAFT
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_ALIEN_NAVIGATOR
     image_id: AFTERBURNER
     text: STR_PACKAGE_PURSUER_UFOPEDIA
   - id: STR_PACKAGE_BRAWLER
-    listOrder: 966
+    listOrder: 946
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_NEW_FIGHTER_TRANSPORTER
       - STR_ADVANCED_AIR_EQUIPMENT
-      - STR_ALIEN_ENGINEER
     image_id: FLARE_DISPENSER
     text: STR_PACKAGE_BRAWLER_UFOPEDIA
   - id: STR_PACKAGE_SENTINEL
-    listOrder: 971
+    listOrder: 951
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1326,35 +1367,36 @@ ufopaedia:
     image_id: IMPROVED_SPY_CAMERA
     text: STR_PACKAGE_SENTINEL_UFOPEDIA
   - id: STR_PACKAGE_PARAGON
-    listOrder: 976
+    listOrder: 956
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ULTIMATE_CRAFT
+      - STR_UFO_CONSTRUCTION
       - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_ALIEN_ENGINEER
     image_id: SMART_COCKPIT
     text: STR_PACKAGE_PARAGON_UFOPEDIA
   - id: STR_PACKAGE_CHAMPION
-    listOrder: 981
+    listOrder: 961
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_UFO_CONSTRUCTION
       - STR_ADVANCED_AIR_EQUIPMENT
+      - STR_ALIEN_NAVIGATOR
     image_id: SMART_COCKPIT
     text: STR_PACKAGE_CHAMPION_UFOPEDIA
   - id: STR_PACKAGE_SUBJUGATOR
-    listOrder: 986
+    listOrder: 966
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ADVANCED_SPACECRAFT
-      - STR_ADVANCED_AIR_EQUIPMENT
       - STR_UFO_SHIELD_EMITTER
     image_id: ADVANCED_RADAR
     text: STR_PACKAGE_SUBJUGATOR_UFOPEDIA
   - id: STR_SUITE_ASCENSION
-    listOrder: 990
+    listOrder: 980
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
@@ -1365,32 +1407,32 @@ ufopaedia:
     image_id: ADVANCED_RADAR
     text: STR_SUITE_ASCENSION_UFOPEDIA
   - id: STR_SUITE_COMBAT
-    listOrder: 992
+    listOrder: 985
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ULTIMATE_CRAFT
+      - STR_NEW_FIGHTER_CRAFT
       - STR_ALIEN_ENGINEER
       - STR_LASER_WEAPONS
     image_id: SMART_COCKPIT
     text: STR_SUITE_COMBAT_UFOPEDIA
   - id: STR_SUITE_AMBUSH
-    listOrder: 994
+    listOrder: 990
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ULTIMATE_CRAFT
+      - STR_NEW_FIGHTER_CRAFT
       - STR_ALIEN_ENGINEER
       - STR_ALIEN_EXPLOSIVES
       - STR_UFO_SHIELD_EMITTER
     image_id: SMART_COCKPIT
     text: STR_SUITE_AMBUSH_UFOPEDIA
   - id: STR_SUITE_RECON
-    listOrder: 996
+    listOrder: 995
     type_id: 2
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_ULTIMATE_TRANSPORT_CRAFT
+      - STR_NEW_FIGHTER_TRANSPORTER
       - STR_ALIEN_NAVIGATOR
       - STR_HYPER_WAVE_DECODER
       - STR_UFO_SHIELD_EMITTER
@@ -1799,6 +1841,7 @@ ufopaedia:
     requires:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
   - id: STR_TANK_CANNON
+    listOrder: 1200
     type_id: 3
     section: STR_HEAVY_WEAPONS_PLATFORMS
     text: STR_TANK_CANNON_UFOPEDIA
@@ -1820,6 +1863,7 @@ ufopaedia:
     requires:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
   - id: STR_TANK_ROCKET_LAUNCHER
+    listOrder: 1300
     type_id: 3
     section: STR_HEAVY_WEAPONS_PLATFORMS
     text: STR_TANK_ROCKET_LAUNCHER_UFOPEDIA
@@ -1872,6 +1916,7 @@ ufopaedia:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     text: STR_TANK_LASER_GUARDIAN_UFOPEDIA
   - id: STR_TANK_LASER_CANNON
+    listOrder: 1400
     type_id: 3
     section: STR_HEAVY_WEAPONS_PLATFORMS
     weapon: STR_B_LASER_CANNON
@@ -1917,6 +1962,7 @@ ufopaedia:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     text: STR_HOVERTANK_PLASMA_GUARDIAN_UFOPEDIA
   - id: STR_HOVERTANK_PLASMA
+    listOrder: 1500
     type_id: 3
     section: STR_HEAVY_WEAPONS_PLATFORMS
     weapon: STR_B_PLASMA_CANNON
@@ -1945,6 +1991,7 @@ ufopaedia:
       - STR_GUARDIAN_AND_ASSAULT_TANKS
     text: STR_HOVERTANK_LAUNCHER_GUARDIAN_UFOPEDIA
   - id: STR_HOVERTANK_LAUNCHER
+    listOrder: 1600
     type_id: 3
     section: STR_HEAVY_WEAPONS_PLATFORMS
     weapon: STR_B_FUSION_LAUNCHER

@@ -2636,6 +2636,8 @@ items:
     meleeSound: 307
     power: 30
     damageType: 16
+    damageBonus:
+      melee: 0.3
     damageAlter:
       RandomType: 0
       ArmorEffectiveness: 0
@@ -2645,8 +2647,6 @@ items:
       RandomStun: false
       ToWound: 0
       IgnoreOverKill: true
-    damageBonus:
-      melee: 0.3
       ToTile: 0
     accuracyMelee: 150
     tuMelee: 12
@@ -2676,6 +2676,8 @@ items:
     meleeSound: 307
     power: 60
     damageType: 16
+    damageBonus:
+      melee: 1.2
     damageAlter:
       RandomType: 0
       ArmorEffectiveness: 0
@@ -2685,8 +2687,6 @@ items:
       RandomStun: false
       ToWound: 0
       IgnoreOverKill: false
-    damageBonus:
-      melee: 1.2
       ToTile: 0
     accuracyMelee: 130
     tuMelee: 20
