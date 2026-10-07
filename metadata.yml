@@ -502,11 +502,10 @@
 #       * Fixed UFOPedia text bug with rocket tanks.
 #       * UFOPedia text improvements with Alien Grenade, Celatid Autopsy, Alien Laser, Laser Weapons.
 #   1.1.7.1 Corrected version number.
-#   1.1.7.2 -
+#   1.1.7.2 Plasma Rifle Sprite Fix - changed plasma rifle and variants to look less like heavy plasma and more like plasma pistol.
 #       * Separated craft equipment UFOPedia reports to make the items clickable.
 #       * Added Cydonia alien reports to Ethereal Liaison interrogation (previously only available via medics).
 #       * Changed Snakeman Colony objective notification to say "NEUTRALIZED" instead of "KILLED".
-#       * 
 #
 #
 # resource authors/sources:
@@ -649,7 +648,7 @@
 # of any of these you find.
 
 name: "ReaverXcom Harmony"
-version: 1.1.7.1
+version: 1.1.7.2
 description: "A massive expansion in the spirit of the original game."
 author: The Reaver of Darkness & Inventorum Development Team
 
